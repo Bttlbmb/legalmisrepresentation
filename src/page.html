@@ -1,0 +1,868 @@
+<title>Legal Misrepresentation</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/* Layout: a quiet reference work. Ink on cool paper; colour is reserved for one
+   contrast only — green for what the law says, red for what the source says. */
+:root {
+  --bg: #f4f5f6;
+  --surface: #ffffff;
+  --ink: #14171b;
+  --ink-2: #48505a;
+  --ink-3: #5f6872;
+  --rule: #dce0e4;
+  --rule-2: #eceff1;
+  --law: #146249;
+  --law-bg: #e5f1ec;
+  --claim: #ad3326;
+  --claim-bg: #faebe8;
+  --focus: #2f5bd0;
+  --chrome: #1d2228;
+  --chrome-ink: #c9ced4;
+  --chrome-on: #ffffff;
+
+  --f-display: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+  --f-body: "Public Sans", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --s-xs: 0.8125rem; --s-sm: 0.875rem; --s-md: 1rem; --s-lg: 1.1875rem;
+  --s-xl: 1.5rem; --s-2xl: 2rem; --s-3xl: 2.625rem;
+
+  --proto-h: 0px; /* 44px when the proposal switcher is shown */
+  --site-h: 56px;
+  --gutter-l: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101215; --surface: #171a1e; --ink: #e6e9ec; --ink-2: #b2b9c1; --ink-3: #8f98a2;
+    --rule: #2a2f35; --rule-2: #1f2328; --law: #5fc4a0; --law-bg: #14302a; --claim: #f08a7c; --claim-bg: #3a1e1a;
+    --focus: #8fb0ff; --chrome: #08090b; --chrome-ink: #a9b0b8; --chrome-on: #ffffff; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101215; --surface: #171a1e; --ink: #e6e9ec; --ink-2: #b2b9c1; --ink-3: #8f98a2;
+  --rule: #2a2f35; --rule-2: #1f2328; --law: #5fc4a0; --law-bg: #14302a; --claim: #f08a7c; --claim-bg: #3a1e1a;
+  --focus: #8fb0ff; --chrome: #08090b; --chrome-ink: #a9b0b8; --chrome-on: #ffffff; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { background: var(--bg); }
+body { margin: 0; color: var(--ink); font-family: var(--f-body); font-size: var(--s-md); line-height: 1.55; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+h1, h2, h3 { margin: 0; text-wrap: balance; }
+p { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: var(--gutter-l); padding-right: var(--gutter-r); }
+.eyebrow { font-size: var(--s-xs); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); font-weight: 500; }
+.lede { color: var(--ink-2); font-size: var(--s-lg); max-width: 62ch; }
+.stats { color: var(--ink-3); font-size: var(--s-sm); font-variant-numeric: tabular-nums; }
+.native { font-family: var(--f-body); font-weight: 400; color: var(--ink-3); font-size: var(--s-md); letter-spacing: 0; white-space: nowrap; }
+.prov { font-family: var(--f-mono); font-size: var(--s-xs); color: var(--ink-2); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.prov:hover { color: var(--ink); border-color: var(--ink-3); }
+
+/* Law / source value pair — the one place colour lives */
+.k { display: inline-flex; gap: .45em; align-items: baseline; font-size: var(--s-sm); line-height: 1.3; }
+.k b { font-size: var(--s-xs); font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+.k.law { color: var(--law); }
+.k.claim { color: var(--claim); }
+
+
+/* ---------- prototype chrome ---------- */
+.proto { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: var(--chrome); color: var(--chrome-ink);
+  padding-left: var(--gutter-l); padding-right: var(--gutter-r); }
+.proto-in { max-width: 1120px; margin: 0 auto; height: var(--proto-h); display: flex; align-items: center; gap: 14px; font-size: var(--s-xs); }
+.proto-label { letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+.proto-tabs { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+.proto-tabs a { text-decoration: none; padding: 5px 10px; border-radius: 4px; white-space: nowrap; color: var(--chrome-ink); }
+.proto-tabs a:hover { color: var(--chrome-on); background: rgba(255,255,255,.07); }
+.proto-tabs a[aria-current="true"] { color: var(--chrome-on); background: rgba(255,255,255,.14); }
+.proto-tabs a span { opacity: .6; margin-right: 4px; font-family: var(--f-mono); }
+.reader-mode .proto-in, .reader-mode .site-in { max-width: none; }
+
+.site { border-bottom: 1px solid var(--rule); background: var(--bg); padding-left: var(--gutter-l); padding-right: var(--gutter-r); }
+.site-in { max-width: 1088px; margin: 0 auto; height: var(--site-h); display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.wordmark { font-family: var(--f-display); font-size: var(--s-lg); text-decoration: none; letter-spacing: -.005em; white-space: nowrap; }
+.wordmark i { font-style: italic; color: var(--claim); }
+.site-tools { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.theme-btn { flex: none; display: inline-grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--rule); background: var(--surface); color: var(--ink-2); cursor: pointer; padding: 0; }
+.theme-btn:hover { color: var(--ink); border-color: var(--ink-3); }
+
+.crumbs { font-size: var(--s-sm); color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 6px; }
+.crumbs a { color: var(--ink-2); text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+
+/* ---------- shared case view ---------- */
+.case { display: grid; gap: 28px; min-width: 0; }
+.case-head { display: grid; gap: 10px; }
+.case-title { font-family: var(--f-display); font-weight: 400; font-size: var(--s-2xl); line-height: 1.22; letter-spacing: -.01em; max-width: 36ch; }
+.case-title .pub { font-weight: 600; }
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); overflow: hidden; }
+.side { padding: 22px 24px 20px; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.side + .side { border-left: 1px solid var(--rule); }
+.side-label { font-family: var(--f-body); font-size: var(--s-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.side-claim .side-label { color: var(--claim); }
+.side-law .side-label { color: var(--law); }
+.side blockquote { margin: 0; font-family: var(--f-display); font-size: var(--s-lg); line-height: 1.45; overflow-wrap: anywhere; }
+.side blockquote::before { content: "“"; } .side blockquote::after { content: "”"; }
+.tr { color: var(--ink-2); font-size: var(--s-sm); }
+.tr::before { content: "Translation  "; font-size: var(--s-xs); letter-spacing: .05em; text-transform: uppercase; color: var(--ink-3); white-space: pre; }
+.law-text { font-family: var(--f-display); font-size: var(--s-lg); line-height: 1.45; }
+.side-meta { margin-top: auto; padding-top: 6px; font-size: var(--s-xs); color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.side-meta a { color: var(--ink-2); }
+.practice { display: grid; gap: 8px; max-width: 68ch; }
+.practice h2 { font-size: var(--s-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.practice p { color: var(--ink); }
+.checked { font-size: var(--s-xs); color: var(--ink-3); }
+.pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; border-top: 1px solid var(--rule); padding-top: 14px; font-size: var(--s-sm); }
+.pager a { text-decoration: none; color: var(--ink-2); max-width: 42%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pager a:hover { color: var(--ink); }
+.pager .pos { color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pager .off { visibility: hidden; }
+
+/* case rows used in lists */
+.rows { border-top: 1px solid var(--rule); }
+.row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px; align-items: baseline; padding: 12px 2px; border-bottom: 1px solid var(--rule-2); text-decoration: none; }
+.row:hover .row-text { color: var(--ink); }
+.row:hover .arrow { color: var(--ink); transform: translateX(2px); }
+.row-text { color: var(--ink-2); }
+.row-text b { color: var(--ink); font-weight: 600; }
+.arrow { color: var(--ink-3); transition: transform .15s; }
+
+/* ================= A · Pages ================= */
+.A main { padding-block: 24px 80px; }
+.A .hero { display: grid; gap: 14px; padding-bottom: 12px; }
+.A .hero .lede { max-width: none; text-wrap: balance; }
+.A .hero h1, .C .hero h1 { font-family: var(--f-display); font-weight: 400; font-size: var(--s-3xl); line-height: 1.1; letter-spacing: -.015em; max-width: 40ch; }
+.sector { display: grid; gap: 4px; padding-top: 28px; }
+.sector-h { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-bottom: 2px solid var(--ink); padding-bottom: 8px; }
+.sector-h h2 { font-size: var(--s-sm); letter-spacing: .07em; text-transform: uppercase; font-weight: 600; }
+.sector-h span { color: var(--ink-3); font-size: var(--s-sm); font-variant-numeric: tabular-nums; }
+.area-row { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr) 64px; gap: 32px; padding: 24px 0; border-bottom: 1px solid var(--rule); text-decoration: none; align-items: start; }
+.area-row:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.area-main { display: grid; gap: 6px; }
+.area-main h3 { font-family: var(--f-display); font-weight: 600; font-size: var(--s-xl); line-height: 1.2; }
+.area-main p { color: var(--ink-2); font-size: var(--s-sm); max-width: 46ch; }
+.area-main .by { color: var(--ink-3); font-size: var(--s-xs); }
+.issues-mini { display: grid; gap: 5px; padding-top: 4px; }
+.issues-mini li { display: grid; grid-template-columns: minmax(0, 1fr) 96px 22px; gap: 10px; align-items: center; font-size: var(--s-sm); color: var(--ink-2); }
+.issues-mini .t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bar { height: 6px; background: var(--rule-2); border-radius: 3px; position: relative; overflow: hidden; }
+.bar i { position: absolute; inset: 0 auto 0 0; width: var(--w); background: var(--claim); opacity: .8; border-radius: 3px; }
+.issues-mini .n { text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-3); font-size: var(--s-xs); }
+.count { text-align: right; font-family: var(--f-display); font-size: var(--s-2xl); line-height: 1; font-variant-numeric: tabular-nums; }
+.count small { display: block; font-family: var(--f-body); font-size: var(--s-xs); color: var(--ink-3); margin-top: 4px; }
+
+.A .area-head { display: grid; gap: 12px; padding: 18px 0 8px; }
+.A1 .area-head { padding-bottom: 32px; }
+.A .area-head h1 { font-family: var(--f-display); font-weight: 400; font-size: var(--s-3xl); line-height: 1.1; letter-spacing: -.015em; }
+.toc { display: flex; flex-wrap: wrap; gap: 6px 8px; padding: 18px 0 8px; }
+.toc a { font-size: var(--s-sm); text-decoration: none; color: var(--ink-2); border: 1px solid var(--rule); border-radius: 999px; padding: 3px 11px; background: var(--surface); white-space: nowrap; }
+.toc a:hover { border-color: var(--ink-3); color: var(--ink); }
+.toc a span { color: var(--ink-3); margin-left: 4px; font-variant-numeric: tabular-nums; }
+.issue { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: 12px 40px; padding: 32px 0; border-top: 1px solid var(--rule); scroll-margin-top: calc(var(--proto-h) + 16px); }
+.issue-head { display: grid; gap: 10px; align-content: start; }
+.issue-head h2 { font-family: var(--f-display); font-weight: 600; font-size: var(--s-xl); line-height: 1.2; }
+.keys { display: grid; gap: 4px; }
+.issue-law { color: var(--ink-2); font-size: var(--s-sm); }
+.issue-law .prov { display: table; margin-top: 4px; }
+.issue .rows { border-top: none; }
+.issue .row:first-child, .issue .row-group:first-child { padding-top: 2px; }
+.A .case-wrap { display: grid; gap: 28px; padding-top: 18px; }
+.more { display: grid; gap: 10px; padding-top: 12px; }
+.more h2 { font-size: var(--s-sm); font-weight: 600; color: var(--ink-2); }
+
+/* ================= B · Reader ================= */
+.B .reader { display: grid; grid-template-columns: 236px minmax(300px, 400px) minmax(0, 1fr);
+  height: calc(100dvh - var(--proto-h) - var(--site-h) - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+  padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); }
+.pane { overflow-y: auto; min-width: 0; overscroll-behavior: contain; }
+.pane + .pane { border-left: 1px solid var(--rule); }
+.B .nav { padding: 18px 10px 40px 16px; display: grid; gap: 18px; align-content: start; }
+.nav-group { display: grid; gap: 2px; }
+.nav-group > p { padding: 0 8px 6px; }
+.nav-area { display: flex; justify-content: space-between; gap: 8px; padding: 6px 8px; border-radius: 4px; text-decoration: none; font-size: var(--s-sm); color: var(--ink-2); }
+.nav-area:hover { background: var(--rule-2); color: var(--ink); }
+.nav-area[aria-current="true"] { color: var(--ink); font-weight: 600; background: var(--rule-2); }
+.nav-area span, .nav-topic span { color: var(--ink-3); font-weight: 400; font-variant-numeric: tabular-nums; }
+.nav-topics { display: grid; gap: 1px; margin: 2px 0 8px 8px; border-left: 1px solid var(--rule); }
+.nav-topic { display: flex; justify-content: space-between; gap: 8px; padding: 4px 8px 4px 12px; text-decoration: none; font-size: var(--s-xs); color: var(--ink-2); }
+.nav-topic:hover { color: var(--ink); }
+.B .list { background: var(--surface); }
+.list-head { padding: 20px 20px 14px; display: grid; gap: 6px; border-bottom: 1px solid var(--rule); }
+.list-head h1 { font-family: var(--f-display); font-weight: 600; font-size: var(--s-xl); line-height: 1.2; }
+.list-head p { font-size: var(--s-sm); color: var(--ink-2); }
+.l-issue { border-bottom: 1px solid var(--rule); scroll-margin-top: 0; }
+.l-issue-head { position: sticky; top: 0; z-index: 1; background: var(--surface); padding: 14px 20px 10px; display: grid; gap: 4px; border-bottom: 1px solid var(--rule-2); }
+.l-issue-head h2 { font-size: var(--s-sm); font-weight: 600; }
+.l-issue-head .keys { display: flex; flex-wrap: wrap; gap: 2px 14px; }
+.l-issue-head .k { font-size: var(--s-xs); }
+.l-row { display: block; padding: 10px 20px 10px 17px; border-left: 3px solid transparent; text-decoration: none; font-size: var(--s-sm); color: var(--ink-2); line-height: 1.45; }
+.l-row b { color: var(--ink); font-weight: 600; }
+.l-row:hover { background: var(--rule-2); }
+.l-row[aria-current="true"] { background: var(--claim-bg); border-left-color: var(--claim); color: var(--ink); }
+.B .detail { padding: 28px 36px 60px; }
+.B .detail .case { max-width: 860px; }
+.B .detail .case-title { font-size: var(--s-xl); }
+.area-select { display: none; font: inherit; font-size: var(--s-sm); padding: 6px 8px; border: 1px solid var(--rule); border-radius: 4px; background: var(--surface); color: var(--ink); min-width: 0; max-width: 55%; }
+
+/* ================= C · Patterns ================= */
+.C main { padding-block: 40px 80px; }
+.C .hero { display: grid; gap: 14px; padding-bottom: 24px; }
+.filters { display: flex; flex-wrap: wrap; gap: 6px; padding-bottom: 8px; position: sticky; top: calc(var(--proto-h) + env(safe-area-inset-top, 0px)); z-index: 5; background: var(--bg); padding-top: 10px; }
+.filters button { font: inherit; font-size: var(--s-sm); padding: 5px 13px; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); color: var(--ink-2); cursor: pointer; }
+.filters button:hover { border-color: var(--ink-3); color: var(--ink); }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.filters button span { opacity: .6; margin-left: 4px; font-variant-numeric: tabular-nums; }
+.c-area { padding-top: 36px; display: grid; gap: 14px; scroll-margin-top: calc(var(--proto-h) + 60px); }
+.c-area-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; }
+.c-area-head h2 { font-family: var(--f-display); font-weight: 600; font-size: var(--s-xl); }
+.c-area-head p { font-size: var(--s-sm); color: var(--ink-3); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(232px, 1fr)); gap: 12px; }
+.card { display: grid; grid-template-rows: auto 1fr auto; gap: 14px; padding: 16px 16px 14px; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; text-decoration: none; min-height: 178px; transition: border-color .15s, transform .15s; }
+.card:hover { border-color: var(--ink-3); transform: translateY(-1px); }
+.card-t { font-size: var(--s-sm); font-weight: 600; line-height: 1.35; }
+.pair { margin: 0; display: grid; gap: 8px; align-content: start; }
+.pair div { display: grid; gap: 1px; }
+.pair dt { font-size: 0.6875rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; }
+.pair dd { margin: 0; font-family: var(--f-display); font-size: var(--s-lg); line-height: 1.25; }
+.pair .law dt, .pair .law dd { color: var(--law); }
+.pair .claim dt { color: var(--claim); }
+.pair .claim dd { color: var(--ink); }
+.card-n { font-size: var(--s-xs); color: var(--ink-3); display: flex; justify-content: space-between; }
+.c-topic-head { display: grid; gap: 18px; padding: 18px 0 32px; }
+.c-topic-head h1 { font-family: var(--f-display); font-weight: 400; font-size: var(--s-3xl); line-height: 1.1; letter-spacing: -.015em; }
+.big-pair { display: grid; grid-template-columns: 1fr 1fr; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); }
+.big-pair > div { padding: 16px 20px 18px 0; display: grid; gap: 4px; }
+.big-pair > div + div { padding-left: 20px; border-left: 1px solid var(--rule); }
+.big-pair .lab { font-size: var(--s-xs); font-weight: 600; letter-spacing: .07em; text-transform: uppercase; }
+.big-pair .big { font-family: var(--f-display); font-size: var(--s-2xl); line-height: 1.15; }
+.big-pair .law { color: var(--law); }
+.big-pair .claim .lab { color: var(--claim); }
+.list-h { font-size: var(--s-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); padding-bottom: 8px; }
+.drawer { position: fixed; inset: 0; z-index: 40; display: grid; grid-template-columns: 1fr minmax(0, 760px); }
+.scrim { background: rgba(10, 12, 15, .38); }
+.sheet { background: var(--bg); overflow-y: auto; overscroll-behavior: contain; border-left: 1px solid var(--rule);
+  padding: calc(18px + env(safe-area-inset-top, 0px)) max(32px, env(safe-area-inset-right, 0px)) calc(48px + env(safe-area-inset-bottom, 0px)) 32px;
+  display: grid; gap: 24px; align-content: start; animation: slide .2s ease-out; }
+.sheet-bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.close { font-size: var(--s-sm); text-decoration: none; color: var(--ink-2); border: 1px solid var(--rule); border-radius: 4px; padding: 4px 10px; background: var(--surface); }
+.close:hover { color: var(--ink); border-color: var(--ink-3); }
+.sheet .case-title { font-size: var(--s-xl); }
+@keyframes slide { from { transform: translateX(24px); opacity: .4; } }
+
+/* ================= A1–A3 · where and in which language ================= */
+.sector-sub { color: var(--ink-2); font-size: var(--s-sm); padding-top: 10px; max-width: 72ch; }
+.scope { display: flex; flex-wrap: wrap; font-size: var(--s-xs); color: var(--ink-2); padding-top: 2px; }
+.scope span { white-space: nowrap; }
+.scope span:not(:last-child)::after { content: "·"; margin: 0 7px; color: var(--ink-3); }
+.scope .law-s { color: var(--law); font-weight: 500; }
+.strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 6px 0 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.strip > div { padding: 12px 16px 13px 0; display: grid; gap: 3px; align-content: start; min-width: 0; }
+.strip > div + div { padding-left: 16px; border-left: 1px solid var(--rule); }
+.strip dt, .facts dt { font-size: var(--s-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.strip dd, .facts dd { margin: 0; font-size: var(--s-sm); color: var(--ink); }
+.strip dd small { display: block; color: var(--ink-3); font-size: var(--s-xs); padding-top: 2px; }
+.strip .law-d { color: var(--law); }
+.tags { font-family: var(--f-mono); font-size: 0.6875rem; color: var(--ink-3); white-space: nowrap; letter-spacing: .02em; }
+.row.has-tags { grid-template-columns: minmax(0, 1fr) auto auto; }
+.tbl-wrap { overflow-x: auto; }
+table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
+.tbl th { text-align: left; font-size: var(--s-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); padding: 0 16px 8px 0; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+.tbl td { padding: 12px 16px 12px 0; border-bottom: 1px solid var(--rule-2); vertical-align: top; color: var(--ink-2); }
+.tbl td:last-child, .tbl th:last-child { padding-right: 0; }
+.tbl .num { text-align: right; font-variant-numeric: tabular-nums; }
+.tbl tr[data-href] { cursor: pointer; }
+.tbl tr[data-href]:hover td { background: var(--rule-2); }
+.tbl td a { text-decoration: none; color: var(--ink); font-weight: 600; }
+.tbl .area-name a { font-family: var(--f-display); font-size: var(--s-lg); font-weight: 600; }
+.tbl .area-name small { display: block; color: var(--ink-3); font-size: var(--s-xs); padding-top: 2px; }
+.tbl .law-c { color: var(--law); }
+.tbl .mono { font-family: var(--f-mono); font-size: var(--s-xs); white-space: nowrap; }
+.tbl .count-c { font-family: var(--f-display); font-size: var(--s-xl); color: var(--ink); line-height: 1; }
+.A2 .issue { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+.A2 .issue-head { grid-template-columns: minmax(0, 1fr); }
+.cc-chips { display: flex; flex-wrap: wrap; gap: 4px; padding-top: 4px; }
+.cc { font-family: var(--f-mono); font-size: 0.6875rem; line-height: 1.5; border: 1px solid var(--rule); border-radius: 3px; padding: 0 5px; color: var(--ink-2); background: var(--surface); }
+.jur-h { display: grid; gap: 6px; border-bottom: 2px solid var(--ink); padding-bottom: 12px; }
+.jur-h h2 { font-family: var(--f-display); font-weight: 400; font-size: var(--s-2xl); line-height: 1.15; }
+.jur-h p { color: var(--ink-2); font-size: var(--s-sm); }
+.jur-h .stats { display: block; }
+.matrix-wrap { padding-top: 24px; display: grid; gap: 8px; }
+.matrix { overflow-x: auto; }
+.matrix table { border-collapse: collapse; font-size: var(--s-xs); }
+.matrix th { font-weight: 500; color: var(--ink-2); padding: 5px 14px 5px 0; text-align: left; white-space: nowrap; }
+.matrix thead th { vertical-align: bottom; white-space: normal; line-height: 1.25; width: 96px; min-width: 76px; padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
+.matrix thead th:first-child { width: auto; }
+.matrix td { padding: 5px 14px 5px 0; }
+.matrix tbody tr + tr > * { border-top: 1px solid var(--rule-2); }
+.dots { display: flex; flex-wrap: wrap; gap: 3px; max-width: 72px; }
+.dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--claim); opacity: .85; }
+.cgroup + .cgroup { margin-top: 14px; }
+.cgroup h3 { font-size: var(--s-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); padding-bottom: 2px; }
+.meta-line { font-size: var(--s-sm); color: var(--ink-2); display: flex; flex-wrap: wrap; }
+.meta-line span { min-width: 0; overflow-wrap: anywhere; }
+.meta-line span:not(:last-child)::after { content: "·"; margin: 0 8px; color: var(--ink-3); }
+.meta-line .law-d { color: var(--law); }
+.area-head .meta-line { padding-top: 4px; }
+.row-group { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px; align-items: baseline; padding: 12px 2px; border-bottom: 1px solid var(--rule-2); }
+.row-group .group-side { display: flex; gap: 8px; align-items: baseline; white-space: nowrap; }
+.row-group .row-text a { color: var(--ink); font-weight: 600; text-decoration: none; }
+.row-group .row-text a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.row-group .n { font-size: var(--s-xs); color: var(--ink-3); }
+.row-current { background: var(--rule-2); grid-template-columns: minmax(0, 1fr) auto; }
+.row-current .row-text { color: var(--ink); }
+.row-current .here { font-size: var(--s-xs); color: var(--ink-3); white-space: nowrap; padding-right: 2px; }
+.side-law .practice { border-top: 1px solid var(--rule-2); padding-top: 14px; margin-top: 6px; max-width: none; }
+.side-law .practice p { font-size: var(--s-sm); color: var(--ink-2); }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 32px; margin: 0; }
+.facts > div { display: grid; gap: 1px; min-width: 0; }
+.facts .law-d { color: var(--law); }
+.ver-label { font-size: var(--s-xs); color: var(--ink-3); overflow-wrap: anywhere; }
+.ver-label b { color: var(--ink-2); font-weight: 600; }
+.q { display: grid; gap: 10px; }
+.versions { display: grid; gap: 1px; border-top: 1px solid var(--rule-2); padding-top: 10px; }
+.versions > p { font-size: var(--s-xs); color: var(--ink-3); padding: 0 0 4px; }
+.ver { display: flex; gap: 8px; align-items: baseline; font: inherit; font-size: var(--s-xs); text-align: left; background: none; border: 0; padding: 3px 6px; margin-left: -6px; border-radius: 3px; color: var(--ink-2); cursor: pointer; min-width: 0; }
+.ver code { font-family: var(--f-mono); font-size: 0.6875rem; color: var(--ink-3); width: 20px; flex: none; }
+.ver span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ver:hover { background: var(--rule-2); color: var(--ink); }
+.ver[aria-pressed="true"] { background: var(--claim-bg); color: var(--ink); }
+.ver-more { font: inherit; font-size: var(--s-xs); background: none; border: 0; padding: 4px 0 0; color: var(--ink-2); text-decoration: underline; cursor: pointer; justify-self: start; }
+
+/* front page (A1): government and companies side by side */
+.home-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; padding-top: 12px; }
+.home-sec { display: grid; gap: 4px; align-content: start; padding-top: 16px; min-width: 0; }
+.area-line { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; align-items: baseline; padding: 14px 0 16px; border-bottom: 1px solid var(--rule); text-decoration: none; }
+.area-line h3 { font-family: var(--f-display); font-weight: 600; font-size: var(--s-lg); line-height: 1.25; }
+.area-line:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.area-line .n { font-family: var(--f-display); font-size: var(--s-lg); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.area-line .n small { font-family: var(--f-body); font-size: var(--s-sm); color: var(--ink-3); margin-left: 4px; }
+.area-line .scope, .area-line .issues { grid-column: 1 / -1; }
+.area-line .issues { font-size: var(--s-sm); color: var(--ink-2); line-height: 1.5; }
+
+/* single-column grids must not grow past their container */
+.case, .case-head, .case-wrap, .q, .versions, .side, .practice, .more, .sheet, .A .hero, .C .hero, .A .area-head, .c-topic-head, .issue-head, .area-main { grid-template-columns: minmax(0, 1fr); }
+
+/* ---------- responsive ---------- */
+@media (max-width: 900px) {
+  .home-cols { grid-template-columns: minmax(0, 1fr); }
+  .area-row { grid-template-columns: minmax(0, 1fr) 52px; gap: 16px; }
+  .area-row .issues-mini { grid-column: 1 / -1; grid-row: 2; }
+  .issue { grid-template-columns: minmax(0, 1fr); }
+  .B .reader { grid-template-columns: minmax(0, 1fr); height: auto; }
+  .B .nav { display: none; }
+  .pane { overflow: visible; }
+  .pane + .pane { border-left: none; border-top: 1px solid var(--rule); }
+  .B .list { padding-left: var(--gutter-l); padding-right: var(--gutter-r); }
+  .list-head, .l-issue-head { padding-left: 0; padding-right: 0; }
+  .l-issue-head { position: static; }
+  .l-row { padding-left: 10px; padding-right: 10px; }
+  .B .detail { padding: 28px var(--gutter-r) 60px var(--gutter-l); scroll-margin-top: var(--proto-h); }
+  .area-select { display: block; }
+  .drawer { grid-template-columns: 0 minmax(0, 1fr); }
+  .sheet { padding-left: var(--gutter-l); padding-right: var(--gutter-r); border-left: none; }
+}
+@media (max-width: 640px) {
+  :root { --s-3xl: 2rem; --s-2xl: 1.6rem; }
+  .compare { grid-template-columns: minmax(0, 1fr); }
+  .side + .side { border-left: none; border-top: 1px solid var(--rule); }
+  .side { padding: 18px 18px 16px; }
+  .issues-mini li { grid-template-columns: minmax(0, 1fr) 56px 22px; }
+  .big-pair > div { padding-right: 12px; }
+  .big-pair > div + div { padding-left: 12px; }
+  .proto-label { display: none; }
+  .theme-btn { width: 44px; height: 44px; }
+  .row-group .n { display: none; }
+  .ver, .ver-more { min-height: 44px; align-items: center; }
+  .strip { grid-template-columns: minmax(0, 1fr); }
+  .strip > div + div { padding-left: 0; border-left: none; border-top: 1px solid var(--rule-2); }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+</style>
+
+<div id="root"></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+
+const AREAS = DATA.areas;
+const CASES = DATA.cases;
+const AREA = Object.fromEntries(AREAS.map(a => [a.id, a]));
+const TOPIC = {};
+AREAS.forEach(a => a.topics.forEach(t => { TOPIC[a.id + "~" + t.id] = Object.assign(t, { key: a.id + "~" + t.id, area: a.id }); }));
+const SECTORS = [
+  { id: "gov", label: "Government", long: "Government guidance" },
+  { id: "biz", label: "Companies", long: "Company information" },
+];
+const LAYOUTS = [
+  { id: "A", name: "Before" },
+  { id: "A1", name: "Labels" },
+  { id: "A2", name: "Columns" },
+  { id: "A3", name: "By country" },
+  { id: "B", name: "Reader" },
+  { id: "C", name: "Patterns" },
+];
+const LANG = { German: "de", English: "en", French: "fr", Spanish: "es", Italian: "it", Dutch: "nl", Czech: "cs",
+  Finnish: "fi", Swedish: "sv", Polish: "pl", Portuguese: "pt", Greek: "el", Slovak: "sk", Japanese: "ja" };
+
+// Citations join provisions with " · "; keep the dot on the line of the provision before it.
+const provText = p => esc(p).replace(/ · /g, "&nbsp;· ");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+const nCases = a => a.topics.reduce((s, t) => s + t.cases.length, 0);
+const topicOf = c => TOPIC[c.area + "~" + c.topic];
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+const listJoin = xs => xs.length < 2 ? xs.join("") : xs.slice(0, -1).join(", ") + " and " + xs[xs.length - 1];
+const TOTAL = { areas: AREAS.length, topics: Object.keys(TOPIC).length, cases: Object.keys(CASES).length };
+const MAXT = Math.max(...Object.values(TOPIC).map(t => t.cases.length));
+const href = (L, kind, id) => "#" + [L, kind, id].filter(Boolean).join(".");
+
+function state() {
+  const [L, kind, id] = decodeURIComponent(location.hash.slice(1)).split(".");
+  const s = { L: LAYOUTS.some(x => x.id === L) ? L : "A1", kind: kind || "home", id: id || "" };
+  if ((s.kind === "area" && !AREA[s.id]) || (s.kind === "topic" && !TOPIC[s.id]) || (s.kind === "case" && !CASES[s.id])) s.kind = "home";
+  return s;
+}
+
+/* ---------- shared pieces ---------- */
+function protoBar(s) {
+  if (!LAYOUTS.some(l => l.tab)) return "";
+  const tabs = LAYOUTS.filter(l => l.tab).map(l => `<a href="${href(l.id, s.kind === "home" ? "" : s.kind, s.id)}" aria-current="${l.id === s.L}">${l.id === "A" ? "" : `<span>${l.id.slice(1)}</span>`}${l.name}</a>`).join("");
+  return `<div class="proto"><div class="proto-in"><span class="proto-label">Layout A · country and language</span><nav class="proto-tabs" aria-label="Proposals">${tabs}</nav></div></div>`;
+}
+function siteBar(L, extra = "") {
+  return `<header class="site"><div class="site-in"><a class="wordmark" href="${href(L)}">Legal <i>Misrepresentation</i></a><div class="site-tools">${extra}${themeBtn()}</div></div></header>`;
+}
+/* Theme: follows the system until the viewer picks one; the choice is remembered in this browser. */
+const SUN = `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4L6 18M18 6l1.4-1.4"/></svg>`;
+const MOON = `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>`;
+try { const t = localStorage.getItem("misstated-theme"); if (t === "dark" || t === "light") document.documentElement.dataset.theme = t; } catch (e) {}
+const isDark = () => { const t = document.documentElement.dataset.theme; return t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+function themeBtn() {
+  const next = isDark() ? "light" : "dark";
+  return `<button type="button" class="theme-btn" data-next="${next}" aria-label="Switch to ${next} mode" title="Switch to ${next} mode">${next === "light" ? SUN : MOON}</button>`;
+}
+function syncThemeBtn() { const b = document.querySelector(".theme-btn"); if (b) b.outerHTML = themeBtn(); }
+document.addEventListener("click", e => {
+  const b = e.target.closest(".theme-btn");
+  if (!b) return;
+  const t = b.dataset.next;
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem("misstated-theme", t); } catch (err) {}
+  syncThemeBtn();
+  document.querySelector(".theme-btn")?.focus();
+});
+matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", syncThemeBtn);
+function keys(t, cls = "keys") {
+  return `<div class="${cls}"><span class="k law"><b>Law</b>${esc(t.lawKey)}</span><span class="k claim"><b>Sources</b><span class="mark">${esc(t.claimKey)}</span></span></div>`;
+}
+function caseRow(c, L, cls = "row") {
+  return `<a class="${cls}" href="${href(L, "case", c.id)}"><span class="row-text"><b>${esc(c.pub)}</b> ${esc(c.claim)}</span><span class="arrow" aria-hidden="true">→</span></a>`;
+}
+function evidenceContext(c) {
+  return `<details class="practice"><summary>Scope and source context</summary>
+    ${c.scope ? `<p>${esc(c.scope)}</p>` : ""}
+    ${c.context ? `<p>${esc(c.context)}</p>` : ""}
+    <p>These findings concern published wording. The examples are hypothetical; no actual refusal, payment, billing practice or loss is established.</p>
+  </details>`;
+}
+function caseView(c, L) {
+  const a = AREA[c.area], t = topicOf(c);
+  const others = (c.langs || []).filter(l => l !== c.lang);
+  const metaSrc = [c.src && c.src.length < 60 ? c.src : "", c.lang ? `${c.lang} original` : "",
+    others.length ? `also in ${listJoin(others)}` : ""].filter(Boolean).map(esc).join(" · ");
+  return `<article class="case">
+    <div class="case-head">
+      <p class="eyebrow">${esc(a.title)} · ${esc(t.title)}</p>
+      <h1 class="case-title"><span class="pub">${esc(c.pub)}</span> ${esc(c.claim)}</h1>
+    </div>
+    <div class="compare">
+      <section class="side side-claim">
+        <h2 class="side-label">What the source says</h2>
+        <blockquote lang="${LANG[c.lang] || ""}">${esc(c.quote)}</blockquote>
+        ${c.tr ? `<p class="tr">${esc(c.tr)}</p>` : ""}
+        <p class="side-meta"><span>${metaSrc}</span><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener">Open source ↗</a></p>
+      </section>
+      <section class="side side-law">
+        <h2 class="side-label">What the law says</h2>
+        <p class="law-text">${esc(c.law || t.law)}</p>
+        <p class="side-meta"><a class="prov" href="${esc(c.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)} ↗</a></p>
+      </section>
+    </div>
+    ${c.example ? `<section class="practice"><h2>Hypothetical example</h2><p>${esc(c.example)}</p></section>` : ""}
+    ${evidenceContext(c)}
+    <p class="checked">Checked ${fmtDate(c.date)}</p>
+  </article>`;
+}
+function pager(c, L) {
+  const t = topicOf(c), i = t.cases.indexOf(c.id);
+  if (t.cases.length < 2) return "";
+  const p = CASES[t.cases[i - 1]], n = CASES[t.cases[i + 1]];
+  return `<nav class="pager" aria-label="Cases in this issue">
+    <a class="${p ? "" : "off"}" href="${p ? href(L, "case", p.id) : "#"}">← ${p ? esc(p.pub) : ""}</a>
+    <span class="pos">${i + 1} of ${t.cases.length} in ${esc(t.title)}</span>
+    <a class="${n ? "" : "off"}" href="${n ? href(L, "case", n.id) : "#"}">${n ? esc(n.pub) : ""} →</a>
+  </nav>`;
+}
+const areaTitle = a => `${esc(a.title)}${a.titleNative ? ` <span class="native">${esc(a.titleNative)}</span>` : ""}`;
+const intro = `Statements by authorities and companies that misstate people’s rights.`;
+
+/* ================= A · Pages ================= */
+function renderA(s) {
+  let body = "";
+  if (s.kind === "home") {
+    body = `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${intro}</p>
+      <p class="stats">${TOTAL.areas} areas · ${TOTAL.topics} issues · ${TOTAL.cases} cases</p></section>` +
+      SECTORS.map(sec => {
+        const as = AREAS.filter(a => a.sector === sec.id);
+        return `<section class="sector"><div class="sector-h"><h2>${sec.long}</h2><span>${plural(as.reduce((x, a) => x + nCases(a), 0), "case", "cases")}</span></div>
+          <ul>${as.map(a => `<li><a class="area-row" href="${href("A", "area", a.id)}">
+            <div class="area-main"><h3>${areaTitle(a)}</h3><p>${esc(a.intro)}</p><p class="by">${esc(a.publishers)}</p></div>
+            <ol class="issues-mini" aria-label="Issues">${a.topics.map(t => `<li><span class="t">${esc(t.title)}</span><span class="bar"><i style="--w:${(t.cases.length / MAXT * 100).toFixed(1)}%"></i></span><span class="n">${t.cases.length}</span></li>`).join("")}</ol>
+            <span class="count">${nCases(a)}<small>cases</small></span>
+          </a></li>`).join("")}</ul></section>`;
+      }).join("");
+  } else if (s.kind === "area" || s.kind === "topic") {
+    const a = s.kind === "area" ? AREA[s.id] : AREA[TOPIC[s.id].area];
+    const sec = SECTORS.find(x => x.id === a.sector);
+    body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href("A")}">All areas</a><span>/</span><span>${esc(a.title)}</span></nav>
+      <header class="area-head"><p class="eyebrow">${sec.long}</p><h1>${areaTitle(a)}</h1><p class="lede">${esc(a.intro)}</p>
+      <p class="stats">${plural(a.topics.length, "issue", "issues")} · ${plural(nCases(a), "case", "cases")}</p></header>
+      <nav class="toc" aria-label="Issues">${a.topics.map(t => `<a href="${href("A", "topic", t.key)}">${esc(t.title)}<span>${t.cases.length}</span></a>`).join("")}</nav>
+      ${a.topics.map(t => `<section class="issue" id="i-${t.key}">
+        <div class="issue-head"><h2>${esc(t.title)}</h2>${keys(t)}<p class="issue-law">${esc(t.law)} <a class="prov" href="${esc(t.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)}</a></p></div>
+        <div class="rows">${t.cases.map(id => caseRow(CASES[id], "A")).join("")}</div>
+      </section>`).join("")}`;
+  } else {
+    const c = CASES[s.id], a = AREA[c.area], t = topicOf(c);
+    const rest = t.cases.filter(id => id !== c.id);
+    body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href("A")}">All areas</a><span>/</span><a href="${href("A", "area", a.id)}">${esc(a.title)}</a><span>/</span><a href="${href("A", "topic", t.key)}">${esc(t.title)}</a></nav>
+      <div class="case-wrap">${caseView(c, "A")}${pager(c, "A")}
+      ${rest.length ? `<section class="more"><h2>More in ${esc(t.title)}</h2><div class="rows">${rest.map(id => caseRow(CASES[id], "A")).join("")}</div></section>` : ""}</div>`;
+  }
+  return `<div class="A">${siteBar("A")}<main class="wrap">${body}</main></div>`;
+}
+function afterA(s) {
+  if (s.kind === "topic") document.getElementById("i-" + s.id)?.scrollIntoView({ block: "start" });
+  else window.scrollTo(0, 0);
+}
+
+/* ================= A1–A3 · where and in which language ================= */
+const CN = DATA.countries, LC = Object.fromEntries(Object.entries(DATA.langCodes).map(([k, v]) => [k, v.toLowerCase()]));
+AREAS.forEach(a => {
+  const cs = {}, ls = new Set();
+  a.topics.forEach(t => t.cases.forEach(id => { CASES[id].countries.forEach(x => cs[x] = (cs[x] || 0) + 1); CASES[id].langs.forEach(x => ls.add(x)); }));
+  a.countries = Object.keys(cs).sort((x, y) => cs[y] - cs[x] || CN[x].localeCompare(CN[y]));
+  a.langs = [...ls];
+});
+const SECTOR_SCOPE = {
+  gov: { title: "German government guidance", jur: "Germany",
+         sub: "Websites and leaflets of authorities and universities in Germany, in German, and of German embassies abroad. Checked against German law and, where it applies, EU law." },
+  biz: { title: "Company information in the EU", jur: "European Union",
+         sub: "Websites and terms of companies selling to people in EU countries, checked against EU law." },
+};
+const cname = x => CN[x] || x;
+// Areas fully described by their section heading (Germany, German law, German-language sources) need no scope line.
+const homeOnly = a => a.sector === "gov" && a.countries.join() === "DE" && a.langs.join() === "German";
+const varies = a => ({ cc: a.countries.length > 1, lang: a.langs.length > 1 });
+function whereShort(a) {
+  const n = a.countries.length;
+  if (!n) return a.whereShort || a.where;
+  return n === 1 ? cname(a.countries[0]) : `${n} countries`;
+}
+const langsShort = a => a.langs.length === 1 ? `in ${a.langs[0]}` : `${a.langs.length} languages`;
+function countryList(ccs, max = 4) {
+  const names = ccs.map(cname);
+  return names.length > max ? `${names.slice(0, max - 1).join(", ")} and ${names.length - max + 1} more` : listJoin(names);
+}
+function caseTags(c, a) {
+  const v = varies(a), parts = [];
+  if (v.cc && c.countries.length) parts.push(c.countries.length > 3 ? `${c.countries.length} countries` : c.countries.join(" "));
+  return parts.join(" · ");
+}
+function rowS(c, L) {
+  const tags = caseTags(c, AREA[c.area]);
+  if (!tags) return caseRow(c, L);
+  return `<a class="row has-tags" href="${href(L, "case", c.id)}"><span class="row-text"><b>${esc(c.pub)}</b> ${esc(c.claim)}</span><span class="tags" title="${esc(c.countries.map(cname).join(", "))}">${esc(tags)}</span><span class="arrow" aria-hidden="true">→</span></a>`;
+}
+function strip(a) {
+  const many = a.countries.length > 1;
+  return `<dl class="strip">
+    <div><dt>Law</dt><dd class="law-d">${esc(a.law)}</dd></div>
+    <div><dt>Where</dt><dd>${esc(many ? `${a.countries.length} countries` : a.countries.length ? cname(a.countries[0]) : a.where)}
+      ${many ? `<small>${esc(countryList(a.countries, a.id === "missions" ? 6 : 20))}</small>` : a.countries.length ? "" : ""}</dd></div>
+    <div><dt>Language versions checked</dt><dd>${esc(a.langs.length === 1 ? a.langs[0] : `${a.langs.length} languages`)}
+      ${a.langs.length > 1 ? `<small>${esc(listJoin(a.langs))}</small>` : ""}</dd></div>
+  </dl>`;
+}
+function verBody(c, i) {
+  const v = c.versions[i] || { lang: c.lang, quote: c.quote, tr: c.tr, url: c.sourceUrl, site: "" };
+  return `<p class="ver-label"><b>${esc(v.lang)} version</b>${v.site ? ` · ${esc(v.site)}` : ""}</p>
+    <blockquote lang="${LANG[v.lang] || ""}">${esc(v.quote)}</blockquote>
+    ${v.tr ? `<p class="tr">${esc(v.tr)}</p>` : ""}
+    <p class="side-meta"><a href="${esc(v.url)}" target="_blank" rel="noopener">Open this version ↗</a></p>`;
+}
+function caseViewS(c) {
+  const a = AREA[c.area], t = topicOf(c), n = c.versions.length, SHOW = 6;
+  const where = c.countries.length ? countryList(c.countries) : (a.whereShort || a.where);
+  const vers = n > 1 ? `<div class="versions"><p>Found in ${n} versions</p>
+    ${c.versions.map((v, i) => `<button type="button" class="ver" data-ver="${i}" aria-pressed="${i === 0}" ${i >= SHOW ? "hidden" : ""}><code>${esc(LC[v.lang] || v.lang)}</code><span>${esc(v.site || v.lang)}</span></button>`).join("")}
+    ${n > SHOW ? `<button type="button" class="ver-more">Show all ${n}</button>` : ""}</div>` : "";
+  return `<article class="case" data-case="${c.id}">
+    <div class="case-head">
+      <h1 class="case-title"><span class="pub">${esc(c.pub)}</span> ${esc(c.claim)}</h1>
+    </div>
+    <p class="meta-line"><span>${esc(where)}</span><span class="law-d">${esc(a.lawShort)}</span><span>Checked ${fmtDate(c.date)}</span></p>
+    <div class="compare">
+      <section class="side side-claim">
+        <h2 class="side-label">What the source says</h2>
+        <div class="q">${verBody(c, 0)}</div>
+        ${vers}
+      </section>
+      <section class="side side-law">
+        <h2 class="side-label">What the law says</h2>
+        <p class="law-text">${esc(c.law || t.law)}</p>
+        <p class="side-meta"><a class="prov" href="${esc(c.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)} ↗</a></p>
+        ${c.example ? `<section class="practice"><h2>Hypothetical example</h2><p>${esc(c.example)}</p></section>` : ""}
+      </section>
+    </div>
+    ${evidenceContext(c)}
+  </article>`;
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest(".ver");
+  if (b) {
+    const art = b.closest("[data-case]"), c = CASES[art.dataset.case];
+    art.querySelector(".q").innerHTML = verBody(c, +b.dataset.ver);
+    art.querySelectorAll(".ver").forEach(x => x.setAttribute("aria-pressed", x === b));
+    return;
+  }
+  const m = e.target.closest(".ver-more");
+  if (m) { m.parentElement.querySelectorAll(".ver[hidden]").forEach(x => x.hidden = false); m.remove(); return; }
+  const tr = e.target.closest("tr[data-href]");
+  if (tr && !e.target.closest("a")) location.hash = tr.dataset.href;
+});
+
+function scopeHead(a) {
+  if (a.countries.length > 1 || a.langs.length > 1) return strip(a);
+  const where = a.countries.length ? cname(a.countries[0]) : (a.whereShort || a.where);
+  return `<p class="meta-line"><span class="law-d">${esc(a.law)}</span><span>${esc(where)}</span><span>Sources in ${esc(a.langs[0])}</span></p>`;
+}
+const pluralVerb = w => ({ is: "are", has: "have", applies: "apply" })[w] || w.replace(/s$/, "");
+const pluralClaim = claim => { const p = claim.split(" "); const i = p[0] === "still" ? 1 : 0; p[i] = pluralVerb(p[i]); return p.join(" "); };
+function groupedRowsS(t, L) {
+  const groups = new Map();
+  t.cases.forEach(id => { const c = CASES[id]; if (!groups.has(c.claim)) groups.set(c.claim, []); groups.get(c.claim).push(c); });
+  return [...groups.values()].map(g => {
+    if (g.length === 1) return rowS(g[0], L);
+    const tags = [...new Set(g.map(c => caseTags(c, AREA[c.area])))];
+    return `<div class="row-group"><span class="row-text">${listJoin(g.map(c => `<a href="${href(L, "case", c.id)}">${esc(c.pub)}</a>`))} ${esc(pluralClaim(g[0].claim))}</span><span class="group-side"><span class="n">${g.length} sources</span>${tags.length === 1 && tags[0] ? `<span class="tags">${esc(tags[0])}</span>` : ""}</span></div>`;
+  }).join("");
+}
+function issueList(c, L) {
+  const t = topicOf(c);
+  if (t.cases.length < 2) return "";
+  return `<section class="more"><h2>${plural(t.cases.length, "case", "cases")} in ${esc(t.title)}</h2><div class="rows">${t.cases.map(id => id === c.id
+    ? `<div class="row row-current" aria-current="page"><span class="row-text"><b>${esc(c.pub)}</b> ${esc(c.claim)}</span><span class="here">This case</span></div>`
+    : rowS(CASES[id], L)).join("")}</div></section>`;
+}
+function matrix(a, L) {
+  const counts = {};
+  a.topics.forEach(t => t.cases.forEach(id => CASES[id].countries.forEach(cc => { (counts[cc] ||= {})[t.key] = ((counts[cc] || {})[t.key] || 0) + 1; })));
+  const dots = n => n ? `<span class="dots" title="${plural(n, "case", "cases")}">${"<i></i>".repeat(Math.min(n, 8))}</span>` : "";
+  return `<section class="matrix-wrap"><p class="eyebrow">Cases by country and issue</p><div class="matrix"><table>
+    <thead><tr><th scope="col">Country</th>${a.topics.map(t => `<th scope="col"><a href="${href(L, "topic", t.key)}" style="text-decoration:none">${esc(t.title)}</a></th>`).join("")}</tr></thead>
+    <tbody>${a.countries.map(cc => `<tr><th scope="row">${esc(cname(cc))}</th>${a.topics.map(t => `<td>${dots((counts[cc] || {})[t.key] || 0)}</td>`).join("")}</tr>`).join("")}</tbody>
+  </table></div></section>`;
+}
+function groupedRows(t, L) {
+  const groups = {};
+  t.cases.forEach(id => { const c = CASES[id]; const g = c.countries.length === 1 ? cname(c.countries[0]) : "Several countries"; (groups[g] ||= []).push(c); });
+  const keys = Object.keys(groups).sort((x, y) => (x === "Several countries") - (y === "Several countries") || groups[y].length - groups[x].length || x.localeCompare(y));
+  return keys.map(k => `<div class="cgroup"><h3>${esc(k)}</h3><div class="rows">${groups[k].map(c => caseRow(c, L)).join("")}</div></div>`).join("");
+}
+function caseTable(t, a, L) {
+  const v = varies(a);
+  return `<div class="tbl-wrap"><table class="tbl"><thead><tr><th scope="col">Source</th><th scope="col">What it says</th>${v.cc ? `<th scope="col">Country</th>` : ""}${v.lang ? `<th scope="col">Versions</th>` : ""}</tr></thead><tbody>
+    ${t.cases.map(id => { const c = CASES[id]; return `<tr data-href="${href(L, "case", id)}"><td style="width:30%"><a href="${href(L, "case", id)}">${esc(c.pub)}</a></td><td>${esc(c.claim.replace(/^./, m => m.toUpperCase()))}</td>
+      ${v.cc ? `<td>${esc(c.countries.length ? (c.countries.length > 3 ? `${c.countries.length} countries` : c.countries.map(cname).join(", ")) : "")}</td>` : ""}
+      ${v.lang ? `<td class="mono">${esc(c.langs.map(l => LC[l] || l).join(" "))}</td>` : ""}</tr>`; }).join("")}
+  </tbody></table></div>`;
+}
+
+function renderAS(s) {
+  const L = s.L;
+  let body = "";
+  if (s.kind === "home" && L === "A1") {
+    // Front page: government and companies side by side, every area with all its issues.
+    body = `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${intro}</p>
+      <p class="stats">${TOTAL.areas} areas · ${TOTAL.topics} issues · ${TOTAL.cases} cases</p></section>
+      <div class="home-cols">${SECTORS.map(sec => {
+        const as = AREAS.filter(a => a.sector === sec.id), sc = SECTOR_SCOPE[sec.id];
+        return `<section class="home-sec"><div class="sector-h"><h2>${sc.title}</h2><span>${plural(as.reduce((x, a) => x + nCases(a), 0), "case", "cases")}</span></div>
+          <p class="sector-sub">${sc.sub}</p>
+          <div>${as.map(a => `<a class="area-line" href="${href(L, "area", a.id)}"><h3>${areaTitle(a)}</h3><span class="n">${nCases(a)}<small>cases</small></span>
+            ${homeOnly(a) ? "" : `<p class="scope"><span>${esc(whereShort(a))}</span><span class="law-s">${esc(a.lawShort)}</span><span>${esc(langsShort(a))}</span></p>`}
+            <p class="issues">${esc(listJoin(a.topics.map(t => t.title)))}</p></a>`).join("")}</div></section>`;
+      }).join("")}</div>`;
+  } else if (s.kind === "home") {
+    body = `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${intro}</p>
+      <p class="stats">${TOTAL.areas} areas · ${TOTAL.topics} issues · ${TOTAL.cases} cases</p></section>` +
+      SECTORS.map(sec => {
+        const as = AREAS.filter(a => a.sector === sec.id), sc = SECTOR_SCOPE[sec.id];
+        const nc = as.reduce((x, a) => x + nCases(a), 0);
+        const head = L === "A3"
+          ? `<div class="jur-h"><p class="eyebrow">${sec.id === "gov" ? "Government guidance" : "Company information"} · ${plural(nc, "case", "cases")}</p><h2>${sc.jur}</h2><p>${sc.sub}</p></div>`
+          : `<div class="sector-h"><h2>${sc.title}</h2><span>${plural(nc, "case", "cases")}</span></div><p class="sector-sub">${sc.sub}</p>`;
+        if (L === "A2") return `<section class="sector">${head}<div class="tbl-wrap" style="padding-top:18px"><table class="tbl">
+          <thead><tr><th scope="col">Area</th><th scope="col">Law</th><th scope="col">Where</th><th scope="col">Language versions</th><th scope="col" class="num">Cases</th></tr></thead>
+          <tbody>${as.map(a => `<tr data-href="${href(L, "area", a.id)}"><td class="area-name"><a href="${href(L, "area", a.id)}">${areaTitle(a)}</a><small>${esc(a.intro)}</small></td>
+            <td class="law-c">${esc(a.law)}</td><td>${esc(whereShort(a))}</td>
+            <td>${esc(a.langs.length > 3 ? `${a.langs.length} languages` : listJoin(a.langs))}${a.langs.length > 3 ? `<br><span class="mono">${a.langs.map(l => LC[l]).join(" ")}</span>` : ""}</td>
+            <td class="num"><span class="count-c">${nCases(a)}</span></td></tr>`).join("")}</tbody></table></div></section>`;
+        return `<section class="sector">${head}<ul>${as.map(a => `<li><a class="area-row" href="${href(L, "area", a.id)}">
+            <div class="area-main"><h3>${areaTitle(a)}</h3>
+              ${L === "A1" && !homeOnly(a) ? `<p class="scope"><span>${esc(whereShort(a))}</span><span class="law-s">${esc(a.lawShort)}</span><span>${esc(langsShort(a))}</span></p>` : ""}
+              <p>${esc(a.intro)}</p>
+              ${L === "A3" ? (a.countries.length > 1 ? `<div class="cc-chips" title="${esc(countryList(a.countries, 99))}">${a.countries.slice(0, 14).map(cc => `<span class="cc">${cc}</span>`).join("")}${a.countries.length > 14 ? `<span class="cc">+${a.countries.length - 14}</span>` : ""}</div>` : `<p class="by">${esc(a.publishers)}</p>`) : L !== "A1" || homeOnly(a) ? `<p class="by">${esc(a.publishers)}</p>` : ""}
+            </div>
+            <ol class="issues-mini" aria-label="Issues">${a.topics.map(t => `<li><span class="t">${esc(t.title)}</span><span class="bar"><i style="--w:${(t.cases.length / MAXT * 100).toFixed(1)}%"></i></span><span class="n">${t.cases.length}</span></li>`).join("")}</ol>
+            <span class="count">${nCases(a)}<small>cases</small></span>
+          </a></li>`).join("")}</ul></section>`;
+      }).join("");
+  } else if (s.kind === "area" || s.kind === "topic") {
+    const a = s.kind === "area" ? AREA[s.id] : AREA[TOPIC[s.id].area];
+    const sc = SECTOR_SCOPE[a.sector];
+    body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L)}">← All areas</a></nav>
+      <header class="area-head"><p class="eyebrow">${L === "A3" ? sc.jur : sc.title}</p><h1>${areaTitle(a)}</h1><p class="lede">${esc(a.intro)}</p>
+      ${L === "A1" ? scopeHead(a) : strip(a)}</header>
+      ${L === "A3" && a.countries.length > 1 ? matrix(a, L) : ""}
+      ${L === "A1" ? "" : `<nav class="toc" aria-label="Issues">${a.topics.map(t => `<a href="${href(L, "topic", t.key)}">${esc(t.title)}<span>${t.cases.length}</span></a>`).join("")}</nav>`}
+      ${a.topics.map(t => `<section class="issue" id="i-${t.key}">
+        <div class="issue-head"><h2>${esc(t.title)}</h2>${keys(t)}<p class="issue-law">${esc(t.law)} <a class="prov" href="${esc(t.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)}</a></p></div>
+        ${L === "A2" ? caseTable(t, a, L) : L === "A3" && a.countries.length > 1 ? `<div>${groupedRows(t, L)}</div>` : `<div class="rows">${L === "A1" ? groupedRowsS(t, L) : t.cases.map(id => rowS(CASES[id], L)).join("")}</div>`}
+      </section>`).join("")}`;
+  } else {
+    const c = CASES[s.id], a = AREA[c.area], t = topicOf(c);
+    body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L)}">All areas</a><span>/</span><a href="${href(L, "area", a.id)}">${esc(a.title)}</a><span>/</span><a href="${href(L, "topic", t.key)}">${esc(t.title)}</a></nav>
+      <div class="case-wrap">${caseViewS(c)}${issueList(c, L)}</div>`;
+  }
+  return `<div class="A ${L}">${siteBar(L)}<main class="wrap">${body}</main></div>`;
+}
+
+/* ================= B · Reader ================= */
+function renderB(s) {
+  let c, a;
+  if (s.kind === "case") c = CASES[s.id];
+  else if (s.kind === "topic") c = CASES[TOPIC[s.id].cases[0]];
+  else if (s.kind === "area") c = CASES[AREA[s.id].topics[0].cases[0]];
+  else c = CASES[AREAS[0].topics[0].cases[0]];
+  a = AREA[c.area];
+  const t = topicOf(c);
+  const nav = SECTORS.map(sec => `<div class="nav-group"><p class="eyebrow">${sec.label}</p>
+    ${AREAS.filter(x => x.sector === sec.id).map(x => `<a class="nav-area" href="${href("B", "area", x.id)}" aria-current="${x.id === a.id}">${esc(x.title)}<span>${nCases(x)}</span></a>
+      ${x.id === a.id ? `<div class="nav-topics">${x.topics.map(tt => `<a class="nav-topic" href="${href("B", "topic", tt.key)}">${esc(tt.title)}<span>${tt.cases.length}</span></a>`).join("")}</div>` : ""}`).join("")}
+  </div>`).join("");
+  const select = `<select class="area-select" id="area-select" aria-label="Area">${SECTORS.map(sec => `<optgroup label="${sec.label}">${AREAS.filter(x => x.sector === sec.id).map(x => `<option value="${x.id}" ${x.id === a.id ? "selected" : ""}>${esc(x.title)} (${nCases(x)})</option>`).join("")}</optgroup>`).join("")}</select>`;
+  const list = `<header class="list-head"><p class="eyebrow">${SECTORS.find(x => x.id === a.sector).long}</p><h1>${areaTitle(a)}</h1><p>${esc(a.intro)}</p></header>
+    ${a.topics.map(tt => `<section class="l-issue" id="l-${tt.key}"><div class="l-issue-head"><h2>${esc(tt.title)}</h2>${keys(tt)}</div>
+      ${tt.cases.map(id => { const x = CASES[id]; return `<a class="l-row" href="${href("B", "case", id)}" aria-current="${id === c.id}"><b>${esc(x.pub)}</b> ${esc(x.claim)}</a>`; }).join("")}</section>`).join("")}`;
+  return `<div class="B">${siteBar("B", select)}<div class="reader">
+    <nav class="pane nav" aria-label="Areas">${nav}</nav>
+    <section class="pane list" id="b-list" aria-label="Cases">${list}</section>
+    <section class="pane detail" id="b-detail" aria-label="Case">${caseView(c, "B")}<div style="height:24px"></div>${pager(c, "B")}</section>
+  </div></div>`;
+}
+function afterB(s, prev) {
+  const listPane = document.getElementById("b-list");
+  const sel = document.querySelector('.l-row[aria-current="true"]');
+  const narrow = matchMedia("(max-width: 900px)").matches;
+  document.getElementById("area-select").addEventListener("change", e => { location.hash = href("B", "area", e.target.value); });
+  if (narrow) {
+    if (s.kind === "case") document.getElementById("b-detail").scrollIntoView({ block: "start" });
+    else window.scrollTo(0, 0);
+    return;
+  }
+  if (prev && prev.L === "B" && prev.listTop != null) listPane.scrollTop = prev.listTop;
+  if (s.kind === "topic") {
+    const sec = document.getElementById("l-" + s.id);
+    listPane.scrollTop = sec.offsetTop - listPane.offsetTop;
+  } else if (sel) {
+    const r = sel.getBoundingClientRect(), p = listPane.getBoundingClientRect();
+    if (r.top < p.top + 70 || r.bottom > p.bottom) sel.scrollIntoView({ block: "center" });
+  }
+  document.getElementById("b-detail").scrollTop = 0;
+}
+
+/* ================= C · Patterns ================= */
+let filterC = "all";
+function renderC(s) {
+  let body = "", drawer = "";
+  if (s.kind === "home" || s.kind === "area") {
+    const shown = AREAS.filter(a => filterC === "all" || a.sector === filterC);
+    const f = [["all", "All", TOTAL.topics], ...SECTORS.map(x => [x.id, x.label, AREAS.filter(a => a.sector === x.id).reduce((n, a) => n + a.topics.length, 0)])];
+    body = `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${intro}</p></section>
+      <div class="filters" role="group" aria-label="Filter by source">${f.map(([id, label, n]) => `<button type="button" data-f="${id}" aria-pressed="${filterC === id}">${label}<span>${n}</span></button>`).join("")}</div>
+      ${shown.map(a => `<section class="c-area" id="c-${a.id}">
+        <header class="c-area-head"><h2>${areaTitle(a)}</h2><p>${SECTORS.find(x => x.id === a.sector).label} · ${plural(nCases(a), "case", "cases")}</p></header>
+        <div class="grid">${a.topics.map(t => `<a class="card" href="${href("C", "topic", t.key)}">
+          <p class="card-t">${esc(t.title)}</p>
+          <dl class="pair"><div class="law"><dt>Law</dt><dd>${esc(t.lawKey)}</dd></div><div class="claim"><dt>Sources</dt><dd><span class="mark">${esc(t.claimKey)}</span></dd></div></dl>
+          <p class="card-n"><span>${plural(t.cases.length, "source", "sources")}</span><span aria-hidden="true">→</span></p>
+        </a>`).join("")}</div></section>`).join("")}`;
+  } else {
+    const c = s.kind === "case" ? CASES[s.id] : null;
+    const t = c ? topicOf(c) : TOPIC[s.id], a = AREA[t.area];
+    body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href("C")}">All issues</a><span>/</span><a href="${href("C", "area", a.id)}">${esc(a.title)}</a></nav>
+      <header class="c-topic-head"><p class="eyebrow">${esc(a.title)} · ${SECTORS.find(x => x.id === a.sector).label}</p><h1>${esc(t.title)}</h1>
+        <div class="big-pair"><div class="law"><span class="lab">The law</span><span class="big">${esc(t.lawKey)}</span></div>
+        <div class="claim"><span class="lab">What sources say</span><span class="big"><span class="mark">${esc(t.claimKey)}</span></span></div></div>
+        <p class="lede">${esc(t.law)} <a class="prov" href="${esc(t.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)} ↗</a></p></header>
+      <h2 class="list-h">${plural(t.cases.length, "source", "sources")}</h2>
+      <div class="rows">${t.cases.map(id => caseRow(CASES[id], "C")).join("")}</div>`;
+    if (c) drawer = `<div class="drawer" role="dialog" aria-modal="true" aria-label="Case"><a class="scrim" href="${href("C", "topic", t.key)}" aria-label="Close" tabindex="-1"></a>
+      <aside class="sheet" id="sheet"><div class="sheet-bar"><span class="eyebrow">Case ${t.cases.indexOf(c.id) + 1} of ${t.cases.length}</span><a class="close" href="${href("C", "topic", t.key)}">Close</a></div>
+      ${caseView(c, "C")}${pager(c, "C")}</aside></div>`;
+  }
+  return `<div class="C">${siteBar("C")}<main class="wrap">${body}</main>${drawer}</div>`;
+}
+function afterC(s, prev) {
+  document.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => {
+    filterC = b.dataset.f;
+    const y = scrollY; render(); scrollTo(0, Math.min(y, document.querySelector(".filters").offsetTop));
+  }));
+  const topicKey = x => x.kind === "case" ? topicOf(CASES[x.id]).key : x.kind === "topic" ? x.id : "";
+  if (s.kind === "case") {
+    document.body.style.overflow = "hidden";
+  }
+  if (s.kind === "area") document.getElementById("c-" + s.id).scrollIntoView({ block: "start" });
+  else if (!(prev && prev.L === "C" && topicKey(prev) && topicKey(prev) === topicKey(s))) window.scrollTo(0, 0);
+}
+
+/* ---------- render ---------- */
+let last = null;
+function render() {
+  const s = state();
+  const prev = last && Object.assign({}, last, { listTop: document.getElementById("b-list")?.scrollTop });
+  document.getElementById("root").innerHTML = protoBar(s) + (s.L === "A" ? renderA(s) : s.L[0] === "A" ? renderAS(s) : s.L === "B" ? renderB(s) : renderC(s));
+  document.documentElement.classList.toggle("reader-mode", s.L === "B");
+  document.body.style.overflow = "";
+  if (s.L[0] === "A") afterA(s);
+  if (s.L === "B") afterB(s, prev);
+  if (s.L === "C") afterC(s, prev);
+  last = s;
+}
+window.addEventListener("hashchange", render);
+document.addEventListener("keydown", e => {
+  const s = state();
+  if (e.key === "Escape" && s.L === "C" && s.kind === "case") location.hash = href("C", "topic", topicOf(CASES[s.id]).key);
+});
+render();
+</script>
