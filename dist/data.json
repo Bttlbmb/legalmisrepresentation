@@ -656,7 +656,8 @@
      "lawUrl": "https://eur-lex.europa.eu/eli/reg/2004/261/oj",
      "cases": [
       "airlines-air-france-scope",
-      "airlines-la-compagnie-scope"
+      "airlines-la-compagnie-scope",
+      "airlines-klm-third-country-scope"
      ]
     },
     {
@@ -695,6 +696,31 @@
       "airlines-austrian-intra-eu-delay-care",
       "airlines-lufthansa-intra-eu-reduction"
      ]
+    },
+    {
+     "id": "delay-compensation",
+     "title": "Compensation for delayed arrivals",
+     "lawKey": "Three hours; correct distance band",
+     "claimKey": "Higher limit or overbroad reduction",
+     "law": "On a covered flight, arrival at least three hours late can trigger Article 7 compensation, subject to a proven extraordinary-circumstances defence. The amount for all intra-EU flights over 1,500 km and other flights between 1,500 and 3,500 km is EUR 400. A delay over three hours on those routes does not meet the Article 7(2)(b) reduction condition.",
+     "provision": "Regulation 261/2004, Arts. 5–7; Sturgeon, joined C-402/07 and C-432/07, paras. 61–63, 69",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62007CJ0402",
+     "cases": [
+      "airlines-klm-intra-eu-delay-reduction",
+      "airlines-qatar-eu-departure-delay-table"
+     ]
+    },
+    {
+     "id": "rerouting-reduction",
+     "title": "Compensation reductions after rerouting",
+     "lawKey": "Three-hour arrival limit",
+     "claimKey": "Four-hour arrival limit",
+     "law": "For covered flights between 1,500 and 3,500 km outside the intra-EU category, Article 7(2)(b) allows compensation to be halved only when rerouting arrives no more than three hours late. Involuntary denied boarding isolates this rule from cancellation-notice exceptions.",
+     "provision": "Regulation 261/2004, Arts. 4(3), 7(1)(b), 7(2)(b)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0261",
+     "cases": [
+      "airlines-qatar-medium-haul-rerouting-reduction"
+     ]
     }
    ]
   },
@@ -729,7 +755,9 @@
       "roaming-proximus-alert-and",
       "roaming-yoigo-warning-cessation-and",
       "roaming-orange-es-warning-and",
-      "roaming-vodafone-es-warning-and"
+      "roaming-vodafone-es-warning-and",
+      "roaming-cableworld-home-presence-required",
+      "roaming-konecta-traffic-alone"
      ]
     },
     {
@@ -749,7 +777,8 @@
       "roaming-vodafone-pt-net-label",
       "roaming-orange-es-current-gross-data",
       "roaming-tesco-domestic-rate-for-fup",
-      "roaming-gomo-cy-fup-surcharge-maxima"
+      "roaming-gomo-cy-fup-surcharge-maxima",
+      "roaming-cableworld-ion-voice-cap"
      ]
     },
     {
@@ -823,13 +852,14 @@
      "id": "minimum",
      "title": "Too few travellers",
      "lawKey": "20 days’ notice",
-     "claimKey": "7 or 15 days",
+     "claimKey": "7–15 days",
      "law": "For trips longer than six days, the low-participant-number exemption requires the contractual minimum and deadline plus notice at least 20 days before departure. Later notice loses that particular exemption; it does not automatically prove a damages award.",
      "provision": "Directive 2015/2302, Art. 12(3)(a)",
      "lawUrl": "https://eur-lex.europa.eu/eli/dir/2015/2302/oj",
      "cases": [
       "package-exoticca-minimum",
-      "package-gestravel-minimum"
+      "package-gestravel-minimum",
+      "package-frauen-unterwegs-minimum"
      ]
     },
     {
@@ -857,6 +887,399 @@
      "lawUrl": "https://eur-lex.europa.eu/eli/dir/2015/2302/oj",
      "cases": [
       "package-beltrame-itinerary"
+     ]
+    },
+    {
+     "id": "claims-deadlines",
+     "title": "Claim deadlines after a trip",
+     "lawKey": "Two years, with prompt defect notice",
+     "claimKey": "One-month claim cutoff",
+     "law": "For German package contracts concluded from 1 July 2018, statutory defect remedies have a two-year limitation period from the contractual end of the trip. A separate one-month post-trip claim cutoff cannot reduce those rights. Travellers must still notify defects without undue delay; culpable failure limits price reduction and damages only to the extent it prevented the organiser from remedying the defect.",
+     "provision": "BGB §§651j, 651o and 651y; EGBGB Art.229 §42",
+     "lawUrl": "https://www.gesetze-im-internet.de/bgb/__651j.html",
+     "cases": [
+      "package-frauen-unterwegs-claims-deadline",
+      "package-exo-tours-claims-deadline",
+      "package-forum-travel-claims-deadline"
+     ]
+    },
+    {
+     "id": "return-costs",
+     "title": "Return transport after ending a disrupted trip",
+     "lawKey": "Organiser bears extra return costs",
+     "claimKey": "Traveller pays half",
+     "law": "If a qualifying package is terminated under BGB §651l for a substantial travel defect and includes carriage, the organiser must arrange equivalent return transport and bear its additional cost. Remedy deadlines and statutory exceptions matter. An extraordinary event alone does not establish this termination right.",
+     "provision": "BGB §§651l(1), (3), 651k and 651y; Directive 2015/2302 Art.13(6)",
+     "lawUrl": "https://www.gesetze-im-internet.de/bgb/__651l.html",
+     "cases": [
+      "package-frauen-unterwegs-return-costs",
+      "package-exo-tours-return-costs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rail",
+   "sector": "biz",
+   "title": "EU rail passenger rights",
+   "titleNative": "",
+   "intro": "Company guidance on refunds, rerouting, compensation and assistance for rail journeys covered by EU rules.",
+   "publishers": "Rail operators and ticket sellers",
+   "law": "Regulation (EU) 2021/782 on rail passengers’ rights and obligations",
+   "lawShort": "EU law",
+   "where": "Rail journeys within the EU, subject to service and national exemptions",
+   "whereShort": "",
+   "topics": [
+    {
+     "id": "payment",
+     "title": "Money instead of vouchers",
+     "lawKey": "Money on request",
+     "claimKey": "Voucher only or card required",
+     "law": "Where EU delay compensation is due, the passenger can request payment in money. The statutory amount cannot be made voucher-only because the passenger lacks a Visa or Mastercard. Reimbursement after a qualifying cancellation may take the form of a sufficiently flexible voucher only if the passenger agrees. Voluntary voucher uplifts are separate.",
+     "provision": "Regulation (EU) 2021/782, Arts. 18(5), 19(7)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+     "cases": [
+      "rail-ouigo-spain-compensation-card",
+      "rail-sncf-connect-ouigo-voucher-only"
+     ]
+    },
+    {
+     "id": "cancellation-choice",
+     "title": "Choices after cancellation or delay",
+     "lawKey": "Expected final delay of at least 60 minutes",
+     "claimKey": "Choices narrowed by extra timing conditions",
+     "law": "If cancellation, a missed connection or departure disruption makes arrival at the contractual final destination reasonably expected to be at least 60 minutes late, the operator must immediately offer a choice of qualifying reimbursement, comparable continuation or rerouting at the earliest opportunity, or comparable travel later at the passenger’s convenience. A refund need not wait for alternatives to fail. The choice is not lost because a request follows the original departure time or a night train is less than 180 minutes late at departure. Expected arrival must allow for time the train can realistically recover.",
+     "provision": "Regulation (EU) 2021/782, Art. 18(1)–(2)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+     "cases": [
+      "rail-sncf-connect-ouigo-refund-fallback",
+      "rail-leoexpress-rebooking-departure-deadline",
+      "rail-snalltaget-night-train-180-minute-trigger"
+     ]
+    },
+    {
+     "id": "rerouting-costs",
+     "title": "Costs of an alternative journey",
+     "lawKey": "Qualifying rerouting costs repaid",
+     "claimKey": "No costs if arrival delay is under 60 minutes",
+     "law": "When the original disruption is expected to delay arrival by at least 60 minutes, Article 18 provides a choice of refund or continuation/rerouting. A carrier-authorised alternative, or necessary, appropriate and reasonable public rail/coach/bus transport booked after 100 minutes without rerouting information, can be reimbursable even if it gets the passenger to the destination less than 60 minutes late. The under-60-minute exception removes delay compensation under Article 19, not qualifying rerouting costs under Article 18.",
+     "provision": "Regulation (EU) 2021/782, Arts. 18(1)–(3), 19(9)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+     "cases": [
+      "rail-oebb-rerouting-costs",
+      "rail-westbahn-rerouting-costs"
+     ]
+    },
+    {
+     "id": "compensation-threshold",
+     "title": "The minimum payment threshold",
+     "lawKey": "Threshold no higher than €4 per ticket",
+     "claimKey": "Boundary or currency rounding excludes valid payments",
+     "law": "Railway undertakings may set a minimum threshold below which delay compensation is not paid. The threshold may not exceed €4 per ticket, so an otherwise valid compensation amount of exactly €4 cannot be excluded. Conversion into another currency does not permit rounding the threshold upwards so that valid amounts worth more than €4 are withheld.",
+     "provision": "Regulation (EU) 2021/782, Art. 19(8)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+     "cases": [
+      "rail-flixtrain-four-euro-threshold",
+      "rail-vr-sweden-rounded-payment-threshold"
+     ]
+    },
+    {
+     "id": "speed-restrictions",
+     "title": "Delays caused by infrastructure restrictions",
+     "lawKey": "Infrastructure acts do not erase compensation",
+     "claimKey": "No compensation for Adif speed limits",
+     "law": "For covered journeys, the EU minimum is 25% of the ticket price after 60–119 minutes and 50% after 120 minutes or more. Acts or omissions of the infrastructure manager do not qualify for the third-party exemption. A separate exception can still apply, including a delay disclosed before purchase or a qualifying extraordinary external event.",
+     "provision": "Regulation (EU) 2021/782, Art. 19(1), (9)–(10)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+     "cases": [
+      "rail-renfe-adif-speed-limits"
+     ]
+    },
+    {
+     "id": "assistance-notice",
+     "title": "Notice before disability assistance",
+     "lawKey": "24 hours before assistance is needed",
+     "claimKey": "36 or 48 hours for international assistance",
+     "law": "For covered journeys, a single notification at least 24 hours before assistance is needed satisfies Article 24(a). The temporary permission to extend that period to 36 hours ended on 30 June 2026. At a staffed station with trained staff on duty, timely notified boarding, transfer and alighting assistance must be ensured under Article 23(1)(e). Access rules, train and station accessibility, and timely arrival at the designated meeting point still matter. Adding a specially equipped carriage is a different service.",
+     "provision": "Regulation (EU) 2021/782, Arts. 23(1)(e), 24(a), (c), (e)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+     "cases": [
+      "rail-cd-international-assistance-36-hours",
+      "rail-bob-international-assistance-48-hours"
+     ]
+    },
+    {
+     "id": "rerouting-force-majeure",
+     "title": "Refunds and replacement travel during extraordinary events",
+     "lawKey": "Refund and rerouting rights remain",
+     "claimKey": "Force-majeure exception",
+     "law": "When disruption makes a delay of at least 60 minutes reasonably expected at the contractual destination, Article 18 gives a choice of reimbursement or comparable continuation/rerouting. The extraordinary-circumstances exception in Article 19(10) concerns delay compensation; it does not erase the Article 18 choices.",
+     "provision": "Regulation (EU) 2021/782, Art. 18(1)–(3), 19(10)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+     "cases": [
+      "rail-omio-through-ticket-force-majeure"
+     ]
+    },
+    {
+     "id": "retailer-separate-contracts",
+     "title": "When a retailer combines separate tickets",
+     "lawKey": "Pre-purchase notice also required",
+     "claimKey": "Ticket disclaimer is enough",
+     "law": "Where a ticket vendor combines tickets on its own initiative in one commercial transaction and a connection is missed, Article 12(4) requires reimbursement of the transaction’s ticket price plus 75%. To escape that liability under Article 12(5), separate contracts must be recorded in a reproducible form and the passenger must also have been informed before purchase. The seller bears the proof burden.",
+     "provision": "Regulation (EU) 2021/782, Art. 12(4)–(7)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+     "cases": [
+      "rail-raileurope-retailer-prior-notice"
+     ]
+    },
+    {
+     "id": "compensation-bands",
+     "title": "The delay needed for 50% compensation",
+     "lawKey": "50% from 120 minutes",
+     "claimKey": "50% from 60 minutes",
+     "law": "For an eligible covered journey, Article 19(1) sets minimum compensation of 25% of the ticket price at 60–119 minutes and 50% at 120 minutes or more. A carrier may grant more, but Trenitalia’s checked standard compensation also uses these bands. Its separate Frecce bonus for 30–59 minutes does not increase the 60–119-minute payment.",
+     "provision": "Regulation (EU) 2021/782, Art. 19(1), (7)–(10)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+     "cases": [
+      "rail-trainline-trenitalia-sixty-minute-band"
+     ]
+    },
+    {
+     "id": "through-tickets",
+     "title": "Protection for connecting journeys",
+     "lawKey": "One transaction can cover several tickets",
+     "claimKey": "Different tickets always separate contracts",
+     "law": "For a connecting journey bought in a single commercial transaction from a railway undertaking, Article 12(3) treats a ticket or tickets as a through-ticket. The Article 12(5) exception requires both prior-purchase information and reproducible separate-contract information on the tickets or another document. The physical number of tickets alone does not decide protection.",
+     "provision": "Regulation (EU) 2021/782, Art.12(2)–(6)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+     "cases": [
+      "rail-trenord-separate-ticket-contracts"
+     ]
+    },
+    {
+     "id": "refund-known-delay",
+     "title": "Refunds when a delay was known before purchase",
+     "lawKey": "Refund option can remain",
+     "claimKey": "Prior notice excludes the refund section",
+     "law": "Article 18(1)(a) retains the refund option where at least 60 minutes of arrival delay is reasonably expected against the still-applicable contractual timetable. Prior knowledge before buying excludes Article 19 percentage compensation under Article 19(9), rather than supplying a general Article 18 refund exception. A valid revised contractual timetable may affect whether the qualifying delay exists.",
+     "provision": "Regulation (EU) 2021/782, Articles 3(17), 18(1)(a) and 19(9)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+     "cases": [
+      "rail-snalltaget-known-delay-refund"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "banking",
+   "sector": "biz",
+   "title": "Basic bank accounts",
+   "titleNative": "",
+   "intro": "EU rights to a bank account for everyday payments, as implemented in each country.",
+   "publishers": "Banks and financial companies",
+   "law": "EU Payment Accounts Directive and national implementing laws",
+   "lawShort": "EU and national law",
+   "where": "Statutory basic payment accounts in the EU",
+   "whereShort": "Basic payment accounts in the EU",
+   "topics": [
+    {
+     "id": "residence",
+     "title": "Living in another EU country",
+     "lawKey": "Lawful EU residence",
+     "claimKey": "Local residents only",
+     "law": "Consumers lawfully resident in the EU can qualify for statutory basic payment accounts across Member States. A bank’s local-residence condition must have a lawful national basis. Italy and Belgium give the relevant EU-resident right without requiring domestic residence. Identity, anti-money-laundering checks and enacted refusal conditions remain.",
+     "provision": "Directive 2014/92/EU Arts. 15–16; Italy TUB Arts. 126-noviesdecies–126-vicies; Belgium CDE VII.56/1, VII.57–59",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0092",
+     "cases": [
+      "banking-isybank-residence",
+      "banking-beobank-belgium-principal-residence"
+     ]
+    },
+    {
+     "id": "access",
+     "title": "Eligibility for a standard account",
+     "lawKey": "A right to choose the basic account",
+     "claimKey": "Only if standard account unavailable",
+     "law": "Maltese law gives qualifying consumers a right to a basic payment account. Being eligible for a commercial standard account does not itself remove that right. National genuine-interest, equivalent-account and anti-money-laundering conditions still apply.",
+     "provision": "Directive 2014/92/EU Art. 16; Malta L.N.258/2026 Reg.44; MFSA R.5.6.143–155 (applicable6 October 2026)",
+     "lawUrl": "https://www.mfsa.mt/wp-content/uploads/2025/02/Conduct-of-Business-Rulebook-for-Credit-Institutions-Offering-Retail-Products-and-Services.pdf",
+     "cases": [
+      "banking-bnf-standard-account-eligibility"
+     ]
+    },
+    {
+     "id": "free-account-income",
+     "title": "Free accounts in Spain",
+     "lawKey": "3 / 3.5 / 4 × IPREM",
+     "claimKey": "2 / 2.5 / 3 × IPREM",
+     "law": "Since 28 December 2022, Spain’s ordinary income ceilings for free basic accounts are 3, 3.5 or 4 times the annual twelve-payment IPREM, depending on the family unit. Other statutory conditions and proof remain necessary.",
+     "provision": "Directive 2014/92/EU, Art. 18(4); Spain RD 164/2019, Arts. 2–4; RDL 20/2022, Art. 75",
+     "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-4906&p=20221228&tn=1",
+     "cases": [
+      "banking-caixa-popular-obsolete-free-account-thresholds"
+     ]
+    },
+    {
+     "id": "belgium-asset-ceiling",
+     "title": "Savings limits in Belgium",
+     "lawKey": "€10,239.43 in 2026",
+     "claimKey": "€10,000 ceiling",
+     "law": "Belgium permits an asset-based refusal where the relevant cumulative average annual credit balance exceeds the statutory ceiling, excluding the specified rental guarantees. The Royal Decree of 17 July 2024 raised the base amount from €6,000 to €10,000 from 1 December 2024 and introduced annual indexation. The official Gazette notice 2025009110 fixes €10,239.43 from 1 January 2026 under CDE VII.59 § 1 and § 2. Thus a balance above €10,000 but below €10,239.43 is not by itself this refusal ground. A qualifying lawful-residence status, no usable equivalent Belgian payment account (subject to closure notice), and AML/identity requirements remain necessary. This finding addresses savings balances only, not the separate treatment of consumer-credit contracts.",
+     "provision": "Belgium CDE VII.59 §§ 1–2; Royal Decree 17 July 2024, Arts. 1–3; Gazette notice 2025009110, effective 1 January 2026",
+     "lawUrl": "https://www.ejustice.just.fgov.be/mopdf/2025/12/03_1.pdf",
+     "cases": [
+      "banking-crelan-unindexed-asset-ceiling",
+      "banking-revolut-be-unindexed-asset-ceiling"
+     ]
+    },
+    {
+     "id": "belgium-termination-notice",
+     "title": "Notice before a basic account is closed",
+     "lawKey": "Two months for ordinary eligibility loss",
+     "claimKey": "Immediate closure",
+     "law": "Termination for loss of the residence condition, inactivity exceeding 24 consecutive months, or a qualifying other Belgian account/balance ordinarily requires at least two months’ notice. Immediate effect is limited to the specified convictions within the last five years, intentional illegal use or eligibility-changing false information. Other legal duties and the statutory conditions for each ground remain relevant.",
+     "provision": "Directive 2014/92/EU Art. 19; Belgium CDE VII.59 § 2; Law of 20 April 2026 Art. 7 (effective 17 May 2026)",
+     "lawUrl": "https://www.ejustice.just.fgov.be/mopdf/2018/01/12_1.pdf",
+     "cases": [
+      "banking-revolut-be-immediate-residence-termination",
+      "banking-beobank-no-notice-eligibility-loss"
+     ]
+    },
+    {
+     "id": "supported-country",
+     "title": "Basic accounts beyond commercial markets",
+     "lawKey": "Lawful EU residence",
+     "claimKey": "Only supported countries",
+     "law": "German basic-account eligibility covers consumers lawfully resident in the EU. A bank’s ordinary supported-country list is not an additional statutory refusal ground. Statutory identity, anti-money-laundering, existing usable domestic account and other specified refusal grounds remain.",
+     "provision": "Directive 2014/92/EU, Arts. 15–16; German ZKG §§3,31–37",
+     "lawUrl": "https://www.gesetze-im-internet.de/zkg/BJNR072010016.html",
+     "cases": [
+      "banking-n26-supported-country"
+     ]
+    },
+    {
+     "id": "inactivity",
+     "title": "Closing an inactive basic account",
+     "lawKey": "More than 24 consecutive months",
+     "claimKey": "One inactive year",
+     "law": "In Germany, inactivity alone can justify terminating a basic account only after more than 24 consecutive months without an account-holder-initiated payment transaction, if that termination right was agreed, and with at least two months’ notice. Other statutory termination grounds remain separate.",
+     "provision": "Directive 2014/92/EU, Art. 19(2)(b),(4); German ZKG §42(1)–(5)",
+     "lawUrl": "https://www.gesetze-im-internet.de/zkg/BJNR072010016.html",
+     "cases": [
+      "banking-n26-one-year-inactivity"
+     ]
+    },
+    {
+     "id": "portugal-included-transfers",
+     "title": "Transfers included in Portugal",
+     "lawKey": "48 transfers a year",
+     "claimKey": "24 transfers a year",
+     "law": "Portugal’s capped basic-account package includes 48 interbank transfers per calendar year through homebanking or the bank’s own applications. This expanded entitlement has applied since 27 August 2023. Additional services and transfers beyond the statutory bundle can have separate charges. ATM transfers and the separate third-party-app allowance have their own rules.",
+     "provision": "Directive 2014/92/EU, Art. 17; Portugal DL 27-C/2000 Art. 3(1)–(3), amended by Lei 24/2023 Art. 6; Art. 12(3)",
+     "lawUrl": "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2000-106398173",
+     "cases": [
+      "banking-activobank-obsolete-transfer-allowance"
+     ]
+    },
+    {
+     "id": "portugal-2026-fee-cap",
+     "title": "Portugal’s annual fee ceiling in 2026",
+     "lawKey": "€5.37 a year in 2026",
+     "claimKey": "€5.23 a year in 2026",
+     "law": "Portuguese law caps the annual combined charges for the statutory basic-account bundle at 1% of the Social Support Index (IAS). For 2026 the IAS is €537.13, so the cap expressed in cents is €5.37. A bank may charge less; the cap does not fix the bank’s price. Extra services outside the bundle remain separately chargeable.",
+     "provision": "Portugal DL 27-C/2000 Art. 3(1)–(3); Portaria 480-A/2025/1 Arts. 2,4",
+     "lawUrl": "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2000-106398173",
+     "cases": [
+      "banking-abanca-portugal-obsolete-2026-fee-cap"
+     ]
+    },
+    {
+     "id": "termination-notice",
+     "title": "Notice before closing a basic account",
+     "lawKey": "At least two months",
+     "claimKey": "No prior notice",
+     "law": "Loss of lawful EU residence can justify terminating a Maltese basic account, but this ground ordinarily requires at least two months’ prior notice with written reasons. Deliberate illegal use and eligibility-changing false information have separate immediate-effect rules; security, public-policy, failed-notice and other legal qualifications remain relevant.",
+     "provision": "Directive 2014/92/EU Art. 19; Malta L.N.258/2026 Reg.44; MFSA R.5.6.164–169 (applicable6 October 2026)",
+     "lawUrl": "https://www.mfsa.mt/wp-content/uploads/2025/02/Conduct-of-Business-Rulebook-for-Credit-Institutions-Offering-Retail-Products-and-Services.pdf",
+     "cases": [
+      "banking-hsbc-malta-termination-notice"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "returns",
+   "sector": "biz",
+   "title": "Online shopping returns",
+   "titleNative": "",
+   "intro": "EU withdrawal rights and related German rules for sending online purchases back, checked against German-language webshop guidance.",
+   "publishers": "German-language webshops",
+   "law": "Consumer Rights Directive 2011/83/EU · German Civil Code (BGB)",
+   "lawShort": "EU and German law",
+   "where": "Consumers shopping online in Germany",
+   "whereShort": "Germany",
+   "topics": [
+    {
+     "id": "condition",
+     "title": "Opened packaging and examined goods",
+     "lawKey": "Examination allowed",
+     "claimKey": "Unopened or boxed only",
+     "law": "For a German consumer’s distance purchase of ordinary goods, opening or losing the original packaging is not a general exception to withdrawal. Article 14(2) of Directive 2011/83/EU and BGB § 357a(1) distinguish the continuing right from liability for an actual loss of value caused by handling beyond what is necessary to examine the goods. German law also requires the prescribed withdrawal information before that liability arises. Specific exceptions remain, including genuinely unsuitable unsealed hygiene goods and unsealed audio, video or software, under Article 16 and BGB § 312g(2).",
+     "provision": "Directive 2011/83/EU, Articles 9, 14(2), 16; BGB §§ 312g, 355, 357a(1)",
+     "lawUrl": "https://www.gesetze-im-internet.de/bgb/__357a.html",
+     "cases": [
+      "returns-mercedes-original-packaging",
+      "returns-shr-unopened-packaging",
+      "returns-cwt-original-seal"
+     ]
+    },
+    {
+     "id": "exceptions",
+     "title": "Hygiene exclusions",
+     "lawKey": "A narrow hygiene exception",
+     "claimKey": "A whole category excluded",
+     "law": "For ordinary online consumer goods purchases, withdrawal is generally available for 14 days. The hygiene exception requires goods genuinely unsuitable for return for health or hygiene reasons, supplied sealed, with that seal removed after delivery. A hygiene label alone does not remove the right, and an intact seal cannot trigger this exception. The CJEU also held that removing a mattress’s protective film does not by itself remove withdrawal rights. Other statutory exceptions, including genuine personalisation, remain possible.",
+     "provision": "Directive 2011/83/EU, Arts. 9(1), 16(e); BGB § 312g(1), (2) no. 3; CJEU C-681/17, paras. 34–48",
+     "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+     "cases": [
+      "returns-bestnature-duvet-hygiene",
+      "returns-chantelle-period-panties-hygiene"
+     ]
+    },
+    {
+     "id": "deadlines",
+     "title": "Time to send goods back",
+     "lawKey": "14 days after withdrawal",
+     "claimKey": "14 days after delivery",
+     "law": "For ordinary online goods purchases, consumers normally have 14 days after delivery to declare withdrawal. They must then send the goods back without undue delay and within 14 days after declaring withdrawal. Timely dispatch meets the return deadline; the trader need not receive them within that period.",
+     "provision": "Directive 2011/83/EU, Arts. 9, 11, 14(1) · BGB §§ 355(3), 356(2), 357(1)",
+     "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
+     "cases": [
+      "returns-espadrij-dispatch-after-delivery"
+     ]
+    },
+    {
+     "id": "refunds",
+     "title": "Refunding delivery charges",
+     "lawKey": "Standard delivery refunded",
+     "claimKey": "Delivery charges excluded",
+     "law": "After withdrawal from the whole online purchase, the trader refunds payments including the charge for its cheapest standard outbound delivery. The extra charge for a more expensive delivery option need not be refunded. Properly disclosed direct return postage can remain the consumer’s responsibility.",
+     "provision": "Directive 2011/83/EU, Art. 13(1)–(3) · BGB § 357(1)–(5)",
+     "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
+     "cases": [
+      "returns-espadrij-excludes-outbound-delivery"
+     ]
+    },
+    {
+     "id": "procedure",
+     "title": "Flat return-processing fees",
+     "lawKey": "No administration penalty",
+     "claimKey": "Flat handling deduction",
+     "law": "Exercising statutory withdrawal does not permit a flat administration or processing fee. Disclosed direct return costs may be payable, and compensation can be owed for actual diminished value caused by handling beyond what was necessary to inspect the goods, provided the required notice was given.",
+     "provision": "Directive 2011/83/EU, Arts. 9(1), 14(1), (2), (5) · BGB §§ 357(5), 357a(1)",
+     "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
+     "cases": [
+      "returns-coilex-flat-administration-fee"
      ]
     }
    ]
@@ -5734,6 +6157,130 @@
     }
    ]
   },
+  "airlines-klm-third-country-scope": {
+   "id": "airlines-klm-third-country-scope",
+   "area": "airlines",
+   "topic": "scope",
+   "pub": "KLM",
+   "src": "Passenger Rights, When you’re eligible",
+   "claim": "makes local regulation alone an exclusion from EU rights on inbound EU-carrier flights.",
+   "quote": "unless local legal regulation applies in that third country.",
+   "lang": "English",
+   "tr": "",
+   "law": "Article 3(1)(b), interpreted in van der Lans paragraphs 27–29, does not make any local regulation an automatic exclusion. The court requires an assessment of equivalent protection; actual receipt need not always be proved.",
+   "sourceUrl": "https://www.klm.com/information/legal/passenger-rights",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62014CJ0257",
+   "example": "Hypothetical: An eligible passenger on a KLM-operated non-EU–Amsterdam flight faces a cancellation. The departure country regulates some air-passenger compensation, but equivalence of its purpose, eligibility conditions and implementation has not been established. Those local rules alone do not displace EU261.",
+   "context": "Opening eligibility bullet checked together with the full cancellation, delay, denied-boarding and claims sections. Later references say local schemes may apply but do not qualify the blanket opening exception. The live legal-information hub links this notice, which in turn links the July 2021 PDF; both repeat the same scope condition.",
+   "scope": "Only non-EU departures into the EU actually operated by an EU carrier, with ordinary eligibility met. Equivalent third-country protection can exclude EU261; this finding does not promise duplicate recovery or require proof of actual receipt in every case.",
+   "date": "2026-10-18",
+   "langs": [
+    "English"
+   ],
+   "countries": [],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "unless local legal regulation applies in that third country.",
+     "tr": "",
+     "url": "https://www.klm.com/information/legal/passenger-rights",
+     "site": "klm.com/information/legal"
+    }
+   ]
+  },
+  "airlines-klm-intra-eu-delay-reduction": {
+   "id": "airlines-klm-intra-eu-delay-reduction",
+   "area": "airlines",
+   "topic": "delay-compensation",
+   "pub": "KLM",
+   "src": "Passenger Rights, general Air France/KLM notice, 2.2 Delay compensation",
+   "claim": "publishes a general Air France/KLM notice permitting a 50% delay-compensation reduction by distance alone above 3,500 km.",
+   "quote": "may be reduced by 50% for flights of more than 3500 km",
+   "lang": "English",
+   "tr": "",
+   "law": "Sturgeon paragraph 63 allows the long-flight delay reduction by reference to Article 7(2)(c), which excludes the intra-EU category. An intra-EU flight over 1,500 km arriving 3h30 late attracts the EUR 400 Article 7(1)(b) amount if otherwise eligible; distance over 3,500 km alone does not permit halving it.",
+   "sourceUrl": "https://www.klm.com/information/legal/passenger-rights",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62007CJ0402",
+   "example": "Hypothetical: An eligible passenger on an Air France-operated Paris–Saint-Denis de la Réunion flight arrives 3h30 late for an ordinary operational reason. Both airports are within EU territory and the route exceeds 3,500 km. With no extraordinary-circumstances defence, Article 7(1)(b) gives EUR 400; the generic Air France/KLM notice published by KLM permits a 50% reduction despite Article 7(2)(b)’s three-hour limit being exceeded.",
+   "context": "The opening eligibility conditions describe EU261 generally, and section 5 refers readers to Air France or KLM; the linked PDF also names both. The finding concerns KLM’s publication of that general notice for an Air France-operated journey. It does not assert that KLM operates Paris–Réunion. The cash table correctly puts all intra-EU flights over 1,500 km in band B at EUR 400, and the cancellation/denied-boarding footnotes use A/B/C categories. The delay footnote instead uses distance alone. Linked PDF physical page 4 repeats it; page 6 names Air France/KLM customer care. No actual payment is established.",
+   "scope": "General EU261 notice published by KLM and referring to Air France/KLM, applied to an eligible Air France-operated intra-EU flight over 3,500 km arriving more than three and less than four hours late, absent a proven extraordinary-circumstances defence. Air France’s official summer 2026 network release establishes the Paris–Réunion route category; TFEU Article 355(1) places Réunion within Treaty territory. No KLM-operated route of this length within the EU is asserted.",
+   "date": "2026-10-18",
+   "langs": [
+    "English"
+   ],
+   "countries": [],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "may be reduced by 50% for flights of more than 3500 km",
+     "tr": "",
+     "url": "https://www.klm.com/information/legal/passenger-rights",
+     "site": "klm.com/information/legal"
+    }
+   ]
+  },
+  "airlines-qatar-eu-departure-delay-table": {
+   "id": "airlines-qatar-eu-departure-delay-table",
+   "area": "airlines",
+   "topic": "delay-compensation",
+   "pub": "Qatar Airways",
+   "src": "EU Air passenger rights, compensation table for EU departures",
+   "claim": "lists a four-hour threshold for EUR 400 delay compensation on EU departures of 1,500–3,500 km.",
+   "quote": "4 hours or more",
+   "lang": "English",
+   "tr": "",
+   "law": "For a covered flight between 1,500 and 3,500 km arriving over three but under four hours late, Sturgeon paragraphs 61–63 and Article 7(1)(b) provide EUR 400, subject to ordinary eligibility and the extraordinary-circumstances defence. The separate table’s four-hour starting point conflicts with that rule.",
+   "sourceUrl": "https://www.qatarairways.com/en/legal/eu-air-passenger-rights.html",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62007CJ0402",
+   "example": "Hypothetical: An eligible passenger on a Qatar Airways-operated EU–Doha flight between 1,500 and 3,500 km arrives 3h30 late for an ordinary operational reason. No extraordinary-circumstances defence applies. The applicable amount is EUR 400, although the EU-to-non-EU delay table starts that amount at four hours.",
+   "context": "The Delays prose immediately before the tables correctly states a three-hour arrival threshold. The table specifically headed Compensation for departure (delays) – From an EU airport to a non-EU airport lists four hours for the 1,500–3,500 km row at EUR 400. This is a contradictory table, not a claim that the whole page or Qatar’s actual claims handling uniformly denies three-hour claims. The complete cancellation, denied-boarding and extraordinary-circumstances sections were also read.",
+   "scope": "Covered EU departures actually operated by Qatar Airways, journey between 1,500 and 3,500 km, final-arrival delay more than three and less than four hours, with ordinary eligibility and no valid extraordinary-circumstances defence. No allegation about Qatar-operated third-country–EU arrivals.",
+   "date": "2026-10-18",
+   "langs": [
+    "English"
+   ],
+   "countries": [],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "4 hours or more",
+     "tr": "",
+     "url": "https://www.qatarairways.com/en/legal/eu-air-passenger-rights.html",
+     "site": "qatarairways.com/en/legal"
+    }
+   ]
+  },
+  "airlines-qatar-medium-haul-rerouting-reduction": {
+   "id": "airlines-qatar-medium-haul-rerouting-reduction",
+   "area": "airlines",
+   "topic": "rerouting-reduction",
+   "pub": "Qatar Airways",
+   "src": "EU Air passenger rights, cancellation or denied-boarding compensation table",
+   "claim": "shows half compensation for rerouted EU departures of 1,500–3,500 km arriving up to four hours late.",
+   "quote": "3 hours or more (not exceeding 4 hours)",
+   "lang": "English",
+   "tr": "",
+   "law": "Article 7(2)(b) allows the EUR 400 amount to be reduced to EUR 200 only when alternative-flight arrival is no more than three hours late on a 1,500–3,500 km journey. The table’s EUR 200 row extending to four hours is too broad.",
+   "sourceUrl": "https://www.qatarairways.com/en/legal/eu-air-passenger-rights.html",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0261",
+   "example": "Hypothetical: An eligible passenger is involuntarily denied boarding on a Qatar Airways-operated EU–Doha journey between 1,500 and 3,500 km. Alternative transport arrives 3h30 late. Article 4(3) and Article 7 require EUR 400; Article 7(2)(b) does not permit the EUR 200 result displayed in the table.",
+   "context": "The prose above the table says compensation may be reduced according to two-, three- or four-hour distance bands but does not assign each band. In the Cancellation or denied boarding section, the EU-to-non-EU table explicitly assigns EUR 200 to the 1,500–3,500 km row at three to four hours. A later row shows EUR 400 from four hours, producing an overlap at exactly four; the example deliberately uses 3h30. The page separately states overall compensation of EUR 250–600.",
+   "scope": "Only involuntary denied boarding on covered Qatar-operated EU departures between 1,500 and 3,500 km, ordinary eligibility met, rerouted final arrival more than three and less than four hours late. Denial is not based on reasonable health, safety, security or documentation grounds. Voluntary surrender and cancellation notice exceptions are outside the example.",
+   "date": "2026-10-18",
+   "langs": [
+    "English"
+   ],
+   "countries": [],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "3 hours or more (not exceeding 4 hours)",
+     "tr": "",
+     "url": "https://www.qatarairways.com/en/legal/eu-air-passenger-rights.html",
+     "site": "qatarairways.com/en/legal"
+    }
+   ]
+  },
   "roaming-go-fair-use-or": {
    "id": "roaming-go-fair-use-or",
    "area": "roaming",
@@ -6736,6 +7283,105 @@
     }
    ]
   },
+  "roaming-cableworld-home-presence-required": {
+   "id": "roaming-cableworld-home-presence-required",
+   "area": "roaming",
+   "topic": "fairuse",
+   "pub": "Cableworld",
+   "src": "Roaming en Europa: tarifas, cobertura y cómo funciona con cableworld",
+   "claim": "says EU law requires you to spend more time in your home country.",
+   "quote": "la regulación europea exige que pases más tiempo en tu país de residencia que en el extranjero dentro de una ventana móvil de 4 meses.",
+   "lang": "Spanish",
+   "tr": "EU regulation requires you to spend more time in your country of residence than abroad within a rolling four-month window.",
+   "law": "The ordinary four-month control observes presence and consumption cumulatively. Prevailing domestic consumption is a safe harbour even when domestic presence does not predominate; separate residence/stable-links requirements and abuse grounds still apply.",
+   "sourceUrl": "https://cableworld.es/blog/roaming-en-europa-tarifas-y-cobertura/",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02016R2286-20190313",
+   "example": "Hypothetical: an eligible Spanish-home periodic traveller has 70 days registered elsewhere in the EU and 50 days registered in Spain in the observed four months, but 70% of the relevant voice consumption occurs in Spain. With no separate abuse ground, domestic consumption prevents the ordinary warning/surcharge despite foreign presence predominating.",
+   "context": "The permanent-use section first discusses more than four continuous months abroad and then gives a wider categorical explanation of EU law based only on home presence. The linked October 2026 tariff pack, physical pages 35 and 87, instead correctly states cumulative foreign presence AND consumption. This narrows the finding to the explanatory guide.",
+   "scope": "Default regulated terrestrial EU roaming for normally resident/stably linked Spanish-home customers engaged in periodic travel, under the ordinary presence-and-consumption control. Excludes permanent relocation, failure to establish eligibility, SIM inactivity/sequential-SIM abuse, alternative tariffs and lawful sustainability derogations.",
+   "date": "2026-10-18",
+   "langs": [
+    "Spanish"
+   ],
+   "countries": [
+    "ES"
+   ],
+   "versions": [
+    {
+     "lang": "Spanish",
+     "quote": "la regulación europea exige que pases más tiempo en tu país de residencia que en el extranjero dentro de una ventana móvil de 4 meses.",
+     "tr": "EU regulation requires you to spend more time in your country of residence than abroad within a rolling four-month window.",
+     "url": "https://cableworld.es/blog/roaming-en-europa-tarifas-y-cobertura/",
+     "site": "cableworld.es"
+    }
+   ]
+  },
+  "roaming-konecta-traffic-alone": {
+   "id": "roaming-konecta-traffic-alone",
+   "area": "roaming",
+   "topic": "fairuse",
+   "pub": "Konecta Canarias",
+   "src": "Roaming libre en Europa",
+   "claim": "describes higher roaming use alone as excessive use that can trigger a surcharge.",
+   "quote": "se considera uso excesivo cuando en un periodo seguido de 4 meses haces un mayor uso de tu línea en roaming que en España.",
+   "lang": "Spanish",
+   "tr": "Use is considered excessive when, over four consecutive months, you use your line more in roaming than in Spain.",
+   "law": "Higher roaming consumption alone does not establish abuse under the ordinary four-month control. Prevailing domestic presence is a safe harbour. A mere continuation of some roaming after warning is also insufficient if changed use demonstrates domestic presence or consumption.",
+   "sourceUrl": "https://konectacanarias.com/roaming-libre-europa/",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02016R2286-20190313",
+   "example": "Hypothetical: an eligible Spanish-home customer is registered in Spain for 85 of 120 relevant days but consumes 70% of the relevant data while on occasional EU trips. With no separate abuse ground, the domestic-presence safe harbour prevents an ordinary presence-and-use surcharge.",
+   "context": "The FAQ says higher roaming use over four months is excessive and extra charges can follow 15 days later if the customer keeps using the line abroad. It also allows residence documents. The full Orange-network terms are internally inconsistent: section 15 and SERVICIO EN ROAMING use single-indicator OR wording, while later CONDICIONES LEGALES ROAMING... item d correctly requires greater foreign consumption AND presence.",
+   "scope": "Customers with Spanish residence/stable links using default regulated terrestrial EU roaming during periodic travel; only the ordinary four-month consumption/presence control. Excludes separate SIM abuse, residence-proof failures and valid open-bundle volume limits.",
+   "date": "2026-10-18",
+   "langs": [
+    "Spanish"
+   ],
+   "countries": [
+    "ES"
+   ],
+   "versions": [
+    {
+     "lang": "Spanish",
+     "quote": "se considera uso excesivo cuando en un periodo seguido de 4 meses haces un mayor uso de tu línea en roaming que en España.",
+     "tr": "Use is considered excessive when, over four consecutive months, you use your line more in roaming than in Spain.",
+     "url": "https://konectacanarias.com/roaming-libre-europa/",
+     "site": "konectacanarias.com"
+    }
+   ]
+  },
+  "roaming-cableworld-ion-voice-cap": {
+   "id": "roaming-cableworld-ion-voice-cap",
+   "area": "roaming",
+   "topic": "surcharges",
+   "pub": "Cableworld (ION Mobile tariff annex)",
+   "src": "October 2026 roaming tariff pack — July 2025 ION Mobile annex",
+   "claim": "publishes a €0.026-per-minute outgoing voice surcharge in its linked ION Mobile annex.",
+   "quote": "0,026 €/minuto de llamada de voz efectuada",
+   "lang": "Spanish",
+   "tr": "€0.026 per minute of outgoing voice call",
+   "law": "For ordinary fair-use surcharges in 2025–2026 the outgoing-call ceiling is €0.019/minute excluding VAT, or €0.02299 with Spain’s 21% VAT. The annex says its €0.026/minute figure includes VAT. Its July 2025 date does not cure the voice overstatement, because the lower ceiling already applied from 1 January 2025.",
+   "sourceUrl": "https://cableworld.es/wp-content/uploads/2026/07/TARIFAS_Roaming_Internacional__Octubre26.pdf",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R0612",
+   "example": "Hypothetical: a customer subject to 21% Spanish VAT incurs a lawful fair-use outgoing-call surcharge for 100 regulated roaming minutes in October 2026. The surcharge ceiling is €2.299 before final bill rounding; the annex’s €0.026 figure yields €2.60. No actual charge is established.",
+   "context": "Physical pages 35 and 87 repeat a section headed TARIFAS ROAMING ION MOBILE, marked Actualización: Julio 2025. The pack’s initial Cablemovil page is marked valid from October 2026 and the current roaming guide links the whole pack as its official rate list. The dated ION annex is a specific part of a mixed tariff pack, not proof that every Cableworld line uses this rate. Its separate data allowance is expressly labelled 2025 and is not treated as a new allowance shortfall.",
+   "scope": "Published ION Mobile annex in Cableworld’s current linked official tariff pack; outgoing regulated terrestrial EU roaming fair-use surcharges for Spanish VAT customers. No allegation about which customers are contracted to the annex or actual billing.",
+   "date": "2026-10-18",
+   "langs": [
+    "Spanish"
+   ],
+   "countries": [
+    "ES"
+   ],
+   "versions": [
+    {
+     "lang": "Spanish",
+     "quote": "0,026 €/minuto de llamada de voz efectuada",
+     "tr": "€0.026 per minute of outgoing voice call",
+     "url": "https://cableworld.es/wp-content/uploads/2026/07/TARIFAS_Roaming_Internacional__Octubre26.pdf",
+     "site": "cableworld.es · PDF"
+    }
+   ]
+  },
   "package-exoticca-transfer": {
    "id": "package-exoticca-transfer",
    "area": "package",
@@ -7078,6 +7724,1569 @@
      "tr": "does not constitute a legitimate ground for cancellation either",
      "url": "https://voyages-beltrame.com/wp-content/uploads/2026/07/brochure-voyages-compresse.pdf",
      "site": "voyages-beltrame.com · PDF"
+    }
+   ]
+  },
+  "package-frauen-unterwegs-claims-deadline": {
+   "id": "package-frauen-unterwegs-claims-deadline",
+   "area": "package",
+   "topic": "claims-deadlines",
+   "pub": "Frauen Unterwegs – Frauen Reisen",
+   "src": "Allgemeine Reisebedingungen, §15",
+   "claim": "sets a one-month claim cutoff and generally a one-year limitation.",
+   "quote": "innerhalb eines Monats",
+   "lang": "German",
+   "tr": "within one month",
+   "law": "",
+   "sourceUrl": "https://www.frauen-unterwegs.de/agb.php",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__651j.html",
+   "example": "Hypothetical: a traveller promptly reports a package defect during the trip, preserving the organiser’s opportunity to fix it, and first demands a price reduction two months after the contractual end. A one-month cutoff does not by itself extinguish that otherwise valid claim; the statutory two-year limitation and ordinary suspension rules still matter.",
+   "context": "Current homepage leads to aktuell.php and reisen.php; both link this AGB page. The page title says 2026 but the actual terms say Stand November 2018. §15 makes post-trip claims subject to one month, allows a no-fault exception, and generally says one-year limitation except bodily injury/gross-negligence claims. §§13–14 separately require prompt defect notification. Current own-organiser Sansibar offer (11–24 October 2026) combines 12 hotel nights, guided excursions and transfers; international flights are expressly only mediated. Venice 1–7 November 2026 is also labelled own organised, with accommodation and essential guided cultural programme. Both list accepted booking/waiting-list routes; availability is not evidence of actual booking.",
+   "scope": "German-law qualifying package contracts concluded on or after 1 July 2018. Excludes pre-July-2018 contracts under EGBGB Art.229 §42, standalone services, merely intermediated partner packages and statutory business-travel/nonprofit/day-trip exceptions. Selected published terms only: no actual claim denial, payment, loss, intention or population rate is established.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "innerhalb eines Monats",
+     "tr": "within one month",
+     "url": "https://www.frauen-unterwegs.de/agb.php",
+     "site": "frauen-unterwegs.de"
+    }
+   ]
+  },
+  "package-exo-tours-claims-deadline": {
+   "id": "package-exo-tours-claims-deadline",
+   "area": "package",
+   "topic": "claims-deadlines",
+   "pub": "EXO-TOURS",
+   "src": "Reisebedingungen July 2025, §14(a)–(b), PDF page 1",
+   "claim": "sets a one-month claim cutoff and a one-year limitation.",
+   "quote": "innerhalb eines Monats",
+   "lang": "German",
+   "tr": "within one month",
+   "law": "",
+   "sourceUrl": "https://www.exo-tours.de/files/exo-tours/PDF/Reisebedingungen%20Stand%20Juli%202025.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__651j.html",
+   "example": "Hypothetical: a traveller promptly reports a package defect during the trip, preserving the organiser’s opportunity to fix it, and first demands a price reduction two months after the contractual end. A one-month cutoff does not by itself extinguish that otherwise valid claim; the statutory two-year limitation and ordinary suspension rules still matter.",
+   "context": "The current homepage Reisebedingungen link resolves through index.php/reisebedingungen-13.html directly to the July 2025 PDF, which includes §14(a)’s one-month cutoff and no-fault exception plus §14(b)’s one-year period. §13 separately addresses prompt defect notification and baggage deadlines. Current Zubucherreisen navigation links Peru 7–22 October 2027, with Frankfurt return flights and 13 hotel nights; its brochure refers to EXO’s terms. Institutions booking groups under a general business-travel agreement are outside this finding; ordinary leisure travellers remain in scope.",
+   "scope": "German-law qualifying package contracts concluded on or after 1 July 2018. Excludes pre-July-2018 contracts under EGBGB Art.229 §42, standalone services, merely intermediated partner packages and statutory business-travel/nonprofit/day-trip exceptions. Selected published terms only: no actual claim denial, payment, loss, intention or population rate is established.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "innerhalb eines Monats",
+     "tr": "within one month",
+     "url": "https://www.exo-tours.de/files/exo-tours/PDF/Reisebedingungen%20Stand%20Juli%202025.pdf",
+     "site": "exo-tours.de · PDF"
+    }
+   ]
+  },
+  "package-forum-travel-claims-deadline": {
+   "id": "package-forum-travel-claims-deadline",
+   "area": "package",
+   "topic": "claims-deadlines",
+   "pub": "f.o.r.u.m. travel & consulting",
+   "src": "Reisebedingungen 2026, §13, PDF page 2",
+   "claim": "requires post-trip claims within one month despite its two-year limitation sentence.",
+   "quote": "innerhalb eines Monats",
+   "lang": "German",
+   "tr": "within one month",
+   "law": "",
+   "sourceUrl": "https://www.forum-travel.de/index_htm_files/Reisebedingungen_2026.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__651j.html",
+   "example": "Hypothetical: a traveller promptly reports a package defect during the trip, preserving the organiser’s opportunity to fix it, and first demands a price reduction two months after the contractual end. A one-month cutoff does not by itself extinguish that otherwise valid claim; the statutory two-year limitation and ordinary suspension rules still matter.",
+   "context": "Current homepage links agb.htm, which reproduces the January 2026 terms and links the 2026 PDF. §13 imposes a one-month post-trip claim cutoff with a no-fault exception, then expressly gives two years for §§651l–n claims. That two-year sentence is counterevidence, but it does not withdraw the separate one-month forfeiture. §12 separately requires prompt defect notification. Homepage links the 16–19 October 2026 Milan brochure: coach travel, three hotel nights, €1,245 and f.o.r.u.m. as organiser. The trip was already under way on retrieval; no claim of continued bookability is made.",
+   "scope": "German-law qualifying package contracts concluded on or after 1 July 2018. Excludes pre-July-2018 contracts under EGBGB Art.229 §42, standalone services, merely intermediated partner packages and statutory business-travel/nonprofit/day-trip exceptions. Selected published terms only: no actual claim denial, payment, loss, intention or population rate is established.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "innerhalb eines Monats",
+     "tr": "within one month",
+     "url": "https://www.forum-travel.de/index_htm_files/Reisebedingungen_2026.pdf",
+     "site": "forum-travel.de · PDF"
+    },
+    {
+     "lang": "German",
+     "quote": "innerhalb eines Monats",
+     "tr": "within one month",
+     "url": "https://www.forum-travel.de/agb.htm",
+     "site": "forum-travel.de · HTML"
+    }
+   ]
+  },
+  "package-frauen-unterwegs-return-costs": {
+   "id": "package-frauen-unterwegs-return-costs",
+   "area": "package",
+   "topic": "return-costs",
+   "pub": "Frauen Unterwegs – Frauen Reisen",
+   "src": "Allgemeine Reisebedingungen, §10",
+   "claim": "splits additional return-transport costs equally after force-majeure termination.",
+   "quote": "Die Mehrkosten der Rückbeförderung haben FU-FR und Du je zur Hälfte zu tragen.",
+   "lang": "German",
+   "tr": "FU-FR and you must each bear half of the additional return-transport costs.",
+   "law": "",
+   "sourceUrl": "https://www.frauen-unterwegs.de/agb.php",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__651l.html",
+   "example": "Hypothetical: an extraordinary event leaves a package substantially defective; the traveller validly terminates under §651l after the required remedy period, or a statutory exception makes a period unnecessary. The package includes return carriage to the agreed starting point. Necessary equivalent return transport costs €400 more than the booked return. The organiser bears that €400; it cannot automatically allocate €200 to the traveller. This does not assume an unlimited right to choose a different destination, class or journey.",
+   "context": "The current sales pages aktuell.php and reisen.php link this AGB page (editorial date November 2018). §10 says force majeure can end a trip, places half the additional return cost on the traveller and assigns the remaining additional costs to her. §13 separately describes substantial-defect termination and return arrangements without withdrawing §10’s half-share clause. The current own-organiser Sansibar offer includes accommodation, excursions and local transfers, but expressly only mediates international arrival/departure flights; those flights cannot be presumed included in a statutory return duty.",
+   "scope": "German-law qualifying package contracts concluded on or after 1 July 2018. Excludes pre-July-2018 contracts under EGBGB Art.229 §42, standalone services, merely intermediated partner packages and statutory business-travel/nonprofit/day-trip exceptions. Selected published terms only: no actual claim denial, payment, loss, intention or population rate is established. Limited to additional return-transport costs once the §651l trigger is met and carriage is part of the package. Does not cover every personal early return, voluntary abandonment, independent flights, additional nights without regard to §651k(4)–(5), or consequential damages. For the inspected Sansibar offer, international arrival/departure flights are only mediated and cannot be assumed included; any statutory return duty depends on carriage actually included in the particular contract.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Die Mehrkosten der Rückbeförderung haben FU-FR und Du je zur Hälfte zu tragen.",
+     "tr": "FU-FR and you must each bear half of the additional return-transport costs.",
+     "url": "https://www.frauen-unterwegs.de/agb.php",
+     "site": "frauen-unterwegs.de"
+    }
+   ]
+  },
+  "package-exo-tours-return-costs": {
+   "id": "package-exo-tours-return-costs",
+   "area": "package",
+   "topic": "return-costs",
+   "pub": "EXO-TOURS",
+   "src": "Reisebedingungen July 2025, §11, PDF page 1",
+   "claim": "splits additional return-transport costs equally after force-majeure termination.",
+   "quote": "Die Mehrkosten für diese Rückbeförderung sind von den Parteien je zur Hälfte zu tragen.",
+   "lang": "German",
+   "tr": "The parties must each bear half of the additional costs of this return transport.",
+   "law": "",
+   "sourceUrl": "https://www.exo-tours.de/files/exo-tours/PDF/Reisebedingungen%20Stand%20Juli%202025.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__651l.html",
+   "example": "Hypothetical: an extraordinary event leaves a package substantially defective; the traveller validly terminates under §651l after the required remedy period, or a statutory exception makes a period unnecessary. The package includes return carriage to the agreed starting point. Necessary equivalent return transport costs €400 more than the booked return. The organiser bears that €400; it cannot automatically allocate €200 to the traveller. This does not assume an unlimited right to choose a different destination, class or journey.",
+   "context": "The current homepage Reisebedingungen link resolves through index.php/reisebedingungen-13.html to the July 2025 PDF. §11 uses the former force-majeure termination rule and splits additional return-transport costs equally. As counterevidence, §20 of the AGB says travellers have all EU package rights and describes insolvency return protection, while pointing elsewhere for a key-rights form. That general assurance does not expressly withdraw §11’s specific half-share allocation; no separate key-rights form was located in the inspected Peru brochure. Current Zubucherreisen navigation links Peru 7–22 October 2027, including Frankfurt return flights and 13 hotel nights. General-agreement business travel and mere third-party intermediation remain outside this finding.",
+   "scope": "German-law qualifying package contracts concluded on or after 1 July 2018. Excludes pre-July-2018 contracts under EGBGB Art.229 §42, standalone services, merely intermediated partner packages and statutory business-travel/nonprofit/day-trip exceptions. Selected published terms only: no actual claim denial, payment, loss, intention or population rate is established. Limited to additional return-transport costs once the §651l trigger is met and carriage is part of the package. Does not cover every personal early return, voluntary abandonment, independent flights, additional nights without regard to §651k(4)–(5), or consequential damages.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Die Mehrkosten für diese Rückbeförderung sind von den Parteien je zur Hälfte zu tragen.",
+     "tr": "The parties must each bear half of the additional costs of this return transport.",
+     "url": "https://www.exo-tours.de/files/exo-tours/PDF/Reisebedingungen%20Stand%20Juli%202025.pdf",
+     "site": "exo-tours.de · PDF"
+    }
+   ]
+  },
+  "package-frauen-unterwegs-minimum": {
+   "id": "package-frauen-unterwegs-minimum",
+   "area": "package",
+   "topic": "minimum",
+   "pub": "Frauen Unterwegs – Frauen Reisen",
+   "src": "Allgemeine Reisebedingungen, §9(b)",
+   "claim": "allows low-number cancellation on two weeks’ notice while excluding further claims.",
+   "quote": "2 Wochen",
+   "lang": "German",
+   "tr": "two weeks",
+   "law": "",
+   "sourceUrl": "https://www.frauen-unterwegs.de/agb.php",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__651h.html",
+   "example": "Hypothetical: an own organised 14-day package has the contractual minimum number and deadline but receives too few bookings. The organiser announces cancellation 14 days before departure. That is too late for the special >6-day low-number exemption, which requires at least 20 days’ notice. The organiser must refund; any further remedy depends on its own legal conditions, rather than following automatically from the late notice.",
+   "context": "The current sales pages aktuell.php and reisen.php link this AGB page, whose actual editorial date is November 2018 despite its dynamic 2026 title. §9(b) permits cancellation up to two weeks before departure when the advertised minimum is not reached, promises refund and excludes further claims without distinguishing trip length. The current own-organiser Sansibar offer runs 11–24 October 2026 and combines 12 hotel nights with essential excursions and transfers. That 14-day package makes the >6-day rule concretely relevant. A dynamic heading and source accessibility do not establish fresh editorial review.",
+   "scope": "German-law qualifying package contracts concluded on or after 1 July 2018. Excludes pre-July-2018 contracts under EGBGB Art.229 §42, standalone services, merely intermediated partner packages and statutory business-travel/nonprofit/day-trip exceptions. Selected published terms only: no actual claim denial, payment, loss, intention or population rate is established. Limited to trips longer than six days. Fourteen days is not alleged to be too short for every shorter package. Statutory bands of 20 days, seven days and 48 hours must be distinguished; late notice loses this particular exemption but does not establish a fixed damages award.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "2 Wochen",
+     "tr": "two weeks",
+     "url": "https://www.frauen-unterwegs.de/agb.php",
+     "site": "frauen-unterwegs.de"
+    }
+   ]
+  },
+  "rail-oebb-rerouting-costs": {
+   "id": "rail-oebb-rerouting-costs",
+   "area": "rail",
+   "topic": "rerouting-costs",
+   "pub": "ÖBB",
+   "src": "Fahrgastrechte / Passengers’ rights",
+   "claim": "Says there is no refund or reimbursement of costs when rerouting gets the passenger to the destination less than 60 minutes late.",
+   "quote": "KEIN Anspruch auf Entschädigung, Erstattung oder Ersatz von Kosten […] die Verspätung bei der Ankunft am Zielort weniger als 60 Minuten beträgt",
+   "lang": "German",
+   "tr": "No entitlement to compensation, refund or reimbursement of costs […] the delay on arrival at the destination is less than 60 minutes.",
+   "law": "The quoted exclusion combines three different remedies. Article 19(9) does exclude the percentage-of-fare delay compensation when rerouting keeps the final arrival delay below 60 minutes. It does not withdraw the separate Article 18 right to qualifying alternative transport without extra cost or reimbursement of qualifying self-arranged transport. This finding concerns that overbroad exclusion of rerouting costs; it does not claim that an original ticket must also be refunded after the passenger completes the replacement journey.",
+   "sourceUrl": "https://www.oebb.at/de/reiseplanung-services/nach-ihrer-reise/fahrgastrechte.html",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: cancellation of an EU long-distance train means arrival at the contractual destination is expected to be at least 60 minutes late. The railway company authorises the passenger to buy a €40 replacement ticket with another transport provider under comparable conditions. That faster alternative gets them to the destination 30 minutes late. Article 18(3) requires repayment of the authorised €40 costs. The 30-minute final delay means no Article 19 percentage compensation; it does not remove the qualifying €40 cost claim.",
+   "context": "The main passenger-rights page first promises compensation and assistance subject to the limitations below, links separate delay, cancellation and last-connection pages, then states the quoted blanket exclusion. Its English version repeats the exclusion. The directly linked cancellation/delay page separately and correctly promises necessary and appropriate alternative public transport costs if no onward-travel information is received within 100 minutes. That conflicting, more accurate guidance qualifies the finding but does not correct the main page’s express all-costs exclusion.",
+   "scope": "Published wording for qualifying long-distance journeys within the EU, including domestic Austrian long-distance and intra-EU international services. Excludes urban, suburban and regional services where national exceptions may alter individual remedies. The original disruption must satisfy Article 18 and the alternative journey must satisfy the authorisation or 100-minute information conditions; no finding about actual refusals or payments.",
+   "date": "2026-10-18",
+   "langs": [
+    "German",
+    "English"
+   ],
+   "countries": [
+    "AT"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "KEIN Anspruch auf Entschädigung, Erstattung oder Ersatz von Kosten […] die Verspätung bei der Ankunft am Zielort weniger als 60 Minuten beträgt",
+     "tr": "No entitlement to compensation, refund or reimbursement of costs […] the delay on arrival at the destination is less than 60 minutes.",
+     "url": "https://www.oebb.at/de/reiseplanung-services/nach-ihrer-reise/fahrgastrechte.html",
+     "site": "ÖBB · DE"
+    },
+    {
+     "lang": "English",
+     "quote": "NO entitlement to compensation, refund or reimbursement of costs […] the resulting delay when arriving at one’s destination is less than 60 minutes;",
+     "tr": "",
+     "url": "https://www.oebb.at/en/reiseplanung-services/nach-ihrer-reise/fahrgastrechte",
+     "site": "ÖBB · EN"
+    }
+   ]
+  },
+  "rail-westbahn-rerouting-costs": {
+   "id": "rail-westbahn-rerouting-costs",
+   "area": "rail",
+   "topic": "rerouting-costs",
+   "pub": "WESTbahn",
+   "src": "Entschädigungsbedingungen, §3(c), PDF page 6 of 7",
+   "claim": "Its compensation conditions exclude refunds and costs when an alternative route gets the passenger to the destination less than 60 minutes late.",
+   "quote": "Kein Anspruch auf Entschädigung, Erstattung oder Ersatz von Kosten […] die Verspätung bei der Ankunft am Zielort weniger als 60 Minuten beträgt",
+   "lang": "German",
+   "tr": "No entitlement to compensation, refund or reimbursement of costs […] the delay on arrival at the destination is less than 60 minutes.",
+   "law": "The quoted exclusion combines three different remedies. Article 19(9) does exclude the percentage-of-fare delay compensation when rerouting keeps the final arrival delay below 60 minutes. It does not withdraw the separate Article 18 right to qualifying alternative transport without extra cost or reimbursement of qualifying self-arranged transport. This finding concerns that overbroad exclusion of rerouting costs; it does not claim that an original ticket must also be refunded after the passenger completes the replacement journey.",
+   "sourceUrl": "https://westbahn.at/resources/files/2025/9/9/2772/20250908-entschadigungsbedingungen-westbahn-clean.pdf",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: cancellation of an EU long-distance train means arrival at the contractual destination is expected to be at least 60 minutes late. The railway company authorises the passenger to buy a €40 replacement ticket with another transport provider under comparable conditions. That faster alternative gets them to the destination 30 minutes late. Article 18(3) requires repayment of the authorised €40 costs. The 30-minute final delay means no Article 19 percentage compensation; it does not remove the qualifying €40 cost claim.",
+   "context": "The current AGB hub links this seven-page PDF. The exclusion appears in § 3(c), under the wider heading fare compensation for delays, after promises to repay appropriate accommodation and cheaper onward transport costs. Earlier § 3(b) correctly states the threshold for percentage delay compensation, and § 2(a)(iv) says the journey can continue without an additional fare. That structure supports a narrower publisher reading and is counterevidence. The later exclusion nevertheless expressly includes reimbursement and cost replacement, with no exception for qualifying Article 18 alternatives. The FAQ links these conditions. The PDF identifies its latest amendment as 9 June 2025, effective 10 June 2025; the hub labels the dates 10/11 June 2025. The hub also links general carriage conditions effective 1 August 2026, whose § 2 incorporates the compensation conditions without replacing this wording. Current availability does not establish fresh editorial review.",
+   "scope": "Qualifying WESTbahn long-distance journeys within the EU; the original disruption and alternative transport must meet Article 18. This finding is about the broad exclusion of rerouting costs, not automatic payment for any voluntarily chosen alternative, and it does not assert actual claim refusals.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "AT",
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Kein Anspruch auf Entschädigung, Erstattung oder Ersatz von Kosten […] die Verspätung bei der Ankunft am Zielort weniger als 60 Minuten beträgt",
+     "tr": "No entitlement to compensation, refund or reimbursement of costs […] the delay on arrival at the destination is less than 60 minutes.",
+     "url": "https://westbahn.at/resources/files/2025/9/9/2772/20250908-entschadigungsbedingungen-westbahn-clean.pdf",
+     "site": "WESTbahn · DE"
+    }
+   ]
+  },
+  "rail-flixtrain-four-euro-threshold": {
+   "id": "rail-flixtrain-four-euro-threshold",
+   "area": "rail",
+   "topic": "compensation-threshold",
+   "pub": "FlixTrain",
+   "src": "Fahrgastrechte and AGB §15.3",
+   "claim": "Says delay compensation is paid only when it is more than €4, excluding an otherwise valid amount of exactly €4.",
+   "quote": "Entschädigungen werden nur ausgezahlt, wenn der berechnete Betrag höher als 4 EUR ist.",
+   "lang": "German",
+   "tr": "Compensation is only paid if the calculated amount is higher than EUR 4.",
+   "law": "Article 19(8) permits nonpayment below a minimum threshold, and that threshold cannot be more than €4 per ticket. Exactly €4 is not below the maximum lawful threshold. FlixTrain’s passenger-rights page and §15.3 of its conditions both instead require more than €4; §15.3 explicitly attributes that rule to Article 19(8). The discrepancy is the boundary at exactly €4, not the lawful exclusion of smaller amounts.",
+   "sourceUrl": "https://www.flixtrain.de/fahrgastrechte",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: a passenger pays €16 for a one-way FlixTrain journey entirely within Germany and reaches the ticketed destination 90 minutes late. Assume no Article 19(9) or 19(10) exclusion, no ticket-price refund and a valid timely request. The 25% minimum compensation is €4. Article 19(8) does not permit rejecting that €4 amount as below the payment threshold, but the published wording requires an amount higher than €4.",
+   "context": "The railway section of the rights page gives the 25% and 50% rates, lists compensation exclusions, then states the quoted payment boundary. The bus section begins only afterwards. The company’s current conditions refer readers to the rights page in §15.1 and repeat the more-than-€4 rule in §15.3 with a direct legal attribution. The homepage footer links both current pages. The conditions label the relevant clause approved 8 June 2023 and published 17 June 2023; current navigation establishes present availability, not a recent legal review.",
+   "scope": "An otherwise valid Article 19 compensation claim of exactly €4 per ticket on FlixTrain long-distance services within the EU. The worked example is domestic Germany, where no long-distance Article 19 exemption is recorded in the Commission table. Other eligibility conditions and the exceptional-circumstances defence still apply.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Entschädigungen werden nur ausgezahlt, wenn der berechnete Betrag höher als 4 EUR ist.",
+     "tr": "Compensation is only paid if the calculated amount is higher than EUR 4.",
+     "url": "https://www.flixtrain.de/fahrgastrechte",
+     "site": "FlixTrain rights · DE"
+    },
+    {
+     "lang": "German",
+     "quote": "Entschädigungen werden nur ausgezahlt, wenn der berechnete Betrag höher als 4 Euro ist.",
+     "tr": "Compensation is only paid if the calculated amount is higher than 4 euros.",
+     "url": "https://www.flixtrain.de/agb",
+     "site": "FlixTrain AGB · DE"
+    }
+   ]
+  },
+  "rail-renfe-adif-speed-limits": {
+   "id": "rail-renfe-adif-speed-limits",
+   "area": "rail",
+   "topic": "speed-restrictions",
+   "pub": "Renfe",
+   "src": "Punctuality commitment — temporary speed limits",
+   "claim": "Tickets and passes bought from 31 January 2026 earn no compensation when delay is caused by Adif’s temporary speed limits.",
+   "quote": "no generarán derecho a indemnización cuando el retraso se deba a estas limitaciones de velocidad.",
+   "lang": "Spanish",
+   "tr": "will not give rise to compensation when the delay is due to these speed restrictions.",
+   "law": "The current page applies its exclusion to tickets and passes bought since 31 January 2026 because the infrastructure manager imposed temporary speed limits. Article 19 does not exempt an ordinary infrastructure-related delay merely because its cause lies outside Renfe. The mismatch is the blanket exclusion of the EU minimum. A passenger who was informed of the relevant delay before buying, or whose delay was directly caused by a qualifying external extraordinary event, may still fall within an exception.",
+   "sourceUrl": "https://www.renfe.com/es/es/ayuda/compromiso-puntualidad",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: a traveller pays €80 for a covered AVE journey affected by an ordinary Adif speed restriction of the kind described in Renfe’s notice and arrives 75 minutes late. Assume the ticket was bought after 31 January 2026, the passenger was not informed of the relevant delay before purchase, the ticket was not refunded under Article 18, and no Article 19(10) exception applies. The EU minimum is €20. Merely identifying Adif’s restriction as the cause does not remove that minimum.",
+   "context": "The opening notice and the final FAQ both state the exclusion. The FAQ immediately before it accurately refers to the Article 19(10) force-majeure grounds. The page discusses both current statutory rules and Renfe’s more generous punctuality commitments; it does not reserve the EU minimum when withdrawing compensation for speed limits. The captured site footer includes a current incoming link to this punctuality page. This records published wording, not proof of an actual refused claim. The current general conditions, effective 7 September 2026, state that compensation is due under applicable legislation, exclude passengers informed of the delay before purchase, and set higher 50%/100% bands subject to statutory exceptions. That correct contractual framing conflicts with the punctuality page’s unqualified speed-limit wording; this review does not establish which approach Renfe follows in individual claims.",
+   "scope": "Limit to ordinary infrastructure operational restrictions within the set described by the notice, on covered Spanish services, and to the minimum EU right. Article 19(9) removes compensation when the passenger was informed of a delay before purchase, and Article 19(10) can cover an underlying qualifying extraordinary external event if its requirements are proved. No conclusion is drawn that every Adif restriction is compensable, that general news alone always suffices or never suffices as pre-purchase notice, or that Renfe must preserve every voluntary uplift. The Commission’s current table lists no Spanish exemption; it is an information table rather than an authoritative decision.",
+   "date": "2026-10-18",
+   "langs": [
+    "Spanish"
+   ],
+   "countries": [
+    "ES"
+   ],
+   "versions": [
+    {
+     "lang": "Spanish",
+     "quote": "no generarán derecho a indemnización cuando el retraso se deba a estas limitaciones de velocidad.",
+     "tr": "will not give rise to compensation when the delay is due to these speed restrictions.",
+     "url": "https://www.renfe.com/es/es/ayuda/compromiso-puntualidad",
+     "site": "Spanish website"
+    }
+   ]
+  },
+  "rail-ouigo-spain-compensation-card": {
+   "id": "rail-ouigo-spain-compensation-card",
+   "area": "rail",
+   "topic": "payment",
+   "pub": "OUIGO España",
+   "src": "General transport conditions — scope of liability and compensation",
+   "claim": "A purchaser without a Visa or Mastercard is told they cannot convert a refundable compensation voucher to money.",
+   "quote": "Si el Comprador no dispone de ninguno de estos medios, no podrá recibir el crédito de su vale de compra reembolsable",
+   "lang": "Spanish",
+   "tr": "If the purchaser has neither of these means, they cannot receive the credit for their refundable purchase voucher",
+   "law": "Section 3.2.2 requires Visa or Mastercard details to convert a refundable voucher into a card credit, and says that someone without either receives only a voucher for future direct bookings. Section 3.2.5.2 applies refundable vouchers to statutory delay compensation. Article 19(7) requires the statutory amount to be paid in money when the passenger asks. The company may set practical payment arrangements, but the stated absence of a card cannot erase the money option.",
+   "sourceUrl": "https://www.ouigo.com/es/condiciones-generales-de-transporte-ouigo",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: a traveller who is also the purchaser holds a valid €80 paid OUIGO España ticket and arrives 75 minutes late. Assume a timely valid Article 19 claim, no Article 19(9) or (10) defence, no Article 18 refund, and that the purchaser has neither a Visa nor a Mastercard when requesting payment. They ask for money. At least the €20 EU minimum must remain payable in money; the published clause leaves only a future-booking voucher. This does not establish how the company would handle an alternative payment request.",
+   "context": "The current conditions state an effective date of 21 August 2026. Section 3.2.2 applies the card condition to both direct and authorised-distributor bookings. Its next sentence leaves the voucher valid for direct bookings if neither card is available. Section 3.2.5 distinguishes compensation required by law from voluntary amounts and links the payment mechanism to both. The finding does not allege that every initial voucher is unlawful or that a voluntary voucher uplift must be paid in cash.",
+   "scope": "Only an eligible statutory delay-compensation amount under Article 19 is compared. Money is required on the passenger’s request, not automatically. Minimum-payment thresholds up to €4 and Article 19(9)–(10) eligibility exceptions remain applicable. No case of voucher-funded purchase, expired or already-used compensation voucher, or non-statutory goodwill payment is assumed. Spain has no listed applicable exemption. The research does not establish actual handling of a request for an alternative money payment method. The illustrated traveller is also the purchaser; the published card condition is addressed to the purchaser requesting conversion.",
+   "date": "2026-10-18",
+   "langs": [
+    "Spanish"
+   ],
+   "countries": [
+    "ES"
+   ],
+   "versions": [
+    {
+     "lang": "Spanish",
+     "quote": "Si el Comprador no dispone de ninguno de estos medios, no podrá recibir el crédito de su vale de compra reembolsable",
+     "tr": "If the purchaser has neither of these means, they cannot receive the credit for their refundable purchase voucher",
+     "url": "https://www.ouigo.com/es/condiciones-generales-de-transporte-ouigo",
+     "site": "Spanish website"
+    }
+   ]
+  },
+  "rail-sncf-connect-ouigo-voucher-only": {
+   "id": "rail-sncf-connect-ouigo-voucher-only",
+   "area": "rail",
+   "topic": "payment",
+   "pub": "SNCF Connect",
+   "src": "OUIGO cancellation reimbursement FAQ",
+   "claim": "SNCF Connect describes a qualifying OUIGO cancellation reimbursement as payable only in a purchase voucher.",
+   "quote": "vous obtiendrez un remboursement intégral de votre billet OUIGO, en bon d’achat uniquement",
+   "lang": "French",
+   "tr": "you will receive a full reimbursement of your OUIGO ticket, in the form of a purchase voucher only",
+   "law": "For a covered cancellation that triggers Article 18(1), the passenger has the statutory reimbursement option. Under Article 18(5), reimbursement may take the form of a sufficiently flexible voucher only if the passenger agrees. The cancellation bullet instead describes the full reimbursement as voucher-only. This finding concerns the form of reimbursement; the separate cancellation-choice case concerns when that option is offered. OUIGO’s own FAQ allows eligible cancellation vouchers to be recredited to the payment account.",
+   "sourceUrl": "https://www.sncf-connect.com/ouigo",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: a passenger paid €80 by bank card for a covered France–Belgium OUIGO journey. The operator cancels the train and confirms that the replacement or exchange options described by SNCF Connect are unavailable. Assume arrival at the contractual destination is reasonably expected to be at least two hours late. The passenger has travelled no part, requests full reimbursement and does not agree to a voucher. Article 18(5) does not permit voucher-only reimbursement; the cancellation bullet describes precisely that payment form even after its own fallback conditions are met. No actual refusal or claim-handling practice is assumed.",
+   "context": "The statement appears under “Que faire en cas de retard ou suppression sur son train OUIGO ?”. After a 25%/50% delay scale and an automatic-voucher description, the cancellation bullets end with a full reimbursement “en bon d’achat uniquement”. The preceding sentence excludes reimbursement by bank transfer or physical cash; that wording alone does not exclude bank-card recredit and is not the basis of this narrowed finding. OUIGO’s own FAQ permits eligible cancellation and delay vouchers to be recredited to the original bank account, subject to its stated payment conditions.",
+   "scope": "Published SNCF Connect French guidance about a cancellation on a journey covered by Regulation (EU) 2021/782 where the Article 18(1) trigger is met. The example uses a France–Belgium international OUIGO service outside the local/regional exemptions, a wholly unused bank-card-paid ticket and no agreement to a voucher. It does not establish a general right to physical cash or a particular money-transfer method, and it does not allege actual refusals, losses or payment practice.",
+   "date": "2026-10-18",
+   "langs": [
+    "French"
+   ],
+   "countries": [
+    "FR",
+    "BE"
+   ],
+   "versions": [
+    {
+     "lang": "French",
+     "quote": "vous obtiendrez un remboursement intégral de votre billet OUIGO, en bon d’achat uniquement",
+     "tr": "you will receive a full reimbursement of your OUIGO ticket, in the form of a purchase voucher only",
+     "url": "https://www.sncf-connect.com/ouigo",
+     "site": "SNCF Connect"
+    }
+   ]
+  },
+  "rail-sncf-connect-ouigo-refund-fallback": {
+   "id": "rail-sncf-connect-ouigo-refund-fallback",
+   "area": "rail",
+   "topic": "cancellation-choice",
+   "pub": "SNCF Connect",
+   "src": "OUIGO delay and cancellation FAQ",
+   "claim": "SNCF Connect presents a cancelled-train refund as the fallback after a replacement or exchange proves impossible.",
+   "quote": "Si l’impossibilité se confirme, vous obtiendrez un remboursement intégral",
+   "lang": "French",
+   "tr": "If that impossibility is confirmed, you will obtain a full reimbursement",
+   "law": "For a cancellation causing an expected arrival delay of at least 60 minutes, Article 18(1) gives the passenger an immediate choice. Reimbursement under Article 18(1)(a) is available even when comparable continuation or rerouting is possible. The page instead orders the options as reallocation, exchange if that is impossible, and reimbursement if impossibility persists.",
+   "sourceUrl": "https://www.sncf-connect.com/ouigo",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: an eligible Paris–Brussels OUIGO service is cancelled and the next suitable train would arrive 90 minutes after the original arrival time. Assume the passenger has not travelled any part of the journey. They can abandon it and choose a full ticket reimbursement even though space is available on that later train.",
+   "context": "Under the cancellation heading, three successive bullets present reallocation, then an OUIGO-only exchange if impossible, and finally reimbursement. The refund method is a separate issue recorded in rail-sncf-connect-ouigo-voucher-only.",
+   "scope": "Cancellation with a reasonably expected destination delay of at least 60 minutes on a covered service. This does not assert a statutory refund for every cancellation irrespective of the resulting delay. Wording only; no evidence of an actual refusal.",
+   "date": "2026-10-18",
+   "langs": [
+    "French"
+   ],
+   "countries": [
+    "FR",
+    "BE"
+   ],
+   "versions": [
+    {
+     "lang": "French",
+     "quote": "Si l’impossibilité se confirme, vous obtiendrez un remboursement intégral",
+     "tr": "If that impossibility is confirmed, you will obtain a full reimbursement",
+     "url": "https://www.sncf-connect.com/ouigo",
+     "site": "SNCF Connect"
+    }
+   ]
+  },
+  "rail-cd-international-assistance-36-hours": {
+   "id": "rail-cd-international-assistance-36-hours",
+   "area": "rail",
+   "topic": "assistance-notice",
+   "pub": "České dráhy",
+   "src": "Wheelchair services and current assistance-booking form",
+   "claim": "Requires at least 36 hours’ notice for assistance on international rail journeys, although the EU extension allowing that period expired on 30 June 2026.",
+   "quote": "Takovou objednávku je třeba uplatnit minimálně 36 hodin před odjezdem vlaku.",
+   "lang": "Czech",
+   "tr": "Such a request must be submitted at least 36 hours before the train’s departure.",
+   "law": "The detail page says that including a foreign station activates the international assistance request, that it must be submitted at least 36 hours before departure, and that later submission cannot secure or guarantee the foreign partners’ service. Article 24(a) instead permits notification at least 24 hours before assistance is needed; its temporary national extension to 36 hours ended on 30 June 2026. For an otherwise eligible journey with trained staff, Article 23(1)(e) requires timely notified assistance to be ensured. This finding addresses the international-journey notice condition, not adding a specially equipped carriage or obtaining tickets through the assistance desk.",
+   "sourceUrl": "https://www.cd.cz/cestovani-zdravotne-hendikepovanych/-29456/",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: after 30 June 2026, a wheelchair user with a valid ticket for an already accessible ČD cross-border train from Czechia to Germany requests ordinary boarding and alighting assistance 30 hours before departure, more than 24 hours before the first assistance is needed. Assume available wheelchair capacity, accessible stations, trained staff on duty and timely attendance at the designated meeting point. The 24-hour EU notice condition is met; the published 36-hour international cut-off cannot turn that into a late request. No additional carriage or ticket-procurement service is requested.",
+   "context": "The current wheelchair-services page links the live booking form. The page first gives a 24-hour general notice period, then imposes 36 hours for journeys abroad and says later requests cannot be secured or guaranteed with foreign partners. Its actual booking form repeats 36 hours for travel abroad. The overview still says 48 hours for foreign travel, creating a further inconsistency; the finding uses the narrower 36-hour condition also present in the current form. The detail page separately says carriage may be arranged under immediate operating conditions without a prior order and preserves infrastructure, capacity and equipment limits. These qualifications do not change which notice period counts as timely for an otherwise eligible trip.",
+   "scope": "Ordinary disability/mobility assistance for an intra-EU ČD international journey after 30 June 2026, with Article 23 staffing and access conditions met. Czechia–Germany avoids Czech exemptions for services beginning or ending in certain third countries. Excludes adding accessible rolling stock, a five-working-day ticket-procurement service and any actual capacity/access barrier. Records public wording, not a demonstrated rejected request.",
+   "date": "2026-10-18",
+   "langs": [
+    "Czech"
+   ],
+   "countries": [
+    "CZ",
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "Czech",
+     "quote": "Takovou objednávku je třeba uplatnit minimálně 36 hodin před odjezdem vlaku.",
+     "tr": "Such a request must be submitted at least 36 hours before the train’s departure.",
+     "url": "https://www.cd.cz/cestovani-zdravotne-hendikepovanych/-29456/",
+     "site": "ČD wheelchair services · CS"
+    },
+    {
+     "lang": "Czech",
+     "quote": "Pokud jedete do zahraničí, objednejte si prosím cestu alespoň 36 hodin předem.",
+     "tr": "If you are travelling abroad, please book your journey at least 36 hours in advance.",
+     "url": "https://www.cd.cz/objednavka-pomoci/",
+     "site": "ČD assistance booking · CS"
+    }
+   ]
+  },
+  "rail-leoexpress-rebooking-departure-deadline": {
+   "id": "rail-leoexpress-rebooking-departure-deadline",
+   "area": "rail",
+   "topic": "cancellation-choice",
+   "pub": "Leo Express",
+   "src": "Current Conditions of Carriage, § 4.1(7) Czech / § 4.1(10) English",
+   "claim": "Requires a free replacement-travel request by the original scheduled departure time, even in its section on delayed and cancelled services.",
+   "quote": "must be exercised by the entitled passenger by the time of the regular departure time indicated on the ticket",
+   "lang": "English",
+   "tr": "",
+   "law": "The current conditions first give a refund or free rebooking when transport is not performed for reasons on Leo Express’s side, then say the free-rebooking request must be exercised by the scheduled departure time shown on the ticket. For a covered cancellation that triggers Article 18, that time limit cannot remove the statutory continuation/rerouting choice. A cancellation may be announced only after the original departure time; Article 18 still requires the operator to offer the choice and make arrangements. This finding concerns the specific original-departure deadline, not voluntary changes to an operating train.",
+   "sourceUrl": "https://www.leoexpress.com/assets/c8286d4d-bff3-4363-913b-3483d8372a70/ad4993c5-3612-40e2-b00a-79ef067b01a3/Leo-Express-Global-a.s.-Leo-Express-s.r.o._od_28_9.pdf",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: a paid domestic Czech Leo Express service is cancelled because of a mechanical failure ten minutes after its scheduled departure. Without replacement travel, arrival at the ticketed destination would be at least 60 minutes late. The passenger then asks for comparable continuation on the next suitable Leo Express train, rather than a refund. Article 18 requires that choice and the necessary arrangements; the conditions’ deadline has already passed before the cancellation was announced. The example does not assume the passenger can select any operator or fare without the applicable arrangements.",
+   "context": "The live terms hub links the multilingual conditions identified as valid from 28 September 2026. The deadline appears in the dedicated delay/cancellation section, not in the voluntary cancellation section. It follows a six-month deadline for compensation/refund requests, making the distinct rebooking cut-off explicit. Czech and English repeat it with different paragraph numbering. The separately linked passenger-rights leaflet correctly describes continuation/rerouting at the earliest opportunity or later at the passenger’s wish, so it is retained as conflicting counterevidence. The contract generally states compliance with Regulation 2021/782; that does not explain the restrictive specific deadline.",
+   "scope": "A covered Leo Express rail cancellation within the EU triggering Article 18, illustrated by domestic Czech travel and replacement travel requested after scheduled departure. Excludes voluntary passenger changes, Ukrainian bus legs and nationally exempt services. Does not claim both refund and replacement travel are due or establish actual refusal.",
+   "date": "2026-10-18",
+   "langs": [
+    "English",
+    "Czech"
+   ],
+   "countries": [
+    "CZ"
+   ],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "must be exercised by the entitled passenger by the time of the regular departure time indicated on the ticket",
+     "tr": "",
+     "url": "https://www.leoexpress.com/assets/c8286d4d-bff3-4363-913b-3483d8372a70/ad4993c5-3612-40e2-b00a-79ef067b01a3/Leo-Express-Global-a.s.-Leo-Express-s.r.o._od_28_9.pdf",
+     "site": "Leo Express conditions · EN"
+    },
+    {
+     "lang": "Czech",
+     "quote": "Nárok na bezplatnou přerezervaci jízdenky musí oprávněný cestující uplatnit do času pravidelného času odjezdu spoje uvedeného na jízdním dokladu",
+     "tr": "The entitled passenger must exercise the right to free rebooking by the scheduled departure time of the service shown on the travel document.",
+     "url": "https://www.leoexpress.com/assets/c8286d4d-bff3-4363-913b-3483d8372a70/ad4993c5-3612-40e2-b00a-79ef067b01a3/Leo-Express-Global-a.s.-Leo-Express-s.r.o._od_28_9.pdf",
+     "site": "Leo Express conditions · CS"
+    }
+   ]
+  },
+  "rail-vr-sweden-rounded-payment-threshold": {
+   "id": "rail-vr-sweden-rounded-payment-threshold",
+   "area": "rail",
+   "topic": "compensation-threshold",
+   "pub": "VR Snabbtåg (Sweden)",
+   "src": "General travel conditions, § 15.3",
+   "claim": "Its €4 minimum-payment threshold is converted to Swedish kronor and rounded up to the next ten kronor.",
+   "quote": "4 EUR i SEK, avrundat uppåt till närmaste tiotal kronor. Detta belopp grundar sig på EU-förordningens bestämmelser.",
+   "lang": "Swedish",
+   "tr": "4 EUR in SEK, rounded up to the nearest ten kronor. This amount is based on the provisions of the EU Regulation.",
+   "law": "Section 15.3 converts €4 into kronor at the payment date and rounds the result upwards to the next ten kronor. Whenever the conversion is not already a multiple of ten, that makes the payment threshold higher than €4. Article 19(8) does not permit withholding an otherwise eligible compensation amount above €4 merely because it falls below that inflated threshold. The error is the threshold rounding, not the use of kronor for payment.",
+   "sourceUrl": "https://vrresa.se/sv/allmanna-resevillkor",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical, using an assumed exchange rate rather than a current market quotation: at payment, €1 equals SEK 11. The €4 cap is SEK 44; rounding it up makes the stated threshold SEK 50. A valid SEK 184 single ticket on a Stockholm–Göteborg long-distance train delayed by 90 minutes yields SEK 46 at 25%. That is worth more than €4 and must not be rejected under a SEK 50 payment threshold. Assume no Article 19(9)–(10) exception and no Article 18 ticket refund.",
+   "context": "Both current Swedish and English conditions repeat the upward-rounding rule and explicitly attribute it to EU provisions. They state entry into force on 9 October 2025. The live homepage links to the ticket-conditions hub, which links the Swedish conditions; its language switch leads to the English version. Both versions also contain a general mandatory-law savings clause. The English introduction still cites the former 1371/2007 Regulation; that obsolete citation alone is not a separate finding.",
+   "scope": "Otherwise valid Article 19 claims on covered VR Snabbtåg long-distance services. The illustration uses Stockholm–Göteborg, outside the Swedish exemption for domestic services whose total route is shorter than 150 km. The hypothetical rate is only for transparent arithmetic; no claim is made about today’s rate, actual processing, or rounding of an amount already being paid.",
+   "date": "2026-10-18",
+   "langs": [
+    "Swedish",
+    "English"
+   ],
+   "countries": [
+    "SE"
+   ],
+   "versions": [
+    {
+     "lang": "Swedish",
+     "quote": "4 EUR i SEK, avrundat uppåt till närmaste tiotal kronor. Detta belopp grundar sig på EU-förordningens bestämmelser.",
+     "tr": "4 EUR in SEK, rounded up to the nearest ten kronor. This amount is based on the provisions of the EU Regulation.",
+     "url": "https://vrresa.se/sv/allmanna-resevillkor",
+     "site": "VR Sweden · SV"
+    },
+    {
+     "lang": "English",
+     "quote": "4 EUR in SEK, rounded up to the nearest ten kronor. This amount is based on the provisions of the EU Regulation.",
+     "tr": "",
+     "url": "https://vrresa.se/en/allmanna-resevillkor",
+     "site": "VR Sweden · EN"
+    }
+   ]
+  },
+  "rail-snalltaget-night-train-180-minute-trigger": {
+   "id": "rail-snalltaget-night-train-180-minute-trigger",
+   "area": "rail",
+   "topic": "cancellation-choice",
+   "pub": "Snälltåget",
+   "src": "Rights in the event of a delay — night trains",
+   "claim": "Its night-train explanation requires more than 180 minutes of departure delay before treating arrival as expected to be late.",
+   "quote": "the delay at departure must therefore be more than 180 minutes.",
+   "lang": "English",
+   "tr": "",
+   "law": "Article 18(1) turns on a reasonable expectation of at least 60 minutes’ delay at the final destination under the transport contract. Recovery time may affect that forecast, but the law does not impose a separate rule that a night train must first be more than 180 minutes late at departure. The stated fixed requirement is too restrictive where the available forecast already establishes the statutory arrival-delay trigger.",
+   "sourceUrl": "https://www.snalltaget.se/en/delay",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: before departure of a covered Snälltåget night service within the EU, a passenger’s train is 120 minutes late at departure and a reliable operational forecast reasonably puts arrival at their contractual destination 90 minutes late, after allowing for time the train can make up. The passenger booked before the disruption and has not travelled any part. Article 18 requires the immediate choice of reimbursement or comparable continuation/rerouting; the departure delay being below 180 minutes does not postpone that choice.",
+   "context": "The night-train paragraph follows the general statement that an expected final-destination delay of at least 60 minutes permits cancellation, rebooking or continuation. It explains that night trains may recover time, then adds the fixed more-than 180-minute departure requirement. Swedish and English versions match. The current FAQ, reached from the homepage, links this detailed rights page. The general transport conditions § 9.1 instead state the reasonable expected-arrival trigger without a 180-minute night-train proviso; that correct conflicting text is retained.",
+   "scope": "Article 18 refund/rerouting choices on covered long-distance night services within the EU. A departure delay of 60 or 120 minutes alone does not prove eligibility: the reasonable arrival forecast must satisfy Article 18 after realistic recovery time. No finding about actual refused claims or the separate rules for compensation after arrival is made. Exclude Swedish domestic services whose whole operated service route is shorter than 150 km, and services outside the applicable EU scope.",
+   "date": "2026-10-18",
+   "langs": [
+    "English",
+    "Swedish"
+   ],
+   "countries": [
+    "SE"
+   ],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "the delay at departure must therefore be more than 180 minutes.",
+     "tr": "",
+     "url": "https://www.snalltaget.se/en/delay",
+     "site": "Snälltåget · EN"
+    },
+    {
+     "lang": "Swedish",
+     "quote": "För att tåget ska beräknas bli försenat till slutstationen krävs därför en försening på mer än 180 minuter vid avgång.",
+     "tr": "For the train to be expected to be late at the final station, a delay of more than 180 minutes at departure is therefore required.",
+     "url": "https://www.snalltaget.se/rattigheter-vid-forsening",
+     "site": "Snälltåget · SV"
+    }
+   ]
+  },
+  "rail-omio-through-ticket-force-majeure": {
+   "id": "rail-omio-through-ticket-force-majeure",
+   "area": "rail",
+   "topic": "rerouting-force-majeure",
+   "pub": "Omio",
+   "src": "Missed train connections in the EU",
+   "claim": "Omio adds a force-majeure exception to the full-refund or free-rerouting promise for a single-ticket EU connecting journey.",
+   "quote": "full reimbursement or a rerouting option at no additional costs (except in some cases, such as force majeure events)",
+   "lang": "English",
+   "tr": "",
+   "law": "The FAQ says that the same EU operator should guarantee a single-ticket connection by offering full reimbursement or rerouting without added cost, then excludes cases such as force majeure. Article 18 retains the reimbursement/rerouting choice when a delay of at least 60 minutes is reasonably expected, including in qualifying extraordinary circumstances. Article 19(10) can remove percentage delay compensation; it does not create the stated exception to reimbursement or rerouting.",
+   "sourceUrl": "https://help.omio.com/hc/en-us/articles/10973854150300-I-booked-a-train-journey-in-the-EU-with-one-or-several-connections-and-I-missed-my-train-connection-due-to-a-disruption-What-are-my-options",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: a passenger holds a DB through-ticket for Hamburg–Munich via Frankfurt. An extraordinary natural event causes a missed connection and a reasonably expected three-hour final delay. Even if DB proves the Article 19(10) compensation defence, the passenger retains the Article 18 choice of qualifying reimbursement or comparable continuation/rerouting. This does not guarantee a physically unavailable route or an immediate departure during an unsafe event.",
+   "context": "The current dedicated FAQ displays an update date of 22 June 2026. The same clause is repeated in Omio’s current public disruptions campaign FAQ; these are one drafting family. The next sentence links to Omio’s general EU-rights article, which states the reimbursement/rerouting options without this force-majeure exception. Read that as counterevidence rather than suppress it. Direct original-byte requests returned HTTP 403, so retained captures are explicitly labelled selected web-tool transcripts, not original HTML.",
+   "scope": "Genuine through-ticket and covered EU long-distance rail service with an expected final delay of at least 60 minutes. The example avoids regional exemptions and separate-contract disputes. Compensation and Article 18 reimbursement are different remedies. The relevant operator still makes necessary arrangements under comparable conditions, and timetable/safety realities may affect the offered routing. The claim concerns Omio’s explanation of carrier duties, not an asserted duty for Omio itself to operate replacement transport or evidence of an actual refusal.",
+   "date": "2026-10-18",
+   "langs": [
+    "English"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "full reimbursement or a rerouting option at no additional costs (except in some cases, such as force majeure events)",
+     "tr": "",
+     "url": "https://help.omio.com/hc/en-us/articles/10973854150300-I-booked-a-train-journey-in-the-EU-with-one-or-several-connections-and-I-missed-my-train-connection-due-to-a-disruption-What-are-my-options",
+     "site": "Omio Help Centre"
+    },
+    {
+     "lang": "English",
+     "quote": "full reimbursement or a rerouting option at no additional costs (except in some cases, such as force majeure events)",
+     "tr": "",
+     "url": "https://www.omio.com/c/service-disruptions/",
+     "site": "Omio disruptions page"
+    }
+   ]
+  },
+  "rail-raileurope-retailer-prior-notice": {
+   "id": "rail-raileurope-retailer-prior-notice",
+   "area": "rail",
+   "topic": "retailer-separate-contracts",
+   "pub": "Rail Europe",
+   "src": "Rail Passenger Rights — combined tickets",
+   "claim": "Rail Europe says a separate-contract statement on tickets or another reproducible document removes the retailer’s refund-plus-75% liability, without also requiring pre-purchase notice.",
+   "quote": "This rule will not apply if this is clearly mentioned on the tickets […] that the tickets represent separate transport contracts.",
+   "lang": "English",
+   "tr": "",
+   "law": "The article first describes the vendor’s reimbursement-plus-75% liability for tickets it combines on its own initiative in one transaction. Its following exception treats a separate-contract statement on the tickets or another reproducible record as enough. Article 12(5) makes two conditions cumulative: that record and information before the passenger bought. A statement first delivered with the tickets after payment cannot by itself remove Article 12(4) liability.",
+   "sourceUrl": "https://help.raileurope.com/article/43557-rail-passenger-rights",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: a retailer combines two covered long-distance rail tickets on its own initiative in a single €100 transaction. The customer is not informed before purchase that the legs are separate contracts; the tickets delivered afterwards clearly say so. The passenger misses a connection. Assuming Article 12(4)’s remaining conditions, the retailer owes the €100 ticket-price reimbursement plus €75 compensation. Clear post-purchase ticket wording alone does not remove that liability.",
+   "context": "The page identifies the EU Rail Passenger Rights Regulation and displays a 5 May 2026 update date. The exception is the last paragraph under What is a Combined ticket, immediately after the total-refund and 75% bullets. It is linked from the current missed-connection help article, which is itself listed in the Get help inventory; those links were followed. Direct original-byte requests were forbidden, so only accurately labelled selected web-tool transcripts are retained.",
+   "scope": "Only vendor-initiated combinations in a single commercial transaction and an actually missed connection on covered services. The exception is effective where BOTH adequate pre-purchase information and reproducible separate-contract documentation are provided; the seller bears the proof burden. This is not an allegation about a completed Rail Europe booking or its actual notices. It does not turn every separately purchased ticket into a through-ticket or promise free rerouting as the Article 12(4) retailer remedy.",
+   "date": "2026-10-18",
+   "langs": [
+    "English"
+   ],
+   "countries": [
+    "FR",
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "This rule will not apply if this is clearly mentioned on the tickets […] that the tickets represent separate transport contracts.",
+     "tr": "",
+     "url": "https://help.raileurope.com/article/43557-rail-passenger-rights",
+     "site": "Rail Europe English website"
+    }
+   ]
+  },
+  "rail-trainline-trenitalia-sixty-minute-band": {
+   "id": "rail-trainline-trenitalia-sixty-minute-band",
+   "area": "rail",
+   "topic": "compensation-bands",
+   "pub": "Trainline",
+   "src": "European delay-compensation table — Trenitalia row",
+   "claim": "Trainline’s Trenitalia table pairs a delay of 60 minutes or more with 50% compensation.",
+   "quote": "Trenitalia […] 60 + Mins […] 50%",
+   "lang": "English",
+   "tr": "",
+   "law": "The table presents Trenitalia’s delay bands as 30–59 minutes for 25%, then 60 minutes or more for 50%. Article 19(1) gives a minimum of 25% at 60–119 minutes and 50% at 120 minutes or more, while allowing greater contractual compensation. The discrepancy is an inaccurate account of the checked standard Trenitalia scheme: its current guidance also uses 25% at 60–119 minutes and 50% at 120 minutes or more. Its separate 25% Frecce bonus for 30–59 minutes is non-cumulative and cannot be added to compensation for longer delays.",
+   "sourceUrl": "https://www.thetrainline.com/en-us/via/europe/how-to-get-a-refund-for-a-canceled-or-delayed-train-in-europe",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: an eligible passenger on a standard €80 Frecciarossa ticket arrives 75 minutes late and has not chosen an Article 18 refund. Assume no Article 19 eligibility defence and no special enhanced promotional arrangement. EU law and Trenitalia’s checked standard policy provide €20. The table’s 50% band suggests €40.",
+   "context": "The article is dated 5 August 2024 and remains available at its original URL. The current robots-linked US CMS sitemap still lists that exact URL, but no recent editorial review is inferred. The caption introduces the compensation schedule for delayed trains in Europe; column headers are Train Company, Country, Delay Timetable and Compensation. Original HTML confirms parallel cells with 30–59/60+ and 25%/50%, with no up-to or maximum qualifier. Both the old carrier link in the row and the link in Trainline’s current operator-specific Help article target the same obsolete Trenitalia URL and return 404. The working current Trenitalia policy was independently located and read. Trainline’s linked general-rights Help article correctly states the EU 25%/50% bands; the operator-specific Help article does not repeat the erroneous band but its outgoing carrier link is broken.",
+   "scope": "Limit to the table’s general Trenitalia 60–119-minute band and a covered standard journey. EU percentages are minima, so greater contractual compensation is lawful where actually offered; the checked current Trenitalia guidance is needed to establish this discrepancy. Frecce’s 30–59-minute voucher bonus is a separate voluntary right, not a cumulative extra 25%. A 120-minute-or-longer delay may qualify for 50%. This overstates a standard payment rather than establishing passenger harm, actual payout or intent.",
+   "date": "2026-10-18",
+   "langs": [
+    "English"
+   ],
+   "countries": [
+    "IT"
+   ],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "Trenitalia […] 60 + Mins […] 50%",
+     "tr": "",
+     "url": "https://www.thetrainline.com/en-us/via/europe/how-to-get-a-refund-for-a-canceled-or-delayed-train-in-europe",
+     "site": "Trainline English website"
+    }
+   ]
+  },
+  "rail-bob-international-assistance-48-hours": {
+   "id": "rail-bob-international-assistance-48-hours",
+   "area": "rail",
+   "topic": "assistance-notice",
+   "pub": "Bodensee-Oberschwaben-Bahn",
+   "src": "Hinweis für mobilitätseingeschränkte Reisende",
+   "claim": "Says assistance abroad requires 48 hours’ advance notice.",
+   "quote": "Bei Hilfeleistungen im Ausland sind 48 Stunden Vorlauf erforderlich.",
+   "lang": "German",
+   "tr": "For assistance abroad, 48 hours’ advance notice is required.",
+   "law": "The page’s domestic recommendation is followed by a categorical 48-hour requirement for assistance abroad through Deutsche Bahn’s Mobility Service Centre. For covered intra-EU rail assistance, Article 24(a) permits 24 hours’ notice. Even the transitional national 36-hour option ended on 30 June 2026. The directly linked current DB page itself says 24 hours abroad. The discrepancy concerns the longer stated notice requirement, not a claim that BOB operates the foreign train or that assistance is unconditional.",
+   "sourceUrl": "https://www.bob-fn.de/service/hinweis-fuer-mobilitaetseingeschraenkte-reisende/",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: after 30 June 2026, a disabled passenger who bought a covered Germany–Austria rail journey from the railway undertaking notifies that undertaking’s designated Mobility Service Centre 30 hours before the first assistance is needed. Assume a valid ticket, suitable access and equipment, trained staff on duty and timely presentation at the designated meeting point. This satisfies Article 24(a)’s notice condition. The BOB page’s foreign 48-hour statement incorrectly describes this timely notification as too late.",
+   "context": "The live BOB service menu links this page. It says its own trains have ramps and its drivers help with boarding, then directs readers to DB’s Mobility Service Centre for station assistance. The 48-hour statement follows a domestic recommendation to book by 20:00 the previous day. Its direct DB link now leads to guidance stating 24 hours abroad. This conflicting service-provider guidance is retained; no actual refusal or recent editorial review is inferred.",
+   "scope": "Published German company guidance about assistance on covered international journeys within the EU after 30 June 2026. Does not assess foreign services outside the Regulation, bespoke rolling-stock changes, or voluntary travel-planning extras. Article 23 staffing and access conditions remain necessary, and shorter-notice requests still attract reasonable-effort duties under Article 24(c).",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Bei Hilfeleistungen im Ausland sind 48 Stunden Vorlauf erforderlich.",
+     "tr": "For assistance abroad, 48 hours’ advance notice is required.",
+     "url": "https://www.bob-fn.de/service/hinweis-fuer-mobilitaetseingeschraenkte-reisende/",
+     "site": "BOB · DE"
+    }
+   ]
+  },
+  "rail-trenord-separate-ticket-contracts": {
+   "id": "rail-trenord-separate-ticket-contracts",
+   "area": "rail",
+   "topic": "through-tickets",
+   "pub": "Trenord",
+   "src": "Passenger rights and responsibilities — connecting journeys on different tickets",
+   "claim": "Its passenger-rights pages categorically treat connecting journeys on different tickets as separate contracts, without the single-transaction qualification.",
+   "quote": "in virtù di differenti biglietti, i viaggi devono essere considerati distinti e separati tra loro",
+   "lang": "Italian",
+   "tr": "because they use different tickets, the journeys must be treated as distinct and separate from one another",
+   "law": "The Italian and English passenger-rights summaries first describe a single journey on one travel document, then categorically treat other journeys using different tickets as separate contracts. Article 12(3) covers one ticket or several tickets purchased in a single commercial transaction from a railway undertaking. Under Article 12(5), excluding that liability requires reproducible separate-contract information and notice before purchase. Different tickets alone do not satisfy that exception. The operative conditions contain conflicting terminology and a one-contract/multiple-titles clause; this finding is confined to the clearer website summary.",
+   "sourceUrl": "https://www.trenord.it/assistenza/informazioni-utili/diritti-e-obblighi-del-passeggero/",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: a passenger buys two connecting covered Trenord regional services in one commercial transaction from Trenord and receives two tickets for a genuine planned connection with a reasonable scheduled change time. Assume no pre-purchase separate-contract warning or corresponding durable disclosure. The first train is delayed and the connection is missed, making arrival at the contractual final destination 90 minutes late. Article 12(3) engages the through-ticket protections in Articles 18–20; issuing two tickets does not by itself split the claim into unrelated contracts.",
+   "context": "The current Italian and English rights pages repeat the categorical split and cite Regulation 2021/782. Their general May 2023 update label does not establish fresh editorial review. The linked current conditions hub leads to the original 102-page PDF effective 1 September 2026. Its Article 4 uses different titles rather than the websites’ different tickets. Printed page 8 defines title as a transport contract, and page 9 permits one contract to be formalised by one or more titles. Those clauses support a narrower interpretation of the PDF and are substantial counterevidence. The websites do not state the Article 12 single-transaction qualification. No actual booking or claim-handling practice was observed.",
+   "scope": "Connecting journeys on covered services bought in one commercial transaction directly from a railway undertaking, where Article 12(5)’s information exception is not satisfied. Separate purchases, properly disclosed separate contracts, unconnected journeys and tickets merely gathered by a passenger are outside the example. This does not claim that every multi-ticket purchase is a through-ticket or that the three statutory remedies always produce a payment.",
+   "date": "2026-10-18",
+   "langs": [
+    "Italian",
+    "English"
+   ],
+   "countries": [
+    "IT"
+   ],
+   "versions": [
+    {
+     "lang": "Italian",
+     "quote": "in virtù di differenti biglietti, i viaggi devono essere considerati distinti e separati tra loro",
+     "tr": "because they use different tickets, the journeys must be treated as distinct and separate from one another",
+     "url": "https://www.trenord.it/assistenza/informazioni-utili/diritti-e-obblighi-del-passeggero/",
+     "site": "Trenord rights · IT"
+    },
+    {
+     "lang": "English",
+     "quote": "by virtue of different tickets, the trips must be considered distinct and separate from each other",
+     "tr": "",
+     "url": "https://www.trenord.it/en/assistance/useful-information/customers-rights-and-responsibilities/",
+     "site": "Trenord rights · EN"
+    }
+   ]
+  },
+  "rail-snalltaget-known-delay-refund": {
+   "id": "rail-snalltaget-known-delay-refund",
+   "area": "rail",
+   "topic": "refund-known-delay",
+   "pub": "Snälltåget",
+   "src": "Allmänna resevillkor, §§9.1(2), 9.3 and 9.4.1",
+   "claim": "Its terms extend the known-before-purchase delay exclusion to the full-ticket repayment in §9.1, although the statutory prior-notice exception concerns percentage delay compensation.",
+   "quote": "Resenär är inte berättigad till ersättning enligt punkt 9.1–9.3 om denne informerats om en försening före inköp av biljett.",
+   "lang": "Swedish",
+   "tr": "A passenger is not entitled to compensation under points 9.1–9.3 if informed of a delay before purchasing a ticket.",
+   "law": "Article 18(1)(a) requires the reimbursement option where, at departure, arrival at the contractual final destination is reasonably expected to be at least 60 minutes late. For a journey not begun, choosing that option gives repayment of the unused ticket. Article 19(9) can exclude the separate percentage-of-ticket compensation when the delay was known before purchase; it does not add a prior-knowledge exception to Article 18. Section 9.4.1 expressly reaches §9.1, and the Swedish §9.1(2) itself calls full-ticket repayment ersättning, the noun used in the exclusion. The finding concerns that published monetary-refund cross-reference. It does not claim that all prior disruption information proves an eligible delay, or that a previously advertised arrival time must govern after a valid contractual timetable change.",
+   "sourceUrl": "https://boka.snalltaget.se/resevillkor",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0782",
+   "example": "Hypothetical: a passenger genuinely buys a valid ticket for a covered Snälltåget long-distance EU service after being warned of a 90-minute operational disruption. The ticket and still-applicable published contractual timetable retain the original arrival time; no revised timetable is incorporated or accepted under § 3.4. At departure, a reliable forecast after recovery time still puts final arrival 90 minutes late. Before travelling any part, the passenger chooses to abandon the journey and asks for the ticket price back. Article 18(1)(a) retains that refund option despite prior notice. This assumes a genuine transport purchase and concerns neither percentage compensation nor private care costs.",
+   "context": "The exclusion is in the current general conditions. The Swedish §9.1(2) describes the full-ticket repayment using ersättning; §9.3 describes people remedied under §9.1 as compensated. The immediately following extraordinary-event exclusion is expressly limited to §9.3, whereas the prior-notice sentence names §§9.1–9.3. The English version uses refund in §9.1(2), but also describes §9.1 recipients as compensated in §9.3 and repeats the wider cross-reference. Material counterevidence remains: the introduction recognises mandatory law; the current delay page gives the ordinary expected-arrival refund choice and confines its prior-notice bullet to delay compensation; and §3.4 provides a mechanism for some preliminary timetable changes. The care-cost allegation has been excluded after the whole-subject review because its express reimbursement promise is in §9.4.2, outside the challenged cross-reference; this is a separately framed refund finding.",
+   "scope": "Published wording about the §9.1 monetary refund for a genuine covered transport contract, where the Article 18 expected delay remains at least 60 minutes against the still-applicable contractual/published timetable. Exclude a validly changed timetable producing no qualifying delay, Swedish domestic services whose whole service route is under 150 km, and non-EU services outside the applicable Regulation. Do not infer actual refusal, intent, universal booking practice, unconditional repayment after travel, care-cost exclusion or entitlement to both repayment and percentage compensation.",
+   "date": "2026-10-18",
+   "langs": [
+    "Swedish",
+    "English"
+   ],
+   "countries": [
+    "SE"
+   ],
+   "versions": [
+    {
+     "lang": "Swedish",
+     "quote": "Resenär är inte berättigad till ersättning enligt punkt 9.1–9.3 om denne informerats om en försening före inköp av biljett.",
+     "tr": "A passenger is not entitled to compensation under points 9.1–9.3 if informed of a delay before purchasing a ticket.",
+     "url": "https://boka.snalltaget.se/resevillkor",
+     "site": "Snälltåget · SV · booking host"
+    },
+    {
+     "lang": "Swedish",
+     "quote": "Resenär är inte berättigad till ersättning enligt punkt 9.1–9.3 om denne informerats om en försening före inköp av biljett.",
+     "tr": "A passenger is not entitled to compensation under points 9.1–9.3 if informed of a delay before purchasing a ticket.",
+     "url": "https://www.snalltaget.se/resevillkor",
+     "site": "Snälltåget · SV · main host"
+    },
+    {
+     "lang": "English",
+     "quote": "not entitled to compensation according to sections 9.1–9.3 if they were informed of a delay prior to purchasing the ticket.",
+     "tr": "",
+     "url": "https://boka.snalltaget.se/en/terms-and-conditions",
+     "site": "Snälltåget · EN"
+    }
+   ]
+  },
+  "banking-isybank-residence": {
+   "id": "banking-isybank-residence",
+   "area": "banking",
+   "topic": "residence",
+   "pub": "isybank",
+   "src": "Conto di base — application FAQ",
+   "claim": "says its statutory basic account is only for residents of Italy.",
+   "quote": "Il Conto di Base isybank, come tutti gli altri prodotti, è dedicato ai soli residenti in Italia.",
+   "lang": "Italian",
+   "tr": "The isybank Basic Account, like all its other products, is intended only for residents of Italy.",
+   "law": "Italy’s Banking Act gives consumers legally resident in the EU a right to a basic account regardless of where they live. Article 126-vicies permits refusal for the statutory eligibility and existing Italian payment-account grounds, subject to anti-money-laundering rules. Residence in another EU country is not itself a ground for refusal.",
+   "sourceUrl": "https://www.isybank.com/it/conti/conto-base.html",
+   "lawUrl": "https://www.bancaditalia.it/compiti/vigilanza/intermediari/Testo-Unico-Bancario.pdf",
+   "example": "Hypothetical: A consumer legally resident in France, with no payment account in Italy, applies for a basic account and meets the identification and anti-money-laundering requirements. The published Italy-only restriction excludes that person even though living in France does not itself remove the statutory right.",
+   "context": "The product page identifies this as the statutory Conto di Base and links it from the bank’s current account menu. Its application instructions also ask applicants to declare lawful stay in the EU. That broader declaration does not explain the page’s express Italy-only restriction; the linked information sheet dated 12 October 2026 repeats that account and card contracts are reserved for Italian residents (page 4). These are publications by the same bank, not independent drafting origins. The official Italian law capture is a March 2025 consolidation; the 2017 enactment and the regulator’s 19 August 2026 explanation were also checked. The live Normattiva article endpoint was unavailable. The Bank of Italy’s supervisory explanation published 5 August 2026 expressly confirms that the duty extends to lawful residents across the EU; its 30 November 2026 internal review deadline does not postpone the underlying statutory entitlement.",
+   "scope": "Italian statutory basic accounts, reviewed on 18 October 2026. The right is for consumers legally resident in the EU and remains subject to identification and anti-money-laundering checks. An existing qualifying payment account in Italy can justify refusal, with switching and notice-of-closure exceptions. This is a finding about published eligibility wording; no actual application or refusal was tested. Standard accounts need not have identical conditions, and the basic account is not necessarily free.",
+   "date": "2026-10-18",
+   "langs": [
+    "Italian"
+   ],
+   "countries": [
+    "IT"
+   ],
+   "versions": [
+    {
+     "lang": "Italian",
+     "quote": "Il Conto di Base isybank, come tutti gli altri prodotti, è dedicato ai soli residenti in Italia.",
+     "tr": "The isybank Basic Account, like all its other products, is intended only for residents of Italy.",
+     "url": "https://www.isybank.com/it/conti/conto-base.html",
+     "site": "isybank.com/it — Conto di base"
+    }
+   ]
+  },
+  "banking-caixa-popular-obsolete-free-account-thresholds": {
+   "id": "banking-caixa-popular-obsolete-free-account-thresholds",
+   "area": "banking",
+   "topic": "free-account-income",
+   "pub": "Caixa Popular",
+   "src": "Cuenta de Pago Básica — vulnerability criteria",
+   "claim": "uses income limits for a free basic account that were raised in December 2022.",
+   "quote": "ingresos inferiores a dos veces el indicador público de renta.",
+   "lang": "Spanish",
+   "tr": "income below twice the public income indicator.",
+   "law": "Real Decreto 164/2019 Article 3(1)(a), amended by Real Decreto-ley 20/2022 Article 75 from 28 December 2022, sets ceilings of 3, 3.5 and 4 times the twelve-payment IPREM. Caixa Popular instead uses the earlier 2, 2.5 and 3 multipliers. The ordinary asset test, all account holders and authorised persons, application and proof requirements still apply. This is Spain’s enhanced fee regime under Directive Article 18(4), not an EU-wide income ceiling.",
+   "sourceUrl": "https://www.caixapopular.es/es/particulares/cuentas/cuenta-pago-basica",
+   "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-4906&p=20221228&tn=1",
+   "example": "Hypothetical: A sole holder, with no authorised persons and outside any family unit, has annual gross income equal to 2.5 times the applicable annual twelve-payment IPREM. Assume they meet basic-account eligibility, have no disqualifying property or company ownership and submit complete proof and an application for the fee exemption. Their income is within the legal 3-times ceiling but exceeds the page’s 2-times ceiling. No euro IPREM figure or guaranteed remedy is inferred.",
+   "context": "The current product page expressly makes the account free for vulnerability and then lists all four earlier income ceilings. It separately explains the asset test and the trafficking/sexual-exploitation route. The currently linked document labelled precontractual is a 2019 zero-fee information document headed Banco Cooperativo Español; it gives fees and does not correct the income criteria.",
+   "scope": "Eligibility for Spain’s fee exemption for covered basic-account services. This finding does not treat vulnerability as necessary for opening the ordinary fee-paying basic account, and does not claim that all transactions outside the statutory service/quantity limits must be free. Published guidance only; no actual application decision, charging, harm or intent established. Selected sources do not establish a population error rate.",
+   "date": "2026-10-18",
+   "langs": [
+    "Spanish"
+   ],
+   "countries": [
+    "ES"
+   ],
+   "versions": [
+    {
+     "lang": "Spanish",
+     "quote": "ingresos inferiores a dos veces el indicador público de renta.",
+     "tr": "income below twice the public income indicator.",
+     "url": "https://www.caixapopular.es/es/particulares/cuentas/cuenta-pago-basica",
+     "site": "caixapopular.es"
+    }
+   ]
+  },
+  "banking-bnf-standard-account-eligibility": {
+   "id": "banking-bnf-standard-account-eligibility",
+   "area": "banking",
+   "topic": "access",
+   "pub": "BNF Bank",
+   "src": "Basic Payment Account · Who Can Open a Basic Payment Account?",
+   "claim": "limits the basic account to people who are ineligible for a standard deposit account.",
+   "quote": "You can only open a Basic Payment Account if […] and are not eligible for a Standard Deposit Account.",
+   "lang": "English",
+   "tr": "",
+   "law": "MFSA R.5.6.144 establishes eligibility for lawful residents of Malta or another Member State. R.5.6.146 permits genuine-interest checks, R.5.6.147 addresses an existing equivalent Payment Account with a closure-notice exception, R.5.6.148 prohibits refusal based on financial circumstances, and R.5.6.153 requires AML/CFT refusal. R.5.6.151 also prohibits burdensome restrictions dissuading exercise of the right. Eligibility for a commercial standard deposit account is not an additional exclusion from the basic-account right. These are the current 6 October 2026 Rules under L.N.258/2026 Reg.44, with repeal and transition in Regs.57–58; S.L.371.18 is historical.",
+   "sourceUrl": "https://www.bnf.bank/personal/basic-payment-account",
+   "lawUrl": "https://www.mfsa.mt/wp-content/uploads/2025/02/Conduct-of-Business-Rulebook-for-Credit-Institutions-Offering-Retail-Products-and-Services.pdf",
+   "example": "Hypothetical: An adult legally resident in Malta has no equivalent Maltese payment account, needs ordinary daily banking and passes the required identity and anti-money-laundering checks. Even if BNF would accept them for its standard deposit account, that fact alone does not remove their right to choose the basic account.",
+   "context": "The disputed sentence appears under the basic account eligibility heading. The linked April 2025 terms use EU/Member State residence and an equivalent-existing-account rule, including closure notice, without the standard-deposit-account condition. Those terms qualify any conclusion about the contract or actual processing.",
+   "scope": "Published basic-account eligibility wording in Malta. This review isolates a consumer legally resident in Malta with a genuine need and no equivalent Maltese account. The national genuine-interest, equivalent-account and anti-money-laundering conditions remain applicable. No actual application refusal or customer loss was established.",
+   "date": "2026-10-18",
+   "langs": [
+    "English"
+   ],
+   "countries": [
+    "MT"
+   ],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "You can only open a Basic Payment Account if […] and are not eligible for a Standard Deposit Account.",
+     "tr": "",
+     "url": "https://www.bnf.bank/personal/basic-payment-account",
+     "site": "bnf.bank"
+    }
+   ]
+  },
+  "banking-crelan-unindexed-asset-ceiling": {
+   "id": "banking-crelan-unindexed-asset-ceiling",
+   "area": "banking",
+   "topic": "belgium-asset-ceiling",
+   "pub": "Crelan",
+   "src": "Basisbankdienst · Voor wie is de basisbankdienst bestemd?",
+   "claim": "still sets the savings ceiling at €10,000 instead of the indexed 2026 ceiling of €10,239.43.",
+   "quote": "u hebt bij een andere bank niet meer dan 10.000 euro schulden of gelden op rekening.",
+   "lang": "Dutch",
+   "tr": "you have no more than €10,000 in debts or funds in an account at another bank.",
+   "law": "Belgium permits an asset-based refusal where the relevant cumulative average annual credit balance exceeds the statutory ceiling, excluding the specified rental guarantees. The Royal Decree of 17 July 2024 raised the base amount from €6,000 to €10,000 from 1 December 2024 and introduced annual indexation. The official Gazette notice 2025009110 fixes €10,239.43 from 1 January 2026 under CDE VII.59 § 1 and § 2. Thus a balance above €10,000 but below €10,239.43 is not by itself this refusal ground. A qualifying lawful-residence status, no usable equivalent Belgian payment account (subject to closure notice), and AML/identity requirements remain necessary. This finding addresses savings balances only, not the separate treatment of consumer-credit contracts.",
+   "sourceUrl": "https://www.crelan.be/nl/particulieren/betalen/zichtrekeningen/product/basisbankdienst",
+   "lawUrl": "https://www.ejustice.just.fgov.be/mopdf/2025/12/03_1.pdf",
+   "example": "Hypothetical: An adult consumer lawfully resident in Belgium has no payment account in Belgium, no credit contracts and one Belgian savings account that does not provide the equivalent everyday payment services with a constant balance of €10,200 throughout the relevant year. The consumer satisfies identity and AML checks and all other statutory conditions. The average annual savings balance is €10,200, which exceeds the page’s €10,000 ceiling but is below the effective 2026 ceiling of €10,239.43; that balance alone cannot justify refusal.",
+   "context": "The product page introduces these as the conditions which must be met. Its current account-listing navigation links the statutory Basisbankdienst page. The directly linked information sheet dated 29 November 2024 also requires a cumulative average annual balance no greater than €10,000 (rental deposit excluded), calls these statutory conditions, and says Crelan will refuse if the conditions are unmet. The directly linked application incorporates that information sheet. Neither checked document states indexation of the asset ceiling.",
+   "scope": "Finding restricted to Crelan’s published Dutch statutory-account savings guidance accessed 18 October 2026. No allegation about the separate credit-contract criterion, actual refusals, harm or intent.",
+   "date": "2026-10-18",
+   "langs": [
+    "Dutch"
+   ],
+   "countries": [
+    "BE"
+   ],
+   "versions": [
+    {
+     "lang": "Dutch",
+     "quote": "u hebt bij een andere bank niet meer dan 10.000 euro schulden of gelden op rekening.",
+     "tr": "you have no more than €10,000 in debts or funds in an account at another bank.",
+     "url": "https://www.crelan.be/nl/particulieren/betalen/zichtrekeningen/product/basisbankdienst",
+     "site": "www.crelan.be"
+    }
+   ]
+  },
+  "banking-revolut-be-unindexed-asset-ceiling": {
+   "id": "banking-revolut-be-unindexed-asset-ceiling",
+   "area": "banking",
+   "topic": "belgium-asset-ceiling",
+   "pub": "Revolut Belgium",
+   "src": "Basisbankdienstrekening · Geschiktheid",
+   "claim": "still sets the savings ceiling at €10,000 and provides for conversion above that amount.",
+   "quote": "niet meer dan 10.000 euro gecumuleerd jaarlijks kredietsaldo hebben",
+   "lang": "Dutch",
+   "tr": "have no more than €10,000 in accumulated annual credit balance",
+   "law": "Belgium permits an asset-based refusal where the relevant cumulative average annual credit balance exceeds the statutory ceiling, excluding the specified rental guarantees. The Royal Decree of 17 July 2024 raised the base amount from €6,000 to €10,000 from 1 December 2024 and introduced annual indexation. The official Gazette notice 2025009110 fixes €10,239.43 from 1 January 2026 under CDE VII.59 § 1 and § 2. Thus a balance above €10,000 but below €10,239.43 is not by itself this refusal ground. A qualifying lawful-residence status, no usable equivalent Belgian payment account (subject to closure notice), and AML/identity requirements remain necessary. This finding addresses savings balances only, not the separate treatment of consumer-credit contracts.",
+   "sourceUrl": "https://cdn.revolut.com/terms_and_conditions/pdf/basisbankdienstrekening_1beb0317_1.2.0_1789124296_nl.pdf",
+   "lawUrl": "https://www.ejustice.just.fgov.be/mopdf/2025/12/03_1.pdf",
+   "example": "Hypothetical: An adult consumer lawfully resident in Belgium has no payment account in Belgium, no credit contracts and one Belgian savings account that does not provide the equivalent everyday payment services with a constant balance of €10,200 throughout the relevant year. The consumer satisfies identity and AML checks and all other statutory conditions. The average annual savings balance is €10,200, which exceeds the page’s €10,000 ceiling but is below the effective 2026 ceiling of €10,239.43; that balance alone cannot justify refusal.",
+   "context": "The Dutch contract’s eligibility list uses €10,000. Its later standard-account conversion section also says conversion follows above €10,000 with two months’ notice. The current English product page repeats the €10,000 limit and the linked current English legal contract uses the same figure. The Belgium help article links the product eligibility page; the English legal Products index lists Basic Bank Account. The contract’s indexation statement concerns the maximum service fee, not the eligibility balance. Ordinary paid-plan cards below the product text are outside this finding.",
+   "scope": "Finding restricted to Revolut’s Belgian statutory basic-account asset threshold in the current Dutch/English publications. No actual application or conversion was tested; no allegation about harm or intent.",
+   "date": "2026-10-18",
+   "langs": [
+    "Dutch"
+   ],
+   "countries": [
+    "BE"
+   ],
+   "versions": [
+    {
+     "lang": "Dutch",
+     "quote": "niet meer dan 10.000 euro gecumuleerd jaarlijks kredietsaldo hebben",
+     "tr": "have no more than €10,000 in accumulated annual credit balance",
+     "url": "https://cdn.revolut.com/terms_and_conditions/pdf/basisbankdienstrekening_1beb0317_1.2.0_1789124296_nl.pdf",
+     "site": "www.revolut.com"
+    }
+   ]
+  },
+  "banking-beobank-belgium-principal-residence": {
+   "id": "banking-beobank-belgium-principal-residence",
+   "area": "banking",
+   "topic": "residence",
+   "pub": "Beobank",
+   "src": "De Basisbankdienst Rekening · Wat is een Basisbankdienst Rekening?",
+   "claim": "contradicts its own EU-residence guidance by adding a principal home in Belgium as a statutory-account condition.",
+   "quote": "dat zijn hoofdverblijfplaats zich in België bevindt.",
+   "lang": "Dutch",
+   "tr": "that his principal residence is in Belgium.",
+   "law": "CDE VII.57 § 2 grants the statutory basic banking service to consumers lawfully resident in an EU Member State; VII.56/1 prohibits nationality/residence discrimination and VII.59 sets the refusal grounds. A principal home in Belgium is not a separate condition. The Dutch product-page sentence expressly adds that condition even though the same page’s later eligibility list says residence in the EU. The linked July 2026 information sheet and French product version give the broader EU rule. The finding is this internal inconsistency in Dutch guidance, not a conclusion that Beobank’s whole application route or contract requires Belgian residence.",
+   "sourceUrl": "https://www.beobank.be/nl/betalen/zichtrekeningen/basisbankdienst.html",
+   "lawUrl": "https://www.ejustice.just.fgov.be/mopdf/2018/01/12_1.pdf",
+   "example": "Hypothetical: An adult French citizen lawfully resident in France wants Beobank’s Belgian statutory basic account for personal payments. They have no usable equivalent Belgian payment account, no disqualifying credit or savings balance, provide the required identity information, pass AML checks and meet all other statutory conditions. Their French principal home does not itself remove the Belgian statutory right, although the quoted Dutch sentence says the principal home must be in Belgium.",
+   "context": "The current Dutch account listing links the statutory product. Its introduction describes the legally regulated basic-account fee and expressly states Belgium as principal residence. The next eligibility list states that the applicant lives in the EU. The current French page has no Belgium-principal-home requirement. The directly linked original July 2026 information sheet expressly covers lawful residence in an EU Member State (and the statutory limited Belgian-national-abroad extension); the July 2026 application has no Belgium-home declaration.",
+   "scope": "Reviewed finding limited to the contradictory Dutch Beobank product-page statement. The nearby EU criterion, French text and linked July 2026 documents are material counterevidence. No actual refusal, bank intent or market-wide rate inferred.",
+   "date": "2026-10-18",
+   "langs": [
+    "Dutch"
+   ],
+   "countries": [
+    "BE"
+   ],
+   "versions": [
+    {
+     "lang": "Dutch",
+     "quote": "dat zijn hoofdverblijfplaats zich in België bevindt.",
+     "tr": "that his principal residence is in Belgium.",
+     "url": "https://www.beobank.be/nl/betalen/zichtrekeningen/basisbankdienst.html",
+     "site": "www.beobank.be"
+    }
+   ]
+  },
+  "banking-revolut-be-immediate-residence-termination": {
+   "id": "banking-revolut-be-immediate-residence-termination",
+   "area": "banking",
+   "topic": "belgium-termination-notice",
+   "pub": "Revolut Belgium",
+   "src": "Basisbankdienstrekening · Uw rekening sluiten",
+   "claim": "contradicts its two-month notice clause by also listing loss of lawful EU residence as allowing immediate closure.",
+   "quote": "zonder voorafgaande kennisgeving […] u niet langer legaal verblijft in een lidstaat van de Europese Unie;",
+   "lang": "Dutch",
+   "tr": "without prior notice […] you no longer reside lawfully in a Member State of the European Union;",
+   "law": "CDE VII.59 § 2 permits termination on specified grounds. Where residence conditions cease (4°), inactivity exceeds 24 consecutive months (2°), or another usable Belgian account or a disqualifying balance exists (5°), termination of the framework contract requires at least two months’ notice. Immediate effect under this paragraph is reserved for 1° (the listed convictions within the last five years, or intentional illegal use) and 3° (eligibility-changing false information). The five-year limit was inserted by Article 7 of the Law of 20 April 2026, effective 17 May 2026. This comparison preserves the statutory Belgian-national-abroad residence extension and does not deny separate AML, sanctions, fraud-control or legally required payment/instrument suspension powers; the hypothetical excludes such a ground.",
+   "sourceUrl": "https://cdn.revolut.com/terms_and_conditions/pdf/basisbankdienstrekening_1beb0317_1.2.0_1789124296_nl.pdf",
+   "lawUrl": "https://www.ejustice.just.fgov.be/mopdf/2018/01/12_1.pdf",
+   "example": "Hypothetical: A non-Belgian consumer’s lawfully opened Belgian basic account remains active and correctly disclosed. The consumer later ceases to meet the statutory EU-residence condition. There is no qualifying conviction within the last five years, fraud, intentional illegal use, misleading application information, AML/sanctions ground or other lawful immediate suspension requirement. Residence loss can justify terminating the account, but under VII.59 § 2 (4°) the framework-contract termination still requires at least two months’ notice.",
+   "context": "The current Dutch contract lists loss of lawful EU residence under immediate closure/suspension. A following list in the same contract repeats residence loss under two months’ notice. Current English text has the same contradiction. This is an express contradictory notice rule in published contractual guidance, not evidence that Revolut has closed an account without notice.",
+   "scope": "Reviewed finding concerning contractual framework-account closure for residence loss only, excluding operational suspension under other law. Same Revolut origin as the asset-ceiling case; not an additional independent publisher.",
+   "date": "2026-10-18",
+   "langs": [
+    "Dutch"
+   ],
+   "countries": [
+    "BE"
+   ],
+   "versions": [
+    {
+     "lang": "Dutch",
+     "quote": "zonder voorafgaande kennisgeving […] u niet langer legaal verblijft in een lidstaat van de Europese Unie;",
+     "tr": "without prior notice […] you no longer reside lawfully in a Member State of the European Union;",
+     "url": "https://cdn.revolut.com/terms_and_conditions/pdf/basisbankdienstrekening_1beb0317_1.2.0_1789124296_nl.pdf",
+     "site": "www.revolut.com"
+    }
+   ]
+  },
+  "banking-beobank-no-notice-eligibility-loss": {
+   "id": "banking-beobank-no-notice-eligibility-loss",
+   "area": "banking",
+   "topic": "belgium-termination-notice",
+   "pub": "Beobank",
+   "src": "De Basisbankdienst Rekening · footnote 3",
+   "claim": "contradicts its linked information sheet by saying loss of any eligibility condition permits termination without notice.",
+   "quote": "als u niet langer aan de toekenningsvoorwaarden voldoet, kan Beobank de rekening zonder voorafgaande kennisgeving opzeggen.",
+   "lang": "Dutch",
+   "tr": "if you no longer meet the eligibility conditions, Beobank may terminate the account without prior notice.",
+   "law": "CDE VII.59 § 2 permits termination on specified grounds. Where residence conditions cease (4°), inactivity exceeds 24 consecutive months (2°), or another usable Belgian account or a disqualifying balance exists (5°), termination of the framework contract requires at least two months’ notice. Immediate effect under this paragraph is reserved for 1° (the listed convictions within the last five years, or intentional illegal use) and 3° (eligibility-changing false information). The five-year limit was inserted by Article 7 of the Law of 20 April 2026, effective 17 May 2026. This comparison preserves the statutory Belgian-national-abroad residence extension and does not deny separate AML, sanctions, fraud-control or legally required payment/instrument suspension powers; the hypothetical excludes such a ground.",
+   "sourceUrl": "https://www.beobank.be/nl/betalen/zichtrekeningen/basisbankdienst.html",
+   "lawUrl": "https://www.ejustice.just.fgov.be/mopdf/2018/01/12_1.pdf",
+   "example": "Hypothetical: An active Beobank basic-account holder truthfully notifies the bank that they have opened another usable equivalent Belgian payment account. The other account is not subject to a closure notice. There is no qualifying conviction within the last five years, fraud, intentional illegal use, misleading application information, AML/sanctions ground or other reason requiring immediate suspension. The new account can trigger termination under VII.59 § 2 (5°), but the framework-account termination requires at least two months’ notice.",
+   "context": "Footnote 3 follows the product-page eligibility list and says false declaration or any loss of eligibility permits no-notice termination. The French version makes the same broad statement. However, the directly linked July 2026 information sheet p. 2 expressly requires two months’ notice and limits immediate effect to the fraud/illegal-use/false-information cases. This case is the website’s broad notice statement only; the supplied contract information is contrary evidence.",
+   "scope": "Reviewed finding limited to contradictory Dutch/French Beobank website guidance on notice. Same Beobank origin as the principal-residence case. No actual account termination, intent or harm inferred.",
+   "date": "2026-10-18",
+   "langs": [
+    "Dutch",
+    "French"
+   ],
+   "countries": [
+    "BE"
+   ],
+   "versions": [
+    {
+     "lang": "Dutch",
+     "quote": "als u niet langer aan de toekenningsvoorwaarden voldoet, kan Beobank de rekening zonder voorafgaande kennisgeving opzeggen.",
+     "tr": "if you no longer meet the eligibility conditions, Beobank may terminate the account without prior notice.",
+     "url": "https://www.beobank.be/nl/betalen/zichtrekeningen/basisbankdienst.html",
+     "site": "www.beobank.be"
+    },
+    {
+     "lang": "French",
+     "quote": "résilié sans préavis par Beobank",
+     "tr": "terminated without notice by Beobank",
+     "url": "https://www.beobank.be/fr/payer/comptes-courants/service-bancaire-de-base.html",
+     "site": "www.beobank.be"
+    }
+   ]
+  },
+  "banking-n26-supported-country": {
+   "id": "banking-n26-supported-country",
+   "area": "banking",
+   "topic": "supported-country",
+   "pub": "N26",
+   "src": "Konto gemäß §§30 ff. ZKG — Why can’t I get a basic account?",
+   "claim": "says it may refuse the statutory basic account because the applicant lives outside its supported markets.",
+   "quote": "du außerhalb eines von uns unterstützten Landes lebst.",
+   "lang": "German",
+   "tr": "you live outside one of our supported countries.",
+   "law": "ZKG §31(1) gives each consumer lawfully resident in the EU the right to a German basic-account contract with an institution offering consumer payment accounts. §§32 and 34–37 limit additional conditions and refusal grounds; a commercial supported-market list is not among them. Existing usable domestic accounts, specified prior misconduct or lawful prior termination, and required identity and anti-money-laundering checks can still justify refusal.",
+   "sourceUrl": "https://support.n26.com/de-de/konto-und-personliche-informationen/sonstiges/konto-gemaess-zkg-30",
+   "lawUrl": "https://www.gesetze-im-internet.de/zkg/BJNR072010016.html",
+   "example": "Hypothetical: An adult legally resident in Romania applies to N26 Bank SE for its German statutory basic account. Romania is absent from the linked supported-country list. Assume a complete application, successful required identification and anti-money-laundering checks, the ability to use the offered app services, no usable German payment account and no other statutory refusal ground. Romanian residence alone does not permit refusal, yet the FAQ lists unsupported-country residence as a reason to refuse.",
+   "context": "The German and English statutory-account FAQs expressly distinguish this product from N26 Standard. Their supported-country refusal bullet links a commercial country list that excludes several EU states. Current support-category navigation links the FAQ. The linked application accepts a country address field without listing supported markets; a separate current ZKG information PDF describes EU-wide entitlement and omits this market restriction. Those broader passages are retained as counterevidence. This concerns the express FAQ restriction, not a finding that N26 actually rejected applicants.",
+   "scope": "German statutory N26 basic-account guidance, checked 18 October 2026. The exclusion previously recorded for generic N26 ordinary-account criteria remains valid; this new finding uses the separate statutory ZKG page. Only published wording is assessed. No application, customer contact, refusal, harm or intent was tested.",
+   "date": "2026-10-18",
+   "langs": [
+    "German",
+    "English"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "du außerhalb eines von uns unterstützten Landes lebst.",
+     "tr": "you live outside one of our supported countries.",
+     "url": "https://support.n26.com/de-de/konto-und-personliche-informationen/sonstiges/konto-gemaess-zkg-30",
+     "site": "support.n26.com/de-de — statutory account FAQ"
+    },
+    {
+     "lang": "English",
+     "quote": "Live outside of a supported country.",
+     "tr": "",
+     "url": "https://support.n26.com/en-de/account-and-personal-details/miscellaneous/account-in-conjunction-with-zkg-30",
+     "site": "support.n26.com/en-de — statutory account FAQ"
+    }
+   ]
+  },
+  "banking-n26-one-year-inactivity": {
+   "id": "banking-n26-one-year-inactivity",
+   "area": "banking",
+   "topic": "inactivity",
+   "pub": "N26",
+   "src": "Basic-account application — background information, printed page 1",
+   "claim": "says in its currently supplied application guidance that one year without turnover can justify closing a statutory basic account.",
+   "quote": "ein Jahr lang umsatzlos geführt wird",
+   "lang": "German",
+   "tr": "has been maintained without turnover for one year",
+   "law": "Under ZKG §42(1), only the specified statutory termination grounds apply. For inactivity alone, §42(2)(1) requires more than 24 consecutive months without a holder-initiated payment, an agreed termination right, and at least two months’ notice. One year without turnover is insufficient by itself. Separate misconduct, unpaid-fee, false-information and other statutory grounds can still permit termination.",
+   "sourceUrl": "https://docs.n26.com/cs/Form_Antrag_auf_Abschluss_eines_Basiskontovertrags.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/zkg/BJNR072010016.html",
+   "example": "Hypothetical legal comparison: Assume the application guidance’s no-turnover condition is met for 13 months and there is no other statutory termination ground. That period alone is too short: ZKG §42(2)(1) requires more than 24 consecutive months without a holder-initiated payment. The example assumes the source condition is met; it does not equate bank-fee postings with no turnover or assume a particular N26 fee arrangement. Current contract terms separately incorporate the statutory rule.",
+   "context": "The support FAQ currently links a nine-page application bundle whose first page identifies statutory ZKG basic-account background information and says the bank can also close an existing account when continuing it is unreasonable, including the one-year inactivity example. The current legal-document index independently links an eight-page application bundle with the same passage. Its legacy-looking device references are disclosed. Current 19 June 2026 interface terms 6.3 expressly incorporate §42(2) for basic-account customers; that correct contractual clause conflicts with the application guidance and prevents treating the one-year statement as proven operational policy.",
+   "scope": "Current linked German N26 statutory-account application guidance, reviewed 18 October 2026. Narrow published-information discrepancy only; no claim about actual closure, operative contract interpretation or all N26 publications. Same publisher/origin as the supported-country finding.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "ein Jahr lang umsatzlos geführt wird",
+     "tr": "has been maintained without turnover for one year",
+     "url": "https://docs.n26.com/cs/Form_Antrag_auf_Abschluss_eines_Basiskontovertrags.pdf",
+     "site": "N26 support-linked application — printed page 1"
+    },
+    {
+     "lang": "German",
+     "quote": "ein Jahr lang umsatzlos geführt wird",
+     "tr": "has been maintained without turnover for one year",
+     "url": "https://docs.n26.com/legal/01+DE/02+ZKG/de/14zkgBasis_Kontoantrag-de.pdf",
+     "site": "N26 legal-index application — printed page 1"
+    }
+   ]
+  },
+  "banking-activobank-obsolete-transfer-allowance": {
+   "id": "banking-activobank-obsolete-transfer-allowance",
+   "area": "banking",
+   "topic": "portugal-included-transfers",
+   "pub": "ActivoBank",
+   "src": "Quais são os serviços incluídos numa Conta de Serviços Mínimos Bancários?",
+   "claim": "contradicts its current terms by stating an annual included homebanking-transfer limit of 24 instead of 48.",
+   "quote": "existe um máximo, por cada ano civil, de 24 Transferências Interbancárias nacionais e na União Europeia.",
+   "lang": "Portuguese",
+   "tr": "there is a maximum, per calendar year, of 24 domestic and EU interbank transfers.",
+   "law": "Article 3(2) of DL 27-C/2000 includes 48 interbank transfers per calendar year via homebanking or the bank’s own apps within the capped package. Lei 24/2023 Art. 6 doubled the earlier 24 allowance; Art. 12(3) made it effective 90 days after 29 May 2023, on 27 August 2023. The FAQ understates the statutory bundle. The bank’s main product page, current FIN, DIC, general terms and statutory information document correctly state 48. The finding is limited to contradictory published guidance and does not establish charging or refusal.",
+   "sourceUrl": "https://www.activobank.pt/pt/ajuda/Pages/quais-sao-os-servicos-incluidos-numa-conta-de-servicos-minimos-bancarios.aspx",
+   "lawUrl": "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2000-106398173",
+   "example": "Hypothetical: a qualifying basic-account holder has made 24 ordinary euro interbank transfers through homebanking this calendar year and wants a 25th to an account in Portugal. Assuming no other issue affects the transfer, that 25th is within the statutory 48-transfer bundle. The FAQ’s 24 ceiling wrongly suggests it is outside. No claim is made that ActivoBank would charge: its current DIC prices ordinary online SEPA transfers at €0.",
+   "context": "The FAQ is listed under Serviços Mínimos Bancários in the current Contas help category. A separate paragraph on the current product page also puts homebanking transfers after 24 in the extra-services category, while the preceding included-services list says 48. Current product documents consistently give 48.",
+   "scope": "Portuguese published explanation of the statutory bundle on 18 October 2026. One independent publisher; no actual charges, refusal, losses or intent inferred. Correct contractual and product material is material counterevidence.",
+   "date": "2026-10-18",
+   "langs": [
+    "Portuguese"
+   ],
+   "countries": [
+    "PT"
+   ],
+   "versions": [
+    {
+     "lang": "Portuguese",
+     "quote": "existe um máximo, por cada ano civil, de 24 Transferências Interbancárias nacionais e na União Europeia.",
+     "tr": "there is a maximum, per calendar year, of 24 domestic and EU interbank transfers.",
+     "url": "https://www.activobank.pt/pt/ajuda/Pages/quais-sao-os-servicos-incluidos-numa-conta-de-servicos-minimos-bancarios.aspx",
+     "site": "ActivoBank"
+    }
+   ]
+  },
+  "banking-abanca-portugal-obsolete-2026-fee-cap": {
+   "id": "banking-abanca-portugal-obsolete-2026-fee-cap",
+   "area": "banking",
+   "topic": "portugal-2026-fee-cap",
+   "pub": "ABANCA Portugal",
+   "src": "Conta Serviços Mínimos Bancários",
+   "claim": "gives €5.23 as the legal annual cap for 2026, although the 2026 cap is €5.37.",
+   "quote": "Em 2026 o custo anual dos serviços mínimos bancários não pode exceder 5,23€.",
+   "lang": "Portuguese",
+   "tr": "In 2026 the annual cost of minimum banking services cannot exceed €5.23.",
+   "law": "DL 27-C/2000 Art. 3(1) caps total annual charges for included services at 1% of IAS. Portaria 480-A/2025/1 fixes 2026 IAS at €537.13 effective 1 January 2026. One percent is €5.3713, expressed by Banco de Portugal as €5.37. ABANCA’s 5.23 figure understates that legal maximum by €0.14 at cent precision. A lower bank price is lawful; the page separately identifies its 2025 price, so this case concerns its explicit 2026 legal ceiling statement.",
+   "sourceUrl": "https://www.abanca.pt/pt/contas/conta-servicos-minimos-bancarios/",
+   "lawUrl": "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2000-106398173",
+   "example": "Hypothetical: compare a full calendar-year statutory bundle priced at €5.30, with no separately chargeable extra services. In 2026, €5.30 is below the €5.37 legal ceiling. The page’s €5.23 ceiling would imply that price exceeds the law. This is an example of the numerical discrepancy, not ABANCA’s price or a recommendation.",
+   "context": "The quoted sentence appears under access and maintenance conditions, immediately after a statement that charges are limited by law to 1% IAS. The following sentence separately reports ABANCA’s 2025 annual price of €5.20 including stamp duty. Its currently linked FIN gives €2.50 plus 4% stamp duty per half-year, totalling €5.20. The currently linked DIC dated 1 April 2026 also gives €5.20 annually.",
+   "scope": "Only the asserted 2026 statutory maximum on the Portuguese product page as accessed 18 October 2026. The bank may lawfully charge below the cap, and no excessive fee or harm is alleged.",
+   "date": "2026-10-18",
+   "langs": [
+    "Portuguese"
+   ],
+   "countries": [
+    "PT"
+   ],
+   "versions": [
+    {
+     "lang": "Portuguese",
+     "quote": "Em 2026 o custo anual dos serviços mínimos bancários não pode exceder 5,23€.",
+     "tr": "In 2026 the annual cost of minimum banking services cannot exceed €5.23.",
+     "url": "https://www.abanca.pt/pt/contas/conta-servicos-minimos-bancarios/",
+     "site": "ABANCA Portugal"
+    }
+   ]
+  },
+  "banking-hsbc-malta-termination-notice": {
+   "id": "banking-hsbc-malta-termination-notice",
+   "area": "banking",
+   "topic": "termination-notice",
+   "pub": "HSBC Malta",
+   "src": "Basic Bank Account terms — section 5, Account Termination",
+   "claim": "says it can close the basic account without prior notice when lawful EU residence ends.",
+   "quote": "without any prior notification if: […] You are no longer legally resident in any EU Member State;",
+   "lang": "English",
+   "tr": "",
+   "law": "MFSA Rule R.5.6.164(d) permits termination when lawful residence in Malta or another EU Member State ends. R.5.6.168 requires grounds and justification at least two months before termination on that ground, free of charge and in a durable medium, subject to national-security/public-policy and failed-notice qualifications. Immediate termination under R.5.6.165 instead concerns illegal use and materially incorrect eligibility information under R.5.6.164(a),(c). L.N.258/2026 Regs.44,57–58 moved the governing rules and repealed the 2016 regulations; the MFSA Rulebook is applicable from 6 October 2026. Directive 2014/92/EU Art. 19 remains the EU framework.",
+   "sourceUrl": "https://www.hsbc.com.mt/content/dam/hsbc/hbmt/docs/basic-bank-account-terms-and-conditions.pdf",
+   "lawUrl": "https://www.mfsa.mt/wp-content/uploads/2025/02/Conduct-of-Business-Rulebook-for-Credit-Institutions-Offering-Retail-Products-and-Services.pdf",
+   "example": "Hypothetical: A customer truthfully opened a Maltese basic account, later moves to Canada and ceases to be lawfully resident anywhere in the EU. Assume no fraud, illegal use, sanctions, due-diligence failure or security/public-policy circumstance and that the customer can receive notice. The bank may close for loss of residence, but that ground alone does not allow closure without the statutory two-month notice. The customer receives and responds to communications; there have been no futile or rejected notice attempts.",
+   "context": "The currently linked specific terms are effective from 1 March 2026. Section 5 puts loss of lawful EU residence under a no-prior-notification heading. A separate paragraph promises two months only for prolonged nil balance. The introduction says the specific basic terms take priority over conflicting other terms. The general terms also preserve statutory rights and discuss notice, which limits any inference about enforceability or actual processing.",
+   "scope": "Published HSBC Malta statutory basic-account terms only. The finding isolates notice where closure rests solely on loss of lawful EU residence. It does not challenge the availability of that closure ground or allege an actual immediate closure. Other legal grounds, security/public-policy qualifications and rules preventing unlawful account operation remain relevant. The separate rule for three futile or rejected notices does not apply to the hypothetical.",
+   "date": "2026-10-18",
+   "langs": [
+    "English"
+   ],
+   "countries": [
+    "MT"
+   ],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "without any prior notification if: […] You are no longer legally resident in any EU Member State;",
+     "tr": "",
+     "url": "https://www.hsbc.com.mt/content/dam/hsbc/hbmt/docs/basic-bank-account-terms-and-conditions.pdf",
+     "site": "hsbc.com.mt"
+    }
+   ]
+  },
+  "returns-mercedes-original-packaging": {
+   "id": "returns-mercedes-original-packaging",
+   "area": "returns",
+   "topic": "condition",
+   "pub": "Mercedes-Benz AG",
+   "src": "Mercedes-Benz Onlineshop — Retouren",
+   "claim": "makes undamaged original packaging a condition for returns.",
+   "quote": "Nur ungetragene Artikel in unbeschädigter Originalverpackung und ohne Gebrauchsspuren können retourniert werden.",
+   "lang": "German",
+   "tr": "Only unworn items in undamaged original packaging and without signs of use can be returned.",
+   "law": "The page expressly covers returns after withdrawal, yet states an unqualified original-packaging condition. For ordinary goods, missing or damaged original packaging does not itself remove the statutory right. Examination is allowed; any diminished-value claim depends on actual loss, unnecessary handling and the information required by BGB § 357a(1). The linked withdrawal notice correctly states that narrower diminished-value rule, so the finding concerns contradictory returns guidance, not an assertion that every Mercedes-Benz notice is wrong.",
+   "sourceUrl": "https://originalteile.mercedes-benz.de/kundenservice/retouren/",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__357a.html",
+   "example": "Hypothetical: A consumer orders an ordinary, unpersonalised accessory online, opens its packaging to inspect it, and sends a clear withdrawal declaration within 14 days of receipt. The accessory remains undamaged, but the original packaging is unavailable. Assuming no statutory exception applies, the missing packaging alone does not justify refusing withdrawal. Any separate claim for actual lost value must meet the statutory conditions.",
+   "context": "The first paragraph says the page applies to a return following withdrawal or a warranty claim. The packaging condition is in the first bullet under the returns instructions. The separate footer-linked Widerrufsbelehrung correctly explains that only loss caused by handling beyond necessary examination is chargeable. The current homepage links both pages.",
+   "scope": "German consumer distance sales of ordinary goods, with timely withdrawal and no statutory exception. This is a discrepancy in published instructions; no actual refused return, consumer loss or intent was established. Defect remedies and voluntary additional returns are outside the finding.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Nur ungetragene Artikel in unbeschädigter Originalverpackung und ohne Gebrauchsspuren können retourniert werden.",
+     "tr": "Only unworn items in undamaged original packaging and without signs of use can be returned.",
+     "url": "https://originalteile.mercedes-benz.de/kundenservice/retouren/",
+     "site": "Mercedes-Benz AG"
+    }
+   ]
+  },
+  "returns-shr-unopened-packaging": {
+   "id": "returns-shr-unopened-packaging",
+   "area": "returns",
+   "topic": "condition",
+   "pub": "SHR Germany Onlineshop GmbH",
+   "src": "SHR Germany — Widerrufsbelehrung & Retourenbedingungen",
+   "claim": "requires consumer returns to be unopened and in their original packaging.",
+   "quote": "Die Ware muss sich im ungeöffneten, unbenutzten Originalzustand befinden und in der Originalverpackung an uns zurückgesendet werden.",
+   "lang": "German",
+   "tr": "The goods must be in their unopened, unused original condition and be sent back to us in their original packaging.",
+   "law": "This condition appears as a general requirement directly under the statutory 14-day right for private consumers. Ordinary goods can be opened and examined without losing that right. BGB § 357a(1) addresses any actual loss caused by unnecessary handling; it does not make unopened packaging a universal condition. The hygiene exception can apply to particular sealed goods, but cannot justify this general condition for ordinary products such as handbags.",
+   "sourceUrl": "https://shr-germany-onlineshop.de/content/40-widerrufsbelehrung-retourenbedingungen",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__357a.html",
+   "example": "Hypothetical: A private customer orders an ordinary handbag online for personal use. She opens its packaging to inspect the bag, leaves it undamaged and unused, and declares withdrawal within 14 days of receipt. Assuming the bag is not personalised and no statutory exception applies, opening the packaging does not remove her right. Any alleged loss of value must satisfy BGB § 357a(1).",
+   "context": "The policy separates section 1, Widerrufsrecht für Privatkunden (B2C), from section 3, voluntary handling of business-customer returns. The challenged sentence sits in section 1 beneath the stated 14-day right. Section 2 separately lists claimed exceptions. Linked AGB § 21 expressly recognises statutory consumer withdrawal and lists the specific hygiene and mixing exceptions. The shop currently lists ordinary handbags, alongside beauty products.",
+   "scope": "Timely statutory withdrawal by consumers buying ordinary physical goods online in Germany. The finding does not decide whether particular cosmetics, sealed hygiene goods or commercial purchases qualify. It concerns the general condition, rather than actual return handling, losses or intent.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Die Ware muss sich im ungeöffneten, unbenutzten Originalzustand befinden und in der Originalverpackung an uns zurückgesendet werden.",
+     "tr": "The goods must be in their unopened, unused original condition and be sent back to us in their original packaging.",
+     "url": "https://shr-germany-onlineshop.de/content/40-widerrufsbelehrung-retourenbedingungen",
+     "site": "SHR Germany Onlineshop GmbH"
+    }
+   ]
+  },
+  "returns-cwt-original-seal": {
+   "id": "returns-cwt-original-seal",
+   "area": "returns",
+   "topic": "condition",
+   "pub": "CWT-Shop (Confidential-Works)",
+   "src": "CWT-Shop — Widerrufsrecht",
+   "claim": "requires an intact original seal and original packaging for returns.",
+   "quote": "Der Artikel muss sich in der Originalverpackung befinden und das Original Siegel muss unbeschädigt sein.",
+   "lang": "German",
+   "tr": "The item must be in its original packaging and the original seal must be undamaged.",
+   "law": "A normal product seal is not a general statutory exception. For ordinary vehicle parts bought by consumers at a distance, opening a package to inspect the goods does not by itself remove withdrawal. Article 14(2) and BGB § 357a(1) instead permit liability for qualifying actual loss of value from unnecessary handling. Specific exceptions for hygiene goods or sealed media do not cover ordinary vehicle parts merely because their packaging has a seal.",
+   "sourceUrl": "https://cwt-shop.de/policies/refund-policy",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__357a.html",
+   "example": "Hypothetical: A consumer orders a standard ignition coil for his own car online, opens its sealed carton only to inspect the part without installing it, then declares withdrawal within 14 days of receipt and returns it promptly. Assuming no statutory exception applies, the broken ordinary carton seal alone does not justify refusing withdrawal. Any separate lost-value claim requires the statutory conditions.",
+   "context": "The live policy is titled Widerrufsrecht and describes a 14-day return right. The preceding sentence reserves a right to refuse returns if an article is removed from its packaging and the seal is cut; a later list allows only partial refunds where an original seal has been cut. The linked AGB direct online-product returns to this policy. The shop also links a separate withdrawal form but no second substantive statutory notice was found in the reviewed pages.",
+   "scope": "Ordinary unpersonalised vehicle parts bought online for personal use by German consumers, with timely withdrawal. This does not address installation damage, value lost through use, dangerous-goods shipping or specific statutory exceptions. The page uses Rückgaberecht in the body beneath its Widerrufsrecht heading; the finding concerns the conditions presented in that statutory-facing policy, not an actual refusal.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Der Artikel muss sich in der Originalverpackung befinden und das Original Siegel muss unbeschädigt sein.",
+     "tr": "The item must be in its original packaging and the original seal must be undamaged.",
+     "url": "https://cwt-shop.de/policies/refund-policy",
+     "site": "CWT-Shop (Confidential-Works)"
+    }
+   ]
+  },
+  "returns-bestnature-duvet-hygiene": {
+   "id": "returns-bestnature-duvet-hygiene",
+   "area": "returns",
+   "topic": "exceptions",
+   "pub": "Best Nature Shop UG (haftungsbeschränkt)",
+   "src": "Zudecke mit Schafschurwolle — WIDERRUFSRECHT",
+   "claim": "excludes a duvet from statutory withdrawal simply because it labels the product a hygiene item.",
+   "quote": "Dieses Produkt ist im Best Nature Shop ein Hygieneartikel und daher vom Widerrufsrecht ausgeschlossen.",
+   "lang": "German",
+   "tr": "This product is a hygiene item at Best Nature Shop and is therefore excluded from the right of withdrawal.",
+   "law": "The statement applies to the product without requiring removal of any seal. BGB § 312g(2) no. 3, implementing Article 16(e), cannot exclude an otherwise eligible consumer’s unopened, still-sealed standard duvet on that basis. Genuine personalisation and other statutory exceptions must be assessed separately. The linked general withdrawal page gives the statutory seal-removal condition, but then also treats bedding, mattresses and slatted bases as covered merely because they cannot be resold untouched; the CJEU’s mattress judgment shows that inability to sell as new is not the legal test.",
+   "sourceUrl": "https://www.best-nature-shop.de/product-page/zudecke-mit-schafschurwolle",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+   "example": "Hypothetical: A German consumer buys a listed standard-size duvet online, receives it and gives clear notice of withdrawal after five days, without opening the packaging or removing any seal. Assuming no other statutory exception, hygiene classification alone does not defeat that withdrawal.",
+   "context": "The product offers listed standard sizes and model choices. Its product-specific withdrawal panel gives an unconditional exclusion. The footer links a general 14-day withdrawal notice with a seal-removal condition; this is qualifying counterevidence, but it contradicts rather than repeats the product-specific rule.",
+   "scope": "German consumer distance purchases of this standard product with any seal intact and no other exception. No finding about custom manufacture, used duvets, actual refusals or loss.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Dieses Produkt ist im Best Nature Shop ein Hygieneartikel und daher vom Widerrufsrecht ausgeschlossen.",
+     "tr": "This product is a hygiene item at Best Nature Shop and is therefore excluded from the right of withdrawal.",
+     "url": "https://www.best-nature-shop.de/product-page/zudecke-mit-schafschurwolle",
+     "site": "best-nature-shop.de"
+    }
+   ]
+  },
+  "returns-chantelle-period-panties-hygiene": {
+   "id": "returns-chantelle-period-panties-hygiene",
+   "area": "returns",
+   "topic": "exceptions",
+   "pub": "Chantelle Lingerie GmbH",
+   "src": "Periodenunterwäsche Shorty C17P40-011 — RETOURE",
+   "claim": "excludes period underwear from statutory withdrawal without requiring a removed hygiene seal.",
+   "quote": "Bitte beachte, dass unsere Period Panties, aus hygienischen Gründen, vom Widerrufsrecht ausgeschlossen sind und können nicht retourniert werden können.",
+   "lang": "German",
+   "tr": "Please note that, for hygiene reasons, our period panties are excluded from the right of withdrawal and cannot be returned.",
+   "law": "The quoted product rule excludes statutory withdrawal for the whole category. Article 16(e) and BGB § 312g(2) no. 3 require a suitable sealed product and removal of that seal after delivery. Even if a particular period product could qualify once unsealed, that cannot exclude an otherwise eligible return while its seal remains intact. This finding does not decide whether worn or unsealed period underwear can lawfully be excluded.",
+   "sourceUrl": "https://chantelle.com/de/produkt/chantelle-periodenunterwaesche-periodenunterwaesche-shorty-c17p40-011",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+   "example": "Hypothetical: A German consumer orders the standard Shorty online and changes their mind after delivery. They notify withdrawal within five days and leave the product unused with any hygiene seal intact. Assuming no other exception, the product category alone does not remove the statutory right.",
+   "context": "The live period-underwear category FAQ repeats a blanket exclusion after purchase. By contrast, the product also advertises 14-day returns; the general terms’ section 11 gives a 14-day statutory withdrawal right and contains no category exclusion. Those broader rights are important counterevidence to the product-specific statement.",
+   "scope": "German consumer online purchases of standard period underwear with any hygiene seal intact, within the statutory period and with no other exception. Used or unsealed goods, goodwill extensions and defect remedies are outside this finding.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Bitte beachte, dass unsere Period Panties, aus hygienischen Gründen, vom Widerrufsrecht ausgeschlossen sind und können nicht retourniert werden können.",
+     "tr": "Please note that, for hygiene reasons, our period panties are excluded from the right of withdrawal and cannot be returned.",
+     "url": "https://chantelle.com/de/produkt/chantelle-periodenunterwaesche-periodenunterwaesche-shorty-c17p40-011",
+     "site": "chantelle.com/de"
+    }
+   ]
+  },
+  "returns-espadrij-dispatch-after-delivery": {
+   "id": "returns-espadrij-dispatch-after-delivery",
+   "area": "returns",
+   "topic": "deadlines",
+   "pub": "Espadrij l’originale (Panorama Europe GmbH)",
+   "src": "Retoure — final FAQ on how long to return an order",
+   "claim": "sets the return dispatch period at 14 days after receipt, although withdrawal starts a separate return period.",
+   "quote": "Du kannst deine Artikel ab Erhalt innerhalb von 14 Tagen zurücksenden",
+   "lang": "German",
+   "tr": "You can send your items back within 14 days of receipt.",
+   "law": "A consumer can declare a timely statutory withdrawal near the end of the normal 14-day cooling-off period and then send the goods back without undue delay within the following 14 days. Espadrij’s returns FAQ instead measures the dispatch period from receipt. Its separate statutory notice gives the correct period after withdrawal; the finding concerns these contradictory customer instructions.",
+   "sourceUrl": "https://espadrij.com/pages/retoure",
+   "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
+   "example": "Hypothetical: A German consumer receives ordinary, non-personalised shoes, declares withdrawal on day 13, and dispatches them on day 15. Assume the dispatch is without undue delay and within 14 days of that declaration. The statutory return deadline is met, although the FAQ’s period from receipt has ended.",
+   "context": "The Retoure page also labels the return period as 14 days from receipt in step 1. No longer voluntary period or express statutory-rights carve-out is stated there. The separately linked Widerrufsrecht notice correctly permits any unequivocal withdrawal declaration, makes its form optional, and gives 14 days from the declaration to dispatch the goods. It also permits lawful withholding of the refund pending goods or dispatch evidence. Those qualifications prevent an allegation that the shop provides no correct notice or necessarily refuses later returns.",
+   "scope": "German consumer distance purchases of ordinary goods subject to statutory withdrawal, with timely unequivocal notice and no statutory exception. Published instructions only; no actual rejection or loss established.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Du kannst deine Artikel ab Erhalt innerhalb von 14 Tagen zurücksenden",
+     "tr": "You can send your items back within 14 days of receipt.",
+     "url": "https://espadrij.com/pages/retoure",
+     "site": "espadrij.com"
+    }
+   ]
+  },
+  "returns-espadrij-excludes-outbound-delivery": {
+   "id": "returns-espadrij-excludes-outbound-delivery",
+   "area": "returns",
+   "topic": "refunds",
+   "pub": "Espadrij l’originale (Panorama Europe GmbH)",
+   "src": "Widerrufsrecht — Folgen des Widerrufs, first sentence",
+   "claim": "excludes delivery charges from the statutory withdrawal refund.",
+   "quote": "alle Zahlungen, die wir von Ihnen erhalten haben, ausschließlich der Lieferkosten",
+   "lang": "German",
+   "tr": "all payments that we have received from you, excluding delivery costs",
+   "law": "For withdrawal from the whole purchase, Article 13 and BGB § 357(2) require repayment of the cheapest standard outbound delivery charge. Espadrij’s statutory notice excludes delivery costs without limiting the exclusion to an express-delivery supplement. This is distinct from return postage, which may be borne by a properly informed consumer.",
+   "sourceUrl": "https://espadrij.com/pages/widerrufsrecht",
+   "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
+   "example": "Hypothetical: A consumer pays €60 for ordinary shoes and €5 for the shop’s cheapest standard delivery, then validly withdraws from the whole purchase. Assume no diminished value or other lawful deduction. The refund is €65, subject to the lawful goods-or-dispatch-evidence withholding rule. A blanket exclusion of delivery costs would instead describe €60. Return postage is separate.",
+   "context": "The words appear in the statutory notice, not merely an optional extended return policy. The surrounding sentence promises repayment within 14 days after receipt of withdrawal; later clauses correctly preserve the original payment method, allow withholding until goods or dispatch evidence, and say the customer bears direct return postage. None of those clauses narrows the outbound-delivery exclusion to supplementary express costs.",
+   "scope": "Whole-contract statutory withdrawal from an ordinary German consumer online goods purchase. Limited to standard outbound delivery already paid, not an optional delivery upgrade, partial returns, or the separate cost of sending goods back.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "alle Zahlungen, die wir von Ihnen erhalten haben, ausschließlich der Lieferkosten",
+     "tr": "all payments that we have received from you, excluding delivery costs",
+     "url": "https://espadrij.com/pages/widerrufsrecht",
+     "site": "espadrij.com"
+    }
+   ]
+  },
+  "returns-coilex-flat-administration-fee": {
+   "id": "returns-coilex-flat-administration-fee",
+   "area": "returns",
+   "topic": "procedure",
+   "pub": "Coilex (K&T Handels- und Unternehmensberatung GmbH)",
+   "src": "Widerrufsrecht — NICHT ORDNUNGSGEMÄSSE RETOUREN/UMTAUSCH",
+   "claim": "announces a flat €5 deduction for returns lacking an outer carton and invoice copy.",
+   "quote": "Bei Rücksendungen ohne Umkarton und Rechnungskopie werden pauschal 5 € von der Rückerstattung als Aufwandspauschale als Beteiligung abgezogen.",
+   "lang": "German",
+   "tr": "For returns without an outer carton and an invoice copy, a flat €5 contribution to expenses is deducted from the refund.",
+   "law": "For an otherwise valid statutory withdrawal, administration and processing work does not justify a flat refund deduction. The quoted rule is not tied to actual diminished value caused by unnecessary handling. A missing invoice copy does not itself diminish the goods’ value. Lawful direct return postage and any properly established diminished-value claim remain separate.",
+   "sourceUrl": "https://coilex.com/de/policies/refund-policy",
+   "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
+   "example": "Hypothetical: A German consumer validly withdraws from an €80 ordinary footwear order. They return the unworn shoes in their intact retail shoebox, safely protected by a strong mailing bag, without a separate outer carton or paper invoice copy. The order is identifiable from the withdrawal email; assume no transport damage, diminished value or unpaid return postage. A €5 administration deduction would reduce the goods refund to €75 even though the statutory withdrawal permits no such flat fee.",
+   "context": "The linked policy is headed Widerrufsrecht, begins by pointing to a withdrawal form, and applies the fee under returns/exchanges without an express limitation to voluntary returns. Its German and English regular-return blocks state 14 days from purchase, a later English template gives 14 days after receipt to request a return, and an explicit EU 14-day cooling-off section recognises statutory withdrawal. A seasonal Christmas extension is also offered. The separately linked declaration page correctly says its form is optional. The narrow finding is the blanket administration-fee instruction as applied within statutory withdrawal, not conditions for a purely voluntary late exchange.",
+   "scope": "Timely statutory withdrawal from ordinary German consumer online purchases with no exception, identifiable order, safe equivalent transit protection and no actual diminished value. No finding that every packaging cost is unlawful, or that the fee was actually charged.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Bei Rücksendungen ohne Umkarton und Rechnungskopie werden pauschal 5 € von der Rückerstattung als Aufwandspauschale als Beteiligung abgezogen.",
+     "tr": "For returns without an outer carton and an invoice copy, a flat €5 contribution to expenses is deducted from the refund.",
+     "url": "https://coilex.com/de/policies/refund-policy",
+     "site": "coilex.com · German storefront"
     }
    ]
   }
