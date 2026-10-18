@@ -111,6 +111,10 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .case-head { display: grid; gap: 10px; }
 .case-title { font-family: var(--f-display); font-weight: 400; font-size: var(--s-2xl); line-height: 1.22; letter-spacing: -.01em; max-width: 52ch; }
 .nb { white-space: nowrap; }
+mark.mk-src, mark.mk-law { color: inherit; border-radius: 2px; padding: 0 1px; }
+mark.mk-src { background: var(--claim-bg); box-shadow: inset 0 -2px 0 var(--claim); }
+mark.mk-law { background: var(--law-bg); box-shadow: inset 0 -2px 0 var(--law); }
+.mk-key { font-size: var(--s-xs); color: var(--ink-3); }
 .case-title .pub { font-weight: 600; }
 .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); overflow: hidden; overflow: clip; }
 .compare.long { grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); }
@@ -462,6 +466,19 @@ const LANG = { German: "de", English: "en", French: "fr", Spanish: "es", Italian
 // Keep digit ranges ("7–14") and citation groups ("5(1)(c)") on one line, without changing the text.
 const nb = html => html.replace(/\d+–\d+/g, m => `<span class="nb">${m}</span>`).replace(/\d+(?:\([^)\s]+\))+/g, m => `<span class="nb">${m}</span>`);
 const keep = t => nb(esc(t));
+// Text with the researchers' marked wording; every occurrence of each mark is wrapped, longest marks first, never overlapping.
+function rich(text, marks, cls, fmt = keep) {
+  text = String(text);
+  const spans = [];
+  (marks || []).filter(Boolean).slice().sort((a, b) => b.length - a.length).forEach(m => {
+    for (let i = text.indexOf(m); i !== -1; i = text.indexOf(m, i + m.length))
+      if (!spans.some(x => i < x[1] && i + m.length > x[0])) spans.push([i, i + m.length]);
+  });
+  spans.sort((a, b) => a[0] - b[0]);
+  let out = "", pos = 0;
+  spans.forEach(([a, b]) => { out += fmt(text.slice(pos, a)) + `<mark class="${cls}">${fmt(text.slice(a, b))}</mark>`; pos = b; });
+  return out + fmt(text.slice(pos));
+}
 const provText = p => nb(esc(p).replace(/ · /g, "&nbsp;· "));
 // A claim that already starts with the publisher's name ("Rail Europe says …", "Trainline’s table …") is not preceded by it twice.
 const titleParts = c => {
@@ -545,12 +562,12 @@ function caseView(c, L) {
     <div class="compare">
       <section class="side side-claim">
         <h2 class="side-label">What the source says</h2>
-        <div class="q">${quoteBlocks({ lang: c.lang, quote: c.quote, tr: c.tr })}</div>
+        <div class="q">${quoteBlocks({ lang: c.lang, quote: c.quote, tr: c.tr }, c.marks).html}</div>
         <p class="side-meta"><span>${metaSrc}</span><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener">Open source ↗</a></p>
       </section>
       <section class="side side-law">
         <h2 class="side-label">What the law says</h2>
-        <p class="law-text">${keep(c.law || t.law)}</p>
+        <p class="law-text">${rich(c.law || t.law, c.lawMarks, "mk-law")}</p>
         <p class="side-meta"><a class="prov" href="${esc(c.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)} ↗</a></p>
       </section>
       ${ctxStrip(c)}
@@ -664,7 +681,7 @@ function strip(a) {
 // Passages are verbatim: paragraph breaks and "•" items from the source become real paragraphs and lists, nothing is reworded.
 const words = t => String(t || "").split(/\s+/).filter(Boolean).length;
 const LONG_WORDS = 60, FOLD_ORIGINAL_WORDS = 60;
-function passageHtml(text, lang) {
+function passageHtml(text, lang, marks) {
   const [open, close] = QUOTES[lang] || QUOTES.English;
   const blocks = String(text).split(/\n+/).map(b => b.trim()).filter(Boolean);
   const isHeading = blocks.length > 1 && !/•/.test(blocks[0]) && words(blocks[0]) <= 6 && !/[.:;,!?…]$/.test(blocks[0]);
@@ -672,37 +689,41 @@ function passageHtml(text, lang) {
   const parts = [];
   blocks.forEach((b, i) => {
     const [lead, ...items] = b.split(/\s*•\s*/);
-    if (lead) parts.push({ k: "p", t: open + lead });
-    items.forEach((it, j) => parts.push({ k: "li", t: (!lead && i === 0 && j === 0 ? open : "") + it }));
+    if (lead) parts.push({ k: "p", t: lead, pre: open });
+    items.forEach((it, j) => parts.push({ k: "li", t: it, pre: !lead && i === 0 && j === 0 ? open : "" }));
   });
-  if (!parts.length) return { head, html: "" };
-  parts[parts.length - 1].t += close;
+  if (!parts.length) return { head, html: "", marked: false };
+  parts[parts.length - 1].post = close;
+  const inner = p => esc(p.pre || "") + rich(p.t, marks, "mk-src", esc) + esc(p.post || "");
   const html = parts.map((p, i) => {
     if (p.k === "li") {
-      if (parts[i - 1] && parts[i - 1].k === "li") return `<li>${esc(p.t)}</li>`;
-      return `<ul class="q-list"><li>${esc(p.t)}</li>`;
+      if (parts[i - 1] && parts[i - 1].k === "li") return `<li>${inner(p)}</li>`;
+      return `<ul class="q-list"><li>${inner(p)}</li>`;
     }
-    return `${parts[i - 1] && parts[i - 1].k === "li" ? "</ul>" : ""}<p class="q-p">${esc(p.t)}</p>`;
+    return `${parts[i - 1] && parts[i - 1].k === "li" ? "</ul>" : ""}<p class="q-p">${inner(p)}</p>`;
   }).join("") + (parts[parts.length - 1].k === "li" ? "</ul>" : "");
-  return { head, html };
+  return { head, html, marked: html.includes('class="mk-src"') };
 }
 // English translation first, then the original in its own language; an English original stands alone.
-function quoteBlocks(v) {
-  const o = passageHtml(v.quote, v.lang), orig = `<blockquote lang="${LANG[v.lang] || ""}">${o.html}</blockquote>`;
+function quoteBlocks(v, marks) {
+  const forLang = l => (marks || []).filter(m => m.lang === l).map(m => m.text);
+  const o = passageHtml(v.quote, v.lang, forLang(v.lang)), orig = `<blockquote lang="${LANG[v.lang] || ""}">${o.html}</blockquote>`;
   const oLabel = `Original · ${esc(v.lang)}${o.head ? ` · ${esc(o.head)}` : ""}`;
-  if (!v.tr) return `<div class="q-block"><p class="q-label">${oLabel}</p>${orig}</div>`;
-  const t = passageHtml(v.tr, "English");
-  return `<div class="q-block"><p class="q-label">English translation${t.head ? ` · ${esc(t.head)}` : ""}</p><div class="q-main" lang="en">${t.html}</div></div>
-    <details class="q-block q-orig"${words(v.quote) > FOLD_ORIGINAL_WORDS ? "" : " open"}><summary><span class="q-label">${oLabel}</span><span class="q-toggle"></span></summary>${orig}</details>`;
+  if (!v.tr) return { html: `<div class="q-block"><p class="q-label">${oLabel}</p>${orig}</div>`, marked: o.marked };
+  const t = passageHtml(v.tr, "English", forLang("English"));
+  return { marked: o.marked || t.marked, html: `<div class="q-block"><p class="q-label">English translation${t.head ? ` · ${esc(t.head)}` : ""}</p><div class="q-main" lang="en">${t.html}</div></div>
+    <details class="q-block q-orig"${words(v.quote) > FOLD_ORIGINAL_WORDS && !o.marked ? "" : " open"}><summary><span class="q-label">${oLabel}</span><span class="q-toggle"></span></summary>${orig}</details>` };
 }
 // Long passages get a wider source column; the mode is fixed per case so switching versions does not move the columns.
 const compareClass = c => { const v = (c.versions && c.versions[0]) || c; return words(v.quote) + words(v.tr) > LONG_WORDS ? "compare long" : "compare"; };
 const siteHost = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return ""; } };
 const ctxStrip = c => !(c.ctx && c.ctx.length) ? "" : `<div class="ctx"><p class="ctx-h">Also on the source site</p>
-  ${c.ctx.map(x => `<div class="ctx-item">${quoteBlocks(x)}<p class="side-meta"><span>${esc(siteHost(x.url))} · <a href="${esc(x.url)}" target="_blank" rel="noopener">Open page ↗</a></span></p></div>`).join("")}</div>`;
+  ${c.ctx.map(x => `<div class="ctx-item">${quoteBlocks(x).html}<p class="side-meta"><span>${esc(siteHost(x.url))} · <a href="${esc(x.url)}" target="_blank" rel="noopener">Open page ↗</a></span></p></div>`).join("")}</div>`;
 function verBody(c, i) {
   const v = c.versions[i] || { lang: c.lang, quote: c.quote, tr: c.tr, url: c.sourceUrl, site: "" };
-  return `${quoteBlocks(v)}
+  const q = quoteBlocks(v, c.marks);
+  const key = q.marked ? `<p class="mk-key"><mark class="mk-src">Marked</mark> source wording differs from the law${c.lawMarks && c.lawMarks.length ? ` · <mark class="mk-law">matching law wording</mark>` : ""}</p>` : "";
+  return `${q.html}${key}
     <p class="side-meta"><span>${v.site ? `${esc(v.site)} · ` : ""}<a href="${esc(v.url)}" target="_blank" rel="noopener">Open page ↗</a></span></p>
     ${v.cut ? `<p class="cut-note">The publisher’s own text ends mid-sentence here. It is shown exactly as published.</p>` : ""}`;
 }
@@ -744,7 +765,7 @@ function caseViewS(c) {
       </section>
       <section class="side side-law"><div class="pin">
         <h2 class="side-label">What the law says</h2>
-        <p class="law-text">${keep(c.law || t.law)}</p>
+        <p class="law-text">${rich(c.law || t.law, c.lawMarks, "mk-law")}</p>
         <p class="side-meta"><a class="prov" href="${esc(c.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)} ↗</a></p>
         ${c.example ? `<section class="practice"><h2>Hypothetical example</h2><p>${keep(c.example)}</p></section>` : ""}
       </div></section>
