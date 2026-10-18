@@ -680,7 +680,10 @@ function strip(a) {
 }
 // Passages are verbatim: paragraph breaks and "•" items from the source become real paragraphs and lists, nothing is reworded.
 const words = t => String(t || "").split(/\s+/).filter(Boolean).length;
-const LONG_WORDS = 60, FOLD_ORIGINAL_WORDS = 60;
+const LONG_WORDS = 60;
+// The original starts hidden behind the English translation. Once a reader opens one, later originals stay open for the session.
+let showOriginals = false;
+document.addEventListener("toggle", e => { if (e.target.matches && e.target.matches("details.q-orig")) showOriginals = e.target.open; }, true);
 function passageHtml(text, lang, marks) {
   const [open, close] = QUOTES[lang] || QUOTES.English;
   const blocks = String(text).split(/\n+/).map(b => b.trim()).filter(Boolean);
@@ -712,10 +715,10 @@ function quoteBlocks(v, marks) {
   if (!v.tr) return { html: `<div class="q-block"><p class="q-label">${oLabel}</p>${orig}</div>`, marked: o.marked };
   const t = passageHtml(v.tr, "English", forLang("English"));
   return { marked: o.marked || t.marked, html: `<div class="q-block"><p class="q-label">English translation${t.head ? ` · ${esc(t.head)}` : ""}</p><div class="q-main" lang="en">${t.html}</div></div>
-    <details class="q-block q-orig"${words(v.quote) > FOLD_ORIGINAL_WORDS && !o.marked ? "" : " open"}><summary><span class="q-label">${oLabel}</span><span class="q-toggle"></span></summary>${orig}</details>` };
+    <details class="q-block q-orig"${showOriginals ? " open" : ""}><summary><span class="q-label">${oLabel}</span><span class="q-toggle"></span></summary>${orig}</details>` };
 }
-// Long passages get a wider source column; the mode is fixed per case so switching versions does not move the columns.
-const compareClass = c => { const v = (c.versions && c.versions[0]) || c; return words(v.quote) + words(v.tr) > LONG_WORDS ? "compare long" : "compare"; };
+// Long passages get a wider source column, counted on the text shown by default (the translation when there is one); the mode is fixed per case so switching versions does not move the columns.
+const compareClass = c => { const v = (c.versions && c.versions[0]) || c; return words(v.tr || v.quote) > LONG_WORDS ? "compare long" : "compare"; };
 const siteHost = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return ""; } };
 const ctxStrip = c => !(c.ctx && c.ctx.length) ? "" : `<div class="ctx"><p class="ctx-h">Also on the source site</p>
   ${c.ctx.map(x => `<div class="ctx-item">${quoteBlocks(x).html}<p class="side-meta"><span>${esc(siteHost(x.url))} · <a href="${esc(x.url)}" target="_blank" rel="noopener">Open page ↗</a></span></p></div>`).join("")}</div>`;
