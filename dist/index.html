@@ -350,9 +350,6 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .row-group .row-text a { color: var(--ink); font-weight: 600; text-decoration: none; }
 .row-group .row-text a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .row-group .n { font-size: var(--s-xs); color: var(--ink-3); }
-.row-current { background: var(--rule-2); grid-template-columns: minmax(0, 1fr) auto; }
-.row-current .row-text { color: var(--ink); }
-.row-current .here { font-size: var(--s-xs); color: var(--ink-3); white-space: nowrap; padding-right: 2px; }
 .side-law .practice { border-top: 1px solid var(--rule-2); padding-top: 14px; margin-top: 6px; max-width: none; }
 .side-law .practice p { font-size: var(--s-sm); color: var(--ink-2); }
 .facts { display: flex; flex-wrap: wrap; gap: 8px 32px; margin: 0; }
@@ -817,13 +814,6 @@ function groupedRowsS(t, L) {
     return `<div class="row-group"><span class="row-text">${listJoin(g.map(c => `<a href="${href(L, "case", c.id)}">${esc(c.pub)}</a>`))} ${esc(pluralClaim(g[0].claim))}</span><span class="group-side"><span class="n">${g.length} sources</span>${tags.length === 1 && tags[0] ? `<span class="tags">${esc(tags[0])}</span>` : ""}</span></div>`;
   }).join("");
 }
-function issueList(c, L) {
-  const t = topicOf(c);
-  if (t.cases.length < 2) return "";
-  return `<section class="more"><h2>${plural(t.cases.length, "case", "cases")} in ${esc(t.title)}</h2><div class="rows">${t.cases.map(id => id === c.id
-    ? `<div class="row row-current" aria-current="page"><span class="row-text">${rowTitle(c)}</span><span class="here">This case</span></div>`
-    : rowS(CASES[id], L)).join("")}</div></section>`;
-}
 function matrix(a, L) {
   const counts = {};
   a.topics.forEach(t => t.cases.forEach(id => CASES[id].countries.forEach(cc => { (counts[cc] ||= {})[t.key] = ((counts[cc] || {})[t.key] || 0) + 1; })));
@@ -903,7 +893,7 @@ function renderAS(s) {
   } else {
     const c = CASES[s.id], a = AREA[c.area], t = topicOf(c);
     body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L)}">All areas</a><span>/</span><a href="${href(L, "area", a.id)}">${esc(a.title)}</a><span>/</span><a href="${href(L, "topic", t.key)}">${esc(t.title)}</a></nav>
-      <div class="case-wrap">${caseViewS(c)}${issueList(c, L)}</div>`;
+      <div class="case-wrap">${caseViewS(c)}</div>`;
   }
   return `<div class="A ${L}">${siteBar(L)}<main class="wrap">${body}</main></div>`;
 }
