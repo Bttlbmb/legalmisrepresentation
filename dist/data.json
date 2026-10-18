@@ -1230,7 +1230,8 @@
      "cases": [
       "returns-mercedes-original-packaging",
       "returns-shr-unopened-packaging",
-      "returns-cwt-original-seal"
+      "returns-cwt-original-seal",
+      "returns-schecker-unopened-packaging"
      ]
     },
     {
@@ -1243,7 +1244,9 @@
      "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
      "cases": [
       "returns-bestnature-duvet-hygiene",
-      "returns-chantelle-period-panties-hygiene"
+      "returns-chantelle-period-panties-hygiene",
+      "returns-dropsize-underwear-intact-seal",
+      "returns-labadi-hijab-hygiene-exclusion"
      ]
     },
     {
@@ -1267,19 +1270,61 @@
      "provision": "Directive 2011/83/EU, Art. 13(1)–(3) · BGB § 357(1)–(5)",
      "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
      "cases": [
-      "returns-espadrij-excludes-outbound-delivery"
+      "returns-espadrij-excludes-outbound-delivery",
+      "returns-shr-excludes-outbound-delivery",
+      "returns-kraus-excludes-outbound-delivery"
      ]
     },
     {
-     "id": "procedure",
-     "title": "Flat return-processing fees",
-     "lawKey": "No administration penalty",
-     "claimKey": "Flat handling deduction",
-     "law": "Exercising statutory withdrawal does not permit a flat administration or processing fee. Disclosed direct return costs may be payable, and compensation can be owed for actual diminished value caused by handling beyond what was necessary to inspect the goods, provided the required notice was given.",
-     "provision": "Directive 2011/83/EU, Arts. 9(1), 14(1), (2), (5) · BGB §§ 357(5), 357a(1)",
+     "id": "refund-timing",
+     "title": "When refunds are due",
+     "lawKey": "14 days after notice",
+     "claimKey": "30-day refund deadline",
+     "law": "For statutory withdrawal from an ordinary consumer online goods purchase, repayment is due without undue delay and at the latest 14 days after the trader receives the withdrawal notice. Unless the trader offered collection, it can withhold repayment until it has the goods or evidence that they were sent back, whichever comes first. Having the goods or evidence does not start a fresh 14-day period. These qualifications must be kept when comparing a stated refund deadline.",
+     "provision": "Directive 2011/83/EU, Article 13(1), (3); BGB §§ 355(3), 357(1), (4), 361(2)",
      "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
      "cases": [
-      "returns-coilex-flat-administration-fee"
+      "returns-shr-thirty-day-refund",
+      "returns-kraus-thirty-day-refund"
+     ]
+    },
+    {
+     "id": "return-risk",
+     "title": "Return transit risk in Germany",
+     "lawKey": "Trader bears accidental loss",
+     "claimKey": "Customer bears return risk",
+     "law": "For statutory consumer withdrawal under German law, BGB § 355(3) places the risk of accidental loss during return transport on the trader. The consumer still must send the goods properly and be able to prove dispatch; liability for the consumer’s own fault and lawful withholding until goods or dispatch evidence are separate matters. The Consumer Rights Directive does not itself allocate accidental return-transit risk across the EU; this comparison uses Germany’s national rule.",
+     "provision": "BGB §§ 355(3), 357(4), 361(2); European Commission CRD guidance § 5.5.5 (national-law distinction)",
+     "lawUrl": "https://www.gesetze-im-internet.de/bgb/__355.html",
+     "cases": [
+      "returns-elektor-return-risk",
+      "returns-xenial-return-risk",
+      "returns-montredo-own-carrier-risk"
+     ]
+    },
+    {
+     "id": "sale",
+     "title": "Sale and B-stock exclusions",
+     "lawKey": "Discounts do not remove withdrawal",
+     "claimKey": "Discounted goods excluded",
+     "law": "For ordinary consumer goods bought online, the statutory right generally applies even when the price is reduced or minor defects are disclosed. Article 16 and BGB § 312g(2) contain specific exceptions; a discount or B-stock label is not one. Genuine personalisation or another exception can still apply. Conditions for a separate voluntary extra return offer must be distinguished.",
+     "provision": "Directive 2011/83/EU, Articles 9, 16; BGB § 312g(1)–(2)",
+     "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+     "cases": [
+      "returns-kanibox-bstock-discount-exclusion",
+      "returns-labadi-sale-exclusion"
+     ]
+    },
+    {
+     "id": "customisation",
+     "title": "Standard choices and bespoke goods",
+     "lawKey": "Genuine individual specifications",
+     "claimKey": "Standard options treated as bespoke",
+     "law": "The exception concerns goods made to a consumer’s individual specifications or clearly personalised. Manufacturing after an order, or choosing only from the trader’s standard catalogue options, does not alone establish that exception. The actual agreement and goods must be assessed; genuine bespoke work can be excluded.",
+     "provision": "Directive 2011/83/EU, Article 16(c); BGB § 312g(2) no. 1",
+     "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+     "cases": [
+      "returns-paw-standard-cushion-bespoke"
      ]
     }
    ]
@@ -9131,16 +9176,16 @@
    "topic": "exceptions",
    "pub": "Best Nature Shop UG (haftungsbeschränkt)",
    "src": "Zudecke mit Schafschurwolle — WIDERRUFSRECHT",
-   "claim": "excludes a duvet from statutory withdrawal simply because it labels the product a hygiene item.",
+   "claim": "excludes the listed standard-size duvet from withdrawal for hygiene reasons without requiring removal of a seal.",
    "quote": "Dieses Produkt ist im Best Nature Shop ein Hygieneartikel und daher vom Widerrufsrecht ausgeschlossen.",
    "lang": "German",
    "tr": "This product is a hygiene item at Best Nature Shop and is therefore excluded from the right of withdrawal.",
-   "law": "The statement applies to the product without requiring removal of any seal. BGB § 312g(2) no. 3, implementing Article 16(e), cannot exclude an otherwise eligible consumer’s unopened, still-sealed standard duvet on that basis. Genuine personalisation and other statutory exceptions must be assessed separately. The linked general withdrawal page gives the statutory seal-removal condition, but then also treats bedding, mattresses and slatted bases as covered merely because they cannot be resold untouched; the CJEU’s mattress judgment shows that inability to sell as new is not the legal test.",
+   "law": "The product rule gives hygiene classification as an unconditional reason to exclude withdrawal. BGB § 312g(2) no. 3 and Article 16(e) require qualifying sealed goods and removal of their seal after delivery. That exception cannot defeat an otherwise eligible withdrawal while any seal remains intact. The manufacturer’s current linked catalogue lists the same 8206/8207/8208 models and standard size table, separately distinguishing special sizes. The observed 8207 Ganzjahresdecke, 135 × 200 cm selection reached a cart and initial unsubmitted checkout as a fixed catalogue item, without a personal measurement or design requirement. The comparison is limited to that ordinary advertised selection, excluding separately requested special manufacture. The general withdrawal notice gives the seal-removal condition and the genuine-bespoke exception, contradicting the product rule.",
    "sourceUrl": "https://www.best-nature-shop.de/product-page/zudecke-mit-schafschurwolle",
    "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
-   "example": "Hypothetical: A German consumer buys a listed standard-size duvet online, receives it and gives clear notice of withdrawal after five days, without opening the packaging or removing any seal. Assuming no other statutory exception, hygiene classification alone does not defeat that withdrawal.",
-   "context": "The product offers listed standard sizes and model choices. Its product-specific withdrawal panel gives an unconditional exclusion. The footer links a general 14-day withdrawal notice with a seal-removal condition; this is qualifying counterevidence, but it contradicts rather than repeats the product-specific rule.",
-   "scope": "German consumer distance purchases of this standard product with any seal intact and no other exception. No finding about custom manufacture, used duvets, actual refusals or loss.",
+   "example": "Hypothetical: A German consumer orders the advertised ProNatura model 8207 Ganzjahresdecke in its listed 135 × 200 cm size through the observed ordinary selection, without separately requested special sizing or personalisation. Five days after delivery they give clear withdrawal notice and leave the duvet unused, unopened and with any seal intact. Assuming no other statutory exception, hygiene classification alone does not remove withdrawal.",
+   "context": "The product lists catalogue models and sizes, includes Bio-Milbenstopp, gives a three-to-four-week lead time and says ProNatura dispatches the goods. ProNatura’s current linked catalogue independently lists these models and standard dimensions, and separately offers special sizes without Bio-Milbenstopp. A research selection of model 8207, 135 × 200 cm reached the cart at €296 and the initial Germany checkout without requiring individual product specifications. A third required product selector has only the option vom Widerrufsrecht ausgeschlossen; it records the hygiene rule rather than a bespoke measurement. The general notice grants 14 days and states both the genuine-bespoke and removed-seal hygiene exceptions. No order or personal/payment data was submitted, and the research item was removed.",
+   "scope": "German consumer distance purchases of the advertised ProNatura 8207 Ganzjahresdecke in the listed 135 × 200 cm standard size, with timely withdrawal, unused unopened goods, any seal intact and no separately requested special sizing, personalisation or other exception. No conclusion about every variant, used or unsealed duvets, production timing, actual refusals or loss.",
    "date": "2026-10-18",
    "langs": [
     "German"
@@ -9257,22 +9302,22 @@
     }
    ]
   },
-  "returns-coilex-flat-administration-fee": {
-   "id": "returns-coilex-flat-administration-fee",
+  "returns-shr-excludes-outbound-delivery": {
+   "id": "returns-shr-excludes-outbound-delivery",
    "area": "returns",
-   "topic": "procedure",
-   "pub": "Coilex (K&T Handels- und Unternehmensberatung GmbH)",
-   "src": "Widerrufsrecht — NICHT ORDNUNGSGEMÄSSE RETOUREN/UMTAUSCH",
-   "claim": "announces a flat €5 deduction for returns lacking an outer carton and invoice copy.",
-   "quote": "Bei Rücksendungen ohne Umkarton und Rechnungskopie werden pauschal 5 € von der Rückerstattung als Aufwandspauschale als Beteiligung abgezogen.",
+   "topic": "refunds",
+   "pub": "SHR Germany Onlineshop GmbH",
+   "src": "SHR Germany — AGB, § 21.6, version dated 8 July 2026",
+   "claim": "excludes delivery charges from the withdrawal refund.",
+   "quote": "alle von Ihnen geleisteten Zahlungen, abzüglich der Lieferkosten.",
    "lang": "German",
-   "tr": "For returns without an outer carton and an invoice copy, a flat €5 contribution to expenses is deducted from the refund.",
-   "law": "For an otherwise valid statutory withdrawal, administration and processing work does not justify a flat refund deduction. The quoted rule is not tied to actual diminished value caused by unnecessary handling. A missing invoice copy does not itself diminish the goods’ value. Lawful direct return postage and any properly established diminished-value claim remain separate.",
-   "sourceUrl": "https://coilex.com/de/policies/refund-policy",
+   "tr": "all payments made by you, less the delivery costs.",
+   "law": "The consumer-withdrawal section of the AGB excludes delivery charges from repayment. Article 13(1)–(2) and BGB § 357(2) instead include the cheapest standard outbound delivery charge when the consumer withdraws from the whole purchase. An optional delivery upgrade need not be refunded, and properly disclosed direct return postage is separate. The clause contains no such standard-delivery qualification.",
+   "sourceUrl": "https://shr-germany-onlineshop.de/content/3-agb",
    "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
-   "example": "Hypothetical: A German consumer validly withdraws from an €80 ordinary footwear order. They return the unworn shoes in their intact retail shoebox, safely protected by a strong mailing bag, without a separate outer carton or paper invoice copy. The order is identifiable from the withdrawal email; assume no transport damage, diminished value or unpaid return postage. A €5 administration deduction would reduce the goods refund to €75 even though the statutory withdrawal permits no such flat fee.",
-   "context": "The linked policy is headed Widerrufsrecht, begins by pointing to a withdrawal form, and applies the fee under returns/exchanges without an express limitation to voluntary returns. Its German and English regular-return blocks state 14 days from purchase, a later English template gives 14 days after receipt to request a return, and an explicit EU 14-day cooling-off section recognises statutory withdrawal. A seasonal Christmas extension is also offered. The separately linked declaration page correctly says its form is optional. The narrow finding is the blanket administration-fee instruction as applied within statutory withdrawal, not conditions for a purely voluntary late exchange.",
-   "scope": "Timely statutory withdrawal from ordinary German consumer online purchases with no exception, identifiable order, safe equivalent transit protection and no actual diminished value. No finding that every packaging cost is unlawful, or that the fee was actually charged.",
+   "example": "Hypothetical: A consumer pays €30 for ordinary goods and €5 for the cheapest standard delivery, then declares withdrawal from the whole purchase within 14 days of receipt. Assume no exception or diminished value, and that the shop has the goods back. On these assumed prices, the repayment is €35. The delivery-cost exclusion would describe €30; return postage is separate.",
+   "context": "The phrase is in AGB § 21.6.1, immediately after the express recognition of statutory withdrawal for consumers under BGB in §§ 21.1–21.2. § 21.6.4 separately allocates return postage. The other linked withdrawal/returns page distinguishes private consumers from business customers and gives a different refund-timing statement, but does not qualify the AGB delivery-cost exclusion. The shop sells ordinary fashion goods alongside beauty products.",
+   "scope": "Whole-contract statutory withdrawal declared within the initial 14-day period after delivery by a consumer in Germany, for ordinary goods with no exception. Only cheapest standard outbound delivery paid for that purchase is considered; optional delivery upgrades, partial returns, properly disclosed return postage and voluntary later returns are outside this finding. No actual refund or loss was observed.",
    "date": "2026-10-18",
    "langs": [
     "German"
@@ -9283,10 +9328,406 @@
    "versions": [
     {
      "lang": "German",
-     "quote": "Bei Rücksendungen ohne Umkarton und Rechnungskopie werden pauschal 5 € von der Rückerstattung als Aufwandspauschale als Beteiligung abgezogen.",
-     "tr": "For returns without an outer carton and an invoice copy, a flat €5 contribution to expenses is deducted from the refund.",
-     "url": "https://coilex.com/de/policies/refund-policy",
-     "site": "coilex.com · German storefront"
+     "quote": "alle von Ihnen geleisteten Zahlungen, abzüglich der Lieferkosten.",
+     "tr": "all payments made by you, less the delivery costs.",
+     "url": "https://shr-germany-onlineshop.de/content/3-agb",
+     "site": "SHR Germany Onlineshop GmbH"
+    }
+   ]
+  },
+  "returns-shr-thirty-day-refund": {
+   "id": "returns-shr-thirty-day-refund",
+   "area": "returns",
+   "topic": "refund-timing",
+   "pub": "SHR Germany Onlineshop GmbH",
+   "src": "SHR Germany — AGB, § 21.6, version dated 8 July 2026",
+   "claim": "states a 30-day deadline for the statutory withdrawal repayment.",
+   "quote": "Die Rückzahlung erfolgt innerhalb von 30 Tagen nach Eingang Ihrer Widerrufserklärung.",
+   "lang": "German",
+   "tr": "Repayment is made within 30 days after receipt of your withdrawal declaration.",
+   "law": "AGB § 21.6.2 gives 30 days from receipt of withdrawal. For statutory withdrawal, Article 13(1) and BGB §§ 355(3), 357(1) require repayment without undue delay and no later than 14 days after the trader receives that notice. The trader may withhold while it lacks both the returned goods and dispatch evidence under Article 13(3) and BGB § 357(4), unless it offered collection. That is a qualified withholding right, not a general 30-day repayment period.",
+   "sourceUrl": "https://shr-germany-onlineshop.de/content/3-agb",
+   "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
+   "example": "Hypothetical: A consumer declares withdrawal within 14 days after receiving ordinary goods. The shop receives the declaration that day and receives the undamaged goods four days later. Assume no exception or lawful deduction. Repayment must follow without undue delay and by 14 days after receipt of the declaration at the latest. The AGB state an outer limit 16 days later, even though the goods are already back; that does not remove the separate duty to repay without undue delay.",
+   "context": "This is AGB § 21.6.2, directly under the consumer-withdrawal provisions. The separately linked Widerrufsbelehrung & Retourenbedingungen § 6 says repayment is initiated after receipt and successful checking and may take up to 14 days. That shorter operational statement differs from the AGB 30-day promise; it does not identify the statutory 14-day period from notice or its dispatch-proof alternative. The case challenges the AGB statement, rather than claiming every page uses 30 days.",
+   "scope": "Timely statutory consumer withdrawal in Germany from ordinary online goods purchases, where goods or adequate dispatch evidence are held before the 14-day repayment deadline and no exception or lawful deduction applies. The example has the goods back on day four. No claim that the trader must repay before the lawful withholding condition is met or that it actually delayed a refund.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Die Rückzahlung erfolgt innerhalb von 30 Tagen nach Eingang Ihrer Widerrufserklärung.",
+     "tr": "Repayment is made within 30 days after receipt of your withdrawal declaration.",
+     "url": "https://shr-germany-onlineshop.de/content/3-agb",
+     "site": "SHR Germany Onlineshop GmbH"
+    }
+   ]
+  },
+  "returns-kraus-excludes-outbound-delivery": {
+   "id": "returns-kraus-excludes-outbound-delivery",
+   "area": "returns",
+   "topic": "refunds",
+   "pub": "Fahrrad Kraus (Gebr. Kraus Bike & More Möhlmeyer GmbH & Co. KG)",
+   "src": "Fahrrad Kraus — Widerrufsrecht",
+   "claim": "excludes delivery charges from its consumer withdrawal refund.",
+   "quote": "alle Zahlungen, die wir von Ihnen erhalten haben, mit Ausnahme der Lieferkosten",
+   "lang": "German",
+   "tr": "all payments that we have received from you, excluding the delivery costs",
+   "law": "The formal consumer withdrawal notice excludes delivery charges without limiting that exclusion to a premium-delivery supplement. A consumer who withdraws from the whole ordinary online purchase within the statutory period is entitled to the cheapest standard outbound delivery charge under Article 13(1)–(2) and BGB § 357(2). A shop can extend the declaration period to 30 days, but cannot thereby take away the minimum repayment rights for withdrawal declared within the statutory first 14 days.",
+   "sourceUrl": "https://fahrrad-kraus.de/policies/refund-policy",
+   "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
+   "example": "Hypothetical: A consumer pays €80 for an ordinary bicycle accessory and €6.95 for its cheapest standard delivery, then withdraws from the whole purchase within 14 days after receipt. Assume the goods are returned intact, no exception or diminished value, and return postage has been separately paid. The repayment is €86.95; excluding delivery would describe €80.",
+   "context": "The phrase appears in the first paragraph under Folgen des Widerrufs in the formal notice. The separate Widerruf & Retoure guide repeats the exclusion prominently and its FAQ calls the 30-day declaration period statutory. The notice offers 30 days for withdrawal and for returning goods, but states no separate first-14-day statutory-cost safeguard. The AGB recognise consumer contracts. The shipping page currently lists standard accessory delivery at €6.95 and also repeats the exclusion.",
+   "scope": "Whole-contract statutory withdrawal declared within the initial 14-day period after delivery by a consumer in Germany, for ordinary goods with no exception. Only cheapest standard outbound delivery paid for that purchase is considered; optional delivery upgrades, partial returns, properly disclosed return postage and voluntary later returns are outside this finding. No actual refund or loss was observed.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "alle Zahlungen, die wir von Ihnen erhalten haben, mit Ausnahme der Lieferkosten",
+     "tr": "all payments that we have received from you, excluding the delivery costs",
+     "url": "https://fahrrad-kraus.de/policies/refund-policy",
+     "site": "Fahrrad Kraus (Gebr. Kraus Bike & More Möhlmeyer GmbH & Co. KG)"
+    }
+   ]
+  },
+  "returns-kraus-thirty-day-refund": {
+   "id": "returns-kraus-thirty-day-refund",
+   "area": "returns",
+   "topic": "refund-timing",
+   "pub": "Fahrrad Kraus (Gebr. Kraus Bike & More Möhlmeyer GmbH & Co. KG)",
+   "src": "Fahrrad Kraus — Widerrufsrecht",
+   "claim": "gives 30 days to repay after receiving a consumer withdrawal notice.",
+   "quote": "unverzüglich und spätestens binnen 30 Tagen ab dem Tag zurückzuzahlen",
+   "lang": "German",
+   "tr": "to repay without undue delay and at the latest within 30 days from the day",
+   "law": "In the formal notice this 30-day period is measured from the trader’s receipt of withdrawal. Article 13(1) and BGB §§ 355(3), 357(1) require repayment without undue delay and within 14 days for statutory withdrawal. The correctly stated goods-or-dispatch-proof withholding right can postpone repayment while both are absent, but does not justify a general 30-day deadline once that condition is satisfied. The case is limited to withdrawal declared within the initial statutory 14 days; the shop’s additional declaration period does not reduce those minimum rights.",
+   "sourceUrl": "https://fahrrad-kraus.de/policies/refund-policy",
+   "lawUrl": "https://eur-lex.europa.eu/eli/dir/2011/83/2026-09-27/eng",
+   "example": "Hypothetical: A consumer withdraws from an ordinary accessory purchase on day seven after delivery. The trader receives that notice immediately and has the intact goods back four days later. Assume no exception or lawful deduction. Repayment must follow without undue delay and at the latest 14 days after notice receipt, rather than up to 30 days. The goods are already held before that deadline, so withholding does not change the comparison.",
+   "context": "The quotation is from the first repayment sentence under Folgen des Widerrufs, whose surrounding text starts the period when the trader receives notice. The next paragraph correctly permits withholding until goods or dispatch evidence, whichever is earlier. The separate returns guide also says up to 30 days after receipt of withdrawal. The offered 30-day declaration/return periods are recorded as a benefit; the allegation concerns refund timing for withdrawal within the initial statutory period.",
+   "scope": "German consumer online purchases of ordinary goods, with withdrawal declared within the first 14 days after receipt and goods or adequate dispatch proof already held by the trader before the refund deadline. The example concerns returned ordinary accessories, no bulky return fee, no loss of value and no observed delay. Voluntary withdrawal first declared on days 15–30 is outside the finding.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "unverzüglich und spätestens binnen 30 Tagen ab dem Tag zurückzuzahlen",
+     "tr": "to repay without undue delay and at the latest within 30 days from the day",
+     "url": "https://fahrrad-kraus.de/policies/refund-policy",
+     "site": "Fahrrad Kraus (Gebr. Kraus Bike & More Möhlmeyer GmbH & Co. KG)"
+    }
+   ]
+  },
+  "returns-elektor-return-risk": {
+   "id": "returns-elektor-return-risk",
+   "area": "returns",
+   "topic": "return-risk",
+   "pub": "Elektor Verlag GmbH",
+   "src": "Elektor — Kundenservice, Widerruf section",
+   "claim": "places return-shipping risk on the customer in its withdrawal instructions.",
+   "quote": "Bitte beachten Sie, dass Sie die Kosten und das Risiko der Rücksendung der Ware tragen.",
+   "lang": "German",
+   "tr": "Please note that you bear the costs and risk of returning the goods.",
+   "law": "Under Germany’s BGB § 355(3), the trader bears accidental return-transit risk after statutory consumer withdrawal. It may require adequate evidence that the goods were dispatched and can withhold repayment until goods or that evidence under BGB § 357(4), unless it offered collection. The consumer must still use reasonable care, including suitable packaging and the correct address; a claim based on the consumer’s own fault is separate. This is a comparison with German national law: the Consumer Rights Directive does not itself settle accidental return-transit risk across the EU.",
+   "sourceUrl": "https://www.elektor.de/pages/service",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__355.html",
+   "example": "Hypothetical: A German consumer validly withdraws within 14 days after receipt of an ordinary printed technical book bought directly from Elektor. They promptly return it to the correct instructed address, suitably packed through an established postal service, and supply adequate proof of dispatch. The parcel is accidentally lost without any fault by the consumer. German withdrawal law places that transit risk on the trader; the consumer’s separately disclosed return postage may still be payable.",
+   "context": "The sentence is in Kundenservice > Widerruf, in the second numbered item about returning or cancelling ordered products through the fulfilment partner. The first numbered item concerns defects; the challenged sentence is in the separate ordinary-return item. The linked AGB § 10 recognises withdrawal and allocates return costs, but does not correct the return-risk claim. The FAQ discusses return costs and statutory refund timing without expressly shifting the risk back. The linked withdrawal page contains a form. The AGB separately explain that purchases made through affiliate links to Eleshop have a different seller.",
+   "scope": "Statutory withdrawal under German law from ordinary physical goods bought directly from Elektor for personal use, with proper packing, correct address, suitable carrier, timely dispatch and adequate proof, and no consumer fault. The example uses an ordinary printed book, not digital content, unsealed software/media, a periodical or an affiliate purchase. No actual lost parcel or refusal was established.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Bitte beachten Sie, dass Sie die Kosten und das Risiko der Rücksendung der Ware tragen.",
+     "tr": "Please note that you bear the costs and risk of returning the goods.",
+     "url": "https://www.elektor.de/pages/service",
+     "site": "Elektor Verlag GmbH"
+    }
+   ]
+  },
+  "returns-xenial-return-risk": {
+   "id": "returns-xenial-return-risk",
+   "area": "returns",
+   "topic": "return-risk",
+   "pub": "xenial-shop.de (Rodaro Germany GmbH)",
+   "src": "xenial-shop.de — Rückgabebedingungen",
+   "claim": "assigns the risk of a postal withdrawal return to the customer.",
+   "quote": "trägt der Kunde die Kosten und das Risiko der Rücksendung – ausgenommen bei persönlicher Abgabe.",
+   "lang": "German",
+   "tr": "the customer bears the costs and risk of the return, except for personal delivery.",
+   "law": "Under Germany’s BGB § 355(3), the trader bears accidental return-transit risk after statutory consumer withdrawal. It may require adequate evidence that the goods were dispatched and can withhold repayment until goods or that evidence under BGB § 357(4), unless it offered collection. The consumer must still use reasonable care, including suitable packaging and the correct address; a claim based on the consumer’s own fault is separate. This is a comparison with German national law: the Consumer Rights Directive does not itself settle accidental return-transit risk across the EU.",
+   "sourceUrl": "https://xenial-shop.de/pages/ruckgabebedingungen",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__355.html",
+   "example": "Hypothetical: A German consumer timely withdraws from an online purchase of an ordinary, standard, unopened product. They return the goods promptly to the instructed address, properly packed with a suitable established carrier and in compliance with any applicable transport requirements, and provide adequate dispatch proof. The parcel is accidentally lost without consumer fault. Under BGB § 355(3), that loss is the trader’s transit risk; return postage is a separate question.",
+   "context": "The phrase appears in Rückgabebedingungen section 4, in a sentence expressly addressing withdrawal without a defect or wrong delivery. It excepts personal handover and separately says the seller pays for defective or wrong goods. The separately linked Widerrufsrecht repeats the same risk allocation, and AGB > Produktrückgabe repeats it again. The AGB offer goods to natural persons in Germany as well as legal persons and choose German substantive law; no business-only limitation was found in these reviewed pages.",
+   "scope": "Statutory withdrawal by German consumers from ordinary online goods, with no exception, correct packing/address, lawful suitable transport, prompt provable dispatch and no consumer fault. This comparison uses Germany’s national risk rule, not an EU-wide rule. Faulty packing, misaddressing, missing dispatch proof, defective-goods remedies and personal handover are outside the hypothetical. No actual loss or refusal was observed.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "trägt der Kunde die Kosten und das Risiko der Rücksendung – ausgenommen bei persönlicher Abgabe.",
+     "tr": "the customer bears the costs and risk of the return, except for personal delivery.",
+     "url": "https://xenial-shop.de/pages/ruckgabebedingungen",
+     "site": "xenial-shop.de (Rodaro Germany GmbH)"
+    }
+   ]
+  },
+  "returns-montredo-own-carrier-risk": {
+   "id": "returns-montredo-own-carrier-risk",
+   "area": "returns",
+   "topic": "return-risk",
+   "pub": "MONTREDO GmbH",
+   "src": "Rückgabe- und Erstattungsrichtlinie — § 6 Versicherung/Transportrisiko",
+   "claim": "places return-transit loss and damage risk on consumers who do not use its return label.",
+   "quote": "In diesem Fall tragen Sie das Risiko des Verlusts und der Beschädigung während des Rücktransports sowie etwaige hieraus entstehende Kosten.",
+   "lang": "German",
+   "tr": "In this case, you bear the risk of loss and damage during return transport, as well as any resulting costs.",
+   "law": "Section 6 applies after the consumer does not use MONTREDO’s label and/or departs from its return instructions. For German statutory withdrawal, choosing a different return carrier does not by itself move accidental transit risk to the consumer: BGB § 355(3), sentence 4 allocates it to the trader. A lack of cover under MONTREDO’s insurance is a different question. Proper packaging, addressing, reasonable care and proof of dispatch remain relevant. The EU Directive leaves this particular risk question to national law.",
+   "sourceUrl": "https://www.montredo.com/de/policies/refund-policy",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__355.html",
+   "example": "Hypothetical: A German consumer timely withdraws from an ordinary, unpersonalised watch purchase. They pay an established carrier for an appropriately insured return, pack the watch safely, address it correctly, and prove proper timely dispatch. The only departure from the shop’s process is using their own carrier and label. If the package is accidentally lost without consumer fault, German statutory law places that transit risk on MONTREDO; the missing MONTREDO label does not by itself reverse it.",
+   "context": "The policy explicitly covers the consumer’s 14-day statutory withdrawal, then makes label use relevant to return costs and, in § 6, to loss/damage risk. The AGB § 10 grants statutory withdrawal and contains the usual repayment and dispatch-proof terms; the FAQ offers free insured DHL/FedEx collection. Those broader rights and the collection option are counterevidence, but neither states that § 6 is confined to a voluntary late return. This finding addresses legal risk allocation, not whether MONTREDO’s own insurance covers another carrier or whether an optional free-return arrangement covers postage.",
+   "scope": "German consumer statutory withdrawal from ordinary, unpersonalised online goods purchases, with proper proven dispatch, safe packing, correct address and reasonable care. Consumer-caused damage, unproved dispatch, return postage and purely voluntary returns are outside the finding. No actual loss or merchant refusal was investigated.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "In diesem Fall tragen Sie das Risiko des Verlusts und der Beschädigung während des Rücktransports sowie etwaige hieraus entstehende Kosten.",
+     "tr": "In this case, you bear the risk of loss and damage during return transport, as well as any resulting costs.",
+     "url": "https://www.montredo.com/de/policies/refund-policy",
+     "site": "montredo.com/de"
+    }
+   ]
+  },
+  "returns-schecker-unopened-packaging": {
+   "id": "returns-schecker-unopened-packaging",
+   "area": "returns",
+   "topic": "condition",
+   "pub": "Schecker GmbH",
+   "src": "Homepage FAQ — Rückgabe & Widerruf / Kann ich Artikel zurückgeben?",
+   "claim": "makes unopened, originally packed goods a condition of its 14-day withdrawal right.",
+   "quote": "Ja, du hast ein 14-tägiges Widerrufsrecht. Die Ware muss ungetragen, ungeöffnet und originalverpackt sein.",
+   "lang": "German",
+   "tr": "Yes, you have a 14-day right of withdrawal. The goods must be unworn, unopened and in their original packaging.",
+   "law": "The homepage directly links the stated 14-day withdrawal right to unopened goods and original packaging. For ordinary consumer goods, opening ordinary packaging to inspect the goods does not remove withdrawal rights. Any compensation for actual diminished value has separate statutory conditions. Schecker’s formal withdrawal notice correctly limits the hygiene exception to genuinely unsuitable sealed goods whose seal was removed; that narrower exception does not justify the homepage’s blanket packaging rule.",
+   "sourceUrl": "https://www.schecker.de/",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__357a.html",
+   "example": "Hypothetical: A German consumer opens an ordinary cardboard wrapper to inspect an unused, standard dog lead, then gives clear withdrawal notice five days after delivery. Assume no genuine hygiene seal was broken, no custom manufacture, and no other statutory exception. They can still exercise statutory withdrawal even though the original wrapper has been opened. Any actual diminished-value claim must meet its separate legal conditions.",
+   "context": "The wording appears in the homepage FAQ headed Rückgabe & Widerruf, in the answer to Kann ich Artikel zurückgeben? The TPR-Blinkball product page repeats it under Rückgabeinformationen. The linked formal Widerruf page gives the ordinary 14-day right and the correct diminished-value rule, with narrow custom-made and unsealed-hygiene exceptions; AGB § 8 points consumers to that legal notice. These are material contrary statements. No distinct voluntary extended return period is identified in the challenged FAQ.",
+   "scope": "German consumer distance purchases of ordinary goods, within the statutory period, without a specific exception. Limited to ordinary packaging opened for inspection; no claim that all worn, damaged, custom-made or genuinely unsealed hygiene goods must receive a full refund.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Ja, du hast ein 14-tägiges Widerrufsrecht. Die Ware muss ungetragen, ungeöffnet und originalverpackt sein.",
+     "tr": "Yes, you have a 14-day right of withdrawal. The goods must be unworn, unopened and in their original packaging.",
+     "url": "https://www.schecker.de/",
+     "site": "schecker.de"
+    }
+   ]
+  },
+  "returns-kanibox-bstock-discount-exclusion": {
+   "id": "returns-kanibox-bstock-discount-exclusion",
+   "area": "returns",
+   "topic": "sale",
+   "pub": "KaniBox (BX-Direkt, Jörg Braun)",
+   "src": "Schwarze KanisterBar – Ausstellungsstück zum Sonderpreis — final note",
+   "claim": "excludes B-stock and special offers from the right of withdrawal.",
+   "quote": "Die B-Ware und Sonderangebote sind vom Widerrufsrecht ausgeschlossen.",
+   "lang": "German",
+   "tr": "B-stock and special offers are excluded from the right of withdrawal.",
+   "law": "A sale price or status as an exhibition item does not itself exclude statutory withdrawal under Article 16 or BGB § 312g(2). The listed black bar canister has fixed specifications and is described as available from stock. The shop also offers configuration on request, which must be assessed separately; this comparison concerns the listed exhibition item ordered without personalisation. Its linked legal notices grant ordinary withdrawal rights, so the discrepancy is the blanket product-specific exclusion.",
+   "sourceUrl": "https://www.kanibox.de/produkt/schwarze-kanisterbar-fuer-eine-flasche-und-6-glaeser-b-ware/",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+   "example": "Hypothetical: A German consumer buys the listed black exhibition bar canister online at its sale price, without requesting configuration or engraving. They receive it, leave it unused and declare withdrawal after five days. Assuming no other statutory exception, its reduced price and exhibition-item status alone do not remove the right.",
+   "context": "The product is titled Schwarze KanisterBar – Ausstellungsstück zum Sonderpreis. It lists fixed dimensions, black metal construction and three glasses, and says it is available from stock. It also says KaniBox products can be configured on request. Current homepage navigation links this item directly. The embedded withdrawal notice gives 14 days, while the embedded AGB give a month; neither adds a B-stock or special-offer exception. These broader notices conflict with the product note.",
+   "scope": "Timely statutory withdrawal by German consumers buying the listed fixed-specification exhibition item online, without requested configuration, engraving or another exception. Defect remedies, bespoke configurations and actual merchant decisions are outside this finding.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Die B-Ware und Sonderangebote sind vom Widerrufsrecht ausgeschlossen.",
+     "tr": "B-stock and special offers are excluded from the right of withdrawal.",
+     "url": "https://www.kanibox.de/produkt/schwarze-kanisterbar-fuer-eine-flasche-und-6-glaeser-b-ware/",
+     "site": "www.kanibox.de"
+    }
+   ]
+  },
+  "returns-dropsize-underwear-intact-seal": {
+   "id": "returns-dropsize-underwear-intact-seal",
+   "area": "returns",
+   "topic": "exceptions",
+   "pub": "Dropsize GmbH",
+   "src": "AGB — section 8, Hinweis zum Widerruf, Unterwäsche / Boxershorts",
+   "claim": "excludes underwear from withdrawal even where the product appears unopened.",
+   "quote": "Ausschluss von Unterwäsche / Boxershorts […] kein Widerrufsrecht, auch dann nicht, wenn: […] der Artikel „ungeöffnet“ oder „ungetragen“ erscheint",
+   "lang": "German",
+   "tr": "Exclusion of underwear / boxer shorts […] no right of withdrawal, even if: […] the item appears “unopened” or “unworn”.",
+   "law": "Section 8 names underwear and boxer shorts, cites BGB §312g(2) no.3, and says no withdrawal right exists even if the article appears unopened or unworn. The reference to apparent condition does not establish whether an actual hygiene seal was removed. But the section gives a blanket category exclusion without making actual seal removal a condition. That exception requires qualifying sealed goods and removal of the seal after delivery, so it cannot defeat an otherwise eligible consumer’s withdrawal where the goods are in fact unopened and any hygiene seal is intact. Whether particular unsealed intimate products satisfy the exception is not decided here.",
+   "sourceUrl": "https://dropsize.store/policies/terms-of-service",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+   "example": "Hypothetical: A German consumer orders standard boxer shorts online, receives them and gives clear notice of withdrawal after five days. The packaging is unopened, the goods unused and any hygiene seal intact. Assuming no other statutory exception, the category alone cannot defeat withdrawal.",
+   "context": "The current footer-linked AGB section 8 is headed Hinweis zum Widerruf – Ausschluss von Unterwäsche / Boxershorts. It cites the statutory hygiene exception and gives a category exclusion even where an article appears unopened or unworn. The separate withdrawal notice correctly requires actual removal of a seal after delivery, creating a material contradiction. The standard two-pack product also has a general FAQ saying unworn articles can be returned within 14 days. The AGB display an old 27 October 2020 update label; current retrieval and linking do not prove recent editorial review.",
+   "scope": "German consumer online purchases of standard underwear, with timely withdrawal, intact seals and no other exception. No conclusion about worn or unsealed goods, actual refusals or consumer loss.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Ausschluss von Unterwäsche / Boxershorts […] kein Widerrufsrecht, auch dann nicht, wenn: […] der Artikel „ungeöffnet“ oder „ungetragen“ erscheint",
+     "tr": "Exclusion of underwear / boxer shorts […] no right of withdrawal, even if: […] the item appears “unopened” or “unworn”.",
+     "url": "https://dropsize.store/policies/terms-of-service",
+     "site": "dropsize.store"
+    }
+   ]
+  },
+  "returns-labadi-sale-exclusion": {
+   "id": "returns-labadi-sale-exclusion",
+   "area": "returns",
+   "topic": "sale",
+   "pub": "Labadi Fashion (Sonia Labadi)",
+   "src": "FAQ — Wie lange kann ich meine Ware zurücksenden?",
+   "claim": "excludes sale articles from return while describing the ordinary 14-day period.",
+   "quote": "SALE Artikel sind von Umtausch und Rückgabe ausgeschlossen.",
+   "lang": "German",
+   "tr": "SALE items are excluded from exchange and return.",
+   "law": "The final FAQ places this exclusion directly after its 14-day-from-receipt return right and links the Widerrufsrecht policy. Price reductions are not an exception to statutory withdrawal under Article 16 or BGB § 312g(2). The claim is limited to the exclusion as applied to a timely statutory withdrawal from an ordinary online purchase, rather than a separate voluntary exchange.",
+   "sourceUrl": "https://labadifashion.de/pages/faq",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+   "example": "Hypothetical: A German consumer orders a standard discounted cardigan online for personal use. They notify withdrawal after five days, keep it unused and return it promptly. Assuming no statutory exception or qualifying lost value, its sale price alone does not permit refusal of the statutory withdrawal.",
+   "context": "The FAQ repeats the sale exclusion in its returns instructions and final timing answer. It describes 14 days from receipt and links a page headed Widerrufsrecht. The separate policy has no express sale exception; its section labelled Stornierungen (nur für EU-Bürger gültig) concerns cancellation before an order is processed, then refers customers back to the same 14-day return rules after delivery. It does not state that the FAQ’s sale exclusion applies only to an extra voluntary exchange or goodwill period. The current site advertises discounted standard clothing; listing availability does not establish current stock or an actual refusal.",
+   "scope": "Timely statutory withdrawal by German online consumers buying ordinary discounted clothing, without personalisation or another exception. This does not address voluntary size exchanges, late goodwill returns, actual refusals or defect remedies.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "SALE Artikel sind von Umtausch und Rückgabe ausgeschlossen.",
+     "tr": "SALE items are excluded from exchange and return.",
+     "url": "https://labadifashion.de/pages/faq",
+     "site": "labadifashion.de"
+    }
+   ]
+  },
+  "returns-labadi-hijab-hygiene-exclusion": {
+   "id": "returns-labadi-hijab-hygiene-exclusion",
+   "area": "returns",
+   "topic": "exceptions",
+   "pub": "Labadi Fashion (Sonia Labadi)",
+   "src": "Premium Jersey Hijab, black — Beschreibung",
+   "claim": "excludes hijabs from return simply because it labels them hygiene items.",
+   "quote": "Hijabs gelten als Hygieneartikel und sind daher von der Rückgabe ausgeschlossen.",
+   "lang": "German",
+   "tr": "Hijabs are considered hygiene items and are therefore excluded from return.",
+   "law": "The product rule is unconditional, and the page headed Widerrufsrecht also excludes hijabs and bonnets without a seal-removal condition. Article 16(e) and BGB § 312g(2) no. 3 do not exclude an otherwise eligible standard item while any hygiene seal remains intact. Calling a headscarf a hygiene item does not itself meet the exception. This finding does not decide the treatment of worn goods or genuine health-related products.",
+   "sourceUrl": "https://labadifashion.de/products/premium-jersey-blackk",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+   "example": "Hypothetical: A German consumer buys the listed standard black hijab online, receives it and changes their mind after five days. They give clear withdrawal notice and leave the unused goods and any hygiene seal unopened. Assuming no other statutory exception, hygiene classification alone cannot remove the right.",
+   "context": "The product describes an ordinary scarf with fixed dimensions and material. The policy headed Widerrufsrecht and the FAQ repeat the category exclusion. The product and site also advertise 14-day returns, without explaining an intact-seal qualification. Those general promises conflict with the category rule.",
+   "scope": "Timely German consumer distance purchases of standard hijabs with any seal intact and no other exception. Used goods, bespoke clothing and defect remedies are outside this finding; no actual refusal investigated.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Hijabs gelten als Hygieneartikel und sind daher von der Rückgabe ausgeschlossen.",
+     "tr": "Hijabs are considered hygiene items and are therefore excluded from return.",
+     "url": "https://labadifashion.de/products/premium-jersey-blackk",
+     "site": "labadifashion.de"
+    }
+   ]
+  },
+  "returns-paw-standard-cushion-bespoke": {
+   "id": "returns-paw-standard-cushion-bespoke",
+   "area": "returns",
+   "topic": "customisation",
+   "pub": "Paw UG (haftungsbeschränkt)",
+   "src": "Vintage Diamond Hundekissen — exclusion beside the order controls",
+   "claim": "labels a cushion offered in preset catalogue sizes as individually specified and excludes withdrawal.",
+   "quote": "Vom Widerrufsrecht ausgeschlossen: Da dieses Produkt nach Ihren individuellen Vorgaben angefertigt und eindeutig auf Ihre persönlichen Bedürfnisse zugeschnitten wird,",
+   "lang": "German",
+   "tr": "Excluded from withdrawal because this product is made to your individual specifications and clearly tailored to your personal needs.",
+   "law": "BGB § 312g(2) no. 1 and Article 16(c) require genuine consumer specifications or clear personalisation. Making goods only after an order does not alone satisfy that exception. This product is offered in five fixed catalogue sizes with fixed materials and colours. The observed Small purchase flow carried that preset into the cart and unsubmitted checkout as an ordinary €269 line item, without a personal measurement, name or design requirement. The finding concerns that advertised standard flow; a separately agreed bespoke specification would require separate assessment.",
+   "sourceUrl": "https://paw.de/products/vintage-diamond-hundekissen",
+   "lawUrl": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+   "example": "Hypothetical: A German consumer buys the displayed Small version with its fixed catalogue dimensions, materials and colours through the observed standard selection, without a separately agreed personal measurement, name or design. After receiving it, they declare withdrawal within five days and promptly return it unused with any seal intact. Assume no other statutory exception or qualifying diminished value. Manufacture after that standard order alone does not remove the withdrawal right.",
+   "context": "The product displays the exclusion next to five fixed catalogue sizes, a standard size table and fixed materials. It says manufacture occurs on order with an approximately 21-working-day lead time. The observed standard Small selection continued to an ordinary €269 cart and unsubmitted checkout without requesting personal measurements, a name or a design. The general withdrawal notice and FAQ recognise ordinary consumer withdrawal and genuine personalisation exceptions. No completed contract, production process or actual refusal was investigated.",
+   "scope": "German consumer purchases of the advertised standard Small catalogue cushion through the observed ordinary selection/cart/checkout flow, with timely withdrawal and no separately agreed bespoke specification or other exception. No conclusion about every FLUM item, actual production economics, final completed contracts or refusals.",
+   "date": "2026-10-18",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Vom Widerrufsrecht ausgeschlossen: Da dieses Produkt nach Ihren individuellen Vorgaben angefertigt und eindeutig auf Ihre persönlichen Bedürfnisse zugeschnitten wird,",
+     "tr": "Excluded from withdrawal because this product is made to your individual specifications and clearly tailored to your personal needs.",
+     "url": "https://paw.de/products/vintage-diamond-hundekissen",
+     "site": "paw.de"
     }
    ]
   }
