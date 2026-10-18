@@ -23,7 +23,7 @@ The page shows what the data holds and never rewrites a quotation. Each behaviou
 
 Display rules agreed with the project owner:
 
-- Titles use the publisher in bold followed by the claim, set with `text-wrap: pretty`, not `balance`: balance splits a two-line title evenly and breaks it far short of the available width. A claim that already starts with the publisher's name ("Rail Europe says …", "Trainline’s …") is not preceded by it twice.
+- Titles use the publisher in bold followed by the claim, set with `text-wrap: pretty`, not `balance`: balance splits a two-line title evenly and breaks it far short of the available width. The same holds for the front-page and area-page intro lines and the country breakdown, which have no width cap. Keep `balance` only for headings in narrow columns, such as the issue headings on area pages, where the heading wraps anyway. A claim that already starts with the publisher's name ("Rail Europe says …", "Trainline’s …") is not preceded by it twice.
 - Digit ranges such as 7–14 and citation groups such as 5(1)(c) never break across lines. This uses non-breaking spans, so copy and search still work.
 - Government areas show their law but no "Cases from N countries": every case concerns a German institution and the countries only mark where an embassy sits. Company areas keep the count.
 - The front page lists each area's first four issues and "and N more issues"; the area page lists them all.
