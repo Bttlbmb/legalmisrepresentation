@@ -647,10 +647,6 @@ const SECTOR_SCOPE = {
          sub: "Websites and terms of companies selling to people in EU countries, checked against EU law." },
 };
 const cname = x => CN[x] || x;
-// The government section already says "German law", so an area shows a law line only when it adds something ("EU and German law").
-// This must not depend on the languages of the sources: an English passage in one area must not change its label.
-const SECTOR_LAW = { gov: "German law" };
-const homeOnly = a => SECTOR_LAW[a.sector] === a.lawShort;
 const varies = a => ({ cc: a.countries.length > 1, lang: a.langs.length > 1 });
 function whereShort(a) {
   const n = a.countries.length;
@@ -873,7 +869,7 @@ function renderAS(s) {
         return `<section class="home-sec"><div class="sector-h"><h2>${sc.title}</h2><span>${plural(as.reduce((x, a) => x + nCases(a), 0), "case", "cases")}</span></div>
           <p class="sector-sub">${sc.sub}</p>
           <div>${as.map(a => `<a class="area-line" href="${href(L, "area", a.id)}"><h3>${areaTitle(a)}</h3><span class="n">${nCases(a)}<small>cases</small></span>
-            ${homeOnly(a) ? "" : `<p class="scope">${fromCountries(a) ? `<span>${esc(casesFrom(a))}</span>` : ""}<span class="law-s">${esc(a.lawShort)}</span></p>`}
+            <p class="scope">${fromCountries(a) ? `<span>${esc(casesFrom(a))}</span>` : ""}<span class="law-s">${esc(a.lawShort)}</span></p>
             <p class="issues">${esc(issueSummary(a))}</p></a>`).join("")}</div></section>`;
       }).join("")}</div>`;
   } else if (s.kind === "home") {
@@ -893,9 +889,9 @@ function renderAS(s) {
             <td class="num"><span class="count-c">${nCases(a)}</span></td></tr>`).join("")}</tbody></table></div></section>`;
         return `<section class="sector">${head}<ul>${as.map(a => `<li><a class="area-row" href="${href(L, "area", a.id)}">
             <div class="area-main"><h3>${areaTitle(a)}</h3>
-              ${L === "A1" && !homeOnly(a) ? `<p class="scope"><span>${esc(whereShort(a))}</span><span class="law-s">${esc(a.lawShort)}</span><span>${esc(langsShort(a))}</span></p>` : ""}
+              ${L === "A1" ? `<p class="scope"><span>${esc(whereShort(a))}</span><span class="law-s">${esc(a.lawShort)}</span><span>${esc(langsShort(a))}</span></p>` : ""}
               <p>${esc(a.intro)}</p>
-              ${L === "A3" ? (a.countries.length > 1 ? `<div class="cc-chips" title="${esc(countryList(a.countries, 99))}">${a.countries.slice(0, 14).map(cc => `<span class="cc">${cc}</span>`).join("")}${a.countries.length > 14 ? `<span class="cc">+${a.countries.length - 14}</span>` : ""}</div>` : `<p class="by">${esc(a.publishers)}</p>`) : L !== "A1" || homeOnly(a) ? `<p class="by">${esc(a.publishers)}</p>` : ""}
+              ${L === "A3" ? (a.countries.length > 1 ? `<div class="cc-chips" title="${esc(countryList(a.countries, 99))}">${a.countries.slice(0, 14).map(cc => `<span class="cc">${cc}</span>`).join("")}${a.countries.length > 14 ? `<span class="cc">+${a.countries.length - 14}</span>` : ""}</div>` : `<p class="by">${esc(a.publishers)}</p>`) : L !== "A1" || a.sector === "gov" ? `<p class="by">${esc(a.publishers)}</p>` : ""}
             </div>
             <ol class="issues-mini" aria-label="Issues">${a.topics.map(t => `<li><span class="t">${esc(t.title)}</span><span class="bar"><i style="--w:${(t.cases.length / MAXT * 100).toFixed(1)}%"></i></span><span class="n">${t.cases.length}</span></li>`).join("")}</ol>
             <span class="count">${nCases(a)}<small>cases</small></span>
