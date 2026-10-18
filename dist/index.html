@@ -109,7 +109,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 /* ---------- shared case view ---------- */
 .case { display: grid; gap: 28px; min-width: 0; }
 .case-head { display: grid; gap: 10px; }
-.case-title { font-family: var(--f-display); font-weight: 400; font-size: var(--s-2xl); line-height: 1.22; letter-spacing: -.01em; max-width: 36ch; }
+.case-title { font-family: var(--f-display); font-weight: 400; font-size: var(--s-2xl); line-height: 1.22; letter-spacing: -.01em; max-width: 52ch; }
+.nb { white-space: nowrap; }
 .case-title .pub { font-weight: 600; }
 .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); overflow: hidden; overflow: clip; }
 .compare.long { grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); }
@@ -358,10 +359,15 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .facts > div { display: grid; gap: 1px; min-width: 0; }
 .facts .law-d { color: var(--law); }
 .q { display: grid; gap: 10px; }
-.versions { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 14px; font-size: var(--s-xs); color: var(--ink-3); }
+.versions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0; font-size: var(--s-xs); color: var(--ink-3); }
 .versions:empty { display: none; }
-.ver, .ver-more { font: inherit; background: none; border: 0; padding: 0; color: var(--ink-2); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; cursor: pointer; text-align: left; }
-.ver:hover, .ver-more:hover { color: var(--ink); text-decoration-color: var(--ink-3); }
+.ver-chips { display: inline-flex; flex-wrap: wrap; gap: 6px; }
+.ver-chip { font: inherit; font-size: var(--s-xs); color: var(--ink-2); background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; padding: 0 10px; min-height: 32px; cursor: pointer; }
+.ver-chip:hover { border-color: var(--ink-3); color: var(--ink); }
+.ver-chip[aria-pressed="true"] { background: var(--claim-bg); border-color: var(--claim-bg); color: var(--ink); cursor: default; }
+.ver-chip span { color: var(--ink-3); margin-left: 4px; }
+.ver-page { display: inline-flex; align-items: center; gap: 8px; }
+.ver-page select { font: inherit; font-size: var(--s-xs); min-height: 32px; border: 1px solid var(--rule); border-radius: 4px; background: var(--surface); color: var(--ink); padding: 0 8px; max-width: 100%; }
 
 /* front page (A1): government and companies side by side */
 .home-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; padding-top: 12px; }
@@ -412,8 +418,9 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
   .proto-label { display: none; }
   .theme-btn { width: 44px; height: 44px; }
   .row-group .n { display: none; }
-  .ver, .ver-more { min-height: 44px; display: inline-flex; align-items: center; }
-  .versions > span:first-child { flex-basis: 100%; }
+  .ver-chip, .ver-page select { min-height: 44px; }
+  .ver-lab, .ver-page { flex-basis: 100%; }
+  .ver-page select { flex: 1; min-width: 0; }
   .strip { grid-template-columns: minmax(0, 1fr); }
   .strip > div + div { padding-left: 0; border-left: none; border-top: 1px solid var(--rule-2); }
 }
@@ -452,7 +459,19 @@ const LANG = { German: "de", English: "en", French: "fr", Spanish: "es", Italian
   Finnish: "fi", Swedish: "sv", Polish: "pl", Portuguese: "pt", Greek: "el", Slovak: "sk", Japanese: "ja", Turkish: "tr" };
 
 // Citations join provisions with " · "; keep the dot on the line of the provision before it.
-const provText = p => esc(p).replace(/ · /g, "&nbsp;· ");
+// Keep digit ranges ("7–14") and citation groups ("5(1)(c)") on one line, without changing the text.
+const nb = html => html.replace(/\d+–\d+/g, m => `<span class="nb">${m}</span>`).replace(/\d+(?:\([^)\s]+\))+/g, m => `<span class="nb">${m}</span>`);
+const keep = t => nb(esc(t));
+const provText = p => nb(esc(p).replace(/ · /g, "&nbsp;· "));
+// A claim that already starts with the publisher's name ("Rail Europe says …", "Trainline’s table …") is not preceded by it twice.
+const titleParts = c => {
+  const p = c.pub || "", low = c.claim.toLowerCase(), q = p.toLowerCase();
+  if (p && low.startsWith(q + " ")) return [p, c.claim.slice(p.length).trim()];
+  if (p && /^['’]s /.test(c.claim.slice(p.length)) && low.startsWith(q)) return [c.claim.slice(0, p.length + 2), c.claim.slice(p.length + 3)];
+  return [p, c.claim];
+};
+const rowTitle = c => { const [a, b] = titleParts(c); return `<b>${esc(a)}</b> ${keep(b)}`; };
+const headTitle = c => { const [a, b] = titleParts(c); return `<span class="pub">${esc(a)}</span> ${keep(b)}`; };
 const esc = s => String(s ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
 const nCases = a => a.topics.reduce((s, t) => s + t.cases.length, 0);
 const topicOf = c => TOPIC[c.area + "~" + c.topic];
@@ -504,7 +523,7 @@ function keys(t, cls = "keys") {
   return `<div class="${cls}"><span class="k law"><b>Law</b>${esc(t.lawKey)}</span><span class="k claim"><b>Sources</b><span class="mark">${esc(t.claimKey)}</span></span></div>`;
 }
 function caseRow(c, L, cls = "row") {
-  return `<a class="${cls}" href="${href(L, "case", c.id)}"><span class="row-text"><b>${esc(c.pub)}</b> ${esc(c.claim)}</span><span class="arrow" aria-hidden="true">→</span></a>`;
+  return `<a class="${cls}" href="${href(L, "case", c.id)}"><span class="row-text">${rowTitle(c)}</span><span class="arrow" aria-hidden="true">→</span></a>`;
 }
 function evidenceContext(c) {
   return `<details class="practice"><summary>Scope and source context</summary>
@@ -521,7 +540,7 @@ function caseView(c, L) {
   return `<article class="case">
     <div class="case-head">
       <p class="eyebrow">${esc(a.title)} · ${esc(t.title)}</p>
-      <h1 class="case-title"><span class="pub">${esc(c.pub)}</span> ${esc(c.claim)}</h1>
+      <h1 class="case-title">${headTitle(c)}</h1>
     </div>
     <div class="compare">
       <section class="side side-claim">
@@ -531,12 +550,12 @@ function caseView(c, L) {
       </section>
       <section class="side side-law">
         <h2 class="side-label">What the law says</h2>
-        <p class="law-text">${esc(c.law || t.law)}</p>
+        <p class="law-text">${keep(c.law || t.law)}</p>
         <p class="side-meta"><a class="prov" href="${esc(c.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)} ↗</a></p>
       </section>
       ${ctxStrip(c)}
     </div>
-    ${c.example ? `<section class="practice"><h2>Hypothetical example</h2><p>${esc(c.example)}</p></section>` : ""}
+    ${c.example ? `<section class="practice"><h2>Hypothetical example</h2><p>${keep(c.example)}</p></section>` : ""}
     ${evidenceContext(c)}
     <p class="checked">Checked ${fmtDate(c.date)}</p>
   </article>`;
@@ -577,7 +596,7 @@ function renderA(s) {
       <p class="stats">${plural(a.topics.length, "issue", "issues")} · ${plural(nCases(a), "case", "cases")}</p></header>
       <nav class="toc" aria-label="Issues">${a.topics.map(t => `<a href="${href("A", "topic", t.key)}">${esc(t.title)}<span>${t.cases.length}</span></a>`).join("")}</nav>
       ${a.topics.map(t => `<section class="issue" id="i-${t.key}">
-        <div class="issue-head"><h2>${esc(t.title)}</h2>${keys(t)}<p class="issue-law">${esc(t.law)} <a class="prov" href="${esc(t.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)}</a></p></div>
+        <div class="issue-head"><h2>${esc(t.title)}</h2>${keys(t)}<p class="issue-law">${keep(t.law)} <a class="prov" href="${esc(t.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)}</a></p></div>
         <div class="rows">${t.cases.map(id => caseRow(CASES[id], "A")).join("")}</div>
       </section>`).join("")}`;
   } else {
@@ -630,7 +649,7 @@ function caseTags(c, a) {
 function rowS(c, L) {
   const tags = caseTags(c, AREA[c.area]);
   if (!tags) return caseRow(c, L);
-  return `<a class="row has-tags" href="${href(L, "case", c.id)}"><span class="row-text"><b>${esc(c.pub)}</b> ${esc(c.claim)}</span><span class="tags" title="${esc(c.countries.map(cname).join(", "))}">${esc(tags)}</span><span class="arrow" aria-hidden="true">→</span></a>`;
+  return `<a class="row has-tags" href="${href(L, "case", c.id)}"><span class="row-text">${rowTitle(c)}</span><span class="tags" title="${esc(c.countries.map(cname).join(", "))}">${esc(tags)}</span><span class="arrow" aria-hidden="true">→</span></a>`;
 }
 function strip(a) {
   const many = a.countries.length > 1;
@@ -687,51 +706,66 @@ function verBody(c, i) {
     <p class="side-meta"><span>${v.site ? `${esc(v.site)} · ` : ""}<a href="${esc(v.url)}" target="_blank" rel="noopener">Open page ↗</a></span></p>
     ${v.cut ? `<p class="cut-note">The publisher’s own text ends mid-sentence here. It is shown exactly as published.</p>` : ""}`;
 }
-const VER_SHOW = 6;
+// One chip per language; versions that repeat the same page and wording are listed once.
+function versionSet(c) {
+  const seen = new Set(), list = [];
+  c.versions.forEach((v, i) => { const k = [v.lang, v.url, v.quote].join("|"); if (!seen.has(k)) { seen.add(k); list.push({ v, i }); } });
+  return list;
+}
 function versionLinks(c, cur) {
-  const vs = c.versions, n = vs.length;
-  if (n < 2) return "";
-  const same = l => vs.filter(v => v.lang === l).length > 1;
-  const others = vs.map((v, i) => [v, i]).filter(([, i]) => i !== cur);
-  return `<span>Also found in</span>
-    ${others.map(([v, i], k) => `<button type="button" class="ver" data-ver="${i}" ${k >= VER_SHOW ? "hidden" : ""}>${esc(same(v.lang) && v.site ? `${v.lang} (${v.site})` : v.lang)}</button>`).join("")}
-    ${others.length > VER_SHOW ? `<button type="button" class="ver-more">Show all ${others.length}</button>` : ""}`;
+  const list = versionSet(c);
+  if (list.length < 2) return "";
+  const lang = c.versions[cur].lang, langs = [...new Set(list.map(x => x.v.lang))];
+  const chips = langs.map(l => { const n = list.filter(x => x.v.lang === l).length;
+    return `<button type="button" class="ver-chip" data-lang="${esc(l)}" aria-pressed="${l === lang}">${esc(l)}${n > 1 ? `<span>${n}</span>` : ""}</button>`; }).join("");
+  const pages = list.filter(x => x.v.lang === lang);
+  const select = pages.length > 1 ? `<label class="ver-page">Page <select aria-label="Page in ${esc(lang)}">${pages.map(x => `<option value="${x.i}"${x.i === cur ? " selected" : ""}>${esc(x.v.site || siteHost(x.v.url))}</option>`).join("")}</select></label>` : "";
+  return `<span class="ver-lab">Versions</span><span class="ver-chips" role="group" aria-label="Versions by language">${chips}</span>${select}`;
+}
+// The switcher sits above the passage, so changing the passage never moves the control that was used.
+function showVersion(art, c, i, focusSelector) {
+  art.querySelector(".q").innerHTML = verBody(c, i);
+  art.querySelector(".versions").innerHTML = versionLinks(c, i);
+  const f = art.querySelector(focusSelector); if (f) f.focus({ preventScroll: true });
 }
 function caseViewS(c) {
   const a = AREA[c.area], t = topicOf(c);
   const where = c.countries.length ? countryList(c.countries) : (a.whereShort || a.where);
   return `<article class="case" data-case="${c.id}">
     <div class="case-head">
-      <h1 class="case-title"><span class="pub">${esc(c.pub)}</span> ${esc(c.claim)}</h1>
+      <h1 class="case-title">${headTitle(c)}</h1>
     </div>
     <p class="meta-line"><span>${esc(where)}</span><span class="law-d">${esc(a.lawShort)}</span><span>Checked ${fmtDate(c.date)}</span></p>
     <div class="${compareClass(c)}">
       <section class="side side-claim">
         <h2 class="side-label">What the source says</h2>
-        <div class="q">${verBody(c, 0)}</div>
         <p class="versions">${versionLinks(c, 0)}</p>
+        <div class="q">${verBody(c, 0)}</div>
       </section>
       <section class="side side-law"><div class="pin">
         <h2 class="side-label">What the law says</h2>
-        <p class="law-text">${esc(c.law || t.law)}</p>
+        <p class="law-text">${keep(c.law || t.law)}</p>
         <p class="side-meta"><a class="prov" href="${esc(c.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)} ↗</a></p>
-        ${c.example ? `<section class="practice"><h2>Hypothetical example</h2><p>${esc(c.example)}</p></section>` : ""}
+        ${c.example ? `<section class="practice"><h2>Hypothetical example</h2><p>${keep(c.example)}</p></section>` : ""}
       </div></section>
       ${ctxStrip(c)}
     </div>
     ${evidenceContext(c)}
   </article>`;
 }
+document.addEventListener("change", e => {
+  const sel = e.target.closest(".ver-page select"); if (!sel) return;
+  const art = sel.closest("[data-case]");
+  showVersion(art, CASES[art.dataset.case], +sel.value, ".ver-page select");
+});
 document.addEventListener("click", e => {
-  const b = e.target.closest(".ver");
-  if (b) {
-    const art = b.closest("[data-case]"), c = CASES[art.dataset.case];
-    art.querySelector(".q").innerHTML = verBody(c, +b.dataset.ver);
-    art.querySelector(".versions").innerHTML = versionLinks(c, +b.dataset.ver);
+  const chip = e.target.closest(".ver-chip");
+  if (chip) {
+    if (chip.getAttribute("aria-pressed") === "true") return;
+    const art = chip.closest("[data-case]"), c = CASES[art.dataset.case];
+    showVersion(art, c, versionSet(c).find(x => x.v.lang === chip.dataset.lang).i, `.ver-chip[data-lang="${CSS.escape(chip.dataset.lang)}"]`);
     return;
   }
-  const m = e.target.closest(".ver-more");
-  if (m) { m.parentElement.querySelectorAll(".ver[hidden]").forEach(x => x.hidden = false); m.remove(); return; }
   const tr = e.target.closest("tr[data-href]");
   if (tr && !e.target.closest("a")) location.hash = tr.dataset.href;
 });
@@ -739,6 +773,8 @@ document.addEventListener("click", e => {
 // "Cases from" counts only where the published cases come from; it is not a claim about search coverage.
 // Government cases all concern German institutions; the countries there are only where an embassy or consulate sits.
 const fromCountries = a => a.sector !== "gov";
+const issueSummary = a => { const t = a.topics.map(x => x.title), more = t.length - 4;
+  return more > 0 ? `${t.slice(0, 4).join(", ")} and ${more} more ${more === 1 ? "issue" : "issues"}` : listJoin(t); };
 const casesFrom = a => a.countries.length > 1 ? `Cases from ${a.countries.length} countries`
   : a.countries.length ? `Cases from ${cname(a.countries[0])}` : (a.whereShort || a.where);
 function countryBreakdown(a) {
@@ -770,7 +806,7 @@ function issueList(c, L) {
   const t = topicOf(c);
   if (t.cases.length < 2) return "";
   return `<section class="more"><h2>${plural(t.cases.length, "case", "cases")} in ${esc(t.title)}</h2><div class="rows">${t.cases.map(id => id === c.id
-    ? `<div class="row row-current" aria-current="page"><span class="row-text"><b>${esc(c.pub)}</b> ${esc(c.claim)}</span><span class="here">This case</span></div>`
+    ? `<div class="row row-current" aria-current="page"><span class="row-text">${rowTitle(c)}</span><span class="here">This case</span></div>`
     : rowS(CASES[id], L)).join("")}</div></section>`;
 }
 function matrix(a, L) {
@@ -801,7 +837,7 @@ function renderAS(s) {
   const L = s.L;
   let body = "";
   if (s.kind === "home" && L === "A1") {
-    // Front page: government and companies side by side, every area with all its issues.
+    // Front page: government and companies side by side, every area with its first issues; the area page lists all of them.
     body = `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${intro}</p>
       <p class="stats">${TOTAL.areas} areas · ${TOTAL.topics} issues · ${TOTAL.cases} cases</p></section>
       <div class="home-cols">${SECTORS.map(sec => {
@@ -810,7 +846,7 @@ function renderAS(s) {
           <p class="sector-sub">${sc.sub}</p>
           <div>${as.map(a => `<a class="area-line" href="${href(L, "area", a.id)}"><h3>${areaTitle(a)}</h3><span class="n">${nCases(a)}<small>cases</small></span>
             ${homeOnly(a) ? "" : `<p class="scope">${fromCountries(a) ? `<span>${esc(casesFrom(a))}</span>` : ""}<span class="law-s">${esc(a.lawShort)}</span></p>`}
-            <p class="issues">${esc(listJoin(a.topics.map(t => t.title)))}</p></a>`).join("")}</div></section>`;
+            <p class="issues">${esc(issueSummary(a))}</p></a>`).join("")}</div></section>`;
       }).join("")}</div>`;
   } else if (s.kind === "home") {
     body = `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${intro}</p>
@@ -846,7 +882,7 @@ function renderAS(s) {
       ${L === "A3" && a.countries.length > 1 ? matrix(a, L) : ""}
       ${L === "A1" ? "" : `<nav class="toc" aria-label="Issues">${a.topics.map(t => `<a href="${href(L, "topic", t.key)}">${esc(t.title)}<span>${t.cases.length}</span></a>`).join("")}</nav>`}
       ${a.topics.map(t => `<section class="issue" id="i-${t.key}">
-        <div class="issue-head"><h2>${esc(t.title)}</h2>${keys(t)}<p class="issue-law">${esc(t.law)} <a class="prov" href="${esc(t.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)}</a></p></div>
+        <div class="issue-head"><h2>${esc(t.title)}</h2>${keys(t)}<p class="issue-law">${keep(t.law)} <a class="prov" href="${esc(t.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)}</a></p></div>
         ${L === "A2" ? caseTable(t, a, L) : L === "A3" && a.countries.length > 1 ? `<div>${groupedRows(t, L)}</div>` : `<div class="rows">${L === "A1" ? groupedRowsS(t, L) : t.cases.map(id => rowS(CASES[id], L)).join("")}</div>`}
       </section>`).join("")}`;
   } else {
