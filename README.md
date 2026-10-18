@@ -1,6 +1,6 @@
 # Legal Misrepresentation
 
-A static viewer of published guidance that conflicts with the law it describes. Each case pairs the wording with a legal comparison, a hypothetical example, and its scope and source context.
+A static viewer of published guidance that conflicts with the law it describes. Each case pairs the wording with a legal comparison, a hypothetical example, and its scope and source context. [AGENTS.md](AGENTS.md) describes what the case page shows, which export field drives each part, the agreed display rules, and the open design proposals.
 
 Live website: **https://bttlbmb.github.io/legalmisrepresentation/**
 
