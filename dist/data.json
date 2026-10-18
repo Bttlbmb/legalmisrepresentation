@@ -1403,12 +1403,12 @@
    "sector": "biz",
    "title": "Online shopping returns",
    "titleNative": "",
-   "intro": "EU withdrawal rights and related German rules for sending online purchases back, checked against German-language webshop guidance.",
-   "publishers": "German-language webshops",
-   "law": "Consumer Rights Directive 2011/83/EU · German Civil Code (BGB)",
-   "lawShort": "EU and German law",
-   "where": "Consumers shopping online in Germany",
-   "whereShort": "Germany",
+   "intro": "EU withdrawal rights and related national rules for online purchases, checked against webshop guidance in Germany, Belgium and the Netherlands.",
+   "publishers": "Webshops in Germany, Belgium and the Netherlands",
+   "law": "Consumer Rights Directive 2011/83/EU and national consumer law in Germany, Belgium and the Netherlands",
+   "lawShort": "EU and national law",
+   "where": "Consumer online goods purchases under German, Belgian or Dutch law",
+   "whereShort": "Germany, Belgium and the Netherlands",
    "topics": [
     {
      "id": "condition",
@@ -7773,28 +7773,28 @@
      "quote": "8. Eine Antragsstellung ist ab 6 Monate bis 4 Wochen vor der geplanten Reise möglich.",
      "tr": "8. Applications can be submitted from six months to four weeks before the planned trip.",
      "url": "https://kairo.diplo.de/resource/blob/2516798/544d8d8d058894bf59c04626e58ecb46/240320-merkblatt-tourismus-und-besuch-data.pdf#page=1",
-     "site": "kairo.diplo.de · PDF"
+     "site": "Cairo · Tourism and visits (PDF)"
     },
     {
      "lang": "English",
      "quote": "11. Submitting the application is possible from 6 months to 4 weeks before the planned trip.\n12. The processing time of your application is approx. 2 to 4 weeks. In exceptional cases, the processing time may be longer. The Embassy reserves the right to request additional documents in some cases. Questions about the status of your application during the regular processing time will not be answered.",
      "tr": "",
      "url": "https://kairo.diplo.de/resource/blob/2487220/6e05470b131f14c8a03d6e1a42b8346b/240320-leaflet-for-tourism-and-visits-english-data.pdf#page=1",
-     "site": "kairo.diplo.de · PDF"
+     "site": "Cairo · Tourism and visits (PDF)"
     },
     {
      "lang": "German",
      "quote": "9. Eine Antragsstellung ist ab 6 Monate bis 4 Wochen vor der geplanten Reise möglich.",
      "tr": "9. Applications can be submitted from six months to four weeks before the planned trip.",
      "url": "https://kairo.diplo.de/resource/blob/2518076/4aad2acd288ff3cbe5b22a4113b8aaae/231104-merkblatt-minderjaehrige-data.pdf#page=1",
-     "site": "kairo.diplo.de · PDF"
+     "site": "Cairo · Minors leaflet (PDF)"
     },
     {
      "lang": "English",
      "quote": "10. Application can be submitted 6 months to 4 weeks before the planned trip.",
      "tr": "",
      "url": "https://kairo.diplo.de/resource/blob/2540462/22ecd9830eebeaef7e6a950b9470502c/231104-leaflet-minors-data.pdf#page=1",
-     "site": "kairo.diplo.de · PDF"
+     "site": "Cairo · Minors leaflet (PDF)"
     }
    ],
    "marks": [
@@ -8501,14 +8501,14 @@
      "quote": "Reisepass (auch „Europapass“ genannt; 10 Jahre Gültigkeit, Ausstellungsdauer: ca. 8-10 Wochen, Gebühr 101,- € / für Antragsteller vor Vollendung des 24. Lebensjahrs: 6 Jahre Gültigkeit, Gebühr 68,50 € / Expresspass mit erhöhter Gebühr innerhalb von ca. 2 Wochen möglich).",
      "tr": "Passport (also called a “European passport”; valid 10 years, issue time approximately 8–10 weeks, fee €101 / for applicants who have not reached age 24: valid 6 years, fee €68.50 / an express passport with an increased fee is possible within approximately 2 weeks).",
      "url": "https://bischkek.diplo.de/kg-de/2480138-2480138",
-     "site": "bischkek.diplo.de/kg-de"
+     "site": "Bishkek · Passport application"
     },
     {
      "lang": "German",
      "quote": "Antragsteller nach Vollendung des 24. Lebensjahres:\n10 Jahre Gültigkeit,\nGebühr 78,- €\nAntragsteller vor Vollendung des 24. Lebensjahrs:\n6 Jahre Gültigkeit,\nGebühr 63,80 €\nBei Antragstellern, die noch in Deutschland gemeldet sind, wird zusätzlich eine Unzuständigkeitsgebühr in Höhe von 13,-€ fällig.",
      "tr": "Applicants who have reached age 24: valid 10 years, fee €78. Applicants who have not reached age 24: valid 6 years, fee €63.80. Applicants still registered in Germany must additionally pay a €13 fee for lack of local jurisdiction.",
      "url": "https://bischkek.diplo.de/kg-de/2565754-2565754",
-     "site": "bischkek.diplo.de/kg-de"
+     "site": "Bishkek · ID-card application"
     },
     {
      "lang": "German",
@@ -8550,21 +8550,21 @@
      "quote": "Antragsteller ab 24 Jahre Antragsteller unter 24 Jahre\nGrundgebühr inkl. Zuschlag für Amtshandlung im Ausland € 101,00 € 68,50",
      "tr": "Applicants aged 24 or over / Applicants under 24. Base fee including surcharge for an official act abroad: €101.00 / €68.50.",
      "url": "https://ulan-bator.diplo.de/mn-de/service/2242094-2242094",
-     "site": "ulan-bator.diplo.de/mn-de"
+     "site": "Ulaanbaatar · Passports for minors"
     },
     {
      "lang": "German",
      "quote": "Gebühren Personalausweis im Ausland\nPersonalausweis bis 24 Jahre 6 Jahre gültig € 52,80\nPersonalausweis ab 24 Jahren 10 Jahre gültig € 67,00",
      "tr": "Identity-card fees abroad. Identity card up to age 24, valid 6 years: €52.80. Identity card from age 24, valid 10 years: €67.00.",
      "url": "https://ulan-bator.diplo.de/mn-de/service/2242064-2242064",
-     "site": "ulan-bator.diplo.de/mn-de"
+     "site": "Ulaanbaatar · Passport and ID fees"
     },
     {
      "lang": "German",
      "quote": "Antragsteller ab 24 Jahre Antragsteller unter 24 Jahre\nGrundgebühr inkl. Zuschlag für Amtshandlung im Ausland € 101,00 € 68,50",
      "tr": "Applicants aged 24 or over / Applicants under 24. Base fee including surcharge for an official act abroad: €101.00 / €68.50.",
      "url": "https://ulan-bator.diplo.de/mn-de/service/2242092-2242092",
-     "site": "ulan-bator.diplo.de/mn-de"
+     "site": "Ulaanbaatar · Passports for adults"
     }
    ],
    "ctx": [
@@ -11539,14 +11539,14 @@
      "quote": "Dès que l’utilisation de votre forfait redevient raisonnable, vous ne serez plus facturé de frais supplémentaires et en serez informé par SMS. - APPELS EMIS : 0,0228 € TTC/min pour les forfaits comportant des appels illimités, ou en supplément du prix national pour les autres forfaits. - APPELS RECUS : 0,005 € TTC/min - SMS EMIS : 0,0036 € TTC/SMS - SMS RECU : Gratuit - MMS EMIS : 0,0013 € TTC/MMS - MMS RECU : Gratuit - INTERNET : 0,0013 € TTC/Mo",
      "tr": "As soon as use of your plan becomes reasonable again, you will no longer be charged additional fees and will be informed by SMS. OUTGOING CALLS: €0.0228 including VAT/minute for plans with unlimited calls, or in addition to the domestic price for other plans. INCOMING CALLS: €0.005 including VAT/minute. SMS SENT: €0.0036 including VAT/SMS. SMS RECEIVED: Free. MMS SENT: €0.0013 including VAT/MMS. MMS RECEIVED: Free. INTERNET: €0.0013 including VAT/MB.",
      "url": "https://static.s-sfr.fr/media/p-se-0000000900_guidevoyage.pdf",
-     "site": "static.s-sfr.fr · PDF"
+     "site": "SFR · Travel guide (PDF)"
     },
     {
      "lang": "French",
      "quote": "Dès que l’utilisation de votre forfait redevient raisonnable, vous ne serez plus facturé de frais supplémentaires et en serez informé par SMS.\nAPPELS ÉMIS | 0,0228€ TTC/min pour les forfaits comportant des appels illimités, et en supplément du prix national, pour les autres forfaits\nAPPELS REÇUS | 0,005€ TTC/min\nSMS ÉMIS | 0,0036€ TTC/SMS\nSMS REÇU | Gratuit\nMMS ÉMIS | 0,0013€ TTC/MMS\nMMS REÇU | Gratuit\nINTERNET | 0,0013€ TTC/Mo",
      "tr": "As soon as use of your plan becomes reasonable again, you will no longer be charged additional fees and will be informed by SMS. OUTGOING CALLS: €0.0228 including VAT/minute for plans with unlimited calls, and in addition to the domestic price for other plans. INCOMING CALLS: €0.005 including VAT/minute. SMS SENT: €0.0036 including VAT/SMS. SMS RECEIVED: Free. MMS SENT: €0.0013 including VAT/MMS. MMS RECEIVED: Free. INTERNET: €0.0013 including VAT/MB.",
      "url": "https://static.s-sfr.fr/media/tarifs/s22026/sfr-bt-06102026.pdf",
-     "site": "static.s-sfr.fr · PDF"
+     "site": "SFR · Tariff brochure (PDF)"
     }
    ],
    "ctx": [
@@ -11783,21 +11783,21 @@
      "quote": "3.10.3 RLAH Fair Use Policy: the Data FUP allowance will be calculated in accordance with the Commission's Implementing Regulation (EU) 2016/2286. Once connected to the Tesco Mobile service you will receive a 'Welcome' message which will detail important information including providing you with a direct link to where comprehensive information is published on our website regarding roaming services. Also, once you commence roaming in the EU, you will receive an alert message which will advise you of the applicable rates and FUP. If roaming outside of the EU, you will receive an alert to advise you of the applicable roaming rates. Tesco Mobile will monitor usage of the Plan while roaming in the EU and will alert customers when they are nearing the FUP. In line with domestic use and charging including charging intervals, standard out of bundle rates will apply to usage beyond the FUP - see the 'Other Charges' section on our website for all applicable rates. The Roaming Data cap of €61.50 including VAT outside of your monthly spend remains applicable to all roaming usage i.e. EU and non-EU countries. See www.tescomobile.ie/roaming-and-international for further information on the Roaming Data cap.",
      "tr": "",
      "url": "https://www.tescomobile.ie/terms-and-conditions/general-terms-conditions/general-terms-conditions-for-customers",
-     "site": "tescomobile.ie"
+     "site": "Tesco Mobile · Customer terms"
     },
     {
      "lang": "English",
      "quote": "Permanent roaming: EU roaming is designed for customers based in the Republic of Ireland who wish to temporarily use their phone while travelling within EU countries. It is not meant for customers living in another EU country. If Tesco Mobile observes excessive roaming usage and presence each month and this usage prevails over a 4 month period (observed cumulatively), Tesco Mobile may contact you to request that you to alter your usage pattern. However, should you fail to alter your usage within the timeframe specified in the alert message, Tesco Mobile reserves the right to charge you for the excessive element of your usage at your Plan's standard out of bundle rate or to modify or suspend your use of the Plan or to withdraw your access to the service entirely in certain circumstances including but not limited to circumstances which amount to persistent abuse of the service. Tesco Mobile’s complaint handling process as detailed in section 3.18 of the General Terms and Conditions shall be utilised for any complaints made regarding the application of the FUP.",
      "tr": "",
      "url": "https://www.tescomobile.ie/eu-roaming-regulation",
-     "site": "tescomobile.ie"
+     "site": "Tesco Mobile · EU roaming regulation"
     },
     {
      "lang": "English",
      "quote": "All chargeable calls to Irish landlines & mobiles and roaming within the EU outside of your allowance or in excess of fair usage policy will be subject to a call set up fee of 12c.",
      "tr": "",
      "url": "https://www.tescomobile.ie/prepayroam",
-     "site": "tescomobile.ie"
+     "site": "Tesco Mobile · Prepay roaming"
     }
    ],
    "marks": [
