@@ -109,7 +109,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 /* ---------- shared case view ---------- */
 .case { display: grid; gap: 28px; min-width: 0; }
 .case-head { display: grid; gap: 10px; }
-.case-title { font-family: var(--f-display); font-weight: 400; font-size: var(--s-2xl); line-height: 1.22; letter-spacing: -.01em; text-wrap: pretty; }
+.case-title { font-family: var(--f-display); font-weight: 400; font-size: var(--s-2xl); line-height: 1.22; letter-spacing: -.01em; text-wrap: wrap; }
 .nb { white-space: nowrap; }
 mark.mk-src, mark.mk-law { color: inherit; border-radius: 2px; padding: 0 1px; }
 mark.mk-src { background: var(--claim-bg); box-shadow: inset 0 -2px 0 var(--claim); }
@@ -168,7 +168,7 @@ mark.mk-law { background: var(--law-bg); box-shadow: inset 0 -2px 0 var(--law); 
 /* ================= A · Pages ================= */
 .A main { padding-block: 24px 80px; }
 .A .hero { display: grid; gap: 14px; padding-bottom: 12px; }
-.A .hero .lede { max-width: none; text-wrap: pretty; }
+.A .hero .lede { max-width: none; text-wrap: wrap; }
 .A .hero h1, .C .hero h1 { font-family: var(--f-display); font-weight: 400; font-size: var(--s-3xl); line-height: 1.1; letter-spacing: -.015em; max-width: 40ch; }
 .sector { display: grid; gap: 4px; padding-top: 28px; }
 .sector-h { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-bottom: 2px solid var(--ink); padding-bottom: 8px; }
@@ -191,7 +191,7 @@ mark.mk-law { background: var(--law-bg); box-shadow: inset 0 -2px 0 var(--law); 
 
 .A .area-head { display: grid; gap: 12px; padding: 18px 0 8px; }
 .A1 .area-head { padding-bottom: 32px; }
-.A .area-head .lede { max-width: none; text-wrap: pretty; }
+.A .area-head .lede { max-width: none; text-wrap: wrap; }
 .A .area-head h1 { font-family: var(--f-display); font-weight: 400; font-size: var(--s-3xl); line-height: 1.1; letter-spacing: -.015em; }
 .toc { display: flex; flex-wrap: wrap; gap: 6px 8px; padding: 18px 0 8px; }
 .toc a { font-size: var(--s-sm); text-decoration: none; color: var(--ink-2); border: 1px solid var(--rule); border-radius: 999px; padding: 3px 11px; background: var(--surface); white-space: nowrap; }
@@ -466,6 +466,8 @@ const LANG = { German: "de", English: "en", French: "fr", Spanish: "es", Italian
 // Keep digit ranges ("7–14") and citation groups ("5(1)(c)") on one line, without changing the text.
 const nb = html => html.replace(/\d+–\d+/g, m => `<span class="nb">${m}</span>`).replace(/\d+(?:\([^)\s]+\))+/g, m => `<span class="nb">${m}</span>`);
 const keep = t => nb(esc(t));
+// Keep the last two words together so a title or intro never ends on a single word, in any browser.
+const widow = t => String(t).replace(/ (\S+)$/, "\u00a0$1");
 // Text with the researchers' marked wording; every occurrence of each mark is wrapped, longest marks first, never overlapping.
 function rich(text, marks, cls, fmt = keep) {
   text = String(text);
@@ -488,7 +490,7 @@ const titleParts = c => {
   return [p, c.claim];
 };
 const rowTitle = c => { const [a, b] = titleParts(c); return `<b>${esc(a)}</b> ${keep(b)}`; };
-const headTitle = c => { const [a, b] = titleParts(c); return `<span class="pub">${esc(a)}</span> ${keep(b)}`; };
+const headTitle = c => { const [a, b] = titleParts(c); return `<span class="pub">${esc(a)}</span> ${keep(widow(b))}`; };
 const esc = s => String(s ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
 const nCases = a => a.topics.reduce((s, t) => s + t.cases.length, 0);
 const topicOf = c => TOPIC[c.area + "~" + c.topic];
@@ -588,7 +590,7 @@ function pager(c, L) {
   </nav>`;
 }
 const areaTitle = a => `${esc(a.title)}${a.titleNative ? ` <span class="native">${esc(a.titleNative)}</span>` : ""}`;
-const intro = `Statements by authorities and companies that misstate people’s rights.`;
+const intro = widow(`Statements by authorities and companies that misstate people’s rights.`);
 
 /* ================= A · Pages ================= */
 function renderA(s) {
@@ -609,7 +611,7 @@ function renderA(s) {
     const a = s.kind === "area" ? AREA[s.id] : AREA[TOPIC[s.id].area];
     const sec = SECTORS.find(x => x.id === a.sector);
     body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href("A")}">All areas</a><span>/</span><span>${esc(a.title)}</span></nav>
-      <header class="area-head"><p class="eyebrow">${sec.long}</p><h1>${areaTitle(a)}</h1><p class="lede">${esc(a.intro)}</p>
+      <header class="area-head"><p class="eyebrow">${sec.long}</p><h1>${areaTitle(a)}</h1><p class="lede">${esc(widow(a.intro))}</p>
       <p class="stats">${plural(a.topics.length, "issue", "issues")} · ${plural(nCases(a), "case", "cases")}</p></header>
       <nav class="toc" aria-label="Issues">${a.topics.map(t => `<a href="${href("A", "topic", t.key)}">${esc(t.title)}<span>${t.cases.length}</span></a>`).join("")}</nav>
       ${a.topics.map(t => `<section class="issue" id="i-${t.key}">
@@ -903,7 +905,7 @@ function renderAS(s) {
     const a = s.kind === "area" ? AREA[s.id] : AREA[TOPIC[s.id].area];
     const sc = SECTOR_SCOPE[a.sector];
     body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L)}">← All areas</a></nav>
-      <header class="area-head"><p class="eyebrow">${L === "A3" ? sc.jur : sc.title}</p><h1>${areaTitle(a)}</h1><p class="lede">${esc(a.intro)}</p>
+      <header class="area-head"><p class="eyebrow">${L === "A3" ? sc.jur : sc.title}</p><h1>${areaTitle(a)}</h1><p class="lede">${esc(widow(a.intro))}</p>
       ${L === "A1" ? scopeHead(a) : strip(a)}</header>
       ${L === "A3" && a.countries.length > 1 ? matrix(a, L) : ""}
       ${L === "A1" ? "" : `<nav class="toc" aria-label="Issues">${a.topics.map(t => `<a href="${href(L, "topic", t.key)}">${esc(t.title)}<span>${t.cases.length}</span></a>`).join("")}</nav>`}
