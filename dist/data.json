@@ -1362,6 +1362,19 @@
      "url": "https://web.arbeitsagentur.de/bildung/uebergangszeit/freiwilliger-wehrdienst",
      "site": "web.arbeitsagentur.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "einer anschließenden Dienstzeit von 1 bis 17 Monaten"
+    },
+    {
+     "lang": "English",
+     "text": "a further 1 to 17 months of service"
+    }
+   ],
+   "lawMarks": [
+    "six to eleven months"
    ]
   },
   "wehrdienst-ba-national-overview-duration": {
@@ -1395,6 +1408,19 @@
      "url": "https://www.arbeitsagentur.de/bildung/uebergangszeit/uebergangszeit-in-deutschland",
      "site": "arbeitsagentur.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "zwischen 7 und 23 Monaten"
+    },
+    {
+     "lang": "English",
+     "text": "between 7 and 23 months"
+    }
+   ],
+   "lawMarks": [
+    "six to eleven months"
    ]
   },
   "wehrdienst-ba-kassel-duration": {
@@ -1428,6 +1454,19 @@
      "url": "https://www.arbeitsagentur.de/vor-ort/kassel/ausbildung-oder-studium/ueberbrueckung",
      "site": "arbeitsagentur.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "zwischen sieben bis 23 Monaten"
+    },
+    {
+     "lang": "English",
+     "text": "between seven and 23 months"
+    }
+   ],
+   "lawMarks": [
+    "six to eleven months"
    ]
   },
   "wehrdienst-drv-duration": {
@@ -1461,6 +1500,19 @@
      "url": "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Azubis-Studierende-und-Berufseinsteiger/Bundeswehr-und-Freiwilligendienst/bundeswehr-und-freiwilligendienst_node",
      "site": "deutsche-rentenversicherung.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "bis zu 23 Monate"
+    },
+    {
+     "lang": "English",
+     "text": "up to 23 months"
+    }
+   ],
+   "lawMarks": [
+    "six to eleven months"
    ]
   },
   "wehrdienst-ba-recklinghausen-duration-followup": {
@@ -1494,6 +1546,19 @@
      "url": "https://www.arbeitsagentur.de/vor-ort/recklinghausen/biz-recklinghausen/ausbildung-und-studium/freiwilligendienst/deutschland",
      "site": "arbeitsagentur.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "zwischen 7 und 23 Monate"
+    },
+    {
+     "lang": "English",
+     "text": "between 7 and 23 months"
+    }
+   ],
+   "lawMarks": [
+    "six to eleven months"
    ]
   },
   "wehrdienst-bmg-objection-salz": {
@@ -1527,6 +1592,19 @@
      "url": "https://www.salzgitter.de/rathaus/fachdienste/ordnung/buergercenter/datenuebermittlung-wehrverwaltung.php",
      "site": "salzgitter.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Die Datenübermittlung unterbleibt jedoch, wenn die Betroffenen ihr nach Paragraph 36 Absatz 2 Bundesmeldegesetz (BMG) widersprochen haben."
+    },
+    {
+     "lang": "English",
+     "text": "the data transfer does not take place if the people concerned have objected under section 36(2) of the Federal Registration Act (BMG)"
+    }
+   ],
+   "lawMarks": [
+    "former military-information opt-out is repealed"
    ]
   },
   "wehrdienst-bmg-objection-jest": {
@@ -1560,6 +1638,19 @@
      "url": "https://portal.jesteburg.de/dienstleistungen/-/egov-bis-detail/dienstleistung/1530/show",
      "site": "portal.jesteburg.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "das Bundesamt für das Personalmanagement in der Bundeswehr im Zusammenhang mit der Übersendung von Informationsmaterial"
+    },
+    {
+     "lang": "English",
+     "text": "the Federal Office of Bundeswehr Personnel Management in connection with sending information material"
+    }
+   ],
+   "lawMarks": [
+    "former military-information opt-out is repealed"
    ]
   },
   "wehrdienst-jesteburg-linked-form": {
@@ -1593,6 +1684,19 @@
      "url": "https://www.jesteburg.de/medien/dokumente/wiederspruch_bundesmeldegesetz.pdf?20170314143112",
      "site": "jesteburg.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Widerspruch gegen die Übermittlung von Daten an das Bundesamt für Wehrpflicht"
+    },
+    {
+     "lang": "English",
+     "text": "Objection to the transfer of data to the Federal Office for Conscription"
+    }
+   ],
+   "lawMarks": [
+    "former military-information opt-out is repealed"
    ]
   },
   "wehrdienst-bmg-objection-isen": {
@@ -1626,6 +1730,19 @@
      "url": "https://openrathaus.isenbuettel.de/dienstleistungen/-/egov-bis-detail/dienstleistung/1032/show",
      "site": "openrathaus.isenbuettel.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "das Bundesamt für das Personalmanagement in der Bundeswehr im Zusammenhang mit der Übersendung von Informationsmaterial"
+    },
+    {
+     "lang": "English",
+     "text": "the Federal Office of Bundeswehr Personnel Management in connection with sending information material"
+    }
+   ],
+   "lawMarks": [
+    "former military-information opt-out is repealed"
    ]
   },
   "wehrdienst-bmg-objection-clau": {
@@ -1659,6 +1776,19 @@
      "url": "https://service.clausthal-zellerfeld.de/dienstleistungen/-/egov-bis-detail/dienstleistung/1241/show",
      "site": "service.clausthal-zellerfeld.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "das Bundesamt für das Personalmanagement in der Bundeswehr im Zusammenhang mit der Übersendung von Informationsmaterial"
+    },
+    {
+     "lang": "English",
+     "text": "the Federal Office of Bundeswehr Personnel Management in connection with sending information material"
+    }
+   ],
+   "lawMarks": [
+    "former military-information opt-out is repealed"
    ]
   },
   "wehrdienst-bmg-objection-uelsen": {
@@ -1692,6 +1822,19 @@
      "url": "https://openrathaus.uelsen.de/dienstleistungen/-/egov-bis-detail/dienstleistung/1580/show",
      "site": "openrathaus.uelsen.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "das Bundesamt für das Personalmanagement in der Bundeswehr im Zusammenhang mit der Übersendung von Informationsmaterial"
+    },
+    {
+     "lang": "English",
+     "text": "the Federal Office of Bundeswehr Personnel Management in connection with sending information material"
+    }
+   ],
+   "lawMarks": [
+    "former military-information opt-out is repealed"
    ]
   },
   "wehrdienst-bmg-objection-sg-ilmenau": {
@@ -1725,6 +1868,19 @@
      "url": "https://www.samtgemeinde-ilmenau.de/home/buergerservice/bleiben-sie-informiert/zustaendigkeitsfinder.aspx/oeid-9423049/anliegenid-8665897/",
      "site": "samtgemeinde-ilmenau.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "das Bundesamt für das Personalmanagement in der Bundeswehr im Zusammenhang mit der Übersendung von Informationsmaterial"
+    },
+    {
+     "lang": "English",
+     "text": "the Federal Office of Bundeswehr Personnel Management in connection with sending information material"
+    }
+   ],
+   "lawMarks": [
+    "former military-information opt-out is repealed"
    ]
   },
   "wehrdienst-bmg-objection-oelde-followup": {
@@ -1758,6 +1914,19 @@
      "url": "https://serviceportal.oelde.de/detail/-/vr-bis-detail/dienstleistung/656/show",
      "site": "serviceportal.oelde.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "das Bundesamt für das Personalmanagement in der Bundeswehr im Zusammenhang mit der Übersendung von Informationsmaterial"
+    },
+    {
+     "lang": "English",
+     "text": "the Federal Office of Bundeswehr Personnel Management in connection with sending information material"
+    }
+   ],
+   "lawMarks": [
+    "former military-information opt-out is repealed"
    ]
   },
   "wehrdienst-bmg-objection-herzogenrath-followup": {
@@ -1791,6 +1960,19 @@
      "url": "https://service.herzogenrath.de/detail/-/vr-bis-detail/dienstleistung/78981/show",
      "site": "service.herzogenrath.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Bei einem Widerspruch gemäß § 36 Absatz 2 Satz 1 BMG werden die Daten nicht übermittelt."
+    },
+    {
+     "lang": "English",
+     "text": "If an objection is made under section 36(2), first sentence, BMG, the data are not transferred."
+    }
+   ],
+   "lawMarks": [
+    "former military-information opt-out is repealed"
    ]
   },
   "wehrdienst-bmg-objection-juechen-followup": {
@@ -1824,6 +2006,19 @@
      "url": "https://juechen.kommunalportal.nrw/detail/-/vr-bis-detail/dienstleistung/17565/show",
      "site": "juechen.kommunalportal.nrw"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Bei einem Widerspruch gemäß § 36 Absatz 2 Satz 1 BMG werden die Daten nicht übermittelt."
+    },
+    {
+     "lang": "English",
+     "text": "If an objection is made under section 36(2), first sentence, BMG, the data are not transferred."
+    }
+   ],
+   "lawMarks": [
+    "former military-information opt-out is repealed"
    ]
   },
   "wehrdienst-ni-mun-01": {
@@ -1857,6 +2052,19 @@
      "url": "https://www.braunschweig.de/vv/produkte/II/32/32_4/32_41/wehrerfassung.php",
      "site": "braunschweig.de/vv"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Sie können dieser Datenübermittlung mündlich oder online widersprechen."
+    },
+    {
+     "lang": "English",
+     "text": "You can object to this data transfer orally or online."
+    }
+   ],
+   "lawMarks": [
+    "former military-information opt-out is repealed"
    ]
   },
   "wehrdienst-hessen-travel-permission": {
@@ -1890,6 +2098,19 @@
      "url": "https://verwaltungsportal.hessen.de/leistung?leistung_id=B100019_590841",
      "site": "verwaltungsportal.hessen.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Der Antrag muss rechtzeitig vor der Ausreise aus Deutschland gestellt werden"
+    },
+    {
+     "lang": "English",
+     "text": "The application must be made in good time before departure from Germany."
+    }
+   ],
+   "lawMarks": [
+    "general exemption removes individual applications and permission"
    ]
   },
   "wehrdienst-unit122-probation": {
@@ -1923,6 +2144,19 @@
      "url": "https://www.bundeswehr.de/de/organisation/heer/struktur/10-panzerdivision/panzerbrigade-45/panzergrenadierbataillon-122/panzergrenadierbataillon-122-basisausbildung",
      "site": "bundeswehr.de/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "eine Kündigungsfrist von vier Wochen einzuhalten"
+    },
+    {
+     "lang": "English",
+     "text": "a notice period of four weeks must be observed"
+    }
+   ],
+   "lawMarks": [
+    "This request period does not apply in month six"
    ]
   },
   "wehrdienst-bw-hub-truck-licence": {
@@ -1956,6 +2190,19 @@
      "url": "https://www.bundeswehr.de/de/menschen-karrieren/neuer-wehrdienst",
      "site": "bundeswehr.de/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "nicht mehr als ein Jahr nach dem Dienstzeitende"
+    },
+    {
+     "lang": "English",
+     "text": "no more than one year after the end of service"
+    }
+   ],
+   "lawMarks": [
+    "up to 36 months after service"
    ]
   },
   "wehrdienst-fwd-flyer-discharge-money": {
@@ -1989,6 +2236,19 @@
      "url": "https://www.bundeswehrkarriere.de/downloads/freiwilliger-wehrdienst/2394",
      "site": "bundeswehrkarriere.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ab 6 Monaten Dienstzeit"
+    },
+    {
+     "lang": "English",
+     "text": "from 6 months of service"
+    }
+   ],
+   "lawMarks": [
+    "more than six months of service"
    ]
   },
   "bafoeg-baf-01-02": {
@@ -2022,6 +2282,19 @@
      "url": "https://www.studierendenwerke.de/fileadmin/user_upload/FAQ_BAfoeG_01-2026.pdf#page=1",
      "site": "studierendenwerke.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "das 44. Lebensjahr noch nicht vollendet"
+    },
+    {
+     "lang": "English",
+     "text": "must not yet have turned 44"
+    }
+   ],
+   "lawMarks": [
+    "before 45"
    ]
   },
   "bafoeg-baf-01-01": {
@@ -2055,6 +2328,19 @@
      "url": "https://www.chancenvielfalt.uni-hannover.de/familienservice/studieren-mit-kind",
      "site": "chancenvielfalt.uni-hannover.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "30, bei Masterstudiengängen bei 35 Jahren"
+    },
+    {
+     "lang": "English",
+     "text": "30, or 35 for Master's programmes"
+    }
+   ],
+   "lawMarks": [
+    "before 45"
    ]
   },
   "bafoeg-baf-01-03": {
@@ -2088,6 +2374,19 @@
      "url": "https://palucca.eu/service/finanzierung-und-stipendien/bafoeg",
      "site": "palucca.eu"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "das 30. Lebensjahr noch nicht beendet"
+    },
+    {
+     "lang": "English",
+     "text": "not yet reached age 30"
+    }
+   ],
+   "lawMarks": [
+    "before 45"
    ]
   },
   "bafoeg-baf-01-04": {
@@ -2121,6 +2420,19 @@
      "url": "https://www.studierendenwerk-kassel.de/geld/bafoeg-allgemein",
      "site": "studierendenwerk-kassel.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "35 Jahren"
+    },
+    {
+     "lang": "English",
+     "text": "35"
+    }
+   ],
+   "lawMarks": [
+    "before 45"
    ]
   },
   "bafoeg-baf-01-05": {
@@ -2154,6 +2466,19 @@
      "url": "https://www.hochschulkompass.de/studium/studienbeitrag-studienfinanzierung/bafoeg.html",
      "site": "hochschulkompass.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "bei weiterführenden Studiengängen liegt die Altersgrenze bei 35 Jahren"
+    },
+    {
+     "lang": "English",
+     "text": "for postgraduate programmes the age limit is 35"
+    }
+   ],
+   "lawMarks": [
+    "before 45"
    ]
   },
   "bafoeg-baf-01-06": {
@@ -2187,6 +2512,19 @@
      "url": "https://www.uni-goettingen.de/de/document/download/009e39d094403c0f154fb2bbd7673659.pdf/Broschuere_PhilFak_2023_web.pdf#page=21",
      "site": "uni-goettingen.de/de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Altersgrenze von 35 Jahren"
+    },
+    {
+     "lang": "English",
+     "text": "age limit for starting Master's programmes is 35"
+    }
+   ],
+   "lawMarks": [
+    "before 45"
    ]
   },
   "bafoeg-be-baf-01": {
@@ -2220,6 +2558,19 @@
      "url": "https://serviceportal.rietberg.de/details/-/vr-bis-detail/dienstleistung/564105/show",
      "site": "serviceportal.rietberg.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "30 Jahre; im Master 35 Jahre"
+    },
+    {
+     "lang": "English",
+     "text": "30 years; 35 for a Master's"
+    }
+   ],
+   "lawMarks": [
+    "before 45"
    ]
   },
   "bafoeg-baf-02-02": {
@@ -2253,6 +2604,19 @@
      "url": "https://www.studierendenwerke.de/fileadmin/user_upload/FAQ_BAfoeG_01-2026.pdf#page=1",
      "site": "studierendenwerke.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "spätestens bis zum Beginn des vierten Fachsemesters"
+    },
+    {
+     "lang": "English",
+     "text": "no later than the start of the fourth subject semester"
+    }
+   ],
+   "lawMarks": [
+    "an established important reason can suffice before the fifth subject semester begins"
    ]
   },
   "bafoeg-baf-02-05": {
@@ -2286,6 +2650,19 @@
      "url": "https://www.uni-saarland.de/fileadmin/upload/studieren/finanzieren/flyer/dsw_bafoeg.pdf#page=2",
      "site": "uni-saarland.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "spätestens bis zum Beginn des vierten Semesters"
+    },
+    {
+     "lang": "English",
+     "text": "no later than the start of the fourth semester"
+    }
+   ],
+   "lawMarks": [
+    "an established important reason can suffice before the fifth subject semester begins"
    ]
   },
   "bafoeg-baf-02-01": {
@@ -2319,6 +2696,19 @@
      "url": "https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99022001017003/herausgeber/BB-107771979/region/120000000000",
      "site": "verwaltung.bund.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ab dem 4. Fachsemester"
+    },
+    {
+     "lang": "English",
+     "text": "from the fourth subject semester"
+    }
+   ],
+   "lawMarks": [
+    "an established important reason can suffice before the fifth subject semester begins"
    ]
   },
   "bafoeg-baf-02-04": {
@@ -2352,6 +2742,19 @@
      "url": "https://tu-dresden.de/studium/vor-dem-studium/studienangebot/sins/sins_studiengang_faq_general",
      "site": "tu-dresden.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "nach Beginn des vierten Fachsemester"
+    },
+    {
+     "lang": "English",
+     "text": "after the start of the fourth subject semester"
+    }
+   ],
+   "lawMarks": [
+    "an established important reason can suffice before the fifth subject semester begins"
    ]
   },
   "bafoeg-baf-02-03": {
@@ -2385,6 +2788,27 @@
      "url": "https://www.uni-muenster.de/FB10/Studium/studienhinweise/bafoeg.shtml",
      "site": "uni-muenster.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "nur bis zum Ende des zweiten Semesters"
+    },
+    {
+     "lang": "German",
+     "text": "spätestens bis zum Ende des zweiten Semesters passieren (und keinen Tag später)"
+    },
+    {
+     "lang": "English",
+     "text": "only until the end of the second semester"
+    },
+    {
+     "lang": "English",
+     "text": "no later than the end of the second semester (and not a day later)"
+    }
+   ],
+   "lawMarks": [
+    "an established important reason can suffice before the fifth subject semester begins"
    ]
   },
   "bafoeg-baf-12-01": {
@@ -2418,6 +2842,19 @@
      "url": "https://www.uni-saarland.de/fileadmin/upload/studieren/finanzieren/flyer/dsw_bafoeg.pdf#page=1",
      "site": "uni-saarland.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "nur gefördert, wenn der Wechsel aus „unabweisbarem Grund“"
+    },
+    {
+     "lang": "English",
+     "text": "funded only if the change is compelled by an ‘unavoidable reason’"
+    }
+   ],
+   "lawMarks": [
+    "A further undergraduate change can qualify for an important reason before the applicable semester cutoff"
    ]
   },
   "bafoeg-baf-16-01": {
@@ -2451,6 +2888,19 @@
      "url": "https://www.studieren-in-niedersachsen.de/rund-ums-studium/studium-in-allen-lebenslagen/fach-orts-und-hochschulwechsel/wechsel-mit-bafoeg.html",
      "site": "studieren-in-niedersachsen.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "werden die bisher studierten Semester auf die Förderungshöchstdauer des neuen Studiengangs angerechnet"
+    },
+    {
+     "lang": "English",
+     "text": "the semesters already studied count towards the maximum funding period of the new programme"
+    }
+   ],
+   "lawMarks": [
+    "On a first accepted important-reason change, prior semesters do not automatically shorten ordinary grant/loan funding"
    ]
   },
   "bafoeg-be-baf-03": {
@@ -2484,6 +2934,19 @@
      "url": "https://serviceportal.rietberg.de/details/-/vr-bis-detail/dienstleistung/564105/show",
      "site": "serviceportal.rietberg.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ab dem 4. Fachsemester"
+    },
+    {
+     "lang": "English",
+     "text": "from the fourth subject semester"
+    }
+   ],
+   "lawMarks": [
+    "an established important reason can suffice before the fifth subject semester begins"
    ]
   },
   "bafoeg-be-baf-04": {
@@ -2517,6 +2980,19 @@
      "url": "https://www.stw-ma.de/bafoegco/bafoeg-a-z/",
      "site": "stw-ma.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "erst nach dem fünften Fachsemester"
+    },
+    {
+     "lang": "English",
+     "text": "only after the fifth subject semester"
+    }
+   ],
+   "lawMarks": [
+    "Once the fifth semester has begun"
    ]
   },
   "bafoeg-mv-baf-01": {
@@ -2550,6 +3026,19 @@
      "url": "https://www.stw-rw.de/de/studienfinanzierung/faq.html",
      "site": "stw-rw.de/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "bis zum Beginn des 4. Fachsemesters"
+    },
+    {
+     "lang": "English",
+     "text": "before the start of the fourth subject semester"
+    }
+   ],
+   "lawMarks": [
+    "an established important reason can suffice before the fifth subject semester begins"
    ]
   },
   "bafoeg-baf-07-01": {
@@ -2583,6 +3072,19 @@
      "url": "https://www.stw.uni-heidelberg.de/bafoeg/bafoeg/",
      "site": "stw.uni-heidelberg.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "520 Euro pro Monat"
+    },
+    {
+     "lang": "English",
+     "text": "520 euros per month"
+    }
+   ],
+   "lawMarks": [
+    "€603 gross monthly"
    ]
   },
   "bafoeg-baf-07-02": {
@@ -2616,6 +3118,27 @@
      "url": "https://www.stw-bremen.de/de/faqs/faq-bafoeg/",
      "site": "stw-bremen.de/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "6.240 Euro"
+    },
+    {
+     "lang": "German",
+     "text": "520 Euro pro Monat"
+    },
+    {
+     "lang": "English",
+     "text": "6,240 euros"
+    },
+    {
+     "lang": "English",
+     "text": "520 euros per month"
+    }
+   ],
+   "lawMarks": [
+    "€603 gross monthly"
    ]
   },
   "bafoeg-baf-07-03": {
@@ -2649,6 +3172,19 @@
      "url": "https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99022001017003/herausgeber/TH-354440/region/160000000000",
      "site": "verwaltung.bund.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "556 EUR pro Monat"
+    },
+    {
+     "lang": "English",
+     "text": "EUR 556 per month"
+    }
+   ],
+   "lawMarks": [
+    "€603 gross monthly"
    ]
   },
   "bafoeg-baf-07-04": {
@@ -2682,6 +3218,19 @@
      "url": "https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99022001017003/herausgeber/RP-197869914/region/070000000000",
      "site": "verwaltung.bund.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "556 EUR pro Monat"
+    },
+    {
+     "lang": "English",
+     "text": "EUR 556 per month"
+    }
+   ],
+   "lawMarks": [
+    "€603 gross monthly"
    ]
   },
   "bafoeg-baf-07-05": {
@@ -2715,6 +3264,19 @@
      "url": "https://web1.karlsruhe.de/service/Buergerdienste/leistung.php?id=577",
      "site": "web1.karlsruhe.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "556 EUR pro Monat"
+    },
+    {
+     "lang": "English",
+     "text": "EUR 556 per month"
+    }
+   ],
+   "lawMarks": [
+    "€603 gross monthly"
    ]
   },
   "bafoeg-ni-baf-02": {
@@ -2756,6 +3318,19 @@
      "tr": "For a mandatory internship, the BAföG allowance of €353.00 is not granted.\n\nA different allowance applies to half-orphans receiving pension income. The amount of the pension during the approval period must be demonstrated.\n\nChild benefit is generally not counted as income in the BAföG procedure and is therefore not deducted from need.",
      "url": "https://www.studentenwerk-osnabrueck.de/de/finanzen/bafoeg/bafoeg-faq.html"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "6.672,00 € brutto (ab Herbst 2024)"
+    },
+    {
+     "lang": "English",
+     "text": "€6,672.00 gross (from autumn 2024)"
+    }
+   ],
+   "lawMarks": [
+    "€603 gross monthly"
    ]
   },
   "bafoeg-mv-baf-03": {
@@ -2789,6 +3364,19 @@
      "url": "https://www.stw-greifswald.de/finanzierung/informationen-zum-bafoeg",
      "site": "stw-greifswald.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "7.236 € brutto als Einkommen hinzuverdienen, ohne dass eine Anrechnung auf den BAföG-Förderungsbetrag erfolgt"
+    },
+    {
+     "lang": "English",
+     "text": "€7,236 gross without it being counted against the BAföG award"
+    }
+   ],
+   "lawMarks": [
+    "The employee gross threshold therefore cannot be applied universally to self-employed students"
    ]
   },
   "bafoeg-baf-11-01": {
@@ -2822,6 +3410,19 @@
      "url": "https://www.th-koeln.de/studium/faq_6426.php",
      "site": "th-koeln.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "5.200 Euro"
+    },
+    {
+     "lang": "English",
+     "text": "5,200 euros"
+    }
+   ],
+   "lawMarks": [
+    "€15,000, or €45,000 from age 30 at application"
    ]
   },
   "bafoeg-baf-11-02": {
@@ -2855,6 +3456,19 @@
      "url": "https://www.fu-berlin.de/sites/deutschlandstipendium/faq/index.html",
      "site": "fu-berlin.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "5.200 Euro"
+    },
+    {
+     "lang": "English",
+     "text": "5,200 euros"
+    }
+   ],
+   "lawMarks": [
+    "€15,000, or €45,000 from age 30 at application"
    ]
   },
   "bafoeg-baf-11-03": {
@@ -2888,6 +3502,19 @@
      "url": "https://www.tuhh.de/tuhh/studium/im-studium/rund-um-den-studierendenstatus/finanzierung/stipendien/deutschlandstipendium",
      "site": "tuhh.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "5.200 Euro"
+    },
+    {
+     "lang": "English",
+     "text": "5,200 euros"
+    }
+   ],
+   "lawMarks": [
+    "€15,000, or €45,000 from age 30 at application"
    ]
   },
   "bafoeg-baf-11-04": {
@@ -2921,6 +3548,19 @@
      "url": "https://www.hs-mannheim.de/die-hochschule/technische-hochschule-mannheim/familienfreundliche-hochschule/studieren-mit-kind/finanzielles.html",
      "site": "hs-mannheim.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "7.500€ (eigener Freibetrag)"
+    },
+    {
+     "lang": "English",
+     "text": "€7,500 (own allowance)"
+    }
+   ],
+   "lawMarks": [
+    "€15,000, or €45,000 from age 30 at application"
    ]
   },
   "bafoeg-baf-05-01": {
@@ -2954,6 +3594,19 @@
      "url": "https://www.bafoeg.uni-mainz.de/files/2024/08/Flyer-BAfoeG-.pdf#page=7",
      "site": "bafoeg.uni-mainz.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "bei Studienbeginn"
+    },
+    {
+     "lang": "English",
+     "text": "if studies begin"
+    }
+   ],
+   "lawMarks": [
+    "Your age on the day you apply"
    ]
   },
   "bafoeg-baf-17-01": {
@@ -2987,6 +3640,19 @@
      "url": "https://www.uni-goettingen.de/de/document/download/009e39d094403c0f154fb2bbd7673659.pdf/Broschuere_PhilFak_2023_web.pdf#page=21",
      "site": "uni-goettingen.de/de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Vermögens der Eltern"
+    },
+    {
+     "lang": "English",
+     "text": "and assets"
+    }
+   ],
+   "lawMarks": [
+    "Parents’ own assets are not counted as applicant assets"
    ]
   },
   "bafoeg-baf-06-01": {
@@ -3020,6 +3686,19 @@
      "url": "https://www.uni-saarland.de/studieren/finanzierung/bafoeg.html",
      "site": "uni-saarland.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Einkommens- und Vermögensverhältnisse vom vorletzten Kalenderjahr"
+    },
+    {
+     "lang": "English",
+     "text": "income and asset situation in the calendar year before last"
+    }
+   ],
+   "lawMarks": [
+    "Applicant income normally comes from the award period and assets from the application date"
    ]
   },
   "bafoeg-be-baf-02": {
@@ -3053,6 +3732,19 @@
      "url": "https://serviceportal.rietberg.de/details/-/vr-bis-detail/dienstleistung/564105/show",
      "site": "serviceportal.rietberg.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "8.200 EUR"
+    },
+    {
+     "lang": "English",
+     "text": "EUR 8,200"
+    }
+   ],
+   "lawMarks": [
+    "€15,000, or €45,000 from age 30 at application"
    ]
   },
   "bafoeg-baf-09-01": {
@@ -3100,6 +3792,19 @@
      "tr": "BAföG ties eligibility for assistance partly to nationality. Educational assistance is provided under §§ 8 and 61 BAföG (provided the other BAföG conditions¹ are also met):\n\n¹ For example, age limit, training eligible for funding.",
      "url": "https://www.stwhh.de/fileadmin//user_upload/Finanzen/__Downloads/BAfoeG/Infoblaetter/Infoblatt_Staatsangehoerigkeit_8_61_BAfoeG.pdf#page=1"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Mindestwochenarbeitszeit von 12 Stunden im Monatsdurchschnitt"
+    },
+    {
+     "lang": "English",
+     "text": "a minimum of 12 working hours per week averaged over the month"
+    }
+   ],
+   "lawMarks": [
+    "Twelve weekly hours are a regular indicator, not an absolute minimum"
    ]
   },
   "bafoeg-baf-09-02": {
@@ -3133,6 +3838,19 @@
      "url": "https://www.studentenwerk-leipzig.de/bafoeg-finanzierung/bafoeg-fuer-internationale-studierende/",
      "site": "studentenwerk-leipzig.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "mindestens zwölf Wochenstunden im Durchschnitt eines Monats"
+    },
+    {
+     "lang": "English",
+     "text": "at least twelve hours per week averaged over a month"
+    }
+   ],
+   "lawMarks": [
+    "Twelve weekly hours are a regular indicator, not an absolute minimum"
    ]
   },
   "bafoeg-baf-15-01": {
@@ -3166,6 +3884,19 @@
      "url": "https://www.studentenwerk-leipzig.de/bafoeg-finanzierung/bafoeg-fuer-internationale-studierende/",
      "site": "studentenwerk-leipzig.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "bereits mindestens zehn Wochen in Deutschland erwerbstätig gewesen sein"
+    },
+    {
+     "lang": "English",
+     "text": "must already have worked in Germany for at least ten weeks"
+    }
+   ],
+   "lawMarks": [
+    "there is no categorical ten-week waiting rule"
    ]
   },
   "bafoeg-baf-15-02": {
@@ -3213,6 +3944,19 @@
      "tr": "BAföG ties eligibility for assistance partly to nationality. Educational assistance is provided under §§ 8 and 61 BAföG (provided the other BAföG conditions¹ are also met):\n\n¹ For example, age limit, training eligible for funding.",
      "url": "https://www.stwhh.de/fileadmin//user_upload/Finanzen/__Downloads/BAfoeG/Infoblaetter/Infoblatt_Staatsangehoerigkeit_8_61_BAfoeG.pdf#page=1"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "seit mindestens 10 Wochen"
+    },
+    {
+     "lang": "English",
+     "text": "for at least 10 weeks"
+    }
+   ],
+   "lawMarks": [
+    "there is no categorical ten-week waiting rule"
    ]
   },
   "bafoeg-baf-08-01": {
@@ -3246,6 +3990,19 @@
      "url": "https://www.studentenwerk-leipzig.de/bafoeg-finanzierung/bafoeg-fuer-internationale-studierende/",
      "site": "studentenwerk-leipzig.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "muss während des gesamten Studiums weiterhin in diesem Umfang gearbeitet werden"
+    },
+    {
+     "lang": "English",
+     "text": "must continue working to this extent throughout their studies"
+    }
+   ],
+   "lawMarks": [
+    "involuntary unemployment confirmed by the employment agency can preserve worker status for six months"
    ]
   },
   "bafoeg-baf-10-01": {
@@ -3279,6 +4036,19 @@
      "url": "https://www.studierendenwerke.de/themen/studienfinanzierung/bafoeg/voraussetzungen-fuer-bafoeg",
      "site": "studierendenwerke.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "keine weitere BAföG-Förderung mehr möglich"
+    },
+    {
+     "lang": "English",
+     "text": "no further BAföG funding is possible"
+    }
+   ],
+   "lawMarks": [
+    "One further qualification can qualify under narrow statutory exceptions"
    ]
   },
   "bafoeg-baf-10-02": {
@@ -3312,6 +4082,19 @@
      "url": "https://www.studierendenwerke.de/themen/finanzierungsmoeglichkeiten/tipps-fuer-beruflich-qualifizierte",
      "site": "studierendenwerke.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "kein Anspruch auf BAföG mehr"
+    },
+    {
+     "lang": "English",
+     "text": "no longer any entitlement to BAföG"
+    }
+   ],
+   "lawMarks": [
+    "One further qualification can qualify under narrow statutory exceptions"
    ]
   },
   "bafoeg-baf-03-01": {
@@ -3345,6 +4128,19 @@
      "url": "https://www.studentenwerk-magdeburg.de/bafoeg/bafoeg-antrag/abc/",
      "site": "studentenwerk-magdeburg.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "endet in dem Monat der letzten Prüfungsleistung"
+    },
+    {
+     "lang": "English",
+     "text": "ends in the month of the last examination"
+    }
+   ],
+   "lawMarks": [
+    "University training ends in the month successful completion is first notified"
    ]
   },
   "bafoeg-baf-03-02": {
@@ -3386,6 +4182,27 @@
      "tr": "If this ‘late’ final examination means that the (target) deadline for entering marks or issuing the Bachelor's certificate (for transfer to the Master's) cannot be met, special arrangements may be possible. If you have difficulty meeting the deadline, please consult student advice in good time (!) beforehand and also inform the examinations office! (You can find the deadlines on the Mathematics and Computer Science examinations office's website.) Many issues can then be resolved before problems of one kind or another arise. However, if the Bachelor's thesis is the final examination requirement, its submission deadline, for which a fixed completion period is provided (and which therefore depends on the date the topic is assigned on the registration form), must from the outset fall in August or later.",
      "url": "https://www.uni-muenster.de/FB10/Studium/studienhinweise/bafoeg.shtml"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "formell dann abgeschlossen, wenn man die letzte Prüfungsleistung abgelegt hat"
+    },
+    {
+     "lang": "German",
+     "text": "Dieses Datum zählt als Ende des Bachelorstudiums für die Bewilligung von BAföG im Übergangszeitraum"
+    },
+    {
+     "lang": "English",
+     "text": "formally completed when the last examination requirement has been fulfilled"
+    },
+    {
+     "lang": "English",
+     "text": "This date counts as the end of the Bachelor's for BAföG approval during the transition period"
+    }
+   ],
+   "lawMarks": [
+    "University training ends in the month successful completion is first notified"
    ]
   },
   "bafoeg-baf-13-01": {
@@ -3419,6 +4236,19 @@
      "url": "https://www.studierendenwerk-kassel.de/studieren-mit-kind/finanzieren/kinder-und-bafoeg",
      "site": "studierendenwerk-kassel.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "eines Kindes bis zu zehn Jahren überschritten worden ist"
+    },
+    {
+     "lang": "English",
+     "text": "the care and upbringing of a child up to ten years old."
+    }
+   ],
+   "lawMarks": [
+    "up to 14"
    ]
   },
   "bafoeg-baf-14-01": {
@@ -3452,6 +4282,28 @@
      "url": "https://www.hs-mannheim.de/die-hochschule/technische-hochschule-mannheim/familienfreundliche-hochschule/studieren-mit-kind/finanzielles.html",
      "site": "hs-mannheim.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "unter 10-jährigen"
+    },
+    {
+     "lang": "German",
+     "text": "130€"
+    },
+    {
+     "lang": "English",
+     "text": "children under 10"
+    },
+    {
+     "lang": "English",
+     "text": "€130"
+    }
+   ],
+   "lawMarks": [
+    "under 14",
+    "€160"
    ]
   },
   "bafoeg-baf-04-01": {
@@ -3485,6 +4337,19 @@
      "url": "https://www.studierendenwerke.de/fileadmin/user_upload/FAQ_BAfoeG_01-2026.pdf#page=2",
      "site": "studierendenwerke.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "oder des Ehegatten/Lebenspartners"
+    },
+    {
+     "lang": "English",
+     "text": "or a spouse/civil partner"
+    }
+   ],
+   "lawMarks": [
+    "does not itself remove income of a spouse or registered partner who is not permanently separated"
    ]
   },
   "bafoeg-baf-04-02": {
@@ -3518,6 +4383,19 @@
      "url": "https://www.studierendenwerke.de/themen/studienfinanzierung/bafoeg/voraussetzungen-fuer-bafoeg",
      "site": "studierendenwerke.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "oder der Ehegatten/Lebenspartner"
+    },
+    {
+     "lang": "English",
+     "text": "or spouses/civil partners"
+    }
+   ],
+   "lawMarks": [
+    "does not itself remove income of a spouse or registered partner who is not permanently separated"
    ]
   },
   "bafoeg-mv-baf-02": {
@@ -3551,6 +4429,19 @@
      "url": "https://www.stw-rw.de/de/studienfinanzierung/faq.html",
      "site": "stw-rw.de/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "934,00 Euro monatlich"
+    },
+    {
+     "lang": "English",
+     "text": "€934.00 per month"
+    }
+   ],
+   "lawMarks": [
+    "€992 before means testing"
    ]
   },
   "bafoeg-st-baf-01": {
@@ -3584,6 +4475,19 @@
      "url": "https://studentenwerk-halle.de/bafoeg-studienfinanzierung/bafoeg/faqs",
      "site": "studentenwerk-halle.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "bis zu 189,00 Euro je Monat"
+    },
+    {
+     "lang": "English",
+     "text": "up to €189.00 per month"
+    }
+   ],
+   "lawMarks": [
+    "€185 plus €48"
    ]
   },
   "bafoeg-ni-baf-03": {
@@ -3617,6 +4521,19 @@
      "url": "https://www.studentenwerk-hannover.de/geld/alles-zum-bafoeg/bafoeg-faq",
      "site": "studentenwerk-hannover.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "mindestens sechs Monate vor Beginn des Auslandsaufenthalts gestellt werden müssen"
+    },
+    {
+     "lang": "English",
+     "text": "must be submitted at least six months before the stay abroad begins"
+    }
+   ],
+   "lawMarks": [
+    "no general six-month advance-filing cutoff"
    ]
   },
   "jobcenter-tk1": {
@@ -3650,6 +4567,19 @@
      "url": "https://www.berlin.de/jobcenter-treptow-koepenick/wegweiser/artikel.1532659.php",
      "site": "berlin.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Von Bruttoeinkommen, die zwischen 100 Euro und 1.000 Euro liegen, beläuft sich der Freibetrag auf 20 Prozent."
+    },
+    {
+     "lang": "English",
+     "text": "For gross earnings between 100 and 1,000 euros, the allowance is 20 percent."
+    }
+   ],
+   "lawMarks": [
+    "30% of the gross monthly earnings slice above €520 through €1,000"
    ]
   },
   "jobcenter-rastatt-earnings": {
@@ -3683,6 +4613,19 @@
      "url": "https://www.jobcenter-landkreis-rastatt.de/fragen/wieviel-darf-ich-dazu-verdienen",
      "site": "jobcenter-landkreis-rastatt.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "zwischen 100 und 1.000 Euro bleibt um 20 % anrechnungsfrei"
+    },
+    {
+     "lang": "English",
+     "text": "between 100 and 1,000 euros remain 20% exempt"
+    }
+   ],
+   "lawMarks": [
+    "30% of the gross monthly earnings slice above €520 through €1,000"
    ]
   },
   "jobcenter-st-jc-01": {
@@ -3716,6 +4659,19 @@
      "url": "https://jobcenter.anhalt-bitterfeld.de/de/faq-alg-ii.html",
      "site": "jobcenter.anhalt-bitterfeld.de/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Über 100 Euro monatlich hinausgehendes Bruttoeinkommen bis 1.000 Euro monatlich ist zu 20 Prozent anrechnungsfrei."
+    },
+    {
+     "lang": "English",
+     "text": "Gross monthly earnings above 100 euros and up to 1,000 euros are 20 percent exempt."
+    }
+   ],
+   "lawMarks": [
+    "30% of the gross monthly earnings slice above €520 through €1,000"
    ]
   },
   "jobcenter-ni-jc-01": {
@@ -3749,6 +4705,19 @@
      "url": "https://www.jobcenter-osnabrueck.de/privatpersonen/leistungen-zum-lebensunterhalt/einkommen-und-vermoegen.html",
      "site": "jobcenter-osnabrueck.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Grundfreibetrag von 520 €"
+    },
+    {
+     "lang": "English",
+     "text": "basic allowance of €520"
+    }
+   ],
+   "lawMarks": [
+    "€603 in 2026"
    ]
   },
   "jobcenter-be-c1": {
@@ -3782,6 +4751,19 @@
      "url": "https://www.berlin.de/jobcenter-spandau/geldleistungen/artikel.1257147.php",
      "site": "berlin.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "mit dem Tag der Antragstellung"
+    },
+    {
+     "lang": "English",
+     "text": "on the day the application is made"
+    }
+   ],
+   "lawMarks": [
+    "from the first of the application month"
    ]
   },
   "jobcenter-m-c1": {
@@ -3815,6 +4797,19 @@
      "url": "https://jobcenter-muenchen.de/information-vor-antragstellung/",
      "site": "jobcenter-muenchen.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Im ersten Jahr des Grundsicherungsbezug dürfen Sie 40.000 € behalten"
+    },
+    {
+     "lang": "English",
+     "text": "In the first year of receiving basic income support, you may keep €40,000"
+    }
+   ],
+   "lawMarks": [
+    "ordinary allowance against countable assets is €10,000"
    ]
   },
   "jobcenter-mainz-savings": {
@@ -3848,6 +4843,19 @@
      "url": "https://www.jobcenter-mainz.de/geld-und-leistung/anspruchsvoraussetzungen-und-antragstellungen/einkommen-und-vermoegen/",
      "site": "jobcenter-mainz.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "für die erste in der Bedarfsgemeinschaft (BG) lebende Person 40.000 €"
+    },
+    {
+     "lang": "English",
+     "text": "€40,000 for the first person in the benefit unit (BG)"
+    }
+   ],
+   "lawMarks": [
+    "ordinary allowance against countable assets is €10,000"
    ]
   },
   "jobcenter-ni-jc-02": {
@@ -3881,6 +4889,19 @@
      "url": "https://www.jobcenter-osnabrueck.de/privatpersonen/leistungen-zum-lebensunterhalt/einkommen-und-vermoegen.html",
      "site": "jobcenter-osnabrueck.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Grundfreibetrag in Höhe von 15.000 € für jede in der Bedarfsgemeinschaft lebende Person"
+    },
+    {
+     "lang": "English",
+     "text": "basic allowance of €15,000 for each person living in the benefit unit"
+    }
+   ],
+   "lawMarks": [
+    "ordinary allowance against countable assets is €10,000"
    ]
   },
   "jobcenter-m-c2": {
@@ -3914,6 +4935,19 @@
      "url": "https://jobcenter-muenchen.de/wp-content/uploads/2025/06/JCM_Merkblatt_fuer_Schwangere_06_2025.pdf",
      "site": "jobcenter-muenchen.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "nur bekommen, wenn Sie das erste Mal in eine eigene Wohnung ziehen"
+    },
+    {
+     "lang": "English",
+     "text": "only if you are moving into a home of your own for the first time"
+    }
+   ],
+   "lawMarks": [
+    "can arise after separation even if someone has had a home before"
    ]
   },
   "jobcenter-ni-c1": {
@@ -3947,6 +4981,19 @@
      "url": "https://jobcenter-nienburg.de/wp-content/uploads/2023/10/84_Leistungen_Schwangere.pdf",
      "site": "jobcenter-nienburg.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "nur bekommen, wenn Sie das erste Mal in eine eigene Wohnung ziehen"
+    },
+    {
+     "lang": "English",
+     "text": "only if you are moving into a home of your own for the first time"
+    }
+   ],
+   "lawMarks": [
+    "can arise after separation even if someone has had a home before"
    ]
   },
   "jobcenter-jcx-03": {
@@ -3980,6 +5027,19 @@
      "url": "https://www.johannesberg.de/behoerdenwegweiser/leistungen/detail/131131",
      "site": "johannesberg.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Sie können Ihren Lebensunterhalt momentan und auch in den nächsten 6 Monaten wahrscheinlich nicht finanziell decken."
+    },
+    {
+     "lang": "English",
+     "text": "You cannot financially cover your living costs at present and probably will not be able to do so over the next 6 months either."
+    }
+   ],
+   "lawMarks": [
+    "can qualify even when ordinary living costs are covered, if the particular need cannot be met"
    ]
   },
   "jobcenter-jcx-04": {
@@ -4013,6 +5073,19 @@
      "url": "https://www.bayernportal.de/dokumente/leistung/1781231264220?behoerde=88887100385&gemeinde=6047106975248&plz=80331",
      "site": "bayernportal.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Sie können Ihren Lebensunterhalt momentan und auch in den nächsten 6 Monaten wahrscheinlich nicht finanziell decken."
+    },
+    {
+     "lang": "English",
+     "text": "You cannot financially cover your living costs at present and probably will not be able to do so over the next 6 months either."
+    }
+   ],
+   "lawMarks": [
+    "can qualify even when ordinary living costs are covered, if the particular need cannot be met"
    ]
   },
   "jobcenter-jcx-01": {
@@ -4046,6 +5119,19 @@
      "url": "https://www.chancen-schaffen-im-harz.de/berufliche-integration/informationen-zu-ferienjobs/",
      "site": "chancen-schaffen-im-harz.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "bis zu 2.400 Euro kalenderjährlich"
+    },
+    {
+     "lang": "English",
+     "text": "up to 2,400 euros per calendar year"
+    }
+   ],
+   "lawMarks": [
+    "without a euro ceiling"
    ]
   },
   "jobcenter-jcx-02": {
@@ -4079,6 +5165,19 @@
      "url": "https://www.berlin.de/jobcenter-lichtenberg/geld/leistungen/",
      "site": "berlin.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "bis unter 65 Jahren"
+    },
+    {
+     "lang": "English",
+     "text": "to under 65"
+    }
+   ],
+   "lawMarks": [
+    "66 years and six months"
    ]
   },
   "jobcenter-mv-jc-01": {
@@ -4112,6 +5211,19 @@
      "url": "https://www.schwerin.de/mein-schwerin/leben/gesellschaft-soziales/sozialleistungen/jobcenter/arbeitssuchende/",
      "site": "schwerin.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "monatlich 10% des maßgebenden Regelbedarfs"
+    },
+    {
+     "lang": "English",
+     "text": "monthly at 10% of the applicable standard needs amount"
+    }
+   ],
+   "lawMarks": [
+    "5% of the applicable standard need per month"
    ]
   },
   "jobcenter-st-jc-02": {
@@ -4145,6 +5257,19 @@
      "url": "https://jobcenter.anhalt-bitterfeld.de/de/faq-alg-ii.html",
      "site": "jobcenter.anhalt-bitterfeld.de/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "monatlich bis zu 10 Euro"
+    },
+    {
+     "lang": "English",
+     "text": "up to 10 euros per month"
+    }
+   ],
+   "lawMarks": [
+    "€15 monthly lump sum"
    ]
   },
   "elterngeld-be-elt-01": {
@@ -4178,6 +5303,19 @@
      "url": "https://rp-giessen.hessen.de/versorgung-und-familie/elterngeld/faq-elterngeld",
      "site": "rp-giessen.hessen.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "können nicht mehr geändert werden"
+    },
+    {
+     "lang": "English",
+     "text": "can no longer be changed"
+    }
+   ],
+   "lawMarks": [
+    "Particular hardship can permit a change to an already paid life month"
    ]
   },
   "elterngeld-ni-elt-02": {
@@ -4211,6 +5349,19 @@
      "url": "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Dezernate-und-Fachbereiche-der-LHH/Jugend,-Familie-Sport/Fachbereich-Jugend-und-Familie/Elterngeldstelle/FAQ-H%C3%A4ufig-gestellte-Fragen-zu-Elterngeld-Elternzeit",
      "site": "hannover.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "nur für Monate tun, für die das Elterngeld noch nicht ausgezahlt wurde"
+    },
+    {
+     "lang": "English",
+     "text": "only for months for which parental allowance has not yet been paid"
+    }
+   ],
+   "lawMarks": [
+    "Particular hardship can permit a change to an already paid life month"
    ]
   },
   "elterngeld-be-elt-02": {
@@ -4244,6 +5395,43 @@
      "url": "https://rp-giessen.hessen.de/versorgung-und-familie/elterngeld/faq-elterngeld",
      "site": "rp-giessen.hessen.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "bis zu 6 Wochen"
+    },
+    {
+     "lang": "German",
+     "text": "bis zu 8 Wochen"
+    },
+    {
+     "lang": "German",
+     "text": "bis zu 12 Wochen"
+    },
+    {
+     "lang": "German",
+     "text": "bis zu 16 Wochen"
+    },
+    {
+     "lang": "English",
+     "text": "up to 6 weeks"
+    },
+    {
+     "lang": "English",
+     "text": "up to 8 weeks"
+    },
+    {
+     "lang": "English",
+     "text": "up to 12 weeks"
+    },
+    {
+     "lang": "English",
+     "text": "up to 16 weeks"
+    }
+   ],
+   "lawMarks": [
+    "at least six, eight, twelve or sixteen weeks"
    ]
   },
   "elterngeld-be-elt-03": {
@@ -4277,6 +5465,19 @@
      "url": "https://www.rahden.de/wp-content/uploads/Wirtschaftliche-Hilfen-und-Behoerdengaenge-1.pdf",
      "site": "rahden.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "zwischen 25 und 30 Wochenstunden"
+    },
+    {
+     "lang": "English",
+     "text": "between 25 and 30 hours per week"
+    }
+   ],
+   "lawMarks": [
+    "24–32 weekly hours"
    ]
   },
   "elterngeld-mv-elt-03": {
@@ -4310,6 +5511,36 @@
      "url": "https://www.lagus.mv-regierung.de/Services/Leichte-Sprache/Eltern-Geld",
      "site": "lagus.mv-regierung.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "vier Monate Teil-Zeit"
+    },
+    {
+     "lang": "German",
+     "text": "mindestens 25 Stunden"
+    },
+    {
+     "lang": "German",
+     "text": "nicht mehr als 30 Stunden"
+    },
+    {
+     "lang": "English",
+     "text": "part time for four months"
+    },
+    {
+     "lang": "English",
+     "text": "at least 25 hours"
+    },
+    {
+     "lang": "English",
+     "text": "no more than 30 hours"
+    }
+   ],
+   "lawMarks": [
+    "24–32 weekly hours",
+    "two to four concurrent consecutive life months"
    ]
   },
   "elterngeld-st-elt-02": {
@@ -4343,6 +5574,19 @@
      "url": "https://www.magdeburg.de/loadDocument.phtml?Ext=PDF&FID=37.6484.1",
      "site": "magdeburg.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "vier zusätzliche ElterngeldPlus-Monate"
+    },
+    {
+     "lang": "English",
+     "text": "four additional ElterngeldPlus months"
+    }
+   ],
+   "lawMarks": [
+    "Two qualifying months give two extra months, not four"
    ]
   },
   "elterngeld-be-elt-04": {
@@ -4376,6 +5620,19 @@
      "url": "https://www.rahden.de/wp-content/uploads/Wirtschaftliche-Hilfen-und-Behoerdengaenge-1.pdf",
      "site": "rahden.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "höchstens 30 Stunden in der Woche"
+    },
+    {
+     "lang": "English",
+     "text": "no more than 30 hours per week"
+    }
+   ],
+   "lawMarks": [
+    "no more than 32 weekly hours"
    ]
   },
   "elterngeld-mv-elt-01": {
@@ -4409,6 +5666,19 @@
      "url": "https://www.lagus.mv-regierung.de/Services/Leichte-Sprache/Eltern-Geld",
      "site": "lagus.mv-regierung.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Die Leistung beträgt die Hälfte vom Eltern-Geld."
+    },
+    {
+     "lang": "English",
+     "text": "The benefit is half the parental allowance."
+    }
+   ],
+   "lawMarks": [
+    "Plus is capped at half the hypothetical Basis entitlement without relevant post-birth income"
    ]
   },
   "elterngeld-ni-elt-01": {
@@ -4442,6 +5712,19 @@
      "url": "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Dezernate-und-Fachbereiche-der-LHH/Jugend,-Familie-Sport/Fachbereich-Jugend-und-Familie/Elterngeldstelle/FAQ-H%C3%A4ufig-gestellte-Fragen-zu-Elterngeld-Elternzeit",
      "site": "hannover.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "jeden Monat nur den halben Betrag vom Basiselterngeld"
+    },
+    {
+     "lang": "English",
+     "text": "only half the basic parental allowance amount each month"
+    }
+   ],
+   "lawMarks": [
+    "Plus is capped at half the hypothetical Basis entitlement without relevant post-birth income"
    ]
   },
   "elterngeld-mv-elt-02": {
@@ -4475,6 +5758,19 @@
      "url": "https://www.lagus.mv-regierung.de/serviceassistent/download?id=1682724",
      "site": "lagus.mv-regierung.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "mit keiner anderen volljährigen Person"
+    },
+    {
+     "lang": "English",
+     "text": "do not live with any other adult"
+    }
+   ],
+   "lawMarks": [
+    "can include an adult child for whom Kindergeld or a child allowance is due"
    ]
   },
   "elterngeld-st-elt-01": {
@@ -4508,6 +5804,19 @@
      "url": "https://www.magdeburg.de/loadDocument.phtml?Ext=PDF&FID=37.6484.1",
      "site": "magdeburg.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ersten 14 Lebensmonate"
+    },
+    {
+     "lang": "English",
+     "text": "first 14 months of life"
+    }
+   ],
+   "lawMarks": [
+    "first twelve life months"
    ]
   },
   "elterngeld-st-elt-03": {
@@ -4541,6 +5850,19 @@
      "url": "https://www.magdeburg.de/loadDocument.phtml?Ext=PDF&FID=37.6484.1",
      "site": "magdeburg.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Kalendermonate"
+    },
+    {
+     "lang": "English",
+     "text": "calendar months"
+    }
+   ],
+   "lawMarks": [
+    "The child's life months govern"
    ]
   },
   "missions-visa-four-week-cutoff": {
@@ -4611,6 +5933,24 @@
      "url": "https://kairo.diplo.de/resource/blob/2540462/22ecd9830eebeaef7e6a950b9470502c/231104-leaflet-minors-data.pdf#page=1",
      "site": "kairo.diplo.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "6 Monate bis 4 Wochen"
+    },
+    {
+     "lang": "English",
+     "text": "six months to four weeks"
+    },
+    {
+     "lang": "English",
+     "text": "6 months to 4 weeks"
+    }
+   ],
+   "lawMarks": [
+    "normally at least 15 calendar days beforehand",
+    "justified urgent cases can be lodged later"
    ]
   },
   "missions-visa-filing-window": {
@@ -4669,6 +6009,19 @@
      "url": "https://kuala-lumpur.diplo.de/my-en/service/05-visaeinreise/1677552-1677552",
      "site": "kuala-lumpur.diplo.de/my-en"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "frühestens drei Monate"
+    },
+    {
+     "lang": "English",
+     "text": "three months before"
+    }
+   ],
+   "lawMarks": [
+    "within six months before travel"
    ]
   },
   "missions-working-days": {
@@ -4720,6 +6073,32 @@
      "url": "https://luanda.diplo.de/ao-de/service/visaeinreise/1011064-1011064",
      "site": "luanda.diplo.de/ao-de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "French",
+     "text": "15 jours ouvrables"
+    },
+    {
+     "lang": "English",
+     "text": "15 working days"
+    },
+    {
+     "lang": "English",
+     "text": "60 days"
+    },
+    {
+     "lang": "English",
+     "text": "60 calendar days"
+    },
+    {
+     "lang": "German",
+     "text": "bis zu 60 Kalendertage"
+    }
+   ],
+   "lawMarks": [
+    "15-calendar-day decision period",
+    "subject to lawful extensions"
    ]
   },
   "missions-visa-passport-age-at-expiry": {
@@ -4753,6 +6132,15 @@
      "url": "https://nikosia.diplo.de/cy-en/service/1672100-1672100",
      "site": "nikosia.diplo.de/cy-en"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "at the expiry of the visa"
+    }
+   ],
+   "lawMarks": [
+    "at application and separately at external entry"
    ]
   },
   "missions-visa-insurance-extra-fifteen-days": {
@@ -4810,6 +6198,40 @@
      "url": "https://nikosia.diplo.de/resource/blob/2246064/44e6eddbe99bf2c35ff0a7f01a07b608/merkblatt-nordbuero-tuerkisch-data.pdf#page=2",
      "site": "nikosia.diplo.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "einschließlich einer Zusatzfrist von 15 Tagen"
+    },
+    {
+     "lang": "German",
+     "text": "mindestens um einen Tag überschreiten"
+    },
+    {
+     "lang": "English",
+     "text": "including an additional period of 15 days"
+    },
+    {
+     "lang": "English",
+     "text": "at least one day beyond the period of stay"
+    },
+    {
+     "lang": "English",
+     "text": "exceed the return date for at least one day"
+    },
+    {
+     "lang": "English",
+     "text": "one day beyond the return date"
+    },
+    {
+     "lang": "Turkish",
+     "text": "dönüş tarihinden bir gün fazla olmalıdır"
+    }
+   ],
+   "lawMarks": [
+    "cover the days of your intended stay",
+    "15 extra days of visa validity do not need cover"
    ]
   },
   "missions-missing-support-documents": {
@@ -4843,6 +6265,15 @@
      "url": "https://singapur.diplo.de/resource/blob/2751522/77e19e4c004e7f71bd7ac19da66ae6a5/download-visa-tourist-new-data.pdf#page=1",
      "site": "singapur.diplo.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "Applications with missing documents cannot be accepted."
+    }
+   ],
+   "lawMarks": [
+    "Missing supporting evidence alone does not make an otherwise admissible application unreceivable"
    ]
   },
   "missions-visa-blank-pages": {
@@ -4876,6 +6307,15 @@
      "url": "https://maskat.diplo.de/resource/blob/1667406/74ed4f6a0abc3e9461665cd5fb24e44a/tourist-and-visit-visa-data.pdf#page=1",
      "site": "maskat.diplo.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "at least one free page"
+    }
+   ],
+   "lawMarks": [
+    "at least two blank pages"
    ]
   },
   "missions-passport-validity-recommendation": {
@@ -4909,6 +6349,15 @@
      "url": "https://singapur.diplo.de/sg-en/service/05-visaeinreise/1225482-1225482",
      "site": "singapur.diplo.de/sg-en"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "we recommend traveling with a passport which is valid for at least 3 months"
+    }
+   ],
+   "lawMarks": [
+    "normally requires passport validity for at least three months"
    ]
   },
   "missions-visa-residence-wait": {
@@ -4958,6 +6407,23 @@
      "url": "https://doha.diplo.de/qa-en/service/visa/2741002-2741002",
      "site": "doha.diplo.de/qa-en"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "less than six months"
+    },
+    {
+     "lang": "English",
+     "text": "at least 6 months prior"
+    },
+    {
+     "lang": "English",
+     "text": "at least the past six months"
+    }
+   ],
+   "lawMarks": [
+    "without a fixed six-month residence wait"
    ]
   },
   "missions-automatic-overstay-next-refusal": {
@@ -4991,6 +6457,15 @@
      "url": "https://kampala.diplo.de/ug-en/service/05-visaeinreise/2165192-2165192",
      "site": "kampala.diplo.de/ug-en"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "will automatically be denied your next Schengen visa"
+    }
+   ],
+   "lawMarks": [
+    "Past overstay alone is not a separate automatic-refusal rule"
    ]
   },
   "missions-eu-family-insurance": {
@@ -5049,6 +6524,27 @@
      "tr": "ATTENTION! This category does not apply to visits to German nationals!",
      "url": "https://www.visametric.com/storage/images/pages/files2/646e23f30c860-3-DE-VISIT-visiting-family-members-EU---DEU.pdf#page=2"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "must prove that they are in possession of adequate and valid travel medical insurance"
+    },
+    {
+     "lang": "English",
+     "text": "Travel medical insurance bearing the applicant’s name must"
+    },
+    {
+     "lang": "English",
+     "text": "proof of accommodation"
+    },
+    {
+     "lang": "German",
+     "text": "Die Reisekrankenversicherung – mit dem Namen des Antragstellers – muss"
+    }
+   ],
+   "lawMarks": [
+    "Ordinary tourist insurance and accommodation proof are not additional conditions on that route"
    ]
   },
   "missions-superseded-fees": {
@@ -5221,6 +6717,73 @@
      "tr": "Please note that an express procedure incurs a surcharge of €32.00. Applications made in Barbados incur an additional fee of €72.24. The fees stated above will change on 1 January 2024",
      "url": "https://port-of-spain.diplo.de/tt-de/service/1019256-1019256"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Japanese",
+     "text": "101 ユーロ"
+    },
+    {
+     "lang": "German",
+     "text": "105,00"
+    },
+    {
+     "lang": "German",
+     "text": "63,80"
+    },
+    {
+     "lang": "German",
+     "text": "52,80"
+    },
+    {
+     "lang": "German",
+     "text": "21,00"
+    },
+    {
+     "lang": "German",
+     "text": "81,00"
+    },
+    {
+     "lang": "German",
+     "text": "101"
+    },
+    {
+     "lang": "German",
+     "text": "41,00"
+    },
+    {
+     "lang": "English",
+     "text": "105.00"
+    },
+    {
+     "lang": "English",
+     "text": "63.80"
+    },
+    {
+     "lang": "English",
+     "text": "52.80"
+    },
+    {
+     "lang": "English",
+     "text": "21.00"
+    },
+    {
+     "lang": "English",
+     "text": "81.00"
+    },
+    {
+     "lang": "English",
+     "text": "101"
+    },
+    {
+     "lang": "English",
+     "text": "41.00"
+    }
+   ],
+   "lawMarks": [
+    "€70 from age 24",
+    "competent-mission supplement is €36",
+    "€46/€27.60 plus €43 abroad"
    ]
   },
   "missions-age-24-boundary": {
@@ -5278,6 +6841,44 @@
      "tr": "Passport with 32 pages, for applicants aged 24 or over, valid for 10 years: EUR 101.00. Passport with 32 pages, for applicants under 24, valid for 6 years: EUR 68.50. Passport with 48 pages, for applicants aged 24 or over, valid for 10 years: EUR 123.00. Passport with 48 pages, for applicants under 24, valid for 10 years: EUR 90.50.",
      "url": "https://podgorica.diplo.de/me-de/service/2485938-2485938"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "≤ 24 Jahre"
+    },
+    {
+     "lang": "German",
+     "text": "> 24 Jahre"
+    },
+    {
+     "lang": "German",
+     "text": "Personalausweis (6 Jahre Gültigkeit)"
+    },
+    {
+     "lang": "German",
+     "text": "für Antragsteller unter 24 Jahren, Gültigkeit 10 Jahre"
+    },
+    {
+     "lang": "English",
+     "text": "age ≤24"
+    },
+    {
+     "lang": "English",
+     "text": "age >24"
+    },
+    {
+     "lang": "English",
+     "text": "identity card (valid 6 years)"
+    },
+    {
+     "lang": "English",
+     "text": "for applicants under age 24, valid 10 years"
+    }
+   ],
+   "lawMarks": [
+    "below 24 normally gives six years",
+    "age 24 and above normally gives ten"
    ]
   },
   "missions-visa-fee-age-twelve": {
@@ -5311,6 +6912,19 @@
      "url": "https://buenos-aires.diplo.de/ar-de/service/05-visaeinreise/schengen-2008090",
      "site": "buenos-aires.diplo.de/ar-de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ab 13 Jahren"
+    },
+    {
+     "lang": "English",
+     "text": "aged 13 or over"
+    }
+   ],
+   "lawMarks": [
+    "ordinary €90 band starts at twelve"
    ]
   },
   "missions-superseded-passport-fees-tashkent-followup": {
@@ -5344,6 +6958,20 @@
      "url": "https://taschkent.diplo.de/uz-de/service/2438094-2438094",
      "site": "taschkent.diplo.de/uz-de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "81,00 €"
+    },
+    {
+     "lang": "English",
+     "text": "€81.00"
+    }
+   ],
+   "lawMarks": [
+    "€70 from age 24",
+    "competent-mission supplement is €36"
    ]
   },
   "missions-ni-mun-02": {
@@ -5377,6 +7005,19 @@
      "url": "https://www.salzgitter.de/rathaus/fachdienste/ordnung/buergercenter/epass.php",
      "site": "salzgitter.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "60,00 Euro"
+    },
+    {
+     "lang": "English",
+     "text": "€60.00"
+    }
+   ],
+   "lawMarks": [
+    "costs €70"
    ]
   },
   "missions-st-mun-01": {
@@ -5410,6 +7051,19 @@
      "url": "https://www.elbe-heide.de/dienstleistung/anzeigen/id/476/reisepass.html",
      "site": "elbe-heide.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "60,00 €"
+    },
+    {
+     "lang": "English",
+     "text": "€60.00"
+    }
+   ],
+   "lawMarks": [
+    "costs €70"
    ]
   },
   "missions-optional-fingerprints": {
@@ -5572,6 +7226,56 @@
      "url": "https://dakar.diplo.de/sn-de/service/reisepassundpersonalausweis/2516514-2516514",
      "site": "dakar.diplo.de/sn-de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "entscheiden Sie, ob Ihre Fingerabdrücke"
+    },
+    {
+     "lang": "German",
+     "text": "können Sie entscheiden, ob Sie Ihre Fingerabdrücke"
+    },
+    {
+     "lang": "German",
+     "text": "keine Nachteile, wenn Sie keine Fingerabdrücke"
+    },
+    {
+     "lang": "German",
+     "text": "Speicherung der Fingerabdrücke freiwillig"
+    },
+    {
+     "lang": "German",
+     "text": "Auf Wunsch"
+    },
+    {
+     "lang": "English",
+     "text": "whether your fingerprints should be stored"
+    },
+    {
+     "lang": "English",
+     "text": "whether to submit your fingerprints"
+    },
+    {
+     "lang": "English",
+     "text": "storage of fingerprints is voluntary"
+    },
+    {
+     "lang": "English",
+     "text": "request, fingerprints can be stored"
+    },
+    {
+     "lang": "English",
+     "text": "whether fingerprints should be stored"
+    },
+    {
+     "lang": "Spanish",
+     "text": "si deben almacenarse las impresiones digitales"
+    }
+   ],
+   "lawMarks": [
+    "contain two fingerprints from age six",
+    "subject to statutory physical-impossibility rules"
    ]
   },
   "missions-abolished-child-passport": {
@@ -5621,6 +7325,35 @@
      "url": "https://pakistan.diplo.de/pk-de/service/passantrag-kind-seite-1683806",
      "site": "pakistan.diplo.de/pk-de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Ausstellung oder Verlängerung von Kinderreisepässen"
+    },
+    {
+     "lang": "German",
+     "text": "kann auch ein Kinderreisepass ausgestellt werden"
+    },
+    {
+     "lang": "German",
+     "text": "Kinder- Reisepass"
+    },
+    {
+     "lang": "English",
+     "text": "Applications to issue or extend children’s passports"
+    },
+    {
+     "lang": "English",
+     "text": "A children’s passport can also be issued"
+    },
+    {
+     "lang": "English",
+     "text": "Children’s passport for children up to age 12"
+    }
+   ],
+   "lawMarks": [
+    "can no longer be newly issued or extended from 1 January 2024"
    ]
   },
   "missions-id-parental-consent": {
@@ -5654,6 +7387,19 @@
      "url": "https://rabat.diplo.de/resource/blob/2277226/6b045bee58618ccad26dc9d83d82810c/merkblatt-personalausweis-data.pdf#page=2",
      "site": "rabat.diplo.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "unter 18 Jahre"
+    },
+    {
+     "lang": "English",
+     "text": "under 18"
+    }
+   ],
+   "lawMarks": [
+    "aged sixteen or seventeen may apply for an ID card personally"
    ]
   },
   "missions-optional-fingerprints-montevideo-followup": {
@@ -5687,6 +7433,19 @@
      "url": "https://montevideo.diplo.de/uy-de/service/2431924-2431924",
      "site": "montevideo.diplo.de/uy-de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Es entstehen keine Nachteile, wenn Sie keine Fingerabdrücke in den Chip aufnehmen lassen."
+    },
+    {
+     "lang": "English",
+     "text": "There are no disadvantages if you do not have fingerprints stored in the chip."
+    }
+   ],
+   "lawMarks": [
+    "contain two fingerprints from age six"
    ]
   },
   "missions-abolished-child-passport-rangoon-followup": {
@@ -5720,6 +7479,19 @@
      "url": "https://rangun.diplo.de/mm-de/service/1511666-1511666",
      "site": "rangun.diplo.de/mm-de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "grundsätzlich nur noch um jeweils ein Jahr bis höchstens zum vollendeten 12. Lebensjahr verlängert werden"
+    },
+    {
+     "lang": "English",
+     "text": "can generally only be extended by one year at a time, up to age 12 at most"
+    }
+   ],
+   "lawMarks": [
+    "can no longer be newly issued or extended from 1 January 2024"
    ]
   },
   "missions-abolished-child-passport-tashkent-followup": {
@@ -5753,6 +7525,27 @@
      "url": "https://taschkent.diplo.de/uz-de/service/2438094-2438094",
      "site": "taschkent.diplo.de/uz-de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Kinderreisepass 26,00 €"
+    },
+    {
+     "lang": "German",
+     "text": "Verlängerung Kinderreisepass"
+    },
+    {
+     "lang": "English",
+     "text": "Children’s passport:"
+    },
+    {
+     "lang": "English",
+     "text": "Extension of children’s passport:"
+    }
+   ],
+   "lawMarks": [
+    "can no longer be newly issued or extended from 1 January 2024"
    ]
   },
   "missions-citizenship-loss": {
@@ -5802,6 +7595,16 @@
      "url": "https://dublin.diplo.de/resource/blob/2612442/39f27faa68b31b3dcdbd0ff8381d0fab/final-fragebogen-zur-staatsangehoerigkeit-dublin-data.pdf#page=1",
      "site": "dublin.diplo.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "loses the German nationality automatically"
+    }
+   ],
+   "lawMarks": [
+    "acquired on or after 27 June 2024",
+    "that acquisition alone no longer causes loss of German citizenship"
    ]
   },
   "missions-former-option-duty-validity": {
@@ -5835,6 +7638,19 @@
      "url": "https://bogota.diplo.de/co-de/service/2504026-2504026",
      "site": "bogota.diplo.de/co-de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "bei optionspflichtigen Personen bis zur Vollendung des 23. Lebensjahrs"
+    },
+    {
+     "lang": "English",
+     "text": "for people subject to the option duty, until their 23rd birthday"
+    }
+   ],
+   "lawMarks": [
+    "former option-duty cap was removed in 2024"
    ]
   },
   "airlines-lufthansa-timing": {
@@ -5892,6 +7708,31 @@
      "url": "https://www.lufthansa.com/es/es/passenger-rights",
      "site": "lufthansa.com/es/es"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "and/or you arrive"
+    },
+    {
+     "lang": "English",
+     "text": "original departure time or you arrive"
+    },
+    {
+     "lang": "German",
+     "text": "und/oder"
+    },
+    {
+     "lang": "French",
+     "text": "et/ou"
+    },
+    {
+     "lang": "Spanish",
+     "text": "o llega"
+    }
+   ],
+   "lawMarks": [
+    "AND"
    ]
   },
   "airlines-thai-airways-timing": {
@@ -5957,6 +7798,19 @@
      "url": "https://www.thaiairways.com/static/Passenger-Rights_Sept2016_Webversion.pdf",
      "site": "thaiairways.com · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "and/or you"
+    },
+    {
+     "lang": "German",
+     "text": "und/oder"
+    }
+   ],
+   "lawMarks": [
+    "AND"
    ]
   },
   "airlines-emirates-timing": {
@@ -6006,6 +7860,27 @@
      "url": "https://www.emirates.com/fr/french/before-you-fly/travel/rules-and-notices/cancellation-notice/",
      "site": "emirates.com/fr/french"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "no less than four hours"
+    },
+    {
+     "lang": "English",
+     "text": "at the earliest four hours"
+    },
+    {
+     "lang": "German",
+     "text": "nicht weniger als vier Stunden"
+    },
+    {
+     "lang": "French",
+     "text": "au plus tôt quatre heures"
+    }
+   ],
+   "lawMarks": [
+    "arrival less than four hours late"
    ]
   },
   "airlines-air-france-scope": {
@@ -6055,6 +7930,23 @@
      "url": "https://img.static-af.com/m/618f3f9ca861244c/original/Passengers-Rights-ES.pdf",
      "site": "img.static-af.com · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "no local regulation applies"
+    },
+    {
+     "lang": "French",
+     "text": "aucune réglementation locale n'a vocation à s'appliquer"
+    },
+    {
+     "lang": "Spanish",
+     "text": "no existe ninguna reglamentación local aplicable"
+    }
+   ],
+   "lawMarks": [
+    "local passenger rules alone do not exclude EU261"
    ]
   },
   "airlines-la-compagnie-scope": {
@@ -6112,6 +8004,27 @@
      "url": "https://www.lacompagnie.com/de/legal/fluggastrechte",
      "site": "lacompagnie.com/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "no local regulation applies"
+    },
+    {
+     "lang": "French",
+     "text": "aucune réglementation locale n’a vocation à s’appliquer"
+    },
+    {
+     "lang": "Italian",
+     "text": "nessuna regolamentazionelocale è destinata ad applicarsi"
+    },
+    {
+     "lang": "German",
+     "text": "keine lokalenVorschriften für den Abflug aus diesem Drittland gelten"
+    }
+   ],
+   "lawMarks": [
+    "local passenger rules alone do not exclude EU261"
    ]
   },
   "airlines-british-airways-refund": {
@@ -6161,6 +8074,23 @@
      "url": "https://www.britishairways.com/content/fr/information/legal/flight-cancellation-compensation",
      "site": "britishairways.com/fr"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "at the same time as"
+    },
+    {
+     "lang": "German",
+     "text": "gleichzeitig mit"
+    },
+    {
+     "lang": "French",
+     "text": "en même temps qu’il"
+    }
+   ],
+   "lawMarks": [
+    "does not require that request to coincide with the unused-part claim"
    ]
   },
   "airlines-emirates-hotel": {
@@ -6210,6 +8140,23 @@
      "url": "https://www.emirates.com/fr/french/before-you-fly/travel/rules-and-notices/denied-boarding-notice/",
      "site": "emirates.com/fr/french"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "one day or more later than the scheduled departure date"
+    },
+    {
+     "lang": "German",
+     "text": "einen Tag oder mehr später als das geplante Abflugdatum"
+    },
+    {
+     "lang": "French",
+     "text": "un jour ou plus après la date de départ planifiée"
+    }
+   ],
+   "lawMarks": [
+    "The replacement need not depart on a later calendar date"
    ]
   },
   "airlines-austrian-intra-eu-delay-care": {
@@ -6243,6 +8190,15 @@
      "url": "https://www.austrian.com/at/en/legal/passenger-rights",
      "site": "austrian.com/at/en"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "four hours or more in the case of all flights of more than 3,500 kilometres"
+    }
+   ],
+   "lawMarks": [
+    "at least three hours"
    ]
   },
   "airlines-lufthansa-intra-eu-reduction": {
@@ -6284,6 +8240,15 @@
      "tr": "",
      "url": "https://www.lufthansa.com/be/en/passenger-rights"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "no later than four hours after the scheduled arrival time for flights of more than 3,500 km"
+    }
+   ],
+   "lawMarks": [
+    "no more than three hours late"
    ]
   },
   "airlines-klm-third-country-scope": {
@@ -6315,6 +8280,15 @@
      "url": "https://www.klm.com/information/legal/passenger-rights",
      "site": "klm.com/information/legal"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "unless local legal regulation applies in that third country"
+    }
+   ],
+   "lawMarks": [
+    "does not make any local regulation an automatic exclusion"
    ]
   },
   "airlines-klm-intra-eu-delay-reduction": {
@@ -6346,6 +8320,15 @@
      "url": "https://www.klm.com/information/legal/passenger-rights",
      "site": "klm.com/information/legal"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "reduced by 50% for flights of more than 3500 km"
+    }
+   ],
+   "lawMarks": [
+    "distance over 3,500 km alone does not permit halving it"
    ]
   },
   "airlines-qatar-eu-departure-delay-table": {
@@ -6377,6 +8360,15 @@
      "url": "https://www.qatarairways.com/en/legal/eu-air-passenger-rights.html",
      "site": "qatarairways.com/en/legal"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "4 hours or more | 1,500 km to 3,500 km | EUR 400"
+    }
+   ],
+   "lawMarks": [
+    "arriving over three but under four hours late"
    ]
   },
   "airlines-qatar-medium-haul-rerouting-reduction": {
@@ -6408,6 +8400,15 @@
      "url": "https://www.qatarairways.com/en/legal/eu-air-passenger-rights.html",
      "site": "qatarairways.com/en/legal"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "3 hours or more (not exceeding 4 hours) | 1,500 km to 3,500 km | EUR 200"
+    }
+   ],
+   "lawMarks": [
+    "no more than three hours late"
    ]
   },
   "roaming-go-fair-use-or": {
@@ -6448,6 +8449,15 @@
      "url": "https://prodcms.go.com.mt/wp-content/uploads/2025/06/Mobile_Product_General_0_TC-sf.pdf",
      "site": "prodcms.go.com.mt · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "Malta, or"
+    }
+   ],
+   "lawMarks": [
+    "both roaming indicators must predominate"
    ]
   },
   "roaming-tmobile-cz-and-or": {
@@ -6489,6 +8499,19 @@
      "url": "https://www.t-mobile.cz/dcpublic/OP-t-mobile-roaming-and-eu-roaming-terms-and-conditions.pdf",
      "site": "t-mobile.cz · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "and/or"
+    },
+    {
+     "lang": "Czech",
+     "text": "a/nebo"
+    }
+   ],
+   "lawMarks": [
+    "both roaming indicators must predominate"
    ]
   },
   "roaming-gomobil-cz-and-or-copy": {
@@ -6529,6 +8552,19 @@
      "url": "https://napoveda.gomobil.cz/download.php?hash=1899dd857f3a4252dab1558457a8cdd14c733114ae9ba5552db4de59a712f068.pdf&open=1",
      "site": "napoveda.gomobil.cz · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "and/or"
+    },
+    {
+     "lang": "Czech",
+     "text": "a/nebo"
+    }
+   ],
+   "lawMarks": [
+    "both roaming indicators must predominate"
    ]
   },
   "roaming-lebara-help-presence": {
@@ -6570,6 +8606,19 @@
      "url": "https://www.lebara.de/en/hilfe/roaming.html",
      "site": "lebara.de/en"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "less than 50% of the time in Germany in the last four months"
+    },
+    {
+     "lang": "German",
+     "text": "in den letzten vier Monaten weniger als 50 % der Zeit in Deutschland"
+    }
+   ],
+   "lawMarks": [
+    "both roaming indicators must predominate"
    ]
   },
   "roaming-elisa-traffic-alone": {
@@ -6619,6 +8668,27 @@
      "url": "https://elisa.fi/attachment/content/Elisan-matkaviestinpalveluiden-erityisehdot-en.pdf",
      "site": "elisa.fi · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "more than 50 per cent of subscription traffic takes place in EU/EEA countries"
+    },
+    {
+     "lang": "English",
+     "text": "more than 50% of subscription traffic takes place in EU/EEA countries"
+    },
+    {
+     "lang": "Finnish",
+     "text": "yli 50 % liittymän liikenteestä tapahtuu EU/ ETA-maissa"
+    },
+    {
+     "lang": "Swedish",
+     "text": "över 50 % av abonnemangets trafik sker i EU/EES-länderna"
+    }
+   ],
+   "lawMarks": [
+    "both roaming indicators must predominate"
    ]
   },
   "roaming-tim-business-traffic-alone": {
@@ -6652,6 +8722,19 @@
      "url": "https://timbusiness.tim.it/mobile/estero/roaming-europa",
      "site": "timbusiness.tim.it"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Italian",
+     "text": "il traffico in roaming UE risulti, su base mensile, superiore al traffico nazionale per quattro mesi consecutivi"
+    },
+    {
+     "lang": "English",
+     "text": "monthly EU roaming traffic exceeds domestic traffic for four consecutive months"
+    }
+   ],
+   "lawMarks": [
+    "both roaming indicators must predominate"
    ]
   },
   "roaming-vodafone-it-both-domestic": {
@@ -6685,6 +8768,19 @@
      "url": "https://www.vodafone.it/privati/area-supporto/pagamenti-controllo-costi/controllo-costi-traffico/chiamare-navigare-estero.html",
      "site": "vodafone.it"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Italian",
+     "text": "presenza sul territorio nazionale prevalente rispetto a quella in Europa e un traffico roaming effettuato inferiore al 50% del tuo traffico totale"
+    },
+    {
+     "lang": "English",
+     "text": "presence in Italy that predominates over presence in Europe and roaming traffic below 50% of your total traffic"
+    }
+   ],
+   "lawMarks": [
+    "either domestic indicator is a safe harbour"
    ]
   },
   "roaming-proximus-alert-and": {
@@ -6754,6 +8850,23 @@
      "tr": "“Abusive or anomalous use of roaming services” under the Roaming Regulation means: (a) presence and consumption of services mainly in the other Member States compared with domestic presence and consumption in Belgium; or (b) prolonged inactivity of a given SIM card combined with very frequent or even exclusive roaming use; or (c) activation and serial use of multiple SIM cards by a single roaming customer.",
      "url": "https://www.proximus.be/dam/jcr%3A3bc8eb0d-68df-4673-9e3f-6b9f4cbb75e3/cdn/sites/iportal/documents/pdfs/common/PDFS-of-Terms-and-conditions/20260407-mobile-connectivity-csd-nl~2026-04-02-07-24-59~cache.pdf"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "actual domestic presence and consumption"
+    },
+    {
+     "lang": "French",
+     "text": "sa présence et de sa consommation nationale réelle"
+    },
+    {
+     "lang": "Dutch",
+     "text": "zijn werkelijke aanwezigheid en verbruik thuis"
+    }
+   ],
+   "lawMarks": [
+    "domestic presence OR consumption"
    ]
   },
   "roaming-yoigo-warning-cessation-and": {
@@ -6795,6 +8908,19 @@
      "tr": "Under European regulations, various types of use are considered abusive and entail additional charges for mobile use while roaming in the EEA (European Economic Area). In essence, your use is considered abusive if your roaming consumption and presence prevail over your domestic consumption and presence during the last four months. To clarify, your EEA roaming use over the last four months is examined and both of the following conditions are checked simultaneously: voice, data or SMS consumption while roaming in the EEA is higher than consumption in Spain; and the number of days spent exclusively roaming in the EEA exceeds the number of days with presence in Spain. Remember that we will never begin applying additional roaming charges without first sending a warning text. This surcharge will never apply to consumption before the warning, only to future roaming-data use.",
      "url": "https://www.yoigo.com/ayuda/limitaciones-del-uso-del-roaming-en-el-espacio-economico-europeo"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "una presencia y consumo mayor en España que en roaming EEE"
+    },
+    {
+     "lang": "English",
+     "text": "greater presence and consumption in Spain than in EEA roaming"
+    }
+   ],
+   "lawMarks": [
+    "domestic presence OR consumption"
    ]
   },
   "roaming-orange-es-warning-and": {
@@ -6836,6 +8962,19 @@
      "tr": "What counts as abusive roaming use. Roaming use is considered abusive when your roaming consumption and presence are greater than those in Spain over four months. To determine this, both of these conditions are assessed simultaneously: data consumption while roaming in the EU Zone exceeds consumption in Spain; and the number of days of presence in roaming exceeds the time spent in Spain.",
      "url": "https://ayuda.orange.es/empresas/movil/roaming-internacional/2521-limitaciones-del-uso-del-roaming-en-la-zona-ue-union-europea"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "un uso y presencia mayor en España que en Roaming"
+    },
+    {
+     "lang": "English",
+     "text": "your use and presence in Spain must again exceed those while roaming"
+    }
+   ],
+   "lawMarks": [
+    "domestic presence OR consumption"
    ]
   },
   "roaming-vodafone-es-warning-and": {
@@ -6877,6 +9016,19 @@
      "tr": "Reasonable, non-abusive roaming traffic from a country of the European Union, Iceland, Kosovo, Liechtenstein, Norway, Moldova, Ukraine, Switzerland, Turkey and the United States to one of those countries counts as domestic traffic on the same terms as the contracted domestic tariff. In cases of abusive roaming traffic, after notifying the customer Vodafone will apply a surcharge that may not exceed the current wholesale rate approved by the European Commission, in particular in the following cases: when the customer does not reside or have stable links in Spain, for which Vodafone may request supporting documents; when a particular SIM card has long periods of inactivity combined with mainly or exclusively roaming use; or the customer activates and sequentially uses multiple SIM cards in roaming.",
      "url": "https://www.vodafone.es/c/particulares/es/productos-y-servicios/movil/roaming/"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "hacer prevalecer su consumo y estancia en España frente a su consumo y estancia en los países citados"
+    },
+    {
+     "lang": "English",
+     "text": "so that consumption and presence in Spain exceed consumption and presence in those countries"
+    }
+   ],
+   "lawMarks": [
+    "domestic presence OR consumption"
    ]
   },
   "roaming-go-voice-surcharge": {
@@ -6931,6 +9083,15 @@
      "tr": "",
      "url": "https://prodcms.go.com.mt/wp-content/uploads/2025/06/Mobile_Product_General_0_TC-sf.pdf"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "€0.19 as from 01/01/2025"
+    }
+   ],
+   "lawMarks": [
+    "€0.019 a minute"
    ]
   },
   "roaming-vodafone-cu-gr-fup-maxima": {
@@ -6964,6 +9125,43 @@
      "url": "https://www.vodafonecu.gr/eksipiretisi-pelatwn/roaming/",
      "site": "vodafonecu.gr"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Greek",
+     "text": "€0,0397/λεπτό"
+    },
+    {
+     "lang": "Greek",
+     "text": "€0,0124/sms"
+    },
+    {
+     "lang": "Greek",
+     "text": "€0,0093/ΜΒ"
+    },
+    {
+     "lang": "Greek",
+     "text": "€0,0134/λεπτό"
+    },
+    {
+     "lang": "English",
+     "text": "€0.0397/minute"
+    },
+    {
+     "lang": "English",
+     "text": "€0.0124/SMS"
+    },
+    {
+     "lang": "English",
+     "text": "€0.0093/MB"
+    },
+    {
+     "lang": "English",
+     "text": "€0.0134/minute"
+    }
+   ],
+   "lawMarks": [
+    "€0.019 a minute, €0.003 an SMS, €1.10 a GB and €0.002 an incoming minute, before VAT"
    ]
   },
   "roaming-telia-sweden-surcharges": {
@@ -6997,6 +9195,35 @@
      "url": "https://www.telia.se/roaming/eu",
      "site": "telia.se"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Swedish",
+     "text": "Samtal 0,30 kr/min"
+    },
+    {
+     "lang": "Swedish",
+     "text": "Sms 0,05 kr/st"
+    },
+    {
+     "lang": "Swedish",
+     "text": "Surf 0,02 kr/MB"
+    },
+    {
+     "lang": "English",
+     "text": "Calls SEK 0.30/minute"
+    },
+    {
+     "lang": "English",
+     "text": "SMS SEK 0.05 each"
+    },
+    {
+     "lang": "English",
+     "text": "Data SEK 0.02/MB"
+    }
+   ],
+   "lawMarks": [
+    "€0.019 a minute, €0.003 an SMS, €1.10 a GB"
    ]
   },
   "roaming-sfr-incoming-cap": {
@@ -7051,6 +9278,23 @@
      "tr": "Reasonable use of your plan from the European Union. Use of your SFR plan from the European Union and overseas departments must be “reasonable”: using it mainly or exclusively from that area will result in additional charges for future usage. Over the last four months: IF one or more types of use (calls, SMS/MMS and/or mobile internet, including services available exclusively from that area) from the European Union/overseas departments exceed the same types of use from metropolitan France and abroad outside that area, AND IF the number of days spent in that area exceeds the days spent in France and abroad outside it, you will receive a text warning and have 15 days to change your use. At the end of those 15 days: if you comply with at least one of the two rules, so your use becomes reasonable again, you will not be charged extra. If you still comply with neither rule, you will receive a new text warning that additional charges apply immediately to future unreasonable usage from the European Union/overseas departments.",
      "url": "https://static.s-sfr.fr/media/tarifs/s22026/sfr-bt-06102026.pdf"
     }
+   ],
+   "marks": [
+    {
+     "lang": "French",
+     "text": "0,005 € TTC/min"
+    },
+    {
+     "lang": "French",
+     "text": "0,005€ TTC/min"
+    },
+    {
+     "lang": "English",
+     "text": "€0.005 including VAT/minute"
+    }
+   ],
+   "lawMarks": [
+    "€0.002 an incoming minute, before VAT"
    ]
   },
   "roaming-iliad-incoming-cap": {
@@ -7092,6 +9336,19 @@
      "tr": "The services may also be used while roaming within the European Union (for communications within it, for example calls between European countries or a data connection in a European country other than Italy) on the same economic terms as services in Italy, under EU Regulations 2015/2120 and 2016/2286. These terms apply if the user is habitually resident in Italy or has a stable link to Italy (for example through full-time lasting employment or participation in regular courses of study), and the user must provide evidence of that residence or stable link at iliad’s request. Those terms for EU roaming do not apply if (i) the user sequentially uses more than one SIM in roaming, (ii) the user’s roaming traffic exceeds domestic traffic and, at the same time, the user is predominantly present in other EU states over four months; or (iii) a SIM is inactive for a long period combined with predominantly, if not exclusively, roaming use over four months. If these conditions are not met, iliad will apply a roaming surcharge calculated using the maximum rates under EU Regulation 2015/2120, as indicated here, specifically in the “Permanent Roaming Rate” column.",
      "url": "https://www.iliad.it/docs/prezzi/prezzi-giga250-1199_dal_30_06_2026.pdf"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Italian",
+     "text": "0,00671€"
+    },
+    {
+     "lang": "English",
+     "text": "€0.00671"
+    }
+   ],
+   "lawMarks": [
+    "€0.002 an incoming minute, before VAT"
    ]
   },
   "roaming-vodafone-pt-net-label": {
@@ -7139,6 +9396,37 @@
      "url": "https://www.vodafone.pt/telemoveis/roaming/detalhes.html",
      "site": "vodafone.pt"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Portuguese",
+     "text": "(sem IVA)"
+    },
+    {
+     "lang": "Portuguese",
+     "text": "€1,35/GB"
+    },
+    {
+     "lang": "Portuguese",
+     "text": "€0,004 por SMS"
+    },
+    {
+     "lang": "English",
+     "text": "(excluding VAT)"
+    },
+    {
+     "lang": "English",
+     "text": "€1.35/GB"
+    },
+    {
+     "lang": "English",
+     "text": "€0.004 per SMS"
+    }
+   ],
+   "lawMarks": [
+    "€0.003 an SMS",
+    "€1.10 a GB",
+    "before VAT"
    ]
   },
   "roaming-orange-es-current-gross-data": {
@@ -7180,6 +9468,20 @@
      "tr": "If abusive use is detected, Orange will inform the customer by text message or, where applicable, through other contact channels established in the general terms or the customer’s contract. The customer will have 14 calendar days to change their usage patterns. If they do not do so, or if they exceed the roaming-data allowance indicated in their offer within the European Economic Area, ORANGE will apply to consumption of roaming services in those territories the price detailed in the roaming section of www.orange.es or in the terms of their tariff.",
      "url": "https://www.orange.es/legal/particulares/2025/uso-razonable-del-roaming-es-20251210.pdf"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "1,57€ IVA incluido"
+    },
+    {
+     "lang": "English",
+     "text": "€1.57 including VAT"
+    }
+   ],
+   "lawMarks": [
+    "€1.10 a GB",
+    "before VAT"
    ]
   },
   "roaming-tesco-domestic-rate-for-fup": {
@@ -7227,6 +9529,23 @@
      "url": "https://www.tescomobile.ie/prepayroam",
      "site": "tescomobile.ie"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "standard out of bundle rates will apply to usage beyond the FUP"
+    },
+    {
+     "lang": "English",
+     "text": "at your Plan's standard out of bundle rate"
+    },
+    {
+     "lang": "English",
+     "text": "or in excess of fair usage policy will be subject to a call set up fee of 12c"
+    }
+   ],
+   "lawMarks": [
+    "€0.019 a minute, €0.003 an SMS, €1.10 a GB and €0.002 an incoming minute, before VAT"
    ]
   },
   "roaming-gomo-cy-fup-surcharge-maxima": {
@@ -7260,6 +9579,23 @@
      "url": "https://gomo.cy/en/pricing/",
      "site": "gomo.cy/en"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "€0.02618 per minute"
+    },
+    {
+     "lang": "English",
+     "text": "€0.00476 per SMS"
+    },
+    {
+     "lang": "English",
+     "text": "€0.0018 per MB of data"
+    }
+   ],
+   "lawMarks": [
+    "€0.019 a minute, €0.003 an SMS, €1.10 a GB"
    ]
   },
   "roaming-melita-blanket-allowance-exclusion": {
@@ -7293,6 +9629,15 @@
      "url": "https://www.melita.com/help/billing-and-payments/my-bill-is-higher-than-i-expected/have-you-been-abroad/",
      "site": "melita.com"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "your mobile plan’s free allowances won’t apply"
+    }
+   ],
+   "lawMarks": [
+    "domestic benefits normally continue, subject to valid fair-use rules and the domestic off-net comparator"
    ]
   },
   "roaming-telia-sweden-50gb-floor": {
@@ -7326,6 +9671,19 @@
      "url": "https://www.telia.se/asset/f7751ee0-c6ad-42e6-8028-c41e5cf9fea9/TSP-4667_19_2609-Prislista-Telia-Mobil_B2C.pdf",
      "site": "telia.se · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Swedish",
+     "text": "som mest 50 GB/månad"
+    },
+    {
+     "lang": "English",
+     "text": "at most 50GB/month"
+    }
+   ],
+   "lawMarks": [
+    "Open-data bundles have a price-based data minimum"
    ]
   },
   "roaming-vodafone-ie-data-faq": {
@@ -7359,6 +9717,15 @@
      "url": "https://n.vodafone.ie/support/pay-as-you-go-hub/pay-as-you-go/top-up-offer-faqs.html",
      "site": "n.vodafone.ie"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "fair usage policy of 30GB"
+    }
+   ],
+   "lawMarks": [
+    "Open-data bundles have a price-based data minimum"
    ]
   },
   "roaming-lebara-current-examples": {
@@ -7399,6 +9766,27 @@
      "url": "https://www.lebara.de/content/dam/lebara/markets/de/de/assets/2026/1_legal_files/agb/sept/updated/Lebara-Preisliste_Prepaid_Stand-16092026%201.pdf",
      "site": "lebara.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "derzeit (€ 10,00 dividiert durch € 1,80) = 5,56 GB"
+    },
+    {
+     "lang": "German",
+     "text": "derzeit (€ 12,00 dividiert durch € 1,80) x 2 = 13,3 GB"
+    },
+    {
+     "lang": "English",
+     "text": "currently has (€10.00 divided by €1.80) = 5.56GB"
+    },
+    {
+     "lang": "English",
+     "text": "currently has (€12.00 divided by €1.80) × 2 = 13.3GB"
+    }
+   ],
+   "lawMarks": [
+    "Open-data bundles have a price-based data minimum; per-unit prepaid credit has a different calculation"
    ]
   },
   "roaming-gomo-cy-14gb-floor": {
@@ -7432,6 +9820,15 @@
      "url": "https://gomo.cy/wp-content/uploads/20261005_Contract-Summary-and-Pre-document-GoMo_En.pdf",
      "site": "gomo.cy · contract summary PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "14GB limit"
+    }
+   ],
+   "lawMarks": [
+    "the 2026 open-data minimum is about 15.26 GB"
    ]
   },
   "roaming-play-four-month-maximum": {
@@ -7473,6 +9870,19 @@
      "tr": "The fair-use policy does not apply to tourists, because a trip to an EU country or even around the whole European Union rarely lasts three or four months. It does, however, matter for people who have moved abroad or have gone away for work for at least several months.",
      "url": "https://www.play.pl/play-expert/porady/roaming-ue---jak-korzystac-porady-dla-podroznych"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Polish",
+     "text": "nie dłużej niż 4 miesiące"
+    },
+    {
+     "lang": "English",
+     "text": "no longer than 4 months"
+    }
+   ],
+   "lawMarks": [
+    "the minimum observation period for the ordinary presence-and-use test, not an automatic roaming expiry"
    ]
   },
   "roaming-orange-sk-additional-notice": {
@@ -7506,6 +9916,19 @@
      "url": "https://www.orange.sk/pomoc/volania-data-a-spravy/roaming-a-volania-do-zahranicia/datovy-roaming",
      "site": "orange.sk"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Slovak",
+     "text": "102,50 € bez DPH"
+    },
+    {
+     "lang": "English",
+     "text": "€102.50 excluding VAT"
+    }
+   ],
+   "lawMarks": [
+    "above €100 excluding VAT in a monthly billing period"
    ]
   },
   "roaming-cableworld-home-presence-required": {
@@ -7539,6 +9962,19 @@
      "url": "https://cableworld.es/blog/roaming-en-europa-tarifas-y-cobertura/",
      "site": "cableworld.es"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "la regulación europea exige que pases más tiempo en tu país de residencia que en el extranjero"
+    },
+    {
+     "lang": "English",
+     "text": "EU regulation requires you to spend more time in your country of residence than abroad"
+    }
+   ],
+   "lawMarks": [
+    "Prevailing domestic consumption is a safe harbour even when domestic presence does not predominate"
    ]
   },
   "roaming-konecta-traffic-alone": {
@@ -7572,6 +10008,28 @@
      "url": "https://konectacanarias.com/roaming-libre-europa/",
      "site": "konectacanarias.com"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "haces un mayor uso de tu línea en roaming que en España"
+    },
+    {
+     "lang": "Spanish",
+     "text": "si continúas usando la línea en roaming"
+    },
+    {
+     "lang": "English",
+     "text": "you use your line more in roaming than in Spain"
+    },
+    {
+     "lang": "English",
+     "text": "if you continue using the line in roaming"
+    }
+   ],
+   "lawMarks": [
+    "Higher roaming consumption alone does not establish abuse under the ordinary four-month control",
+    "A mere continuation of some roaming after warning is also insufficient if changed use demonstrates domestic presence or consumption"
    ]
   },
   "roaming-cableworld-ion-voice-cap": {
@@ -7605,6 +10063,19 @@
      "url": "https://cableworld.es/wp-content/uploads/2026/07/TARIFAS_Roaming_Internacional__Octubre26.pdf",
      "site": "cableworld.es · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "0,026 €/minuto de llamada de voz efectuada"
+    },
+    {
+     "lang": "English",
+     "text": "€0.026/minute for outgoing voice calls"
+    }
+   ],
+   "lawMarks": [
+    "€0.019/minute excluding VAT, or €0.02299 with Spain’s 21% VAT"
    ]
   },
   "package-exoticca-transfer": {
@@ -7664,6 +10135,27 @@
      "url": "https://help.exoticca.com/en/articles/eine-buchung-vornehmen/can-i-transfer-my-trip-to-someone-else/66c59e120903942305fb7c44",
      "site": "help.exoticca.com/en"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "no puedes transferir tu viaje a otra persona"
+    },
+    {
+     "lang": "German",
+     "text": "nicht auf jemand anderen übertragen"
+    },
+    {
+     "lang": "French",
+     "text": "ne pouvez pas transférer votre voyage à quelqu'un d'autre"
+    },
+    {
+     "lang": "English",
+     "text": "cannot transfer your trip"
+    }
+   ],
+   "lawMarks": [
+    "may transfer a qualifying package to a substitute who meets its conditions"
    ]
   },
   "package-exoticca-refund": {
@@ -7697,6 +10189,19 @@
      "url": "https://www.exoticca.com/de/geschaftsbedingungen",
      "site": "exoticca.com/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Die Kosten für nicht erstattungsfähige Flüge werden als Entschädigung abgezogen"
+    },
+    {
+     "lang": "English",
+     "text": "The costs of non-refundable flights will be deducted as compensation"
+    }
+   ],
+   "lawMarks": [
+    "Non-refundable supplier flights do not reduce that refund"
    ]
   },
   "package-exoticca-minimum": {
@@ -7730,6 +10235,19 @@
      "url": "https://www.exoticca.com/de/geschaftsbedingungen",
      "site": "exoticca.com/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "mindestens 7 Tage vor dem geplanten Reisebeginn"
+    },
+    {
+     "lang": "English",
+     "text": "at least 7 days before the scheduled start of the trip"
+    }
+   ],
+   "lawMarks": [
+    "notice at least 20 days before departure"
    ]
   },
   "package-gestravel-minimum": {
@@ -7763,6 +10281,19 @@
      "url": "https://drive.google.com/file/d/1L5Vw3HsTVv9zxGAw0LtwcM3rXlTpjEGR/view?usp=drive_link",
      "site": "drive.google.com · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "15 días antes del inicio"
+    },
+    {
+     "lang": "English",
+     "text": "15 days before departure"
+    }
+   ],
+   "lawMarks": [
+    "notice at least 20 days before departure"
    ]
   },
   "package-indigo-insolvency": {
@@ -7811,6 +10342,19 @@
      "url": "https://www.indigourlaub.com/var/site/storage/original/application/f9fdef76cf64e4b61f03a76e9d7b03b4.pdf",
      "site": "indigourlaub.com · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "sind nicht abgesichert"
+    },
+    {
+     "lang": "English",
+     "text": "are not protected"
+    }
+   ],
+   "lawMarks": [
+    "includes accepted package funds even if acceptance broke the statutory payment restrictions"
    ]
   },
   "package-reisewelt-insolvency": {
@@ -7844,6 +10388,19 @@
      "url": "https://www.reisewelt.at/de/impressum.html",
      "site": "reisewelt.at/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "sind auch nicht abgesichert"
+    },
+    {
+     "lang": "English",
+     "text": "are also not protected"
+    }
+   ],
+   "lawMarks": [
+    "includes accepted package funds even if acceptance broke the statutory payment restrictions"
    ]
   },
   "package-alpenland-insolvency-payment-exclusion": {
@@ -7885,6 +10442,19 @@
      "tr": "Secure holidays! All customer funds paid to us are protected in the event of insolvency under the Package Travel Act (PRG). For this purpose we have arranged a bank guarantee with Lienzer Sparkasse. The claims handler (administrator) is Europäische Reiseversicherung, 1220 Vienna, Kratochwjlestraße 4, telephone +43-(0)1/317 25 00. All claims must be registered within 8 weeks after the events specified in §1(3) PRG occur, otherwise the claim is lost.",
      "url": "https://www.alpenland-reisen.at/reisebedingungen.html"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "sind auch nicht abgesichert"
+    },
+    {
+     "lang": "English",
+     "text": "are also not protected"
+    }
+   ],
+   "lawMarks": [
+    "includes accepted package funds even if acceptance broke the statutory payment restrictions"
    ]
   },
   "package-christl-insolvency-payment-exclusion": {
@@ -7926,6 +10496,19 @@
      "tr": "Protection of customer funds. Your money is in safe hands with us! Package trips booked with us are secured under the Austrian Travel Agency Insurance Regulation – RSV (Federal Law Gazette II No. 10/1998). Organiser: Christian W. Ladstätter, CHRISTL REISEN, 9991 Dölsach, Reimmichlstraße 20, registration number 2004/0003 in the organiser register of the Federal Ministry of Economy, Family and Youth. Under the Travel Agency Insurance Regulation (RSV), customer funds for the organiser’s package trips are protected on the following conditions: The deposit is paid no earlier than eleven months before the agreed end of the trip and is 20% of the travel price. IMPORTANT INFORMATION ON INSOLVENCY PROTECTION: Do not pay more than 20% of the travel price as a deposit, or the balance earlier than 20 days before departure. Deposits or balances exceeding these amounts or paid early may not be demanded and are NOT protected. Bank guarantee with Lienzer Sparkasse under guarantee No. 313920. All claims must be registered within 8 weeks after insolvency with the administrator Europäische Reiseversicherung AG, Kratochwjlestraße 4, 1220 Vienna, telephone +43 1/317 25 00, fax +43 1/317 25 00 – 199, otherwise the claim is lost. For bookings from 1 July 2018, the Package Travel Act (PRG) replaces §§31b–31f of the Consumer Protection Act (KSchG).",
      "url": "https://christl-reisen.at/agb/"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "sind auch NICHT abgesichert"
+    },
+    {
+     "lang": "English",
+     "text": "are also NOT protected"
+    }
+   ],
+   "lawMarks": [
+    "includes accepted package funds even if acceptance broke the statutory payment restrictions"
    ]
   },
   "package-beltrame-itinerary": {
@@ -7966,6 +10549,20 @@
      "url": "https://voyages-beltrame.com/wp-content/uploads/2026/07/brochure-voyages-compresse.pdf",
      "site": "voyages-beltrame.com · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "French",
+     "text": "ne constitue pas non plus un motif légitime d’annulation"
+    },
+    {
+     "lang": "English",
+     "text": "does not constitute a legitimate ground for cancellation either"
+    }
+   ],
+   "lawMarks": [
+    "A significant predeparture change can give a choice of acceptance or fee-free termination",
+    "Outside causes do not erase these rights"
    ]
   },
   "package-frauen-unterwegs-claims-deadline": {
@@ -8007,6 +10604,28 @@
      "tr": "If negotiations between you and FU-FR concerning asserted claims or the circumstances giving rise to a claim are pending, the limitation period is suspended until you or FU-FR refuses to continue the negotiations. The limitation period then expires no earlier than 3 months after the suspension ends.",
      "url": "https://www.frauen-unterwegs.de/agb.php"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "innerhalb eines Monats"
+    },
+    {
+     "lang": "German",
+     "text": "verjähren in einem Jahr"
+    },
+    {
+     "lang": "English",
+     "text": "within one month"
+    },
+    {
+     "lang": "English",
+     "text": "time-barred after one year"
+    }
+   ],
+   "lawMarks": [
+    "two-year limitation period",
+    "A separate one-month post-trip claim cutoff cannot reduce those rights"
    ]
   },
   "package-exo-tours-claims-deadline": {
@@ -8040,6 +10659,28 @@
      "url": "https://www.exo-tours.de/files/exo-tours/PDF/Reisebedingungen%20Stand%20Juli%202025.pdf",
      "site": "exo-tours.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "innerhalb eines Monats"
+    },
+    {
+     "lang": "German",
+     "text": "verjähren in einem Jahr"
+    },
+    {
+     "lang": "English",
+     "text": "within one month"
+    },
+    {
+     "lang": "English",
+     "text": "time-barred after one year"
+    }
+   ],
+   "lawMarks": [
+    "two-year limitation period",
+    "A separate one-month post-trip claim cutoff cannot reduce those rights"
    ]
   },
   "package-forum-travel-claims-deadline": {
@@ -8080,6 +10721,19 @@
      "url": "https://www.forum-travel.de/agb.htm",
      "site": "forum-travel.de · HTML"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "innerhalb eines Monats"
+    },
+    {
+     "lang": "English",
+     "text": "within one month"
+    }
+   ],
+   "lawMarks": [
+    "A separate one-month post-trip claim cutoff cannot reduce those rights"
    ]
   },
   "package-frauen-unterwegs-return-costs": {
@@ -8113,6 +10767,19 @@
      "url": "https://www.frauen-unterwegs.de/agb.php",
      "site": "frauen-unterwegs.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "haben FU-FR und Du je zur Hälfte zu tragen"
+    },
+    {
+     "lang": "English",
+     "text": "FU-FR and you must each bear half"
+    }
+   ],
+   "lawMarks": [
+    "the organiser must arrange equivalent return transport and bear its additional cost"
    ]
   },
   "package-exo-tours-return-costs": {
@@ -8146,6 +10813,19 @@
      "url": "https://www.exo-tours.de/files/exo-tours/PDF/Reisebedingungen%20Stand%20Juli%202025.pdf",
      "site": "exo-tours.de · PDF"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "sind von den Parteien je zur Hälfte zu tragen"
+    },
+    {
+     "lang": "English",
+     "text": "The parties must each bear half"
+    }
+   ],
+   "lawMarks": [
+    "the organiser must arrange equivalent return transport and bear its additional cost"
    ]
   },
   "package-frauen-unterwegs-minimum": {
@@ -8179,6 +10859,27 @@
      "url": "https://www.frauen-unterwegs.de/agb.php",
      "site": "frauen-unterwegs.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Bis 2 Wochen vor Reiseantritt"
+    },
+    {
+     "lang": "German",
+     "text": "spätestens zwei Wochen vor Reisebeginn"
+    },
+    {
+     "lang": "English",
+     "text": "Until 2 weeks before departure"
+    },
+    {
+     "lang": "English",
+     "text": "no later than two weeks before the trip begins"
+    }
+   ],
+   "lawMarks": [
+    "notice at least 20 days before departure"
    ]
   },
   "rail-oebb-rerouting-costs": {
@@ -8220,6 +10921,19 @@
      "url": "https://www.oebb.at/en/reiseplanung-services/nach-ihrer-reise/fahrgastrechte",
      "site": "ÖBB · EN"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Ersatz von Kosten"
+    },
+    {
+     "lang": "English",
+     "text": "reimbursement of costs"
+    }
+   ],
+   "lawMarks": [
+    "qualifying alternative transport without extra cost or reimbursement of qualifying self-arranged transport"
    ]
   },
   "rail-westbahn-rerouting-costs": {
@@ -8254,6 +10968,19 @@
      "url": "https://westbahn.at/resources/files/2025/9/9/2772/20250908-entschadigungsbedingungen-westbahn-clean.pdf",
      "site": "WESTbahn · DE"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Ersatz von Kosten"
+    },
+    {
+     "lang": "English",
+     "text": "reimbursement of costs"
+    }
+   ],
+   "lawMarks": [
+    "qualifying alternative transport without extra cost or reimbursement of qualifying self-arranged transport"
    ]
   },
   "rail-flixtrain-four-euro-threshold": {
@@ -8294,6 +11021,27 @@
      "url": "https://www.flixtrain.de/agb",
      "site": "FlixTrain AGB · DE"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "höher als 4 EUR"
+    },
+    {
+     "lang": "German",
+     "text": "höher als 4 Euro"
+    },
+    {
+     "lang": "English",
+     "text": "higher than EUR 4"
+    },
+    {
+     "lang": "English",
+     "text": "greater than €4"
+    }
+   ],
+   "lawMarks": [
+    "Exactly €4 is not below the maximum lawful threshold"
    ]
   },
   "rail-renfe-adif-speed-limits": {
@@ -8327,6 +11075,19 @@
      "url": "https://www.renfe.com/es/es/ayuda/compromiso-puntualidad",
      "site": "Spanish website"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "no generarán derecho a indemnización cuando el retraso se deba a estas limitaciones de velocidad"
+    },
+    {
+     "lang": "English",
+     "text": "will not create an entitlement to compensation when the delay is due to these speed restrictions"
+    }
+   ],
+   "lawMarks": [
+    "does not exempt an ordinary infrastructure-related delay merely because its cause lies outside Renfe"
    ]
   },
   "rail-ouigo-spain-compensation-card": {
@@ -8360,6 +11121,19 @@
      "url": "https://www.ouigo.com/es/condiciones-generales-de-transporte-ouigo",
      "site": "Spanish website"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "Si el Comprador no dispone de ninguno de estos medios, no podrá recibir el crédito de su vale de compra reembolsable"
+    },
+    {
+     "lang": "English",
+     "text": "If the buyer has neither of these means, the refundable purchase voucher cannot be credited"
+    }
+   ],
+   "lawMarks": [
+    "requires the statutory amount to be paid in money when the passenger asks"
    ]
   },
   "rail-sncf-connect-ouigo-voucher-only": {
@@ -8394,6 +11168,19 @@
      "url": "https://www.sncf-connect.com/ouigo",
      "site": "SNCF Connect"
     }
+   ],
+   "marks": [
+    {
+     "lang": "French",
+     "text": "en bon d’achat uniquement"
+    },
+    {
+     "lang": "English",
+     "text": "in a purchase voucher only"
+    }
+   ],
+   "lawMarks": [
+    "a sufficiently flexible voucher only if the passenger agrees"
    ]
   },
   "rail-sncf-connect-ouigo-refund-fallback": {
@@ -8428,6 +11215,19 @@
      "url": "https://www.sncf-connect.com/ouigo",
      "site": "SNCF Connect"
     }
+   ],
+   "marks": [
+    {
+     "lang": "French",
+     "text": "Si l’impossibilité se confirme"
+    },
+    {
+     "lang": "English",
+     "text": "If that too proves impossible"
+    }
+   ],
+   "lawMarks": [
+    "Reimbursement under Article 18(1)(a) is available even when comparable continuation or rerouting is possible"
    ]
   },
   "rail-cd-international-assistance-36-hours": {
@@ -8469,6 +11269,27 @@
      "url": "https://www.cd.cz/objednavka-pomoci/",
      "site": "ČD assistance booking · CS"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Czech",
+     "text": "Takovou objednávku je třeba uplatnit minimálně 36 hodin před odjezdem vlaku"
+    },
+    {
+     "lang": "Czech",
+     "text": "Pokud jedete do zahraničí, objednejte si prosím cestu alespoň 36 hodin předem"
+    },
+    {
+     "lang": "English",
+     "text": "Such a request must be made at least 36 hours before the train departs"
+    },
+    {
+     "lang": "English",
+     "text": "If you are travelling abroad, please request the journey at least 36 hours in advance"
+    }
+   ],
+   "lawMarks": [
+    "permits notification at least 24 hours before assistance is needed"
    ]
   },
   "rail-leoexpress-rebooking-departure-deadline": {
@@ -8510,6 +11331,23 @@
      "url": "https://www.leoexpress.com/assets/c8286d4d-bff3-4363-913b-3483d8372a70/ad4993c5-3612-40e2-b00a-79ef067b01a3/Leo-Express-Global-a.s.-Leo-Express-s.r.o._od_28_9.pdf",
      "site": "Leo Express conditions · CS"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "by the time of the regular departure time indicated on the ticket"
+    },
+    {
+     "lang": "English",
+     "text": "by the scheduled departure time stated on the ticket"
+    },
+    {
+     "lang": "Czech",
+     "text": "do času pravidelného času odjezdu spoje uvedeného na jízdním dokladu"
+    }
+   ],
+   "lawMarks": [
+    "that time limit cannot remove the statutory continuation/rerouting choice"
    ]
   },
   "rail-vr-sweden-rounded-payment-threshold": {
@@ -8551,6 +11389,19 @@
      "url": "https://vrresa.se/en/allmanna-resevillkor",
      "site": "VR Sweden · EN"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Swedish",
+     "text": "avrundat uppåt till närmaste tiotal kronor"
+    },
+    {
+     "lang": "English",
+     "text": "rounded up to the nearest ten kronor"
+    }
+   ],
+   "lawMarks": [
+    "does not permit withholding an otherwise eligible compensation amount above €4 merely because it falls below that inflated threshold"
    ]
   },
   "rail-snalltaget-night-train-180-minute-trigger": {
@@ -8592,6 +11443,23 @@
      "url": "https://www.snalltaget.se/rattigheter-vid-forsening",
      "site": "Snälltåget · SV"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "the delay at departure must therefore be more than 180 minutes"
+    },
+    {
+     "lang": "English",
+     "text": "the departure delay must therefore exceed 180 minutes"
+    },
+    {
+     "lang": "Swedish",
+     "text": "krävs därför en försening på mer än 180 minuter vid avgång"
+    }
+   ],
+   "lawMarks": [
+    "a reasonable expectation of at least 60 minutes’ delay at the final destination"
    ]
   },
   "rail-omio-through-ticket-force-majeure": {
@@ -8632,6 +11500,15 @@
      "url": "https://www.omio.com/c/service-disruptions/",
      "site": "Omio disruptions page"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "except in some cases, such as force majeure events"
+    }
+   ],
+   "lawMarks": [
+    "retains the reimbursement/rerouting choice when a delay of at least 60 minutes is reasonably expected, including in qualifying extraordinary circumstances"
    ]
   },
   "rail-raileurope-retailer-prior-notice": {
@@ -8666,6 +11543,15 @@
      "url": "https://help.raileurope.com/article/43557-rail-passenger-rights",
      "site": "Rail Europe English website"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "This rule will not apply if this is clearly mentioned on the tickets, or on another document or electronically"
+    }
+   ],
+   "lawMarks": [
+    "two conditions cumulative: that record and information before the passenger bought"
    ]
   },
   "rail-trainline-trenitalia-sixty-minute-band": {
@@ -8699,6 +11585,19 @@
      "url": "https://www.thetrainline.com/en-us/via/europe/how-to-get-a-refund-for-a-canceled-or-delayed-train-in-europe",
      "site": "Trainline English website"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "60 + Mins"
+    },
+    {
+     "lang": "English",
+     "text": "50%"
+    }
+   ],
+   "lawMarks": [
+    "25% at 60–119 minutes and 50% at 120 minutes or more"
    ]
   },
   "rail-bob-international-assistance-48-hours": {
@@ -8732,6 +11631,19 @@
      "url": "https://www.bob-fn.de/service/hinweis-fuer-mobilitaetseingeschraenkte-reisende/",
      "site": "BOB · DE"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "48 Stunden Vorlauf erforderlich"
+    },
+    {
+     "lang": "English",
+     "text": "requires 48 hours’ advance notice"
+    }
+   ],
+   "lawMarks": [
+    "Article 24(a) permits 24 hours’ notice"
    ]
   },
   "rail-trenord-separate-ticket-contracts": {
@@ -8773,6 +11685,23 @@
      "url": "https://www.trenord.it/en/assistance/useful-information/customers-rights-and-responsibilities/",
      "site": "Trenord rights · EN"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Italian",
+     "text": "in virtù di differenti biglietti, i viaggi devono essere considerati distinti e separati tra loro"
+    },
+    {
+     "lang": "English",
+     "text": "under different tickets, the journeys must be considered distinct and separate"
+    },
+    {
+     "lang": "English",
+     "text": "by virtue of different tickets, the trips must be considered distinct and separate from each other"
+    }
+   ],
+   "lawMarks": [
+    "one ticket or several tickets purchased in a single commercial transaction"
    ]
   },
   "rail-snalltaget-known-delay-refund": {
@@ -8821,6 +11750,23 @@
      "url": "https://boka.snalltaget.se/en/terms-and-conditions",
      "site": "Snälltåget · EN"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Swedish",
+     "text": "ersättning enligt punkt 9.1–9.3"
+    },
+    {
+     "lang": "English",
+     "text": "compensation under points 9.1–9.3"
+    },
+    {
+     "lang": "English",
+     "text": "compensation according to sections 9.1–9.3"
+    }
+   ],
+   "lawMarks": [
+    "it does not add a prior-knowledge exception to Article 18"
    ]
   },
   "banking-isybank-residence": {
@@ -8862,6 +11808,19 @@
      "tr": "The Basic Account is offered in compliance with the obligation to offer it under Articles 126-noviesdecies et seq. of Legislative Decree No. 385/1993 (Consolidated Banking Act) and the implementing decree (Ministry of Economy and Finance Decree No. 70/2018).",
      "url": "https://www.isybank.com/it/conti/conto-base.html"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Italian",
+     "text": "ai soli residenti in Italia"
+    },
+    {
+     "lang": "English",
+     "text": "only for residents of Italy"
+    }
+   ],
+   "lawMarks": [
+    "consumers legally resident in the EU a right to a basic account regardless of where they live"
    ]
   },
   "banking-caixa-popular-obsolete-free-account-thresholds": {
@@ -8895,6 +11854,35 @@
      "url": "https://www.caixapopular.es/es/particulares/cuentas/cuenta-pago-basica",
      "site": "caixapopular.es"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Spanish",
+     "text": "inferiores a dos veces el indicador público de renta"
+    },
+    {
+     "lang": "Spanish",
+     "text": "inferiores a dos veces y media el indicador público de renta"
+    },
+    {
+     "lang": "Spanish",
+     "text": "inferiores a tres veces el indicador público de renta"
+    },
+    {
+     "lang": "English",
+     "text": "below twice the public income indicator"
+    },
+    {
+     "lang": "English",
+     "text": "below two and a half times the public income indicator"
+    },
+    {
+     "lang": "English",
+     "text": "below three times the public income indicator"
+    }
+   ],
+   "lawMarks": [
+    "ceilings of 3, 3.5 and 4 times the twelve-payment IPREM"
    ]
   },
   "banking-bnf-standard-account-eligibility": {
@@ -8928,6 +11916,15 @@
      "url": "https://www.bnf.bank/personal/basic-payment-account",
      "site": "bnf.bank"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "and are not eligible for a Standard Deposit Account"
+    }
+   ],
+   "lawMarks": [
+    "Eligibility for a commercial standard deposit account is not an additional exclusion from the basic-account right"
    ]
   },
   "banking-crelan-unindexed-asset-ceiling": {
@@ -8961,6 +11958,19 @@
      "url": "https://www.crelan.be/nl/particulieren/betalen/zichtrekeningen/product/basisbankdienst",
      "site": "www.crelan.be"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Dutch",
+     "text": "niet meer dan 10.000 euro"
+    },
+    {
+     "lang": "English",
+     "text": "no more than 10,000 euros"
+    }
+   ],
+   "lawMarks": [
+    "€10,239.43 from 1 January 2026"
    ]
   },
   "banking-revolut-be-unindexed-asset-ceiling": {
@@ -9002,6 +12012,19 @@
      "tr": "Changes to your account. If your basic banking service account is no longer suitable for your needs or you are no longer eligible for it, you can contact us through the Revolut app. You then have two options: you can switch from your basic banking service account (i.e. an account with basic features) to an ordinary Revolut account; or you can close your basic banking service account entirely. You cannot close your basic banking service account entirely if you have entered into a separate agreement with us or another Revolut company requiring you to keep your personal account with us open until that other agreement ends (for example, a personal loan). In those circumstances, only the option of switching your basic banking service account will be available to you. Switching to a standard Revolut account. If you switch to a standard Revolut account, costs and fees will apply in accordance with the fee information on our webpage for Belgium. We will switch your basic banking service account to a standard Revolut account with two months’ notice in the following circumstances: you have more than €10,000 in accumulated annual credit. You can prevent us from switching you to a standard Revolut account by contacting us within that notice period to close your basic banking service account entirely (unless we cannot close your account as described in these terms).",
      "url": "https://cdn.revolut.com/terms_and_conditions/pdf/basisbankdienstrekening_1beb0317_1.2.0_1789124296_nl.pdf"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Dutch",
+     "text": "niet meer dan 10.000 euro gecumuleerd jaarlijks kredietsaldo"
+    },
+    {
+     "lang": "English",
+     "text": "no more than 10,000 euros in accumulated annual credit balance"
+    }
+   ],
+   "lawMarks": [
+    "€10,239.43 from 1 January 2026"
    ]
   },
   "banking-beobank-belgium-principal-residence": {
@@ -9043,6 +12066,19 @@
      "tr": "Who is entitled to this Basic Banking Service Account³? You are a natural person. You are an adult. You live in the European Union. You have no payment account in Belgium. You have accounts (a savings account, term account or securities portfolio) at Beobank or another bank, but their combined average annual credit balance is less than €10,239.43.",
      "url": "https://www.beobank.be/nl/betalen/zichtrekeningen/basisbankdienst.html"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Dutch",
+     "text": "zijn hoofdverblijfplaats zich in België bevindt"
+    },
+    {
+     "lang": "English",
+     "text": "their principal residence is in Belgium"
+    }
+   ],
+   "lawMarks": [
+    "A principal home in Belgium is not a separate condition"
    ]
   },
   "banking-revolut-be-immediate-residence-termination": {
@@ -9076,6 +12112,27 @@
      "url": "https://cdn.revolut.com/terms_and_conditions/pdf/basisbankdienstrekening_1beb0317_1.2.0_1789124296_nl.pdf",
      "site": "www.revolut.com"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Dutch",
+     "text": "onmiddellijke ingang en zonder voorafgaande kennisgeving"
+    },
+    {
+     "lang": "Dutch",
+     "text": "u niet langer legaal verblijft in een lidstaat van de Europese Unie"
+    },
+    {
+     "lang": "English",
+     "text": "with immediate effect and without prior notice"
+    },
+    {
+     "lang": "English",
+     "text": "you no longer reside legally in an EU Member State"
+    }
+   ],
+   "lawMarks": [
+    "termination of the framework contract requires at least two months’ notice"
    ]
   },
   "banking-beobank-no-notice-eligibility-loss": {
@@ -9117,6 +12174,27 @@
      "url": "https://www.beobank.be/fr/payer/comptes-courants/service-bancaire-de-base.html",
      "site": "www.beobank.be"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Dutch",
+     "text": "of als u niet langer aan de toekenningsvoorwaarden voldoet, kan Beobank de rekening zonder voorafgaande kennisgeving opzeggen"
+    },
+    {
+     "lang": "French",
+     "text": "ou si les conditions d’octroi ne sont plus respectées, le compte pourra être résilié sans préavis par Beobank"
+    },
+    {
+     "lang": "English",
+     "text": "or no longer meet the eligibility conditions, Beobank may terminate the account without prior notice"
+    },
+    {
+     "lang": "English",
+     "text": "or if the eligibility conditions are no longer met, Beobank may terminate the account without notice"
+    }
+   ],
+   "lawMarks": [
+    "termination of the framework contract requires at least two months’ notice"
    ]
   },
   "banking-n26-supported-country": {
@@ -9158,6 +12236,23 @@
      "url": "https://support.n26.com/en-de/account-and-personal-details/miscellaneous/account-in-conjunction-with-zkg-30",
      "site": "support.n26.com/en-de — statutory account FAQ"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "außerhalb eines von uns unterstützten Landes lebst"
+    },
+    {
+     "lang": "English",
+     "text": "you live outside one of our supported countries"
+    },
+    {
+     "lang": "English",
+     "text": "Live outside of a supported country"
+    }
+   ],
+   "lawMarks": [
+    "a commercial supported-market list is not among them"
    ]
   },
   "banking-n26-one-year-inactivity": {
@@ -9198,6 +12293,19 @@
      "url": "https://docs.n26.com/legal/01+DE/02+ZKG/de/14zkgBasis_Kontoantrag-de.pdf",
      "site": "N26 legal-index application — printed page 1"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ein Jahr lang umsatzlos geführt wird"
+    },
+    {
+     "lang": "English",
+     "text": "maintained without turnover for one year"
+    }
+   ],
+   "lawMarks": [
+    "more than 24 consecutive months without a holder-initiated payment"
    ]
   },
   "banking-activobank-obsolete-transfer-allowance": {
@@ -9231,6 +12339,19 @@
      "url": "https://www.activobank.pt/pt/ajuda/Pages/quais-sao-os-servicos-incluidos-numa-conta-de-servicos-minimos-bancarios.aspx",
      "site": "ActivoBank"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Portuguese",
+     "text": "um máximo, por cada ano civil, de 24 Transferências Interbancárias nacionais e na União Europeia"
+    },
+    {
+     "lang": "English",
+     "text": "a maximum of 24 domestic and EU interbank transfers per calendar year"
+    }
+   ],
+   "lawMarks": [
+    "48 interbank transfers per calendar year via homebanking or the bank’s own apps"
    ]
   },
   "banking-abanca-portugal-obsolete-2026-fee-cap": {
@@ -9264,6 +12385,19 @@
      "url": "https://www.abanca.pt/pt/contas/conta-servicos-minimos-bancarios/",
      "site": "ABANCA Portugal"
     }
+   ],
+   "marks": [
+    {
+     "lang": "Portuguese",
+     "text": "não pode exceder 5,23€"
+    },
+    {
+     "lang": "English",
+     "text": "may not exceed €5.23"
+    }
+   ],
+   "lawMarks": [
+    "expressed by Banco de Portugal as €5.37"
    ]
   },
   "banking-hsbc-malta-termination-notice": {
@@ -9297,6 +12431,19 @@
      "url": "https://www.hsbc.com.mt/content/dam/hsbc/hbmt/docs/basic-bank-account-terms-and-conditions.pdf",
      "site": "hsbc.com.mt"
     }
+   ],
+   "marks": [
+    {
+     "lang": "English",
+     "text": "without any prior notification"
+    },
+    {
+     "lang": "English",
+     "text": "You are no longer legally resident in any EU Member State"
+    }
+   ],
+   "lawMarks": [
+    "at least two months before termination on that ground"
    ]
   },
   "returns-mercedes-original-packaging": {
@@ -9330,6 +12477,19 @@
      "url": "https://originalteile.mercedes-benz.de/kundenservice/retouren/",
      "site": "Mercedes-Benz AG"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "in unbeschädigter Originalverpackung"
+    },
+    {
+     "lang": "English",
+     "text": "in undamaged original packaging"
+    }
+   ],
+   "lawMarks": [
+    "missing or damaged original packaging does not itself remove the statutory right"
    ]
   },
   "returns-shr-unopened-packaging": {
@@ -9363,6 +12523,19 @@
      "url": "https://shr-germany-onlineshop.de/content/40-widerrufsbelehrung-retourenbedingungen",
      "site": "SHR Germany Onlineshop GmbH"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "im ungeöffneten, unbenutzten Originalzustand befinden und in der Originalverpackung"
+    },
+    {
+     "lang": "English",
+     "text": "in their unopened, unused original condition and returned to us in their original packaging"
+    }
+   ],
+   "lawMarks": [
+    "Ordinary goods can be opened and examined without losing that right"
    ]
   },
   "returns-cwt-original-seal": {
@@ -9396,6 +12569,19 @@
      "url": "https://cwt-shop.de/policies/refund-policy",
      "site": "CWT-Shop (Confidential-Works)"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Der Artikel muss sich in der Originalverpackung befinden und das Original Siegel muss unbeschädigt sein"
+    },
+    {
+     "lang": "English",
+     "text": "The item must be in its original packaging and the original seal must be undamaged"
+    }
+   ],
+   "lawMarks": [
+    "opening a package to inspect the goods does not by itself remove withdrawal"
    ]
   },
   "returns-bestnature-duvet-hygiene": {
@@ -9429,6 +12615,19 @@
      "url": "https://www.best-nature-shop.de/product-page/zudecke-mit-schafschurwolle",
      "site": "best-nature-shop.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ein Hygieneartikel und daher vom Widerrufsrecht ausgeschlossen"
+    },
+    {
+     "lang": "English",
+     "text": "a hygiene item at Best Nature Shop and is therefore excluded from the right of withdrawal"
+    }
+   ],
+   "lawMarks": [
+    "require qualifying sealed goods and removal of their seal after delivery"
    ]
   },
   "returns-chantelle-period-panties-hygiene": {
@@ -9470,6 +12669,19 @@
      "tr": "Returns within 14 days",
      "url": "https://chantelle.com/de/produkt/chantelle-periodenunterwaesche-periodenunterwaesche-shorty-c17p40-011"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "aus hygienischen Gründen, vom Widerrufsrecht ausgeschlossen"
+    },
+    {
+     "lang": "English",
+     "text": "for hygiene reasons, our period panties are excluded from the right of withdrawal"
+    }
+   ],
+   "lawMarks": [
+    "require a suitable sealed product and removal of that seal after delivery"
    ]
   },
   "returns-espadrij-dispatch-after-delivery": {
@@ -9503,6 +12715,19 @@
      "url": "https://espadrij.com/pages/retoure",
      "site": "espadrij.com"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ab Erhalt innerhalb von 14 Tagen zurücksenden"
+    },
+    {
+     "lang": "English",
+     "text": "send your items back within 14 days of receipt"
+    }
+   ],
+   "lawMarks": [
+    "declare a timely statutory withdrawal near the end of the normal 14-day cooling-off period and then send the goods back without undue delay within the following 14 days"
    ]
   },
   "returns-espadrij-excludes-outbound-delivery": {
@@ -9536,6 +12761,19 @@
      "url": "https://espadrij.com/pages/widerrufsrecht",
      "site": "espadrij.com"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ausschließlich der Lieferkosten"
+    },
+    {
+     "lang": "English",
+     "text": "excluding delivery costs"
+    }
+   ],
+   "lawMarks": [
+    "require repayment of the cheapest standard outbound delivery charge"
    ]
   },
   "returns-shr-excludes-outbound-delivery": {
@@ -9569,6 +12807,19 @@
      "url": "https://shr-germany-onlineshop.de/content/3-agb",
      "site": "SHR Germany Onlineshop GmbH"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "abzüglich der Lieferkosten"
+    },
+    {
+     "lang": "English",
+     "text": "minus delivery costs"
+    }
+   ],
+   "lawMarks": [
+    "include the cheapest standard outbound delivery charge when the consumer withdraws from the whole purchase"
    ]
   },
   "returns-shr-thirty-day-refund": {
@@ -9602,6 +12853,19 @@
      "url": "https://shr-germany-onlineshop.de/content/3-agb",
      "site": "SHR Germany Onlineshop GmbH"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "innerhalb von 30 Tagen nach Eingang Ihrer Widerrufserklärung"
+    },
+    {
+     "lang": "English",
+     "text": "within 30 days after receipt of your withdrawal declaration"
+    }
+   ],
+   "lawMarks": [
+    "no later than 14 days after the trader receives that notice"
    ]
   },
   "returns-kraus-excludes-outbound-delivery": {
@@ -9635,6 +12899,19 @@
      "url": "https://fahrrad-kraus.de/policies/refund-policy",
      "site": "Fahrrad Kraus (Gebr. Kraus Bike & More Möhlmeyer GmbH & Co. KG)"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "mit Ausnahme der Lieferkosten"
+    },
+    {
+     "lang": "English",
+     "text": "excluding delivery costs"
+    }
+   ],
+   "lawMarks": [
+    "entitled to the cheapest standard outbound delivery charge"
    ]
   },
   "returns-kraus-thirty-day-refund": {
@@ -9668,6 +12945,19 @@
      "url": "https://fahrrad-kraus.de/policies/refund-policy",
      "site": "Fahrrad Kraus (Gebr. Kraus Bike & More Möhlmeyer GmbH & Co. KG)"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "spätestens binnen 30 Tagen"
+    },
+    {
+     "lang": "English",
+     "text": "no later than 30 days"
+    }
+   ],
+   "lawMarks": [
+    "repayment without undue delay and within 14 days for statutory withdrawal"
    ]
   },
   "returns-elektor-return-risk": {
@@ -9701,6 +12991,19 @@
      "url": "https://www.elektor.de/pages/service",
      "site": "Elektor Verlag GmbH"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "das Risiko der Rücksendung der Ware tragen"
+    },
+    {
+     "lang": "English",
+     "text": "risk of returning the goods"
+    }
+   ],
+   "lawMarks": [
+    "the trader bears accidental return-transit risk after statutory consumer withdrawal"
    ]
   },
   "returns-xenial-return-risk": {
@@ -9734,6 +13037,19 @@
      "url": "https://xenial-shop.de/pages/ruckgabebedingungen",
      "site": "xenial-shop.de (Rodaro Germany GmbH)"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "das Risiko der Rücksendung – ausgenommen bei persönlicher Abgabe"
+    },
+    {
+     "lang": "English",
+     "text": "risk of returning the goods, except when handing them over in person"
+    }
+   ],
+   "lawMarks": [
+    "the trader bears accidental return-transit risk after statutory consumer withdrawal"
    ]
   },
   "returns-montredo-own-carrier-risk": {
@@ -9767,6 +13083,19 @@
      "url": "https://www.montredo.com/de/policies/refund-policy",
      "site": "montredo.com/de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "tragen Sie das Risiko des Verlusts und der Beschädigung während des Rücktransports"
+    },
+    {
+     "lang": "English",
+     "text": "you bear the risk of loss and damage during return transport"
+    }
+   ],
+   "lawMarks": [
+    "choosing a different return carrier does not by itself move accidental transit risk to the consumer"
    ]
   },
   "returns-schecker-unopened-packaging": {
@@ -9800,6 +13129,19 @@
      "url": "https://www.schecker.de/",
      "site": "schecker.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ungeöffnet und originalverpackt"
+    },
+    {
+     "lang": "English",
+     "text": "unopened and in their original packaging"
+    }
+   ],
+   "lawMarks": [
+    "opening ordinary packaging to inspect the goods does not remove withdrawal rights"
    ]
   },
   "returns-kanibox-bstock-discount-exclusion": {
@@ -9833,6 +13175,19 @@
      "url": "https://www.kanibox.de/produkt/schwarze-kanisterbar-fuer-eine-flasche-und-6-glaeser-b-ware/",
      "site": "www.kanibox.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Die B-Ware und Sonderangebote sind vom Widerrufsrecht ausgeschlossen"
+    },
+    {
+     "lang": "English",
+     "text": "B-stock and special offers are excluded from the right of withdrawal"
+    }
+   ],
+   "lawMarks": [
+    "A sale price or status as an exhibition item does not itself exclude statutory withdrawal"
    ]
   },
   "returns-dropsize-underwear-intact-seal": {
@@ -9866,6 +13221,27 @@
      "url": "https://dropsize.store/policies/terms-of-service",
      "site": "dropsize.store"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "kein Widerrufsrecht, auch dann nicht, wenn"
+    },
+    {
+     "lang": "German",
+     "text": "der Artikel „ungeöffnet“ oder „ungetragen“ erscheint"
+    },
+    {
+     "lang": "English",
+     "text": "no right of withdrawal for these products, even if"
+    },
+    {
+     "lang": "English",
+     "text": "the item appears “unopened” or “unworn”"
+    }
+   ],
+   "lawMarks": [
+    "requires qualifying sealed goods and removal of the seal after delivery"
    ]
   },
   "returns-labadi-sale-exclusion": {
@@ -9899,6 +13275,19 @@
      "url": "https://labadifashion.de/pages/faq",
      "site": "labadifashion.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "SALE Artikel sind von Umtausch und Rückgabe ausgeschlossen"
+    },
+    {
+     "lang": "English",
+     "text": "SALE items are excluded from exchange and return"
+    }
+   ],
+   "lawMarks": [
+    "Price reductions are not an exception to statutory withdrawal"
    ]
   },
   "returns-labadi-hijab-hygiene-exclusion": {
@@ -9940,6 +13329,19 @@
      "tr": "14-day returns",
      "url": "https://labadifashion.de/products/premium-jersey-blackk"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Hygieneartikel und sind daher von der Rückgabe ausgeschlossen"
+    },
+    {
+     "lang": "English",
+     "text": "hygiene items and are therefore excluded from return"
+    }
+   ],
+   "lawMarks": [
+    "do not exclude an otherwise eligible standard item while any hygiene seal remains intact"
    ]
   },
   "returns-paw-standard-cushion-bespoke": {
@@ -9973,6 +13375,19 @@
      "url": "https://paw.de/products/vintage-diamond-hundekissen",
      "site": "paw.de"
     }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "nach Ihren individuellen Vorgaben angefertigt und eindeutig auf Ihre persönlichen Bedürfnisse zugeschnitten"
+    },
+    {
+     "lang": "English",
+     "text": "made to your individual specifications and clearly tailored to your personal needs"
+    }
+   ],
+   "lawMarks": [
+    "Making goods only after an order does not alone satisfy that exception"
    ]
   }
  },
