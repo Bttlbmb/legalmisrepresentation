@@ -110,10 +110,10 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .side-label { font-family: var(--f-body); font-size: var(--s-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
 .side-claim .side-label { color: var(--claim); }
 .side-law .side-label { color: var(--law); }
-.side blockquote { margin: 0; font-family: var(--f-display); font-size: var(--s-lg); line-height: 1.45; overflow-wrap: anywhere; }
-.side blockquote::before { content: "“"; } .side blockquote::after { content: "”"; }
-.tr { color: var(--ink-2); font-size: var(--s-sm); }
-.tr::before { content: "Translation  "; font-size: var(--s-xs); letter-spacing: .05em; text-transform: uppercase; color: var(--ink-3); white-space: pre; }
+.side blockquote, .q-main { margin: 0; font-family: var(--f-display); font-size: var(--s-lg); line-height: 1.45; overflow-wrap: anywhere; }
+.q-label { font-size: var(--s-xs); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 3px; }
+.q-orig { border-top: 1px solid var(--rule-2); padding-top: 12px; }
+.q-orig blockquote { font-size: var(--s-md); color: var(--ink-2); }
 .law-text { font-family: var(--f-display); font-size: var(--s-lg); line-height: 1.45; }
 .side-meta { margin-top: auto; padding-top: 6px; font-size: var(--s-xs); color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 4px 14px; }
 .side-meta a { color: var(--ink-2); }
@@ -333,17 +333,11 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .facts { display: flex; flex-wrap: wrap; gap: 8px 32px; margin: 0; }
 .facts > div { display: grid; gap: 1px; min-width: 0; }
 .facts .law-d { color: var(--law); }
-.ver-label { font-size: var(--s-xs); color: var(--ink-3); overflow-wrap: anywhere; }
-.ver-label b { color: var(--ink-2); font-weight: 600; }
 .q { display: grid; gap: 10px; }
-.versions { display: grid; gap: 1px; border-top: 1px solid var(--rule-2); padding-top: 10px; }
-.versions > p { font-size: var(--s-xs); color: var(--ink-3); padding: 0 0 4px; }
-.ver { display: flex; gap: 8px; align-items: baseline; font: inherit; font-size: var(--s-xs); text-align: left; background: none; border: 0; padding: 3px 6px; margin-left: -6px; border-radius: 3px; color: var(--ink-2); cursor: pointer; min-width: 0; }
-.ver code { font-family: var(--f-mono); font-size: 0.6875rem; color: var(--ink-3); width: 20px; flex: none; }
-.ver span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.ver:hover { background: var(--rule-2); color: var(--ink); }
-.ver[aria-pressed="true"] { background: var(--claim-bg); color: var(--ink); }
-.ver-more { font: inherit; font-size: var(--s-xs); background: none; border: 0; padding: 4px 0 0; color: var(--ink-2); text-decoration: underline; cursor: pointer; justify-self: start; }
+.versions { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 14px; font-size: var(--s-xs); color: var(--ink-3); }
+.versions:empty { display: none; }
+.ver, .ver-more { font: inherit; background: none; border: 0; padding: 0; color: var(--ink-2); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; cursor: pointer; text-align: left; }
+.ver:hover, .ver-more:hover { color: var(--ink); text-decoration-color: var(--ink-3); }
 
 /* front page (A1): government and companies side by side */
 .home-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; padding-top: 12px; }
@@ -389,7 +383,8 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
   .proto-label { display: none; }
   .theme-btn { width: 44px; height: 44px; }
   .row-group .n { display: none; }
-  .ver, .ver-more { min-height: 44px; align-items: center; }
+  .ver, .ver-more { min-height: 44px; display: inline-flex; align-items: center; }
+  .versions > span:first-child { flex-basis: 100%; }
   .strip { grid-template-columns: minmax(0, 1fr); }
   .strip > div + div { padding-left: 0; border-left: none; border-top: 1px solid var(--rule-2); }
 }
@@ -420,8 +415,12 @@ const LAYOUTS = [
   { id: "B", name: "Reader" },
   { id: "C", name: "Patterns" },
 ];
+const QUOTES = { English: ["“", "”"], German: ["„", "“"], French: ["«\u202f", "\u202f»"], Spanish: ["«", "»"], Italian: ["«", "»"],
+  Portuguese: ["“", "”"], Dutch: ["“", "”"], Czech: ["„", "“"], Slovak: ["„", "“"], Polish: ["„", "”"], Swedish: ["”", "”"],
+  Finnish: ["”", "”"], Greek: ["«", "»"], Turkish: ["“", "”"], Japanese: ["「", "」"] };
+const quoted = (text, lang) => { const [open, close] = QUOTES[lang] || QUOTES.English; return open + text + close; };
 const LANG = { German: "de", English: "en", French: "fr", Spanish: "es", Italian: "it", Dutch: "nl", Czech: "cs",
-  Finnish: "fi", Swedish: "sv", Polish: "pl", Portuguese: "pt", Greek: "el", Slovak: "sk", Japanese: "ja" };
+  Finnish: "fi", Swedish: "sv", Polish: "pl", Portuguese: "pt", Greek: "el", Slovak: "sk", Japanese: "ja", Turkish: "tr" };
 
 // Citations join provisions with " · "; keep the dot on the line of the provision before it.
 const provText = p => esc(p).replace(/ · /g, "&nbsp;· ");
@@ -498,8 +497,7 @@ function caseView(c, L) {
     <div class="compare">
       <section class="side side-claim">
         <h2 class="side-label">What the source says</h2>
-        <blockquote lang="${LANG[c.lang] || ""}">${esc(c.quote)}</blockquote>
-        ${c.tr ? `<p class="tr">${esc(c.tr)}</p>` : ""}
+        <div class="q">${quoteBlocks({ lang: c.lang, quote: c.quote, tr: c.tr })}</div>
         <p class="side-meta"><span>${metaSrc}</span><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener">Open source ↗</a></p>
       </section>
       <section class="side side-law">
@@ -614,19 +612,31 @@ function strip(a) {
       ${a.langs.length > 1 ? `<small>${esc(listJoin(a.langs))}</small>` : ""}</dd></div>
   </dl>`;
 }
+// English translation first, then the original in its own language; an English original stands alone.
+function quoteBlocks(v) {
+  const orig = `<blockquote lang="${LANG[v.lang] || ""}">${esc(quoted(v.quote, v.lang))}</blockquote>`;
+  if (!v.tr) return `<div class="q-block"><p class="q-label">Original · ${esc(v.lang)}</p>${orig}</div>`;
+  return `<div class="q-block"><p class="q-label">English translation</p><p class="q-main" lang="en">${esc(quoted(v.tr, "English"))}</p></div>
+    <div class="q-block q-orig"><p class="q-label">Original · ${esc(v.lang)}</p>${orig}</div>`;
+}
 function verBody(c, i) {
   const v = c.versions[i] || { lang: c.lang, quote: c.quote, tr: c.tr, url: c.sourceUrl, site: "" };
-  return `<p class="ver-label"><b>${esc(v.lang)} version</b>${v.site ? ` · ${esc(v.site)}` : ""}</p>
-    <blockquote lang="${LANG[v.lang] || ""}">${esc(v.quote)}</blockquote>
-    ${v.tr ? `<p class="tr">${esc(v.tr)}</p>` : ""}
-    <p class="side-meta"><a href="${esc(v.url)}" target="_blank" rel="noopener">Open this version ↗</a></p>`;
+  return `${quoteBlocks(v)}
+    <p class="side-meta"><span>${v.site ? `${esc(v.site)} · ` : ""}<a href="${esc(v.url)}" target="_blank" rel="noopener">Open page ↗</a></span></p>`;
+}
+const VER_SHOW = 6;
+function versionLinks(c, cur) {
+  const vs = c.versions, n = vs.length;
+  if (n < 2) return "";
+  const same = l => vs.filter(v => v.lang === l).length > 1;
+  const others = vs.map((v, i) => [v, i]).filter(([, i]) => i !== cur);
+  return `<span>Also found in</span>
+    ${others.map(([v, i], k) => `<button type="button" class="ver" data-ver="${i}" ${k >= VER_SHOW ? "hidden" : ""}>${esc(same(v.lang) && v.site ? `${v.lang} (${v.site})` : v.lang)}</button>`).join("")}
+    ${others.length > VER_SHOW ? `<button type="button" class="ver-more">Show all ${others.length}</button>` : ""}`;
 }
 function caseViewS(c) {
-  const a = AREA[c.area], t = topicOf(c), n = c.versions.length, SHOW = 6;
+  const a = AREA[c.area], t = topicOf(c);
   const where = c.countries.length ? countryList(c.countries) : (a.whereShort || a.where);
-  const vers = n > 1 ? `<div class="versions"><p>Found in ${n} versions</p>
-    ${c.versions.map((v, i) => `<button type="button" class="ver" data-ver="${i}" aria-pressed="${i === 0}" ${i >= SHOW ? "hidden" : ""}><code>${esc(LC[v.lang] || v.lang)}</code><span>${esc(v.site || v.lang)}</span></button>`).join("")}
-    ${n > SHOW ? `<button type="button" class="ver-more">Show all ${n}</button>` : ""}</div>` : "";
   return `<article class="case" data-case="${c.id}">
     <div class="case-head">
       <h1 class="case-title"><span class="pub">${esc(c.pub)}</span> ${esc(c.claim)}</h1>
@@ -636,7 +646,7 @@ function caseViewS(c) {
       <section class="side side-claim">
         <h2 class="side-label">What the source says</h2>
         <div class="q">${verBody(c, 0)}</div>
-        ${vers}
+        <p class="versions">${versionLinks(c, 0)}</p>
       </section>
       <section class="side side-law">
         <h2 class="side-label">What the law says</h2>
@@ -653,7 +663,7 @@ document.addEventListener("click", e => {
   if (b) {
     const art = b.closest("[data-case]"), c = CASES[art.dataset.case];
     art.querySelector(".q").innerHTML = verBody(c, +b.dataset.ver);
-    art.querySelectorAll(".ver").forEach(x => x.setAttribute("aria-pressed", x === b));
+    art.querySelector(".versions").innerHTML = versionLinks(c, +b.dataset.ver);
     return;
   }
   const m = e.target.closest(".ver-more");
