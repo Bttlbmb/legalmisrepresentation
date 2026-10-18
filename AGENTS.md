@@ -18,7 +18,7 @@ The page shows what the data holds and never rewrites a quotation. Each behaviou
 - **Passage** (`quote`, `tr`): the English translation comes first and the original follows under its own label, in the quotation marks of its language (`QUOTES`). An English original stands alone. A first line of up to six words without final punctuation becomes the label's heading; line breaks become paragraphs and "•" items become a list. The original always starts hidden behind "Show", marks included; once a reader opens one, later originals stay open for the rest of the session. An English original has no translation to lead with, so it is always shown.
 - **Layout mode**: a case whose default text (the translation, or an English original) has more than 60 words (`LONG_WORDS`) gets a wider source column and a pinned law column; shorter ones keep two equal columns. The mode is fixed per case so switching versions does not move the columns. Below 640px the panels stack with the law text first.
 - **Versions** (`versions`): one chip per language above the passage, merged when a version repeats the same page and wording, plus a "Page" selector when a language has several pages. Switching must not move the control or drop focus. `cut` on a version shows a fixed note that the publisher's own text ends mid-sentence.
-- **Context quotes** (`ctx`): shown under the compare panels as "Also on the source site", translation first.
+- **Context quotes** (`ctx`): retained in the dataset but not displayed. The owner removed the "Also on the source site" section for the MVP to keep case pages simple. Keep the main passage and the separate scope disclosure intact.
 - **Marked wording** (`marks`, `lawMarks`): the passage highlights every occurrence of each mark in the matching language, the law text highlights `lawMarks`, and a one-line key explains both. A case with no marks shows no highlights and no key. As of 18 October 2026 all 229 published cases have source and law marks drafted and cross-reviewed by separate agents, and published on the live site. These are presentation reviews against retained research, not fresh legal or live-source checks. Correct source versions stay unmarked: this applies to the Thai Airways French passage and its English translation. See the backend's data format for how researchers add marks.
 
 Display rules agreed with the project owner:
@@ -40,7 +40,6 @@ Display rules agreed with the project owner:
 A review of 18 October 2026 produced ten proposals. Built and published: the version switcher, wider titles, kept-together ranges and citations, and shorter front-page issue lists. Not built, so do not treat them as decided; ask the owner first:
 
 - Stack the compare panels up to 900px instead of 640px (at 768px the law column is only about 300px wide).
-- Show context quotes in columns about 60 characters wide on wide screens (today a line runs 116 to 135 characters).
 - Treat only a first line of three words or fewer as a heading, so a six-word table header stays in the passage.
 - Give every disclosure row a 44px tap area on phones.
 - Optional: put the hypothetical example after the passage on stacked layouts; add an issue jump list to area pages with five or more issues.
