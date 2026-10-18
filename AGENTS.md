@@ -25,7 +25,7 @@ Display rules agreed with the project owner:
 
 - Titles use the publisher in bold followed by the claim, set with `text-wrap: pretty`, not `balance`: balance splits a two-line title evenly and breaks it far short of the available width. The same holds for the front-page and area-page intro lines and the country breakdown, which have no width cap. Keep `balance` only for headings in narrow columns, such as the issue headings on area pages, where the heading wraps anyway. A claim that already starts with the publisher's name ("Rail Europe says …", "Trainline’s …") is not preceded by it twice.
 - Digit ranges such as 7–14 and citation groups such as 5(1)(c) never break across lines. This uses non-breaking spans, so copy and search still work.
-- Government areas show their law but no "Cases from N countries": every case concerns a German institution and the countries only mark where an embassy sits. Company areas keep the count.
+- On the front page a government area shows a law line only when it differs from the section's "German law" (today only Visas and passports, "EU and German law"); never decide this from the languages of the sources. Government areas show their law but no "Cases from N countries": every case concerns a German institution and the countries only mark where an embassy sits. Company areas keep the count.
 - The front page lists each area's first four issues and "and N more issues"; the area page lists them all.
 - The header shows the logo (white not-equal sign on the dark header tone) beside the title; both words use the ink colour, with no red or green because those colours mean claim and law elsewhere.
 

@@ -638,8 +638,10 @@ const SECTOR_SCOPE = {
          sub: "Websites and terms of companies selling to people in EU countries, checked against EU law." },
 };
 const cname = x => CN[x] || x;
-// Areas fully described by their section heading (Germany, German law, German-language sources) need no scope line.
-const homeOnly = a => a.sector === "gov" && a.countries.join() === "DE" && a.langs.join() === "German";
+// The government section already says "German law", so an area shows a law line only when it adds something ("EU and German law").
+// This must not depend on the languages of the sources: an English passage in one area must not change its label.
+const SECTOR_LAW = { gov: "German law" };
+const homeOnly = a => SECTOR_LAW[a.sector] === a.lawShort;
 const varies = a => ({ cc: a.countries.length > 1, lang: a.langs.length > 1 });
 function whereShort(a) {
   const n = a.countries.length;
