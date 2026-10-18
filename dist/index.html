@@ -668,6 +668,8 @@ document.addEventListener("click", e => {
 });
 
 // "Cases from" counts only where the published cases come from; it is not a claim about search coverage.
+// Government cases all concern German institutions; the countries there are only where an embassy or consulate sits.
+const fromCountries = a => a.sector !== "gov";
 const casesFrom = a => a.countries.length > 1 ? `Cases from ${a.countries.length} countries`
   : a.countries.length ? `Cases from ${cname(a.countries[0])}` : (a.whereShort || a.where);
 function countryBreakdown(a) {
@@ -679,6 +681,7 @@ function countryBreakdown(a) {
   return several.join(", ");
 }
 function scopeHead(a) {
+  if (!fromCountries(a)) return `<p class="meta-line"><span class="law-d">${esc(a.law)}</span></p>`;
   if (a.countries.length < 2) return `<p class="meta-line"><span class="law-d">${esc(a.law)}</span><span>${esc(casesFrom(a))}</span></p>`;
   return `<details class="scope-more"><summary class="meta-line"><span class="law-d">${esc(a.law)}</span><span>Cases from <u>${a.countries.length} countries</u><i aria-hidden="true">⌄</i></span></summary>
     <p>${esc(countryBreakdown(a))}</p></details>`;
@@ -737,7 +740,7 @@ function renderAS(s) {
         return `<section class="home-sec"><div class="sector-h"><h2>${sc.title}</h2><span>${plural(as.reduce((x, a) => x + nCases(a), 0), "case", "cases")}</span></div>
           <p class="sector-sub">${sc.sub}</p>
           <div>${as.map(a => `<a class="area-line" href="${href(L, "area", a.id)}"><h3>${areaTitle(a)}</h3><span class="n">${nCases(a)}<small>cases</small></span>
-            ${homeOnly(a) ? "" : `<p class="scope"><span>${esc(casesFrom(a))}</span><span class="law-s">${esc(a.lawShort)}</span></p>`}
+            ${homeOnly(a) ? "" : `<p class="scope">${fromCountries(a) ? `<span>${esc(casesFrom(a))}</span>` : ""}<span class="law-s">${esc(a.lawShort)}</span></p>`}
             <p class="issues">${esc(listJoin(a.topics.map(t => t.title)))}</p></a>`).join("")}</div></section>`;
       }).join("")}</div>`;
   } else if (s.kind === "home") {
