@@ -538,10 +538,10 @@ const LAYOUTS = [
 ];
 const QUOTES = { English: ["“", "”"], German: ["„", "“"], French: ["«\u202f", "\u202f»"], Spanish: ["«", "»"], Italian: ["«", "»"],
   Portuguese: ["“", "”"], Dutch: ["“", "”"], Czech: ["„", "“"], Slovak: ["„", "“"], Polish: ["„", "”"], Swedish: ["”", "”"],
-  Finnish: ["”", "”"], Greek: ["«", "»"], Turkish: ["“", "”"], Japanese: ["「", "」"], Bulgarian: ["„", "“"], Slovenian: ["„", "“"] };
+  Finnish: ["”", "”"], Greek: ["«", "»"], Turkish: ["“", "”"], Japanese: ["「", "」"], Bulgarian: ["„", "“"], Slovenian: ["„", "“"], Albanian: ["„", "“"], Russian: ["«", "»"] };
 const quoted = (text, lang) => { const [open, close] = QUOTES[lang] || QUOTES.English; return open + text + close; };
 const LANG = { German: "de", English: "en", French: "fr", Spanish: "es", Italian: "it", Dutch: "nl", Czech: "cs",
-  Finnish: "fi", Swedish: "sv", Polish: "pl", Portuguese: "pt", Greek: "el", Slovak: "sk", Japanese: "ja", Turkish: "tr", Bulgarian: "bg", Slovenian: "sl" };
+  Finnish: "fi", Swedish: "sv", Polish: "pl", Portuguese: "pt", Greek: "el", Slovak: "sk", Japanese: "ja", Turkish: "tr", Bulgarian: "bg", Slovenian: "sl", Albanian: "sq", Russian: "ru" };
 
 // Citations join provisions with " · "; keep the dot on the line of the provision before it.
 // Keep digit ranges ("7–14") and citation groups ("5(1)(c)") on one line, without changing the text.
@@ -568,6 +568,9 @@ const titleParts = c => {
   const p = c.pub || "", low = c.claim.toLowerCase(), q = p.toLowerCase();
   if (p && low.startsWith(q + " ")) return [p, c.claim.slice(p.length).trim()];
   if (p && /^['’]s /.test(c.claim.slice(p.length)) && low.startsWith(q)) return [c.claim.slice(0, p.length + 2), c.claim.slice(p.length + 3)];
+  // A case shared by many publishers would make a title of their names; say how many instead.
+  const many = p.split("; ");
+  if (many.length > 4) return [many.every(x => x.startsWith("German Embassy ")) ? `${many.length} German embassies` : `${many.length} publishers`, c.claim];
   return [p, c.claim];
 };
 const rowTitle = c => { const [a, b] = titleParts(c); return `<b>${esc(a)}</b> ${keep(b)}`; };
@@ -1154,9 +1157,9 @@ function dirHtml(L, g) {
   return cut.map(e => `<a class="res-row" href="${entityHref(L, g, e)}"><b>${esc(e.name)}</b><small>${entitySub(g, e)}</small>${entityDots(g, e)}</a>`).join("") + more;
 }
 function dirControls(g) {
-  return `<div class="res-ctl"><input class="res-search" type="search" value="${esc(DIR.q)}" placeholder="Search ${esc(g.title)}${g.states.length > 1 ? " or state" : ""}" aria-label="Search ${esc(g.title)}" autocomplete="off">
+  return `<div class="res-ctl"><input class="res-search" type="search" value="${esc(DIR.q)}" placeholder="Search ${esc(g.title)}${g.states.length > 1 ? ` or ${g.region || "state"}` : ""}" aria-label="Search ${esc(g.title)}" autocomplete="off">
     <div class="res-chips"><button type="button" data-f="bad" aria-pressed="${DIR.f === "bad"}">With a misstatement<span>${g.withBad}</span></button><button type="button" data-f="all" aria-pressed="${DIR.f === "all"}">All<span>${g.ents.length}</span></button>
-    ${g.states.length > 1 ? `<select aria-label="State"><option value="">All states</option>${g.states.map(s => `<option${DIR.st === s ? " selected" : ""}>${esc(s)}</option>`).join("")}</select>` : ""}</div></div>`;
+    ${g.states.length > 1 && g.states.length <= 40 ? `<select aria-label="${esc(g.region || "state")}"><option value="">All ${g.region ? esc(g.region) + "s" : "states"}</option>${g.states.map(s => `<option${DIR.st === s ? " selected" : ""}>${esc(s)}</option>`).join("")}</select>` : ""}</div></div>`;
 }
 function questionBlock(q) {
   return `<p class="qs">${keep(q.q)}</p><p class="ql"><b>The law</b>${keep(q.law)}</p>`;
