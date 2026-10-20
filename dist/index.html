@@ -458,7 +458,7 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .res-case .who:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .res-case .claim { color: var(--ink-2); font-size: var(--s-sm); }
 .res-case .go { color: var(--ink-2); font-size: var(--s-sm); white-space: nowrap; }
-.res-byq .more-issue { padding: 12px 2px 0; font-size: var(--s-sm); }
+.res-byq .more-issue { padding: 2px 2px 12px; color: var(--ink-2); font-size: var(--s-sm); }
 .res-byq .more-issue a { color: var(--ink); text-underline-offset: 3px; }
 .res-byq .empty { padding: 4px 2px 12px; color: var(--ink-3); font-size: var(--s-sm); }
 @media (max-width: 640px) {
@@ -1174,8 +1174,8 @@ function caseSection(L, g) {
     const rows = g.ents.filter(e => e.rows[i][0] === "bad" && CASES[e.rows[i][1]]);
     const body = rows.length ? rows.map(e => { const id = e.rows[i][1]; return `<div class="res-case"><a class="who" href="${entityHref(L, g, e)}">${esc(e.name)}</a><p class="claim">${keep(claimText(CASES[id]))}.</p><a class="go" href="${href(L, "case", id)}">Read the case →</a></div>`; }).join("")
       : `<p class="empty">No misstatement found on this question.</p>`;
-    const issue = q.topic && TOPIC[q.topic] ? `<p class="more-issue"><a href="${href(L, "topic", q.topic)}">Read the issue and all its sources →</a></p>` : "";
-    return `<details id="cases-${i}"><summary><span class="t">${esc(q.title)}</span><span class="n${rows.length ? "" : " zero"}">${plural(rows.length, "institution", "institutions")}</span><i aria-hidden="true">⌄</i></summary><div class="body">${body}${issue}</div></details>`;
+    const issue = q.topic && TOPIC[q.topic] ? `<p class="more-issue">What the law says and every source: <a href="${href(L, "topic", q.topic)}">read the issue →</a></p>` : "";
+    return `<details id="cases-${i}"><summary><span class="t">${esc(q.title)}</span><span class="n${rows.length ? "" : " zero"}">${plural(rows.length, "institution", "institutions")}</span><i aria-hidden="true">⌄</i></summary><div class="body">${issue}${body}</div></details>`;
   }).join("");
   return `<h2 class="res-h">Who said what <span>institutions with a misstatement, by question</span></h2><div class="res-byq">${items}</div>`;
 }
@@ -1186,7 +1186,7 @@ function groupPage(L, g) {
     <header class="area-head"><p class="eyebrow">${GROUP_SECTORS[g.sector]}</p><h1>${esc(g.title)}</h1><p class="lede">${esc(widow(`${g.who}. ${g.ents.length} checked on ${g.qs.length} questions each, against ${g.lawShort}.`))}</p></header>
     <div class="res-sum"><p class="res-stat"><b>${g.withBad}</b> of ${g.ents.length} had at least one misstatement</p>${instBar(g)}${resLegend(g)}<p class="res-stat">${fmtN(c.ok)} of ${fmtN(g.checks)} checks found no misstatement</p></div>
     <h2 class="res-h">By question <span>institutions per outcome</span></h2>
-    <div class="res-cards">${g.qs.map((q, i) => `<article class="res-card"><div class="cq"><h3>${questionTitle(L, q)}</h3>${questionBlock(q)}</div>
+    <div class="res-cards">${g.qs.map((q, i) => `<article class="res-card"><div class="cq"><h3><a href="${href(L, "group", g.id)}" data-jump="${i}">${esc(q.title)}</a></h3>${questionBlock(q)}</div>
       <div class="cr"><p class="lab"><b${g.perQ[i].bad ? ' class="red"' : ""}>${g.perQ[i].bad} of ${g.ents.length} misstated</b></p>${resBar(g.perQ[i])}${g.perQ[i].bad ? `<button type="button" class="res-jump" data-jump="${i}">${g.perQ[i].bad === 1 ? "Show the institution" : `Show the ${g.perQ[i].bad} institutions`} ↓</button>` : ""}</div></article>`).join("")}</div>
     ${caseSection(L, g)}
     <h2 class="res-h">Institutions <span>${g.ents.length} checked</span></h2>
@@ -1200,6 +1200,7 @@ function afterGroup(s) {
   document.querySelector(".res-cards")?.addEventListener("click", e => {
     const b = e.target.closest("[data-jump]"), d = b && document.getElementById("cases-" + b.dataset.jump);
     if (!d) return;
+    e.preventDefault();
     d.open = true;
     d.scrollIntoView({ block: "start", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
     d.querySelector("summary").focus({ preventScroll: true });
