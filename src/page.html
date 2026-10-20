@@ -1070,6 +1070,9 @@ GROUPS.forEach(g => {
     if (e.bad) g.withBad++;
     e.rows.forEach((r, i) => { g.cnt[r[0]]++; g.perQ[i][r[0]]++; });
   });
+  // Each institution counts once, by its worst result: a misstatement, else a finding not yet published, else unclear, else no misstatement found.
+  g.inst = { bad: 0, amb: 0, na: 0, ok: 0, unp: 0 };
+  g.ents.forEach(e => { g.inst[e.bad ? "bad" : e.unp ? "unp" : e.amb ? "amb" : "ok"]++; });
   g.ents.sort((a, b) => b.bad - a.bad || b.amb - a.amb || a.name.localeCompare(b.name, "de"));
   g.checks = g.ents.length * g.qs.length;
   g.states = [...new Set(g.ents.map(e => e.state).filter(Boolean))].sort((a, b) => a.localeCompare(b, "de"));
@@ -1079,6 +1082,7 @@ const GROUP_TOTAL = { n: GROUPS.reduce((n, g) => n + g.ents.length, 0), checks: 
   ok: GROUPS.reduce((n, g) => n + g.cnt.ok, 0), bad: GROUPS.reduce((n, g) => n + g.cnt.bad, 0) };
 
 const resBar = c => `<span class="res-bar" role="img" aria-label="${c.bad} misstated, ${c.amb} unclear, ${c.na} not addressed or not found, ${c.ok} no misstatement found${c.unp ? `, ${c.unp} not yet published` : ""}">${["bad", "amb", "na", "ok", "unp"].map(k => `<i class="${k}" style="flex:${c[k]}"></i>`).join("")}</span>`;
+const instBar = g => `<span class="res-bar" role="img" aria-label="${g.inst.bad} of ${g.ents.length} with at least one misstatement${g.inst.unp ? `, ${g.inst.unp} with a finding not yet published` : ""}, ${g.inst.amb} with unclear results only, ${g.inst.ok} with no misstatement found">${["bad", "unp", "amb", "ok"].map(k => `<i class="${k}" style="flex:${g.inst[k]}"></i>`).join("")}</span>`;
 const resLegend = g => `<p class="res-legend">${["bad", "amb", "na", "ok", ...(g.cnt.unp ? ["unp"] : [])].map(k => `<span><i class="${k}"></i>${RESULT[k]}</span>`).join("")}</p>`;
 const entityDots = (g, e) => `<span class="res-dots" role="img" aria-label="${esc(g.qs.map((q, i) => `${q.title}: ${RESULT[e.rows[i][0]].toLowerCase()}`).join("; "))}">${e.rows.map((r, i) => `<i class="${r[0]}" title="${esc(g.qs[i].title)}: ${RESULT[r[0]].toLowerCase()}"></i>`).join("")}</span>`;
 const entitySub = e => [e.state ? esc(e.state) : "", e.bad ? `<span class="red">${e.bad} misstated</span>` : "", e.amb ? `${e.amb} unclear` : "", e.unp ? `${e.unp} not yet published` : ""].filter(Boolean).join(" · ") || "No misstatement found";
@@ -1096,8 +1100,8 @@ function instHome(L) {
     if (!gs.length) return "";
     return `<section class="home-sec"><div class="sector-h"><h2>${GROUP_SECTORS[sec]}</h2><span>${plural(gs.reduce((n, g) => n + g.ents.length, 0), "institution", "institutions")}</span></div>
       <div>${gs.map(g => `<a class="area-line" href="${href(L, "group", g.id)}"><h3>${esc(g.title)}</h3><span class="n">${g.ents.length}<small>checked</small></span>
-        ${resBar(g.cnt)}
-        <p class="issues"><b>${g.withBad}</b> with at least one misstatement · ${fmtN(g.cnt.ok)} of ${fmtN(g.checks)} checks found no misstatement</p>
+        ${instBar(g)}
+        <p class="issues"><b>${g.withBad} of ${g.ents.length}</b> with at least one misstatement</p>
         <p class="scope"><span>${plural(g.qs.length, "question", "questions")} each</span><span class="law-s">${esc(g.lawShort)}</span></p></a>`).join("")}</div></section>`;
   }).join("");
   return `<section class="hero"><h1>What you’re told vs. what the law says</h1>
@@ -1134,7 +1138,7 @@ function groupPage(L, g) {
   if (DIR.group !== g.id) Object.assign(DIR, { q: "", f: "bad", st: "", shown: 20, group: g.id });
   return `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "inst")}">← All institutions</a></nav>
     <header class="area-head"><p class="eyebrow">${GROUP_SECTORS[g.sector]}</p><h1>${esc(g.title)}</h1><p class="lede">${esc(widow(`${g.who}. ${g.ents.length} checked on ${g.qs.length} questions each, against ${g.lawShort}.`))}</p></header>
-    <div class="res-sum"><p class="res-stat"><b>${g.withBad}</b> of ${g.ents.length} had at least one misstatement · ${fmtN(c.ok)} of ${fmtN(g.checks)} checks found no misstatement</p>${resBar(c)}${resLegend(g)}</div>
+    <div class="res-sum"><p class="res-stat"><b>${g.withBad}</b> of ${g.ents.length} had at least one misstatement</p>${instBar(g)}${resLegend(g)}<p class="res-stat">${fmtN(c.ok)} of ${fmtN(g.checks)} checks found no misstatement</p></div>
     <h2 class="res-h">By question <span>institutions per outcome</span></h2>
     <div class="res-cards">${g.qs.map((q, i) => `<article class="res-card"><div class="cq"><h3>${questionTitle(L, q)}</h3>${questionBlock(q)}</div>
       <div class="cr"><p class="lab"><b${g.perQ[i].bad ? ' class="red"' : ""}>${g.perQ[i].bad} of ${g.ents.length} misstated</b></p>${resBar(g.perQ[i])}</div></article>`).join("")}</div>
