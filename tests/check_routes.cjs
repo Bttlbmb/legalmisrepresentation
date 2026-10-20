@@ -41,7 +41,7 @@ for (const narrow of [false, true]) {
       must['#A1.inst'] = groups.length ? 'class="home-cols"' : 'class="hero"';
       for (const g of groups) {
         routes.push(`#A1.group.${g.id}`);
-        must[`#A1.group.${g.id}`] = 'res-card';
+        must[`#A1.group.${g.id}`] = 'res-q';
         for (const e of g.ents) {
           routes.push(`#A1.entity.${g.id}~${e.id}`);
           must[`#A1.entity.${g.id}~${e.id}`] = 'res-card';
@@ -57,7 +57,7 @@ for (const narrow of [false, true]) {
       if (must[route] && !html.includes(must[route])) throw new Error(`Missing ${must[route]}: ${route}`);
       if (!groups.length && html.includes('lens-row')) throw new Error(`Institution switch without data: ${route}`);
       if (route.startsWith('#A1.group.no-such') || route.startsWith('#A1.entity.no-such')) {
-        if (html.includes('res-card')) throw new Error(`Unknown institution page rendered: ${route}`);
+        if (html.includes('res-card') || html.includes('res-q')) throw new Error(`Unknown institution page rendered: ${route}`);
       }
     }
     checks.push({ layout, viewport_branch: narrow ? 'narrow' : 'wide', routes: routes.length });
