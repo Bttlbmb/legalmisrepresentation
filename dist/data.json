@@ -1674,6 +1674,49 @@
      ]
     }
    ]
+  },
+  {
+   "id": "mobile-de",
+   "sector": "biz",
+   "title": "Mobile contracts",
+   "titleNative": "Mobilfunkverträge",
+   "intro": "German rules on outages, number porting, renewal and contract changes for mobile customers.",
+   "publishers": "Mobile phone brands in Germany",
+   "law": "German Telecommunications Act (TKG) §§ 56–59",
+   "lawShort": "German law",
+   "where": "Mobile customers in Germany",
+   "whereShort": "",
+   "topics": [
+    {
+     "id": "outage",
+     "title": "Outage compensation",
+     "lawKey": "Calendar days",
+     "claimKey": "Working days",
+     "law": "TKG § 58(3) starts compensation after two calendar days following receipt of the fault report, for each further day of complete failure of the service. For contracts with a fixed monthly charge, days 3–4 pay the higher of €5 or 10% of that charge; from day 5, the higher of €10 or 20%. Consumer responsibility, statutory measures, security orders and force majeure are excluded. Related price reductions and damages are offset.",
+     "provision": "TKG § 58(3)",
+     "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__58.html",
+     "cases": [
+      "mobile-de-vodafone-outage-working-days",
+      "mobile-de-lidl-outage-working-days",
+      "mobile-de-freenet-outage-working-days",
+      "mobile-de-simon-outage-working-days",
+      "mobile-de-otelo-outage-working-days",
+      "mobile-de-klarmobil-outage-working-days"
+     ]
+    },
+    {
+     "id": "portability",
+     "title": "Number porting",
+     "lawKey": "No charge to you",
+     "claimKey": "Old provider may charge",
+     "law": "TKG § 59(5)–(7): mobile numbers may be ported before the old contract ends; a request remains possible until one month after termination. Early porting does not end the old contract or its payment obligations. No direct charges may be imposed on the end user for porting.",
+     "provision": "TKG § 59(5)–(7)",
+     "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__59.html",
+     "cases": [
+      "mobile-de-otelo-portability-old-provider-fee"
+     ]
+    }
+   ]
   }
  ],
  "cases": {
@@ -22415,6 +22458,360 @@
    "lawMarks": [
     "not exceptions by themselves"
    ]
+  },
+  "mobile-de-vodafone-outage-working-days": {
+   "id": "mobile-de-vodafone-outage-working-days",
+   "area": "mobile-de",
+   "topic": "outage",
+   "pub": "Vodafone",
+   "src": "Current general terms, January2026, clause2.6",
+   "claim": "Delays complete-outage compensation by counting working days",
+   "quote": "Der Kunde kann von Vodafone verlangen, dass eine Störung seiner vertraglich vereinbarten Telekommunikationsdienste unverzüglich und unentgeltlich beseitigt wird, es sei denn, der Kunde hat diese selbst zu vertreten. Dies gilt nicht für nummernunabhängige inter personelle Telekommunikationsdienste oder die Bereitstellung von Übertragungsdiensten für Dienste der Maschine-Maschine-Kommunikation. Der Kunde hat bei der Entstörung eine Mitwirkungspflicht. Meldet der Kunde Vodafone eine Störung der vertraglich vereinbarten Telekommunikationsdienste gem. Satz 1 und wird diese nicht innerhalb von zwei Arbeitstagen nach Eingang der Störungsmeldung des Kunden beseitigt, kann der Kunde ab dem Folgetag eine Entschädigung verlangen, es sei denn, er hat die Störung zu vertreten. Eine Entschädigung kann beginnend mit dem dritten Arbeitstag pro Tag des vollständigen Ausfalls des Dienstes verlangt werden. Die Höhe der Entschädigung beträgt am dritten und vierten Tag 5 € oder 10 % und ab dem fünften Tag 10 € oder 20 % der vertraglich vereinbarten Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem, welcher Betrag höher ist. Beruht die vollständige Unterbrechung des Dienstes auf gesetzlich festgelegten Maßnahmen nach dem Telekommunikationsgesetz, der Verordnung (EU)2015/2120 oder sicherheitsbehördlichen Anordnungen, steht dem Kunden eine Entschädigung nicht zu.",
+   "lang": "German",
+   "tr": "The customer may require Vodafone to remedy a fault in the contractually agreed telecommunications services without delay and free of charge, unless the customer is responsible. This does not apply to number-independent interpersonal telecommunications services or transmission services for machine-to-machine communication. The customer must cooperate with fault repair. If the customer reports a fault in the services under sentence 1 and it is not remedied within two working days after receipt of the fault report, the customer may demand compensation from the following day, unless responsible for the fault. Compensation may be demanded from the third working day for each day of complete failure of the service. Compensation on the third and fourth days is €5 or 10%, and from the fifth day €10 or 20% of the contractually agreed monthly charges for contracts with a fixed monthly charge, whichever is higher. No compensation is due where the complete interruption results from statutory measures under the Telecommunications Act, Regulation (EU)2015/2120 or security-authority orders.",
+   "law": "TKG § 58(3) starts compensation after two calendar days following receipt of the fault report, for each further day of complete failure of the service. For contracts with a fixed monthly charge, days 3–4 pay the higher of €5 or 10% of that charge; from day 5, the higher of €10 or 20%. Consumer responsibility, statutory measures, security orders and force majeure are excluded. Related price reductions and damages are offset. The clause substitutes working days for calendar days, delaying eligibility across weekends or holidays. The amount formula itself is not challenged.",
+   "sourceUrl": "https://www.vodafone.de/media/downloads/pdf/900271_KA_21677_screen.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__58.html",
+   "example": "Hypothetical: a consumer on a fixed €30 monthly plan reports complete failure of a covered service on Friday; the provider receives the report that day and the service stays completely unavailable through Tuesday. Counting the next two calendar days as Saturday and Sunday, Monday is the first compensable day (€5), subject to no statutory exclusion and offset. Counting Monday and Tuesday as the two working days defers the first payment day until Wednesday.",
+   "context": "Full clause2.6 retained. Ordinary mobile voice/data contracts are included; this is distinct from temporary poor signal in one location or interrupted switching.",
+   "scope": "Only actual complete failure of a covered consumer service lasting past the statutory two-calendar-day period after receipt of a report. Consumer responsibility, statutory measures, security orders, force majeure, sufficient replacement service and offset rules must be considered. Worked amount is for fixed monthly charge, not pure usage-credit prepaid. General terms share material wording across Vodafone, SIMon, otelo and LIDL Connect; this is one policy family published for four cohort brands.",
+   "date": "2026-10-20",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Der Kunde kann von Vodafone verlangen, dass eine Störung seiner vertraglich vereinbarten Telekommunikationsdienste unverzüglich und unentgeltlich beseitigt wird, es sei denn, der Kunde hat diese selbst zu vertreten. Dies gilt nicht für nummernunabhängige inter personelle Telekommunikationsdienste oder die Bereitstellung von Übertragungsdiensten für Dienste der Maschine-Maschine-Kommunikation. Der Kunde hat bei der Entstörung eine Mitwirkungspflicht. Meldet der Kunde Vodafone eine Störung der vertraglich vereinbarten Telekommunikationsdienste gem. Satz 1 und wird diese nicht innerhalb von zwei Arbeitstagen nach Eingang der Störungsmeldung des Kunden beseitigt, kann der Kunde ab dem Folgetag eine Entschädigung verlangen, es sei denn, er hat die Störung zu vertreten. Eine Entschädigung kann beginnend mit dem dritten Arbeitstag pro Tag des vollständigen Ausfalls des Dienstes verlangt werden. Die Höhe der Entschädigung beträgt am dritten und vierten Tag 5 € oder 10 % und ab dem fünften Tag 10 € oder 20 % der vertraglich vereinbarten Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem, welcher Betrag höher ist. Beruht die vollständige Unterbrechung des Dienstes auf gesetzlich festgelegten Maßnahmen nach dem Telekommunikationsgesetz, der Verordnung (EU)2015/2120 oder sicherheitsbehördlichen Anordnungen, steht dem Kunden eine Entschädigung nicht zu.",
+     "tr": "The customer may require Vodafone to remedy a fault in the contractually agreed telecommunications services without delay and free of charge, unless the customer is responsible. This does not apply to number-independent interpersonal telecommunications services or transmission services for machine-to-machine communication. The customer must cooperate with fault repair. If the customer reports a fault in the services under sentence 1 and it is not remedied within two working days after receipt of the fault report, the customer may demand compensation from the following day, unless responsible for the fault. Compensation may be demanded from the third working day for each day of complete failure of the service. Compensation on the third and fourth days is €5 or 10%, and from the fifth day €10 or 20% of the contractually agreed monthly charges for contracts with a fixed monthly charge, whichever is higher. No compensation is due where the complete interruption results from statutory measures under the Telecommunications Act, Regulation (EU)2015/2120 or security-authority orders.",
+     "url": "https://www.vodafone.de/media/downloads/pdf/900271_KA_21677_screen.pdf",
+     "site": "Vodafone Germany"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "zwei Arbeitstagen"
+    },
+    {
+     "lang": "German",
+     "text": "dritten Arbeitstag"
+    },
+    {
+     "lang": "English",
+     "text": "two working days"
+    },
+    {
+     "lang": "English",
+     "text": "third working day"
+    }
+   ],
+   "lawMarks": [
+    "two calendar days"
+   ]
+  },
+  "mobile-de-lidl-outage-working-days": {
+   "id": "mobile-de-lidl-outage-working-days",
+   "area": "mobile-de",
+   "topic": "outage",
+   "pub": "LIDL Connect",
+   "src": "Allgemeine Geschäftsbedingungen für Vodafone-Leistungen (AGB), August 2023, current portal link",
+   "claim": "Counts the compensation waiting period in working days",
+   "quote": "2.6 Der Kunde kann von Vodafone verlangen, dass eine Störung seiner vertraglich vereinbarten Telekommunikationsdienste unverzüglich und unentgeltlich beseitigt wird, es sei denn, der Kunde hat diese selbst zu vertreten. Dies gilt nicht für nummernunabhängige interpersonelle Telekommunikationsdienste oder die Bereitstellung von Übertragungsdiensten für Dienste der Maschine-Maschine-Kommunikation. Der Kunde hat bei der Entstörung eine Mitwirkungspflicht. Meldet der Kunde Vodafone eine Störung der vertraglich vereinbarten Telekommunikationsdienste gem. Satz 1 und wird diese nicht innerhalb von zwei Arbeitstagen nach Eingang der Störungsmeldung des Kunden beseitigt, kann der Kunde ab dem Folgetag eine Entschädigung verlangen, es sei denn, er hat die Störung zu vertreten. Eine Entschädigung kann beginnend mit dem dritten Arbeitstag pro Tag des vollständigen Ausfalls des Dienstes verlangt werden. Die Höhe der Entschädigung beträgt am dritten und vierten Tag 5 € oder 10 % und ab dem fünften Tag 10 € oder 20 % der vertraglich vereinbarten Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem, welcher Betrag höher ist. Beruht die vollständige Unterbrechung des Dienstes auf gesetzlich festgelegten Maßnahmen nach dem Telekommunikationsgesetz, der Verordnung (EU)2015/2120 oder sicherheitsbehördlichen Anordnungen, steht dem Kunden eine Entschädigung nicht zu.",
+   "lang": "German",
+   "tr": "2.6 The customer can require Vodafone to remedy a fault in the agreed telecommunications services without delay and free of charge unless responsible for it. This does not apply to number-independent interpersonal telecommunications services or transmission services for machine-to-machine communication. The customer must cooperate with repair. If the customer reports a fault in the services under sentence 1 and it is not remedied within two working days after receipt of the fault report, the customer may demand compensation from the following day unless responsible for the fault. Compensation may be demanded starting with the third working day for each day of complete failure of the service. The compensation is €5 or 10% on the third and fourth days, and €10 or 20% from the fifth day, of the agreed monthly charges for contracts with a fixed monthly charge, whichever is higher. No compensation is due if complete interruption results from statutory measures under the Telecommunications Act, Regulation 2015/2120, or security-authority orders.",
+   "law": "TKG §58(3) uses two calendar days after receipt of the fault report, followed by compensation for each day of complete failure. Days 3–4: €5 or 10% of the fixed monthly charge; day 5 onward: €10 or 20%, whichever is higher. The consumer must cooperate. Consumer-caused interruption, statutory measures, security orders and force majeure are excluded; reductions and overlapping damages are offset. Prepaid status alone does not remove the fixed-euro baseline, but pure credit and 28-day bundles must not be assigned an invented calendar-month fee.",
+   "sourceUrl": "https://kundenkonto.lidl-connect.de/files/lidl/downloads/AGB_Lidl_Connect.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__58.html",
+   "example": "Hypothetical: a consumer reports a complete service failure on Friday; it continues through Monday. The two following calendar days are Saturday and Sunday, so Monday is the first potentially compensable day. A working-day count postpones that point. Assume cooperation, no responsibility, force majeure, statutory/security exclusion or sufficient replacement. No monthly percentage is invented for a prepaid package.",
+   "context": "Assessment concerns published wording, not demonstrated billing or refusal.",
+   "scope": "Currently linked general Vodafone AGB; ordinary consumer mobile services including prepaid. Concerns the waiting-period wording, not a guaranteed sum or every partial reception problem. Amount for 28 day or purecredit tariff requires separate analysis; eurobaseline is not excluded by prepaid label. Force majeure is statutory even though this paragraph omits it.",
+   "date": "2026-10-20",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "2.6 Der Kunde kann von Vodafone verlangen, dass eine Störung seiner vertraglich vereinbarten Telekommunikationsdienste unverzüglich und unentgeltlich beseitigt wird, es sei denn, der Kunde hat diese selbst zu vertreten. Dies gilt nicht für nummernunabhängige interpersonelle Telekommunikationsdienste oder die Bereitstellung von Übertragungsdiensten für Dienste der Maschine-Maschine-Kommunikation. Der Kunde hat bei der Entstörung eine Mitwirkungspflicht. Meldet der Kunde Vodafone eine Störung der vertraglich vereinbarten Telekommunikationsdienste gem. Satz 1 und wird diese nicht innerhalb von zwei Arbeitstagen nach Eingang der Störungsmeldung des Kunden beseitigt, kann der Kunde ab dem Folgetag eine Entschädigung verlangen, es sei denn, er hat die Störung zu vertreten. Eine Entschädigung kann beginnend mit dem dritten Arbeitstag pro Tag des vollständigen Ausfalls des Dienstes verlangt werden. Die Höhe der Entschädigung beträgt am dritten und vierten Tag 5 € oder 10 % und ab dem fünften Tag 10 € oder 20 % der vertraglich vereinbarten Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem, welcher Betrag höher ist. Beruht die vollständige Unterbrechung des Dienstes auf gesetzlich festgelegten Maßnahmen nach dem Telekommunikationsgesetz, der Verordnung (EU)2015/2120 oder sicherheitsbehördlichen Anordnungen, steht dem Kunden eine Entschädigung nicht zu.",
+     "tr": "2.6 The customer can require Vodafone to remedy a fault in the agreed telecommunications services without delay and free of charge unless responsible for it. This does not apply to number-independent interpersonal telecommunications services or transmission services for machine-to-machine communication. The customer must cooperate with repair. If the customer reports a fault in the services under sentence 1 and it is not remedied within two working days after receipt of the fault report, the customer may demand compensation from the following day unless responsible for the fault. Compensation may be demanded starting with the third working day for each day of complete failure of the service. The compensation is €5 or 10% on the third and fourth days, and €10 or 20% from the fifth day, of the agreed monthly charges for contracts with a fixed monthly charge, whichever is higher. No compensation is due if complete interruption results from statutory measures under the Telecommunications Act, Regulation 2015/2120, or security-authority orders.",
+     "url": "https://kundenkonto.lidl-connect.de/files/lidl/downloads/AGB_Lidl_Connect.pdf",
+     "site": "LIDL Connect — current linked Vodafone AGB"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "zwei Arbeitstagen"
+    },
+    {
+     "lang": "German",
+     "text": "dritten Arbeitstag"
+    },
+    {
+     "lang": "English",
+     "text": "two working days"
+    },
+    {
+     "lang": "English",
+     "text": "third working day"
+    }
+   ],
+   "lawMarks": [
+    "calendar days"
+   ]
+  },
+  "mobile-de-freenet-outage-working-days": {
+   "id": "mobile-de-freenet-outage-working-days",
+   "area": "mobile-de",
+   "topic": "outage",
+   "pub": "freenet",
+   "src": "AGB Mobilfunkdienstleistung (Credit), June 2026",
+   "claim": "delays complete-outage compensation until the third working day",
+   "quote": "11.3 Bei vollständigem Ausfall der Dienstleistung kann der Kunde ab dem dritten Arbeitstag, an dem die Störung nicht behoben werden konnte, eine Entschädigung verlangen, es sei denn, der Verbraucher hat die Störung oder ihr Fortdauern zu vertreten, oder die vollständige Unterbrechung des Dienstes beruht auf gesetzlich festgelegte Maß-nahmen nach dem Telekommunikationsgesetz (kurz TKG), der Verordnung (EU) 2015/2120, auf sicherheitsbehördliche Anordnungen oder auf höherer Gewalt. Die Höhe der Entschädigung beträgt am dem dritten und vierten Tag 5 Euro oder 10 Prozent und ab dem fünften Tag 10 Euro oder 20 Prozent der vertraglich vereinbaren Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem welcher Betrag höher ist. Soweit der Kunde eine Minderung nach Ziffer 12 geltend macht, ist diese Minderung auf die Entschädigung nach dieser Ziffer anzurechnen.",
+   "lang": "German",
+   "tr": "11.3 In the event of complete failure of the service, the customer may demand compensation from the third working day on which the fault could not be resolved, unless the consumer is responsible for the fault or its continuation, or the complete interruption of the service is due to statutory measures under the Telecommunications Act (TKG), Regulation (EU) 2015/2120, security-authority orders or force majeure. The compensation is €5 or 10 percent on the third and fourth day and €10 or 20 percent from the fifth day of the contractually agreed monthly charges for contracts with a constant monthly charge, whichever amount is higher. If the customer claims a reduction under section 12, that reduction is offset against compensation under this section.",
+   "law": "TKG §58(3) permits compensation if the fault is not remedied within two calendar days after receipt of the fault report, for each subsequent day of complete service failure. It uses calendar days, not working days. Days 3–4 are the higher of €5 or 10% of the fixed monthly charge; day 5 onward the higher of €10 or 20%. The consumer-responsibility, statutory/security measures and force-majeure exclusions apply; reductions and overlapping damages are offset.",
+   "sourceUrl": "https://media.mdm.freenet.de/latest?brand=bFN&type=pdfAGB",
+   "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__58.html",
+   "example": "Hypothetical: a consumer pays a constant €30/month; freenet receives a fault report on Thursday and the relevant mobile service remains completely unavailable through Sunday, with no sufficient replacement and none of the statutory exclusions. After the two calendar days following receipt, Sunday is a compensable day at €5 (higher than €3). A third-working-day trigger can postpone that entitlement beyond Sunday. No double recovery is assumed.",
+   "context": "Current download hub links June2026 Credit and Prepaid originals. Credit11.2 discusses report receipt/response;11.3 supplies the working-day trigger and correct amounts/exclusions. This is not the distinct switching-outage provision in10.3, which lawfully uses working days.",
+   "scope": "Complete failure of the relevant consumer service continuing after two calendar days following receipt of a fault report, subject to statutory exclusions and offsets. Main worked amount concerns constant monthly charge postpaid contracts. Prepaid text repeats the timing wording; no fictional monthly charge is assigned to pure usage credit or 28-day bundles. This assesses wording, not actual refusals or payment.",
+   "date": "2026-10-20",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "11.3 Bei vollständigem Ausfall der Dienstleistung kann der Kunde ab dem dritten Arbeitstag, an dem die Störung nicht behoben werden konnte, eine Entschädigung verlangen, es sei denn, der Verbraucher hat die Störung oder ihr Fortdauern zu vertreten, oder die vollständige Unterbrechung des Dienstes beruht auf gesetzlich festgelegte Maß-nahmen nach dem Telekommunikationsgesetz (kurz TKG), der Verordnung (EU) 2015/2120, auf sicherheitsbehördliche Anordnungen oder auf höherer Gewalt. Die Höhe der Entschädigung beträgt am dem dritten und vierten Tag 5 Euro oder 10 Prozent und ab dem fünften Tag 10 Euro oder 20 Prozent der vertraglich vereinbaren Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem welcher Betrag höher ist. Soweit der Kunde eine Minderung nach Ziffer 12 geltend macht, ist diese Minderung auf die Entschädigung nach dieser Ziffer anzurechnen.",
+     "tr": "11.3 In the event of complete failure of the service, the customer may demand compensation from the third working day on which the fault could not be resolved, unless the consumer is responsible for the fault or its continuation, or the complete interruption of the service is due to statutory measures under the Telecommunications Act (TKG), Regulation (EU) 2015/2120, security-authority orders or force majeure. The compensation is €5 or 10 percent on the third and fourth day and €10 or 20 percent from the fifth day of the contractually agreed monthly charges for contracts with a constant monthly charge, whichever amount is higher. If the customer claims a reduction under section 12, that reduction is offset against compensation under this section.",
+     "url": "https://media.mdm.freenet.de/latest?brand=bFN&type=pdfAGB",
+     "site": "www.freenet.de"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ab dem dritten Arbeitstag"
+    },
+    {
+     "lang": "English",
+     "text": "from the third working day"
+    }
+   ],
+   "lawMarks": [
+    "two calendar days after receipt of the fault report"
+   ]
+  },
+  "mobile-de-simon-outage-working-days": {
+   "id": "mobile-de-simon-outage-working-days",
+   "area": "mobile-de",
+   "topic": "outage",
+   "pub": "SIMon mobile",
+   "src": "Current general terms, January2026, clause2.6",
+   "claim": "Delays complete-outage compensation by counting working days",
+   "quote": "Der Kunde kann von Vodafone verlangen, dass eine Störung seiner vertraglich vereinbarten Telekommunikationsdienste unverzüglich und unentgeltlich beseitigt wird, es sei denn, der Kunde hat diese selbst zu vertreten. Dies gilt nicht für nummernunabhängige inter personelle Telekommunikationsdienste oder die Bereitstellung von Übertragungsdiensten für Dienste der Maschine-Maschine-Kommunikation. Der Kunde hat bei der Entstörung eine Mitwirkungspflicht. Meldet der Kunde Vodafone eine Störung der vertraglich vereinbarten Telekommunikationsdienste gem. Satz 1 und wird diese nicht innerhalb von zwei Arbeitstagen nach Eingang der Störungsmeldung des Kunden beseitigt, kann der Kunde ab dem Folgetag eine Entschädigung verlangen, es sei denn, er hat die Störung zu vertreten. Eine Entschädigung kann beginnend mit dem dritten Arbeitstag pro Tag des vollständigen Ausfalls des Dienstes verlangt werden. Die Höhe der Entschädigung beträgt am dritten und vierten Tag 5 € oder 10 % und ab dem fünften Tag 10 € oder 20 % der vertraglich vereinbarten Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem, welcher Betrag höher ist. Beruht die vollständige Unterbrechung des Dienstes auf gesetzlich festgelegten Maßnahmen nach dem Telekommunikationsgesetz, der Verordnung (EU)2015/2120 oder sicherheitsbehördlichen Anordnungen, steht dem Kunden eine Entschädigung nicht zu.",
+   "lang": "German",
+   "tr": "The customer may require Vodafone to remedy a fault in the contractually agreed telecommunications services without delay and free of charge, unless the customer is responsible. This does not apply to number-independent interpersonal telecommunications services or transmission services for machine-to-machine communication. The customer must cooperate with fault repair. If the customer reports a fault in the services under sentence 1 and it is not remedied within two working days after receipt of the fault report, the customer may demand compensation from the following day, unless responsible for the fault. Compensation may be demanded from the third working day for each day of complete failure of the service. Compensation on the third and fourth days is €5 or 10%, and from the fifth day €10 or 20% of the contractually agreed monthly charges for contracts with a fixed monthly charge, whichever is higher. No compensation is due where the complete interruption results from statutory measures under the Telecommunications Act, Regulation (EU)2015/2120 or security-authority orders.",
+   "law": "TKG § 58(3) starts compensation after two calendar days following receipt of the fault report, for each further day of complete failure of the service. For contracts with a fixed monthly charge, days 3–4 pay the higher of €5 or 10% of that charge; from day 5, the higher of €10 or 20%. Consumer responsibility, statutory measures, security orders and force majeure are excluded. Related price reductions and damages are offset. The clause substitutes working days for calendar days, delaying eligibility across weekends or holidays. The amount formula itself is not challenged.",
+   "sourceUrl": "https://www.simonmobile.de/files/flash/downloads/SIMonmobile_AGB_07102026.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__58.html",
+   "example": "Hypothetical: a consumer on a fixed €30 monthly plan reports complete failure of a covered service on Friday; the provider receives the report that day and the service stays completely unavailable through Tuesday. Counting the next two calendar days as Saturday and Sunday, Monday is the first compensable day (€5), subject to no statutory exclusion and offset. Counting Monday and Tuesday as the two working days defers the first payment day until Wednesday.",
+   "context": "Full clause2.6 retained. Ordinary mobile voice/data contracts are included; this is distinct from temporary poor signal in one location or interrupted switching.",
+   "scope": "Only actual complete failure of a covered consumer service lasting past the statutory two-calendar-day period after receipt of a report. Consumer responsibility, statutory measures, security orders, force majeure, sufficient replacement service and offset rules must be considered. Worked amount is for fixed monthly charge, not pure usage-credit prepaid. General terms share material wording across Vodafone, SIMon, otelo and LIDL Connect; this is one policy family published for four cohort brands.",
+   "date": "2026-10-20",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Der Kunde kann von Vodafone verlangen, dass eine Störung seiner vertraglich vereinbarten Telekommunikationsdienste unverzüglich und unentgeltlich beseitigt wird, es sei denn, der Kunde hat diese selbst zu vertreten. Dies gilt nicht für nummernunabhängige inter personelle Telekommunikationsdienste oder die Bereitstellung von Übertragungsdiensten für Dienste der Maschine-Maschine-Kommunikation. Der Kunde hat bei der Entstörung eine Mitwirkungspflicht. Meldet der Kunde Vodafone eine Störung der vertraglich vereinbarten Telekommunikationsdienste gem. Satz 1 und wird diese nicht innerhalb von zwei Arbeitstagen nach Eingang der Störungsmeldung des Kunden beseitigt, kann der Kunde ab dem Folgetag eine Entschädigung verlangen, es sei denn, er hat die Störung zu vertreten. Eine Entschädigung kann beginnend mit dem dritten Arbeitstag pro Tag des vollständigen Ausfalls des Dienstes verlangt werden. Die Höhe der Entschädigung beträgt am dritten und vierten Tag 5 € oder 10 % und ab dem fünften Tag 10 € oder 20 % der vertraglich vereinbarten Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem, welcher Betrag höher ist. Beruht die vollständige Unterbrechung des Dienstes auf gesetzlich festgelegten Maßnahmen nach dem Telekommunikationsgesetz, der Verordnung (EU)2015/2120 oder sicherheitsbehördlichen Anordnungen, steht dem Kunden eine Entschädigung nicht zu.",
+     "tr": "The customer may require Vodafone to remedy a fault in the contractually agreed telecommunications services without delay and free of charge, unless the customer is responsible. This does not apply to number-independent interpersonal telecommunications services or transmission services for machine-to-machine communication. The customer must cooperate with fault repair. If the customer reports a fault in the services under sentence 1 and it is not remedied within two working days after receipt of the fault report, the customer may demand compensation from the following day, unless responsible for the fault. Compensation may be demanded from the third working day for each day of complete failure of the service. Compensation on the third and fourth days is €5 or 10%, and from the fifth day €10 or 20% of the contractually agreed monthly charges for contracts with a fixed monthly charge, whichever is higher. No compensation is due where the complete interruption results from statutory measures under the Telecommunications Act, Regulation (EU)2015/2120 or security-authority orders.",
+     "url": "https://www.simonmobile.de/files/flash/downloads/SIMonmobile_AGB_07102026.pdf",
+     "site": "SIMon mobile Germany"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "zwei Arbeitstagen"
+    },
+    {
+     "lang": "German",
+     "text": "dritten Arbeitstag"
+    },
+    {
+     "lang": "English",
+     "text": "two working days"
+    },
+    {
+     "lang": "English",
+     "text": "third working day"
+    }
+   ],
+   "lawMarks": [
+    "two calendar days"
+   ]
+  },
+  "mobile-de-otelo-outage-working-days": {
+   "id": "mobile-de-otelo-outage-working-days",
+   "area": "mobile-de",
+   "topic": "outage",
+   "pub": "otelo",
+   "src": "Current general terms, January2026, clause2.6",
+   "claim": "Delays complete-outage compensation by counting working days",
+   "quote": "Der Kunde kann von Vodafone verlangen, dass eine Störung seiner vertraglich vereinbarten Telekommunikationsdienste unverzüglich und unentgeltlich beseitigt wird, es sei denn, der Kunde hat diese selbst zu vertreten. Dies gilt nicht für nummernunabhängige inter personelle Telekommunikationsdienste oder die Bereitstellung von Übertragungsdiensten für Dienste der Maschine-Maschine-Kommunikation. Der Kunde hat bei der Entstörung eine Mitwirkungspflicht. Meldet der Kunde Vodafone eine Störung der vertraglich vereinbarten Telekommunikationsdienste gem. Satz 1 und wird diese nicht innerhalb von zwei Arbeitstagen nach Eingang der Störungsmeldung des Kunden beseitigt, kann der Kunde ab dem Folgetag eine Entschädigung verlangen, es sei denn, er hat die Störung zu vertreten. Eine Entschädigung kann beginnend mit dem dritten Arbeitstag pro Tag des vollständigen Ausfalls des Dienstes verlangt werden. Die Höhe der Entschädigung beträgt am dritten und vierten Tag 5 € oder 10 % und ab dem fünften Tag 10 € oder 20 % der vertraglich vereinbarten Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem, welcher Betrag höher ist. Beruht die vollständige Unterbrechung des Dienstes auf gesetzlich festgelegten Maßnahmen nach dem Telekommunikationsgesetz, der Verordnung (EU)2015/2120 oder sicherheitsbehördlichen Anordnungen, steht dem Kunden eine Entschädigung nicht zu.",
+   "lang": "German",
+   "tr": "The customer may require Vodafone to remedy a fault in the contractually agreed telecommunications services without delay and free of charge, unless the customer is responsible. This does not apply to number-independent interpersonal telecommunications services or transmission services for machine-to-machine communication. The customer must cooperate with fault repair. If the customer reports a fault in the services under sentence 1 and it is not remedied within two working days after receipt of the fault report, the customer may demand compensation from the following day, unless responsible for the fault. Compensation may be demanded from the third working day for each day of complete failure of the service. Compensation on the third and fourth days is €5 or 10%, and from the fifth day €10 or 20% of the contractually agreed monthly charges for contracts with a fixed monthly charge, whichever is higher. No compensation is due where the complete interruption results from statutory measures under the Telecommunications Act, Regulation (EU)2015/2120 or security-authority orders.",
+   "law": "TKG § 58(3) starts compensation after two calendar days following receipt of the fault report, for each further day of complete failure of the service. For contracts with a fixed monthly charge, days 3–4 pay the higher of €5 or 10% of that charge; from day 5, the higher of €10 or 20%. Consumer responsibility, statutory measures, security orders and force majeure are excluded. Related price reductions and damages are offset. The clause substitutes working days for calendar days, delaying eligibility across weekends or holidays. The amount formula itself is not challenged.",
+   "sourceUrl": "https://www.otelo.de/files/2026-08/allgemeine-geschaeftsbedingungen-fuer-vodafone-leistungen-agb-010126.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__58.html",
+   "example": "Hypothetical: a consumer on a fixed €30 monthly plan reports complete failure of a covered service on Friday; the provider receives the report that day and the service stays completely unavailable through Tuesday. Counting the next two calendar days as Saturday and Sunday, Monday is the first compensable day (€5), subject to no statutory exclusion and offset. Counting Monday and Tuesday as the two working days defers the first payment day until Wednesday.",
+   "context": "Full clause2.6 retained. Ordinary mobile voice/data contracts are included; this is distinct from temporary poor signal in one location or interrupted switching.",
+   "scope": "Only actual complete failure of a covered consumer service lasting past the statutory two-calendar-day period after receipt of a report. Consumer responsibility, statutory measures, security orders, force majeure, sufficient replacement service and offset rules must be considered. Worked amount is for fixed monthly charge, not pure usage-credit prepaid. General terms share material wording across Vodafone, SIMon, otelo and LIDL Connect; this is one policy family published for four cohort brands.",
+   "date": "2026-10-20",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Der Kunde kann von Vodafone verlangen, dass eine Störung seiner vertraglich vereinbarten Telekommunikationsdienste unverzüglich und unentgeltlich beseitigt wird, es sei denn, der Kunde hat diese selbst zu vertreten. Dies gilt nicht für nummernunabhängige inter personelle Telekommunikationsdienste oder die Bereitstellung von Übertragungsdiensten für Dienste der Maschine-Maschine-Kommunikation. Der Kunde hat bei der Entstörung eine Mitwirkungspflicht. Meldet der Kunde Vodafone eine Störung der vertraglich vereinbarten Telekommunikationsdienste gem. Satz 1 und wird diese nicht innerhalb von zwei Arbeitstagen nach Eingang der Störungsmeldung des Kunden beseitigt, kann der Kunde ab dem Folgetag eine Entschädigung verlangen, es sei denn, er hat die Störung zu vertreten. Eine Entschädigung kann beginnend mit dem dritten Arbeitstag pro Tag des vollständigen Ausfalls des Dienstes verlangt werden. Die Höhe der Entschädigung beträgt am dritten und vierten Tag 5 € oder 10 % und ab dem fünften Tag 10 € oder 20 % der vertraglich vereinbarten Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem, welcher Betrag höher ist. Beruht die vollständige Unterbrechung des Dienstes auf gesetzlich festgelegten Maßnahmen nach dem Telekommunikationsgesetz, der Verordnung (EU)2015/2120 oder sicherheitsbehördlichen Anordnungen, steht dem Kunden eine Entschädigung nicht zu.",
+     "tr": "The customer may require Vodafone to remedy a fault in the contractually agreed telecommunications services without delay and free of charge, unless the customer is responsible. This does not apply to number-independent interpersonal telecommunications services or transmission services for machine-to-machine communication. The customer must cooperate with fault repair. If the customer reports a fault in the services under sentence 1 and it is not remedied within two working days after receipt of the fault report, the customer may demand compensation from the following day, unless responsible for the fault. Compensation may be demanded from the third working day for each day of complete failure of the service. Compensation on the third and fourth days is €5 or 10%, and from the fifth day €10 or 20% of the contractually agreed monthly charges for contracts with a fixed monthly charge, whichever is higher. No compensation is due where the complete interruption results from statutory measures under the Telecommunications Act, Regulation (EU)2015/2120 or security-authority orders.",
+     "url": "https://www.otelo.de/files/2026-08/allgemeine-geschaeftsbedingungen-fuer-vodafone-leistungen-agb-010126.pdf",
+     "site": "otelo Germany"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "zwei Arbeitstagen"
+    },
+    {
+     "lang": "German",
+     "text": "dritten Arbeitstag"
+    },
+    {
+     "lang": "English",
+     "text": "two working days"
+    },
+    {
+     "lang": "English",
+     "text": "third working day"
+    }
+   ],
+   "lawMarks": [
+    "two calendar days"
+   ]
+  },
+  "mobile-de-otelo-portability-old-provider-fee": {
+   "id": "mobile-de-otelo-portability-old-provider-fee",
+   "area": "mobile-de",
+   "topic": "portability",
+   "pub": "otelo",
+   "src": "Current postpaid price list29September2026 footnote14",
+   "claim": "Says the old operator may charge for number portability",
+   "quote": "Für die Mitnahme der Rufnummer zur Nutzung mit otelo wird kein Entgelt erhoben. Der abgebende Netzbetreiber kann aber ein Entgelt für die Rufnummernmitnahme erheben. Sofern die Rufnummer vor Beendigung des bislang beim abgebenden Anbieter bestehenden Mobilfunk-Dienstleistungsvertrages portiert wird, hat dieses auf den Bestand des bestehenden Vertrages zwischen dem Kunden und dem bisherigen Anbieter keinen Einfluss. Dieser bleibt bestehen.",
+   "lang": "German",
+   "tr": "No charge is made for transferring the number for use with otelo. However, the relinquishing network operator may charge a fee for number portability. If the number is ported before the existing mobile service contract with the relinquishing provider ends, this has no effect on the existing contract between the customer and their previous provider. That contract continues.",
+   "law": "TKG § 59(5)–(7): mobile numbers may be ported before the old contract ends; a request remains possible until one month after termination. Early porting does not end the old contract or its payment obligations. No direct charges may be imposed on the end user for porting. The footnote is about ordinary German mobile porting into otelo; its permission for the relinquishing operator to charge a porting fee conflicts with the prohibition on direct customer porting charges. Continuing contract payments are separate and accurately preserved.",
+   "sourceUrl": "https://www.otelo.de/files/2026-09/otelo_online_postpaid_preistabelle.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__59.html",
+   "example": "Hypothetical: a German consumer transfers a mobile number from another German operator to otelo while the old fixed-term contract continues. The old monthly charges remain payable, but the old provider cannot charge an additional €10 porting fee; the footnote says such a fee may be imposed.",
+   "context": "Footnote14 read in full, including continuing old-contract obligation. Price table and adjacent early-port terms read.",
+   "scope": "Direct customer fees for ordinary German mobile number portability; not outstanding old-contract bills, device instalments or a distinct voluntary number-change service. Incoming portability text attributes possible fees to another operator; it does not prove otelo actually bills such a fee.",
+   "date": "2026-10-20",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Für die Mitnahme der Rufnummer zur Nutzung mit otelo wird kein Entgelt erhoben. Der abgebende Netzbetreiber kann aber ein Entgelt für die Rufnummernmitnahme erheben. Sofern die Rufnummer vor Beendigung des bislang beim abgebenden Anbieter bestehenden Mobilfunk-Dienstleistungsvertrages portiert wird, hat dieses auf den Bestand des bestehenden Vertrages zwischen dem Kunden und dem bisherigen Anbieter keinen Einfluss. Dieser bleibt bestehen.",
+     "tr": "No charge is made for transferring the number for use with otelo. However, the relinquishing network operator may charge a fee for number portability. If the number is ported before the existing mobile service contract with the relinquishing provider ends, this has no effect on the existing contract between the customer and their previous provider. That contract continues.",
+     "url": "https://www.otelo.de/files/2026-09/otelo_online_postpaid_preistabelle.pdf",
+     "site": "otelo Germany"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Der abgebende Netzbetreiber kann aber ein Entgelt für die Rufnummernmitnahme erheben."
+    },
+    {
+     "lang": "English",
+     "text": "the relinquishing network operator may charge a fee for number portability."
+    }
+   ],
+   "lawMarks": [
+    "No direct charges may be imposed"
+   ]
+  },
+  "mobile-de-klarmobil-outage-working-days": {
+   "id": "mobile-de-klarmobil-outage-working-days",
+   "area": "mobile-de",
+   "topic": "outage",
+   "pub": "klarmobil",
+   "src": "AGB Postpaid, July2022, currently linked20October2026",
+   "claim": "delays complete-outage compensation until the third working day",
+   "quote": "11.3 Bei vollständigem Ausfall der Dienstleistung kann der Kunde ab dem dritten Arbeitstag, an dem die Störung nicht behoben werden konnte, eine Entschädigung verlangen, es sei denn, der Verbraucher hat die Störung oder ihr Fortdauern zu vertreten, oder die vollständige Unterbrechung des Dienstes beruht auf gesetzlich festgelegte Maßnahmen nach dem Telekommunikationsgesetz (kurz TKG), der Verordnung (EU) 2015/2120, auf sicherheitsbehördliche Anordnungen oder auf höherer Gewalt. Die Höhe der Entschädigung beträgt am dem dritten und vierten Tag 5 Euro oder 10 Prozent und ab dem fünften Tag 10 Euro oder 20 Prozent der vertraglich vereinbaren Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem welcher Betrag höher ist. Soweit der Kunde, der Verbraucher ist, eine Minderung nach Ziffer 12 geltend macht, ist diese Minderung auf die Entschädigung nach dieser Ziffer anzurechnen.",
+   "lang": "German",
+   "tr": "11.3 In the event of complete failure of the service, the customer may demand compensation from the third working day on which the fault could not be resolved, unless the consumer is responsible for the fault or its continuation, or the complete interruption of the service is due to statutory measures under the Telecommunications Act (TKG), Regulation (EU) 2015/2120, security-authority orders or force majeure. The compensation is €5 or 10 percent on the third and fourth day and €10 or 20 percent from the fifth day of the contractually agreed monthly charges for contracts with a constant monthly charge, whichever amount is higher. If the customer, who is a consumer, claims a reduction under section 12, that reduction is offset against compensation under this section.",
+   "law": "TKG §58(3) permits compensation if the fault is not remedied within two calendar days after receipt of the fault report, for each subsequent day of complete service failure. It uses calendar days, not working days. Days 3–4 are the higher of €5 or 10% of the fixed monthly charge; day 5 onward the higher of €10 or 20%. The consumer-responsibility, statutory/security measures and force-majeure exclusions apply; reductions and overlapping damages are offset.",
+   "sourceUrl": "https://media.mdm.klarmobil.de/downloads/agb/agb-klarmobil-20220701.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__58.html",
+   "example": "Hypothetical: a consumer pays a constant €30/month; klarmobil receives a fault report on Thursday and the relevant mobile service remains completely unavailable through Sunday, with no sufficient replacement and none of the statutory exclusions. After the two calendar days following receipt, Sunday is a compensable day at €5 (higher than €3). A third-working-day trigger can postpone that entitlement beyond Sunday. No double recovery is assumed.",
+   "context": "Current klarmobil legal hub links July2022 AGB as its postpaid terms.11.2 report/response;11.3 complete-outage compensation.10.3 is distinct switching interruption and lawfully uses working days. Similar sentence at freenet DLS, a different legal entity in same group.",
+   "scope": "Complete failure of the relevant consumer postpaid service after two calendar days following receipt of a fault report, subject to statutory exclusions and offsets. Constant monthly charge example; prepaid legacy terms not assessed in this case. Published wording only, no actual refusal or harm established.",
+   "date": "2026-10-20",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "11.3 Bei vollständigem Ausfall der Dienstleistung kann der Kunde ab dem dritten Arbeitstag, an dem die Störung nicht behoben werden konnte, eine Entschädigung verlangen, es sei denn, der Verbraucher hat die Störung oder ihr Fortdauern zu vertreten, oder die vollständige Unterbrechung des Dienstes beruht auf gesetzlich festgelegte Maßnahmen nach dem Telekommunikationsgesetz (kurz TKG), der Verordnung (EU) 2015/2120, auf sicherheitsbehördliche Anordnungen oder auf höherer Gewalt. Die Höhe der Entschädigung beträgt am dem dritten und vierten Tag 5 Euro oder 10 Prozent und ab dem fünften Tag 10 Euro oder 20 Prozent der vertraglich vereinbaren Monatsentgelte bei Verträgen mit gleichbleibendem monatlichem Entgelt, je nachdem welcher Betrag höher ist. Soweit der Kunde, der Verbraucher ist, eine Minderung nach Ziffer 12 geltend macht, ist diese Minderung auf die Entschädigung nach dieser Ziffer anzurechnen.",
+     "tr": "11.3 In the event of complete failure of the service, the customer may demand compensation from the third working day on which the fault could not be resolved, unless the consumer is responsible for the fault or its continuation, or the complete interruption of the service is due to statutory measures under the Telecommunications Act (TKG), Regulation (EU) 2015/2120, security-authority orders or force majeure. The compensation is €5 or 10 percent on the third and fourth day and €10 or 20 percent from the fifth day of the contractually agreed monthly charges for contracts with a constant monthly charge, whichever amount is higher. If the customer, who is a consumer, claims a reduction under section 12, that reduction is offset against compensation under this section.",
+     "url": "https://media.mdm.klarmobil.de/downloads/agb/agb-klarmobil-20220701.pdf",
+     "site": "www.klarmobil.de"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ab dem dritten Arbeitstag"
+    },
+    {
+     "lang": "English",
+     "text": "from the third working day"
+    }
+   ],
+   "lawMarks": [
+    "two calendar days after receipt of the fault report"
+   ]
   }
  },
  "countries": {
@@ -40706,6 +41103,1030 @@
        "2026-10-20"
       ]
      ]
+    }
+   ]
+  },
+  {
+   "id": "mobile",
+   "area": "mobile-de",
+   "sector": "biz",
+   "title": "Mobile brands",
+   "one": "Mobile brand",
+   "who": "Mobile phone brands in Germany, run by 13 companies",
+   "lawShort": "German and EU law",
+   "checked": "2026-10-20",
+   "qs": [
+    {
+     "id": "renewal",
+     "title": "Contract renewal",
+     "q": "Can you cancel on one month’s notice once your contract has renewed itself?",
+     "law": "Cancel at any time on one month’s notice",
+     "topic": null
+    },
+    {
+     "id": "portability",
+     "title": "Number porting",
+     "q": "Is moving your number described correctly: free of direct charge, and possible until one month after your contract ends?",
+     "law": "No direct charge; up to one month after the end",
+     "topic": "mobile-de~portability"
+    },
+    {
+     "id": "outage",
+     "title": "Outage compensation",
+     "q": "What do you get when a broken connection is not fixed within two days?",
+     "law": "Calendar days",
+     "topic": "mobile-de~outage"
+    },
+    {
+     "id": "changes",
+     "title": "Contract changes",
+     "q": "Can you cancel at no cost after the provider changes your contract terms?",
+     "law": "Cancel within 3 months of the notice",
+     "topic": null
+    },
+    {
+     "id": "roaming",
+     "title": "Roaming fair-use checks",
+     "q": "When may a provider limit EU roaming for people who mostly use the SIM abroad?",
+     "law": "Both indicators needed",
+     "topic": "roaming~fairuse"
+    }
+   ],
+   "ents": [
+    {
+     "id": "telekom",
+     "name": "Telekom",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.telekom.de/shop/mobilfunk/vertragsverlaengerung",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.telekom.de/hilfe/vertrag-rechnung/vertrag/kuendigen/frist-rufnummernmitnahme",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.telekom.de/agb/downloads/53750.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.telekom.de/agb/downloads/53750.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.telekom.de/shop/mobilfunk/vertragsverlaengerung",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Telekom Deutschland GmbH"
+    },
+    {
+     "id": "congstar",
+     "name": "congstar",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.congstar.de/fileadmin/files_congstar/documents/AGB/AGB_congstar_Mobilfunktarife.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.congstar.de/fileadmin/files_congstar/documents/AGB/AGB_congstar_Mobilfunktarife.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.congstar.de/fileadmin/files_congstar/documents/AGB/AGB_congstar_Mobilfunktarife.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.congstar.de/fileadmin/files_congstar/documents/AGB/AGB_congstar_Mobilfunktarife.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.congstar.de/fileadmin/files_congstar/documents/Preislisten/Preisliste_congstar_Mobilfunktarife_2026.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Telekom Deutschland GmbH"
+    },
+    {
+     "id": "fraenk",
+     "name": "fraenk",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://fraenk.de/Allgemeine_Gesch%C3%A4ftsbedingungen_fraenk.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://fraenk.de/Allgemeine_Gesch%C3%A4ftsbedingungen_fraenk.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://fraenk.de/Allgemeine_Gesch%C3%A4ftsbedingungen_fraenk.pdf",
+       "2026-10-20"
+      ],
+      [
+       "amb",
+       "",
+       "https://fraenk.de/Allgemeine_Gesch%C3%A4ftsbedingungen_fraenk.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://fraenk.de/Preisliste_fraenk.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Telekom Deutschland GmbH"
+    },
+    {
+     "id": "vodafone",
+     "name": "Vodafone",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.vodafone.de/media/downloads/pdf/900271_KA_21677_screen.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.vodafone.de/media/downloads/pdf/900271_KA_21677_screen.pdf",
+       "2026-10-20"
+      ],
+      [
+       "bad",
+       "mobile-de-vodafone-outage-working-days",
+       "https://www.vodafone.de/media/downloads/pdf/900271_KA_21677_screen.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.vodafone.de/media/downloads/pdf/900271_KA_21677_screen.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.vodafone.de/de/mobilfunk/ausland-und-roaming/eu-regulierung",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Vodafone GmbH"
+    },
+    {
+     "id": "o2",
+     "name": "o2",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.o2online.de/assets/blobs/agb/agb-postpaid",
+       "2026-10-20"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.o2online.de/service/rufnummernmitnahme/",
+       "2026-10-20"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.o2online.de/service/entschaedigung/",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.o2online.de/assets/blobs/agb/agb-postpaid",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.o2online.de/assets/blobs/tarife/preisliste-mobilfunk-postpaid-allgemein",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Telefónica Germany GmbH & Co. OHG"
+    },
+    {
+     "id": "blau",
+     "name": "Blau",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://static2-blau.o9.de/resource/blob/8822/817d602779836c45bbb2f738c1f1af6e/agb-postpaid-download-data.pdf",
+       "2026-10-20"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.blau.de/service/rufnummernmitnahme/",
+       "2026-10-20"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.blau.de/service/entschaedigung/",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://static2-blau.o9.de/resource/blob/8822/817d602779836c45bbb2f738c1f1af6e/agb-postpaid-download-data.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://static2-blau.o9.de/resource/blob/8864/a2c867980388a768d8f78b50f0bca3ca/blau-preisliste-postpaid-download-data.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Telefónica Germany GmbH & Co. OHG"
+    },
+    {
+     "id": "aldi",
+     "name": "ALDI TALK",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "amb",
+       "",
+       "https://www.alditalk.de/leistungsbeschreibung",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.alditalk.de/leistungsbeschreibung",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.alditalk.de/leistungsbeschreibung",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.alditalk.de/leistungsbeschreibung",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.alditalk.de/fup",
+       "2026-10-20"
+      ]
+     ],
+     "op": "E-Plus Service GmbH"
+    },
+    {
+     "id": "lidl",
+     "name": "LIDL Connect",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://kundenkonto.lidl-connect.de/files/lidl/downloads/AGB_Lidl_Connect.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://kundenkonto.lidl-connect.de/files/lidl/downloads/LIDL_Connect_Rufnummernmitnahme.pdf",
+       "2026-10-20"
+      ],
+      [
+       "bad",
+       "mobile-de-lidl-outage-working-days",
+       "https://kundenkonto.lidl-connect.de/files/lidl/downloads/AGB_Lidl_Connect.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://kundenkonto.lidl-connect.de/files/lidl/downloads/AGB_Lidl_Connect.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://kundenkonto.lidl-connect.de/files/lidl/downloads/LIDL_Connect_Preisliste.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Vodafone GmbH"
+    },
+    {
+     "id": "1und1",
+     "name": "1&1",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://content.1und1.de/pdfs/1und1-Allgemeine-Geschaeftsbedingungen.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://mobile.1und1.de/rufnummernmitnahme",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://content.1und1.de/pdfs/1und1-Allgemeine-Geschaeftsbedingungen.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://content.1und1.de/pdfs/1und1-Allgemeine-Geschaeftsbedingungen.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://content.1und1.de/pdfs/1und1-Allgemeine-Geschaeftsbedingungen.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "1&1 Telecom GmbH"
+    },
+    {
+     "id": "sim-de",
+     "name": "sim.de",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://imagepool.sim.de/v2/global/page/agb/pdf/v104538-page-agb-allgemein.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sim.de/rufnummernmitnahme",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://imagepool.sim.de/v2/global/page/agb/pdf/v104538-page-agb-allgemein.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://imagepool.sim.de/v2/global/page/agb/pdf/v104538-page-agb-allgemein.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.sim.de/roaming",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Drillisch Online GmbH"
+    },
+    {
+     "id": "freenet",
+     "name": "freenet",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://media.mdm.freenet.de/latest?brand=bFN&type=pdfAGB",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://media.mdm.freenet.de/latest?brand=bFN&type=pdfAGB",
+       "2026-10-20"
+      ],
+      [
+       "bad",
+       "mobile-de-freenet-outage-working-days",
+       "https://media.mdm.freenet.de/latest?brand=bFN&type=pdfAGB",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://media.mdm.freenet.de/latest?brand=bFN&type=pdfAGB",
+       "2026-10-20"
+      ],
+      [
+       "bad",
+       "roaming-freenet-presence-time-limit",
+       "https://www.freenet.de/digitalrepublic/tipps/roaming",
+       "2026-10-20"
+      ]
+     ],
+     "op": "freenet DLS GmbH"
+    },
+    {
+     "id": "lebara",
+     "name": "Lebara Germany",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.lebara.de/content/dam/lebara/markets/de/de/assets/2026/1_legal_files/agb/juli/Lebara_AGB_Laufzeitvertr%C3%A4ge_Stand_02062026%20(1).pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.lebara.de/content/dam/lebara/markets/de/de/assets/2026/1_legal_files/agb/juli/2026-06-02_Lebara_AGB_Prepaid_Stand-Oktober-2025.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.lebara.de/content/dam/lebara/markets/de/de/assets/2026/1_legal_files/agb/juli/Lebara_AGB_Laufzeitvertr%C3%A4ge_Stand_02062026%20(1).pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.lebara.de/content/dam/lebara/markets/de/de/assets/2026/1_legal_files/agb/juli/Lebara_AGB_Laufzeitvertr%C3%A4ge_Stand_02062026%20(1).pdf",
+       "2026-10-20"
+      ],
+      [
+       "bad",
+       "roaming-lebara-help-presence",
+       "https://www.lebara.de/de/hilfe/roaming.html",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Lebara Mobile Germany Limited"
+    },
+    {
+     "id": "simon",
+     "name": "SIMon mobile",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.simonmobile.de/files/flash/downloads/SIMonmobile_AGB_07102026.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.simonmobile.de/files/flash/downloads/Preisliste-SIMonmobile_18062026.pdf",
+       "2026-10-20"
+      ],
+      [
+       "bad",
+       "mobile-de-simon-outage-working-days",
+       "https://www.simonmobile.de/files/flash/downloads/SIMonmobile_AGB_07102026.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.simonmobile.de/files/flash/downloads/SIMonmobile_AGB_07102026.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.simonmobile.de/files/flash/downloads/Preisliste-SIMonmobile_18062026.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Vodafone GmbH"
+    },
+    {
+     "id": "otelo",
+     "name": "otelo",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.otelo.de/files/2026-08/allgemeine-geschaeftsbedingungen-fuer-vodafone-leistungen-agb-010126.pdf",
+       "2026-10-20"
+      ],
+      [
+       "bad",
+       "mobile-de-otelo-portability-old-provider-fee",
+       "https://www.otelo.de/files/2026-09/otelo_online_postpaid_preistabelle.pdf",
+       "2026-10-20"
+      ],
+      [
+       "bad",
+       "mobile-de-otelo-outage-working-days",
+       "https://www.otelo.de/files/2026-08/allgemeine-geschaeftsbedingungen-fuer-vodafone-leistungen-agb-010126.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.otelo.de/files/2026-08/allgemeine-geschaeftsbedingungen-fuer-vodafone-leistungen-agb-010126.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.otelo.de/files/2026-09/otelo_online_postpaid_preistabelle.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Vodafone GmbH"
+    },
+    {
+     "id": "ja",
+     "name": "ja!mobil",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.jamobil.de/docs/AGB-ja-mobil-Prepaid.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.jamobil.de/docs/ja-mobil-preisliste-5g.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.jamobil.de/docs/AGB-ja-mobil-Prepaid.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.jamobil.de/docs/AGB-ja-mobil-Prepaid.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.jamobil.de/docs/ja-mobil-preisliste-5g.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "congstar Services GmbH"
+    },
+    {
+     "id": "penny",
+     "name": "PENNY mobil",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.pennymobil.de/docs/AGB-Penny-Mobil-Prepaid.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.pennymobil.de/docs/penny-mobil-preisliste-5g.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.pennymobil.de/docs/AGB-Penny-Mobil-Prepaid.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.pennymobil.de/docs/AGB-Penny-Mobil-Prepaid.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.pennymobil.de/docs/penny-mobil-preisliste-5g.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "congstar Services GmbH"
+    },
+    {
+     "id": "fonic",
+     "name": "FONIC",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.fonic.de/content/dam/fonic/documents/FONIC-AGB.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.fonic.de/content/dam/fonic/documents/FONIC-AGB.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.fonic.de/content/dam/fonic/documents/FONIC_Leistungsbeschreibung.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.fonic.de/content/dam/fonic/documents/FONIC-AGB.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.fonic.de/content/dam/fonic/documents/FONIC-Auslandspreisliste.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Telefónica Germany GmbH & Co. OHG"
+    },
+    {
+     "id": "ay",
+     "name": "AY YILDIZ",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.ayyildiz.de/downloads/ayyildiz_agb_leistungsbeschreibung_postpaid.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ayyildiz.de/downloads/ayyildiz_agb_leistungsbeschreibung_postpaid.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.ayyildiz.de/downloads/ayyildiz_agb_leistungsbeschreibung_postpaid.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ayyildiz.de/downloads/ayyildiz_agb_leistungsbeschreibung_postpaid.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ayyildiz.de/downloads/ayyildiz_Preisliste_laufzeit_de.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Telefónica Germany GmbH & Co. OHG"
+    },
+    {
+     "id": "ortel",
+     "name": "Ortel Mobile",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.ortelmobile.de/agb/",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ortelmobile.de/agb/",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.ortelmobile.de/content/dam/ortel/documents/allgemeines/Leistungsbeschreibung_Ortelmobile.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ortelmobile.de/agb/",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ortelmobile.de/content/dam/ortel/documents/allgemeines/ortel-mobile-FUP.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Ortel Mobile GmbH"
+    },
+    {
+     "id": "tchibo",
+     "name": "Tchibo MOBIL",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://sulu.tchibo-mobil.de/media/43/download/Tchibo_mobil_AGB.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://sulu.tchibo-mobil.de/media/43/download/Tchibo_mobil_AGB.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://sulu.tchibo-mobil.de/media/43/download/Tchibo_mobil_AGB.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://sulu.tchibo-mobil.de/media/43/download/Tchibo_mobil_AGB.pdf",
+       "2026-10-20"
+      ],
+      [
+       "amb",
+       "",
+       "https://tchibo-mobil.de/faq/tarif-und-preise/ausland-und-roaming",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Telefónica Germany GmbH & Co. OHG"
+    },
+    {
+     "id": "winsim",
+     "name": "winSIM",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://imagepool.winsim.de/v2/global/page/agb/pdf/v104538-page-agb-allgemein.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.winsim.de/rufnummernmitnahme",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://imagepool.winsim.de/v2/global/page/agb/pdf/v104538-page-agb-allgemein.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://imagepool.winsim.de/v2/global/page/agb/pdf/v104538-page-agb-allgemein.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.winsim.de/roaming",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Drillisch Online GmbH"
+    },
+    {
+     "id": "sim24",
+     "name": "sim24",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://imagepool.sim24.de/v2/global/page/agb/pdf/v104538-page-agb-allgemein.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sim24.de/rufnummernmitnahme",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://imagepool.sim24.de/v2/global/page/agb/pdf/v104538-page-agb-allgemein.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://imagepool.sim24.de/v2/global/page/agb/pdf/v104538-page-agb-allgemein.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.sim24.de/roaming",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Drillisch Online GmbH"
+    },
+    {
+     "id": "klarmobil",
+     "name": "klarmobil",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://media.mdm.klarmobil.de/downloads/agb/agb-klarmobil-20220701.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://media.mdm.klarmobil.de/downloads/agb/agb-klarmobil-20220701.pdf",
+       "2026-10-20"
+      ],
+      [
+       "bad",
+       "mobile-de-klarmobil-outage-working-days",
+       "https://media.mdm.klarmobil.de/downloads/agb/agb-klarmobil-20220701.pdf",
+       "2026-10-20"
+      ],
+      [
+       "amb",
+       "",
+       "https://media.mdm.klarmobil.de/downloads/agb/agb-klarmobil-20220701.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://media.mdm.klarmobil.de/downloads/agb/agb-klarmobil-20220701.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "klarmobil GmbH"
+    },
+    {
+     "id": "wetell",
+     "name": "WEtell",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.wetell.de/media/filer_public/ec/f8/ecf8d0ec-a6d3-4732-9f46-a1b0e1b7bd7d/wetell_agb_gesamt_bf_2026-06.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.wetell.de/media/filer_public/ec/f8/ecf8d0ec-a6d3-4732-9f46-a1b0e1b7bd7d/wetell_agb_gesamt_bf_2026-06.pdf",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.wetell.de/media/filer_public/ec/f8/ecf8d0ec-a6d3-4732-9f46-a1b0e1b7bd7d/wetell_agb_gesamt_bf_2026-06.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.wetell.de/media/filer_public/ec/f8/ecf8d0ec-a6d3-4732-9f46-a1b0e1b7bd7d/wetell_agb_gesamt_bf_2026-06.pdf",
+       "2026-10-20"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.wetell.de/media/filer_public/ec/f8/ecf8d0ec-a6d3-4732-9f46-a1b0e1b7bd7d/wetell_agb_gesamt_bf_2026-06.pdf",
+       "2026-10-20"
+      ]
+     ],
+     "op": "STROTH Telecom GmbH"
+    },
+    {
+     "id": "lyca",
+     "name": "Lyca Mobile Germany",
+     "state": "",
+     "web": "",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.lycamobile.de/de/termscondition/",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.lycamobile.de/de/termscondition/",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.lycamobile.de/de/termscondition/",
+       "2026-10-20"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.lycamobile.de/de/termscondition/",
+       "2026-10-20"
+      ],
+      [
+       "na",
+       "",
+       "https://www.lycamobile.de/de/termscondition/",
+       "2026-10-20"
+      ]
+     ],
+     "op": "Lycatel Germany GmbH"
     }
    ]
   }

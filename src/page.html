@@ -1112,7 +1112,7 @@ const resBar = c => `<span class="res-bar" role="img" aria-label="${c.bad} misst
 const instBar = g => `<span class="res-bar" role="img" aria-label="${g.inst.bad} of ${g.ents.length} with at least one misstatement${g.inst.unp ? `, ${g.inst.unp} with a finding not yet published` : ""}, ${g.inst.amb} with unclear results only, ${g.inst.ok} with no misstatement found">${["bad", "unp", "amb", "ok"].map(k => `<i class="${k}" style="flex:${g.inst[k]}"></i>`).join("")}</span>`;
 const resLegend = g => `<p class="res-legend">${["bad", "amb", "na", "ok", ...(g.cnt.unp ? ["unp"] : [])].map(k => `<span><i class="${k}"></i>${RESULT[k]}</span>`).join("")}</p>`;
 const entityDots = (g, e) => `<span class="res-dots" role="img" aria-label="${esc(g.qs.map((q, i) => `${q.title}: ${RESULT[e.rows[i][0]].toLowerCase()}`).join("; "))}">${e.rows.map((r, i) => `<i class="${r[0]}" title="${esc(g.qs[i].title)}: ${RESULT[r[0]].toLowerCase()}"></i>`).join("")}</span>`;
-const entitySub = (g, e) => [e.state ? esc(e.state) : "", e.bad ? `<span class="red">Misstated:</span> ${g.qs.filter((q, i) => e.rows[i][0] === "bad").map(q => esc(q.title)).join("; ")}` : "", e.amb ? `${e.amb} unclear` : "", e.unp ? `${e.unp} not yet published` : ""].filter(Boolean).join(" · ") || "No misstatement found";
+const entitySub = (g, e) => [e.state || e.op ? esc(e.state || e.op) : "", e.bad ? `<span class="red">Misstated:</span> ${g.qs.filter((q, i) => e.rows[i][0] === "bad").map(q => esc(q.title)).join("; ")}` : "", e.amb ? `${e.amb} unclear` : "", e.unp ? `${e.unp} not yet published` : ""].filter(Boolean).join(" · ") || "No misstatement found";
 const entityHref = (L, g, e) => href(L, "entity", g.id + "~" + e.id);
 const pageLabel = url => { try { const u = new URL(url); return (u.hostname.replace(/^www\./, "") + u.pathname.replace(/\/$/, "")).slice(0, 60); } catch (e) { return url; } };
 
@@ -1228,7 +1228,7 @@ function entityPage(L, g, e) {
   return `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "group", g.id)}">← ${esc(g.title)}</a></nav>
     <header class="area-head"><p class="eyebrow">${esc(g.one)}${e.state ? ` · ${esc(e.state)}` : ""}</p><h1>${esc(e.name)}</h1>
     <p class="lede">${esc(widow(`${plural(g.qs.length, "question", "questions")} checked on ${fmtDate(done)}: ${tally}.`))}</p>
-    ${e.web ? `<p class="meta-line"><span><a href="${esc(e.web)}" target="_blank" rel="noopener">Official website ↗</a></span></p>` : ""}</header>
+    ${e.op || e.web ? `<p class="meta-line">${e.op ? `<span>Run by ${esc(e.op)}</span>` : ""}${e.web ? `<span><a href="${esc(e.web)}" target="_blank" rel="noopener">Official website ↗</a></span>` : ""}</p>` : ""}</header>
     <div class="res-cards">${cards}</div>
     <p class="res-note"><b>What this shows.</b> The result for each question describes the pages we read on the date above. It does not show whether anyone was refused or misled in practice, and the pages may have changed since.</p>`;
 }
