@@ -442,6 +442,8 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .meta-line a { color: var(--ink-2); }
 .res-jump { min-height: 44px; margin: 4px 0 -6px; padding: 0; border: 0; background: none; color: var(--ink-2); font: inherit; font-size: var(--s-sm); text-align: left; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 4px; cursor: pointer; }
 .res-jump:hover { color: var(--ink); }
+a.res-jump, span.res-jump { display: inline-flex; align-items: center; width: fit-content; }
+span.res-jump { color: var(--ink-3); text-decoration: none; cursor: default; }
 .res-row small .red { font-weight: 500; }
 .res-byq > details { border-bottom: 1px solid var(--rule); }
 .res-byq > details > summary { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; gap: 12px; min-height: 52px; padding: 6px 2px; list-style: none; cursor: pointer; }
@@ -1187,7 +1189,8 @@ function groupPage(L, g) {
     <div class="res-sum"><p class="res-stat"><b>${g.withBad}</b> of ${g.ents.length} had at least one misstatement</p>${instBar(g)}${resLegend(g)}<p class="res-stat">${fmtN(c.ok)} of ${fmtN(g.checks)} checks found no misstatement</p></div>
     <h2 class="res-h">By question <span>institutions per outcome</span></h2>
     <div class="res-cards">${g.qs.map((q, i) => `<article class="res-card"><div class="cq"><h3><a href="${href(L, "group", g.id)}" data-jump="${i}">${esc(q.title)}</a></h3>${questionBlock(q)}</div>
-      <div class="cr"><p class="lab"><b${g.perQ[i].bad ? ' class="red"' : ""}>${g.perQ[i].bad} of ${g.ents.length} misstated</b></p>${resBar(g.perQ[i])}${g.perQ[i].bad ? `<button type="button" class="res-jump" data-jump="${i}">${g.perQ[i].bad === 1 ? "Show the institution" : `Show the ${g.perQ[i].bad} institutions`} ↓</button>` : ""}</div></article>`).join("")}</div>
+      <div class="cr"><p class="lab"><b${g.perQ[i].bad ? ' class="red"' : ""}>${g.perQ[i].bad} of ${g.ents.length} misstated</b></p>${resBar(g.perQ[i])}${g.perQ[i].bad ? `<button type="button" class="res-jump" data-jump="${i}">${g.perQ[i].bad === 1 ? "Show the institution" : `Show the ${g.perQ[i].bad} institutions`} ↓</button>`
+        : q.topic && TOPIC[q.topic] ? `<a class="res-jump" href="${href(L, "topic", q.topic)}">Read the issue →</a>` : `<span class="res-jump none">No institutions to list</span>`}</div></article>`).join("")}</div>
     ${caseSection(L, g)}
     <h2 class="res-h">Institutions <span>${g.ents.length} checked</span></h2>
     ${dirControls(g)}<div id="res-dir">${dirHtml(L, g)}</div>`;
