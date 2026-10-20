@@ -510,10 +510,10 @@ const LAYOUTS = [
 ];
 const QUOTES = { English: ["“", "”"], German: ["„", "“"], French: ["«\u202f", "\u202f»"], Spanish: ["«", "»"], Italian: ["«", "»"],
   Portuguese: ["“", "”"], Dutch: ["“", "”"], Czech: ["„", "“"], Slovak: ["„", "“"], Polish: ["„", "”"], Swedish: ["”", "”"],
-  Finnish: ["”", "”"], Greek: ["«", "»"], Turkish: ["“", "”"], Japanese: ["「", "」"] };
+  Finnish: ["”", "”"], Greek: ["«", "»"], Turkish: ["“", "”"], Japanese: ["「", "」"], Bulgarian: ["„", "“"], Slovenian: ["„", "“"] };
 const quoted = (text, lang) => { const [open, close] = QUOTES[lang] || QUOTES.English; return open + text + close; };
 const LANG = { German: "de", English: "en", French: "fr", Spanish: "es", Italian: "it", Dutch: "nl", Czech: "cs",
-  Finnish: "fi", Swedish: "sv", Polish: "pl", Portuguese: "pt", Greek: "el", Slovak: "sk", Japanese: "ja", Turkish: "tr" };
+  Finnish: "fi", Swedish: "sv", Polish: "pl", Portuguese: "pt", Greek: "el", Slovak: "sk", Japanese: "ja", Turkish: "tr", Bulgarian: "bg", Slovenian: "sl" };
 
 // Citations join provisions with " · "; keep the dot on the line of the provision before it.
 // Keep digit ranges ("7–14") and citation groups ("5(1)(c)") on one line, without changing the text.
