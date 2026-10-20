@@ -189,7 +189,7 @@ mark.mk-law { background: var(--law-bg); box-shadow: inset 0 -2px 0 var(--law); 
 .toc a span { color: var(--ink-3); margin-left: 4px; font-variant-numeric: tabular-nums; }
 .issue { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: 12px 40px; padding: 32px 0; border-top: 1px solid var(--rule); scroll-margin-top: calc(var(--proto-h) + 16px); }
 .issue-head { display: grid; gap: 10px; align-content: start; }
-.issue-head h2 { font-family: var(--f-display); font-weight: 600; font-size: var(--s-xl); line-height: 1.2; }
+.issue-head h1, .issue-head h2 { font-family: var(--f-display); font-weight: 600; font-size: var(--s-xl); line-height: 1.2; }
 .keys { display: grid; gap: 4px; }
 .issue-law { color: var(--ink-2); font-size: var(--s-sm); }
 .issue-law .prov { display: table; margin-top: 4px; }
@@ -442,11 +442,24 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .res-q-sum p { color: var(--ink-2); font-size: var(--s-sm); font-variant-numeric: tabular-nums; }
 .res-q-sum p b { font-weight: 600; }
 .res-q-sum .res-bar { margin: 0; }
-.res-q-issue { width: fit-content; color: var(--ink-2); font-size: var(--s-sm); text-underline-offset: 3px; }
+.res-q-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0 18px; }
+.res-q-lawbtn, .res-q-issue { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink-2); font-size: var(--s-sm); text-decoration: underline; text-underline-offset: 3px; }
+.res-q-lawbtn { gap: 4px; padding: 0; border: 0; background: none; font: inherit; font-size: var(--s-sm); cursor: pointer; }
+.res-q-lawbtn:hover, .res-q-issue:hover { color: var(--ink); }
+.res-q-lawbtn i { color: var(--ink-3); font-style: normal; transition: transform .15s; }
+.res-q-lawbtn[aria-expanded="true"] i { transform: rotate(180deg); }
+.res-q-law { color: var(--ink-2); font-size: var(--s-sm); padding-bottom: 6px; }
+.res-q-law .prov { white-space: nowrap; }
 .res-q-none { padding: 2px 2px 0; color: var(--ink-3); font-size: var(--s-sm); }
 .res-q .rows .res-btn { margin-top: 12px; }
 .res-q:not(.open) .row.x3 { display: none; }
 .res-q-first { border-top: 0; padding-top: 24px; }
+.res-q-also { color: var(--ink-2); font-size: var(--s-sm); padding-top: 6px; }
+.res-q-also a { color: var(--ink); text-underline-offset: 3px; }
+.issue-page { border-top: 0; padding-top: 24px; }
+.issue-all { padding-top: 8px; font-size: var(--s-sm); }
+.issue-all a { color: var(--ink-2); text-underline-offset: 3px; }
+.crumbs [aria-current="page"] { color: var(--ink-3); }
 @media (max-width: 640px) {
   .lens a { min-height: 44px; }
   .res-q:not(.open) .row.x2 { display: none; }
@@ -583,15 +596,18 @@ const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-GB", { day
 const listJoin = xs => xs.length < 2 ? xs.join("") : xs.slice(0, -1).join(", ") + " and " + xs[xs.length - 1];
 const TOTAL = { areas: AREAS.length, topics: Object.keys(TOPIC).length, cases: Object.keys(CASES).length };
 const MAXT = Math.max(...Object.values(TOPIC).map(t => t.cases.length));
-const href = (L, kind, id) => "#" + [L, kind, id].filter(Boolean).join(".");
+// A fourth part "from-<group>[~<entity>]" records the institution branch a reader came through; the router otherwise ignores it.
+const href = (L, kind, id, from) => "#" + [L, kind, id, from && "from-" + from].filter(Boolean).join(".");
 
 function state() {
-  const [L, kind, id] = decodeURIComponent(location.hash.slice(1)).split(".");
-  const s = { L: LAYOUTS.some(x => x.id === L) ? L : "A1", kind: kind || "home", id: id || "" };
+  const [L, kind, id, extra] = decodeURIComponent(location.hash.slice(1)).split(".");
+  const s = { L: LAYOUTS.some(x => x.id === L) ? L : "A1", kind: kind || "home", id: id || "", from: "" };
   if ((s.kind === "area" && !AREA[s.id]) || (s.kind === "topic" && !TOPIC[s.id]) || (s.kind === "case" && !CASES[s.id])) s.kind = "home";
   // Institution pages exist only in the public layout and only when the data carries groups.
   if ((s.kind === "inst" && !(GROUPS.length && s.L === "A1")) || (s.kind === "group" && !(GROUP[s.id] && s.L === "A1"))
     || (s.kind === "entity" && !(ENTITY[s.id] && s.L === "A1"))) s.kind = "home";
+  const m = /^from-([^~]+)(?:~(.+))?$/.exec(extra || "");
+  if (m && s.L === "A1" && GROUP[m[1]] && (!m[2] || ENTITY[m[1] + "~" + m[2]])) s.from = m[2] ? m[1] + "~" + m[2] : m[1];
   return s;
 }
 
@@ -713,8 +729,19 @@ function renderA(s) {
   }
   return `<div class="A">${siteBar("A")}<main class="wrap">${body}</main></div>`;
 }
+/* The issue as a page of its own (A1): what the law says and every source, with a way back to where the reader came from. */
+function issuePage(L, s) {
+  const t = TOPIC[s.id], a = AREA[t.area], g0 = s.from && GROUP[s.from.split("~")[0]];
+  const also = GROUPS.flatMap(g => g.qs.map((q, i) => q.topic === t.key ? `<p class="res-q-also">Also checked institution by institution: <a href="${href(L, "group", g.id)}">${esc(g.title)}, ${g.perQ[i].bad} of ${g.ents.length} misstated →</a></p>` : "")).join("");
+  return `<nav class="crumbs" aria-label="Breadcrumb">${g0 ? `<a href="${href(L, "group", g0.id)}">← ${esc(g0.title)}</a>` : `<a href="${href(L)}">All areas</a>`}<span>/</span><a href="${href(L, "area", a.id)}">${esc(a.title)}</a><span>/</span><span aria-current="page">${esc(t.title)}</span></nav>
+    <section class="issue issue-page" id="i-${t.key}">
+      <div class="issue-head"><h1>${esc(t.title)}</h1>${keys(t)}<p class="issue-law">${keep(t.law)} <a class="prov" href="${esc(t.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)}</a></p>${also}</div>
+      <div class="rows">${groupedRowsS(t, L)}</div>
+    </section>
+    <p class="issue-all"><a href="${href(L, "area", a.id)}">All ${a.topics.length} issues in ${esc(a.title)} →</a></p>`;
+}
 function afterA(s) {
-  if (s.kind === "topic") document.getElementById("i-" + s.id)?.scrollIntoView({ block: "start" });
+  if (s.kind === "topic" && s.L !== "A1") document.getElementById("i-" + s.id)?.scrollIntoView({ block: "start" });
   else window.scrollTo(0, 0);
 }
 
@@ -836,7 +863,7 @@ function showVersion(art, c, i, focusSelector) {
   art.querySelector(".versions").innerHTML = versionLinks(c, i);
   const f = art.querySelector(focusSelector); if (f) f.focus({ preventScroll: true });
 }
-function caseViewS(c) {
+function caseViewS(c, fromGroup) {
   const a = AREA[c.area], t = topicOf(c);
   const where = c.countries.length ? countryList(c.countries) : (a.whereShort || a.where);
   return `<article class="case" data-case="${c.id}">
@@ -844,6 +871,7 @@ function caseViewS(c) {
       <h1 class="case-title">${headTitle(c)}</h1>
     </div>
     <p class="meta-line"><span>${esc(where)}</span><span class="law-d">${esc(a.lawShort)}</span><span>Checked ${fmtDate(c.date)}</span></p>
+    ${fromGroup ? `<p class="res-q-also">Issue: <a href="${href("A1", "topic", t.key, fromGroup.id)}">${esc(t.title)} →</a></p>` : ""}
     <div class="${compareClass(c)}">
       <section class="side side-claim">
         <h2 class="side-label">What the source says</h2>
@@ -975,6 +1003,8 @@ function renderAS(s) {
             <span class="count">${nCases(a)}<small>cases</small></span>
           </a></li>`).join("")}</ul></section>`;
       }).join("");
+  } else if (s.kind === "topic" && L === "A1") {
+    body = issuePage(L, s);
   } else if (s.kind === "area" || s.kind === "topic") {
     const a = s.kind === "area" ? AREA[s.id] : AREA[TOPIC[s.id].area];
     const sc = SECTOR_SCOPE[a.sector];
@@ -989,8 +1019,11 @@ function renderAS(s) {
       </section>`).join("")}`;
   } else {
     const c = CASES[s.id], a = AREA[c.area], t = topicOf(c);
-    body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L)}">All areas</a><span>/</span><a href="${href(L, "area", a.id)}">${esc(a.title)}</a><span>/</span><a href="${href(L, "topic", t.key)}">${esc(t.title)}</a></nav>
-      <div class="case-wrap">${caseViewS(c)}</div>`;
+    // Reached through the institution branch, the crumb keeps that branch; the issue stays one link away.
+    const [fg, fe] = s.from ? s.from.split("~") : [], g = fg && GROUP[fg], ent = fe && ENTITY[s.from];
+    body = `<nav class="crumbs" aria-label="Breadcrumb">${g ? `<a href="${href(L, "inst")}">All institutions</a><span>/</span><a href="${href(L, "group", g.id)}">${esc(g.title)}</a>${ent ? `<span>/</span><a href="${href(L, "entity", s.from)}">${esc(ent[1].name)}</a>` : ""}`
+      : `<a href="${href(L)}">All areas</a><span>/</span><a href="${href(L, "area", a.id)}">${esc(a.title)}</a><span>/</span><a href="${href(L, "topic", t.key)}">${esc(t.title)}</a>`}</nav>
+      <div class="case-wrap">${caseViewS(c, g)}</div>`;
   }
   return `<div class="A ${L}">${siteBar(L)}<main class="wrap">${body}</main></div>`;
 }
@@ -1178,13 +1211,15 @@ function claimAfterName(c) {
 }
 function questionBlocks(L, g) {
   return g.qs.map((q, i) => {
-    const bad = g.ents.filter(e => e.rows[i][0] === "bad" && CASES[e.rows[i][1]]), n = g.perQ[i].bad;
-    const rows = bad.map((e, k) => `<a class="row${bad.length > 4 && k >= 3 ? " x3" : ""}${bad.length > 4 && k === 2 ? " x2" : ""}" href="${href(L, "case", e.rows[i][1])}"><span class="row-text"><b>${esc(e.name)}</b> ${claimAfterName(CASES[e.rows[i][1]])}</span><span class="arrow" aria-hidden="true">→</span></a>`).join("");
+    const bad = g.ents.filter(e => e.rows[i][0] === "bad" && CASES[e.rows[i][1]]), n = g.perQ[i].bad, T = q.topic && TOPIC[q.topic];
+    const rows = bad.map((e, k) => `<a class="row${bad.length > 4 && k >= 3 ? " x3" : ""}${bad.length > 4 && k === 2 ? " x2" : ""}" href="${href(L, "case", e.rows[i][1], g.id + "~" + e.id)}"><span class="row-text"><b>${esc(e.name)}</b> ${claimAfterName(CASES[e.rows[i][1]])}</span><span class="arrow" aria-hidden="true">→</span></a>`).join("");
     const more = bad.length > 4 ? `<button type="button" class="res-btn" data-q-more>Show all ${bad.length}</button>` : "";
     return `<section class="issue res-q${i === 0 ? " res-q-first" : ""}" id="q-${i}"><div class="issue-head"><h2>${esc(q.title)}</h2><p class="issue-law">${keep(q.q)}</p>
       <div class="keys"><span class="k law"><b>Law</b>${keep(q.law)}</span></div>
       <div class="res-q-sum"><p><b${n ? ' class="red"' : ""}>${n} of ${g.ents.length}</b> misstated</p>${resBar(g.perQ[i])}</div>
-      ${q.topic && TOPIC[q.topic] ? `<a class="res-q-issue" href="${href(L, "topic", q.topic)}">Read the issue →</a>` : ""}</div>
+      ${T ? `<div class="res-q-actions"><button type="button" class="res-q-lawbtn" data-q-law aria-expanded="false" aria-controls="q-law-${i}">What the law says <i aria-hidden="true">⌄</i></button>
+        <a class="res-q-issue" href="${href(L, "topic", q.topic, g.id)}">Same issue across all sources (${T.cases.length}) →</a></div>
+      <p class="res-q-law" id="q-law-${i}" hidden>${keep(T.law)} <a class="prov" href="${esc(T.lawUrl)}" target="_blank" rel="noopener">${provText(T.provision).replace(/ (?=§)/g, "&nbsp;")} ↗</a></p>` : ""}</div>
       <div class="rows">${rows || `<p class="res-q-none">No misstatement found on this question.</p>`}${more}</div></section>`;
   }).join("");
 }
@@ -1204,6 +1239,13 @@ function afterGroup(s) {
   const redraw = () => { dir.innerHTML = dirHtml(s.L, g); };
   const syncChips = () => document.querySelectorAll(".res-chips button[data-f]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.f === DIR.f)));
   document.querySelectorAll(".res-q").forEach(q => q.addEventListener("click", e => {
+    const law = e.target.closest("[data-q-law]");
+    if (law) {
+      const open = law.getAttribute("aria-expanded") === "true";
+      law.setAttribute("aria-expanded", String(!open));
+      document.getElementById(law.getAttribute("aria-controls")).hidden = open;
+      return;
+    }
     if (!e.target.closest("[data-q-more]")) return;
     // The list grows below the button; the button goes and focus moves to the first row that appeared.
     const first = q.querySelector(matchMedia("(max-width: 640px)").matches ? ".row.x2" : ".row.x3");
@@ -1233,7 +1275,7 @@ function entityPage(L, g, e) {
   const pageLink = url => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(pageLabel(url))} ↗</a>`;
   const cards = g.qs.map((q, i) => {
     const [k, caseId, url] = e.rows[i], c = CASES[caseId];
-    const what = k === "bad" && c ? `${esc(c.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, ""))}. <a href="${href(L, "case", caseId)}">Read the case →</a>`
+    const what = k === "bad" && c ? `${esc(c.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, ""))}. <a href="${href(L, "case", caseId, g.id + "~" + e.id)}">Read the case →</a>`
       : k === "bad" ? "A published case backs this result."
       : k === "amb" ? "The wording could be read in more than one way."
       : k === "na" ? "We found no guidance on this in the pages we read."
