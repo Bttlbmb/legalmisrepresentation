@@ -377,6 +377,71 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .area-line .scope, .area-line .issues { grid-column: 1 / -1; }
 .area-line .issues { font-size: var(--s-sm); color: var(--ink-2); line-height: 1.5; }
 
+/* institutions: group and institution pages, and the front-page switch */
+.lens-row { padding: 18px 0 6px; }
+.lens { display: inline-flex; gap: 2px; padding: 3px; border: 1px solid var(--rule); border-radius: 999px; background: var(--surface); }
+.lens a { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 16px; border-radius: 999px; color: var(--ink-2); font-size: var(--s-sm); text-decoration: none; }
+.lens a:hover { color: var(--ink); }
+.lens a[aria-current="page"] { background: var(--ink); color: var(--bg); }
+.lens a span { opacity: .65; font-variant-numeric: tabular-nums; }
+.res-bar { display: flex; height: 8px; min-width: 0; border-radius: 2px; overflow: hidden; background: var(--rule); }
+.area-line > .res-bar { grid-column: 1 / -1; }
+.res-bar i, .res-dots i, .res-legend i, .res-card .sq { display: block; }
+.res-bar i.bad, .res-dots i.bad, .res-legend i.bad, .res-card .sq.bad { background: var(--claim); }
+.res-bar i.amb, .res-dots i.amb, .res-legend i.amb, .res-card .sq.amb { background: var(--claim-bg); box-shadow: inset 0 0 0 1px var(--claim); }
+.res-bar i.na, .res-dots i.na, .res-legend i.na, .res-card .sq.na { background: var(--rule); }
+.res-bar i.ok, .res-dots i.ok, .res-legend i.ok, .res-card .sq.ok { background: var(--ink-3); }
+.res-bar i.rev, .res-dots i.rev, .res-legend i.rev, .res-card .sq.rev { background: repeating-linear-gradient(135deg, var(--ink-3) 0 2px, var(--surface) 2px 4px); box-shadow: inset 0 0 0 1px var(--ink-3); }
+.res-dots { display: inline-flex; gap: 4px; }
+.res-dots i, .res-card .sq { flex: none; width: 14px; height: 14px; border-radius: 3px; }
+.res-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; padding-top: 8px; color: var(--ink-2); font-size: var(--s-xs); }
+.res-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.res-legend i { width: 10px; height: 10px; border-radius: 2px; }
+.red { color: var(--claim); }
+.res-sum { display: grid; gap: 4px; padding: 16px 0 4px; }
+.res-stat { color: var(--ink-2); font-size: var(--s-sm); font-variant-numeric: tabular-nums; }
+.res-h { display: flex; justify-content: space-between; gap: 16px; padding-top: 28px; padding-bottom: 8px; border-bottom: 2px solid var(--ink); font-size: var(--s-sm); font-weight: 600; letter-spacing: .07em; text-transform: uppercase; }
+.res-h span { color: var(--ink-3); font-weight: 400; letter-spacing: 0; text-transform: none; }
+.res-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr)); gap: 16px; padding-top: 16px; }
+.res-card { display: flex; flex-direction: column; min-width: 0; overflow: hidden; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; }
+.res-card .cq { display: grid; align-content: start; gap: 6px; padding: 16px 18px 14px; }
+.res-card h3 { font-family: var(--f-display); font-weight: 600; font-size: var(--s-lg); line-height: 1.25; }
+.res-card h3 a { text-decoration: none; }
+.res-card h3 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.res-card .qs { color: var(--ink-2); font-size: var(--s-sm); line-height: 1.5; }
+.res-card .ql { color: var(--ink-3); font-size: var(--s-xs); }
+.res-card .ql b { margin-right: 8px; color: var(--law); font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+.res-card .cr { display: grid; gap: 4px; margin-top: auto; padding: 12px 18px 14px; border-top: 1px solid var(--rule); background: var(--bg); }
+.res-card .cr.res-bad { border-top-color: transparent; background: var(--claim-bg); }
+.res-card .lab { display: flex; align-items: center; gap: 8px; font-size: var(--s-sm); }
+.res-card .lab b { font-weight: 600; }
+.res-card .txt { font-size: var(--s-sm); }
+.res-card .src { color: var(--ink-3); font-size: var(--s-xs); overflow-wrap: anywhere; }
+.res-card .src a { color: var(--ink-2); }
+.res-card .res-bar { margin-top: 4px; }
+.res-ctl { display: grid; gap: 10px; padding: 14px 0 6px; }
+.res-search, .res-chips select { font: inherit; min-height: 44px; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.res-search { display: block; width: 100%; padding: 10px 14px; font-size: var(--s-md); }
+.res-search::placeholder { color: var(--ink-3); }
+.res-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.res-chips button, .res-btn { font: inherit; font-size: var(--s-sm); min-height: 44px; padding: 0 14px; border: 1px solid var(--rule); border-radius: 999px; background: var(--surface); color: var(--ink-2); cursor: pointer; }
+.res-chips button:hover, .res-btn:hover, .res-chips select:hover { border-color: var(--ink-3); color: var(--ink); }
+.res-chips button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.res-chips button span { margin-left: 4px; opacity: .65; font-variant-numeric: tabular-nums; }
+.res-chips select { padding: 0 10px; font-size: var(--s-sm); color: var(--ink-2); }
+.res-btn { margin-top: 12px; border-radius: 8px; }
+.res-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; align-items: center; padding: 11px 0; border-bottom: 1px solid var(--rule-2); text-decoration: none; }
+.res-row:hover b { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.res-row b { font-weight: 500; }
+.res-row small { grid-column: 1; color: var(--ink-3); font-size: var(--s-xs); }
+.res-row .res-dots { grid-column: 2; grid-row: 1 / 3; }
+.res-empty { padding: 18px 0; color: var(--ink-3); font-size: var(--s-sm); }
+.res-empty .res-btn { margin: 8px 0 0; display: block; }
+.res-note { padding-top: 24px; color: var(--ink-2); font-size: var(--s-sm); }
+.res-note b { color: var(--ink); font-weight: 600; }
+.meta-line a { color: var(--ink-2); }
+@media (max-width: 640px) { .lens a { min-height: 44px; } }
+
 /* single-column grids must not grow past their container */
 .case, .case-head, .case-wrap, .q, .versions, .side, .practice, .more, .sheet, .A .hero, .C .hero, .A .area-head, .c-topic-head, .issue-head, .area-main { grid-template-columns: minmax(0, 1fr); }
 
@@ -435,6 +500,9 @@ const CASES = DATA.cases;
 const AREA = Object.fromEntries(AREAS.map(a => [a.id, a]));
 const TOPIC = {};
 AREAS.forEach(a => a.topics.forEach(t => { TOPIC[a.id + "~" + t.id] = Object.assign(t, { key: a.id + "~" + t.id, area: a.id }); }));
+const GROUPS = DATA.groups || [];
+const GROUP = Object.fromEntries(GROUPS.map(g => [g.id, g]));
+const ENTITY = {};
 const SECTORS = [
   { id: "gov", label: "Government", long: "Government guidance" },
   { id: "biz", label: "Companies", long: "Company information" },
@@ -497,6 +565,9 @@ function state() {
   const [L, kind, id] = decodeURIComponent(location.hash.slice(1)).split(".");
   const s = { L: LAYOUTS.some(x => x.id === L) ? L : "A1", kind: kind || "home", id: id || "" };
   if ((s.kind === "area" && !AREA[s.id]) || (s.kind === "topic" && !TOPIC[s.id]) || (s.kind === "case" && !CASES[s.id])) s.kind = "home";
+  // Institution pages exist only in the public layout and only when the data carries groups.
+  if ((s.kind === "inst" && !(GROUPS.length && s.L === "A1")) || (s.kind === "group" && !(GROUP[s.id] && s.L === "A1"))
+    || (s.kind === "entity" && !(ENTITY[s.id] && s.L === "A1"))) s.kind = "home";
   return s;
 }
 
@@ -841,11 +912,13 @@ function caseTable(t, a, L) {
 function renderAS(s) {
   const L = s.L;
   let body = "";
-  if (s.kind === "home" && L === "A1") {
+  if (s.kind === "inst" || s.kind === "group" || s.kind === "entity") {
+    body = instBody(s);
+  } else if (s.kind === "home" && L === "A1") {
     // Front page: government and companies side by side, every area with its first issues; the area page lists all of them.
     body = `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${intro}</p>
       <p class="stats">${TOTAL.areas} areas · ${TOTAL.topics} issues · ${TOTAL.cases} cases</p></section>
-      <div class="home-cols">${SECTORS.map(sec => {
+      ${GROUPS.length ? lensRow(L, "issue") : ""}<div class="home-cols">${SECTORS.map(sec => {
         const as = AREAS.filter(a => a.sector === sec.id), sc = SECTOR_SCOPE[sec.id];
         return `<section class="home-sec"><div class="sector-h"><h2>${sc.title}</h2><span>${plural(as.reduce((x, a) => x + nCases(a), 0), "case", "cases")}</span></div>
           <p class="sector-sub">${sc.sub}</p>
@@ -987,6 +1060,142 @@ function afterC(s, prev) {
   else if (!(prev && prev.L === "C" && topicKey(prev) && topicKey(prev) === topicKey(s))) window.scrollTo(0, 0);
 }
 
+/* ================= Institutions: groups checked question by question ================= */
+/* Each group is a fixed cohort (for example Jobcenters) with the same few questions for every member.
+   A result reads "Misstated" only when a published case backs it; the data carries nothing else. */
+const RESULT = { bad: "Misstated", amb: "Unclear", na: "Not addressed or not found", ok: "No misstatement found", rev: "Under review" };
+const GROUP_SECTORS = { gov: "Government bodies", biz: "Companies" };
+const fmtN = n => n.toLocaleString("en-GB");
+GROUPS.forEach(g => {
+  g.cnt = { bad: 0, amb: 0, na: 0, ok: 0, rev: 0 };
+  g.perQ = g.qs.map(() => ({ bad: 0, amb: 0, na: 0, ok: 0, rev: 0 }));
+  g.withBad = 0;
+  g.ents.forEach(e => {
+    e.bad = e.rows.filter(r => r[0] === "bad").length;
+    e.amb = e.rows.filter(r => r[0] === "amb").length;
+    e.rev = e.rows.filter(r => r[0] === "rev").length;
+    if (e.bad) g.withBad++;
+    e.rows.forEach((r, i) => { g.cnt[r[0]]++; g.perQ[i][r[0]]++; });
+  });
+  g.ents.sort((a, b) => b.bad - a.bad || b.amb - a.amb || a.name.localeCompare(b.name, "de"));
+  g.checks = g.ents.length * g.qs.length;
+  g.states = [...new Set(g.ents.map(e => e.state).filter(Boolean))].sort((a, b) => a.localeCompare(b, "de"));
+  g.ents.forEach(e => { ENTITY[g.id + "~" + e.id] = [g, e]; });
+});
+const GROUP_TOTAL = { n: GROUPS.reduce((n, g) => n + g.ents.length, 0), checks: GROUPS.reduce((n, g) => n + g.checks, 0),
+  ok: GROUPS.reduce((n, g) => n + g.cnt.ok, 0), bad: GROUPS.reduce((n, g) => n + g.cnt.bad, 0) };
+
+const resBar = c => `<span class="res-bar" role="img" aria-label="${c.bad} misstated, ${c.amb} unclear, ${c.na} not addressed or not found, ${c.ok} no misstatement found${c.rev ? `, ${c.rev} under review` : ""}">${["bad", "amb", "na", "ok", "rev"].map(k => `<i class="${k}" style="flex:${c[k]}"></i>`).join("")}</span>`;
+const resLegend = g => `<p class="res-legend">${["bad", "amb", "na", "ok", ...(g.cnt.rev ? ["rev"] : [])].map(k => `<span><i class="${k}"></i>${RESULT[k]}</span>`).join("")}</p>`;
+const entityDots = (g, e) => `<span class="res-dots" role="img" aria-label="${esc(g.qs.map((q, i) => `${q.title}: ${RESULT[e.rows[i][0]].toLowerCase()}`).join("; "))}">${e.rows.map((r, i) => `<i class="${r[0]}" title="${esc(g.qs[i].title)}: ${RESULT[r[0]].toLowerCase()}"></i>`).join("")}</span>`;
+const entitySub = e => [e.state ? esc(e.state) : "", e.bad ? `<span class="red">${e.bad} misstated</span>` : "", e.amb ? `${e.amb} unclear` : "", e.rev ? `${e.rev} under review` : ""].filter(Boolean).join(" · ") || "No misstatement found";
+const entityHref = (L, g, e) => href(L, "entity", g.id + "~" + e.id);
+const pageLabel = url => { try { const u = new URL(url); return (u.hostname.replace(/^www\./, "") + u.pathname.replace(/\/$/, "")).slice(0, 60); } catch (e) { return url; } };
+
+function lensRow(L, current) {
+  const tab = (kind, label, n) => `<a href="${href(L, kind)}"${current === (kind || "issue") ? ' aria-current="page"' : ""}>${label}<span>${n}</span></a>`;
+  return `<div class="lens-row"><nav class="lens" aria-label="Browse by">${tab("", "By issue", TOTAL.topics)}${tab("inst", "By institution", GROUP_TOTAL.n)}</nav></div>`;
+}
+
+function instHome(L) {
+  const lines = ["gov", "biz"].map(sec => {
+    const gs = GROUPS.filter(g => g.sector === sec);
+    if (!gs.length) return "";
+    return `<section class="home-sec"><div class="sector-h"><h2>${GROUP_SECTORS[sec]}</h2><span>${plural(gs.reduce((n, g) => n + g.ents.length, 0), "institution", "institutions")}</span></div>
+      <div>${gs.map(g => `<a class="area-line" href="${href(L, "group", g.id)}"><h3>${esc(g.title)}</h3><span class="n">${g.ents.length}<small>checked</small></span>
+        ${resBar(g.cnt)}
+        <p class="issues"><b>${g.withBad}</b> with at least one misstatement · ${fmtN(g.cnt.ok)} of ${fmtN(g.checks)} checks found no misstatement</p>
+        <p class="scope"><span>${plural(g.qs.length, "question", "questions")} each</span><span class="law-s">${esc(g.lawShort)}</span></p></a>`).join("")}</div></section>`;
+  }).join("");
+  return `<section class="hero"><h1>What you’re told vs. what the law says</h1>
+    <p class="lede">${esc(widow(`Guidance checked institution by institution: ${fmtN(GROUP_TOTAL.n)} bodies and companies, the same few questions each.`))}</p>
+    <p class="stats">${fmtN(GROUP_TOTAL.checks)} checks · ${fmtN(GROUP_TOTAL.ok)} found no misstatement · ${fmtN(GROUP_TOTAL.bad)} misstated</p></section>
+    ${lensRow(L, "inst")}<div class="home-cols">${lines}</div>`;
+}
+
+const DIR = { q: "", f: "bad", st: "", shown: 20, group: "" };
+function dirMatches(g) {
+  const q = DIR.q.trim().toLowerCase();
+  return g.ents.filter(e => (!q || e.name.toLowerCase().includes(q) || (e.state || "").toLowerCase().includes(q))
+    && (!DIR.st || e.state === DIR.st) && (DIR.f === "all" || e.bad));
+}
+function dirHtml(L, g) {
+  const list = dirMatches(g), cut = list.slice(0, DIR.shown);
+  if (!list.length) return DIR.f === "all" ? `<p class="res-empty">Nothing found. Only institutions we checked are listed.</p>`
+    : `<p class="res-empty">No match among institutions with a misstatement. <button type="button" class="res-btn" data-all>Search all ${g.ents.length}</button></p>`;
+  const more = list.length > cut.length ? `<button type="button" class="res-btn" data-more>Show ${Math.min(30, list.length - cut.length)} more of ${list.length - cut.length}</button>` : "";
+  return cut.map(e => `<a class="res-row" href="${entityHref(L, g, e)}"><b>${esc(e.name)}</b><small>${entitySub(e)}</small>${entityDots(g, e)}</a>`).join("") + more;
+}
+function dirControls(g) {
+  return `<div class="res-ctl"><input class="res-search" type="search" value="${esc(DIR.q)}" placeholder="Search ${esc(g.title)}${g.states.length > 1 ? " or state" : ""}" aria-label="Search ${esc(g.title)}" autocomplete="off">
+    <div class="res-chips"><button type="button" data-f="bad" aria-pressed="${DIR.f === "bad"}">With a misstatement<span>${g.withBad}</span></button><button type="button" data-f="all" aria-pressed="${DIR.f === "all"}">All<span>${g.ents.length}</span></button>
+    ${g.states.length > 1 ? `<select aria-label="State"><option value="">All states</option>${g.states.map(s => `<option${DIR.st === s ? " selected" : ""}>${esc(s)}</option>`).join("")}</select>` : ""}</div></div>`;
+}
+function questionBlock(q) {
+  return `<p class="qs">${keep(q.q)}</p><p class="ql"><b>The law</b>${keep(q.law)}</p>`;
+}
+const questionTitle = (L, q) => q.topic && TOPIC[q.topic] ? `<a href="${href(L, "topic", q.topic)}">${esc(q.title)}</a>` : esc(q.title);
+
+function groupPage(L, g) {
+  const c = g.cnt;
+  if (DIR.group !== g.id) Object.assign(DIR, { q: "", f: "bad", st: "", shown: 20, group: g.id });
+  return `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "inst")}">← All institutions</a></nav>
+    <header class="area-head"><p class="eyebrow">${GROUP_SECTORS[g.sector]}</p><h1>${esc(g.title)}</h1><p class="lede">${esc(widow(`${g.who}. ${g.ents.length} checked on ${g.qs.length} questions each, against ${g.lawShort}.`))}</p></header>
+    <div class="res-sum"><p class="res-stat"><b>${g.withBad}</b> of ${g.ents.length} had at least one misstatement · ${fmtN(c.ok)} of ${fmtN(g.checks)} checks found no misstatement</p>${resBar(c)}${resLegend(g)}</div>
+    <h2 class="res-h">By question <span>institutions per outcome</span></h2>
+    <div class="res-cards">${g.qs.map((q, i) => `<article class="res-card"><div class="cq"><h3>${questionTitle(L, q)}</h3>${questionBlock(q)}</div>
+      <div class="cr"><p class="lab"><b${g.perQ[i].bad ? ' class="red"' : ""}>${g.perQ[i].bad} of ${g.ents.length} misstated</b></p>${resBar(g.perQ[i])}</div></article>`).join("")}</div>
+    <h2 class="res-h">Institutions <span>${g.ents.length} checked</span></h2>
+    ${dirControls(g)}<div id="res-dir">${dirHtml(L, g)}</div>`;
+}
+function afterGroup(s) {
+  const g = GROUP[s.id], dir = document.getElementById("res-dir");
+  if (!dir) return;
+  const redraw = () => { dir.innerHTML = dirHtml(s.L, g); };
+  const syncChips = () => document.querySelectorAll(".res-chips button[data-f]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.f === DIR.f)));
+  document.querySelector(".res-search")?.addEventListener("input", e => { DIR.q = e.target.value; DIR.shown = 20; redraw(); });
+  document.querySelectorAll(".res-chips button[data-f]").forEach(b => b.addEventListener("click", () => { DIR.f = b.dataset.f; DIR.shown = 20; syncChips(); redraw(); }));
+  document.querySelector(".res-chips select")?.addEventListener("change", e => { DIR.st = e.target.value; DIR.shown = 20; redraw(); });
+  dir.addEventListener("click", e => {
+    if (e.target.closest("[data-all]")) { DIR.f = "all"; syncChips(); redraw(); return; }
+    if (e.target.closest("[data-more]")) {
+      const had = dir.querySelectorAll(".res-row").length;
+      DIR.shown += 30; redraw();
+      dir.querySelectorAll(".res-row")[had]?.focus();
+    }
+  });
+}
+
+function entityPage(L, g, e) {
+  const dates = e.rows.map(r => r[3]).sort(), done = dates[dates.length - 1];
+  const tally = [["bad", "misstated"], ["amb", "unclear"], ["ok", "with no misstatement found"], ["na", "not addressed or not found"], ["rev", "under review"]]
+    .map(([k, w]) => [e.rows.filter(r => r[0] === k).length, w]).filter(([n]) => n).map(([n, w]) => `${n} ${w}`).join(", ");
+  const cards = g.qs.map((q, i) => {
+    const [k, caseId, url] = e.rows[i], c = CASES[caseId];
+    const what = k === "bad" && c ? `${esc(c.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, ""))}. <a href="${href(L, "case", caseId)}">Read the case →</a>`
+      : k === "bad" ? "A published case backs this result."
+      : k === "amb" ? "The wording could be read in more than one way."
+      : k === "na" ? "We found no guidance on this in the pages we read."
+      : k === "rev" ? "A finding on this question is under review and not yet published."
+      : "We found no misstatement in the pages we read.";
+    return `<article class="res-card"><div class="cq"><h3>${questionTitle(L, q)}</h3>${questionBlock(q)}</div>
+      <div class="cr res-${k}"><p class="lab"><i class="sq ${k}"></i><b${k === "bad" ? ' class="red"' : ""}>${RESULT[k]}</b></p><p class="txt">${what}</p>${url ? `<p class="src">Page checked: <a href="${esc(url)}" target="_blank" rel="noopener">${esc(pageLabel(url))} ↗</a></p>` : ""}</div></article>`;
+  }).join("");
+  return `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "group", g.id)}">← ${esc(g.title)}</a></nav>
+    <header class="area-head"><p class="eyebrow">${esc(g.one)}${e.state ? ` · ${esc(e.state)}` : ""}</p><h1>${esc(e.name)}</h1>
+    <p class="lede">${esc(widow(`${plural(g.qs.length, "question", "questions")} checked on ${fmtDate(done)}: ${tally}.`))}</p>
+    ${e.web ? `<p class="meta-line"><span><a href="${esc(e.web)}" target="_blank" rel="noopener">Official website ↗</a></span></p>` : ""}</header>
+    <div class="res-cards">${cards}</div>
+    <p class="res-note"><b>What this shows.</b> The result for each question describes the pages we read on the date above. It does not show whether anyone was refused or misled in practice, and the pages may have changed since.</p>`;
+}
+
+function instBody(s) {
+  if (s.kind === "inst") return instHome(s.L);
+  if (s.kind === "group") return groupPage(s.L, GROUP[s.id]);
+  const [g, e] = ENTITY[s.id];
+  return entityPage(s.L, g, e);
+}
+
 /* ---------- render ---------- */
 let last = null;
 function render() {
@@ -996,6 +1205,7 @@ function render() {
   document.documentElement.classList.toggle("reader-mode", s.L === "B");
   document.body.style.overflow = "";
   if (s.L[0] === "A") afterA(s);
+  if (s.L === "A1" && s.kind === "group") afterGroup(s);
   if (s.L === "B") afterB(s, prev);
   if (s.L === "C") afterC(s, prev);
   last = s;
