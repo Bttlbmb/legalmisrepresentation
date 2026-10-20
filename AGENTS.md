@@ -20,7 +20,7 @@ The page shows what the data holds and never rewrites a quotation. Each behaviou
 - **Versions** (`versions`): one chip per language above the passage, merged when a version repeats the same page and wording, plus a "Page" selector when a language has several pages. Switching must not move the control or drop focus. `cut` on a version shows a fixed note that the publisher's own text ends mid-sentence.
 - **Context quotes** (`ctx`): retained in the dataset but not displayed. The owner removed the "Also on the source site" section for the MVP to keep case pages simple. Keep the main passage and the separate scope disclosure intact.
 - **Related cases**: case pages in the A1–A3 layouts end after the scope disclosure. The owner removed the bottom "N cases in [issue]" list for the MVP; the breadcrumb still links to the issue's cases.
-- **Marked wording** (`marks`, `lawMarks`): the passage highlights every occurrence of each mark in the matching language, the law text highlights `lawMarks`, and a one-line key explains both. A case with no marks shows no highlights and no key. As of 18 October 2026 all 229 published cases have source and law marks drafted and cross-reviewed by separate agents, and published on the live site. These are presentation reviews against retained research, not fresh legal or live-source checks. Correct source versions stay unmarked: this applies to the Thai Airways French passage and its English translation. See the backend's data format for how researchers add marks.
+- **Marked wording** (`marks`, `lawMarks`): the passage highlights every occurrence of each mark in the matching language, the law text highlights `lawMarks`, and a one-line key explains both. A case with no marks shows no highlights and no key. As of 18 October 2026 the 229 cases published then had source and law marks drafted and cross-reviewed by separate agents, and published on the live site; the 81 cases added afterwards (310 in all) also carry marks. These are presentation reviews against retained research, not fresh legal or live-source checks. Correct source versions stay unmarked: this applies to the Thai Airways French passage and its English translation. See the backend's data format for how researchers add marks.
 
 Display rules agreed with the project owner:
 
@@ -29,6 +29,18 @@ Display rules agreed with the project owner:
 - Every area on the front page shows its applicable law (`lawShort`, for example "German law", "EU law" or "EU and German law"), government areas included, so rows look alike. Government areas show their law but no "Cases from N countries": every case concerns a German institution and the countries only mark where an embassy sits. Company areas keep the count.
 - The front page lists each area's first four issues and "and N more issues"; the area page lists them all.
 - The header shows the logo (white not-equal sign on the dark header tone) beside the title; both words use the ink colour, with no red or green because those colours mean claim and law elsewhere.
+
+## Institution pages
+
+A second way in beside the issue pages: the **By issue / By institution** switch on the front page, a **group page** for each cohort ("Jobcenters") and an **institution page** for each member. All of it is driven by `DATA.groups` (exported from the backend's `subjects/institutions/`); with no groups the page, its routes and its markup are exactly as before, so a build without group data changes nothing visible.
+
+- **Routes** (layout A1 only): `#A1.inst`, `#A1.group.<groupId>`, `#A1.entity.<groupId>~<entityId>`. Unknown ids fall back to the front page.
+- **Group page:** summary bar and legend, one card per question (title linked to its issue page when the question has one, the question sentence, "The law" line, count and bar), then a directory with search, a "With a misstatement / All" filter, a state select and "Show more". Controls update in place so a clicked control never moves or loses focus. Searching inside the misstatement filter offers "Search all" when nothing matches.
+- **Institution page:** one card per question with a result footer (label, one sentence, "Page checked" link). "Misstated" always links to a published case. Findings that lack a published case show as "Under review" and are never counted as misstatements.
+- **Labels:** Misstated, Unclear, Not addressed or not found, No misstatement found, Under review (in the legend only for groups that have such rows). The page says "No misstatement found", not "correct": many negative results were not independently reviewed.
+- **Display rules agreed with the project owner:** no "not a ranking" note (the group lede states how many were checked on how many questions); question text uses the full card width; questions and results sit in concise cards; red stays "what the source says"; the result squares carry text and an `aria-label` as well as colour.
+- **Data:** see the backend's data format ("Institution groups"). Question sentences and law lines are editorial text in the group file, not derived from the sweep.
+- **Checking a change:** `node tests/check_routes.cjs dist/index.html dist/data.json` renders every group and institution route (and checks that, without groups, no institution switch appears); then follow the checks above in the browser at 320, 390, 768 and 1280, light and dark.
 
 ## Checking a change
 

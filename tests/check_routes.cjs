@@ -33,10 +33,32 @@ for (const narrow of [false, true]) {
       for (const topic of area.topics) routes.push(`#${layout}.topic.${area.id}~${topic.id}`);
     }
     for (const cid of Object.keys(data.cases)) routes.push(`#${layout}.case.${cid}`);
+    // Institution pages exist only in A1 and only when the data carries groups; without groups they fall back to the front page.
+    const groups = data.groups || [], must = {};
+    if (layout === 'A1') {
+      must['#A1'] = groups.length ? 'class="lens"' : 'class="home-cols"';
+      routes.push('#A1.inst');
+      must['#A1.inst'] = groups.length ? 'class="home-cols"' : 'class="hero"';
+      for (const g of groups) {
+        routes.push(`#A1.group.${g.id}`);
+        must[`#A1.group.${g.id}`] = 'res-card';
+        for (const e of g.ents) {
+          routes.push(`#A1.entity.${g.id}~${e.id}`);
+          must[`#A1.entity.${g.id}~${e.id}`] = 'res-card';
+        }
+      }
+      routes.push('#A1.group.no-such-group', '#A1.entity.no-such~entity');
+    }
     for (const route of routes) {
       ctx.location.hash = route;
       vm.runInContext('render()', ctx);
-      if (nodes.get('root').innerHTML.length < 100) throw new Error(`Empty output: ${route}`);
+      const html = nodes.get('root').innerHTML;
+      if (html.length < 100) throw new Error(`Empty output: ${route}`);
+      if (must[route] && !html.includes(must[route])) throw new Error(`Missing ${must[route]}: ${route}`);
+      if (!groups.length && html.includes('lens-row')) throw new Error(`Institution switch without data: ${route}`);
+      if (route.startsWith('#A1.group.no-such') || route.startsWith('#A1.entity.no-such')) {
+        if (html.includes('res-card')) throw new Error(`Unknown institution page rendered: ${route}`);
+      }
     }
     checks.push({ layout, viewport_branch: narrow ? 'narrow' : 'wide', routes: routes.length });
   }
