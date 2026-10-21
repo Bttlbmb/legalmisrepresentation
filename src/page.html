@@ -456,6 +456,7 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .res-q-lawbtn[aria-expanded="true"] i { transform: rotate(180deg); }
 .res-q-law { color: var(--ink-2); font-size: var(--s-sm); padding-bottom: 6px; }
 .res-q-law .prov { white-space: nowrap; }
+.res-q-note { display: block; margin-bottom: 4px; color: var(--ink-3); font-size: var(--s-xs); }
 .res-q-none { padding: 2px 2px 0; color: var(--ink-3); font-size: var(--s-sm); }
 .res-q .rows .res-btn { margin-top: 12px; }
 .res-q:not(.open) .row.x3 { display: none; }
@@ -1242,13 +1243,15 @@ function claimAfterName(c) {
 function questionBlocks(L, g) {
   return g.qs.map((q, i) => {
     const bad = g.ents.filter(e => e.rows[i][0] === "bad" && CASES[e.rows[i][1]]), n = g.perQ[i].bad, T = q.topic && TOPIC[q.topic];
+    // The question's own legal text wins; the linked issue's explanation is shown as it is only when someone confirmed it answers this question.
+    const P = q.lawText ? { law: q.lawText, prov: q.prov, url: q.lawUrl } : T && { law: T.law, prov: T.provision, url: T.lawUrl, general: q.basis !== "issue" };
     const rows = bad.map((e, k) => `<a class="row${bad.length > 4 && k >= 3 ? " x3" : ""}${bad.length > 4 && k === 2 ? " x2" : ""}" href="${href(L, "case", e.rows[i][1], g.id + "~" + e.id)}"><span class="row-text"><b>${esc(e.name)}</b> ${claimAfterName(CASES[e.rows[i][1]])}</span><span class="arrow" aria-hidden="true">→</span></a>`).join("");
     const more = bad.length > 4 ? `<button type="button" class="res-btn" data-q-more>Show all ${bad.length}</button>` : "";
     return `<section class="issue res-q${i === 0 ? " res-q-first" : ""}" id="q-${i}"><div class="issue-head"><h2>${esc(q.title)}</h2><p class="issue-law">${keep(q.q)}</p>
       <div class="keys"><span class="k law"><b>Law</b>${keep(q.law)}</span></div>
       <div class="res-q-sum"><p><b${n ? ' class="red"' : ""}>${n} of ${g.ents.length}</b> had a misrepresentation</p>${resBar(g.perQ[i])}</div>
-      ${T ? `<div class="res-q-actions"><button type="button" class="res-q-lawbtn" data-q-law aria-expanded="false" aria-controls="q-law-${i}">What the law says <i aria-hidden="true">⌄</i></button></div>
-      <p class="res-q-law" id="q-law-${i}" hidden>${keep(T.law)} <a class="prov" href="${esc(T.lawUrl)}" target="_blank" rel="noopener">${provText(T.provision).replace(/ (?=§)/g, "&nbsp;")} ↗</a></p>` : ""}</div>
+      ${P ? `<div class="res-q-actions"><button type="button" class="res-q-lawbtn" data-q-law aria-expanded="false" aria-controls="q-law-${i}">What the law says <i aria-hidden="true">⌄</i></button></div>
+      <p class="res-q-law" id="q-law-${i}" hidden>${P.general ? `<span class="res-q-note">This explains the whole issue and has not yet been checked against this question.</span>` : ""}${keep(P.law)} <a class="prov" href="${esc(P.url)}" target="_blank" rel="noopener">${provText(P.prov).replace(/ (?=§)/g, "&nbsp;")} ↗</a></p>` : ""}</div>
       <div class="rows">${rows || `<p class="res-q-none">No misrepresentation found on this question.</p>`}${more}</div></section>`;
   }).join("");
 }
