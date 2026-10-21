@@ -365,6 +365,7 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .area-line .n small { font-family: var(--f-body); font-size: var(--s-sm); color: var(--ink-3); margin-left: 4px; }
 .area-line .scope, .area-line .issues { grid-column: 1 / -1; }
 .area-line .issues { font-size: var(--s-sm); color: var(--ink-2); line-height: 1.5; }
+.area-line .issues.gap { font-size: var(--s-xs); margin-top: -2px; }
 
 /* institutions: group and institution pages, and the front-page switch */
 .lens-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; padding: 18px 0 6px; }
@@ -390,6 +391,7 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .red { color: var(--claim); }
 .res-sum { display: grid; gap: 4px; padding: 16px 0 4px; }
 .res-stat { color: var(--ink-2); font-size: var(--s-sm); font-variant-numeric: tabular-nums; }
+.res-stat.gap { font-size: var(--s-xs); }
 .res-h { display: flex; justify-content: space-between; gap: 16px; padding-top: 28px; padding-bottom: 8px; border-bottom: 2px solid var(--ink); font-size: var(--s-sm); font-weight: 600; letter-spacing: .07em; text-transform: uppercase; }
 .res-h span { color: var(--ink-3); font-weight: 400; letter-spacing: 0; text-transform: none; }
 .res-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr)); gap: 16px; padding-top: 16px; }
@@ -1142,6 +1144,8 @@ GROUPS.forEach(g => {
   // Each institution counts once, by its worst result: a misrepresentation, else a finding not yet published, else unclear, else no misrepresentation found.
   g.inst = { bad: 0, amb: 0, na: 0, ok: 0, unp: 0 };
   g.ents.forEach(e => { g.inst[e.bad ? "bad" : e.unp ? "unp" : e.amb ? "amb" : "ok"]++; });
+  // Of the institutions with no misrepresentation found, those with at least one question not addressed or not found: their grey is not a clean result.
+  g.gapOk = g.ents.filter(e => !e.bad && !e.unp && !e.amb && e.rows.some(r => r[0] === "na")).length;
   g.ents.sort((a, b) => b.bad - a.bad || b.amb - a.amb || a.name.localeCompare(b.name, "de"));
   g.checks = g.ents.length * g.qs.length;
   g.states = [...new Set(g.ents.map(e => e.state).filter(Boolean))].sort((a, b) => a.localeCompare(b, "de"));
@@ -1151,6 +1155,7 @@ const GROUP_TOTAL = { n: GROUPS.reduce((n, g) => n + g.ents.length, 0), checks: 
   ok: GROUPS.reduce((n, g) => n + g.cnt.ok, 0), bad: GROUPS.reduce((n, g) => n + g.cnt.bad, 0) };
 
 const resBar = c => `<span class="res-bar" role="img" aria-label="${c.bad} with misrepresentation, ${c.amb} unclear, ${c.na} not addressed or not found, ${c.ok} no misrepresentation found${c.unp ? `, ${c.unp} not yet published` : ""}">${["bad", "amb", "na", "ok", "unp"].map(k => `<i class="${k}" style="flex:${c[k]}"></i>`).join("")}</span>`;
+const gapLine = g => !g.gapOk ? "" : `${g.gapOk === g.inst.ok ? (g.inst.ok === 1 ? "The one" : `All ${g.inst.ok}`) : `${g.gapOk} of the ${g.inst.ok}`} with none found lacked guidance on at least one question`;
 const instBar = g => `<span class="res-bar" role="img" aria-label="${g.inst.bad} of ${g.ents.length} with a misrepresentation${g.inst.unp ? `, ${g.inst.unp} with a finding not yet published` : ""}, ${g.inst.amb} with unclear results only, ${g.inst.ok} with no misrepresentation found">${["bad", "unp", "amb", "ok"].map(k => `<i class="${k}" style="flex:${g.inst[k]}"></i>`).join("")}</span>`;
 const resLegend = g => `<p class="res-legend">${["bad", "amb", "na", "ok", ...(g.cnt.unp ? ["unp"] : [])].map(k => `<span><i class="${k}"></i>${RESULT[k]}</span>`).join("")}</p>`;
 const entityDots = (g, e) => `<span class="res-dots" role="img" aria-label="${esc(g.qs.map((q, i) => `${q.title}: ${RESULT[e.rows[i][0]].toLowerCase()}`).join("; "))}">${e.rows.map((r, i) => `<i class="${r[0]}" title="${esc(g.qs[i].title)}: ${RESULT[r[0]].toLowerCase()}"></i>`).join("")}</span>`;
@@ -1174,7 +1179,7 @@ function instHome(L) {
       <div>${gs.map(g => `<a class="area-line" href="${href(L, "group", g.id)}"><h3>${esc(g.title)}</h3><span class="n">${g.ents.length}<small>checked</small></span>
         <p class="scope"><span class="law-s">${esc(g.lawShort)}</span><span>${plural(g.ents.length, "institution", "institutions")}${g.region === "country" ? ` in ${g.states.length} countries` : ""}</span></p>
         ${instBar(g)}
-        <p class="issues"><b>${g.withBad} of ${g.ents.length}</b> had a misrepresentation</p></a>`).join("")}</div></section>`;
+        <p class="issues"><b>${g.withBad} of ${g.ents.length}</b> had a misrepresentation</p>${g.gapOk ? `<p class="issues gap">${esc(gapLine(g))}</p>` : ""}</a>`).join("")}</div></section>`;
   }).join("");
   return `<section class="hero"><h1>What you’re told vs. what the law says</h1>
     <p class="lede">${esc(widow(`Authorities and companies checked one by one, on the same few questions each.`))}</p>
@@ -1236,7 +1241,7 @@ function groupPage(L, g) {
   if (DIR.group !== g.id) Object.assign(DIR, { q: "", f: "bad", st: "", shown: 20, group: g.id });
   return `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "inst")}">← All institutions</a></nav>
     <header class="area-head"><p class="eyebrow">${SECTOR_SCOPE[g.sector].title}</p><h1>${esc(g.title)}</h1><p class="lede">${esc(widow(`${g.who}. ${g.ents.length} checked on ${g.qs.length} questions each, against ${g.lawShort}.`))}</p></header>
-    <div class="res-sum"><p class="res-stat"><b>${g.withBad}</b> of ${g.ents.length} had a misrepresentation</p>${instBar(g)}${resLegend(g)}</div>
+    <div class="res-sum"><p class="res-stat"><b>${g.withBad}</b> of ${g.ents.length} had a misrepresentation</p>${g.gapOk ? `<p class="res-stat gap">${esc(gapLine(g))}</p>` : ""}${instBar(g)}${resLegend(g)}</div>
     <h2 class="res-h">By question</h2>
     ${questionBlocks(L, g)}
     <h2 class="res-h">Institutions <span>${g.ents.length} checked</span></h2>
