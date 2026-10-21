@@ -440,9 +440,9 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .res-q-sum p b { font-weight: 600; }
 .res-q-sum .res-bar { margin: 0; }
 .res-q-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0 18px; }
-.res-q-lawbtn, .res-q-issue { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink-2); font-size: var(--s-sm); text-decoration: underline; text-underline-offset: 3px; }
+.res-q-lawbtn { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink-2); font-size: var(--s-sm); text-decoration: underline; text-underline-offset: 3px; }
 .res-q-lawbtn { gap: 4px; padding: 0; border: 0; background: none; font: inherit; font-size: var(--s-sm); cursor: pointer; }
-.res-q-lawbtn:hover, .res-q-issue:hover { color: var(--ink); }
+.res-q-lawbtn:hover { color: var(--ink); }
 .res-q-lawbtn i { color: var(--ink-3); font-style: normal; transition: transform .15s; }
 .res-q-lawbtn[aria-expanded="true"] i { transform: rotate(180deg); }
 .res-q-law { color: var(--ink-2); font-size: var(--s-sm); padding-bottom: 6px; }
@@ -1231,8 +1231,7 @@ function questionBlocks(L, g) {
     return `<section class="issue res-q${i === 0 ? " res-q-first" : ""}" id="q-${i}"><div class="issue-head"><h2>${esc(q.title)}</h2><p class="issue-law">${keep(q.q)}</p>
       <div class="keys"><span class="k law"><b>Law</b>${keep(q.law)}</span></div>
       <div class="res-q-sum"><p><b${n ? ' class="red"' : ""}>${n} of ${g.ents.length}</b> had a misrepresentation</p>${resBar(g.perQ[i])}</div>
-      ${T ? `<div class="res-q-actions"><button type="button" class="res-q-lawbtn" data-q-law aria-expanded="false" aria-controls="q-law-${i}">What the law says <i aria-hidden="true">⌄</i></button>
-        <a class="res-q-issue" href="${href(L, "topic", q.topic, g.id)}">Same issue across all sources (${T.cases.length}) →</a></div>
+      ${T ? `<div class="res-q-actions"><button type="button" class="res-q-lawbtn" data-q-law aria-expanded="false" aria-controls="q-law-${i}">What the law says <i aria-hidden="true">⌄</i></button></div>
       <p class="res-q-law" id="q-law-${i}" hidden>${keep(T.law)} <a class="prov" href="${esc(T.lawUrl)}" target="_blank" rel="noopener">${provText(T.provision).replace(/ (?=§)/g, "&nbsp;")} ↗</a></p>` : ""}</div>
       <div class="rows">${rows || `<p class="res-q-none">No misrepresentation found on this question.</p>`}${more}</div></section>`;
   }).join("");
