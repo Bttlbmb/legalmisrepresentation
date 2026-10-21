@@ -738,7 +738,6 @@
       "missions-id-parental-consent",
       "missions-optional-fingerprints-montevideo-followup",
       "missions-abolished-child-passport-rangoon-followup",
-      "missions-abolished-child-passport-tashkent-followup",
       "missions-th-uder-optional-fingerprints",
       "missions-ni-nienburg-current-consent-fingerprints",
       "missions-ljubljana-id-parental-attendance-under18",
@@ -10434,28 +10433,41 @@
    "id": "missions-visa-filing-window",
    "area": "missions",
    "topic": "visa-timing",
-   "pub": "Embassies in Kathmandu, Kampala, Nicosia and Kuala Lumpur",
+   "pub": "German Embassy Tirana; German Embassy Sofia; German Embassy Tegucigalpa; German Embassy Tel Aviv; German Embassy Kingston; German Embassy Bogotá; German Embassy Kuala Lumpur; German Embassy Kathmandu; German Embassy Managua; German Embassy Lima; German Embassy Port-of-Spain; German Embassy Kampala; German Embassy Montevideo; German Embassy Nicosia",
    "src": "Tourist visa",
    "claim": "say you can apply no more than three months ahead.",
    "quote": "Please register on the waiting list to submit your application. You may register and then submit your application three months before the start of your planned trip at the earliest. The embassy will then allocate appointments based on the chronological order of registration and its available capacity.",
    "lang": "English",
    "tr": "",
-   "law": "",
+   "law": "Visa Code Article9(1) permits ordinary short-stay applications within six months before travel, normally at least15 calendar days beforehand; seafarers performing duties have nine months. In justified individual urgency the consulate or central authorities may permit later lodging. The page's three-month earliest lodging restriction excludes the ordinary three-to-six-month interval. Appointments and processing estimates do not change the legal lodging window.",
    "sourceUrl": "https://kathmandu.diplo.de/np-en/service/01-visaeinreise/1672492-1672492",
    "lawUrl": "https://eur-lex.europa.eu/eli/reg/2019/1155/oj/eng/pdf",
    "example": "Hypothetical: a visa-required tourist planning a February trip could infer in October that filing is too early, although a date within six months falls inside the ordinary legal window.",
-   "context": "[1] German Embassy Kathmandu / Federal Foreign Office; English: The full sentence concerns registration and submission. The linked English FAQ correctly says six months; the German counterpart does not repeat the three-month earliest restriction. The mission also represents Slovenia and Luxembourg in the stated context.\n[2] German Embassy Kampala / Federal Foreign Office; English: The opening section explicitly frames three months as a basic admissibility condition. The tourism section on the same page correctly gives six months; the medical section does too. The page directs application reception to TLScontact and describes residence, representation and family-member exceptions. The finding concerns the stale opening statement, not a uniformly applied three-month policy.\n[3] Federal Foreign Office / German mission; German: The live German index links this page. Its English counterpart correctly says six months. Other sections show updated ninety-euro visa fees.\n[4] Federal Foreign Office / German mission; English: This page remains in the current English visa application path and links the checklist index. It also includes the correctly dated 2024 fee increase, so the old window is not only an isolated archived notice.",
-   "scope": "Normally file at least 15 calendar days before travel; justified urgency rules apply. A six-month legal window does not guarantee a chosen appointment slot. Confirm destination competence, lawful residence or justified nonresident lodging, nationality exemptions and qualifying family rules before using an ordinary tourist checklist.",
+   "context": "[1] German Embassy Kathmandu / Federal Foreign Office; English: The full sentence concerns registration and submission. The linked English FAQ correctly says six months; the German counterpart does not repeat the three-month earliest restriction. The mission also represents Slovenia and Luxembourg in the stated context.\n[2] German Embassy Kampala / Federal Foreign Office; English: The opening section explicitly frames three months as a basic admissibility condition. The tourism section on the same page correctly gives six months; the medical section does too. The page directs application reception to TLScontact and describes residence, representation and family-member exceptions. The finding concerns the stale opening statement, not a uniformly applied three-month policy.\n[3] Federal Foreign Office / German mission; German: The live German index links this page. Its English counterpart correctly says six months. Other sections show updated ninety-euro visa fees.\n[4] Federal Foreign Office / German mission; English: This page remains in the current English visa application path and links the checklist index. It also includes the correctly dated 2024 fee increase, so the old window is not only an isolated archived notice.\n\n[1] German Embassy Kathmandu / Federal Foreign Office; English: The full sentence concerns registration and submission. The linked English FAQ correctly says six months; the German counterpart does not repeat the three-month earliest restriction. The mission also represents Slovenia and Luxembourg in the stated context.\n[2] German Embassy Kampala / Federal Foreign Office; English: The opening section explicitly frames three months as a basic admissibility condition. The tourism section on the same page correctly gives six months; the medical section does too. The page directs application reception to TLScontact and describes residence, representation and family-member exceptions. The finding concerns the stale opening statement, not a uniformly applied three-month policy.\n[3] Federal Foreign Office / German mission; German: The live German index links this page. Its English counterpart correctly says six months. Other sections show updated ninety-euro visa fees.\n[4] Federal Foreign Office / German mission; English: This page remains in the current English visa application path and links the checklist index. It also includes the correctly dated 2024 fee increase, so the old window is not only an isolated archived notice.",
+   "scope": "Normally file at least 15 calendar days before travel; justified urgency rules apply. A six-month legal window does not guarantee a chosen appointment slot. Confirm destination competence, lawful residence or justified nonresident lodging, nationality exemptions and qualifying family rules before using an ordinary tourist checklist. Material counterevidence: the Kathmandu linked English FAQ correctly says six months; Kampala’s tourism and medical sections on the same page correctly say six months; Nicosia’s English counterpart correctly says six months. The finding concerns the conflicting named passages, not uniformly restrictive embassy practice. Their similar template wording does not establish independent drafting.\n\nAdditional reviewed publication instance(s) — German Embassy Tirana: Only ordinary visa-required tourist applicants habitually resident in Albania, Germany competent main destination; ordinary Albanian biometric-passport visitors visa-free. Conflicting German counterpart CORRECTLY says applications possible at earliest SIX months. The Albanian original and its aligned English translation, including the three-month lodging limit, were independently approved in the recorded 20 October 2026 review. Two-week advice is a recommendation, not an alleged binding cutoff. Full-page disclaimer says information without guarantee/completeness and based on embassy knowledge when prepared; it is not marked historical. Ordinary15calendar/urgent discretion/seafarer9 remain separate.\n\nAdditional reviewed publication instance(s) — German Embassy Sofia: Ordinary short-stay applicants who still require a visa, for example a visa-required national ordinarily resident inBulgaria with the specific 'Card of a Foreigner granted Asylum' that current German/English guidance excludes from residence-document visa exemption. Ordinary holders of qualifying Bulgarian residence permits/national longstay visas and visa-free nationals are excluded. The Bulgarian page itself states those ordinary residence documents remove the short-stay visa need from31March2024. Main general disclaimer says information reflects knowledge at drafting and may have changed; it does not archive this currently linked instruction. Appointment booking and processing estimates are distinct; no universal right to later urgent acceptance alleged.\n\nAdditional reviewed publication instance(s) — German Embassy Tegucigalpa: Additional embassy instance of existing missions-visa-filing-window; coordinator should append this version rather than create a duplicate case or replace prior versions. Only ordinary visa-required applicants within competent territory/destination conditions. Urgent late lodging remains discretionary, ordinary15-calendar-day deadline and seafarer9month rule are separate. No service-refusal or actual practice is inferred. The embassy's own consular section is included; honorary consul not attributed.\n\nAdditional reviewed publication instance(s) — German Embassy Tel Aviv, German Embassy Kingston: Visa-required ordinary Schengen applications within the respective embassy jurisdiction, Germany competent as main destination. In Kingston, Bahamas applications administered in Miami are excluded; an example may use a Jamaican resident. The three-month cap is the allegation; the15day sentence is a processing recommendation here, not proof that justified urgent exceptions are excluded. Six-month correct Kingston checklists, nine-month seafarer rule and English-only publication scope are preserved. No appointment, acceptance in every urgent case or visa grant is guaranteed.\n\nAdditional reviewed publication instance(s) — German Embassy Bogotá: Additional publication instances of existing missions-visa-filing-window, not a separate case. Only visa-required third-country nationals lawfully resident in Colombia with Germany as competent main destination. Ordinary15-calendar-day advance rule, justified urgent discretion and seafarer9-month rule separate. No guarantee of appointment or grant; ordinary visa-free Colombian travellers excluded.\n\nAdditional reviewed publication instance(s) — German Embassy Managua: Only ordinary visa-required short-stay applicants with Germany as competent main destination; most ordinary Nicaraguan visitors are visa-free. This is an additional publication instance of stable missions-visa-filing-window, not independent drafting. IMPORTANT conflicting advice: current German counterpart says applications can be made at earliest SIX months, and the linked Spanish visitor checklist says applications are received only within a maximum SIX-month period before travel. Those correct same-site/same-language instructions materially conflict with the quoted THREE-month cap. Appointment booking is distinct; ordinary15-calendar-day advance lodging, justified urgent discretion and seafarer9-month rule remain separate.\n\nAdditional reviewed publication instance(s) — German Embassy Lima: Ordinary visa-required lawful residents of Peru whose main destination is Germany; Peruvian shortstay visa exemption is explained on the current parent and is not challenged. Both dated19June2024 detail pages remain linked from current German/Spanish visa hubs. German current text independently verified in normal browser. The three-month claim concerns lodging, not only appointment release. The German checklist separately asks six months from entry and Spanish one year from application; those are different from the precise six-month-after-final-departure target and are not part of this case. No inference about actual refusal, urgent-case approval or national visas.\n\nAdditional reviewed publication instance(s) — German Embassy Port-of-Spain: Only visa-required applicants within the embassy's current consular jurisdiction, with Germany competent as main destination. Visa-free Trinidad/Tobago nationals travelling for ordinary short visits and jurisdictions represented by another mission are excluded. The linked checklist correctly gives six months; this finding concerns the contrary Step1 sentence and does not imply every mission pathway gives the wrong window. The Step2 'ALL ... no later than15days' statement is separately unresolved and does not establish a right to urgent acceptance. Appointments/processing and Article9 exceptions remain separate.\n\nAdditional reviewed publication instance(s) — German Embassy Montevideo: German publication only. The current German visa hub links this page; the current Spanish counterpart omits an earliest-lodging limit. The appointment bullet expressly states when an application may be submitted, so the allegation concerns lodging rather than a separate appointment booking window. The surrounding ordinary 15-day and discretionary urgent rules remain applicable; the quote does not address them. Similar template wording is not proof of independently drafted guidance.",
    "date": "2026-10-17",
    "langs": [
     "English",
-    "German"
+    "German",
+    "Bulgarian",
+    "Spanish",
+    "Albanian"
    ],
    "countries": [
     "NP",
     "UG",
     "CY",
-    "MY"
+    "MY",
+    "BG",
+    "CO",
+    "PE",
+    "TT",
+    "UY",
+    "AL",
+    "HN",
+    "IL",
+    "JM",
+    "NI"
    ],
    "versions": [
     {
@@ -10485,6 +10497,90 @@
      "tr": "",
      "url": "https://kuala-lumpur.diplo.de/my-en/service/05-visaeinreise/1677552-1677552",
      "site": "kuala-lumpur.diplo.de/my-en"
+    },
+    {
+     "lang": "Bulgarian",
+     "quote": "Запазване на дата и час за подаване на заявлението\nМоля да си запазите дата и час, за да подадете Вашето заявление. Можете да подадете Вашето заявление най-рано три месеца преди началото на планираното пътуване.\nВ най-натоварените туристически периоди може да се наложи да изчакате, преди да можете да подадете заявлението в Посолството.\nЛичното явяване при подаване на заявлението е задължително необходимо. Кандидатът за виза не може да се представлява от друго лице. Възможно е обаче представянето на допълнителни/поискани по-късно документи и получаването на готовия паспорт и от упълномощено лице - след предварително уведомяване/по предварителна уговорка.\nInfo\nВажно указание:\nМоля не изпращайте на Визовата служба документи, които не са поискани – най-вече преди подаване на заявлението. Тези документи не могат да се съхраняват тук и/или да бъдат разпределени правилно. Моля да носите всички документи винаги направо при явяването Ви при нас.",
+     "tr": "Booking a date and time to lodge the application\nPlease book a date and time to lodge your application. You may lodge your application at the earliest three months before the start of the planned trip.\nDuring the busiest tourist periods, you may have to wait before you can lodge the application at the embassy.\nPersonal appearance when lodging the application is absolutely necessary. The visa applicant cannot be represented by another person. However, additional/later requested documents may be presented and the completed passport collected by an authorised person, after prior notification/prior arrangement.\nInfo\nImportant notice:\nPlease do not send the visa office documents that have not been requested, especially before lodging the application. These documents cannot be stored here and/or properly assigned. Please always bring all documents directly when appearing before us.",
+     "url": "https://sofia.diplo.de/bg-bg/service/05-visaeinreise/1443674-1443674",
+     "site": "sofia.diplo.de"
+    },
+    {
+     "lang": "German",
+     "quote": "Wo muss ich mein Visum beantragen?\n\nAchtung: Unseriöse Visa-Agenturen!\nUnsere Auslandsvertretung arbeitet nicht mit Vermittlern oder Agenturen zusammen. Insbesondere haben diese keinen besonderen Zugang zu unserer Terminvergabe.\n\nSchengen-Visa können werktags nach vorheriger Terminvereinbarung im Konsulat der deutschen Botschaft beantragt werden. Termine können ausschließlich über das Kontaktformular der Botschaft vereinbart werden. Eine unmittelbar bevorstehende Reise ohne dringenden Reisegrund ist kein Notfall. Schengen-Visa können frühestens 3 Monate vor Reiseantritt beantragt werden.\n\nDie Bearbeitungsdauer beträgt abhängig von der Staatsangehörigkeit des Antragstellers in der Regel 10 bis 15 Arbeitstage ab dem Zeitpunkt, ab dem Sie alle antragsbegrünenden Unterlagen vollständig eingereicht haben. Die vorzulegenden Antragsunterlagen sind in der nachfolgenden Checkliste aufgeführt.\n\nDer Antrag mit Erklärung wird im Original abgegeben. Da alle anderen Originalunterlagen zurückgegeben werden, sind diese und die Pässe zusätzlich auch in Kopie vorzulegen.\n\nDie Deutsche Botschaft akzeptiert ausschließlich Visumsanträge, bei denen Deutschland oder Frankreich das Hauptreiseziel ist und sich ihr gewöhnlicher Aufenthalt (Lebensmittelpunkt) in Honduras befindet.",
+     "tr": "Where must I apply for my visa?\n\nWarning: Disreputable visa agencies!\nOur mission does not work with intermediaries or agencies. In particular, they have no special access to our appointment allocation.\n\nSchengen visas can be applied for on working days by prior appointment at the German embassy's consular section. Appointments can only be arranged through the embassy's contact form. An immediately approaching trip without an urgent travel reason is not an emergency. Schengen visas can be applied for at the earliest 3 months before travel.\n\nDepending on the applicant's nationality, processing generally takes10 to15 working days from the point when all supporting documents have been submitted in full. The documents to submit are listed in the checklist below.\n\nThe application with declaration is submitted in the original. Because all other original documents are returned, these and the passports must additionally be provided as copies.\n\nThe German embassy accepts only visa applications for which Germany or France is the main destination and the applicant's habitual residence (centre of life) is in Honduras.",
+     "url": "https://tegucigalpa.diplo.de/hn-de/service/2631938-2631938",
+     "site": "tegucigalpa.diplo.de"
+    },
+    {
+     "lang": "English",
+     "quote": "When should I apply for a visa?\n\nYou can apply for a Schengen visa three months before your trip at the earliest.\n\nYou may apply for a new Schengen visa even though your current Schengen visa is still valid.\n\nWe recommend to apply for a Schengen visa no later than two weeks before your trip. The processing time usually takes 3 days. Please check the opening hours of the visa section and holidays during which the German Embassy Tel Aviv is closed.",
+     "tr": "",
+     "url": "https://tel-aviv.diplo.de/il-de/service/05-visaeinreise/1588086-1588086",
+     "site": "tel-aviv.diplo.de"
+    },
+    {
+     "lang": "English",
+     "quote": "Preparing your application\n\nPlease prepare your application as follows:\n\n• Please fill out the visa application form.\n• Please compile the documents you need to submit with your application. If documents or supporting documentation are missing, your application may be rejected. See below the information sheet for your type of visa!\n• Please make an appointment to submit your application. You may submit your application three months before the start of your planned trip at the earliest, but should not be scheduled later than 15 days prior to your travel date to ensure sufficient time to process your application.\n\nInfo\nBeware of commercial visa agencies!\nOur office does not work with brokers or agencies. These individuals and organisations are NOT able to secure appointments with us. The only cost involved is the visa fee charged by the Embassy. Applications, checklists and appointments are provided free of charge.\n\nImportant information:\nPlease do not send the Visa Section any documents unless requested to do so, particularly not before you have applied for a visa. We are not able to store such documents and will not know to which application they belong. Please always bring all the necessary documents with you to your appointment.",
+     "tr": "",
+     "url": "https://kingston.diplo.de/jm-en/service/05-visaeinreise/1671536-1671536",
+     "site": "kingston.diplo.de"
+    },
+    {
+     "lang": "German",
+     "quote": "Antrag vorbereiten\nBereiten Sie Ihren Antrag in folgenden drei Schritten vor:\n Füllen Sie bitte das Visa-Antragsformular aus\n Stellen Sie bitte die begleitenden Antragsunterlagen zusammen. Fehlende Unterlagen oder Nachweise können zur Ablehnung des Antrags führen. Wir haben für Sie je nach Reisezweck die passende Checkliste zusammengestellt: Merkblatt zu Schengenvisa\n Buchen Sie bitte einen Termin, um Ihren Antrag zu stellen. Sie können Ihren Antrag frühestens drei Monate vor Antritt der geplanten Reise stellen. Hier gelangen Sie zum Terminvergabesystem der Deutschen Botschaft Bogotá\nInfo\nAchtung: Unseriöse Visa-Agenturen!\nUnsere Auslandsvertretung arbeitet nicht mit Vermittlungen oder Agenturen zusammen. Insbesondere haben diese keinen besonderen Zugang zu unserer Terminvergabe. Für das Verfahren ist ausschließlich die von der Auslandsvertretung erhobene Visumgebühr fällig. Die Ausgabe der Anträge und Checklisten und die Terminbuchung sind kostenlos.\nWichtiger Hinweis:\nBitte übersenden Sie der Visastelle unaufgefordert keine Unterlagen – vor allem nicht vor Beantragung. Diese Unterlagen können hier nicht aufgehoben und/oder zugeordnet werden. Bitte bringen Sie vollständige Unterlagen immer direkt zum Termin mit.",
+     "tr": "Preparing your application\nPrepare your application in the following three steps:\nPlease complete the visa application form.\nPlease compile the accompanying application documents. Missing documents or evidence may lead to rejection of the application. We have compiled the appropriate checklist for your purpose of travel: Schengen visa information sheet.\nPlease book an appointment to submit your application. You can submit your application at the earliest three months before the planned journey. Here is the German Embassy Bogotá appointment system.\nInfo\nWarning: Disreputable visa agencies!\nOur mission does not work with intermediaries or agencies. In particular, they do not have special access to our appointment allocation. Only the visa fee charged by the mission is payable for the procedure. Application forms, checklists and appointment booking are free.\nImportant note:\nPlease do not send the visa section unsolicited documents, especially before applying. These cannot be kept or allocated here. Please always bring complete documents directly to your appointment.",
+     "url": "https://bogota.diplo.de/co-de/service/05-visaeinreise/1800412-1800412",
+     "site": "bogota.diplo.de"
+    },
+    {
+     "lang": "Spanish",
+     "quote": "Preparar la solicitud\nPara preparar su solicitud sigue estos pasos:\n Rellene el formulario de solicitud de Visa\n Reúna la documentación que debe acompañar a la solicitud. La falta de documentación o justificantes puede conllevar la denegación de la solicitud.\nInformaciones sobre la solicitud de Visa Schengen\n Reserve una cita para la presentación de su solicitud. No podrá presentar su solicitud antes de los tres meses previos al viaje previsto.\nInfo\nPrecaución: ¡agencias de visados deshonestas!\nNuestra representación en el extranjero no colabora con intermediarios o agencias. Ante todo éstos no tienen acceso privilegiado a nuestro sistema de asignación de citas. El procedimiento genera únicamente la tasa de visado establecida por la representación. La entrega de solicitudes y listas de comprobación, así como la reserva de cita son gratuitas.\nObservación importante:\nNo envíe documentación no solicitada a la oficina de visados, sobre todo no lo haga antes de presentar la solicitud. No podemos conservar y/o asociar esta documentación con una solicitud determinada. Por favor, aporte la documentación completa a la cita. ",
+     "tr": "Preparing your application\nTo prepare your application, follow these steps:\nComplete the visa application form.\nCompile the supporting documents for your application. Missing documents or evidence may lead to refusal.\nInformation about applying for a Schengen visa\nBook an appointment to submit your application. You cannot submit your application earlier than three months before the planned trip.\nInfo\nWarning: Disreputable visa agencies!\nOur mission abroad does not work with intermediaries or agencies. In particular, they have no privileged access to our appointment allocation system. The procedure generates only the visa fee established by the mission. Application forms, checklists and appointment booking are free.\nImportant note:\nDo not send unsolicited documentation to the visa office, especially before submitting your application. We cannot keep or allocate these documents to a particular application. Please bring all documentation to the appointment.",
+     "url": "https://bogota.diplo.de/co-es/service/visa-einreise/1808588-1808588",
+     "site": "bogota.diplo.de/co-es"
+    },
+    {
+     "lang": "Spanish",
+     "quote": "Preparar la solicitud\nPara preparar su solicitud sigue estos pasos:\n  Rellene el formulario de solicitud de visado (véase abajo).\n Reúna la documentación que debe acompañar a la solicitud. La falta de documentación o justificantes puede conllevar la denegación de la solicitud. Hemos elaborado una lista de comprobación para cada tipo de estancia:\n Visita a familiares o conocidos\n Turismo\n Viaje oficial o de negocio\n Reserve una cita para la presentación de su solicitud. No podrá presentar su solicitud antes de los tres meses previos al viaje previsto.  \nInfo\nObservación importante:\nNo envíe documentación no solicitada a la oficina de visados, sobre todo no lo haga antes de presentar la solicitud. No podemos conservar y/o asociar esta documentación con una solicitud determinada. Por favor, aporte la documentación completa a la cita.\n",
+     "tr": "Preparing your application\nTo prepare your application, follow these steps:\nComplete the visa application form (see below).\nCompile the documentation that must accompany the application. Missing documentation or evidence may lead to refusal. We have prepared a checklist for each type of stay:\nVisit to relatives or acquaintances\nTourism\nOfficial or business travel\nBook an appointment to submit your application. You cannot submit your application earlier than three months before the planned trip.\nInfo\nImportant note:\nDo not send unsolicited documentation to the visa office, especially before submitting the application. We cannot retain and/or associate these documents with a particular application. Please bring complete documentation to the appointment.",
+     "url": "https://managua.diplo.de/ni-es/service/05-visaeinreise/1599636-1599636",
+     "site": "managua.diplo.de"
+    },
+    {
+     "lang": "German",
+     "quote": "Hierbei handelt es sich um Aufenthalte von weniger als 90 Tagen in einem Zeitraum von 180 Tagen in den Schengen-Staaten ohne Aufnahme einer Erwerbstätigkeit, auch wenn es sich nur um einen Transit in den Schengen-Staaten handelt.\n\nGenerell gilt:\nAls deutsche Auslandsvertretung sind wir für Ihren Antrag zuständig, wenn Deutschland Ihr Hauptreiseziel ist.\nAntragsteller*innen für ein Schengen-Visum reichen ihren Visumantrag in der Botschaft ein. Termine zur Antragstellung können hier gebucht werden.\nUm Ihren Antrag zu stellen, erscheinen Sie bitte persönlich zum vereinbarten Termin in der Botschaft. Geben Sie Ihre vollständigen Antragsunterlagen ab (Bitte die Unterlagen sortiert und nicht getackert vorlegen), zahlen Sie die Gebühr und beantworten Sie Fragen zur geplanten Reise.\nSie können Ihren Antrag frühestens drei Monate vor Antritt der geplanten Reise stellen.",
+     "tr": "These are stays of fewer than90days within a180day period in the Schengen states without taking up employment, including transit stays in the Schengen states.\n\nGeneral rule:\nAs a German mission abroad, we are responsible for your application if Germany is your main travel destination.\nApplicants for a Schengen visa submit their visa application at the Embassy. Appointments for applying can be booked here.\nTo submit your application, please appear personally at the agreed appointment at the Embassy. Submit your complete application documents (please sorted and not stapled), pay the fee and answer questions about your planned trip.\nYou can submit your application at the earliest three months before starting your planned trip.",
+     "url": "https://lima.diplo.de/pe-de/konsularservice/2663974-2663974",
+     "site": "lima.diplo.de"
+    },
+    {
+     "lang": "Spanish",
+     "quote": "El visado Schengen es aplicable a estancias de menos de 90 días en un período de 180 días en los estados de la zona Schengen sin actividad remunerada. Esto incluye estancias de tránsito en los estados de la zona Schengen.\n\nAviso general:\nLa Embajada de la República Federal Alemana es la autoridad competente si Alemania es su destino de viaje principal.\nSolicitantes de los visados Schengen presentarán sus documentos ante la embajada. Por favor, concerte su cita aquí.\nPara extender su solicitud, por favor, apersonarse a la embajada a la hora de la cita. Presente sus documentos completos (ordenados y no engrapados), proceda a pagar la tasa y responda converacidad las preguntas que se le hiciesen sobre su viaje. Puede presentar su solicitud tres meses antes del viaje como lo más temprano posible.",
+     "tr": "The Schengen visa applies to stays of fewer than90days within a180day period in Schengen states without paid employment. This includes transit stays in Schengen states.\n\nGeneral notice:\nThe Embassy of the Federal Republic of Germany is responsible if Germany is your main travel destination.\nSchengen visa applicants submit their documents at the Embassy. Please book your appointment here.\nTo make your application, please come to the Embassy at the appointment time. Submit your complete documents (sorted and not stapled), pay the fee and truthfully answer any questions about your trip. You can submit your application three months before the trip at the earliest.",
+     "url": "https://lima.diplo.de/pe-de/konsularservice/2671188-2671188",
+     "site": "Lima — Spanish text on German-shell Schengen page"
+    },
+    {
+     "lang": "English",
+     "quote": "Step 1: Preparing your application\n\nPlease prepare your application as follows:\n\n• Please complete the visa application form on this Website (click here). If this is not possible, you can download the visa application form.\n• Please compile the documents you need to submit with your application. If documents or supporting documentation are missing, your application may be rejected. We have prepared a checklist for you.\n• Medical Health insurance Information here.\n• Please make an appointment (click here) to submit your application. You may submit your application three months before the start of your planned trip at the earliest.\n\nIn order to return the passport to your address, an additional prepaid airway bill for a courier service of your choice is required (not for applicants living in Trinidad).",
+     "tr": "",
+     "url": "https://port-of-spain.diplo.de/tt-en/service/2204456-2204456",
+     "site": "port-of-spain.diplo.de"
+    },
+    {
+     "lang": "German",
+     "quote": "Bereiten Sie Ihren Antrag in folgenden drei Schritten vor:\n• Füllen Sie bitte das Visum-Antragsformular aus oder nutzen Sie das Online-Formular.\n• Stellen Sie bitte die begleitenden Antragsunterlagen zusammen. Fehlende Unterlagen oder Nachweise können zur Ablehnung des Antrags führen. Wir haben für Sie je nach Reisezweck die passende Checkliste zusammengestellt:\nMerkblatt Schengen-Visum\n• Buchen Sie bitte einen Termin, um Ihren Antrag zu stellen. Sie können Ihren Antrag frühestens drei Monate vor Antritt der geplanten Reise stellen.",
+     "tr": "Prepare your application in the following three steps:\n• Complete the visa application form or use the online form.\n• Assemble the accompanying application documents. Missing documents or evidence may lead to rejection of the application. We have put together the appropriate checklist for your purpose of travel:\nSchengen visa information sheet\n• Book an appointment to submit your application. You can submit your application at the earliest three months before the planned journey.",
+     "url": "https://montevideo.diplo.de/uy-de/service/1619554-1619554",
+     "site": "montevideo.diplo.de"
+    },
+    {
+     "lang": "Albanian",
+     "quote": "KUJDES: Vetë shtetasit shqiptarë nuk kanë nevojë për vizë hyrjeje për qëndrime turistike në hapësirën Schengen.\nPër të aplikuar për vizë ju nevojitet një datë dhe orë takimi. Ju lutem rezervojeni përmes sistemit online të caktimit të takimeve.\nAplikimi është i mundur deri tre muaj përpara datës së planifikuar udhëtimit. Përpunimi i aplikimit zgjat minimalisht tre ditë pune. Ju rekomandojmë që këkesën për vizë ta dorëzoni jo më vonë se dy javë përpara nisjes së udhëtimit.\nDokumentet dhe dëshmitë duhet të paraqiten në origjinal dhe fotokopje. Dokumentet origjinale do të kthehen sërish. Duhet mbajtur në konsideratë që të gjitha dokumentet e dorëzuara që nuk janë në gjermanisht ose anglisht, duhet të kenë bashkëngjitur përkthimin përkatës në gjuhën gjermane.\nLutemi të lexoni me kujdes këtë fletë-informacioni dhe formularin e aplikimit si dhe t’u përmbaheni saktësisht udhëzimeve.\nAplikimet e plotësuara në mënyrë të mangët apo dokumentacioni i paplotë mund të çojnë në refuzimin e aplikimit.\n",
+     "tr": "WARNING: Albanian nationals themselves do not need an entry visa for tourist stays in the Schengen area.\nTo apply for a visa, you need an appointment date and time. Please book it through the online appointment system.\nApplication is possible up to three months before the planned travel date. Processing takes at least three working days. We recommend submitting your visa request no later than two weeks before departure.\nDocuments and evidence must be presented in original and photocopy. Originals will be returned. Documents not in German or English must have the corresponding German translation attached.\nPlease carefully read this information sheet and the application form and follow the instructions exactly.\nIncomplete applications or documentation may lead to refusal.",
+     "url": "https://tirana.diplo.de/al-sq/service/visa-al/2548036-2548036",
+     "site": "tirana.diplo.de"
     }
    ],
    "marks": [
@@ -10495,6 +10591,54 @@
     {
      "lang": "English",
      "text": "three months before"
+    },
+    {
+     "lang": "English",
+     "text": "up to three months before"
+    },
+    {
+     "lang": "Bulgarian",
+     "text": "най-рано три месеца"
+    },
+    {
+     "lang": "English",
+     "text": "at the earliest three months"
+    },
+    {
+     "lang": "German",
+     "text": "frühestens 3 Monate"
+    },
+    {
+     "lang": "English",
+     "text": "at the earliest 3 months"
+    },
+    {
+     "lang": "English",
+     "text": "three months before your trip at the earliest"
+    },
+    {
+     "lang": "English",
+     "text": "three months before the start of your planned trip at the earliest"
+    },
+    {
+     "lang": "Spanish",
+     "text": "No podrá presentar su solicitud antes de los tres meses previos al viaje previsto."
+    },
+    {
+     "lang": "English",
+     "text": "cannot submit your application earlier than three months"
+    },
+    {
+     "lang": "Spanish",
+     "text": "tres meses antes del viaje como lo más temprano posible"
+    },
+    {
+     "lang": "English",
+     "text": "three months before the trip at the earliest"
+    },
+    {
+     "lang": "Albanian",
+     "text": "deri tre muaj përpara"
     }
    ],
    "lawMarks": [
@@ -11759,9 +11903,9 @@
    "id": "missions-abolished-child-passport",
    "area": "missions",
    "topic": "documents",
-   "pub": "Missions in Antananarivo, Gaborone and Pakistan",
+   "pub": "German Embassy Antananarivo; German Embassy Gaborone; German Embassy Nicosia",
    "src": "Passport",
-   "claim": "still offer children’s passports.",
+   "claim": "still offer the abolished Kinderreisepass or its extension.",
    "quote": "Bitte beachten Sie, dass Ihr Pass- oder Personalausweisantrag nur bearbeitet werden kann, wenn alle Unterlagen vollständig eingereicht und die Gebühren gezahlt worden sind. Die Bearbeitungsdauer für Reisepässe und Personalausweise beträgt etwa vier bis sechs Wochen, da diese in Deutschland hergestellt werden. Die Dokumentenherstellung ist auf Ihren Wunsch auch im Expressverfahren gegen Zahlung eines Zuschlags in Höhe von 32,00 € möglich; hierdurch verkürzt sich der Herstellungsprozess um ca. acht Arbeitstage. Anträge auf Ausstellung oder Verlängerung von Kinderreisepässen werden innerhalb von zwei Werktagen bearbeitet. Bei Eilbedürftigkeit können Sie auch einen bis zu einem Jahr gültigen, vorläufigen Reisepass erhalten, der oft am selben Tag ausgestellt werden kann.",
    "lang": "German",
    "tr": "Please note that your passport or identity-card application can only be processed once all documents have been submitted in full and the fees have been paid. Processing passports and identity cards takes approximately four to six weeks because they are produced in Germany. At your request, the documents can also be produced by an express procedure for an additional €32.00; this shortens production by approximately eight working days. Applications to issue or extend children’s passports are processed within two working days. In urgent cases you can also obtain a temporary passport, valid for up to one year, which can often be issued on the same day.",
@@ -11769,16 +11913,17 @@
    "sourceUrl": "https://antananarivo.diplo.de/resource/blob/2559420/bdc9150fc0a62992cd54172cd9dfbdc5/221019-merkblatt-deu-pass-data.pdf#page=3",
    "lawUrl": "https://www.gesetze-im-internet.de/pa_g_1986/BJNR105370986.html",
    "example": "Hypothetical: parents whose child’s old passport has expired could plan a two-day Kinderreisepass application from the leaflet, although that type can no longer be issued or extended.",
-   "context": "[1] German Embassy Antananarivo / Federal Foreign Office; German; PDF page 3: The complete three-page leaflet lists child-passport applications, fees and processing. It is still the actual preparation download on both passport and ID pages. The passport HTML has updated ordinary fees, but that does not remove the obsolete document offer in the linked leaflet.\n[2] German Embassy Gaborone / Federal Foreign Office; German: The current passport navigation page offers the document and links the older applicant leaflet. That leaflet separately advertises same-day issue/extension and a fee. Neither instruction is framed only as historical validity of already issued child passports.\n[3] German mission / Federal Foreign Office; German: Pakistan’s current 25 August 2026 application parent still links the child page dated 31 May 2021. Its application fee table offers the former Kinderreisepass for children below twelve at €26 without an abolition qualification. Existing valid documents and ordinary biometric passports for children are different.",
-   "scope": "Previously issued child passports can remain valid under the applicable transitional and identifiability rules. They cannot now be newly issued, extended or updated. Ordinary biometric passports, eligible ID cards and temporary passports in the statutory circumstances are separate options.",
+   "context": "Antananarivo: the current-linked preparation leaflet expressly offers issuance and extension in two working days. Gaborone: passport prose expressly offers issuance for children under twelve, with its USA-visa qualification. Nicosia: the English validity paragraph expressly offers one-year issuance and annual extension; the German counterpart correctly announces abolition. Shared templates and conflicting guidance are not independent drafting origins.",
+   "scope": "Only fresh applications after 31 December 2023 are challenged, excluding completion of any grandfathered pre-2024 application. Qualifying older Kinderreisepässe can retain validity under PassG §28, subject to expiry, identifiability and other invalidity grounds. Ordinary biometric passports for children, eligible identity cards and temporary passports remain separate options. No actual issue, extension, charge or refusal was observed.\n\nAntananarivo: the October 2022 leaflet is linked as the required preparation document from the current passport page with updated ordinary fees. The full processing paragraph offers issue/extension in two working days. The source-currentness and browser limitations recorded in the original review remain; this filter is not a fresh source check.\n\nGaborone: current-linked passport prose expressly offers issuance to children under twelve, with its USA-visa qualification retained. The separate referral of consular matters to Pretoria conflicts with the passport offer; service responsibility and actual availability were not resolved by this wording finding.\n\nNicosia: the current English service menu links the English passport page with its issuance/annual-extension paragraph. The German counterpart correctly announces abolition. The finding concerns the conflicting English statement, not ordinary passports for children.\n\nEditorial narrowing on 21 October 2026 removes fee-table and appointment/personal-appearance mentions as sole evidence. Retained quotations and original review dates are unchanged; no fresh source or legal-merits review is implied.",
    "date": "2026-10-17",
    "langs": [
-    "German"
+    "German",
+    "English"
    ],
    "countries": [
     "MG",
     "BW",
-    "PK"
+    "CY"
    ],
    "versions": [
     {
@@ -11796,11 +11941,11 @@
      "site": "gaborone.diplo.de/bw-de"
     },
     {
-     "lang": "German",
-     "quote": "Kinder- Reisepass für Kinder bis 12 Jahre 26 €",
-     "tr": "Children’s passport for children up to age 12: €26.",
-     "url": "https://pakistan.diplo.de/pk-de/service/passantrag-kind-seite-1683806",
-     "site": "pakistan.diplo.de/pk-de"
+     "lang": "English",
+     "quote": "Passports for applicants under 24 years of age will be valid for six years, passports for applicants older than 24 years will be valid for ten years. The 'Children's Passport' can only be issued for one year with the possibilty of extension for another year until the age of twelve.",
+     "tr": "",
+     "url": "https://nikosia.diplo.de/cy-en/service/1620336-1620336",
+     "site": "nikosia.diplo.de"
     }
    ],
    "marks": [
@@ -11813,10 +11958,6 @@
      "text": "kann auch ein Kinderreisepass ausgestellt werden"
     },
     {
-     "lang": "German",
-     "text": "Kinder- Reisepass"
-    },
-    {
      "lang": "English",
      "text": "Applications to issue or extend children’s passports"
     },
@@ -11826,7 +11967,15 @@
     },
     {
      "lang": "English",
-     "text": "Children’s passport for children up to age 12"
+     "text": "can only be issued for one year with the possibilty of extension for another year until the age of twelve"
+    },
+    {
+     "lang": "German",
+     "text": "Kinderreisepass ausgestellt werden"
+    },
+    {
+     "lang": "English",
+     "text": "children’s passport can also be issued"
     }
    ],
    "lawMarks": [
@@ -11971,84 +12120,37 @@
     "can no longer be newly issued or extended from 1 January 2024"
    ]
   },
-  "missions-abolished-child-passport-tashkent-followup": {
-   "id": "missions-abolished-child-passport-tashkent-followup",
-   "area": "missions",
-   "topic": "documents",
-   "pub": "Embassy in Tashkent",
-   "src": "German passport",
-   "claim": "still lists fees for children’s passports.",
-   "quote": "GEBÜHREN und AUSLAGEN (fällig bei Antragstellung)\nGEBÜHREN MIT Wohnsitz im Amtsbezirk und in Deutschland abgemeldet OHNE Wohnsitz im Amtsbezirk oder in Deutschland noch gemeldet\nReisepass ab 24 Jahre 81,00 € 141,00 €\nReisepass unter 24 Jahre 58,50 € 96,00 €\nZuschlag für Expressverfahren Reisepass 32,00 € 32,00 €\nZuschlag für 48-Seiten-Pass 22,00 € 22,00 €\nvorläufiger Reisepass 39,00 € 65,00 €\nKinderreisepass 26,00 € 39,00 €\nVerlängerung Kinderreisepass 18,00 € 24,00 €",
-   "lang": "German",
-   "tr": "FEES and EXPENSES (due when applying). FEES: WITH residence in the district and deregistered in Germany / WITHOUT residence in the district or still registered in Germany. Passport from age 24: €81.00 / €141.00. Passport under age 24: €58.50 / €96.00. Express passport surcharge: €32.00 / €32.00. 48-page passport surcharge: €22.00 / €22.00. Temporary passport: €39.00 / €65.00. Children’s passport: €26.00 / €39.00. Extension of children’s passport: €18.00 / €24.00.",
-   "law": "The Kinderreisepass document type can no longer be newly issued or extended from 1 January 2024. Older valid documents and ordinary biometric passports for children are separate.",
-   "sourceUrl": "https://taschkent.diplo.de/uz-de/service/2438094-2438094",
-   "lawUrl": "https://www.gesetze-im-internet.de/pa_g_1986/__1.html",
-   "example": "Hypothetical: parents preparing a new child travel-document application in Uzbekistan could plan to purchase or extend a Kinderreisepass from the fee table, although neither service remains available.",
-   "context": "The application page’s current HTML table lists both child-passport issue and extension with euro prices under fees due at application. This is not the orphan older fee PDF previously excluded. The earlier audit reviewed this same HTML for other topics; this is an additional proposition. Undated substantive HTML, fresh HTTP 200; the current German-citizens service index has an exact live Deutscher Reisepass link. The parsed web version of the index omitted this link but fresh original HTML contains it. An undated live page is not treated as newly revised.",
-   "scope": "New child-passport issue or extension after 31 December 2023, not continued use of valid older documents. The related issue/extension entries form one finding on one source. No actual service transaction or charge was observed.",
-   "date": "2026-10-17",
-   "langs": [
-    "German"
-   ],
-   "countries": [
-    "UZ"
-   ],
-   "versions": [
-    {
-     "lang": "German",
-     "quote": "GEBÜHREN und AUSLAGEN (fällig bei Antragstellung)\nGEBÜHREN MIT Wohnsitz im Amtsbezirk und in Deutschland abgemeldet OHNE Wohnsitz im Amtsbezirk oder in Deutschland noch gemeldet\nReisepass ab 24 Jahre 81,00 € 141,00 €\nReisepass unter 24 Jahre 58,50 € 96,00 €\nZuschlag für Expressverfahren Reisepass 32,00 € 32,00 €\nZuschlag für 48-Seiten-Pass 22,00 € 22,00 €\nvorläufiger Reisepass 39,00 € 65,00 €\nKinderreisepass 26,00 € 39,00 €\nVerlängerung Kinderreisepass 18,00 € 24,00 €",
-     "tr": "FEES and EXPENSES (due when applying). FEES: WITH residence in the district and deregistered in Germany / WITHOUT residence in the district or still registered in Germany. Passport from age 24: €81.00 / €141.00. Passport under age 24: €58.50 / €96.00. Express passport surcharge: €32.00 / €32.00. 48-page passport surcharge: €22.00 / €22.00. Temporary passport: €39.00 / €65.00. Children’s passport: €26.00 / €39.00. Extension of children’s passport: €18.00 / €24.00.",
-     "url": "https://taschkent.diplo.de/uz-de/service/2438094-2438094",
-     "site": "taschkent.diplo.de/uz-de"
-    }
-   ],
-   "marks": [
-    {
-     "lang": "German",
-     "text": "Kinderreisepass 26,00 €"
-    },
-    {
-     "lang": "German",
-     "text": "Verlängerung Kinderreisepass"
-    },
-    {
-     "lang": "English",
-     "text": "Children’s passport:"
-    },
-    {
-     "lang": "English",
-     "text": "Extension of children’s passport:"
-    }
-   ],
-   "lawMarks": [
-    "can no longer be newly issued or extended from 1 January 2024"
-   ]
-  },
   "missions-citizenship-loss": {
    "id": "missions-citizenship-loss",
    "area": "missions",
    "topic": "citizenship",
-   "pub": "Missions in Singapore, Canada and Dublin",
+   "pub": "German Embassy Dublin; German Embassy Stockholm; German Embassy Belgrad; German Embassy Singapur; German Embassy Daressalam; German Embassy Prag; German Embassy Budapest; German missions in Canada (shared consular guidance)",
    "src": "Passport",
    "claim": "say taking another citizenship ends your German one.",
    "quote": "The German rules on citizenship are based on the principle of avoiding dual citizenship. This means that a German citizen who voluntarily applies for and accepts a foreign nationality on principle loses the German nationality automatically. This rule does not apply to Germans who receive the other citizenship by law or who applied for and received a citizenship of a member state of the European Union or Switzerland after August of 2007.",
    "lang": "English",
    "tr": "",
-   "law": "",
+   "law": "BGBl 2024 I104 Article1No16 repealed StAG§25; Article6(1) made this effective on27June2024. For another nationality acquired on or after 27 June 2024, that acquisition alone no longer causes loss of German citizenship and no German retention permission is required. Earlier acquisitions remain governed by their applicable former law; other statutory grounds of loss and the foreign country's law remain separate.",
    "sourceUrl": "https://singapur.diplo.de/sg-en/service/1225472-1225472",
-   "lawUrl": "https://www.recht.bund.de/bgbl/1/2024/104/VO.html",
+   "lawUrl": "https://www.recht.bund.de/bgbl/1/2024/104/regelungstext.pdf?__blob=publicationFile&v=2",
    "example": "Hypothetical: a German citizen who becomes Canadian in July 2024 could read the English passage as a reason not to apply for a replacement German passport. The foreign naturalisation alone does not cause that loss.",
-   "context": "[1] German Embassy Singapore / Federal Foreign Office; English: Full paragraph gives EU/Swiss and automatic-acquisition exceptions but no 27 June 2024 cutoff. It sits directly above the passport-entitlement question. The German counterpart provides current application guidance and historically relevant evidence requests.\n[2] German missions in Canada / Federal Foreign Office; English: The surrounding passport-eligibility text has no reform-date qualification. Related material separately labels the older dual-citizenship rules as historical; that distinction is absent here.\n[3] German Embassy Dublin / Federal Foreign Office; English; PDF page 1: The four-page questionnaire remains offered as a citizenship questionnaire by the current overview, with a 15 August 2023 download date. It is not marked historical there. A separate newer FAQ correctly explains the reform.",
-   "scope": "Earlier acquisitions must be assessed under the law then in force, including the former EU/Swiss and retention-permission exceptions. Other acquisition/loss rules remain relevant. Foreign nationality law is a separate question.",
+   "context": "[1] German Embassy Singapore / Federal Foreign Office; English: Full paragraph gives EU/Swiss and automatic-acquisition exceptions but no 27 June 2024 cutoff. It sits directly above the passport-entitlement question. The German counterpart provides current application guidance and historically relevant evidence requests.\n[2] German missions in Canada / Federal Foreign Office; English: The surrounding passport-eligibility text has no reform-date qualification. Related material separately labels the older dual-citizenship rules as historical; that distinction is absent here.\n[3] German Embassy Dublin / Federal Foreign Office; English; PDF page 1: The four-page questionnaire remains offered as a citizenship questionnaire by the current overview, with a 15 August 2023 download date. It is not marked historical there. A separate newer FAQ correctly explains the reform.\n\n[1] German Embassy Singapore / Federal Foreign Office; English: Full paragraph gives EU/Swiss and automatic-acquisition exceptions but no 27 June 2024 cutoff. It sits directly above the passport-entitlement question. The German counterpart provides current application guidance and historically relevant evidence requests.\n[2] German missions in Canada / Federal Foreign Office; English: The surrounding passport-eligibility text has no reform-date qualification. Related material separately labels the older dual-citizenship rules as historical; that distinction is absent here.\n[3] German Embassy Dublin / Federal Foreign Office; English; PDF page 1: The four-page questionnaire remains offered as a citizenship questionnaire by the current overview, with a 15 August 2023 download date. It is not marked historical there. A separate newer FAQ correctly explains the reform.",
+   "scope": "Earlier acquisitions must be assessed under the law then in force, including the former EU/Swiss and retention-permission exceptions. Other acquisition/loss rules remain relevant. Foreign nationality law is a separate question. For this embassy-only cohort, Singapore and Dublin are reviewed embassy instances. Canada is retained solely as an attribution-ambiguous shared-country publication; it must not be counted as a confirmed Ottawa embassy instance. The previously published Canadian passage remains separately labelled as shared consular guidance. Its Toronto consular procedure does not establish an Ottawa embassy statement; No confirmed Ottawa embassy instance is inferred; its cohort result is unchanged. Dublin’s current parent links the questionnaire, with a general currency disclaimer; neither historical document age nor that disclaimer makes it historical-only advice.\n\nAdditional reviewed publication instance(s) — German Embassy Singapur, German Embassy Dublin: Only voluntary foreign nationality acquisition on/after27June2024; earlier losses, other loss grounds and foreign nationality law separate. Singapore's current German citizenship page expressly explains repeal/noBBG and Singapore's separate restrictions. Dublin's separate27June2024 article is correct; the overview/questionnaire has ancestry context and general knowledge-at-drafting/no-guarantee disclaimer, but current overview still offers the old PDF without historical-only restriction. No uniformly false embassy practice alleged. Canada Toronto-only publication excluded from current embassy instances.\n\nAdditional reviewed publication instance(s) — German Embassy Stockholm: Only German-law consequences of acquisitions on or after 27 June 2024. Earlier acquisitions, other loss grounds and foreign nationality law are separate. The current German nationality hub links this general article, dated 2 October 2024, without a historical-only label. The separate German and Swedish pages on Swedish nationality correctly explain the pre-existing EU exception; those narrower pages do not make the general non-EU rule accurate. The full source also discusses military service and terrorism as separate loss grounds. No actual administrative decision was observed.\n\nAdditional reviewed publication instance(s) — German Embassy Belgrad: Narrow source finding for the affirmative warning on the current passport page, not every Belgrade nationality pathway. The separate Staatsangehörigkeitsfragen page links the 27 June 2024 reform, and the Beibehaltung page says applications have not been accepted since that date. Those contrary pages are material. The passport page itself has no 2024 cutoff in this warning. Its conditional request for an existing retention permit elsewhere can serve historical verification and is not the basis of this finding. Registration-at-birth and Serbian law are not separately adjudicated.\n\nAdditional reviewed publication instance(s) — German Embassy Daressalam: Only the German-law consequences of foreign acquisition on or after27June2024 and the prospective adult retention procedure are challenged. The current nationality hub and loss article2590480 correctly say no acquisition loss or retention permit since27June2024; those contrary pathways are material. This30March2023 article remains linked without a historical-only label, including prospective renewal instructions. Full what-is-permit section, EU/Swiss exception and permit timing qualifications are retained. The later child section has conditional parental rules and is not used as an unconditional child-loss claim. Foreign nationality law, including Tanzania's position on multiple nationality, is not adjudicated. Earlier acquisitions and historic permit evidence remain separate.\n\nAdditional reviewed publication instance(s) — German Embassy Prag: This finding concerns acquisitions on or after27June2024 and only the foreign-nationality acquisition loss ground. The German article says Stand:März2021, Czech Stav:srpen2021 and both include a general accuracy disclaimer; both remain linked from the current nationality service hubs without an archival/historical label or reform notice. Full governing statutory-exception and EU/Swiss paragraphs are retained. Subsequent Czech pre/post28August2007 historical examples are not alleged false. Other loss grounds, historical citizenship proof and the other state's law are separate. Current hub also links central nationality FAQs; this specific claim concerns the locally offered dated loss articles.\n\nAdditional reviewed publication instance(s) — German Embassy Budapest: Budapest publication only: its current parent prominently links correct 2024 reform guidance, while the linked detailed loss page still asserts automatic loss and retention permission as the only preventive measure. The complete statutory qualification, EU/Swiss exception and Hungarian examples remain in the quoted passage. This concerns acquisitions of a non-EU/Swiss nationality on or after 27 June 2024, with no other ground of loss; earlier acquisitions require the former law. Caracas German and Spanish publications were independently reviewed as ambiguous and are excluded from this confirmed case. Current incoming links establish presentation as guidance, not recent editorial review.",
    "date": "2026-10-17",
    "langs": [
-    "English"
+    "English",
+    "German",
+    "Czech"
    ],
    "countries": [
     "SG",
     "CA",
-    "IE"
+    "IE",
+    "SE",
+    "CZ",
+    "HU",
+    "RS",
+    "TZ"
    ],
    "versions": [
     {
@@ -12071,12 +12173,138 @@
      "tr": "",
      "url": "https://dublin.diplo.de/resource/blob/2612442/39f27faa68b31b3dcdbd0ff8381d0fab/final-fragebogen-zur-staatsangehoerigkeit-dublin-data.pdf#page=1",
      "site": "dublin.diplo.de · PDF"
+    },
+    {
+     "lang": "German",
+     "quote": "Verlust der deutschen Staatsangehörigkeit\n\nEs gilt weiterhin, dass deutsche Staatsangehörige grundsätzlich die deutsche Staatsangehörigkeit verlieren, wenn sie eine fremde Staatsangehörigkeit (außer EU-Staaten und Schweiz) auf eigenen Antrag hin erwerben (§ 25 Abs. 1 StAG), ohne vorher eine Genehmigung zur Beibehaltung der deutschen Staatsangehörigkeit beantragt und erhalten zu haben.\n\nDeutsche, die eine ausländische Staatsangehörigkeit erwerben, können jedoch seit dem 01.01.2000 unter erleichterten Voraussetzungen ihre deutsche Staatsangehörigkeit beibehalten. Dabei sind nach § 25 Abs. 2 StAG bei der Entscheidung über eine Beibehaltungsgenehmigung öffentliche und private Belange abzuwägen. Bei Deutschen im Ausland ist insbesondere zu berücksichtigen, ob diese fortbestehende Bindungen an Deutschland haben und über ausreichende Kenntnisse der deutschen Sprache verfügen. Außerdem müssen sie glaubhaft darstellen, weshalb der Erwerb der fremden Staatsangehörigkeit in ihrer konkreten Situation für sie vorteilhaft ist oder bestehende Nachteile beseitigt.\n\nBitte beachten Sie, dass Ihnen die Genehmigung zur Beibehaltung der deutschen Staatsangehörigkeit vor Erwerb der ausländischen Staatsangehörigkeit ausgehändigt worden sein muss.\n\nSeit dem 28.08.2007 verlieren Deutsche, die eine Staatsangehörigkeit eines Mitgliedsstaates der EU oder der Schweiz erwerben, nicht mehr automatisch die deutsche Staatsangehörigkeit (§ 25 Abs. 1 S. 2 StAG). Hierzu bedarf es keiner Beibehaltungsgenehmigung.",
+     "tr": "Loss of German nationality\n\nIt continues to be the case that German nationals generally lose German nationality when they acquire a foreign nationality (except EU states and Switzerland) on their own application (section 25(1) StAG) without having previously applied for and received permission to retain German nationality.\n\nSince 1 January 2000, Germans who acquire a foreign nationality have nevertheless been able to retain German nationality under less restrictive conditions. Under section 25(2) StAG, public and private interests must be weighed when deciding on a retention permit. For Germans abroad, particular consideration is given to whether they retain ties to Germany and possess sufficient German language skills. They must also plausibly explain why acquisition of the foreign nationality is advantageous in their specific situation or removes existing disadvantages.\n\nPlease note that permission to retain German nationality must have been handed to you before acquisition of the foreign nationality.\n\nSince 28 August 2007, Germans who acquire the nationality of an EU Member State or Switzerland no longer automatically lose German nationality (section 25(1), sentence 2 StAG). No retention permit is required for this.",
+     "url": "https://stockholm.diplo.de/se-de/service/03-staatsangehoerigkeit/staatsangehoerigkeitsrecht-2481062",
+     "site": "stockholm.diplo.de"
+    },
+    {
+     "lang": "German",
+     "quote": "Bei Annahme einer fremden Staatsangehörigkeit:\n\nDer häufigste Fall, der zum Verlust der deutschen Staatsangehörigkeit führt, ist die Annahme einer anderen Staatsangehörigkeit auf Antrag, ohne vorher eine sogenannte Beibehaltungsgenehmigung besitzen. Lediglich bei Annahme einer Staatsangehörigkeit eines anderen EU-Staates oder der Schweiz gilt eine Ausnahme. Auch die Nachregistrierung im serbischen Personen- und Staatsangehörigkeitsregister, wenn z.B. ein Kind mit einem deutschen und einem serbischen Elternteil in Deutschland geboren wird, gilt als Antragserwerb einer fremden Staatsangehörigkeit. Eine Nachregistrierung führt nur dann nicht zum Verlust der deutschen Staatsangehörigkeit, wenn diese vor Vollendung des 18. Lebensjahres vorgenommen wird.",
+     "tr": "When acquiring a foreign nationality:\n\nThe most common case leading to loss of German nationality is acquiring another nationality on application without previously holding a so-called retention permit. An exception applies only when acquiring the nationality of another EU state or Switzerland. Subsequent registration in the Serbian civil-status and nationality register, for example where a child with one German and one Serbian parent is born in Germany, also counts as acquiring a foreign nationality on application. Subsequent registration does not lead to loss of German nationality only if it occurs before the age of 18.",
+     "url": "https://belgrad.diplo.de/rs-de/service/pass-und-ausweis-2010732",
+     "site": "belgrad.diplo.de"
+    },
+    {
+     "lang": "German",
+     "quote": "Sie möchten eine fremde Staatsangehörigkeit annehmen und die deutsche Staatsangehörigkeit nicht verlieren? Dann können Sie vorab eine Beibehaltungsgenehmigung beantragen.\n\nWas ist eine Beibehaltungsgenehmigung?\n\nDer Erwerb einer ausländischen Staatsangehörigkeit auf eigenen Antrag oder den Antrag des gesetzlichen Vertreters führt grundsätzlich zum Verlust der deutschen Staatsangehörigkeit. Sie können sich davor schützen, indem Sie eine Beibehaltungsgenehmigung beantragen. Alle Informationen zur Beantragung der Beibehaltungsgenehmigung finden Sie auf der Webseite des Bundesverwaltungsamts.\n\nSie benötigen keine Beibehaltungsgenehmigung, wenn Sie die Staatsangehörigkeit eines anderen EU-Staates, oder der Schweiz beantragen möchten.\n\nWICHTIG: Die Beibehaltungsgenehmigung schützt Sie nur vor dem Verlust der deutschen Staatsangehörigkeit,\n- nachdem sie Ihnen ausgehändigt wurde und\n- solange sie gültig ist.\nDie Urkunde ist grundsätzlich nur zwei Jahre gültig. Das Ablaufdatum finden Sie auf Ihrer Urkunde.\n\nSollten Sie absehen, dass sich Ihre Einbürgerung in Tansnia verzögert, beantragen Sie bitte sechs Monate vor Ablauf eine zweite Genehmigungserklärung mit dem BVA. Auch diese muss Ihnen ausgehändigt sein, um Sie vor dem Verlust der deutschen Staatsangehörigkeit zu schützen.\n\nEine Beibehaltungsgenehmigung kann nicht nachträglich ausgestellt werden. Wenn Sie bereits eine fremde Staatsangehörigkeit auf Antrag angenommen haben, haben Sie ggf. die Möglichkeit die deutsche Staatsangehörigkeit durch Einbürgerung wieder zu erlangen.",
+     "tr": "Would you like to acquire a foreign nationality without losing German nationality? You can apply beforehand for permission to retain German nationality.\n\nWhat is a retention permit?\n\nAcquiring a foreign nationality on one's own application or the application of one's legal representative generally leads to loss of German nationality. You can protect yourself by applying for a retention permit. All information about applying for a retention permit is available on the Federal Office of Administration's website.\n\nYou do not need a retention permit if you wish to apply for the nationality of another EU state or Switzerland.\n\nIMPORTANT: The retention permit protects you against loss of German nationality only\n- after it has been handed to you and\n- while it remains valid.\nThe certificate is generally valid for only two years. You will find the expiry date on your certificate.\n\nIf you foresee that your naturalisation in Tanzania will be delayed, please apply to the Federal Office of Administration for a second permission declaration six months before expiry. This too must have been handed to you to protect you against loss of German nationality.\n\nA retention permit cannot be issued retrospectively. If you have already acquired a foreign nationality on application, you may have an opportunity to regain German nationality by naturalisation.",
+     "url": "https://daressalam.diplo.de/tz-de/service/2590916-2590916",
+     "site": "daressalam.diplo.de"
+    },
+    {
+     "lang": "German",
+     "quote": "Verlust durch Annahme einer fremden Staatsangehörigkeit\n\nDer häufigste Verlustgrund der deutschen Staatsangehörigkeit ist der Erwerb einer fremden Staatsangehörigkeit auf eigenen Antrag.\n\nWer als deutscher Staatsangehöriger, egal ob in Deutschland oder im Ausland, auf Antrag eine fremde Staatsangehörigkeit erwirbt, verliert dadurch seine deutsche Staatsangehörigkeit, sofern nichts anderes gesetzlich geregelt ist. Dieser Verlust tritt automatisch per Gesetz ein, ohne dass es dazu einer besonderen Erklärung bedarf oder die deutschen Behörden davon Kenntnis erlangen. Dabei spielt es keine Rolle, wie eine Person die deutsche Staatsangehörigkeit erworben hat.\n\nEin solcher Verlust kann allein dadurch verhindert werden, dass einem zuvor auf eigenen Antrag hin eine Genehmigung zur Beibehaltung der deutschen Staatsangehörigkeit erteilt worden ist. Im Zusammenhang mit Passausstellung, Geburt von Kindern, Familiennachzug und sonstigen Anlässen wird geprüft, ob die deutsche Staatsangehörigkeit weiterhin besteht. Der Umstand, dass jemand noch seinen deutschen Reisepass oder Personalausweis besitzt, wird dabei nur als Indiz gewertet. Bei Zweifeln kann ein Verfahren zur Feststellung der Staatsangehörigkeit durchgeführt werden.\n\nSeit einer gesetzlichen Neuregelung am 28. August 2007 können EU-Bürger und Schweizer in Deutschland eingebürgert werden, ohne ihre bisherige Staatsangehörigkeit aufgeben zu müssen. Gleichzeitig ist der bisherige automatische Verlust der deutschen Staatsangehörigkeit beim Erwerb einer fremden Staatsangehörigkeit im Verhältnis zu den EU-Mitgliedsstaaten und der Schweiz entfallen. Mit Wirkung vom 28.08.2007 benötigen Deutsche, die zusätzlich zu ihrer deutschen Staatsangehörigkeit die Staatsangehörigkeit eines EU-Mitgliedsstaates oder der Schweiz annehmen möchten, somit keine Beibehaltungsgenehmigung mehr.",
+     "tr": "Loss through acquisition of a foreign nationality\n\nThe most common ground for losing German nationality is acquiring a foreign nationality on one's own application.\n\nA German national who acquires a foreign nationality on application, whether living in Germany or abroad, thereby loses German nationality unless the law provides otherwise. This loss occurs automatically by law, without any special declaration or the German authorities becoming aware of it. It does not matter how the person acquired German nationality.\n\nSuch a loss can only be prevented by having previously obtained, on one's own application, permission to retain German nationality. Whether German nationality continues is checked in connection with passport issuance, children's births, family reunification and other occasions. Possession of a German passport or identity card is treated only as an indication. In cases of doubt, nationality determination proceedings may be conducted.\n\nSince a legislative change on 28 August 2007, EU citizens and Swiss nationals can be naturalised in Germany without relinquishing their previous nationality. At the same time, automatic loss of German nationality through acquisition of a foreign nationality ceased in relation to EU Member States and Switzerland. With effect from 28 August 2007, Germans wishing to acquire nationality of an EU Member State or Switzerland in addition to German nationality therefore no longer need permission to retain German nationality.",
+     "url": "https://prag.diplo.de/cz-de/service/03-staatsangehoerigkeit/2337370-2337370",
+     "site": "prag.diplo.de"
+    },
+    {
+     "lang": "Czech",
+     "quote": "Ztráta německého občanství v důsledku přijetí jiného státního občanství\n\nNejčastějším důvodem ztráty německého státního občanství je nabytí státního občanství jiného státu na vlastní žádost.\n\nNěmecký státní příslušník, který na vlastní žádost nabyde cizí státní občanství, ztratí německé státní občanství bez ohledu na to, zda žije v Německu či v zahraničí, nevyplývá-li ze zákona něco jiného. Ztráta německého občanství nastává v tomto případě ze zákona automaticky, není k ní zapotřebí žádné zvláštní prohlášení a není ani nutné, aby o ní byly informovány německé úřady. Přitom nezáleží na způsobu, jakým dotyčná osoba německé státní občanství nabyla.\n\nJediným způsobem, jak ztrátě německého státního občanství v takovýchto případech zabránit, je získat předem na vlastní žádost úřední souhlas s ponecháním německého státního občanství. V souvislosti s vydáním cestovního pasu, narozením potomků, slučováním rodin, jakož i z dalších důvodů dochází k prověřování, zda je daná osoba stále německým státním příslušníkem. Skutečnost, že je daná osoba držitelem německého cestovního pasu či občanského průkazu je přitom považována pouze za jednu z indicií.\n\nV případě pochybností lze zahájit postup pro určení státní příslušnosti.\n\nPočínaje 28. srpnem 2007, kdy vstoupila v platnost nová zákonná úprava, mohou občané EU a Švýcarska nabýt německé státní občanství, aniž by se museli vzdát svého dosavadního státního občanství. Zároveň již od tohoto data nedochází k automatické ztrátě německého státního občanství v případech, kdy se německý státní příslušník stane občanem jiného členského státu EU či Švýcarska. S účinností od 28. 8. 2007 tedy již Němci, kteří chtějí mít německé státní občanství i státní občanství jiného členského státu EU nebo Švýcarska, nepotřebují úřední souhlas s ponecháním německého státního občanství.",
+     "tr": "Loss of German nationality as a result of acquiring another nationality\n\nThe most common reason for losing German nationality is acquiring another state's nationality on one's own application.\n\nA German national who acquires foreign nationality on their own application loses German nationality regardless of whether they live in Germany or abroad, unless the law provides otherwise. In this case German nationality is lost automatically by law; no special declaration is needed, nor is it necessary for the German authorities to be informed. It does not matter how the person acquired German nationality.\n\nThe only way to prevent loss of German nationality in such cases is to obtain prior official permission, on one's own application, to retain German nationality. In connection with issuing a passport, children's births, family reunification and for other reasons, checks are made as to whether the person is still a German national. Possession of a German passport or identity card is regarded only as one indication.\n\nIn cases of doubt, a procedure to determine nationality may be initiated.\n\nSince 28 August 2007, when new legislation came into force, EU and Swiss citizens can acquire German nationality without giving up their existing nationality. Since that date, German nationality is also no longer automatically lost when a German national becomes a national of another EU Member State or Switzerland. With effect from 28 August 2007, Germans wishing to hold German nationality and nationality of another EU Member State or Switzerland therefore no longer need official permission to retain German nationality.",
+     "url": "https://prag.diplo.de/cz-cs/service/03-staatsangehoerigkeit-cz/2347634-2347634",
+     "site": "prag.diplo.de/cz-cs"
+    },
+    {
+     "lang": "German",
+     "quote": "Wer als deutscher Staatsangehöriger, egal ob in Deutschland oder im Ausland, auf Antrag eine fremde Staatsangehörigkeit erwirbt, verliert dadurch seine deutsche Staatsangehörigkeit, sofern nichts anderes gesetzlich geregelt ist. Dieser Verlust tritt automatisch per Gesetz ein, ohne dass es dazu einer besonderen Erklärung bedarf oder die deutschen Behörden davon Kenntnis erlangen. Dabei spielt es keine Rolle, wie eine Person die deutsche Staatsangehörigkeit erworben hat.\n\nEin solcher Verlust kann allein dadurch verhindert werden, dass einem zuvor auf eigenen Antrag hin eine Genehmigung zur Beibehaltung der deutschen Staatsangehörigkeit erteilt worden ist. Im Zusammenhang mit Passausstellung, Geburt von Kindern, Familiennachzug und sonstigen Anlässen wird geprüft, ob die deutsche Staatsangehörigkeit weiterhin besteht. Der Umstand, dass jemand noch seinen deutschen Reisepass oder Personalausweis besitzt, wird dabei nur als Indiz gewertet. Bei Zweifeln kann ein Verfahren zur Feststellung der Staatsangehörigkeit durchgeführt werden.\n\nSeit einer gesetzlichen Neuregelung am 28. August 2007 können EU-Bürger und Schweizer in Deutschland eingebürgert werden, ohne ihre bisherige Staatsangehörigkeit aufgeben zu müssen. Gleichzeitig ist der bisherige automatische Verlust der deutschen Staatsangehörigkeit beim Erwerb einer fremden Staatsangehörigkeit im Verhältnis zu den EU-Mitgliedsstaaten und der Schweiz entfallen. Mit Wirkung vom 28.08.2007 benötigen Deutsche, die zusätzlich zu ihrer deutschen Staatsangehörigkeit die Staatsangehörigkeit eines EU-Mitgliedsstaates oder der Schweiz annehmen möchten, somit keine Beibehaltungsgenehmigung mehr.\n\nFür in Ungarn wohnhafte Deutsche, die auf eigenen Antrag vor dem 28.08. 2007 in die ungarische Staatsangehörigkeit eingebürgert wurden, gilt damit: Mit dem Erwerb der ungarischen Staatsangehörigkeit ging die deutsche Staatsangehörigkeit regelmäßig verloren, wenn nicht zuvor eine Beibehaltungsgenehmigung erteilt wurde. Nach der Einbürgerung geborene Kinder erwerben dann nicht mehr die deutsche Staatsangehörigkeit vom vormals deutschen Elternteil. Umgekehrt gilt, dass diese Kinder bei Geburt vor dem Einbürgerungstermin des Elternteils die deutsche Staatsangehörigkeit regelmäßig erworben haben.\n\nFür in Ungarn wohnhafte Deutsche, die auf eigenen Antrag ab dem 28.08. 2007 in die ungarische Staatsangehörigkeit eingebürgert wurden, tritt dagegen kein Verlust der deutschen Staatsangehörigkeit ein.",
+     "tr": "Anyone who, as a German national, whether in Germany or abroad, acquires a foreign nationality on application thereby loses German nationality unless the law provides otherwise. This loss occurs automatically by operation of law, without requiring a special declaration or the German authorities to become aware of it. It does not matter how the person acquired German nationality.\n\nSuch a loss can only be prevented by previously obtaining permission, on one's own application, to retain German nationality. In connection with issuing passports, births of children, family reunification and other occasions, it is checked whether German nationality still exists. Possessing a German passport or identity card is treated only as an indication. If there is doubt, a nationality determination procedure may be conducted.\n\nSince a legislative change on 28 August 2007, EU citizens and Swiss nationals can be naturalised in Germany without giving up their previous nationality. At the same time, the previous automatic loss of German nationality on acquiring a foreign nationality ceased in relation to EU Member States and Switzerland. With effect from 28 August 2007, Germans who wish to acquire the nationality of an EU Member State or Switzerland in addition to German nationality therefore no longer require retention permission.\n\nFor Germans resident in Hungary who were naturalised as Hungarian citizens on their own application before 28 August 2007, this means that German nationality was generally lost on acquiring Hungarian nationality unless retention permission had previously been granted. Children born after naturalisation then no longer acquire German nationality from the formerly German parent. Conversely, children born before the parent's naturalisation date generally acquired German nationality at birth.\n\nFor Germans resident in Hungary who were naturalised as Hungarian citizens on their own application on or after 28 August 2007, there is no loss of German nationality.",
+     "url": "https://budapest.diplo.de/hu-de/service/03-staatsangehoerigkeit/2214204-2214204",
+     "site": "budapest.diplo.de"
     }
    ],
    "marks": [
     {
      "lang": "English",
      "text": "loses the German nationality automatically"
+    },
+    {
+     "lang": "German",
+     "text": "grundsätzlich die deutsche Staatsangehörigkeit verlieren"
+    },
+    {
+     "lang": "German",
+     "text": "ohne vorher eine Genehmigung zur Beibehaltung der deutschen Staatsangehörigkeit beantragt und erhalten zu haben"
+    },
+    {
+     "lang": "English",
+     "text": "generally lose German nationality"
+    },
+    {
+     "lang": "English",
+     "text": "without having previously applied for and received permission to retain German nationality"
+    },
+    {
+     "lang": "German",
+     "text": "ohne vorher eine sogenannte Beibehaltungsgenehmigung besitzen"
+    },
+    {
+     "lang": "German",
+     "text": "Lediglich bei Annahme einer Staatsangehörigkeit eines anderen EU-Staates oder der Schweiz gilt eine Ausnahme."
+    },
+    {
+     "lang": "English",
+     "text": "without previously holding a so-called retention permit"
+    },
+    {
+     "lang": "English",
+     "text": "An exception applies only when acquiring the nationality of another EU state or Switzerland."
+    },
+    {
+     "lang": "German",
+     "text": "führt grundsätzlich zum Verlust der deutschen Staatsangehörigkeit"
+    },
+    {
+     "lang": "German",
+     "text": "indem Sie eine Beibehaltungsgenehmigung beantragen"
+    },
+    {
+     "lang": "English",
+     "text": "generally leads to loss of German nationality"
+    },
+    {
+     "lang": "English",
+     "text": "by applying for a retention permit"
+    },
+    {
+     "lang": "German",
+     "text": "Dieser Verlust tritt automatisch per Gesetz ein"
+    },
+    {
+     "lang": "German",
+     "text": "Ein solcher Verlust kann allein dadurch verhindert werden"
+    },
+    {
+     "lang": "English",
+     "text": "This loss occurs automatically by law"
+    },
+    {
+     "lang": "English",
+     "text": "Such a loss can only be prevented"
+    },
+    {
+     "lang": "Czech",
+     "text": "Ztráta německého občanství nastává v tomto případě ze zákona automaticky"
+    },
+    {
+     "lang": "Czech",
+     "text": "Jediným způsobem, jak ztrátě německého státního občanství v takovýchto případech zabránit"
+    },
+    {
+     "lang": "English",
+     "text": "German nationality is lost automatically by law"
+    },
+    {
+     "lang": "English",
+     "text": "The only way to prevent loss of German nationality in such cases"
+    },
+    {
+     "lang": "English",
+     "text": "This loss occurs automatically by operation of law"
     }
    ],
    "lawMarks": [
@@ -42878,7 +43106,7 @@
      "id": "schengen_window",
      "title": "Visa application window",
      "q": "Does the embassy say when you may apply for a short-stay visa: from six months before travel, ordinarily up to 15 days before?",
-     "law": "From 6 months to 15 days before travel",
+     "law": "Ordinarily 6 months to 15 calendar days before travel; 9 months for seafarers on duty; urgent exceptions possible",
      "topic": "missions~visa-timing"
     },
     {
@@ -42983,19 +43211,22 @@
        "amb",
        "",
        "https://tirana.diplo.de/al-de/service/konsularinfo",
-       "2026-10-20"
+       "2026-10-20",
+       "The form contains a qualified possible-loss warning and historical questions; no unqualified post-reform loss claim was established."
       ],
       [
        "amb",
        "",
        "https://tirana.diplo.de/al-de/service/2078458-2078458",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
-       "unp",
-       "",
-       "https://tirana.diplo.de/al-de/service/visa-de/2262298-2262298",
-       "2026-10-20"
+       "bad",
+       "missions-visa-filing-window",
+       "https://tirana.diplo.de/al-sq/service/visa-al/2548036-2548036",
+       "2026-10-20",
+       "The Albanian page limits applications to three months before travel; the German counterpart correctly says six months."
       ],
       [
        "ok",
@@ -43007,7 +43238,8 @@
        "na",
        "",
        "https://tirana.diplo.de/al-de/service/visa-de/2262298-2262298",
-       "2026-10-20"
+       "2026-10-20",
+       "General visa fees are listed, but the specific EU-family exemption is not addressed. No express fee demand covering protected family members was established."
       ]
      ]
     },
@@ -43027,7 +43259,8 @@
        "amb",
        "",
        "https://algier.diplo.de/dz-de/service/1188548-1188548",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -43103,7 +43336,8 @@
        "amb",
        "",
        "https://buenos-aires.diplo.de/ar-de/service/paesseausweise/passantragsformular-1994490",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -43141,7 +43375,8 @@
        "amb",
        "",
        "https://eriwan.diplo.de/am-de/service/reisepaesse/2721220-2721220",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -43217,7 +43452,8 @@
        "amb",
        "",
        "https://addis-abeba.diplo.de/et-de/service/pass-hinweise-1350086",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "amb",
@@ -43255,7 +43491,8 @@
        "amb",
        "",
        "https://australien.diplo.de/au-de/service/reisepaesse/pass-unter-18-jahre-2067556",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -43293,7 +43530,8 @@
        "amb",
        "",
        "https://manama.diplo.de/bh-de/service/2457276-2457276",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -43407,7 +43645,8 @@
        "amb",
        "",
        "https://bruessel.diplo.de/be-de/service/2639316-2639316",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -43445,7 +43684,8 @@
        "amb",
        "",
        "https://cotonou.diplo.de/bj-de/service/paesse-und-ausweise-2676030",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "bad",
@@ -43483,7 +43723,8 @@
        "amb",
        "",
        "https://la-paz.diplo.de/bo-de/service/pass-ausweis-1804088",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -43521,7 +43762,8 @@
        "amb",
        "",
        "https://sarajewo.diplo.de/ba-de/service/konsularischer-service/pass-und-ausweis-2442412",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -43673,11 +43915,12 @@
        "amb",
        "",
        "https://sofia.diplo.de/bg-de/service/paesse-ausweise/pass-minderjaehrig-2665310",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
-       "unp",
-       "",
+       "bad",
+       "missions-visa-filing-window",
        "https://sofia.diplo.de/bg-bg/service/05-visaeinreise/1443674-1443674",
        "2026-10-20"
       ],
@@ -43787,7 +44030,8 @@
        "amb",
        "",
        "https://santiago.diplo.de/cl-de/service/02-paesseausweise/1210352-1210352",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -43825,7 +44069,8 @@
        "amb",
        "",
        "https://china.diplo.de/cn-de/service/reisepass-personalausweis-1209038",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -43901,7 +44146,8 @@
        "amb",
        "",
        "https://abidjan.diplo.de/ci-de/service/passangelegenheiten-1844008",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "bad",
@@ -43939,7 +44185,8 @@
        "amb",
        "",
        "https://kopenhagen.diplo.de/dk-de/service/02-paesseausweise/beantragung",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -43977,7 +44224,8 @@
        "amb",
        "",
        "https://santo-domingo.diplo.de/do-es/service/pass-seite-2017036",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -44053,7 +44301,8 @@
        "amb",
        "",
        "https://quito.diplo.de/ec-es/service/2433878-2433878",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -44167,7 +44416,8 @@
        "amb",
        "",
        "https://tallinn.diplo.de/ee-de/service/2760518-2760518",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "amb",
@@ -44243,7 +44493,8 @@
        "amb",
        "",
        "https://helsinki.diplo.de/fi-de/buergerservice/reisepass-und-personalausweis/reisepass-fuer-unter-18-jaehrige-personalausweis-fuer-antragsteller-unter-16-jahren--2447616",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -44281,7 +44532,8 @@
        "amb",
        "",
        "https://allemagneenfrance.diplo.de/fr-de/service/02-pass-personalausweis-seite/2587736-2587736",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -44395,7 +44647,8 @@
        "amb",
        "",
        "https://tiflis.diplo.de/ge-de/service/1677824-1677824",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -44433,7 +44686,8 @@
        "amb",
        "",
        "https://accra.diplo.de/gh-en/service/2589894-2589894",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "amb",
@@ -44471,7 +44725,8 @@
        "amb",
        "",
        "https://griechenland.diplo.de/gr-de/service/2639894-2639894",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -44506,10 +44761,11 @@
        "2026-10-20"
       ],
       [
-       "unp",
+       "amb",
        "",
        "https://guatemala.diplo.de/resource/blob/1826090/ce0185d9e1a0c129c863395d883565b9/pdf-pass-tipos-y-costos-data.pdf",
-       "2026-10-20"
+       "2026-10-20",
+       "A fee entry or appointment instruction mentions Kinderreisepässe, but this alone is insufficient evidence that the embassy says they remain available."
       ],
       [
        "na",
@@ -44664,8 +44920,8 @@
        "2026-10-20"
       ],
       [
-       "unp",
-       "",
+       "bad",
+       "missions-visa-filing-window",
        "https://tegucigalpa.diplo.de/hn-de/service/2631938-2631938",
        "2026-10-20"
       ],
@@ -44851,7 +45107,8 @@
        "amb",
        "",
        "https://dublin.diplo.de/ie-de/ausstellung-von-reisepaessen-fuer-antragsteller-unter-18-jahren--2339012",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -44889,7 +45146,8 @@
        "amb",
        "",
        "https://reykjavik.diplo.de/is-de/service/2442140-2442140",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -44927,12 +45185,13 @@
        "amb",
        "",
        "https://tel-aviv.diplo.de/il-de/service/1444786-1444786",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
-       "unp",
-       "",
-       "https://tel-aviv.diplo.de/il-de/service/05-visaeinreise/1585738-1585738",
+       "bad",
+       "missions-visa-filing-window",
+       "https://tel-aviv.diplo.de/il-de/service/05-visaeinreise/1588086-1588086",
        "2026-10-20"
       ],
       [
@@ -45003,12 +45262,13 @@
        "amb",
        "",
        "https://kingston.diplo.de/jm-en/service/1508538-1508538",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
-       "unp",
-       "",
-       "https://kingston.diplo.de/jm-de/service/05-visaeinreise",
+       "bad",
+       "missions-visa-filing-window",
+       "https://kingston.diplo.de/jm-en/service/05-visaeinreise/1671536-1671536",
        "2026-10-20"
       ],
       [
@@ -45041,7 +45301,8 @@
        "amb",
        "",
        "https://japan.diplo.de/ja-de/service/1051682-1051682",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -45117,7 +45378,8 @@
        "amb",
        "",
        "https://amman.diplo.de/jo-de/konsulat/passstelle/pass-fuer-minderjaehrige-2694038",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -45155,7 +45417,8 @@
        "amb",
        "",
        "https://phnom-penh.diplo.de/kh-de/service/wohnortaenderung-1266900",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -45193,7 +45456,8 @@
        "amb",
        "",
        "https://jaunde.diplo.de/cm-de/service/1440278-1440278",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -45307,7 +45571,8 @@
        "amb",
        "",
        "https://doha.diplo.de/qa-en/service/1616560-1616560",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -45345,7 +45610,8 @@
        "amb",
        "",
        "https://nairobi.diplo.de/ke-de/service/09-passangelegenheiten/1794732-1794732",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -45383,7 +45649,8 @@
        "amb",
        "",
        "https://bischkek.diplo.de/kg-ru/service/pass-seite-1241834",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -45421,12 +45688,13 @@
        "amb",
        "",
        "https://bogota.diplo.de/co-es/service/2507094-2507094",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
-       "unp",
-       "",
-       "https://bogota.diplo.de/co-es/service/visa-einreise/1808588-1808588",
+       "bad",
+       "missions-visa-filing-window",
+       "https://bogota.diplo.de/co-de/service/05-visaeinreise/1800412-1800412",
        "2026-10-20"
       ],
       [
@@ -45535,7 +45803,8 @@
        "amb",
        "",
        "https://niederlande.diplo.de/nl-de/vertretungen/botschaft",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -45611,7 +45880,8 @@
        "amb",
        "",
        "https://seoul.diplo.de/kr-de/service/02-paesseausweise/1892930-1892930",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -45649,7 +45919,8 @@
        "amb",
        "",
        "https://pristina.diplo.de/xk-de/service/pass-ausweise/pass-kinder-2291360",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -45687,7 +45958,8 @@
        "amb",
        "",
        "https://zagreb.diplo.de/hr-de/service/paesse-ausweise-1907274",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -45725,7 +45997,8 @@
        "amb",
        "",
        "https://havanna.diplo.de/cu-es/service/02-paesseausweise",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -45763,7 +46036,8 @@
        "amb",
        "",
        "https://kuwait.diplo.de/kw-de/service/1901818-1901818",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "amb",
@@ -45801,7 +46075,8 @@
        "amb",
        "",
        "https://vientiane.diplo.de/la-de/service/1359272-1359272",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -45836,10 +46111,11 @@
        "2026-10-20"
       ],
       [
-       "unp",
+       "amb",
        "",
        "https://riga.diplo.de/lv-de/service/2772838-2772838",
-       "2026-10-20"
+       "2026-10-20",
+       "A fee entry or appointment instruction mentions Kinderreisepässe, but this alone is insufficient evidence that the embassy says they remain available."
       ],
       [
        "na",
@@ -45877,7 +46153,8 @@
        "amb",
        "",
        "https://beirut.diplo.de/lb-de/service/2507786-2507786",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -45991,7 +46268,8 @@
        "amb",
        "",
        "https://vilnius.diplo.de/lt-de/service/2015696-2015696",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "amb",
@@ -46029,7 +46307,8 @@
        "amb",
        "",
        "https://luxemburg.diplo.de/lu-de/service/1441370-1441370",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -46143,7 +46422,8 @@
        "amb",
        "",
        "https://kuala-lumpur.diplo.de/my-en/service/02-paesseausweise",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "bad",
@@ -46219,7 +46499,8 @@
        "amb",
        "",
        "https://valletta.diplo.de/mt-de/service/1622806-1622806",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -46257,7 +46538,8 @@
        "amb",
        "",
        "https://rabat.diplo.de/ma-de/service/1693414-1693414",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "amb",
@@ -46333,7 +46615,8 @@
        "amb",
        "",
        "https://mexiko.diplo.de/mx-de/service/2518062-2518062",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -46371,7 +46654,8 @@
        "amb",
        "",
        "https://chisinau.diplo.de/md-de/service/1228004-1228004",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -46447,7 +46731,8 @@
        "amb",
        "",
        "https://podgorica.diplo.de/me-de/service/1691526-1691526",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "bad",
@@ -46482,10 +46767,11 @@
        "2026-10-20"
       ],
       [
-       "unp",
+       "amb",
        "",
        "https://maputo.diplo.de/mz-de/service/2739666-2739666",
-       "2026-10-20"
+       "2026-10-20",
+       "A fee entry or appointment instruction mentions Kinderreisepässe, but this alone is insufficient evidence that the embassy says they remain available."
       ],
       [
        "ok",
@@ -46561,7 +46847,8 @@
        "amb",
        "",
        "https://windhuk.diplo.de/na-de/service/2618356-2618356",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -46678,8 +46965,8 @@
        "2026-10-20"
       ],
       [
-       "unp",
-       "",
+       "bad",
+       "missions-visa-filing-window",
        "https://managua.diplo.de/ni-es/service/05-visaeinreise/1599636-1599636",
        "2026-10-20"
       ],
@@ -46751,7 +47038,8 @@
        "amb",
        "",
        "https://nigeria.diplo.de/ng-de/service/02-paesseausweise",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -46827,7 +47115,8 @@
        "amb",
        "",
        "https://maskat.diplo.de/om-de/service/1509352-1509352",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -46900,10 +47189,11 @@
        "2026-10-20"
       ],
       [
-       "bad",
-       "missions-abolished-child-passport",
+       "amb",
+       "",
        "https://pakistan.diplo.de/pk-de/service/passantrag-kind-seite-1683806",
-       "2026-10-20"
+       "2026-10-20",
+       "A fee entry or appointment instruction mentions Kinderreisepässe, but this alone is insufficient evidence that the embassy says they remain available."
       ],
       [
        "ok",
@@ -46941,7 +47231,8 @@
        "amb",
        "",
        "https://panama.diplo.de/pa-de/service/ausweisdokumente-1018378",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -46979,7 +47270,8 @@
        "amb",
        "",
        "https://asuncion.diplo.de/py-es/1351962-1351962",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -47020,9 +47312,9 @@
        "2026-10-20"
       ],
       [
-       "unp",
-       "",
-       "https://lima.diplo.de/pe-de/konsularservice/staatsangehoerigkeit-2664620",
+       "bad",
+       "missions-visa-filing-window",
+       "https://lima.diplo.de/pe-de/konsularservice/2663974-2663974",
        "2026-10-20"
       ],
       [
@@ -47055,7 +47347,8 @@
        "amb",
        "",
        "https://manila.diplo.de/ph-en/service/citizenship/1988130-1988130",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -47093,7 +47386,8 @@
        "amb",
        "",
        "https://polen.diplo.de/pl-de/03-service/03-05-staatsangehoerigkeit/2239668-2239668",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -47131,7 +47425,8 @@
        "amb",
        "",
        "https://lissabon.diplo.de/pt-de/service/2478222-2478222",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -47166,10 +47461,11 @@
        "2026-10-20"
       ],
       [
-       "unp",
+       "amb",
        "",
        "https://skopje.diplo.de/mk-de/service/2449552-2449552",
-       "2026-10-20"
+       "2026-10-20",
+       "A fee entry or appointment instruction mentions Kinderreisepässe, but this alone is insufficient evidence that the embassy says they remain available."
       ],
       [
        "ok",
@@ -47207,7 +47503,8 @@
        "amb",
        "",
        "https://kigali.diplo.de/rw-de/service/reisepaesse",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -47245,7 +47542,8 @@
        "amb",
        "",
        "https://rumaenien.diplo.de/ro-de/service/pass-personalausweis-2584356",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -47321,7 +47619,8 @@
        "amb",
        "",
        "https://lusaka.diplo.de/zm-de/service/reisepaesse-personalausweise-2699210",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -47388,8 +47687,8 @@
      "web": "http://www.stockholm.diplo.de",
      "rows": [
       [
-       "unp",
-       "",
+       "bad",
+       "missions-citizenship-loss",
        "https://stockholm.diplo.de/se-de/service/03-staatsangehoerigkeit/staatsangehoerigkeitsrecht-2481062",
        "2026-10-20"
       ],
@@ -47397,7 +47696,8 @@
        "amb",
        "",
        "https://stockholm.diplo.de/se-de/service/02-paesseausweise",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -47435,7 +47735,8 @@
        "amb",
        "",
        "https://bern.diplo.de/ch-de/service/2342598-2342598",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -47502,8 +47803,8 @@
      "web": "http://www.belgrad.diplo.de",
      "rows": [
       [
-       "unp",
-       "",
+       "bad",
+       "missions-citizenship-loss",
        "https://belgrad.diplo.de/rs-de/service/pass-und-ausweis-2010732",
        "2026-10-20"
       ],
@@ -47587,7 +47888,8 @@
        "amb",
        "",
        "https://harare.diplo.de/zw-de/service/2700308-2700308",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -47625,7 +47927,8 @@
        "amb",
        "",
        "https://singapur.diplo.de/sg-de/service/1225212-1225212",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -47663,7 +47966,8 @@
        "amb",
        "",
        "https://pressburg.diplo.de/sk-de/service/staatsangehoerigkeit",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -47815,7 +48119,8 @@
        "amb",
        "",
        "https://southafrica.diplo.de/resource/blob/2239048/fb0605a9bac4ce60bd957001c54efd7a/pass-wohnortaenderung-data.pdf",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "amb",
@@ -47967,7 +48272,8 @@
        "amb",
        "",
        "https://duschanbe.diplo.de/tj-de/service/pass-ueber-18-jahre-2718922",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -47996,8 +48302,8 @@
      "web": "http://www.daressalam.diplo.de",
      "rows": [
       [
-       "unp",
-       "",
+       "bad",
+       "missions-citizenship-loss",
        "https://daressalam.diplo.de/tz-de/service/2590916-2590916",
        "2026-10-20"
       ],
@@ -48005,7 +48311,8 @@
        "amb",
        "",
        "https://daressalam.diplo.de/tz-de/service/2589044-2589044",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -48043,7 +48350,8 @@
        "amb",
        "",
        "https://bangkok.diplo.de/th-de/service/02-paesseausweise/2448864-2448864",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -48119,11 +48427,12 @@
        "amb",
        "",
        "https://port-of-spain.diplo.de/tt-de/service/1019256-1019256",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
-       "unp",
-       "",
+       "bad",
+       "missions-visa-filing-window",
        "https://port-of-spain.diplo.de/tt-en/service/2204456-2204456",
        "2026-10-20"
       ],
@@ -48186,9 +48495,9 @@
      "web": "http://www.prag.diplo.de",
      "rows": [
       [
-       "unp",
-       "",
-       "https://prag.diplo.de/cz-de/service/03-staatsangehoerigkeit",
+       "bad",
+       "missions-citizenship-loss",
+       "https://prag.diplo.de/cz-de/service/03-staatsangehoerigkeit/2337370-2337370",
        "2026-10-20"
       ],
       [
@@ -48309,7 +48618,8 @@
        "amb",
        "",
        "https://aschgabat.diplo.de/tm-de/service/1437130-1437130",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -48347,7 +48657,8 @@
        "amb",
        "",
        "https://kampala.diplo.de/ug-en/service/1617642-1617642",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "bad",
@@ -48414,8 +48725,8 @@
      "web": "http://www.budapest.diplo.de",
      "rows": [
       [
-       "unp",
-       "",
+       "bad",
+       "missions-citizenship-loss",
        "https://budapest.diplo.de/hu-de/service/03-staatsangehoerigkeit/2214204-2214204",
        "2026-10-20"
       ],
@@ -48423,7 +48734,8 @@
        "amb",
        "",
        "https://budapest.diplo.de/resource/blob/2117868/0e9b4d73c9bd8662f02ee0145a557878/antrag-wohnortaenderung-data.pdf",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -48461,11 +48773,12 @@
        "amb",
        "",
        "https://montevideo.diplo.de/resource/blob/1791320/76626e715c7490e655377cf3be66f492/aenderung-wohnort-data.pdf",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
-       "unp",
-       "",
+       "bad",
+       "missions-visa-filing-window",
        "https://montevideo.diplo.de/uy-de/service/1619554-1619554",
        "2026-10-20"
       ],
@@ -48496,10 +48809,11 @@
        "2026-10-20"
       ],
       [
-       "bad",
-       "missions-abolished-child-passport-tashkent-followup",
+       "amb",
+       "",
        "https://taschkent.diplo.de/uz-de/service/2438094-2438094",
-       "2026-10-20"
+       "2026-10-20",
+       "A fee entry or appointment instruction mentions Kinderreisepässe, but this alone is insufficient evidence that the embassy says they remain available."
       ],
       [
        "ok",
@@ -48537,7 +48851,8 @@
        "amb",
        "",
        "https://caracas.diplo.de/resource/blob/2284544/68bf1c8c87df770b9dd92d056b78d824/antrag-minderjaehrige-deutsch-spanisch-data.pdf",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -48613,7 +48928,8 @@
        "amb",
        "",
        "https://www.germany.info/us-en/service/02-passportsandidcards/passport-minor-951296",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -48651,7 +48967,8 @@
        "amb",
        "",
        "https://uk.diplo.de/uk-de/02/reisepass-und-personalausweis/reisepass-personalausweis-minderjaehrige-2539454",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "ok",
@@ -48689,7 +49006,8 @@
        "amb",
        "",
        "https://vietnam.diplo.de/resource/blob/2532980/354288ff37450f12f33298811806c599/220527-antrag-wohnortaenderung-data.pdf",
-       "2026-10-20"
+       "2026-10-20",
+       "An obsolete form entry alone is insufficient evidence of a misleading legal claim."
       ],
       [
        "na",
@@ -48724,8 +49042,8 @@
        "2026-10-20"
       ],
       [
-       "unp",
-       "",
+       "bad",
+       "missions-abolished-child-passport",
        "https://nikosia.diplo.de/cy-en/service/1620336-1620336",
        "2026-10-20"
       ],

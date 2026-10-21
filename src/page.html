@@ -863,7 +863,15 @@ function showVersion(art, c, i, focusSelector) {
   art.querySelector(".versions").innerHTML = versionLinks(c, i);
   const f = art.querySelector(focusSelector); if (f) f.focus({ preventScroll: true });
 }
-function caseViewS(c, fromGroup) {
+// An institution link opens the assessed publication, while direct case links keep the default.
+function institutionVersion(c, entry) {
+  const row = entry && entry[1].rows.find(r => r[1] === c.id);
+  if (!row || !row[2]) return 0;
+  const plain = url => url.split("#")[0];
+  const i = c.versions.findIndex(v => plain(v.url) === plain(row[2]));
+  return i < 0 ? 0 : i;
+}
+function caseViewS(c, fromGroup, initialVersion = 0) {
   const a = AREA[c.area], t = topicOf(c);
   const where = c.countries.length ? countryList(c.countries) : (a.whereShort || a.where);
   return `<article class="case" data-case="${c.id}">
@@ -875,8 +883,8 @@ function caseViewS(c, fromGroup) {
     <div class="${compareClass(c)}">
       <section class="side side-claim">
         <h2 class="side-label">What the source says</h2>
-        <p class="versions">${versionLinks(c, 0)}</p>
-        <div class="q">${verBody(c, 0)}</div>
+        <p class="versions">${versionLinks(c, initialVersion)}</p>
+        <div class="q">${verBody(c, initialVersion)}</div>
       </section>
       <section class="side side-law"><div class="pin">
         <h2 class="side-label">What the law says</h2>
@@ -1023,7 +1031,7 @@ function renderAS(s) {
     const [fg, fe] = s.from ? s.from.split("~") : [], g = fg && GROUP[fg], ent = fe && ENTITY[s.from];
     body = `<nav class="crumbs" aria-label="Breadcrumb">${g ? `<a href="${href(L, "inst")}">All institutions</a><span>/</span><a href="${href(L, "group", g.id)}">${esc(g.title)}</a>${ent ? `<span>/</span><a href="${href(L, "entity", s.from)}">${esc(ent[1].name)}</a>` : ""}`
       : `<a href="${href(L)}">All areas</a><span>/</span><a href="${href(L, "area", a.id)}">${esc(a.title)}</a><span>/</span><a href="${href(L, "topic", t.key)}">${esc(t.title)}</a>`}</nav>
-      <div class="case-wrap">${caseViewS(c, g)}</div>`;
+      <div class="case-wrap">${caseViewS(c, g, institutionVersion(c, ent))}</div>`;
   }
   return `<div class="A ${L}">${siteBar(L)}<main class="wrap">${body}</main></div>`;
 }
@@ -1274,11 +1282,12 @@ function entityPage(L, g, e) {
   const urls = [...new Set(e.rows.map(r => r[2]).filter(Boolean))], once = urls.length === 1 && e.rows.every(r => r[2]);
   const pageLink = url => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(pageLabel(url))} ↗</a>`;
   const cards = g.qs.map((q, i) => {
-    const [k, caseId, url] = e.rows[i], c = CASES[caseId];
+    const [k, caseId, url, , note] = e.rows[i], c = CASES[caseId];
     const what = k === "bad" && c ? `${esc(c.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, ""))}. <a href="${href(L, "case", caseId, g.id + "~" + e.id)}">Read the case →</a>`
       : k === "bad" ? "A published case backs this result."
-      : k === "amb" ? "The wording could be read in more than one way."
-      : k === "na" ? "We found no guidance on this in the pages we read."
+      : note ? esc(note)
+      : k === "amb" ? "The evidence was insufficient or conflicting; no misstatement was confirmed."
+      : k === "na" ? "The specific issue was not addressed, or relevant guidance was not located."
       : k === "unp" ? "We have a finding on this question that is not yet published."
       : "";   // a clean result needs no sentence beyond its label and the note below
     return `<article class="res-card"><div class="cq"><h3>${questionTitle(L, q)}</h3>${questionBlock(q)}</div>

@@ -34,7 +34,7 @@ for (const narrow of [false, true]) {
     }
     for (const cid of Object.keys(data.cases)) routes.push(`#${layout}.case.${cid}`);
     // Institution pages exist only in A1 and only when the data carries groups; without groups they fall back to the front page.
-    const groups = data.groups || [], must = {};
+    const groups = data.groups || [], must = {}, sourceOnArrival = {};
     if (layout === 'A1') {
       must['#A1'] = groups.length ? 'class="lens"' : 'class="home-cols"';
       routes.push('#A1.inst');
@@ -45,6 +45,16 @@ for (const narrow of [false, true]) {
         for (const e of g.ents) {
           routes.push(`#A1.entity.${g.id}~${e.id}`);
           must[`#A1.entity.${g.id}~${e.id}`] = 'res-card';
+          const seenCases = new Set();
+          for (const row of e.rows) {
+            const c = data.cases[row[1]];
+            if (row[0] !== 'bad' || !c || seenCases.has(row[1])) continue;
+            seenCases.add(row[1]);
+            const route = `#A1.case.${row[1]}.from-${g.id}~${e.id}`;
+            routes.push(route);
+            const v = c.versions.find(v => v.url.split('#')[0] === row[2].split('#')[0]) || c.versions[0];
+            sourceOnArrival[route] = v.url;
+          }
         }
       }
       routes.push('#A1.group.no-such-group', '#A1.entity.no-such~entity');
@@ -55,6 +65,10 @@ for (const narrow of [false, true]) {
       const html = nodes.get('root').innerHTML;
       if (html.length < 100) throw new Error(`Empty output: ${route}`);
       if (must[route] && !html.includes(must[route])) throw new Error(`Missing ${must[route]}: ${route}`);
+      if (sourceOnArrival[route]) {
+        const escaped = sourceOnArrival[route].replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+        if (!html.includes(`href="${escaped}" target="_blank"`)) throw new Error(`Wrong publication on arrival: ${route}`);
+      }
       if (!groups.length && html.includes('lens-row')) throw new Error(`Institution switch without data: ${route}`);
       if (route.startsWith('#A1.group.no-such') || route.startsWith('#A1.entity.no-such')) {
         if (html.includes('res-card') || html.includes('res-q')) throw new Error(`Unknown institution page rendered: ${route}`);
