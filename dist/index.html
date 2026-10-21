@@ -915,17 +915,16 @@ document.addEventListener("click", e => {
 });
 
 // "Cases from" counts only where the published cases come from; it is not a claim about search coverage.
-// Government cases all concern German institutions; the countries there are only where an embassy or consulate sits.
-const fromCountries = a => a.sector !== "gov";
 const issueSummary = a => { const t = a.topics.map(x => x.title), more = t.length - 4;
   return more > 0 ? `${t.slice(0, 4).join(", ")} and ${more} more ${more === 1 ? "issue" : "issues"}` : listJoin(t); };
-// Company areas name their institutions; government publishers are written inconsistently (one case can name a dozen embassies), so no count is given there.
+// Institutions are the distinct publishers of an area's cases. Visa guidance names its publishers inconsistently (one case can name
+// a dozen embassies), so that area, the only one with many countries among the government areas, counts countries instead.
 const nInstitutions = a => new Set(a.topics.flatMap(t => t.cases.flatMap(id => CASES[id].pub.split("; ")))).size;
 const instWord = n => plural(n, "institution", "institutions");
+const manyCountries = a => a.countries.length > 1;
+const countsInstitutions = a => !(a.sector === "gov" && manyCountries(a));
 // Under the area title the law comes first, then where the cases come from (front page: compact; area page: "Cases from …").
-const casesFrom = a => { const n = a.countries.length, i = instWord(nInstitutions(a));
-  return n > 1 ? `Cases from ${n} countries and ${i}` : `Cases from ${i}`; };
-const casesFromShort = a => a.countries.length > 1 ? `${a.countries.length} countries, ${instWord(nInstitutions(a))}` : instWord(nInstitutions(a));
+const casesFromShort = a => [manyCountries(a) ? plural(a.countries.length, "country", "countries") : "", countsInstitutions(a) ? instWord(nInstitutions(a)) : ""].filter(Boolean).join(", ");
 function countryBreakdown(a) {
   const n = {};
   a.topics.forEach(t => t.cases.forEach(id => CASES[id].countries.forEach(cc => { n[cc] = (n[cc] || 0) + 1; })));
@@ -935,9 +934,9 @@ function countryBreakdown(a) {
   return several.join(", ");
 }
 function scopeHead(a) {
-  if (!fromCountries(a)) return `<p class="meta-line"><span class="law-d">${esc(a.law)}</span></p>`;
-  if (a.countries.length < 2) return `<p class="meta-line"><span class="law-d">${esc(a.law)}</span><span>${esc(casesFrom(a))}</span></p>`;
-  return `<details class="scope-more"><summary class="meta-line"><span class="law-d">${esc(a.law)}</span><span>Cases from <u>${a.countries.length} countries</u><i aria-hidden="true">⌄</i> and ${instWord(nInstitutions(a))}</span></summary>
+  const inst = countsInstitutions(a) ? instWord(nInstitutions(a)) : "";
+  if (!manyCountries(a)) return `<p class="meta-line"><span class="law-d">${esc(a.law)}</span><span>Cases from ${inst}</span></p>`;
+  return `<details class="scope-more"><summary class="meta-line"><span class="law-d">${esc(a.law)}</span><span>Cases from <u>${a.countries.length} countries</u><i aria-hidden="true">⌄</i>${inst ? ` and ${inst}` : ""}</span></summary>
     <p>${esc(countryBreakdown(a))}</p></details>`;
 }
 const pluralVerb = w => ({ is: "are", has: "have", applies: "apply" })[w] || w.replace(/s$/, "");
@@ -989,7 +988,7 @@ function renderAS(s) {
         return `<section class="home-sec"><div class="sector-h"><h2>${sc.title}</h2><span>${plural(as.reduce((x, a) => x + nCases(a), 0), "case", "cases")}</span></div>
           <p class="sector-sub">${sc.sub}</p>
           <div>${as.map(a => `<a class="area-line" href="${href(L, "area", a.id)}"><h3>${areaTitle(a)}</h3><span class="n">${nCases(a)}<small>cases</small></span>
-            <p class="scope"><span class="law-s">${esc(a.lawShort)}</span>${fromCountries(a) ? `<span>${esc(casesFromShort(a))}</span>` : ""}</p>
+            <p class="scope"><span class="law-s">${esc(a.lawShort)}</span><span>${esc(casesFromShort(a))}</span></p>
             <p class="issues">${esc(issueSummary(a))}</p></a>`).join("")}</div></section>`;
       }).join("")}</div>`;
   } else if (s.kind === "home") {
@@ -1180,7 +1179,7 @@ function instHome(L) {
     if (!gs.length) return "";
     return `<section class="home-sec"><div class="sector-h"><h2>${SECTOR_SCOPE[sec].title}</h2><span>${plural(gs.reduce((n, g) => n + g.ents.length, 0), "institution", "institutions")}</span></div>
       <div>${gs.map(g => `<a class="area-line" href="${href(L, "group", g.id)}"><h3>${esc(g.title)}</h3><span class="n">${g.ents.length}<small>checked</small></span>
-        <p class="scope"><span>${plural(g.qs.length, "question", "questions")} each</span><span class="law-s">${esc(g.lawShort)}</span></p>
+        <p class="scope"><span class="law-s">${esc(g.lawShort)}</span><span>${plural(g.ents.length, "institution", "institutions")}${g.region === "country" ? ` in ${g.states.length} countries` : ""}</span></p>
         ${instBar(g)}
         <p class="issues"><b>${g.withBad} of ${g.ents.length}</b> had a misrepresentation</p></a>`).join("")}</div></section>`;
   }).join("");
