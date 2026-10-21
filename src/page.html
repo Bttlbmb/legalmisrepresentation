@@ -686,7 +686,7 @@ function pager(c, L) {
   </nav>`;
 }
 const areaTitle = a => `${esc(a.title)}${a.titleNative ? ` <span class="native">${esc(a.titleNative)}</span>` : ""}`;
-const intro = widow(`Statements by authorities and companies that misstate people’s rights.`);
+const intro = widow(`Statements by authorities and companies that misrepresent people’s rights.`);
 
 /* ================= A · Pages ================= */
 function renderA(s) {
@@ -726,7 +726,7 @@ function renderA(s) {
 /* The issue as a page of its own (A1): what the law says and every source, with a way back to where the reader came from. */
 function issuePage(L, s) {
   const t = TOPIC[s.id], a = AREA[t.area], g0 = s.from && GROUP[s.from.split("~")[0]];
-  const also = GROUPS.flatMap(g => g.qs.map((q, i) => q.topic === t.key ? `<p class="res-q-also">Also checked institution by institution: <a href="${href(L, "group", g.id)}">${esc(g.title)}, ${g.perQ[i].bad} of ${g.ents.length} misstated →</a></p>` : "")).join("");
+  const also = GROUPS.flatMap(g => g.qs.map((q, i) => q.topic === t.key ? `<p class="res-q-also">Also checked institution by institution: <a href="${href(L, "group", g.id)}">${esc(g.title)}, ${g.perQ[i].bad} of ${g.ents.length} had a misrepresentation →</a></p>` : "")).join("");
   return `<nav class="crumbs" aria-label="Breadcrumb">${g0 ? `<a href="${href(L, "group", g0.id)}">← ${esc(g0.title)}</a>` : `<a href="${href(L)}">All areas</a>`}<span>/</span><a href="${href(L, "area", a.id)}">${esc(a.title)}</a><span>/</span><span aria-current="page">${esc(t.title)}</span></nav>
     <section class="issue issue-page" id="i-${t.key}">
       <div class="issue-head"><h1>${esc(t.title)}</h1>${keys(t)}<p class="issue-law">${keep(t.law)} <a class="prov" href="${esc(t.lawUrl)}" target="_blank" rel="noopener">${provText(t.provision)}</a></p>${also}</div>
@@ -1126,8 +1126,8 @@ function afterC(s, prev) {
 
 /* ================= Institutions: groups checked question by question ================= */
 /* Each group is a fixed cohort (for example Jobcenters) with the same few questions for every member.
-   A result reads "Misstated" only when a published case backs it; the data carries nothing else. */
-const RESULT = { bad: "Misstated", amb: "Unclear", na: "Not addressed or not found", ok: "No misstatement found", unp: "Not yet published" };
+   A result reads "Misrepresentation" only when a published case backs it; the data carries nothing else. */
+const RESULT = { bad: "Misrepresentation", amb: "Unclear", na: "Not addressed or not found", ok: "No misrepresentation found", unp: "Not yet published" };
 const fmtN = n => n.toLocaleString("en-GB");
 GROUPS.forEach(g => {
   g.cnt = { bad: 0, amb: 0, na: 0, ok: 0, unp: 0 };
@@ -1140,7 +1140,7 @@ GROUPS.forEach(g => {
     if (e.bad) g.withBad++;
     e.rows.forEach((r, i) => { g.cnt[r[0]]++; g.perQ[i][r[0]]++; });
   });
-  // Each institution counts once, by its worst result: a misstatement, else a finding not yet published, else unclear, else no misstatement found.
+  // Each institution counts once, by its worst result: a misrepresentation, else a finding not yet published, else unclear, else no misrepresentation found.
   g.inst = { bad: 0, amb: 0, na: 0, ok: 0, unp: 0 };
   g.ents.forEach(e => { g.inst[e.bad ? "bad" : e.unp ? "unp" : e.amb ? "amb" : "ok"]++; });
   g.ents.sort((a, b) => b.bad - a.bad || b.amb - a.amb || a.name.localeCompare(b.name, "de"));
@@ -1151,11 +1151,11 @@ GROUPS.forEach(g => {
 const GROUP_TOTAL = { n: GROUPS.reduce((n, g) => n + g.ents.length, 0), checks: GROUPS.reduce((n, g) => n + g.checks, 0),
   ok: GROUPS.reduce((n, g) => n + g.cnt.ok, 0), bad: GROUPS.reduce((n, g) => n + g.cnt.bad, 0) };
 
-const resBar = c => `<span class="res-bar" role="img" aria-label="${c.bad} misstated, ${c.amb} unclear, ${c.na} not addressed or not found, ${c.ok} no misstatement found${c.unp ? `, ${c.unp} not yet published` : ""}">${["bad", "amb", "na", "ok", "unp"].map(k => `<i class="${k}" style="flex:${c[k]}"></i>`).join("")}</span>`;
-const instBar = g => `<span class="res-bar" role="img" aria-label="${g.inst.bad} of ${g.ents.length} with at least one misstatement${g.inst.unp ? `, ${g.inst.unp} with a finding not yet published` : ""}, ${g.inst.amb} with unclear results only, ${g.inst.ok} with no misstatement found">${["bad", "unp", "amb", "ok"].map(k => `<i class="${k}" style="flex:${g.inst[k]}"></i>`).join("")}</span>`;
+const resBar = c => `<span class="res-bar" role="img" aria-label="${c.bad} with misrepresentation, ${c.amb} unclear, ${c.na} not addressed or not found, ${c.ok} no misrepresentation found${c.unp ? `, ${c.unp} not yet published` : ""}">${["bad", "amb", "na", "ok", "unp"].map(k => `<i class="${k}" style="flex:${c[k]}"></i>`).join("")}</span>`;
+const instBar = g => `<span class="res-bar" role="img" aria-label="${g.inst.bad} of ${g.ents.length} with a misrepresentation${g.inst.unp ? `, ${g.inst.unp} with a finding not yet published` : ""}, ${g.inst.amb} with unclear results only, ${g.inst.ok} with no misrepresentation found">${["bad", "unp", "amb", "ok"].map(k => `<i class="${k}" style="flex:${g.inst[k]}"></i>`).join("")}</span>`;
 const resLegend = g => `<p class="res-legend">${["bad", "amb", "na", "ok", ...(g.cnt.unp ? ["unp"] : [])].map(k => `<span><i class="${k}"></i>${RESULT[k]}</span>`).join("")}</p>`;
 const entityDots = (g, e) => `<span class="res-dots" role="img" aria-label="${esc(g.qs.map((q, i) => `${q.title}: ${RESULT[e.rows[i][0]].toLowerCase()}`).join("; "))}">${e.rows.map((r, i) => `<i class="${r[0]}" title="${esc(g.qs[i].title)}: ${RESULT[r[0]].toLowerCase()}"></i>`).join("")}</span>`;
-const entitySub = (g, e) => [e.state || e.op ? esc(e.state || e.op) : "", e.bad ? `<span class="red">Misstated:</span> ${g.qs.filter((q, i) => e.rows[i][0] === "bad").map(q => esc(q.title)).join("; ")}` : "", e.amb ? `${e.amb} unclear` : "", e.unp ? `${e.unp} not yet published` : ""].filter(Boolean).join(" · ") || "No misstatement found";
+const entitySub = (g, e) => [e.state || e.op ? esc(e.state || e.op) : "", e.bad ? `<span class="red">Misrepresentation:</span> ${g.qs.filter((q, i) => e.rows[i][0] === "bad").map(q => esc(q.title)).join("; ")}` : "", e.amb ? `${e.amb} unclear` : "", e.unp ? `${e.unp} not yet published` : ""].filter(Boolean).join(" · ") || "No misrepresentation found";
 const entityHref = (L, g, e) => href(L, "entity", g.id + "~" + e.id);
 // Host and the last path segment, never cut mid-word without "…" ("bahn.de/…/rechtliche-regelungen").
 const pageLabel = url => { try { const u = new URL(url), segs = u.pathname.split("/").filter(Boolean); let last = segs.pop() || ""; if (last.length > 40) last = last.slice(0, 40) + "…"; return u.hostname.replace(/^www\./, "") + (last ? "/" + (segs.length ? "…/" : "") + last : ""); } catch (e) { return url; } };
@@ -1175,11 +1175,11 @@ function instHome(L) {
       <div>${gs.map(g => `<a class="area-line" href="${href(L, "group", g.id)}"><h3>${esc(g.title)}</h3><span class="n">${g.ents.length}<small>checked</small></span>
         <p class="scope"><span>${plural(g.qs.length, "question", "questions")} each</span><span class="law-s">${esc(g.lawShort)}</span></p>
         ${instBar(g)}
-        <p class="issues"><b>${g.withBad} of ${g.ents.length}</b> had at least one misstatement</p></a>`).join("")}</div></section>`;
+        <p class="issues"><b>${g.withBad} of ${g.ents.length}</b> had a misrepresentation</p></a>`).join("")}</div></section>`;
   }).join("");
   return `<section class="hero"><h1>What you’re told vs. what the law says</h1>
     <p class="lede">${esc(widow(`Authorities and companies checked one by one, on the same few questions each.`))}</p>
-    <p class="stats">${fmtN(GROUP_TOTAL.n)} institutions · ${fmtN(GROUP_TOTAL.checks)} checks · ${fmtN(GROUP_TOTAL.bad)} misstatements</p></section>
+    <p class="stats">${fmtN(GROUP_TOTAL.n)} institutions · ${fmtN(GROUP_TOTAL.checks)} checks · ${fmtN(GROUP_TOTAL.bad)} misrepresentations</p></section>
     ${lensRow(L, "inst")}<div class="home-cols">${lines}</div>`;
 }
 
@@ -1192,13 +1192,13 @@ function dirMatches(g) {
 function dirHtml(L, g) {
   const list = dirMatches(g), cut = list.slice(0, DIR.shown);
   if (!list.length) return DIR.f === "all" ? `<p class="res-empty">Nothing found. Only institutions we checked are listed.</p>`
-    : `<p class="res-empty">No match among institutions with a misstatement. <button type="button" class="res-btn" data-all>Search all ${g.ents.length}</button></p>`;
+    : `<p class="res-empty">No match among institutions with a misrepresentation. <button type="button" class="res-btn" data-all>Search all ${g.ents.length}</button></p>`;
   const more = list.length > cut.length ? `<button type="button" class="res-btn" data-more>Show ${Math.min(30, list.length - cut.length)} more</button>` : "";
   return cut.map(e => `<a class="res-row" href="${entityHref(L, g, e)}"><b>${esc(e.name)}</b><small>${entitySub(g, e)}</small>${entityDots(g, e)}</a>`).join("") + more;
 }
 function dirControls(g) {
   return `<div class="res-ctl"><input class="res-search" type="search" value="${esc(DIR.q)}" placeholder="Search ${esc(g.title)}${g.states.length > 1 ? ` or ${g.region || "state"}` : ""}" aria-label="Search ${esc(g.title)}" autocomplete="off">
-    <div class="res-chips"><button type="button" data-f="bad" aria-pressed="${DIR.f === "bad"}">With a misstatement<span>${g.withBad}</span></button><button type="button" data-f="all" aria-pressed="${DIR.f === "all"}">All<span>${g.ents.length}</span></button>
+    <div class="res-chips"><button type="button" data-f="bad" aria-pressed="${DIR.f === "bad"}">With a misrepresentation<span>${g.withBad}</span></button><button type="button" data-f="all" aria-pressed="${DIR.f === "all"}">All<span>${g.ents.length}</span></button>
     ${g.states.length > 1 && g.states.length <= 40 ? `<select aria-label="${esc(g.region || "state")}"><option value="">All ${g.region ? esc(g.region) + "s" : "states"}</option>${g.states.map(s => `<option${DIR.st === s ? " selected" : ""}>${esc(s)}</option>`).join("")}</select>` : ""}</div></div>`;
 }
 function questionBlock(q) {
@@ -1206,7 +1206,7 @@ function questionBlock(q) {
 }
 const questionTitle = (L, q) => q.topic && TOPIC[q.topic] ? `<a href="${href(L, "topic", q.topic)}">${esc(q.title)}</a>` : esc(q.title);
 
-// One block per question, built like an issue on the area page: question and law on the left, the group's misstated institutions on the right.
+// One block per question, built like an issue on the area page: question and law on the left, the group's institutions with a misrepresentation on the right.
 // The lists come from the group's own results, so each adds up to the count beside it; the issue page holds every source.
 // A claim is written to follow its publisher ("says …"); a capitalised verb is lowered, and a claim that opens with a noun ("Its conditions …") follows a dash.
 const VERB_S = /^[A-Z][a-z]*s$/, NOT_VERB = /^(Its|Tickets|This|Dues)$/;
@@ -1226,18 +1226,18 @@ function questionBlocks(L, g) {
     const more = bad.length > 4 ? `<button type="button" class="res-btn" data-q-more>Show all ${bad.length}</button>` : "";
     return `<section class="issue res-q${i === 0 ? " res-q-first" : ""}" id="q-${i}"><div class="issue-head"><h2>${esc(q.title)}</h2><p class="issue-law">${keep(q.q)}</p>
       <div class="keys"><span class="k law"><b>Law</b>${keep(q.law)}</span></div>
-      <div class="res-q-sum"><p><b${n ? ' class="red"' : ""}>${n} of ${g.ents.length}</b> misstated</p>${resBar(g.perQ[i])}</div>
+      <div class="res-q-sum"><p><b${n ? ' class="red"' : ""}>${n} of ${g.ents.length}</b> had a misrepresentation</p>${resBar(g.perQ[i])}</div>
       ${T ? `<div class="res-q-actions"><button type="button" class="res-q-lawbtn" data-q-law aria-expanded="false" aria-controls="q-law-${i}">What the law says <i aria-hidden="true">⌄</i></button>
         <a class="res-q-issue" href="${href(L, "topic", q.topic, g.id)}">Same issue across all sources (${T.cases.length}) →</a></div>
       <p class="res-q-law" id="q-law-${i}" hidden>${keep(T.law)} <a class="prov" href="${esc(T.lawUrl)}" target="_blank" rel="noopener">${provText(T.provision).replace(/ (?=§)/g, "&nbsp;")} ↗</a></p>` : ""}</div>
-      <div class="rows">${rows || `<p class="res-q-none">No misstatement found on this question.</p>`}${more}</div></section>`;
+      <div class="rows">${rows || `<p class="res-q-none">No misrepresentation found on this question.</p>`}${more}</div></section>`;
   }).join("");
 }
 function groupPage(L, g) {
   if (DIR.group !== g.id) Object.assign(DIR, { q: "", f: "bad", st: "", shown: 20, group: g.id });
   return `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "inst")}">← All institutions</a></nav>
     <header class="area-head"><p class="eyebrow">${SECTOR_SCOPE[g.sector].title}</p><h1>${esc(g.title)}</h1><p class="lede">${esc(widow(`${g.who}. ${g.ents.length} checked on ${g.qs.length} questions each, against ${g.lawShort}.`))}</p></header>
-    <div class="res-sum"><p class="res-stat"><b>${g.withBad}</b> of ${g.ents.length} had at least one misstatement</p>${instBar(g)}${resLegend(g)}</div>
+    <div class="res-sum"><p class="res-stat"><b>${g.withBad}</b> of ${g.ents.length} had a misrepresentation</p>${instBar(g)}${resLegend(g)}</div>
     <h2 class="res-h">By question</h2>
     ${questionBlocks(L, g)}
     <h2 class="res-h">Institutions <span>${g.ents.length} checked</span></h2>
@@ -1278,7 +1278,7 @@ function afterGroup(s) {
 
 function entityPage(L, g, e) {
   const dates = e.rows.map(r => r[3]).sort(), done = dates[dates.length - 1];
-  const tally = [["bad", "misstated"], ["amb", "unclear"], ["ok", "with no misstatement found"], ["na", "not addressed or not found"], ["unp", "not yet published"]]
+  const tally = [["bad", "with misrepresentation"], ["amb", "unclear"], ["ok", "with no misrepresentation found"], ["na", "not addressed or not found"], ["unp", "not yet published"]]
     .map(([k, w]) => [e.rows.filter(r => r[0] === k).length, w]).filter(([n]) => n).map(([n, w]) => `${n} ${w}`).join(", ");
   // When every question was read on the same page, the page is named once in the header instead of on every card.
   const urls = [...new Set(e.rows.map(r => r[2]).filter(Boolean))], once = urls.length === 1 && e.rows.every(r => r[2]);
@@ -1288,7 +1288,7 @@ function entityPage(L, g, e) {
     const what = k === "bad" && c ? `${esc(singularClaim(c.claim).replace(/^./, m => m.toUpperCase()).replace(/\.$/, ""))}. <a href="${href(L, "case", caseId, g.id + "~" + e.id)}">Read the case →</a>`
       : k === "bad" ? "A published case backs this result."
       : note ? esc(note)
-      : k === "amb" ? "The evidence was insufficient or conflicting; no misstatement was confirmed."
+      : k === "amb" ? "The evidence was insufficient or conflicting; no misrepresentation was confirmed."
       : k === "na" ? "The specific issue was not addressed, or relevant guidance was not located."
       : k === "unp" ? "We have a finding on this question that is not yet published."
       : "";   // a clean result needs no sentence beyond its label and the note below
