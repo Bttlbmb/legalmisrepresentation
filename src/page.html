@@ -416,17 +416,24 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .res-search { display: block; width: 100%; padding: 10px 14px; font-size: var(--s-md); }
 .res-search::placeholder { color: var(--ink-3); }
 .res-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
-.res-chips button, .res-btn { font: inherit; font-size: var(--s-sm); min-height: 44px; padding: 0 14px; border: 1px solid var(--rule); border-radius: 999px; background: var(--surface); color: var(--ink-2); cursor: pointer; }
-.res-chips button:hover, .res-btn:hover, .res-chips select:hover { border-color: var(--ink-3); color: var(--ink); }
-.res-chips button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
-.res-chips button span { margin-left: 4px; opacity: .65; font-variant-numeric: tabular-nums; }
+.res-btn { font: inherit; font-size: var(--s-sm); min-height: 44px; padding: 0 14px; border: 1px solid var(--rule); border-radius: 999px; background: var(--surface); color: var(--ink-2); cursor: pointer; }
+.res-btn:hover, .res-chips select:hover { border-color: var(--ink-3); color: var(--ink); }
 .res-chips select { padding: 0 10px; font-size: var(--s-sm); color: var(--ink-2); }
 .res-btn { margin-top: 12px; border-radius: 8px; }
-.res-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; align-items: center; padding: 11px 0; border-bottom: 1px solid var(--rule-2); text-decoration: none; }
+.res-row, .res-th { display: grid; grid-template-columns: minmax(0, 1fr) auto 3.4em; gap: 2px 12px; align-items: center; padding: 11px 0; border-bottom: 1px solid var(--rule-2); text-decoration: none; }
 .res-row:hover b { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .res-row b { font-weight: 500; }
 .res-row small { grid-column: 1; color: var(--ink-3); font-size: var(--s-xs); }
 .res-row .res-dots { grid-column: 2; grid-row: 1 / 3; }
+.res-row .res-n { grid-column: 3; grid-row: 1 / 3; text-align: right; font-size: var(--s-xs); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.res-th { padding: 14px 0 4px; border-bottom: 1px solid var(--rule); }
+.res-nums { display: inline-flex; gap: 4px; }
+.res-nums b { width: 14px; text-align: center; font-size: var(--s-xs); font-weight: 500; color: var(--ink-3); }
+.res-keys { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px 24px; padding-top: 12px; }
+.res-key { display: grid; gap: 2px; font-size: var(--s-sm); color: var(--ink-2); }
+.res-key b { display: inline-block; min-width: 1.5em; font-weight: 600; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.res-legend.dotkey { flex-direction: column; flex-wrap: nowrap; gap: 2px; padding-top: 0; font-size: var(--s-sm); }
+.res-dots i.na, .res-legend.dotkey i.na { background: transparent; box-shadow: inset 0 0 0 1.5px var(--ink-3); }
 .res-empty { padding: 18px 0; color: var(--ink-3); font-size: var(--s-sm); }
 .res-empty .res-btn { margin: 8px 0 0; display: block; }
 .res-note { padding-top: 24px; color: var(--ink-2); font-size: var(--s-sm); }
@@ -1159,7 +1166,7 @@ const gapLine = g => !g.gapOk ? "" : `${g.gapOk === g.inst.ok ? (g.inst.ok === 1
 const instBar = g => `<span class="res-bar" role="img" aria-label="${g.inst.bad} of ${g.ents.length} with a misrepresentation${g.inst.unp ? `, ${g.inst.unp} with a finding not yet published` : ""}, ${g.inst.amb} with unclear results only, ${g.inst.ok} with no misrepresentation found">${["bad", "unp", "amb", "ok"].map(k => `<i class="${k}" style="flex:${g.inst[k]}"></i>`).join("")}</span>`;
 const resLegend = g => `<p class="res-legend">${["bad", "amb", "na", "ok", ...(g.cnt.unp ? ["unp"] : [])].map(k => `<span><i class="${k}"></i>${RESULT[k]}</span>`).join("")}</p>`;
 const entityDots = (g, e) => `<span class="res-dots" role="img" aria-label="${esc(g.qs.map((q, i) => `${q.title}: ${RESULT[e.rows[i][0]].toLowerCase()}`).join("; "))}">${e.rows.map((r, i) => `<i class="${r[0]}" title="${esc(g.qs[i].title)}: ${RESULT[r[0]].toLowerCase()}"></i>`).join("")}</span>`;
-const entitySub = (g, e) => [e.state || e.op ? esc(e.state || e.op) : "", e.bad ? `<span class="red">Misrepresentation:</span> ${g.qs.filter((q, i) => e.rows[i][0] === "bad").map(q => esc(q.title)).join("; ")}` : "", e.amb ? `${e.amb} unclear` : "", e.unp ? `${e.unp} not yet published` : ""].filter(Boolean).join(" · ") || "No misrepresentation found";
+const entitySub = (g, e) => e.state || e.op ? esc(e.state || e.op) : "";
 const entityHref = (L, g, e) => href(L, "entity", g.id + "~" + e.id);
 // Host and the last path segment, never cut mid-word without "…" ("bahn.de/…/rechtliche-regelungen").
 const pageLabel = url => { try { const u = new URL(url), segs = u.pathname.split("/").filter(Boolean); let last = segs.pop() || ""; if (last.length > 40) last = last.slice(0, 40) + "…"; return u.hostname.replace(/^www\./, "") + (last ? "/" + (segs.length ? "…/" : "") + last : ""); } catch (e) { return url; } };
@@ -1187,23 +1194,30 @@ function instHome(L) {
     ${lensRow(L, "inst")}<div class="home-cols">${lines}</div>`;
 }
 
-const DIR = { q: "", f: "bad", st: "", shown: 20, group: "" };
+const DIR = { q: "", st: "", shown: 20, group: "" };
 function dirMatches(g) {
   const q = DIR.q.trim().toLowerCase();
   return g.ents.filter(e => (!q || e.name.toLowerCase().includes(q) || (e.state || "").toLowerCase().includes(q))
-    && (!DIR.st || e.state === DIR.st) && (DIR.f === "all" || e.bad));
+    && (!DIR.st || e.state === DIR.st));
 }
 function dirHtml(L, g) {
   const list = dirMatches(g), cut = list.slice(0, DIR.shown);
-  if (!list.length) return DIR.f === "all" ? `<p class="res-empty">Nothing found. Only institutions we checked are listed.</p>`
-    : `<p class="res-empty">No match among institutions with a misrepresentation. <button type="button" class="res-btn" data-all>Search all ${g.ents.length}</button></p>`;
+  if (!list.length) return `<p class="res-empty">Nothing found. Only institutions we checked are listed.</p>`;
   const more = list.length > cut.length ? `<button type="button" class="res-btn" data-more>Show ${Math.min(30, list.length - cut.length)} more</button>` : "";
-  return cut.map(e => `<a class="res-row" href="${entityHref(L, g, e)}"><b>${esc(e.name)}</b><small>${entitySub(g, e)}</small>${entityDots(g, e)}</a>`).join("") + more;
+  const sub = e => entitySub(g, e) ? `<small>${entitySub(g, e)}</small>` : "";
+  return cut.map(e => `<a class="res-row" href="${entityHref(L, g, e)}"><b>${esc(e.name)}</b>${sub(e)}${entityDots(g, e)}<span class="res-n${e.bad ? " red" : ""}"${e.bad ? ` aria-label="${e.bad} of ${g.qs.length} questions with a misrepresentation"` : ""}>${e.bad ? `${e.bad} of ${g.qs.length}` : ""}</span></a>`).join("") + more;
 }
+// Search and, for groups spread over several states or countries, a select; the table below is always the whole group, worst results first.
 function dirControls(g) {
-  return `<div class="res-ctl"><input class="res-search" type="search" value="${esc(DIR.q)}" placeholder="Search ${esc(g.title)}${g.states.length > 1 ? ` or ${g.region || "state"}` : ""}" aria-label="Search ${esc(g.title)}" autocomplete="off">
-    <div class="res-chips"><button type="button" data-f="bad" aria-pressed="${DIR.f === "bad"}">With a misrepresentation<span>${g.withBad}</span></button><button type="button" data-f="all" aria-pressed="${DIR.f === "all"}">All<span>${g.ents.length}</span></button>
-    ${g.states.length > 1 && g.states.length <= 40 ? `<select aria-label="${esc(g.region || "state")}"><option value="">All ${g.region ? esc(g.region) + "s" : "states"}</option>${g.states.map(s => `<option${DIR.st === s ? " selected" : ""}>${esc(s)}</option>`).join("")}</select>` : ""}</div></div>`;
+  const sel = g.states.length > 1 && g.states.length <= 40 ? `<div class="res-chips"><select aria-label="${esc(g.region || "state")}"><option value="">All ${g.region ? esc(g.region) + "s" : "states"}</option>${g.states.map(s => `<option${DIR.st === s ? " selected" : ""}>${esc(s)}</option>`).join("")}</select></div>` : "";
+  return `<div class="res-ctl"><input class="res-search" type="search" value="${esc(DIR.q)}" placeholder="Search ${esc(g.title)}${g.states.length > 1 ? ` or ${g.region || "state"}` : ""}" aria-label="Search ${esc(g.title)}" autocomplete="off">${sel}</div>`;
+}
+// The squares carry no words, so the questions are listed once, one per line, above the table; the column numbers match.
+function dirKey(g) {
+  const kinds = ["bad", "amb", "ok", "na", ...(g.cnt.unp ? ["unp"] : [])];
+  return `<div class="res-keys"><ol class="res-key" aria-label="Questions, in column order">${g.qs.map((q, i) => `<li><b>${i + 1}</b>${esc(q.title)}</li>`).join("")}</ol>
+    <p class="res-legend dotkey">${kinds.map(k => `<span><i class="${k}"></i>${RESULT[k]}</span>`).join("")}</p></div>
+    <div class="res-th" aria-hidden="true"><span></span><span class="res-nums">${g.qs.map((q, i) => `<b>${i + 1}</b>`).join("")}</span><span></span></div>`;
 }
 function questionBlock(q) {
   return `<p class="qs">${keep(q.q)}</p><p class="ql"><b>The law</b>${keep(q.law)}</p>`;
@@ -1237,20 +1251,19 @@ function questionBlocks(L, g) {
   }).join("");
 }
 function groupPage(L, g) {
-  if (DIR.group !== g.id) Object.assign(DIR, { q: "", f: "bad", st: "", shown: 20, group: g.id });
+  if (DIR.group !== g.id) Object.assign(DIR, { q: "", st: "", shown: 20, group: g.id });
   return `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "inst")}">← All institutions</a></nav>
     <header class="area-head"><p class="eyebrow">${SECTOR_SCOPE[g.sector].title}</p><h1>${esc(g.title)}</h1><p class="lede">${esc(widow(`${g.who}. ${g.ents.length} checked on ${g.qs.length} questions each, against ${g.lawShort}.`))}</p></header>
     <div class="res-sum"><p class="res-stat"><b>${g.withBad}</b> of ${g.ents.length} had a misrepresentation</p>${g.gapOk ? `<p class="res-stat gap">${esc(gapLine(g))}</p>` : ""}${instBar(g)}${resLegend(g)}</div>
     <h2 class="res-h">By question</h2>
     ${questionBlocks(L, g)}
     <h2 class="res-h">Institutions <span>${g.ents.length} checked</span></h2>
-    ${dirControls(g)}<div id="res-dir">${dirHtml(L, g)}</div>`;
+    ${dirControls(g)}${dirKey(g)}<div id="res-dir">${dirHtml(L, g)}</div>`;
 }
 function afterGroup(s) {
   const g = GROUP[s.id], dir = document.getElementById("res-dir");
   if (!dir) return;
   const redraw = () => { dir.innerHTML = dirHtml(s.L, g); };
-  const syncChips = () => document.querySelectorAll(".res-chips button[data-f]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.f === DIR.f)));
   document.querySelectorAll(".res-q").forEach(q => q.addEventListener("click", e => {
     const law = e.target.closest("[data-q-law]");
     if (law) {
@@ -1267,10 +1280,8 @@ function afterGroup(s) {
     first?.focus();
   }));
   document.querySelector(".res-search")?.addEventListener("input", e => { DIR.q = e.target.value; DIR.shown = 20; redraw(); });
-  document.querySelectorAll(".res-chips button[data-f]").forEach(b => b.addEventListener("click", () => { DIR.f = b.dataset.f; DIR.shown = 20; syncChips(); redraw(); }));
   document.querySelector(".res-chips select")?.addEventListener("change", e => { DIR.st = e.target.value; DIR.shown = 20; redraw(); });
   dir.addEventListener("click", e => {
-    if (e.target.closest("[data-all]")) { DIR.f = "all"; syncChips(); redraw(); return; }
     if (e.target.closest("[data-more]")) {
       const had = dir.querySelectorAll(".res-row").length;
       DIR.shown += 30; redraw();
