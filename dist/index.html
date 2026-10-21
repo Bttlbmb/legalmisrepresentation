@@ -65,6 +65,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .eyebrow { font-size: var(--s-xs); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); font-weight: 500; }
 .lede { color: var(--ink-2); font-size: var(--s-lg); max-width: 62ch; }
 .stats { color: var(--ink-3); font-size: var(--s-sm); font-variant-numeric: tabular-nums; }
+.stats-note { display: block; margin-top: 2px; font-size: var(--s-xs); font-variant-numeric: normal; }
 .native { font-family: var(--f-body); font-weight: 400; color: var(--ink-3); font-size: var(--s-md); letter-spacing: 0; white-space: nowrap; }
 .prov { font-family: var(--f-mono); font-size: var(--s-xs); color: var(--ink-2); text-decoration: none; border-bottom: 1px solid var(--rule); }
 .prov:hover { color: var(--ink); border-color: var(--ink-3); }
@@ -992,7 +993,7 @@ function renderAS(s) {
   } else if (s.kind === "home" && L === "A1") {
     // Front page: government and companies side by side, every area with its first issues; the area page lists all of them.
     body = `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${intro}</p>
-      <p class="stats">${TOTAL.areas} areas · ${TOTAL.topics} issues · ${TOTAL.cases} cases</p></section>
+      <p class="stats">${TOTAL.areas} areas · ${TOTAL.topics} issues · ${TOTAL.cases} cases<span class="stats-note">A case is one published finding. It can cover several pages or institutions.</span></p></section>
       ${GROUPS.length ? lensRow(L, "issue") : ""}<div class="home-cols">${SECTORS.map(sec => {
         const as = AREAS.filter(a => a.sector === sec.id), sc = SECTOR_SCOPE[sec.id];
         return `<section class="home-sec"><div class="sector-h"><h2>${sc.title}</h2><span>${plural(as.reduce((x, a) => x + nCases(a), 0), "case", "cases")}</span></div>
@@ -1198,7 +1199,7 @@ function instHome(L) {
   }).join("");
   return `<section class="hero"><h1>What you’re told vs. what the law says</h1>
     <p class="lede">${esc(widow(`Authorities and companies checked one by one, on the same few questions each.`))}</p>
-    <p class="stats">${fmtN(GROUP_TOTAL.n)} institutions · ${fmtN(GROUP_TOTAL.checks)} checks · ${fmtN(GROUP_TOTAL.bad)} misrepresentations</p></section>
+    <p class="stats">${fmtN(GROUP_TOTAL.n)} institutions · ${fmtN(GROUP_TOTAL.checks)} checks · ${fmtN(GROUP_TOTAL.bad)} checks found a misrepresentation<span class="stats-note">A check is one institution on one question. Several checks can rest on the same published case.</span></p></section>
     ${lensRow(L, "inst")}<div class="home-cols">${lines}</div>`;
 }
 
