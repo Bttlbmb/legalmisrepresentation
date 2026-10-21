@@ -183,6 +183,7 @@ mark.mk-law { background: var(--law-bg); box-shadow: inset 0 -2px 0 var(--law); 
 
 .A .area-head { display: grid; gap: 12px; padding: 18px 0 8px; }
 .A1 .area-head { padding-bottom: 32px; }
+.A1 .area-head.res-head { padding-bottom: 8px; }
 .A .area-head .lede { max-width: none; text-wrap: wrap; }
 .A .area-head h1 { font-family: var(--f-display); font-weight: 400; font-size: var(--s-3xl); line-height: 1.1; letter-spacing: -.015em; }
 .toc { display: flex; flex-wrap: wrap; gap: 6px 8px; padding: 18px 0 8px; }
@@ -1260,7 +1261,7 @@ function questionBlocks(L, g) {
 function groupPage(L, g) {
   if (DIR.group !== g.id) Object.assign(DIR, { q: "", st: "", shown: 20, group: g.id });
   return `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "inst")}">← All institutions</a></nav>
-    <header class="area-head"><p class="eyebrow">${SECTOR_SCOPE[g.sector].title}</p><h1>${esc(g.title)}</h1><p class="lede">${esc(widow(`${g.who}. ${g.ents.length} checked on ${g.qs.length} questions each, against ${g.lawShort}.`))}</p></header>
+    <header class="area-head res-head"><p class="eyebrow">${SECTOR_SCOPE[g.sector].title}</p><h1>${esc(g.title)}</h1><p class="lede">${esc(widow(`${g.who}. ${g.ents.length} checked on ${g.qs.length} questions each, against ${g.lawShort}.`))}</p></header>
     <div class="res-sum"><p class="res-stat"><b>${g.withBad}</b> of ${g.ents.length} had a misrepresentation</p>${g.gapOk ? `<p class="res-stat gap">${esc(gapLine(g))}</p>` : ""}${instBar(g)}${resLegend(g)}</div>
     <h2 class="res-h">By question</h2>
     ${questionBlocks(L, g)}
