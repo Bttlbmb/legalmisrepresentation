@@ -23860,35 +23860,44 @@
      "title": "When benefits start",
      "q": "Does the Jobcenter say your benefit starts from the first of the month you apply, or only from the day you apply?",
      "law": "1st of the month",
-     "topic": "jobcenter~start"
+     "topic": "jobcenter~start",
+     "basis": "issue"
     },
     {
      "id": "earnings",
      "title": "Keeping part of your wages",
      "q": "How much of your earnings can you keep? We look at the share left free between €520 and €1,000.",
-     "law": "30% stays free",
-     "topic": "jobcenter~earnings"
+     "law": "For employable claimants who work, 30% of monthly earnings between €520 and €1,000 stays free, at any age. Other slices have other rates.",
+     "topic": "jobcenter~earnings",
+     "lawText": "A claimant who works keeps part of each month’s earnings free. Normally there is a basic allowance of €100. On top of it, 20% of the slice above €100 and up to €520 stays free, 30% of the slice above €520 and up to €1,000 (at most €144), and 10% of the slice above €1,000 and up to €1,200. The upper limit is €1,500 if the claimant has a child under 18 or lives with one in the same benefit household (Bedarfsgemeinschaft). The 30% band has no age condition. For claimants under 25 who are in a training course that qualifies for BAföG or SGB III support, in voluntary service, or at school outside the holidays, the €100 is replaced by a higher allowance (the minijob earnings limit) and the 20% slice does not apply; the 30% and 10% slices still do. The 2026 reform (Grundsicherungsgeld from 1 July 2026) did not change these rules.",
+     "prov": "SGB II §11b(3) sentence 2 no. 2",
+     "lawUrl": "https://www.gesetze-im-internet.de/sgb_2/__11b.html"
     },
     {
      "id": "oneoff",
      "title": "One-off support",
      "q": "Can you get one-off help, for example for furniture, when your regular costs are already covered?",
-     "law": "No ongoing need required",
-     "topic": "jobcenter~oneoff"
+     "law": "Yes, but only for listed needs, such as first equipment of a home, and only if you cannot pay for it yourself. Ordinary replacement of worn furniture is not covered; at most a loan.",
+     "topic": "jobcenter~oneoff",
+     "lawText": "Some one-off needs are not part of the standard rate and are paid separately: first equipment for a home including household appliances; first clothing and first equipment for pregnancy and birth; and orthopaedic shoes (purchase and repair), repair of therapeutic devices and rental of therapeutic devices. The law names no individual items, so furniture counts only where it is part of the first equipment of a home. These benefits are also paid to people who need no ongoing benefit for living costs and rent, if they cannot cover the need fully from their own income and means; the Jobcenter may then count income earned in up to six months after the month it decides. They may be given in kind or as money, including lump sums. For other needs that the standard rate already covers, such as replacing worn furniture, the law allows at most a loan if the need is unavoidable. Under-25s who move out of their parents’ home need the municipality’s prior assurance of housing costs before first-home equipment is paid, unless that requirement can be waived. One-off benefits must be applied for separately.",
+     "prov": "SGB II §24(3) sentences 1 to 5; §24(1); §24(6); §37(1) sentence 2",
+     "lawUrl": "https://www.gesetze-im-internet.de/sgb_2/__24.html"
     },
     {
      "id": "deposit",
      "title": "Repaying a deposit loan",
      "q": "How much of your benefit is kept each month to repay a rental-deposit loan?",
      "law": "5% a month",
-     "topic": "jobcenter~deposit"
+     "topic": "jobcenter~deposit",
+     "basis": "issue"
     },
     {
      "id": "holiday",
      "title": "Holiday jobs for pupils",
      "q": "Do a pupil’s earnings from holiday jobs count against the family’s benefit?",
      "law": "No limit",
-     "topic": "jobcenter~holiday"
+     "topic": "jobcenter~holiday",
+     "basis": "issue"
     }
    ],
    "ents": [
@@ -35308,36 +35317,51 @@
      "id": "age",
      "title": "Age limit",
      "q": "Until what age can you start studying and still get BAföG?",
-     "law": "Under 45",
-     "topic": "bafoeg~age"
+     "law": "Under 45 when the course section starts; from 45 only under the listed exceptions",
+     "topic": "bafoeg~age",
+     "lawText": "BAföG is not paid if you have already turned 45 when the course section you apply for begins. The limit is measured at the start of the section, so turning 45 during a Bachelor’s does not end funding. The law lists the following exceptions that allow a start at 45 or older: you got your university entrance through a second-chance route (an evening school or Kolleg, an external school-leaving exam or a university entrance exam) or were enrolled without the Abitur on the strength of a vocational qualification; you start a further course under §7(2) no. 2 or 3 (one legally required for your intended profession, or one that continues your previous training in the same direction); you turned 45 during a Bachelor’s and start a qualifying Master’s straight away; personal or family reasons kept you from starting in time, in particular raising your own child under 14 without interruption from reaching the age limit until you start (working no more than 30 hours a week on average, or more as a single parent avoiding basic-income benefits); or a drastic change in your circumstances left you in need and you have not yet completed a vocational qualification that BAföG could fund. Except for the enrolment-without-Abitur exception, each of these applies only if you start promptly (after reaching the entry requirements, after the obstacle ends or after the need arises). All other BAföG conditions still apply.",
+     "prov": "BAföG §10(3)",
+     "lawUrl": "https://www.gesetze-im-internet.de/baf_g/__10.html"
     },
     {
      "id": "subject",
      "title": "Changing subject",
      "q": "Until when can you switch your degree subject and keep BAföG?",
-     "law": "Before semester 5 begins",
-     "topic": "bafoeg~subject"
+     "law": "Important reason: until the 5th subject semester begins; later only for an unavoidable reason",
+     "topic": "bafoeg~subject",
+     "lawText": "If you drop a course or switch your subject, BAföG is paid for another course if you had an important reason. At a university, academy or higher technical school this works only until the fifth subject semester begins. From then on only an unavoidable reason counts, and the law sets no semester limit for it. For a first switch or drop-out up to the start of the fourth subject semester, an important reason is normally presumed. When counting the subject semester, semesters that the school credits to the new course are subtracted. For a Master’s programme the important-reason route does not apply; an unavoidable reason is needed. After a switch, funding beyond the standard period of study for the new course (shortened by the semesters of the abandoned one) is paid fully as a loan, unless it was your first switch or drop-out for an important or unavoidable reason.",
+     "prov": "BAföG §7(3) · §7(1a) sentence 2 · §17(3) no. 2",
+     "lawUrl": "https://www.gesetze-im-internet.de/baf_g/__7.html"
     },
     {
      "id": "assets",
      "title": "Savings and assets",
      "q": "How much savings can you have and still get BAföG?",
-     "law": "€15,000 of savings",
-     "topic": "bafoeg~assets"
+     "law": "€15,000 of savings, or €45,000 from age 30 at application; more is counted against the payment",
+     "topic": "bafoeg~assets",
+     "lawText": "The first €15,000 of your own assets stays uncounted. If you have turned 30 when you apply, the allowance is €45,000 instead. It rises by €2,300 for a spouse or registered partner and by €2,300 for each of your children. Your age and your assets are taken as they stand on the day you apply, and debts are deducted from the assets first (not the BAföG loan you already received). Assets above the allowance do not rule BAföG out: the excess is divided by the months of the approval period (normally one year) and subtracted from your monthly need, so a high balance lowers the payment or cuts it to nothing. To avoid undue hardship, a further part of the assets can stay uncounted. Only your own assets count; the assets of your parents or spouse are not counted, although their income can be.",
+     "prov": "BAföG §29(1), (3) · §§26–28, 30",
+     "lawUrl": "https://www.gesetze-im-internet.de/baf_g/__29.html"
     },
     {
      "id": "childcare",
      "title": "Childcare",
      "q": "How much extra does BAföG pay for a child under 14 living with you?",
-     "law": "€160 a month per child",
-     "topic": null
+     "law": "€160 a month is added to your need for each of your own children under 14 living in your household; only one parent gets it for the same period",
+     "topic": null,
+     "lawText": "If you live in one household with at least one of your own children who has not yet turned 14, your assessed need rises by €160 a month for each such child. Only one parent gets the supplement for the same period; if both parents are eligible and share a household, they decide who. The supplement is added to your need, so income and assets are still set against the total. It is paid as a grant, not as a loan. It is not counted as income for other social benefits, except that for childcare fees under §90 SGB VIII it is left out only where the fee is charged for weekday childcare during regular hours.",
+     "prov": "BAföG §14b(1)–(2) · §17(2) no. 3",
+     "lawUrl": "https://www.gesetze-im-internet.de/baf_g/__14b.html"
     },
     {
      "id": "timing",
      "title": "Application timing",
      "q": "Is applying early a rule or only a recommendation?",
-     "law": "Funding runs from the month you apply",
-     "topic": null
+     "law": "No deadline for a first application, but no payment for months before the one you apply in; a follow-up application filed two months before the period ends keeps payments running",
+     "topic": null,
+     "lawText": "The law sets no deadline for applying, so applying early is not a rule. But the date still matters: BAföG is paid from the start of the month in which the course begins, and at the earliest from the start of the month in which you apply. If you apply before the course starts, payment runs from the month the course begins. If you apply later, the months before your application month are not paid. For a follow-up application, the law adds a timing condition: if the approval period ends before the new decision, payments continue on the old basis, subject to repayment, only if you filed an essentially complete application two months before the period ends. The decision is made on a written or electronic application.",
+     "prov": "BAföG §15(1) · §46(1) · §50(4)",
+     "lawUrl": "https://www.gesetze-im-internet.de/baf_g/__15.html"
     }
    ],
    "ents": [
@@ -37637,29 +37661,41 @@
      "id": "care",
      "title": "Hotel and meals",
      "q": "Does the airline offer a hotel when you are stranded overnight, even if the cause was outside its control?",
-     "law": "Necessary hotel care",
-     "topic": "airlines~care"
+     "law": "Free hotel and transfers when a night's stay becomes necessary, even if the cause was extraordinary. After a cancellation or delay, this applies when the new departure is expected the day after or later.",
+     "topic": "airlines~care",
+     "lawText": "An airline must offer a hotel and transport between the airport and the hotel, free of charge, where a stay of one or more nights, or a stay additional to the one the passenger intended, becomes necessary (Art. 9(1)(b)-(c)). Meals and refreshments in reasonable relation to the waiting time and two calls or messages come with it (Art. 9(1)(a), 9(2)). Passengers denied boarding against their will are owed this with no day-after condition (Art. 4(3)). After a cancellation, a hotel is owed when the passenger is rerouted and the new flight is expected to leave at least the day after the planned departure (Art. 5(1)(b)). After a delay, it is owed when the airline reasonably expects a delay of two, three or four hours or more (by distance) and a departure at least the day after the announced time (Art. 6(1)(ii)). The extraordinary-circumstances defence in Art. 5(3) frees the airline only from paying compensation under Art. 7. Art. 9 contains no such exception, so a cause outside the airline's control does not remove the right to a hotel; the Court of Justice confirmed this for cancellations caused by the 2010 volcanic ash cloud (McDonagh, C-12/11).",
+     "prov": "Regulation 261/2004, Art. 9(1)-(2), with Art. 4(3), 5(1)(b), 5(3), 6(1)(ii)",
+     "lawUrl": "https://publications.europa.eu/resource/cellar/439cd3a7-fd3c-4da7-8bf4-b0f60600c1d6.0004.01/DOC_1"
     },
     {
      "id": "delay_refund",
      "title": "Refunds",
      "q": "After a delay of five hours or more, does the airline explain your right to a refund?",
-     "law": "Separate claims",
-     "topic": "airlines~refund"
+     "law": "Delay of at least five hours (exactly five counts): the airline must offer a refund of the unused flights, paid within 7 days. From two hours' delay it must also hand over a written notice of your rights.",
+     "topic": "airlines~refund",
+     "lawText": "When an airline reasonably expects a flight to leave at least five hours late, it must offer the passengers reimbursement (Art. 6(1)(iii)). Under Art. 8(1)(a) this is the full ticket price for the parts of the journey not made, paid within seven days in cash, by electronic bank transfer, bank orders or bank cheques (a voucher only with the passenger's signed agreement, Art. 7(3)). Parts already flown are refunded too, but only if the flight no longer serves any purpose in relation to the passenger's original travel plan. Where relevant, the airline must also offer a return flight to the first point of departure at the earliest opportunity. The five-hour mark is the same for every distance. The shorter two-, three- and four-hour limits (by distance) trigger care instead: meals, refreshments and two calls or messages, plus a hotel if the departure is expected the day after the announced time (Art. 6(1)(i)-(ii)). The extraordinary-circumstances defence in Art. 5(3) names compensation under Art. 7 only; Arts 6 and 8 contain no such exception. The rules cover passengers departing from an EU airport, and from a non-EU airport to the EU on an EU carrier unless they already received benefits or compensation and were given assistance there (Art. 3(1)); passengers need a confirmed reservation and, for a delay, a timely check-in (Art. 3(2)). The airline must give every passenger delayed two hours or more a written notice setting out the rules for compensation and assistance, with the contact details of the national enforcement body (Art. 14(2)).",
+     "prov": "Regulation 261/2004, Art. 6(1)(iii), 8(1)(a), 14(2)",
+     "lawUrl": "https://publications.europa.eu/resource/cellar/439cd3a7-fd3c-4da7-8bf4-b0f60600c1d6.0004.01/DOC_1"
     },
     {
      "id": "cancellation_rerouting",
      "title": "Rerouting after cancellation",
      "q": "After a cancellation, does the airline offer a refund or a new flight, including on other airlines?",
-     "law": "Choice of refund or earliest rerouting",
-     "topic": null
+     "law": "After a cancellation you choose between a refund within 7 days, rerouting at the earliest opportunity under comparable conditions, or a later flight at your convenience. The airline must explain alternative transport. The Regulation does not say whether the new flight may be on another airline.",
+     "topic": null,
+     "lawText": "When a flight is cancelled, the airline must offer the passenger a choice between three options (Art. 5(1)(a) with Art. 8(1)): reimbursement of the full ticket price within seven days for the parts of the journey not made (and for parts already flown if they no longer serve any purpose), together with a return flight to the first point of departure where relevant; rerouting to the final destination under comparable transport conditions at the earliest opportunity; or rerouting to the final destination under comparable transport conditions at a later date at the passenger's convenience, subject to availability of seats. When passengers are told of the cancellation, the airline must explain possible alternative transport (Art. 5(2)). The text does not say whether the replacement flight may be on another airline: it neither names nor excludes other carriers. The Commission's non-binding interpretative guidelines say rerouting should cost the passenger nothing extra even when it is on another air carrier.",
+     "prov": "Regulation 261/2004, Art. 5(1)(a), 5(2), 8(1)",
+     "lawUrl": "https://publications.europa.eu/resource/cellar/439cd3a7-fd3c-4da7-8bf4-b0f60600c1d6.0004.01/DOC_1"
     },
     {
      "id": "cancellation_compensation",
      "title": "Compensation for late cancellations",
      "q": "When does a cancelled flight earn compensation? We check the notice period and the rebooking times.",
-     "law": "Both limits must hold",
-     "topic": "airlines~cancellation"
+     "law": "Notice rule: no compensation if you were told at least 14 days ahead; or, with 7-14 days' notice, if you were offered a replacement leaving up to 2 h earlier and arriving less than 4 h later; or, with under 7 days' notice, up to 1 h earlier and less than 2 h later. Both limits must hold. Extraordinary circumstances are a separate defence.",
+     "topic": "airlines~cancellation",
+     "lawText": "A passenger whose flight is cancelled has the right to compensation (Art. 5(1)(c)): €250 for flights of 1,500 km or less, €400 for flights within the EU of more than 1,500 km and for other flights between 1,500 and 3,500 km, and €600 for all other flights (Art. 7(1)), unless one of these applies. (i) The airline told the passenger at least two weeks before departure. (ii) It told the passenger between two weeks and seven days before departure and offered rerouting that allows departure no more than two hours before the scheduled time and arrival less than four hours after the scheduled arrival. (iii) It told the passenger less than seven days before departure and offered rerouting that allows departure no more than one hour before the scheduled time and arrival less than two hours after the scheduled arrival. In (ii) and (iii) both the departure limit and the arrival limit must be met. Separately, the airline owes no compensation if it proves that extraordinary circumstances caused the cancellation and could not have been avoided with all reasonable measures (Art. 5(3)). The airline must prove whether and when the passenger was told (Art. 5(4)). If the passenger is offered rerouting under Art. 8 that arrives no more than two hours (flights up to 1,500 km), three hours (the €400 band) or four hours (all other flights) after the scheduled arrival, the airline may cut the compensation by 50 % (Art. 7(2)).",
+     "prov": "Regulation 261/2004, Art. 5(1)(c), 5(3), 5(4), 7(1)-(2)",
+     "lawUrl": "https://publications.europa.eu/resource/cellar/439cd3a7-fd3c-4da7-8bf4-b0f60600c1d6.0004.01/DOC_1"
     }
    ],
    "ents": [
@@ -40880,35 +40916,44 @@
      "title": "Choices after cancellation or delay",
      "q": "Does the operator offer a refund or rerouting when you will arrive 60 minutes or more late?",
      "law": "Expected final delay of at least 60 minutes",
-     "topic": "rail~cancellation-choice"
+     "topic": "rail~cancellation-choice",
+     "basis": "issue"
     },
     {
      "id": "self-rerouting-100",
      "title": "Costs of an alternative journey",
      "q": "May you book your own onward trip if the operator offers none within 100 minutes?",
-     "law": "Qualifying rerouting costs repaid",
-     "topic": "rail~rerouting-costs"
+     "law": "Yes, by rail, coach or bus, once 100 minutes pass from the scheduled departure without rerouting options from the operator; it must repay necessary, appropriate and reasonable costs. Some local services may be exempt",
+     "topic": "rail~rerouting-costs",
+     "lawText": "Where it is reasonably expected that you will reach your final destination 60 minutes or more late, the operator must offer refund or rerouting. If it has not told you the available rerouting options within 100 minutes of the scheduled departure of the delayed or cancelled train (or of the missed connection), you may book your own journey with another provider of public transport by rail, coach or bus. The operator must then repay the necessary, appropriate and reasonable costs. The 100 minutes run from the scheduled departure, not from when you ask. Member States may exempt urban and suburban services from this right, and regional services until 7 June 2028.",
+     "prov": "Regulation (EU) 2021/782, Art. 18(1) and (3), with Art. 2(6)(a) and (8)",
+     "lawUrl": "https://publications.europa.eu/resource/cellar/34492a31-b70d-11eb-8aca-01aa75ed71a1.0006.03/DOC_1#art_18"
     },
     {
      "id": "care-extraordinary",
      "title": "Care in extraordinary events",
      "q": "Do meals and a hotel still apply when the disruption has an extraordinary cause?",
-     "law": "Care still owed; hotel capped at three nights",
-     "topic": null
+     "law": "Meals and a hotel are still owed. The operator may limit the hotel to three nights only when the cause is extraordinary and outside the railway's operation, the passenger's fault or a third party",
+     "topic": null,
+     "lawText": "Once a delay reaches 60 minutes or the service is cancelled, the operator must offer meals and refreshments free of charge, in reasonable relation to the waiting time, if they are available on the train or in the station or can reasonably be supplied. It must also offer a hotel or other accommodation, and transport to it, where a stay of one or more nights becomes necessary and is physically possible. The Regulation makes no exception for these duties because of the cause. Only where the stay is needed because of the circumstances in Article 19(10) may the operator limit the accommodation to a maximum of three nights. Those circumstances are extraordinary circumstances not connected with the operation of the railway (such as extreme weather, major natural disasters or major public health crises), fault on the part of the passenger, and behaviour of a third party; for the first and third, the operator must also have been unable to avoid them or prevent their consequences despite the care required. The limit is a permission, not an automatic cap, and it does not apply to meals. In some Member States certain domestic services may be exempt from this duty for a transitional period (Article 2(4)).",
+     "prov": "Regulation (EU) 2021/782, Art. 20(2)(a)-(b), with Art. 19(10) and Art. 2(4)",
+     "lawUrl": "https://publications.europa.eu/resource/cellar/34492a31-b70d-11eb-8aca-01aa75ed71a1.0006.03/DOC_1#art_20"
     },
     {
      "id": "compensation-money",
      "title": "Compensation in money",
      "q": "Is delay compensation paid in money on request, not only as a voucher?",
-     "law": "25% from 60 minutes, 50% from 120, in money",
-     "topic": "rail~payment"
+     "law": "Where compensation is due, you can ask for it in money, not only as a voucher; at least 25% of the ticket price from 60 minutes late, 50% from 120",
+     "topic": "rail~payment",
+     "basis": "issue"
     },
     {
      "id": "assistance-notice",
      "title": "Notice before disability assistance",
      "q": "How far ahead must you notify the operator to get help travelling with a disability?",
-     "law": "24 hours before assistance is needed",
-     "topic": "rail~assistance-notice"
+     "law": "At least 24 hours before assistance is needed. If you notify later, the operator and station manager must still make all reasonable efforts to help",
+     "topic": "rail~assistance-notice",
+     "basis": "issue"
     }
    ],
    "ents": [
@@ -42068,36 +42113,51 @@
      "id": "renewal",
      "title": "Contract renewal",
      "q": "Can you cancel on one month’s notice once your contract has renewed itself?",
-     "law": "Cancel at any time on one month’s notice",
-     "topic": null
+     "law": "After the first term, a contract that renews itself can be cancelled at any time on one month’s notice, at no cost",
+     "topic": null,
+     "lawText": "If a contract is set to renew itself when you do not cancel in time, you can end it at any time after the initial term on one month’s notice. The cancellation must not cost you anything. Before the renewal, the provider has to tell you on a durable medium that the contract renews itself, that you can prevent this by cancelling in time, and that you can cancel a renewed contract. The rule protects every end user, not only consumers. It does not cover contracts that only offer number-independent messaging services or machine-to-machine transmission.",
+     "prov": "TKG § 56(3)–(4)",
+     "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__56.html"
     },
     {
      "id": "portability",
      "title": "Number porting",
      "q": "Is moving your number described correctly: free of direct charge, and possible until one month after your contract ends?",
-     "law": "No direct charge; up to one month after the end",
-     "topic": "mobile-de~portability"
+     "law": "No direct charge to you; you can port up to one month after the contract ends, and with a mobile contract at any time before that too",
+     "topic": "mobile-de~portability",
+     "lawText": "A provider of number-based communications services must let you keep your number when you switch. If you cancel a contract, you can apply to port the number up to one month after the contract ends. For mobile services you can also demand porting at any time, and your existing contract stays untouched, so it does not end by itself. The Bundesnetzagentur has to ensure that end users are charged no direct fees for porting, and that prices between providers do not exceed the one-off costs. That is a duty on the regulator; the old provider may still charge for service it has to keep providing until the switch, with connection fees cut by 50% after the contract ends. The number must be ported and activated on the agreed day, at the latest on the following working day; for each day of delay beyond that, the provider at fault owes €10.",
+     "prov": "TKG § 59(5)–(7)",
+     "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__59.html"
     },
     {
      "id": "outage",
      "title": "Outage compensation",
      "q": "What do you get when a broken connection is not fixed within two days?",
-     "law": "Calendar days",
-     "topic": "mobile-de~outage"
+     "law": "Consumers get, for each day of complete outage from day 3 after the fault report: €5 or 10% of the monthly fee, from day 5 €10 or 20%, whichever is higher",
+     "topic": "mobile-de~outage",
+     "lawText": "A consumer can demand that a provider fixes a fault without delay and free of charge. If it is not fixed within two calendar days after the provider received the fault report, the consumer can claim compensation for each following day on which the service is completely down. On the third and fourth day it is €5 or 10%, from the fifth day €10 or 20% of the agreed monthly fee, whichever is higher; the percentages are set for contracts with a constant monthly fee. Only a complete failure counts, not a slow or partial one. There is no claim if the consumer caused the fault or its continuation, or if the outage results from measures required by the Telecommunications Act or Regulation (EU) 2015/2120, security-authority orders or force majeure. A price reduction for the same fault is deducted from the compensation, and further damages remain possible, with the compensation and the damages counted against each other. Micro and small businesses and non-profits are covered too, unless they expressly agreed to waive the rule.",
+     "prov": "TKG § 58(3)",
+     "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__58.html"
     },
     {
      "id": "changes",
      "title": "Contract changes",
      "q": "Can you cancel at no cost after the provider changes your contract terms?",
-     "law": "Cancel within 3 months of the notice",
-     "topic": null
+     "law": "Cancel at no cost within 3 months of receiving the notice, unless the change only favours you, is purely administrative or required by law",
+     "topic": null,
+     "lawText": "If the provider has reserved the right in its general terms to change the contract on its own and it does so, the end user can cancel without a notice period and without cost. This does not apply if the change is only to the user’s advantage, is purely administrative with no negative effect, or is directly required by EU or national law. The user can cancel within three months from the time a notice that meets the requirements below reaches them. The provider must send that notice clearly and on a durable medium, at least one and at most two months before the change takes effect, and state what changes, when, and that the user can cancel. The contract can end at the earliest on the day the change would take effect. The rule protects every end user, not only consumers, but not contracts that only cover number-independent interpersonal services.",
+     "prov": "TKG § 57(1)–(2)",
+     "lawUrl": "https://www.gesetze-im-internet.de/tkg_2021/__57.html"
     },
     {
      "id": "roaming",
      "title": "Roaming fair-use checks",
      "q": "When may a provider limit EU roaming for people who mostly use the SIM abroad?",
-     "law": "Both indicators needed",
-     "topic": "roaming~fairuse"
+     "law": "A surcharge only if, over at least 4 months, neither your use nor your presence is mostly at home (or other listed signs apply); the provider must alert you first and allow at least 2 weeks to show home use",
+     "topic": "roaming~fairuse",
+     "lawText": "A provider may apply a fair-use policy only to prevent abusive or anomalous use of EU roaming, such as using the SIM in another country for purposes other than periodic travel. To check, it may use objective indicators of presence and consumption, observed together over at least four months. If either your domestic consumption or your domestic presence prevails, that counts as proof of normal use. So on this test a provider may treat you as a risk only if neither is mostly domestic. Two other indicators are allowed: a long inactive SIM used mostly or only while roaming, and subscription to and sequential use of several SIMs while roaming. Where it can show with objective evidence that SIM cards were resold in an organised way to people who do not live in or have stable links to the country, it may take immediate proportionate measures. Before applying a surcharge the provider must alert you and say that, unless your usage changes within a period of at least two weeks and shows actual domestic use or presence, a surcharge may be applied to further roaming use. The surcharge may not exceed the maximum wholesale roaming charges, and it must stop once your usage no longer shows a risk. Separately from this test, a provider may cap domestic-price data roaming at a volume set by a formula (at least twice the bundle price divided by the wholesale cap) for open data bundles; for prepaid plans, at the remaining credit divided by that cap.",
+     "prov": "Regulation (EU) 2022/612, Art. 5(1), 7(5) and 8(1); Implementing Regulation (EU) 2016/2286, Art. 4(2)–(5) and 5(3)–(5)",
+     "lawUrl": "https://publications.europa.eu/resource/cellar/2a8540be-6b67-11e9-9f05-01aa75ed71a1.0001.03/DOC_1#art_4"
     }
    ],
    "ents": [
@@ -43092,36 +43152,51 @@
      "id": "dual_citizenship",
      "title": "Dual citizenship",
      "q": "Does the embassy say you lose German citizenship, or need a retention permit, when you take another citizenship?",
-     "law": "No loss and no permit needed since 27 June 2024",
-     "topic": "missions~citizenship"
+     "law": "No loss and no retention permit for foreign citizenship acquired since 27 June 2024; earlier acquisitions fall under the old rule",
+     "topic": "missions~citizenship",
+     "lawText": "From 27 June 2024, taking another citizenship no longer ends German citizenship. The Act to Modernise Nationality Law of 22 March 2024 repealed § 25 StAG (Art. 1 No. 16; in force three months after promulgation, Art. 6(1)). Under the old § 25, a German lost citizenship on acquiring a foreign one only if the acquisition was on their own application (or their legal representative’s), and not if it was the citizenship of another EU state, Switzerland or a treaty state, or if a retention permit (Beibehaltungsgenehmigung) had been granted beforehand. The current Act has no retention permit. German citizenship can still be lost on other grounds, such as renunciation (§ 26), joining without consent the armed forces of a state whose citizenship one holds or fighting for a terrorist group abroad (§ 28), and withdrawal of a naturalisation obtained by deceit (§ 35) (§ 17). The 2024 Act contains no provision that restores citizenship lost earlier under the old § 25, and the Federal Foreign Office says that for earlier cases the old grounds of acquisition and loss continue to apply; so an acquisition before 27 June 2024 is judged under the law that applied then. The other country’s law on dual citizenship is separate.",
+     "prov": "StAG § 25 (repealed; old text in force until 26 June 2024), § 17 · Act of 22 March 2024 (BGBl. 2024 I Nr. 104), Art. 1 No. 16, Art. 6(1)",
+     "lawUrl": "https://www.recht.bund.de/bgbl/1/2024/104/regelungstext.pdf?__blob=publicationFile&v=1"
     },
     {
      "id": "kinderreisepass",
      "title": "Children’s passports",
      "q": "Does the embassy still offer or update the children’s passport (Kinderreisepass), which ended on 1 January 2024?",
-     "law": "No new or updated Kinderreisepässe since 1 January 2024",
-     "topic": "missions~documents"
+     "law": "No new or extended Kinderreisepass since 1 January 2024; ones applied for before then stay valid until the date printed in them",
+     "topic": "missions~documents",
+     "lawText": "Since 1 January 2024 the Passport Act no longer lists the children’s passport among the passports it recognises: § 1(2) names only the Reisepass, the provisional Reisepass and official passports. The Act of 8 October 2023 deleted the Kinderreisepass from § 1(2), deleted § 5(2) (its validity) and deleted § 5(4) sentences 2 and 3, all with effect from 1 January 2024 (Art. 7(3)). Those two sentences had said that a Kinderreisepass could be extended by one year at a time until the child’s 12th birthday, and that it needed a current photo; § 5(4) now says only that extending a passport’s validity is not permitted. § 28 keeps only the old validity rule (§ 5(2)) for Kinderreisepässe applied for before 1 January 2024, so those documents stay valid until the date printed in them. The Federal Foreign Office also says they can no longer be extended. Children can get an ordinary Reisepass, valid six years under age 24 (§ 5(1)).",
+     "prov": "PassG § 1(2), § 5(2), § 5(4), § 28 · Act of 8 October 2023 (BGBl. 2023 I Nr. 271), Art. 1 Nos. 1(a), 4 and 17, Art. 7(3)",
+     "lawUrl": "https://www.gesetze-im-internet.de/pa_g_1986/BJNR105370986.html"
     },
     {
      "id": "schengen_window",
      "title": "Visa application window",
      "q": "Does the embassy say when you may apply for a short-stay visa: from six months before travel, ordinarily up to 15 days before?",
-     "law": "Ordinarily 6 months to 15 calendar days before travel; 9 months for seafarers on duty; urgent exceptions possible",
-     "topic": "missions~visa-timing"
+     "law": "Apply at most 6 months before travel (9 months for seafarers on duty) and as a rule at least 15 calendar days before; justified urgent cases may be later",
+     "topic": "missions~visa-timing",
+     "lawText": "A short-stay visa application may be lodged no more than six months before the start of the intended visit. Seafarers performing their duties may apply up to nine months before. As a rule the application must be lodged no later than 15 calendar days before the visit starts. In justified individual cases of urgency the consulate or the central authorities may allow it later. An appointment may be required; as a rule it takes place within two weeks of the date it was requested. In justified cases of urgency the consulate may allow an application without an appointment, or give one immediately.",
+     "prov": "Visa Code (Regulation 810/2009), Art. 9(1)-(3), as amended by Regulation 2019/1155",
+     "lawUrl": "https://publications.europa.eu/resource/cellar/2356e285-9098-11ef-a130-01aa75ed71a1.0007.03/DOC_1#art_9"
     },
     {
      "id": "passport_validity",
      "title": "Passport validity",
      "q": "Does the embassy ask for more passport validity than the rules require: three months beyond your stay and two blank pages?",
-     "law": "3 months beyond departure, 2 blank pages",
-     "topic": "missions~visa-docs"
+     "law": "Valid 3 months after planned departure, 2 blank pages, issued within the last 10 years; the 3 months can be waived in a justified emergency",
+     "topic": "missions~visa-docs",
+     "lawText": "For a short-stay (Schengen) visa the applicant must present a valid travel document that meets three criteria: its validity extends at least three months after the intended date of departure from the Schengen states (after the last intended departure, if the visa covers several visits); it has at least two blank pages; and it was issued within the previous 10 years. Only the three-month validity may be waived, and only in a justified case of emergency. Article 12 sets no other validity or blank-page criterion. Family members protected by Directive 2004/38 (valid passport, Art. 5(1)) and national long-stay visas follow separate rules.",
+     "prov": "Visa Code (Regulation 810/2009), Art. 12(a)-(c)",
+     "lawUrl": "https://publications.europa.eu/resource/cellar/2356e285-9098-11ef-a130-01aa75ed71a1.0007.03/DOC_1#art_12"
     },
     {
      "id": "eu_family_fee",
      "title": "Visa fee for EU-citizen families",
      "q": "Does the embassy charge a visa fee to non-EU family members who accompany or join an EU citizen?",
-     "law": "Free of charge for qualifying family members",
-     "topic": "missions~visa-who"
+     "law": "Free for non-EU family members who accompany or join an EU citizen living in or moving to another EU state; otherwise the standard visa fee applies (€90; €45 for children aged 6 to 11; none under 6)",
+     "topic": "missions~visa-who",
+     "lawText": "A non-EU family member of a Union citizen who moves to or lives in a Member State other than their own, and who accompanies or joins that citizen, is covered by Directive 2004/38. Such a family member needs only the entry visa that EU or national visa rules require, and the state must give them every facility to get it; the visa is issued free of charge, as soon as possible and in an accelerated procedure (Art. 5(2)). Family members are the spouse; the registered partner, if the host state treats registered partnerships as equivalent to marriage; children, and those of the spouse or partner, who are under 21 or dependants; and dependent relatives in the ascending line, and those of the spouse or partner (Art. 2(2)). A family member with a valid residence card under Art. 10 needs no visa. The Visa Code applies without prejudice to these free-movement rights (Art. 1(2)(a)). Its own fee is €90 (children aged 6 to 11: €45; under 6: free; higher if the Council has set a surcharge for a country under Art. 25a(5)(b)), with waivers for listed groups and individual cases (Art. 16); family members of Union citizens are not a listed group there. Other relatives and partners in a durable relationship fall under Art. 3(2): the Directive only requires the host state to facilitate their entry under national law and does not say their visa is free. The Directive does not cover family of a citizen who has not used free movement, such as a German living in Germany: it gives them no fee exemption, and the Visa Code fee rules (short stays) or national law (longer stays) apply. The Directive speaks of the visa being free; it does not mention an external service provider’s fee (Visa Code Art. 17).",
+     "prov": "Directive 2004/38/EC, Art. 5(2) with Art. 2(2), 3(1), 3(2), 10 · Visa Code (Regulation 810/2009), Art. 1(2)(a), Art. 16",
+     "lawUrl": "https://publications.europa.eu/resource/cellar/daf73261-7b52-40d2-ab3f-158205d20c43.0006.03/DOC_2#art_5"
     }
    ],
    "ents": [
