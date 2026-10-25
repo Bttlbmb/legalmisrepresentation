@@ -1727,6 +1727,66 @@
      ]
     }
    ]
+  },
+  {
+   "id": "pflege-de",
+   "sector": "gov",
+   "title": "Long-term care insurance",
+   "titleNative": "Pflegeversicherung",
+   "intro": "German statutory long-term care insurance guidance on replacement care, relief allowances, hospital stays and required advice visits.",
+   "publishers": "German statutory long-term care insurance funds (Pflegekassen)",
+   "law": "Social Code Book XI (SGB XI) §§34, 37, 39, 42a and 45b",
+   "lawShort": "German law",
+   "where": "People insured in Germany’s statutory long-term care insurance",
+   "whereShort": "",
+   "topics": [
+    {
+     "id": "relatives",
+     "title": "Replacement care by relatives",
+     "lawKey": "Two months plus necessary expenses",
+     "claimKey": "Absolute exclusion or outdated cap",
+     "law": "Replacement carers related or related by marriage to the person receiving care within the second degree, or living in the same household, are not excluded from reimbursement. For non-commercial replacement care, reimbursement normally may not exceed two months of the Pflegegeld for the person’s Pflegegrad. Since 1 July 2025 these amounts are €694 for grade 2, €1,198 for grade 3, €1,600 for grade 4 and €1,980 for grade 5. Proved necessary expenses connected with the replacement care can be reimbursed above that amount, for example travel costs or lost earnings. The combined reimbursement remains within the common annual budget, allowing for other spending. If those relatives or household members provide replacement care commercially, §39(3) instead allows reimbursement up to the common annual amount. These are cost-reimbursement limits, not guaranteed lump-sum payments.",
+     "provision": "SGB XI §39(3)",
+     "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__39.html",
+     "cases": [
+      "pflege-de-dak-relatives",
+      "pflege-de-aok-sachsen-anhalt-relatives",
+      "pflege-de-bosch-relatives",
+      "pflege-de-linde-relatives",
+      "pflege-de-scheufelen-relatives",
+      "pflege-de-faber-relatives"
+     ]
+    },
+    {
+     "id": "hospital",
+     "title": "Pflegegeld during hospital treatment",
+     "lawKey": "Eight weeks at the existing level",
+     "claimKey": "Four-week limit",
+     "law": "Since 1 January 2026, an existing entitlement to Pflegegeld under §37 or proportionate Pflegegeld under §38 continues for the first eight weeks of fully inpatient hospital treatment. The same continuation provision covers the specified home nursing and admission to qualifying preventive or rehabilitation facilities. It preserves the existing payment level; it does not turn proportionate Pflegegeld into full Pflegegeld. Where the person employs special care workers and §63b(6), sentence 1, SGB XII applies, payment continues beyond eight weeks too. The distinct half-rate continuation rules for Verhinderungspflege and Kurzzeitpflege do not determine payment during a hospital stay.",
+     "provision": "SGB XI §34(2)",
+     "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__34.html",
+     "cases": [
+      "pflege-de-big-hospital",
+      "pflege-de-ikk-classic-hospital",
+      "pflege-de-mkk-hospital",
+      "pflege-de-energie-hospital"
+     ]
+    },
+    {
+     "id": "advice",
+     "title": "Required advice visits",
+     "lawKey": "Half-yearly compulsory visits",
+     "claimKey": "Quarterly compulsory visits",
+     "law": "Since 1 January 2026, people in grades 2–5 who receive Pflegegeld without outpatient benefits in kind from a care service must obtain a consultation in their home once per half-year. People in grades 4–5 can use quarterly consultations, but the extra frequency is optional. The compulsory advice duty also applies when the outpatient benefit amount is used solely for recognised everyday-support services through the conversion entitlement under §45a(4). Grade 1 and people receiving outpatient benefits in kind from a care service have a voluntary half-yearly consultation entitlement under this provision. At the person’s request, every second consultation may be by video until 31 March 2027; the first must take place at home. The fund bears the consultation costs. Failure to obtain compulsory advice can lead to appropriate reduction and, for repeated failure, withdrawal of Pflegegeld under §37(6). This check concerns the required frequency, not whether a consultation is advisable.",
+     "provision": "SGB XI §37(3), (6)",
+     "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__37.html",
+     "cases": [
+      "pflege-de-kkh-advice",
+      "pflege-de-dak-advice",
+      "pflege-de-bahn-advice"
+     ]
+    }
+   ]
   }
  ],
  "cases": {
@@ -23700,6 +23760,631 @@
    ],
    "lawMarks": [
     "two calendar days after receipt of the fault report"
+   ]
+  },
+  "pflege-de-kkh-advice": {
+   "id": "pflege-de-kkh-advice",
+   "area": "pflege-de",
+   "topic": "advice",
+   "pub": "KKH",
+   "src": "Leistungen der KKH-Pflegekasse",
+   "claim": "Prescribes quarterly advice visits for care grades 4 and 5 in a currently linked brochure",
+   "quote": "Der Anspruch auf Pflegegeld ist mit regelmäßigen Pflegepflichteinsätzen (Beratungsbesuche) durch professionelle Pflegefachkräfte verbunden.\n\nFür Pflegebedürftige der Pflegegrade 2 und 3 sind sie halbjährlich, für Pflegebedürftige der Pflegegrade 4 und 5 vierteljährlich vorgeschrieben. Pflegebedürftige des Pflegegrades 1 können den Beratungsbesuch halbjährlich in Anspruch nehmen.",
+   "lang": "German",
+   "tr": "Entitlement to care allowance is linked to regular compulsory care visits (advisory visits) by professional care staff.\n\nFor people in care grades 2 and 3 these are prescribed every half-year; for people in care grades 4 and 5 they are prescribed quarterly. People in care grade 1 may use the advisory visit every half-year.",
+   "law": "Since 1 January 2026, §37(3) SGB XI requires recipients of Pflegegeld in care grades 2–5 to obtain advice once per half-year. People in grades 4 and 5 may additionally use quarterly advice; it is optional. The brochure prescribes quarterly visits for grades 4 and 5, carrying forward the previous compulsory frequency. The linked KKH webpage gives the current half-yearly requirement, so the finding concerns inconsistent currently offered guidance.",
+   "sourceUrl": "https://www.kkh.de/content/dam/kkh/dokumente/flyer-broschueren/leistungen-der-pflegekasse.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__37.html",
+   "example": "Hypothetical: A KKH member with care grade 4 receives only Pflegegeld and has one qualifying advice visit in each half of 2026. The statutory compulsory frequency is met even without four visits that year. This example assumes the visits and other Pflegegeld conditions are valid.",
+   "context": "A currently offered publication is assessed as at 25 October 2026. The live Pflegegeld page links this exact PDF under Downloads/Leistungen der KKH-Pflegekasse. The webpage correctly states half-yearly advice; that counterevidence is retained.",
+   "scope": "Recipients of Pflegegeld in care grades 4–5; compulsory visit frequency after 1 January 2026; brochure currently linked from the KKH Pflegegeld webpage.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Der Anspruch auf Pflegegeld ist mit regelmäßigen Pflegepflichteinsätzen (Beratungsbesuche) durch professionelle Pflegefachkräfte verbunden.\n\nFür Pflegebedürftige der Pflegegrade 2 und 3 sind sie halbjährlich, für Pflegebedürftige der Pflegegrade 4 und 5 vierteljährlich vorgeschrieben. Pflegebedürftige des Pflegegrades 1 können den Beratungsbesuch halbjährlich in Anspruch nehmen.",
+     "tr": "Entitlement to care allowance is linked to regular compulsory care visits (advisory visits) by professional care staff.\n\nFor people in care grades 2 and 3 these are prescribed every half-year; for people in care grades 4 and 5 they are prescribed quarterly. People in care grade 1 may use the advisory visit every half-year.",
+     "url": "https://www.kkh.de/content/dam/kkh/dokumente/flyer-broschueren/leistungen-der-pflegekasse.pdf",
+     "site": "KKH"
+    }
+   ],
+   "ctx": [
+    {
+     "lang": "German",
+     "quote": "Empfänger von Pflegegeld müssen in dem pro Halbjahr einen Beratungseinsatz durch einen ambulanten Pflegedienst, eine anerkannte Beratungsstelle oder Pflegefachkraft durchführen lassen. Die dafür anfallenden Kosten werden von uns direkt an den Vertragspartner gezahlt. Pflegebedürftige mit Anspruch auf Zusatzbetreuung können den Einsatz zweimal in Anspruch nehmen.",
+     "tr": "Recipients of care allowance must have one advisory visit per half-year by an outpatient care service, an approved advice centre or care professional. We pay the resulting costs directly to the provider. People entitled to additional support may use the visit twice.",
+     "url": "https://www.kkh.de/leistungen/pflege/pflegeleistungen/pflegegeld"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "vierteljährlich vorgeschrieben"
+    },
+    {
+     "lang": "English",
+     "text": "prescribed quarterly"
+    }
+   ],
+   "lawMarks": [
+    "once per half-year",
+    "it is optional"
+   ]
+  },
+  "pflege-de-dak-advice": {
+   "id": "pflege-de-dak-advice",
+   "area": "pflege-de",
+   "topic": "advice",
+   "pub": "DAK-Gesundheit",
+   "src": "Informationen über Leistungen der Pflegeversicherung (2026 download)",
+   "claim": "Requires one advice visit per calendar quarter for care grades 4 and 5",
+   "quote": "Wenn Sie ausschließlich Pflegegeld erhalten, müssen Sie in bestimmten zeitlichen Abständen eine Beratung (häuslicher Beratungseinsatz) durch einen zugelassenen Pflegedienst oder eine anerkannte Beratungsstelle nutzen. Beim Pflegegrad 2 und 3 ist das einmal im Kalenderhalbjahr, beim Pflegegrad 4 und 5 einmal im Kalendervierteljahr. Die Kosten übernimmt Ihre DAK-Gesundheit-PFLEGEKASSE. Diese gesetzliche Vorschrift zielt darauf ab, Sie und Ihre Pflegeperson zu unterstützen. Außerdem sollen mögliche Pflegefehler frühzeitig erkannt werden.",
+   "lang": "German",
+   "tr": "If you receive only care allowance, you must use advice (a home advisory visit) from an approved care service or recognised advice centre at specified intervals. In care grades 2 and 3 this is once per calendar half-year; in care grades 4 and 5 it is once per calendar quarter. Your DAK-Gesundheit care insurance fund pays the costs. This statutory rule aims to support you and your caregiver. It also aims to identify possible care mistakes at an early stage.",
+   "law": "Since 1 January 2026, §37(3) SGB XI requires recipients of Pflegegeld in care grades 2–5 to obtain advice once per half-year. People in grades 4 and 5 may additionally use quarterly advice; it is optional. The DAK information sheet expressly presents quarterly visits for grades 4 and 5 as compulsory.",
+   "sourceUrl": "https://caas.content.dak.de/caas/v1/media/21570/data/ed68f1f54e0430e442844416199232fc/infos-ambulante-und-teilstationaere-leistungen-2026.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__37.html",
+   "example": "Hypothetical: A DAK member with care grade 5 receives only Pflegegeld and obtains a qualifying advice visit in March and September 2026. The half-yearly compulsory frequency is met. Quarterly visits remain available voluntarily; other eligibility and proof requirements are assumed satisfied.",
+   "context": "A currently offered publication is assessed as at 25 October 2026. The current downloads page, updated 1 October 2026, links this exact PDF as the information accompanying Antrag auf Pflegeleistungen. The PDF is image-only; the complete paragraph was read visually in a temporary rendering. The currently linked Pflege kompakt brochure page 10 gives the same old quarterly frequency. The short current FAQ says regular advice without specifying frequency.",
+   "scope": "Current compulsory advice frequency for recipients of only Pflegegeld in care grades 4–5.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Wenn Sie ausschließlich Pflegegeld erhalten, müssen Sie in bestimmten zeitlichen Abständen eine Beratung (häuslicher Beratungseinsatz) durch einen zugelassenen Pflegedienst oder eine anerkannte Beratungsstelle nutzen. Beim Pflegegrad 2 und 3 ist das einmal im Kalenderhalbjahr, beim Pflegegrad 4 und 5 einmal im Kalendervierteljahr. Die Kosten übernimmt Ihre DAK-Gesundheit-PFLEGEKASSE. Diese gesetzliche Vorschrift zielt darauf ab, Sie und Ihre Pflegeperson zu unterstützen. Außerdem sollen mögliche Pflegefehler frühzeitig erkannt werden.",
+     "tr": "If you receive only care allowance, you must use advice (a home advisory visit) from an approved care service or recognised advice centre at specified intervals. In care grades 2 and 3 this is once per calendar half-year; in care grades 4 and 5 it is once per calendar quarter. Your DAK-Gesundheit care insurance fund pays the costs. This statutory rule aims to support you and your caregiver. It also aims to identify possible care mistakes at an early stage.",
+     "url": "https://caas.content.dak.de/caas/v1/media/21570/data/ed68f1f54e0430e442844416199232fc/infos-ambulante-und-teilstationaere-leistungen-2026.pdf",
+     "site": "DAK-Gesundheit"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "beim Pflegegrad 4 und 5 einmal im Kalendervierteljahr"
+    },
+    {
+     "lang": "English",
+     "text": "in care grades 4 and 5 it is once per calendar quarter"
+    }
+   ],
+   "lawMarks": [
+    "once per half-year",
+    "it is optional"
+   ]
+  },
+  "pflege-de-dak-relatives": {
+   "id": "pflege-de-dak-relatives",
+   "area": "pflege-de",
+   "topic": "relatives",
+   "pub": "DAK-Gesundheit",
+   "src": "Informationen über Leistungen der Pflegeversicherung (2026 download)",
+   "claim": "Lists €1,800 as the ordinary reimbursement amount for relative care in Pflegegrad 4, despite describing a two-month cap",
+   "quote": "Verhinderungspflege: Voraussetzung für die Nutzung der Verhinderungspflege ist, dass die private Pflegeperson wegen Urlaub, Krankheit oder aus sonstigen Gründen an der Pflege gehindert ist. Die zeitweilige Pflege kann von Privatpersonen oder Pflegediensten durchgeführt werden. Für Angehörige bis zum 2. Grad sowie für Personen, die im gleichen Haushalt leben, gelten besondere Regelungen. Hier ist der maximale Erstattungsbetrag für die Verhinderungspflege auf das 2-fache* des monatlichen Pflegegeldes begrenzt. Zusätzlich notwendige Kosten für Verdienstausfall oder Fahrkosten können bis zu maximal 3539 Euro erstattet werden.\n\nPflegegrad | Erstattungsbetrag*\nPflegegrad 2 | 694 Euro\nPflegegrad 3 | 1.198 Euro\nPflegegrad 4 | 1.800 Euro\nPflegegrad 5 | 1.980 Euro",
+   "lang": "German",
+   "tr": "Replacement care: Use of replacement care requires the private caregiver to be prevented from providing care because of holiday, illness or other reasons. Temporary care can be provided by private individuals or care services. Special rules apply to relatives up to the second degree and people living in the same household. Here the maximum reimbursement for replacement care is limited to twice* the monthly care allowance. Additional necessary costs for lost earnings or travel can be reimbursed up to a maximum of 3539 euros.\n\nCare grade | Reimbursement amount*\nCare grade 2 | 694 euros\nCare grade 3 | 1,198 euros\nCare grade 4 | 1,800 euros\nCare grade 5 | 1,980 euros",
+   "law": "Under §39(3) SGB XI, noncommercial replacement care by relatives or in-laws within the second degree or household members normally has a cap equal to two months of the applicable Pflegegeld. Monthly Pflegegeld for grade 4 is €800 under §37(1), so the normal two-month amount is €1,600. Documented necessary expenses can be reimbursed above that amount, within the unused €3,539 shared annual budget; commercially provided care has a separate rule. The information sheet says twice the allowance but its grade 4 table gives €1,800. The other currently linked respite leaflet gives the correct €1,600.",
+   "sourceUrl": "https://caas.content.dak.de/caas/v1/media/21570/data/ed68f1f54e0430e442844416199232fc/infos-ambulante-und-teilstationaere-leistungen-2026.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__39.html",
+   "example": "Hypothetical: In 2026 a care-grade 4 member uses noncommercial replacement care by an adult child. The member pays €1,800 for care, has no separately evidenced necessary travel costs or lost earnings, no circumstances departing from the normal cap, and an unused annual budget. The normal two-month amount is €1,600, so the table overstates that amount by €200. This does not predict the decision on a real claim.",
+   "context": "A currently offered publication is assessed as at 25 October 2026. Both PDFs are currently linked from the same downloads page. The disputed general PDF is image-only and was read visually. Its own Pflegegeld table on physical page 2 correctly lists €800 for grade 4. The specific respite leaflet lists €1,600. This is an internal numerical inconsistency, not evidence of a particular grant or refusal. The PDF uses asterisks after the twice-Pflegegeld statement and table heading, but no accompanying explanatory footnote was found on its six physical pages.",
+   "scope": "Ordinary noncommercial replacement care in care grade 4 by the specified close relatives, in-laws or household members; additional necessary expenses and commercial care are outside the disputed base amount.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Verhinderungspflege: Voraussetzung für die Nutzung der Verhinderungspflege ist, dass die private Pflegeperson wegen Urlaub, Krankheit oder aus sonstigen Gründen an der Pflege gehindert ist. Die zeitweilige Pflege kann von Privatpersonen oder Pflegediensten durchgeführt werden. Für Angehörige bis zum 2. Grad sowie für Personen, die im gleichen Haushalt leben, gelten besondere Regelungen. Hier ist der maximale Erstattungsbetrag für die Verhinderungspflege auf das 2-fache* des monatlichen Pflegegeldes begrenzt. Zusätzlich notwendige Kosten für Verdienstausfall oder Fahrkosten können bis zu maximal 3539 Euro erstattet werden.\n\nPflegegrad | Erstattungsbetrag*\nPflegegrad 2 | 694 Euro\nPflegegrad 3 | 1.198 Euro\nPflegegrad 4 | 1.800 Euro\nPflegegrad 5 | 1.980 Euro",
+     "tr": "Replacement care: Use of replacement care requires the private caregiver to be prevented from providing care because of holiday, illness or other reasons. Temporary care can be provided by private individuals or care services. Special rules apply to relatives up to the second degree and people living in the same household. Here the maximum reimbursement for replacement care is limited to twice* the monthly care allowance. Additional necessary costs for lost earnings or travel can be reimbursed up to a maximum of 3539 euros.\n\nCare grade | Reimbursement amount*\nCare grade 2 | 694 euros\nCare grade 3 | 1,198 euros\nCare grade 4 | 1,800 euros\nCare grade 5 | 1,980 euros",
+     "url": "https://caas.content.dak.de/caas/v1/media/21570/data/ed68f1f54e0430e442844416199232fc/infos-ambulante-und-teilstationaere-leistungen-2026.pdf",
+     "site": "DAK-Gesundheit"
+    }
+   ],
+   "ctx": [
+    {
+     "lang": "German",
+     "quote": "Für verwandte oder verschwägerte Angehörige bis zum 2. Grad sowie für Personen, die im selben Haushalt leben, gelten besondere Regelungen.\n\nIn diesen Fällen steht der 2-fache Betrag des Pflegegeldes zur Verfügung:\nPflegegrad 2 | 694 Euro\nPflegegrad 3 | 1.198 Euro\nPflegegrad 4 | 1.600 Euro\nPflegegrad 5 | 1.980 Euro\n\nZusätzlich notwendige Kosten für Verdienstausfall oder Fahrkosten können bis zu maximal 3.539 Euro erstattet werden.",
+     "tr": "Special rules apply to relatives or in-laws up to the second degree and people living in the same household.\n\nIn these cases twice the care allowance is available:\nCare grade 2 |694 euros\nCare grade 3 |1,198 euros\nCare grade 4 |1,600 euros\nCare grade 5 |1,980 euros\n\nAdditional necessary costs for lost earnings or travel can be reimbursed up to a maximum of 3,539 euros.",
+     "url": "https://caas.content.dak.de/caas/v1/media/21590/data/96fd41d036b913aa0d0ea54c4a3893e3/merkblatt-verhinderung-pflegeperson.pdf"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "1.800 Euro"
+    },
+    {
+     "lang": "English",
+     "text": "1,800 euros"
+    }
+   ],
+   "lawMarks": [
+    "€1,600"
+   ]
+  },
+  "pflege-de-aok-sachsen-anhalt-relatives": {
+   "id": "pflege-de-aok-sachsen-anhalt-relatives",
+   "area": "pflege-de",
+   "topic": "relatives",
+   "pub": "AOK Sachsen-Anhalt",
+   "src": "Verhinderungspflege — Gesundheitswelt",
+   "claim": "Caps relatives’ replacement care including documented extra expenses at €1,685",
+   "quote": "Gibt es einen Unterschied, ob mich der Pflegedienst oder eine Privatperson pflegt?\n\nJa. Der Pflegedienst und Privatpersonen, die nicht mit dem Pflegebedürftigen bis zum 2. Grad verwandt oder verschwägert sind, können für die Verhinderungspflege bis zu 3.539 Euro bei uns abrechnen.\n\nÜbernimmt eine private Person die Verhinderungspflege, die mit im Haushalt lebt oder mit dem Pflegebedürftigen bis zum 2. Grad verwandt oder verschwägert ist, erstatten wir die Kosten in Höhe des 2-fachen Pflegegeldes.\n\nWeisen Sie zusätzliche Kosten wie Fahrkosten oder Verdienstausfälle nach, kann die Leistung bis auf maximal 1.685 Euro aufgestockt werden.",
+   "lang": "German",
+   "tr": "Is there a difference between care by a care service and care by a private individual?\n\nYes. Care services and private individuals who are not related to the person needing care by blood or marriage up to the second degree can bill us for up to 3,539 euros for replacement care.\n\nIf a private individual who lives in the same household or is related to the person needing care by blood or marriage up to the second degree provides replacement care, we reimburse costs equal to twice the care allowance.\n\nIf you provide evidence of additional costs such as travel costs or lost earnings, the benefit can be topped up to a maximum of 1,685 euros.",
+   "law": "Under §39(3) SGB XI, noncommercial replacement care by close relatives, in-laws or household members normally has a two-month Pflegegeld cap. Documented necessary expenses may be reimbursed above that amount. The combined ceiling is the unused €3,539 shared annual budget under §42a, rather than €1,685. The FAQ correctly describes the two-month amount but then gives an obsolete €1,685 ceiling for additional expenses.",
+   "sourceUrl": "https://www.deine-gesundheitswelt.de/krankheit-behandlung-und-pflege/verhinderungspflege",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__39.html",
+   "example": "Hypothetical: A person with Pflegegrad 3 needs replacement care in 2026. An adult child provides it noncommercially. The member properly evidences €1,198 for care and €800 in necessary travel costs or lost earnings, has an unused annual budget, and meets all other requirements. The total €1,998 is below the €3,539 ceiling. The FAQ’s €1,685 figure would suggest €313 less available. This illustrates wording and predicts no actual reimbursement decision.",
+   "context": "A currently offered publication is assessed as at 25 October 2026. Discovered through the national AOK portal’s Sachsen-Anhalt link to deine-gesundheitswelt.de, then Krankheit, Behandlung und Pflege > Verhinderungspflege. The same page’s introduction correctly gives the €3,539 common budget and the twice-Pflegegeld table. It does not elsewhere correct the specific €1,685 FAQ ceiling.",
+   "scope": "Documented necessary additional expenses for noncommercial replacement care by relatives or in-laws up to the second degree, or household members; within the unused common annual budget.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Gibt es einen Unterschied, ob mich der Pflegedienst oder eine Privatperson pflegt?\n\nJa. Der Pflegedienst und Privatpersonen, die nicht mit dem Pflegebedürftigen bis zum 2. Grad verwandt oder verschwägert sind, können für die Verhinderungspflege bis zu 3.539 Euro bei uns abrechnen.\n\nÜbernimmt eine private Person die Verhinderungspflege, die mit im Haushalt lebt oder mit dem Pflegebedürftigen bis zum 2. Grad verwandt oder verschwägert ist, erstatten wir die Kosten in Höhe des 2-fachen Pflegegeldes.\n\nWeisen Sie zusätzliche Kosten wie Fahrkosten oder Verdienstausfälle nach, kann die Leistung bis auf maximal 1.685 Euro aufgestockt werden.",
+     "tr": "Is there a difference between care by a care service and care by a private individual?\n\nYes. Care services and private individuals who are not related to the person needing care by blood or marriage up to the second degree can bill us for up to 3,539 euros for replacement care.\n\nIf a private individual who lives in the same household or is related to the person needing care by blood or marriage up to the second degree provides replacement care, we reimburse costs equal to twice the care allowance.\n\nIf you provide evidence of additional costs such as travel costs or lost earnings, the benefit can be topped up to a maximum of 1,685 euros.",
+     "url": "https://www.deine-gesundheitswelt.de/krankheit-behandlung-und-pflege/verhinderungspflege",
+     "site": "AOK Sachsen-Anhalt"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "maximal 1.685 Euro"
+    },
+    {
+     "lang": "English",
+     "text": "maximum of 1,685 euros"
+    }
+   ],
+   "lawMarks": [
+    "unused €3,539"
+   ]
+  },
+  "pflege-de-big-hospital": {
+   "id": "pflege-de-big-hospital",
+   "area": "pflege-de",
+   "topic": "hospital",
+   "pub": "BIG direkt gesund",
+   "src": "BIG: Pflegegeld",
+   "claim": "Says Pflegegeld stops from the 29th hospital day",
+   "quote": "Wenn du ins Krankenhaus musst, wird das Pflegegeld nicht sofort gestrichen.\n\nGrundsätzlich gilt:\n• Für die ersten 28 Tage eines Krankenhausaufenthalts wird das Pflegegeld weitergezahlt.\n• Ab dem 29. Tag ruht die Zahlung.\n\nDer Hintergrund: Während des Klinikaufenthalts übernimmt das Krankenhaus die Versorgung. Nach deiner Entlassung lebt der Anspruch automatisch wieder auf.\nGut zu wissen: Informiere deine Pflegekasse über längere Krankenhausaufenthalte. So vermeidest du Rückfragen oder mögliche Rückforderungen.",
+   "lang": "German",
+   "tr": "If you have to go to hospital, Pflegegeld is not stopped immediately.\n\nThe general rule is:\n• Pflegegeld continues for the first 28 days of a hospital stay.\n• Payment is suspended from the 29th day.\n\nThe reason: the hospital provides care during the stay. Your entitlement automatically resumes after discharge.\nGood to know: Inform your care insurance fund about longer hospital stays. This avoids queries or possible repayment demands.",
+   "law": "Under §34(2) SGB XI, an existing entitlement to full Pflegegeld under §37 or proportionate Pflegegeld under §38 continues for the first eight weeks of qualifying fully inpatient hospital treatment. This replaced four weeks on 1 January 2026. People who employ special carers and receive the specified social assistance support can receive payment beyond eight weeks. The page instead says payment is suspended from day 29.",
+   "sourceUrl": "https://www.big-direkt.de/de/leistungen/pflege/pflegegeld",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__34.html",
+   "example": "Hypothetical: A person already entitled to Pflegegeld receives six continuous weeks of qualifying inpatient hospital treatment in 2026. Assume ordinary statutory coverage and no separate entitlement problem. The page says payment stops after day 28; §34(2) preserves the existing payment throughout this six-week stay.",
+   "context": "The hospital section is on the current general Pflegegeld benefit page. Its separate advice sections contain conflicting frequencies. The hospital statement has no date limiting it to care before 2026. This finding concerns published wording, not actual payment decisions.",
+   "scope": "Existing Pflegegeld during qualifying fully inpatient hospital treatment in 2026. The separate half-rate rules for replacement care do not apply. The exception for people employing special carers with the specified social assistance support allows longer continuation; it does not justify suspension from day 29.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Wenn du ins Krankenhaus musst, wird das Pflegegeld nicht sofort gestrichen.\n\nGrundsätzlich gilt:\n• Für die ersten 28 Tage eines Krankenhausaufenthalts wird das Pflegegeld weitergezahlt.\n• Ab dem 29. Tag ruht die Zahlung.\n\nDer Hintergrund: Während des Klinikaufenthalts übernimmt das Krankenhaus die Versorgung. Nach deiner Entlassung lebt der Anspruch automatisch wieder auf.\nGut zu wissen: Informiere deine Pflegekasse über längere Krankenhausaufenthalte. So vermeidest du Rückfragen oder mögliche Rückforderungen.",
+     "tr": "If you have to go to hospital, Pflegegeld is not stopped immediately.\n\nThe general rule is:\n• Pflegegeld continues for the first 28 days of a hospital stay.\n• Payment is suspended from the 29th day.\n\nThe reason: the hospital provides care during the stay. Your entitlement automatically resumes after discharge.\nGood to know: Inform your care insurance fund about longer hospital stays. This avoids queries or possible repayment demands.",
+     "url": "https://www.big-direkt.de/de/leistungen/pflege/pflegegeld",
+     "site": "BIG direkt gesund"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Ab dem 29. Tag ruht die Zahlung."
+    },
+    {
+     "lang": "English",
+     "text": "Payment is suspended from the 29th day."
+    }
+   ],
+   "lawMarks": [
+    "first eight weeks"
+   ]
+  },
+  "pflege-de-ikk-classic-hospital": {
+   "id": "pflege-de-ikk-classic-hospital",
+   "area": "pflege-de",
+   "topic": "hospital",
+   "pub": "IKK classic",
+   "src": "IKK classic: Ihre Pflege. Unsere Unterstützung (current linked brochure)",
+   "claim": "Limits proportionate Pflegegeld during hospital treatment to four weeks",
+   "quote": "Kombinationsleistung\nDer in diesem Fall anteilige Betrag an Pflegegeld wird bei Unterbrechung durch stationäre Behandlung dann ebenfalls für vier Wochen fortgezahlt; bei Unterbrechung durch Verhinderungs- oder Kurzzeitpflege wird die Hälfte des zuvor gezahlten Pflegegeldes für acht Wochen weitergezahlt.",
+   "lang": "German",
+   "tr": "Combination benefit\nIn this case, the proportionate amount of Pflegegeld also continues for four weeks when care is interrupted by inpatient treatment; when interrupted by replacement care or short-term residential care, half the previously paid Pflegegeld continues for eight weeks.",
+   "law": "From 1 January 2026, §34(2) SGB XI preserves both full Pflegegeld under §37 and proportionate Pflegegeld under §38 for the first eight weeks of qualifying fully inpatient hospital treatment. Combining Pflegegeld with care services does not reduce that period to four weeks. Longer continuation is possible for people who employ special carers and receive the specified social assistance support.",
+   "sourceUrl": "https://cdn.ikk-classic.de/exporter/652-pflege-broschuere.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__34.html",
+   "example": "Hypothetical: A person receives proportionate Pflegegeld as part of a combination benefit and spends six weeks in qualifying fully inpatient hospital treatment in 2026. Assume the payment entitlement otherwise continues. The combination row would end payment after four weeks; the statute preserves its existing proportionate level throughout the six weeks.",
+   "context": "The brochure is currently linked from the fund’s benefit page. In the same table the general hospital and rehabilitation row correctly says “bis zu 8 Wochen” and notes the exception for people who employ special carers with social assistance support. The specific combination row still says four weeks. The finding concerns that specific residual statement within conflicting guidance.",
+   "scope": "Proportionate Pflegegeld under §38 during qualifying inpatient hospital treatment in 2026. The same brochure gives the correct eight-week general rule; this finding is confined to the shorter period stated for combination benefits.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Kombinationsleistung\nDer in diesem Fall anteilige Betrag an Pflegegeld wird bei Unterbrechung durch stationäre Behandlung dann ebenfalls für vier Wochen fortgezahlt; bei Unterbrechung durch Verhinderungs- oder Kurzzeitpflege wird die Hälfte des zuvor gezahlten Pflegegeldes für acht Wochen weitergezahlt.",
+     "tr": "Combination benefit\nIn this case, the proportionate amount of Pflegegeld also continues for four weeks when care is interrupted by inpatient treatment; when interrupted by replacement care or short-term residential care, half the previously paid Pflegegeld continues for eight weeks.",
+     "url": "https://cdn.ikk-classic.de/exporter/652-pflege-broschuere.pdf",
+     "site": "IKK classic"
+    }
+   ],
+   "ctx": [
+    {
+     "lang": "German",
+     "quote": "Weiterzahlung Pflegegeld bei:\nStationärer Krankenhausbehandlung/Rehabilitation bis zu 8 Wochen.\n(Die Begrenzung der Weiterzahlung auf acht Wochen entfällt bei Pflegebedürftigen, die ihre Pflege durch von ihnen beschäftigte besondere Pflegekräfte (Assistenzkräfte) sicherstellen. Allerdings muss dieses sogenannte Arbeitgebermodell finanziell durch den Sozialhilfeträger unterstützt werden.)",
+     "tr": "Continuation of Pflegegeld during:\nInpatient hospital treatment/rehabilitation: up to 8 weeks.\n(The eight-week limit does not apply to people who ensure their care through special carers they employ. This employer model must, however, receive financial support from the social assistance provider.)",
+     "url": "https://cdn.ikk-classic.de/exporter/652-pflege-broschuere.pdf"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "für vier Wochen"
+    },
+    {
+     "lang": "English",
+     "text": "for four weeks"
+    }
+   ],
+   "lawMarks": [
+    "first eight weeks"
+   ]
+  },
+  "pflege-de-bahn-advice": {
+   "id": "pflege-de-bahn-advice",
+   "area": "pflege-de",
+   "topic": "advice",
+   "pub": "BAHN-BKK",
+   "src": "BAHN-BKK: Pflegegeld",
+   "claim": "Requires quarterly advice visits for Pflegegrad 4 or 5",
+   "quote": "Pflegebedürftige, die ihre Pflege selbst sicherstellen, müssen sich einmal halbjährlich - bei Pflegegrad 4 oder 5 einmal vierteljährlich - durch einen Pflegedienst beraten lassen. Die Kosten übernimmt die Pflegekasse.\nLiegt der Pflegegrad 1 vor, kann pro Halbjahr ebenfalls ein Beratungseinsatz abgerufen werden. Dieser Beratungseinsatz ist freiwillig und kostenfrei.",
+   "lang": "German",
+   "tr": "People needing care who ensure their own care must obtain advice from a care provider once every half-year—or once every quarter for Pflegegrad 4 or 5. The care insurance fund covers the cost.\nA person with Pflegegrad 1 can also request an advice visit each half-year. That visit is voluntary and free.",
+   "law": "From 1 January 2026, §37(3) SGB XI requires people in Pflegegrade 2–5 receiving Pflegegeld without concurrent outpatient benefits in kind to obtain advice once per half-year. People in Pflegegrade 4 and 5 may choose quarterly advice, but the additional visits are voluntary. The page still says they must obtain advice every quarter. Recipients of outpatient benefits in kind, including ordinary combination benefits, have a voluntary advice entitlement. Section 45a(4) also applies the advice rules to conversion of the benefits-in-kind budget for recognised everyday support.",
+   "sourceUrl": "https://www.bahn-bkk.de/leistungen/pflege/ambulante-pflege/pflegegeld.html",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__37.html",
+   "example": "Hypothetical: A person with Pflegegrad 4 receives only Pflegegeld and has a qualifying advice visit in February 2026. Assume care at home is otherwise ensured. That visit fulfils the statutory duty for January–June 2026; the page’s quarterly rule implies another compulsory visit in April–June.",
+   "context": "The current Pflegegeld page uses mandatory wording for the differentiated frequency. The immediately following paragraph expressly makes visits for Pflegegrad 1 voluntary, but adds no such qualification to quarterly visits for grades 4 and 5. Current benefit rates elsewhere on the page are €347, €599, €800 and €990.",
+   "scope": "Compulsory advice frequency under §37(3) for people in Pflegegrade 4–5 receiving Pflegegeld without concurrent outpatient benefits in kind from 1 January 2026. Quarterly advice remains available voluntarily; this finding concerns presenting it as mandatory.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Pflegebedürftige, die ihre Pflege selbst sicherstellen, müssen sich einmal halbjährlich - bei Pflegegrad 4 oder 5 einmal vierteljährlich - durch einen Pflegedienst beraten lassen. Die Kosten übernimmt die Pflegekasse.\nLiegt der Pflegegrad 1 vor, kann pro Halbjahr ebenfalls ein Beratungseinsatz abgerufen werden. Dieser Beratungseinsatz ist freiwillig und kostenfrei.",
+     "tr": "People needing care who ensure their own care must obtain advice from a care provider once every half-year—or once every quarter for Pflegegrad 4 or 5. The care insurance fund covers the cost.\nA person with Pflegegrad 1 can also request an advice visit each half-year. That visit is voluntary and free.",
+     "url": "https://www.bahn-bkk.de/leistungen/pflege/ambulante-pflege/pflegegeld.html",
+     "site": "BAHN-BKK"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "einmal vierteljährlich"
+    },
+    {
+     "lang": "English",
+     "text": "once every quarter"
+    }
+   ],
+   "lawMarks": [
+    "once per half-year"
+   ]
+  },
+  "pflege-de-bosch-relatives": {
+   "id": "pflege-de-bosch-relatives",
+   "area": "pflege-de",
+   "topic": "relatives",
+   "pub": "Bosch BKK",
+   "src": "Bosch BKK: Urlaubs- und Verhinderungspflege",
+   "claim": "Caps replacement care by close relatives or household members at twice Pflegegeld without the expense exception",
+   "quote": "Wird die Verhinderungspflege von einer Person erbracht, die mit Dir bis zum zweiten Grade verwandt oder verschwägert ist oder mit Dir in häuslicher Gemeinschaft lebt, ist die Leistung auf das 2-fache Pflegegeld für im jeweiligen Pfleggrad begrenzt.",
+   "lang": "German",
+   "tr": "If replacement care is provided by someone related to you by blood or marriage within the second degree, or who lives with you in the same household, the benefit is limited to twice the Pflegegeld for the relevant Pflegegrad.",
+   "law": "Under §39(3) SGB XI, non-commercial replacement care by relatives or in-laws within the second degree, or household members, normally has a limit of two months of Pflegegeld. Documented necessary expenses connected with the care can be covered above that amount, with the combined reimbursement limited by the available shared annual budget of €3,539. Commercial care by those people can also use the shared budget. The page gives an unqualified cap of twice Pflegegeld.",
+   "sourceUrl": "https://www.bosch-bkk.de/leistungen/pflegeversicherung/urlaubs-und-verhinderungspflege.html",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__39.html",
+   "example": "Hypothetical: A person with Pflegegrad 3 receives non-commercial replacement care from their daughter. Assume €1,198 of eligible care costs and €100 of documented necessary travel costs, enough remaining shared budget, and all other conditions met. The statute permits covering the necessary expenses above €1,198; the page’s unqualified cap omits that possibility. This does not guarantee that every expense claim succeeds.",
+   "context": "The preceding paragraph gives the €3,539 shared annual budget and Pflegegrad 2 eligibility; the following paragraphs concern hourly care and Pflegegeld continuation. No separate qualification allowing additional necessary expenses was located in this page or the bounded search of the fund’s site. Directly linked forms from Mobil and BAHN-BKK did supply such a qualification, and those apparent discrepancies were excluded.",
+   "scope": "The express cap on non-commercial replacement care by the specified relatives or household members where documented necessary expenses arise. The finding does not rest only on omission of the less common commercial-care exception. It does not infer actual reimbursement decisions.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Wird die Verhinderungspflege von einer Person erbracht, die mit Dir bis zum zweiten Grade verwandt oder verschwägert ist oder mit Dir in häuslicher Gemeinschaft lebt, ist die Leistung auf das 2-fache Pflegegeld für im jeweiligen Pfleggrad begrenzt.",
+     "tr": "If replacement care is provided by someone related to you by blood or marriage within the second degree, or who lives with you in the same household, the benefit is limited to twice the Pflegegeld for the relevant Pflegegrad.",
+     "url": "https://www.bosch-bkk.de/leistungen/pflegeversicherung/urlaubs-und-verhinderungspflege.html",
+     "site": "Bosch BKK"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "auf das 2-fache Pflegegeld"
+    },
+    {
+     "lang": "English",
+     "text": "limited to twice"
+    }
+   ],
+   "lawMarks": [
+    "Documented necessary expenses",
+    "above that amount"
+   ]
+  },
+  "pflege-de-mkk-hospital": {
+   "id": "pflege-de-mkk-hospital",
+   "area": "pflege-de",
+   "topic": "hospital",
+   "pub": "mkk – meine krankenkasse",
+   "src": "mkk — Pflegegeld",
+   "claim": "Says Pflegegeld stops after 28 days in hospital",
+   "quote": "Wird Pflegegeld auch bei Krankenhausaufenthalt gezahlt ?\nDie Zahlung ruht nach 28 Tagen stationärem Aufenthalt (z.B. Krankenhaus oder Reha).",
+   "lang": "German",
+   "tr": "Is Pflegegeld also paid during a hospital stay?\nPayment is suspended after 28 days of inpatient treatment (for example hospital or rehabilitation).",
+   "law": "Since 1 January 2026, §34(2) SGB XI continues an existing Pflegegeld entitlement for the first eight weeks of fully inpatient hospital treatment, at its existing full or proportionate level. Payment does not ordinarily stop after 28 days. The provision also allows continuation beyond eight weeks for the specified people employing special care workers under §63b(6), sentence 1, SGB XII.",
+   "sourceUrl": "https://www.meine-krankenkasse.de/pflege/pflege-zu-hause/pflegegeld",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__34.html",
+   "example": "Hypothetical: a person already receiving full Pflegegeld enters hospital for six weeks in October 2026. Assuming ordinary qualifying fully inpatient treatment and continuing insurance entitlement, Pflegegeld continues throughout those six weeks. The FAQ's 28-day rule would suggest payment stops during weeks five and six.",
+   "context": "The question concerns the care recipient's own hospital admission. The distinct half-rate rule during replacement or short-term care does not set this hospital continuation period. No actual suspension or loss is alleged.",
+   "scope": "Current German Pflegegeld FAQ; ordinary fully inpatient hospital treatment in 2026. The special employed-carer exception can extend payment further.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Wird Pflegegeld auch bei Krankenhausaufenthalt gezahlt ?\nDie Zahlung ruht nach 28 Tagen stationärem Aufenthalt (z.B. Krankenhaus oder Reha).",
+     "tr": "Is Pflegegeld also paid during a hospital stay?\nPayment is suspended after 28 days of inpatient treatment (for example hospital or rehabilitation).",
+     "url": "https://www.meine-krankenkasse.de/pflege/pflege-zu-hause/pflegegeld",
+     "site": "mkk – meine krankenkasse"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "nach 28 Tagen"
+    },
+    {
+     "lang": "English",
+     "text": "after 28 days"
+    }
+   ],
+   "lawMarks": [
+    "the first eight weeks"
+   ]
+  },
+  "pflege-de-energie-hospital": {
+   "id": "pflege-de-energie-hospital",
+   "area": "pflege-de",
+   "topic": "hospital",
+   "pub": "energie-BKK",
+   "src": "energie-BKK — Pflegegeld, updated 25 September 2026",
+   "claim": "Limits ordinary hospital continuation of Pflegegeld to four weeks",
+   "quote": "Bei einer vollstationären Krankenhausbehandlung oder Aufnahme in eine Vorsorge- oder Rehabilitationseinrichtung wird das Pflegegeld für die ersten vier Wochen weitergezahlt. Danach ruht der Anspruch. In bestimmten Fällen – etwa bei beschäftigten Pflegekräften – gibt es Ausnahmen von dieser zeitlichen Begrenzung.",
+   "lang": "German",
+   "tr": "During fully inpatient hospital treatment or admission to a preventive or rehabilitation facility, Pflegegeld continues for the first four weeks. Entitlement is then suspended. In certain cases—for example where care workers are employed—there are exceptions to this time limit.",
+   "law": "Since 1 January 2026, §34(2) SGB XI continues existing Pflegegeld for the first eight weeks of fully inpatient hospital treatment. The existing full or proportionate level continues; four weeks is the old ordinary period. The quoted exception for employed care workers does not correct the ordinary limit, and the statutory special-care-worker exception can continue payment beyond eight weeks.",
+   "sourceUrl": "https://www.energie-bkk.de/leistung/pflegegeld/",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__34.html",
+   "example": "Hypothetical: a person receiving full Pflegegeld spends six weeks in a qualifying hospital in October 2026. Assuming the normal conditions continue and no other suspension ground applies, the existing Pflegegeld continues for all six weeks. The published four-week rule would leave weeks five and six apparently unpaid.",
+   "context": "The page is labelled updated 25 September 2026 and presents the paragraph as a current benefit rule. It retains an exception for certain employed carers, which is preserved in the quotation. No decision on an actual claim is inferred.",
+   "scope": "Current benefit page; ordinary qualifying fully inpatient hospital admission from 1 January 2026. The existing level may be proportionate where the person receives combined benefits.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Bei einer vollstationären Krankenhausbehandlung oder Aufnahme in eine Vorsorge- oder Rehabilitationseinrichtung wird das Pflegegeld für die ersten vier Wochen weitergezahlt. Danach ruht der Anspruch. In bestimmten Fällen – etwa bei beschäftigten Pflegekräften – gibt es Ausnahmen von dieser zeitlichen Begrenzung.",
+     "tr": "During fully inpatient hospital treatment or admission to a preventive or rehabilitation facility, Pflegegeld continues for the first four weeks. Entitlement is then suspended. In certain cases—for example where care workers are employed—there are exceptions to this time limit.",
+     "url": "https://www.energie-bkk.de/leistung/pflegegeld/",
+     "site": "energie-BKK"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "die ersten vier Wochen"
+    },
+    {
+     "lang": "English",
+     "text": "the first four weeks"
+    }
+   ],
+   "lawMarks": [
+    "the first eight weeks"
+   ]
+  },
+  "pflege-de-linde-relatives": {
+   "id": "pflege-de-linde-relatives",
+   "area": "pflege-de",
+   "topic": "relatives",
+   "pub": "BKK Linde",
+   "src": "BKK Linde — Verhinderungspflege",
+   "claim": "Makes twice Pflegegeld an absolute ceiling for replacement care by close relatives",
+   "quote": "Wird die Ersatzpflege von Verwandten/Verschwägerten bis zum 2. Grad (Kinder, Enkelkinder, Eltern, Großeltern, Geschwister, Schwiegerkinder, Schwiegerenkel, Schwiegereltern, Schwager / Schwägerin, Großeltern des Ehegatten, Stiefeltern, Stiefgroßeltern, Stiefkinder, Stiefenkelkinder) übernommen, dürfen die Aufwendungen den 2 fachen Betrag des Pflegegeldes nicht übersteigen.\nUnser Hinweis für Sie: Bei den 3.539 Euro handelt es sich um ein gemeinsames Jahresbudget der Kurzzeit- und der Verhinderungspflege. Die Leistungen werden aufeinander gerechnet und aus einem Budget finanziert.",
+   "lang": "German",
+   "tr": "If replacement care is provided by relatives or relatives by marriage within the second degree (children, grandchildren, parents, grandparents, siblings, children-in-law, grandchildren-in-law, parents-in-law, brothers-/sisters-in-law, the spouse's grandparents, stepparents, stepgrandparents, stepchildren, stepgrandchildren), expenses may not exceed twice the Pflegegeld amount.\nOur note for you: the €3,539 is a common annual budget for short-term and replacement care. The benefits count towards each other and are financed from one budget.",
+   "law": "For non-commercial replacement care by close relatives or household members, §39(3) SGB XI normally uses two months’ Pflegegeld as the reimbursement limit. It expressly allows proved necessary expenses above that amount, within the remaining common annual budget of up to €3,539. Saying expenses may not exceed twice Pflegegeld excludes that route. Commercial substitute care by the specified relatives or household members is governed by the common annual amount instead.",
+   "sourceUrl": "https://bkk-linde.de/leistungen/verhinderungspflege/",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__39.html",
+   "example": "Hypothetical: a Pflegegrad 2 recipient's sister supplies necessary non-commercial replacement care in October 2026 while the usual carer is on holiday. Assume €694 of eligible care compensation, €100 of necessary proved travel expenses, and enough shared budget remaining. Reimbursement of the additional expenses can take the total above €694; the page's absolute limit would exclude that possibility.",
+   "context": "The page correctly identifies the shared €3,539 budget in the adjoining note. The current linked application could not be retrieved by either researcher or reviewer, so possible qualifications in that form remain unresolved. This finding concerns only the webpage’s explicit statement that expenses may not exceed twice Pflegegeld; it does not assess claims handling.",
+   "scope": "Current benefit webpage; necessary non-commercial replacement care by close relatives, with proved additional expenses and sufficient unused annual budget. The current application could not be checked.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Wird die Ersatzpflege von Verwandten/Verschwägerten bis zum 2. Grad (Kinder, Enkelkinder, Eltern, Großeltern, Geschwister, Schwiegerkinder, Schwiegerenkel, Schwiegereltern, Schwager / Schwägerin, Großeltern des Ehegatten, Stiefeltern, Stiefgroßeltern, Stiefkinder, Stiefenkelkinder) übernommen, dürfen die Aufwendungen den 2 fachen Betrag des Pflegegeldes nicht übersteigen.\nUnser Hinweis für Sie: Bei den 3.539 Euro handelt es sich um ein gemeinsames Jahresbudget der Kurzzeit- und der Verhinderungspflege. Die Leistungen werden aufeinander gerechnet und aus einem Budget finanziert.",
+     "tr": "If replacement care is provided by relatives or relatives by marriage within the second degree (children, grandchildren, parents, grandparents, siblings, children-in-law, grandchildren-in-law, parents-in-law, brothers-/sisters-in-law, the spouse's grandparents, stepparents, stepgrandparents, stepchildren, stepgrandchildren), expenses may not exceed twice the Pflegegeld amount.\nOur note for you: the €3,539 is a common annual budget for short-term and replacement care. The benefits count towards each other and are financed from one budget.",
+     "url": "https://bkk-linde.de/leistungen/verhinderungspflege/",
+     "site": "BKK Linde"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "dürfen die Aufwendungen den 2 fachen Betrag des Pflegegeldes nicht übersteigen"
+    },
+    {
+     "lang": "English",
+     "text": "expenses may not exceed twice the Pflegegeld amount"
+    }
+   ],
+   "lawMarks": [
+    "above that amount"
+   ]
+  },
+  "pflege-de-scheufelen-relatives": {
+   "id": "pflege-de-scheufelen-relatives",
+   "area": "pflege-de",
+   "topic": "relatives",
+   "pub": "BKK Scheufelen",
+   "src": "BKK Scheufelen — Zusätzliche ambulante Pflegeleistungen",
+   "claim": "Caps relatives’ replacement-care reimbursement at twice Pflegegeld",
+   "quote": "Welche Kosten übernehmen wir für Sie?\nEs steht Ihnen ein großzügiger Jahresbetrag von 3.539 € zur Verfügung, den Sie flexibel für Kurzzeit- und Verhinderungspflege nutzen können. Dieser Betrag gilt für bis zu acht Wochen im Jahr und kann nach Bedarf auf beide Leistungen aufgeteilt werden – ganz nach Ihrer individuellen Situation. So sind Sie bestens abgesichert, egal ob es um eine vorübergehende stationäre Pflege oder die Unterstützung bei der Verhinderungspflege geht.\nFür Ersatzpflegepersonen bis zum 2. Verwandtschaftsgrad verringert sich der Höchstanspruch, bis zum zweifachen Betrag des Pflegegeldes des jeweiligen Pflegegrades.",
+   "lang": "German",
+   "tr": "Which costs do we cover for you?\nYou have a generous annual amount of €3,539 available, which you can use flexibly for short-term and replacement care. This amount applies for up to eight weeks a year and can be divided between both benefits according to your needs and individual situation. You are thus well covered, whether for temporary residential care or support with replacement care.\nFor replacement carers related within the second degree, the maximum entitlement is reduced to twice the Pflegegeld amount for the relevant care grade.",
+   "law": "For non-commercial replacement care by relatives within the second degree, §39(3) SGB XI normally uses two months’ Pflegegeld as the reimbursement limit. Proved necessary expenses may be reimbursed above that amount, within the remaining shared annual budget of up to €3,539. The webpage describes twice Pflegegeld as the reduced maximum entitlement without this qualification. Commercial replacement care by the specified relatives can instead be reimbursed within the common annual amount.",
+   "sourceUrl": "https://www.bkk-scheufelen.de/leistung/pflegeleistungen/zusaetzliche-ambulante-pflegeleistungen/",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__39.html",
+   "example": "Hypothetical: a person with Pflegegrad 3 needs non-commercial replacement care from a daughter who is not the usual carer. Assume €1,198 of eligible care compensation, €100 of necessary proved travel expenses and sufficient shared annual budget remaining. The law allows consideration of the €100 above the ordinary two-month amount; describing €1,198 as the maximum would exclude it.",
+   "context": "The adjoining €3,539 budget paragraph is retained. The current Download Center links a two-page application dated 23 February 2026; it asks about relatives and household membership but gives no additional-expense qualification. The finding concerns the webpage’s stated maximum, not the separate duration wording or an actual claim decision.",
+   "scope": "Current additional-ambulant-benefits page; necessary non-commercial replacement care by a close relative with proved additional expenses and unused annual budget.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Welche Kosten übernehmen wir für Sie?\nEs steht Ihnen ein großzügiger Jahresbetrag von 3.539 € zur Verfügung, den Sie flexibel für Kurzzeit- und Verhinderungspflege nutzen können. Dieser Betrag gilt für bis zu acht Wochen im Jahr und kann nach Bedarf auf beide Leistungen aufgeteilt werden – ganz nach Ihrer individuellen Situation. So sind Sie bestens abgesichert, egal ob es um eine vorübergehende stationäre Pflege oder die Unterstützung bei der Verhinderungspflege geht.\nFür Ersatzpflegepersonen bis zum 2. Verwandtschaftsgrad verringert sich der Höchstanspruch, bis zum zweifachen Betrag des Pflegegeldes des jeweiligen Pflegegrades.",
+     "tr": "Which costs do we cover for you?\nYou have a generous annual amount of €3,539 available, which you can use flexibly for short-term and replacement care. This amount applies for up to eight weeks a year and can be divided between both benefits according to your needs and individual situation. You are thus well covered, whether for temporary residential care or support with replacement care.\nFor replacement carers related within the second degree, the maximum entitlement is reduced to twice the Pflegegeld amount for the relevant care grade.",
+     "url": "https://www.bkk-scheufelen.de/leistung/pflegeleistungen/zusaetzliche-ambulante-pflegeleistungen/",
+     "site": "BKK Scheufelen"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "Höchstanspruch"
+    },
+    {
+     "lang": "English",
+     "text": "maximum entitlement"
+    }
+   ],
+   "lawMarks": [
+    "above that amount"
+   ]
+  },
+  "pflege-de-faber-relatives": {
+   "id": "pflege-de-faber-relatives",
+   "area": "pflege-de",
+   "topic": "relatives",
+   "pub": "BKK Faber-Castell & Partner",
+   "src": "BKK Faber-Castell & Partner — current linked Antrag Verhinderungspflege",
+   "claim": "Caps reimbursement of close relatives’ proved necessary expenses at €1,685",
+   "quote": "Bei einer Ersatzpflege durch Pflegepersonen, die mit dem Pflegebedürftigen bis zum zweiten Grade verwandt oder verschwägert sind, oder mit ihm in häuslicher Gemeinschaft leben, wird vermutet, dass die Ersatzpflege nicht erwerbsmäßig ausgeübt wird. In diesen Fällen dürfen die Aufwendungen der Pflegekasse den Betrag des Pflegegeldes des festgelegten Pflegegrades nicht überschreiten. In Einzelfällen ist eine Erhöhung bis zu 1685,00 € möglich, wenn entsprechend hohe notwendige Aufwendungen der Pflegeperson, z. B. Verdienstausfall oder Fahrkosten, nachgewiesen werden.",
+   "lang": "German",
+   "tr": "If replacement care is provided by carers related or related by marriage to the person receiving care within the second degree, or living in the same household, replacement care is presumed to be non-commercial. In these cases, the care fund's expenses may not exceed the Pflegegeld amount for the assigned care grade. In individual cases an increase up to €1,685.00 is possible if correspondingly high necessary expenses of the carer, such as lost earnings or travel costs, are proved.",
+   "law": "Section 39(3) SGB XI allows proved necessary expenses connected with non-commercial replacement care by close relatives or household members above the ordinary two-month Pflegegeld limit, within the remaining shared annual budget of up to €3,539. The currently linked form instead caps that route at €1,685. The general webpage correctly describes the common €3,539 budget but does not correct the form’s specific lower ceiling. Commercial replacement care by the specified relatives or household members is subject to the common annual amount instead.",
+   "sourceUrl": "https://www.bkk-faber-castell.de/media/public/Download-Center/Download-Center_PDF/Pflege_PDF/Antrag_Verhinderungspflege.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__39.html",
+   "example": "Hypothetical: an adult with Pflegegrad 3 needs necessary replacement care from a daughter who is not the usual carer during the usual carer’s holiday in October 2026. Assume non-commercial care, €2,000 of necessary proved lost earnings, the other statutory conditions and enough unused shared annual budget. Section 39(3) permits consideration of those expenses above €1,685; the form’s stated ceiling would exclude part of them. This does not guarantee payment on an actual claim.",
+   "context": "The current Pflegeleistungsarten page links this exact application and correctly describes the shared €3,539 budget. Its general budget explanation does not correct the application's specific relatives limits. The form also asks about six months of prior care, recorded separately as ambiguous because a question alone does not establish a current eligibility condition.",
+   "scope": "Current-linked replacement-care application, PDF physical page 2. Non-commercial necessary replacement care from 1 July 2025, with the specific relatives/household conditions and cost proof.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Bei einer Ersatzpflege durch Pflegepersonen, die mit dem Pflegebedürftigen bis zum zweiten Grade verwandt oder verschwägert sind, oder mit ihm in häuslicher Gemeinschaft leben, wird vermutet, dass die Ersatzpflege nicht erwerbsmäßig ausgeübt wird. In diesen Fällen dürfen die Aufwendungen der Pflegekasse den Betrag des Pflegegeldes des festgelegten Pflegegrades nicht überschreiten. In Einzelfällen ist eine Erhöhung bis zu 1685,00 € möglich, wenn entsprechend hohe notwendige Aufwendungen der Pflegeperson, z. B. Verdienstausfall oder Fahrkosten, nachgewiesen werden.",
+     "tr": "If replacement care is provided by carers related or related by marriage to the person receiving care within the second degree, or living in the same household, replacement care is presumed to be non-commercial. In these cases, the care fund's expenses may not exceed the Pflegegeld amount for the assigned care grade. In individual cases an increase up to €1,685.00 is possible if correspondingly high necessary expenses of the carer, such as lost earnings or travel costs, are proved.",
+     "url": "https://www.bkk-faber-castell.de/media/public/Download-Center/Download-Center_PDF/Pflege_PDF/Antrag_Verhinderungspflege.pdf",
+     "site": "BKK Faber-Castell & Partner"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "bis zu 1685,00 €"
+    },
+    {
+     "lang": "English",
+     "text": "up to €1,685.00"
+    }
+   ],
+   "lawMarks": [
+    "€3,539"
    ]
   }
  },
@@ -49144,6 +49829,2394 @@
     }
    ],
    "region": "country"
+  },
+  {
+   "id": "pflegekassen",
+   "area": "pflege-de",
+   "sector": "gov",
+   "title": "Pflegekassen",
+   "one": "Pflegekasse",
+   "who": "German statutory long-term care insurance funds",
+   "lawShort": "German law",
+   "checked": "2026-10-25",
+   "qs": [
+    {
+     "id": "prior-care",
+     "title": "Prior care",
+     "q": "Must someone have cared for you for six months before you can claim replacement care?",
+     "law": "No six-month prior-care requirement; the other eligibility conditions still apply.",
+     "topic": null,
+     "lawText": "Since 1 July 2025, Verhinderungspflege no longer requires the usual carer to have provided six months of prior care. The person receiving care must have at least Pflegegrad 2, normally be cared for at home by a care person, and need replacement care because that person is prevented by holiday, illness or another reason. Necessary replacement costs must be proved. This does not abolish the separate insurance-history requirement in §33(2). For replacement care carried out from 1 January 2026, current §39 also permits an application after the care and requires the reimbursement application with cost evidence by the end of the following calendar year.",
+     "prov": "SGB XI §39(1)",
+     "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__39.html"
+    },
+    {
+     "id": "annual-budget",
+     "title": "Shared annual budget",
+     "q": "How much is available annually for replacement care and short-term residential care?",
+     "law": "From Pflegegrad 2, up to €3,539 shared between both benefits per calendar year.",
+     "topic": null,
+     "lawText": "Since 1 July 2025, people with at least Pflegegrad 2 have one common annual amount of up to €3,539 for Verhinderungspflege under §39 and Kurzzeitpflege under §42 together. Spending on either reduces what remains for the other; it is not €3,539 for each and not an automatic cash payment. Each service must meet its own statutory conditions. The eight-week duration limits for each benefit, and the special reimbursement rules for close relatives and household members, also apply. Amounts already used in the first half of 2025 counted towards the common amount for that year; 2026 has its own calendar-year budget.",
+     "prov": "SGB XI §42a(1)",
+     "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__42a.html"
+    },
+    {
+     "id": "relatives",
+     "title": "Replacement care by relatives",
+     "q": "How much replacement care can close relatives or household members be reimbursed for?",
+     "law": "For non-commercial care, normally two months’ Pflegegeld, plus proved necessary expenses within the shared annual budget.",
+     "topic": "pflege-de~relatives",
+     "lawText": "Replacement carers related or related by marriage to the person receiving care within the second degree, or living in the same household, are not excluded from reimbursement. For non-commercial replacement care, reimbursement normally may not exceed two months of the Pflegegeld for the person’s Pflegegrad. Since 1 July 2025 these amounts are €694 for grade 2, €1,198 for grade 3, €1,600 for grade 4 and €1,980 for grade 5. Proved necessary expenses connected with the replacement care can be reimbursed above that amount, for example travel costs or lost earnings. The combined reimbursement remains within the common annual budget, allowing for other spending. If those relatives or household members provide replacement care commercially, §39(3) instead allows reimbursement up to the common annual amount. These are cost-reimbursement limits, not guaranteed lump-sum payments.",
+     "prov": "SGB XI §39(3)",
+     "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__39.html"
+    },
+    {
+     "id": "relief",
+     "title": "Relief allowance",
+     "q": "Can people with Pflegegrad 1 receive the relief allowance, and how much is it?",
+     "law": "Yes: up to €131 a month for eligible expenses, including Pflegegrad 1.",
+     "topic": null,
+     "lawText": "People receiving care at home, including those with Pflegegrad 1, can receive reimbursement of eligible expenses of up to €131 a month through the Entlastungsbetrag. It is earmarked for the services listed in §45b(1), including recognised everyday-support services; it is not unrestricted cash paid automatically. For grades 2–5 it cannot cover self-care services from an outpatient care service; that particular exclusion does not apply to grade 1. Unused amounts can carry over into the following half-year. Entitlement arises without a prior application, but reimbursement requires a claim and receipts. General benefit conditions remain applicable.",
+     "prov": "SGB XI §45b(1)–(2)",
+     "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__45b.html"
+    },
+    {
+     "id": "hospital",
+     "title": "Pflegegeld during hospital treatment",
+     "q": "How long does Pflegegeld continue during an inpatient hospital stay?",
+     "law": "Generally at its existing level for the first eight weeks of inpatient treatment.",
+     "topic": "pflege-de~hospital",
+     "lawText": "Since 1 January 2026, an existing entitlement to Pflegegeld under §37 or proportionate Pflegegeld under §38 continues for the first eight weeks of fully inpatient hospital treatment. The same continuation provision covers the specified home nursing and admission to qualifying preventive or rehabilitation facilities. It preserves the existing payment level; it does not turn proportionate Pflegegeld into full Pflegegeld. Where the person employs special care workers and §63b(6), sentence 1, SGB XII applies, payment continues beyond eight weeks too. The distinct half-rate continuation rules for Verhinderungspflege and Kurzzeitpflege do not determine payment during a hospital stay.",
+     "prov": "SGB XI §34(2)",
+     "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__34.html"
+    },
+    {
+     "id": "advice",
+     "title": "Required advice visits",
+     "q": "How often must Pflegegeld recipients obtain a compulsory advice visit?",
+     "law": "Once per half-year for grades 2 to 5 receiving Pflegegeld without outpatient care services; quarterly advice is optional for grades 4 and 5.",
+     "topic": "pflege-de~advice",
+     "lawText": "Since 1 January 2026, people in grades 2–5 who receive Pflegegeld without outpatient benefits in kind from a care service must obtain a consultation in their home once per half-year. People in grades 4–5 can use quarterly consultations, but the extra frequency is optional. The compulsory advice duty also applies when the outpatient benefit amount is used solely for recognised everyday-support services through the conversion entitlement under §45a(4). Grade 1 and people receiving outpatient benefits in kind from a care service have a voluntary half-yearly consultation entitlement under this provision. At the person’s request, every second consultation may be by video until 31 March 2027; the first must take place at home. The fund bears the consultation costs. Failure to obtain compulsory advice can lead to appropriate reduction and, for repeated failure, withdrawal of Pflegegeld under §37(6). This check concerns the required frequency, not whether a consultation is advisable.",
+     "prov": "SGB XI §37(3), (6)",
+     "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__37.html"
+    }
+   ],
+   "ents": [
+    {
+     "id": "aok-bw",
+     "name": "AOK Baden-Württemberg",
+     "state": "AOK",
+     "web": "https://www.aok.de/pk/bw/",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The located member guidance does not state how long Pflegegeld continues during a hospital stay."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The general Pflegegeld page and the linked advice page give different descriptions of visit frequency; the dedicated advice page states the current half-yearly requirement."
+      ]
+     ]
+    },
+    {
+     "id": "aok-bayern",
+     "name": "AOK Bayern",
+     "state": "AOK",
+     "web": "https://www.aok.de/pk/bayern/",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The located member guidance does not state how long Pflegegeld continues during a hospital stay."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The general Pflegegeld page and the linked advice page give different descriptions of visit frequency; the dedicated advice page states the current half-yearly requirement."
+      ]
+     ]
+    },
+    {
+     "id": "aok-bremen",
+     "name": "AOK Bremen/Bremerhaven",
+     "state": "AOK",
+     "web": "https://www.aok.de/pk/bremen/",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The located member guidance does not state how long Pflegegeld continues during a hospital stay."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The general Pflegegeld page and the linked advice page give different descriptions of visit frequency; the dedicated advice page states the current half-yearly requirement."
+      ]
+     ]
+    },
+    {
+     "id": "aok-hessen",
+     "name": "AOK Hessen",
+     "state": "AOK",
+     "web": "https://www.aok.de/pk/hessen/",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The located member guidance does not state how long Pflegegeld continues during a hospital stay."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The general Pflegegeld page and the linked advice page give different descriptions of visit frequency; the dedicated advice page states the current half-yearly requirement."
+      ]
+     ]
+    },
+    {
+     "id": "aok-niedersachsen",
+     "name": "AOK Niedersachsen",
+     "state": "AOK",
+     "web": "https://www.aok.de/pk/niedersachsen/",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The located member guidance does not state how long Pflegegeld continues during a hospital stay."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The general Pflegegeld page and the linked advice page give different descriptions of visit frequency; the dedicated advice page states the current half-yearly requirement."
+      ]
+     ]
+    },
+    {
+     "id": "aok-nordost",
+     "name": "AOK Nordost",
+     "state": "AOK",
+     "web": "https://www.aok.de/pk/nordost/",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The located member guidance does not state how long Pflegegeld continues during a hospital stay."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The general Pflegegeld page and the linked advice page give different descriptions of visit frequency; the dedicated advice page states the current half-yearly requirement."
+      ]
+     ]
+    },
+    {
+     "id": "aok-nordwest",
+     "name": "AOK NordWest",
+     "state": "AOK",
+     "web": "https://www.aok.de/pk/nordwest/",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The located member guidance does not state how long Pflegegeld continues during a hospital stay."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The general Pflegegeld page and the linked advice page give different descriptions of visit frequency; the dedicated advice page states the current half-yearly requirement."
+      ]
+     ]
+    },
+    {
+     "id": "aok-plus",
+     "name": "AOK PLUS",
+     "state": "AOK",
+     "web": "https://www.aok.de/pk/plus/",
+     "rows": [
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/magazin/cms/fileadmin/pk/plus/pdf/noindex/antrag-verhinderungspflege.pdf",
+       "2026-10-25",
+       "The linked application still asks for a six-month care declaration; the current explanatory page does not state that condition."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The located member guidance does not state how long Pflegegeld continues during a hospital stay."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The general Pflegegeld page and the linked advice page give different descriptions of visit frequency; the dedicated advice page states the current half-yearly requirement."
+      ]
+     ]
+    },
+    {
+     "id": "aok-rheinland-hamburg",
+     "name": "AOK Rheinland/Hamburg",
+     "state": "AOK",
+     "web": "https://www.aok.de/pk/rh/",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The located member guidance does not state how long Pflegegeld continues during a hospital stay."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The general Pflegegeld page and the linked advice page give different descriptions of visit frequency; the dedicated advice page states the current half-yearly requirement."
+      ]
+     ]
+    },
+    {
+     "id": "aok-rps",
+     "name": "AOK Rheinland-Pfalz/Saarland",
+     "state": "AOK",
+     "web": "https://www.aok.de/pk/rps/",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The located member guidance does not state how long Pflegegeld continues during a hospital stay."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The general Pflegegeld page and the linked advice page give different descriptions of visit frequency; the dedicated advice page states the current half-yearly requirement."
+      ]
+     ]
+    },
+    {
+     "id": "aok-sachsen-anhalt",
+     "name": "AOK Sachsen-Anhalt",
+     "state": "AOK",
+     "web": "https://www.deine-gesundheitswelt.de/",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.aok.de/pk/alltagshilfe-pflegende-angehoerige/verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.deine-gesundheitswelt.de/krankheit-behandlung-und-pflege/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "pflege-de-aok-sachsen-anhalt-relatives",
+       "https://www.deine-gesundheitswelt.de/krankheit-behandlung-und-pflege/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.deine-gesundheitswelt.de/krankheit-behandlung-und-pflege/entlastungsbetrag",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.deine-gesundheitswelt.de/krankheit-behandlung-und-pflege/pflegegeld",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.aok.de/pk/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The general Pflegegeld page and the linked advice page give different descriptions of visit frequency; the dedicated advice page states the current half-yearly requirement."
+      ]
+     ]
+    },
+    {
+     "id": "tk",
+     "name": "Techniker Krankenkasse",
+     "state": "Ersatzkasse",
+     "web": "https://www.tk.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.tk.de/techniker/pflegeversicherung/ueberblick-pflegeleistungen-pflegegrade/zu-hause-gepflegt/ersatzpflege-verhinderungspflege/was-sich-2025-bei-der-verhinderungspflege-ersatzpflege-aendert-2186002",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.tk.de/techniker/pflegeversicherung/ueberblick-pflegeleistungen-pflegegrade/zu-hause-gepflegt/ersatzpflege-verhinderungspflege/hoehe-verhinderungspflege-ersatzpflege-2008604",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.tk.de/techniker/pflegeversicherung/ueberblick-pflegeleistungen-pflegegrade/zu-hause-gepflegt/ersatzpflege-verhinderungspflege/wer-kann-verhinderungspflege-ersatzpflege-uebernehmen-2120776",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.tk.de/techniker/pflegeversicherung/ueberblick-pflegeleistungen-pflegegrade/zu-hause-gepflegt/angebote-unterstuetzung-alltag-entlastung-pflege/entlastungsbetrag-pflege-2157536",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.tk.de/techniker/pflegeversicherung/ueberblick-pflegeleistungen-pflegegrade/zu-hause-gepflegt/pflegegeld/gruende-kuerzung-pflegegeld-2174456",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.tk.de/techniker/pflegeversicherung/ueberblick-pflegeleistungen-pflegegrade/zu-hause-gepflegt/beratungseinsatz-bei-pflegegeld/beratungseinsatz-2008902",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "barmer",
+     "name": "BARMER",
+     "state": "Ersatzkasse",
+     "web": "https://www.barmer.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.barmer.de/resource/blob/1022540/0902000158cafa71144c4aaeefbc7a40/antrag-auf-verhinderungspflege-44112-data.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.barmer.de/unsere-leistungen/pflege/verhinderungspflege-1003716",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.barmer.de/resource/blob/1003068/7e6bacccff4a853a8becb93d4041ed63/barmer-verhinderung-der-pflegeperson-barrierefrei-7259p-data.pdf",
+       "2026-10-25",
+       "The main page includes commercial care by relatives, while the linked leaflet says the higher ceiling requires proof of lost earnings or travel costs."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.barmer.de/unsere-leistungen/pflege/entlastungsbetrag-1003722",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.barmer.de/unsere-leistungen/pflege/pflegegeld-1003728",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.barmer.de/unsere-leistungen/pflege/beratungseinsatz-1003726",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "dak",
+     "name": "DAK-Gesundheit",
+     "state": "Ersatzkasse",
+     "web": "https://www.dak.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://caas.content.dak.de/caas/v1/media/143946/data/8295e26bf46d08a80f677d49703f207b/broschuere-pflegekompakt-0625.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.dak.de/dak/ihr-anliegen/pflege/verhinderungspflege-ersatzpflege/was-ist-verhinderungspflege_21348",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "pflege-de-dak-relatives",
+       "https://caas.content.dak.de/caas/v1/media/21570/data/ed68f1f54e0430e442844416199232fc/infos-ambulante-und-teilstationaere-leistungen-2026.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.dak.de/dak/ihr-anliegen/pflege/entlastungsbetrag-entlastungsleistungen/wofuer-kann-ich-den-entlastungsbetrag-nutzen-_21220",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.dak.de/dak/gesundheit/pflege/pflegeversicherung-im-ueberblick_46308",
+       "2026-10-25",
+       "The guidance acknowledges continuation during hospital treatment but does not specify its duration."
+      ],
+      [
+       "bad",
+       "pflege-de-dak-advice",
+       "https://caas.content.dak.de/caas/v1/media/21570/data/ed68f1f54e0430e442844416199232fc/infos-ambulante-und-teilstationaere-leistungen-2026.pdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "kkh",
+     "name": "KKH",
+     "state": "Ersatzkasse",
+     "web": "https://www.kkh.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.kkh.de/leistungen/pflege/pflegeleistungen/verhinderungspflege",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.kkh.de/leistungen/pflege/pflegeleistungen/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.kkh.de/leistungen/pflege/pflegeleistungen/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.kkh.de/leistungen/pflege/pflegeleistungen/entlastungsbetrag",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.kkh.de/leistungen/pflege/pflegeleistungen/pflegegeld",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "pflege-de-kkh-advice",
+       "https://www.kkh.de/content/dam/kkh/dokumente/flyer-broschueren/leistungen-der-pflegekasse.pdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "hkk",
+     "name": "hkk",
+     "state": "Ersatzkasse",
+     "web": "https://www.hkk.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.hkk.de/leistungen-und-services/hkk-leistungen/alle-leistungen-von-a-z/verhinderungspflege",
+       "2026-10-25",
+       "The located guidance does not expressly explain removal of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://assets.hkk.de/fileadmin/dateien/allgemeines_uebergeordnet/broschueren-infoblaetter/pflege/2601_pflege_a5_01-2026_hkk.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.hkk.de/leistungen-und-services/hkk-leistungen/alle-leistungen-von-a-z/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://assets.hkk.de/fileadmin/dateien/allgemeines_uebergeordnet/broschueren-infoblaetter/pflege/2601_pflege_a5_01-2026_hkk.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://assets.hkk.de/fileadmin/dateien/allgemeines_uebergeordnet/broschueren-infoblaetter/pflege/2601_pflege_a5_01-2026_hkk.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.hkk.de/leistungen-und-services/hkk-leistungen/alle-leistungen-von-a-z/pflegegeld",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "hek",
+     "name": "HEK",
+     "state": "Ersatzkasse",
+     "web": "https://www.hek.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.hek.de/fileadmin/user_upload/data/Dokumente_Website/Downloads/antrag-verhinderungspflege-hek-07-25.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.hek.de/ozg-pages/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.hek.de/ozg-pages/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.hek.de/ozg-pages/leistungsansprueche-haeuslichkeit/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.hek.de/erstklassige-leistungen/pflegeberatung/",
+       "2026-10-25",
+       "The located public guidance does not state how long Pflegegeld continues during a hospital stay."
+      ],
+      [
+       "na",
+       "",
+       "https://www.hek.de/erstklassige-leistungen/pflegeberatung/",
+       "2026-10-25",
+       "The located public guidance does not state the compulsory frequency of advice visits."
+      ]
+     ]
+    },
+    {
+     "id": "ikk-classic",
+     "name": "IKK classic",
+     "state": "IKK",
+     "web": "https://www.ikk-classic.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://cdn.ikk-classic.de/exporter/652-pflege-broschuere.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-classic.de/pk/leistungen/pflegeversicherung/pflegebeduerftige",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-classic.de/pk/leistungen/pflegeversicherung/pflegebeduerftige",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-classic.de/pk/leistungen/pflegeversicherung/pflegebeduerftige",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "pflege-de-ikk-classic-hospital",
+       "https://cdn.ikk-classic.de/exporter/652-pflege-broschuere.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-classic.de/pk/leistungen/pflegeversicherung/pflegebeduerftige",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "big",
+     "name": "BIG direkt gesund",
+     "state": "IKK",
+     "web": "https://www.big-direkt.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.big-direkt.de/de/leistungen/pflege/verhinderungspflege",
+       "2026-10-25",
+       "The located guidance did not explicitly address abolition of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.big-direkt.de/de/leistungen/pflege/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.big-direkt.de/de/leistungen/pflege/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.big-direkt.de/de/versicherung/rund-um-ihre-versicherung/daten-fakten-zahlen",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "pflege-de-big-hospital",
+       "https://www.big-direkt.de/de/leistungen/pflege/pflegegeld",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.big-direkt.de/de/leistungen/pflege/pflegegeld",
+       "2026-10-25",
+       "The page requires quarterly advice for grades 4–5 in two sections, but later gives the correct half-yearly requirement for grades 2–5."
+      ]
+     ]
+    },
+    {
+     "id": "ikk-suedwest",
+     "name": "IKK Südwest",
+     "state": "IKK",
+     "web": "https://www.ikk-suedwest.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.ikk-suedwest.de/wp-content/uploads/2022/12/antrag-auf-verhinderungspflege.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-suedwest.de/pflege/pflegeleistungen/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-suedwest.de/wp-content/uploads/2022/12/antrag-auf-verhinderungspflege.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-suedwest.de/pflege/pflegeleistungen/pflegegeld/",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.ikk-suedwest.de/pflege/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The page says eight weeks but places hospital treatment under a limit per calendar year; the treatment of separate admissions needs further checking."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-suedwest.de/pflege-newsletter/beratungseinsatz-fuer-pflegebeduerftige/",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "innovationskasse",
+     "name": "IKK – Die Innovationskasse",
+     "state": "IKK",
+     "web": "https://www.die-ik.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.die-ik.de/index.php?eID=dumpFile&f=21396&t=f&token=304742a946ead4d706b971af44d69c8d6198cd27",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.die-ik.de/leistungen-a-bis-z/pflege/pflegeversicherung",
+       "2026-10-25",
+       "The page mixes older separate-budget figures with an explicit July 2025 correction. Its 2026 brochure describes the shared annual budget of €3,539 correctly."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.die-ik.de/index.php?eID=dumpFile&f=21396&t=f&token=304742a946ead4d706b971af44d69c8d6198cd27",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.die-ik.de/leistungen-a-bis-z/pflege/pflegeversicherung",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.die-ik.de/index.php?eID=dumpFile&f=21396&t=f&token=304742a946ead4d706b971af44d69c8d6198cd27",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.die-ik.de/leistungen-a-bis-z/pflege/pflegeversicherung",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "ikk-gesund-plus",
+     "name": "IKK gesund plus",
+     "state": "IKK",
+     "web": "https://www.ikk-gesundplus.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.ikk-gesundplus.de/pflege/pflegeleistungen/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-gesundplus.de/pflege/pflegeleistungen/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-gesundplus.de/pflege/pflegeleistungen/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-gesundplus.de/pflege/pflegeleistungen/entlastungsleistungen/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.ikk-gesundplus.de/pflege/pflegeleistungen/pflegegeld/",
+       "2026-10-25",
+       "The located guidance did not explicitly address how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ikk-gesundplus.de/pflege/pflegeleistungen/pflegegeld/",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "sbk",
+     "name": "SBK",
+     "state": "BKK",
+     "web": "https://www.sbk.org",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.sbk.org/beratung-leistungen/pflege/pflegende-angehoerige/kurzzeit-und-verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance did not explicitly address abolition of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sbk.org/beratung-leistungen/pflege/pflegende-angehoerige/kurzzeit-und-verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sbk.org/beratung-leistungen/pflege/pflegende-angehoerige/kurzzeit-und-verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sbk.org/beratung-leistungen/pflege/pflege-zu-hause/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.sbk.org/beratung-leistungen/pflege/pflege-zu-hause/pflege-durch-eine-privatperson/",
+       "2026-10-25",
+       "The located guidance did not explicitly address how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sbk.org/beratung-leistungen/pflege/pflege-zu-hause/beratungseinsatz/",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "audi",
+     "name": "Audi BKK",
+     "state": "BKK",
+     "web": "https://www.audibkk.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.audibkk.de/leistungen-services/leistungen-a-z/pflegeversicherung/pflege-zuhause/verhinderungspflege",
+       "2026-10-25",
+       "The located guidance did not explicitly address abolition of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.audibkk.de/leistungen-services/leistungen-a-z/pflegeversicherung/pflege-zuhause/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.audibkk.de/leistungen-services/leistungen-a-z/pflegeversicherung/pflege-zuhause/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.audibkk.de/leistungen-services/leistungen-a-z/pflege/pflege-zuhause/entlastungsleistungen/pflegegrad-1",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.audibkk.de/leistungen-services/leistungen-a-z/pflege/pflege-zuhause/pflegegeld",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.audibkk.de/leistungen-services/leistungen-a-z/pflege/pflege-zuhause/pflegegeld",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "mobil",
+     "name": "Mobil Krankenkasse",
+     "state": "BKK",
+     "web": "https://www.mobil-krankenkasse.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://mobil-krankenkasse.de/unsere-leistungen/pflege/ambulante-pflege.html",
+       "2026-10-25",
+       "The located guidance did not explicitly address abolition of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://mobil-krankenkasse.de/unsere-leistungen/pflege/ambulante-pflege.html",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://mobil-krankenkasse.de/dam/jcr:60a09fd2-9e6c-40ee-9971-a2c5d7e20762/Fragebogen-Nachweis-Verhinderungspflege.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://mobil-krankenkasse.de/unsere-leistungen/pflege/ambulante-pflege.html",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://mobil-krankenkasse.de/dam/jcr:db15fd62-08cf-4887-9c44-03e2eed8f100/2026_Pflegebrosch%C3%BCre_Web.pdf",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://mobil-krankenkasse.de/unsere-leistungen/pflege/ambulante-pflege.html",
+       "2026-10-25",
+       "The located guidance did not explicitly address the compulsory advice-visit frequency."
+      ]
+     ]
+    },
+    {
+     "id": "pronova",
+     "name": "Pronova BKK",
+     "state": "BKK",
+     "web": "https://www.pronovabkk.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.pronovabkk.de/leistungen/pflege/gemeinsamer-jahresbetrag.html",
+       "2026-10-25",
+       "The located guidance did not explicitly address abolition of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.pronovabkk.de/leistungen/pflege/gemeinsamer-jahresbetrag.html",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.pronovabkk.de/leistungen/pflege/gemeinsamer-jahresbetrag.html",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.pronovabkk.de/leistungen/pflege/entlastungsbetrag.html",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.pronovabkk.de/media/pdf-downloads/services/broschueren-download/sonstiges/pronova-bkk-pflegeleistungen.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.pronovabkk.de/media/pdf-downloads/services/broschueren-download/sonstiges/pronova-bkk-pflegeleistungen.pdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "viactiv",
+     "name": "VIACTIV",
+     "state": "BKK",
+     "web": "https://www.viactiv.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.viactiv.de/leistungen/pflege/pflege-zu-hause/verhinderungspflege",
+       "2026-10-25",
+       "The located guidance did not explicitly address abolition of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.viactiv.de/leistungen/pflege/pflege-zu-hause/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.viactiv.de/leistungen/pflege/pflege-zu-hause/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.viactiv.de/download/viactiv-pflegeleistungen",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.viactiv.de/leistungen/pflege/pflege-zu-hause/pflegegeld",
+       "2026-10-25",
+       "The located guidance did not explicitly address how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.viactiv.de/leistungen/pflege/pflege-zu-hause/pflegegeld",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "firmus",
+     "name": "BKK firmus",
+     "state": "BKK",
+     "web": "https://www.bkk-firmus.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.bkk-firmus.de/fileadmin/user_upload/pdf/downloads/Verhinderungspflege_ab_Juli_25.pdf",
+       "2026-10-25",
+       "The located guidance did not explicitly address abolition of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bkk-firmus.de/leistungen/lexikon/a-z/pflegeversicherung",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bkk-firmus.de/leistungen/lexikon/a-z/pflegeversicherung",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bkk-firmus.de/leistungen/lexikon/a-z/pflegeversicherung",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.bkk-firmus.de/leistungen/lexikon/a-z/pflegeversicherung",
+       "2026-10-25",
+       "The located guidance did not explicitly address how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "na",
+       "",
+       "https://www.bkk-firmus.de/leistungen/lexikon/a-z/pflegeversicherung",
+       "2026-10-25",
+       "The located guidance did not explicitly address the compulsory advice-visit frequency."
+      ]
+     ]
+    },
+    {
+     "id": "pfaff",
+     "name": "BKK Pfaff",
+     "state": "BKK",
+     "web": "https://www.bkk-pfaff.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://bkk-pfaff.e-coaches.de/pflege/rund-um-pflege/wichtiges-von-a-z.html",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://bkk-pfaff.e-coaches.de/pflege/rund-um-pflege/wichtiges-von-a-z.html",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://bkk-pfaff.de/wir-bieten/hilfe-bei-pflegebeduerftigkeit/antrag-auf-pflegeleistungen/",
+       "2026-10-25",
+       "The located guidance did not state the specific reimbursement limits for close relatives or household members."
+      ],
+      [
+       "amb",
+       "",
+       "https://bkk-pfaff.e-coaches.de/pflege/rund-um-pflege/wichtiges-von-a-z.html",
+       "2026-10-25",
+       "The linked Pflege-Coach gives €131 in one section and €125 in another; the current monthly amount is up to €131."
+      ],
+      [
+       "na",
+       "",
+       "https://bkk-pfaff.de/wir-bieten/hilfe-bei-pflegebeduerftigkeit/antrag-auf-pflegeleistungen/",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "na",
+       "",
+       "https://bkk-pfaff.de/wir-bieten/hilfe-bei-pflegebeduerftigkeit/antrag-auf-pflegeleistungen/",
+       "2026-10-25",
+       "The located guidance did not state the compulsory frequency of advice visits."
+      ]
+     ]
+    },
+    {
+     "id": "bmw",
+     "name": "BMW BKK",
+     "state": "BKK",
+     "web": "https://www.bmwbkk.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.bmwbkk.de/de/topic/rund-um-die-pflege/leistungen-der-pflegeversicherung.html",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bmwbkk.de/de/topic/rund-um-die-pflege/ambulante-pflege.html",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.bmwbkk.de/de/topic/meine-bmw-bkk/antraege-und-formulare.html",
+       "2026-10-25",
+       "The form permits additional documented expenses for relatives and household members, but the located guidance does not explain the applicable reimbursement limit."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.bmwbkk.de/de/topic/rund-um-die-pflege/ambulante-pflege.html",
+       "2026-10-25",
+       "The page gives €131 but does not clearly answer whether all eligible people with Pflegegrad 1 can receive it monthly."
+      ],
+      [
+       "na",
+       "",
+       "https://www.bmwbkk.de/de/topic/rund-um-die-pflege/ambulante-pflege.html",
+       "2026-10-25",
+       "The located guidance did not explicitly address how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bmwbkk.de/de/topic/rund-um-die-pflege/ambulante-pflege.html",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "knappschaft",
+     "name": "KNAPPSCHAFT",
+     "state": "Specialist fund",
+     "web": "https://www.knappschaft.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.knappschaft.de/shareddocs/downloads/broschueren-listen-berichte/pflegeversicherung-10150.pdf?__blob=publicationFile",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.knappschaft.de/shareddocs/downloads/broschueren-listen-berichte/pflegeversicherung-10150.pdf?__blob=publicationFile",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.knappschaft.de/shareddocs/downloads/broschueren-listen-berichte/pflegeversicherung-10150.pdf?__blob=publicationFile",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.knappschaft.de/shareddocs/downloads/broschueren-listen-berichte/pflegeversicherung-10150.pdf?__blob=publicationFile",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.knappschaft.de/pflege/haeusliche-pflege-leistungen/pflegegeld/pflegegeld",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.knappschaft.de/pflege/haeusliche-pflege-leistungen/pflegegeld/pflegegeld",
+       "2026-10-25",
+       "The page says once per calendar year in one section and half-yearly in another. The law requires a visit once per half-year."
+      ]
+     ]
+    },
+    {
+     "id": "svlfg",
+     "name": "Landwirtschaftliche Pflegekasse (SVLFG)",
+     "state": "Specialist fund",
+     "web": "https://www.svlfg.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.svlfg.de/pm-pflegereform-2025",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.svlfg.de/kurzzeit-verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://cdn.svlfg.de/fiona8-blobs/public/svlfgonpremiseproduction/0ed82afa59077a6e/36b67fb85349/formular-merkblatt-antrag-verhinderungspflege.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.svlfg.de/unterstuetzung-im-alltag-entlastungsbetrag",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.svlfg.de/Pflegegeld.",
+       "2026-10-25",
+       "The located guidance did not explicitly address how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.svlfg.de/Pflegegeld.",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "bahn",
+     "name": "BAHN-BKK",
+     "state": "BKK",
+     "web": "https://www.bahn-bkk.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.bahn-bkk.de/leistungen/pflege/ambulante-pflege/verhinderungspflege.html",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bahn-bkk.de/leistungen/pflege/ambulante-pflege/verhinderungspflege.html",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bahn-bkk.de/_Resources/Persistent/ccf69721db1b1a2a4658bee7578de2904cde47ac/Antrag%20Verhinderungspflege.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bahn-bkk.de/leistungen/pflege/ambulante-pflege/zusaetzliche-betreuungs-und-entlastungsleistungen.html",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.bahn-bkk.de/leistungen/pflege/ambulante-pflege/pflegegeld.html",
+       "2026-10-25",
+       "The located guidance did not explicitly address how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "bad",
+       "pflege-de-bahn-advice",
+       "https://www.bahn-bkk.de/leistungen/pflege/ambulante-pflege/pflegegeld.html",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "bosch",
+     "name": "Bosch BKK",
+     "state": "BKK",
+     "web": "https://www.bosch-bkk.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.bosch-bkk.de/leistungen/pflegeversicherung/urlaubs-und-verhinderungspflege.html",
+       "2026-10-25",
+       "The located guidance did not explicitly address abolition of the six-month prior-care requirement."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bosch-bkk.de/leistungen/pflegeversicherung/urlaubs-und-verhinderungspflege.html",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "pflege-de-bosch-relatives",
+       "https://www.bosch-bkk.de/leistungen/pflegeversicherung/urlaubs-und-verhinderungspflege.html",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bosch-bkk.de/leistungen/pflegeversicherung/entlastungsbetrag.html",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.bosch-bkk.de/leistungen/pflegeversicherung/pflegegeld.html",
+       "2026-10-25",
+       "The located guidance did not explicitly address how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.bosch-bkk.de/leistungen/pflegeversicherung/pflegeleistungen.html",
+       "2026-10-25",
+       "The overview lists quarterly visits for Pflegegrad 4–5, while the dedicated Pflegegeld page correctly requires a visit each half-year."
+      ]
+     ]
+    },
+    {
+     "id": "mhplus",
+     "name": "mhplus",
+     "state": "BKK",
+     "web": "https://www.mhplus.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.mhplus-krankenkasse.de/privatkunden/leistungen/pflegeleistungen/leistungen-in-der-pflege/weitere-leistungen-fuer-die-pflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.mhplus-krankenkasse.de/privatkunden/leistungen/pflegeleistungen/leistungen-in-der-pflege/weitere-leistungen-fuer-die-pflege",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.mhplus-krankenkasse.de/privatkunden/leistungen/pflegeleistungen/leistungen-in-der-pflege/weitere-leistungen-fuer-die-pflege",
+       "2026-10-25",
+       "The located guidance did not state the specific reimbursement limits for close relatives or household members."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.mhplus-krankenkasse.de/privatkunden/leistungen/pflegeleistungen/leistungen-in-der-pflege/weitere-leistungen-fuer-die-pflege",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.mhplus-krankenkasse.de/privatkunden/leistungen/pflegeleistungen/leistungen-in-der-pflege/ambulante-leistungen",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "na",
+       "",
+       "https://www.mhplus-krankenkasse.de/privatkunden/leistungen/pflegeleistungen/leistungen-in-der-pflege/ambulante-leistungen",
+       "2026-10-25",
+       "The located guidance did not state the compulsory frequency of §37(3) advice visits."
+      ]
+     ]
+    },
+    {
+     "id": "novitas",
+     "name": "novitas bkk",
+     "state": "BKK",
+     "web": "https://www.novitas-bkk.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.novitas-bkk.de/de/leistungen-mitgliedschaft/pflege/verhinderungspflege",
+       "2026-10-25",
+       "The located guidance did not state whether the six-month prior-care requirement has been abolished."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.novitas-bkk.de/de/leistungen-mitgliedschaft/pflege/verhinderungspflege",
+       "2026-10-25",
+       "The visible page gives €3,539 but does not explain its period or shared nature; the table uses a monthly heading and FAQ answer bodies were not accessible."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.novitas-bkk.de/de/leistungen-mitgliedschaft/pflege/verhinderungspflege",
+       "2026-10-25",
+       "The table gives amounts matching two months’ Pflegegeld under a monthly heading, but lacks the governing relatives explanation. The relevant FAQ answer bodies were not accessible."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.novitas-bkk.de/de/leistungen-mitgliedschaft/pflege/entlastungsleistungen",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.novitas-bkk.de/de/leistungen-mitgliedschaft/pflege/pflegegeld",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "na",
+       "",
+       "https://www.novitas-bkk.de/de/leistungen-mitgliedschaft/pflege/pflegegeld",
+       "2026-10-25",
+       "The located guidance did not state the compulsory frequency of §37(3) advice visits."
+      ]
+     ]
+    },
+    {
+     "id": "vivida",
+     "name": "vivida bkk",
+     "state": "BKK",
+     "web": "https://www.vividabkk.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.vividabkk.de/de/leistungen/pflege/verhinderungspflege",
+       "2026-10-25",
+       "The located guidance did not state whether the six-month prior-care requirement has been abolished."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.vividabkk.de/de/leistungen/pflege/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.vividabkk.de/de/leistungen/pflege/verhinderungspflege",
+       "2026-10-25",
+       "The page states a family-obligation exclusion, while a current linked form makes it depend on the circumstances. The boundary between ordinary family duties and qualifying replacement care remains unresolved."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.vividabkk.de/de/leistungen-versicherung/pflege/ambulante-und-stationaere-pflegeleistungen",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.vividabkk.de/de/leistungen-versicherung/pflege/ambulante-und-stationaere-pflegeleistungen",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.vividabkk.de/de/leistungen-versicherung/pflege/ambulante-und-stationaere-pflegeleistungen",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "mkk",
+     "name": "mkk – meine krankenkasse",
+     "state": "BKK",
+     "web": "https://www.meine-krankenkasse.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.meine-krankenkasse.de/pflege/pflege-zu-hause/zusaetzliche-leistungen/verhinderungspflege",
+       "2026-10-25",
+       "The located guidance did not state whether the six-month prior-care requirement has been abolished."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.meine-krankenkasse.de/pflege/pflege-zu-hause/zusaetzliche-leistungen/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.meine-krankenkasse.de/pflege/pflege-zu-hause/zusaetzliche-leistungen/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.meine-krankenkasse.de/pflege/pflege-zu-hause/entlastungsleistungen",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "pflege-de-mkk-hospital",
+       "https://www.meine-krankenkasse.de/pflege/pflege-zu-hause/pflegegeld",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.meine-krankenkasse.de/pflege/pflege-zu-hause/pflegegeld",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "pfalz",
+     "name": "BKK Pfalz",
+     "state": "BKK",
+     "web": "https://www.bkkpfalz.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.bkkpfalz.de/leistungen/pflege/verhinderungspflege",
+       "2026-10-25",
+       "The located guidance did not state whether the six-month prior-care requirement has been abolished."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bkkpfalz.de/leistungen/pflege/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.bkkpfalz.de/leistungen/pflege/verhinderungspflege",
+       "2026-10-25",
+       "The webpage gives a twice-Pflegegeld cap, while the current application asks for evidence of lost earnings or travel costs without explaining how these interact with the cap."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bkkpfalz.de/leistungen/pflege/entlastungsbetrag",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.bkkpfalz.de/leistungen/pflege/pflegesachleistung-geldleistung",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bkkpfalz.de/leistungen/pflege/pflegesachleistung-geldleistung",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "provita",
+     "name": "BKK ProVita",
+     "state": "BKK",
+     "web": "https://www.bkk-provita.de",
+     "rows": [
+      [
+       "amb",
+       "",
+       "https://bkk-provita.de/leistungen/pflegeleistungen/",
+       "2026-10-25",
+       "The same page first imposes six months of prior care, then explicitly says this requirement has ended. The dated correction is material and prevents an unqualified finding."
+      ],
+      [
+       "ok",
+       "",
+       "https://bkk-provita.de/leistungen/pflegeleistungen/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://bkk-provita.de/leistungen/pflegeleistungen/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://bkk-provita.de/leistungen/pflegeleistungen/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://bkk-provita.de/leistungen/pflegeleistungen/",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "na",
+       "",
+       "https://bkk-provita.de/leistungen/pflegeleistungen/",
+       "2026-10-25",
+       "The located guidance did not state the compulsory frequency of §37(3) advice visits."
+      ]
+     ]
+    },
+    {
+     "id": "bkk24",
+     "name": "BKK24",
+     "state": "BKK",
+     "web": "https://www.bkk24.de",
+     "rows": [
+      [
+       "amb",
+       "",
+       "https://www.bkk24.de/fileadmin/user_upload/Inhalte/Meine_BKK24/Formulare/Antrag_Verhinderungspflege.docx",
+       "2026-10-25",
+       "The application currently linked from the forms page still imposes six months of prior care. The main replacement-care page expressly says this condition has ended."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bkk24.de/leistungen-beitraege/leistungen-a-z/verhinderungspflege",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.bkk24.de/leistungen-beitraege/leistungen-a-z/verhinderungspflege",
+       "2026-10-25",
+       "The webpage states a twice-Pflegegeld ceiling, while the currently linked form expressly permits additional travel costs or lost earnings within the shared budget."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bkk24.de/leistungen-beitraege/leistungen-a-z/pflegesaetze",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.bkk24.de/leistungen-beitraege/leistungen-a-z/pflegesaetze",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "na",
+       "",
+       "https://www.bkk24.de/leistungen-beitraege/leistungen-a-z/pflegesaetze",
+       "2026-10-25",
+       "The located guidance did not state the compulsory frequency of §37(3) advice visits."
+      ]
+     ]
+    },
+    {
+     "id": "securvita",
+     "name": "SECURVITA",
+     "state": "BKK",
+     "web": "https://www.securvita.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.securvita.de/fileadmin/inhalt/dokumente/krankenkasse/m-pflege-kurzzeitpflege-142.pdf",
+       "2026-10-25",
+       "The located guidance did not state whether the six-month prior-care requirement has been abolished."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.securvita.de/fileadmin/inhalt/dokumente/krankenkasse/m-pflege-kurzzeitpflege-142.pdf",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.securvita.de/fileadmin/inhalt/dokumente/krankenkasse/m-pflege-kurzzeitpflege-142.pdf",
+       "2026-10-25",
+       "The January 2025 leaflet currently linked from the benefit page retains the old 1.5-month figure. A later block updates the July 2025 common budget but does not expressly update this relatives figure."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.securvita.de/fileadmin/inhalt/dokumente/krankenkasse/m-pflegeversicherung-140.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.securvita.de/fileadmin/inhalt/dokumente/auszuege_SECURVITAL/202602/seite_30-31.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.securvita.de/fileadmin/inhalt/dokumente/auszuege_SECURVITAL/202602/seite_30-31.pdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "heimat",
+     "name": "Heimat Krankenkasse",
+     "state": "BKK",
+     "web": "https://www.heimat-krankenkasse.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.heimat-krankenkasse.de/leistungen/leistungen-a-z/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.heimat-krankenkasse.de/leistungen/leistungen-a-z/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.heimat-krankenkasse.de/leistungen/leistungen-a-z/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.heimat-krankenkasse.de/leistungen/leistungen-a-z/entlastungsbetrag/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.heimat-krankenkasse.de/leistungen/leistungen-a-z/pflegegeld/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.heimat-krankenkasse.de/leistungen/leistungen-a-z/pflegegeld/",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "energie",
+     "name": "energie-BKK",
+     "state": "BKK",
+     "web": "https://www.energie-bkk.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.energie-bkk.de/leistung/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.energie-bkk.de/leistung/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.energie-bkk.de/leistung/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.energie-bkk.de/leistung/betreuungs-und-entlastungsleistungen/",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "pflege-de-energie-hospital",
+       "https://www.energie-bkk.de/leistung/pflegegeld/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.energie-bkk.de/leistung/beratungseinsatz-bei-haeuslicher-pflege/",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "debeka",
+     "name": "Debeka BKK",
+     "state": "BKK",
+     "web": "https://www.debeka-bkk.de",
+     "rows": [
+      [
+       "amb",
+       "",
+       "https://www.debeka-bkk.de/leistungen/pflege/kurzzeit-und-verhinderungspflege/",
+       "2026-10-25",
+       "The page retains an early six-month prerequisite but later expressly says it has ended for all other care recipients from 1 July 2025."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.debeka-bkk.de/leistungen/pflege/kurzzeit-und-verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.debeka-bkk.de/leistungen/pflege/kurzzeit-und-verhinderungspflege/",
+       "2026-10-25",
+       "The page retains a 1.5-month ordinary amount but later gives the two-month rule and extends it to other care recipients from July 2025. Its use of 'grundsätzlich' also prevents an absolute-cap allegation."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.debeka-bkk.de/leistungen/pflege/entlastungsleistungen/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.debeka-bkk.de/leistungen/pflege/pflegegeld/",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.debeka-bkk.de/leistungen/pflege/pflegegeld/",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "linde",
+     "name": "BKK Linde",
+     "state": "BKK",
+     "web": "https://www.bkk-linde.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://bkk-linde.de/leistungen/verhinderungspflege/",
+       "2026-10-25",
+       "The located guidance did not state whether the six-month prior-care requirement has been abolished."
+      ],
+      [
+       "ok",
+       "",
+       "https://bkk-linde.de/leistungen/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "pflege-de-linde-relatives",
+       "https://bkk-linde.de/leistungen/verhinderungspflege/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://bkk-linde.de/leistungen/pflegeleistung/",
+       "2026-10-25",
+       "The located guidance did not state the €131 monthly relief allowance and Pflegegrad 1 inclusion."
+      ],
+      [
+       "na",
+       "",
+       "https://bkk-linde.de/leistungen/pflegegeld/",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "na",
+       "",
+       "https://bkk-linde.de/leistungen/pflegegeld/",
+       "2026-10-25",
+       "The located guidance did not state the compulsory frequency of §37(3) advice visits."
+      ]
+     ]
+    },
+    {
+     "id": "scheufelen",
+     "name": "BKK Scheufelen",
+     "state": "BKK",
+     "web": "https://www.bkk-scheufelen.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.bkk-scheufelen.de/leistung/pflegeleistungen/zusaetzliche-ambulante-pflegeleistungen/",
+       "2026-10-25",
+       "The located guidance did not state whether the six-month prior-care requirement has been abolished."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bkk-scheufelen.de/leistung/pflegeleistungen/zusaetzliche-ambulante-pflegeleistungen/",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "pflege-de-scheufelen-relatives",
+       "https://www.bkk-scheufelen.de/leistung/pflegeleistungen/zusaetzliche-ambulante-pflegeleistungen/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bkk-scheufelen.de/leistung/pflegeleistungen/neuregelungen-in-der-pflege-ab-januar-2025/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.bkk-scheufelen.de/leistung/pflegeleistungen/ambulante-pflegeleistungen/",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.bkk-scheufelen.de/leistung/pflegeleistungen/ambulante-pflegeleistungen/",
+       "2026-10-25",
+       "The page says 'zweimal halbjährlich' but then lists the two half-year periods, leaving it unclear whether it means two per half-year or two per year."
+      ]
+     ]
+    },
+    {
+     "id": "faber",
+     "name": "BKK Faber-Castell & Partner",
+     "state": "BKK",
+     "web": "https://www.bkk-faber-castell.de",
+     "rows": [
+      [
+       "amb",
+       "",
+       "https://www.bkk-faber-castell.de/media/public/Download-Center/Download-Center_PDF/Pflege_PDF/Antrag_Verhinderungspflege.pdf",
+       "2026-10-25",
+       "The current form asks a yes/no question about six months of prior care, while the benefit page allows immediate use from Pflegegrad 2. The question may also serve historical claims; it is not clearly an eligibility assertion."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bkk-faber-castell.de/leistungen/bkk-pflegekasse/pflegeleistungsarten.html",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "pflege-de-faber-relatives",
+       "https://www.bkk-faber-castell.de/media/public/Download-Center/Download-Center_PDF/Pflege_PDF/Antrag_Verhinderungspflege.pdf",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.bkk-faber-castell.de/leistungen/bkk-pflegekasse/pflegeleistungsarten.html",
+       "2026-10-25",
+       "The located guidance did not state the €131 monthly relief allowance and Pflegegrad 1 inclusion."
+      ],
+      [
+       "na",
+       "",
+       "https://www.bkk-faber-castell.de/leistungen/bkk-pflegekasse/pflegeleistungsarten.html",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "na",
+       "",
+       "https://www.bkk-faber-castell.de/leistungen/bkk-pflegekasse/pflegeleistungsarten.html",
+       "2026-10-25",
+       "The located guidance did not state the compulsory frequency of §37(3) advice visits."
+      ]
+     ]
+    },
+    {
+     "id": "bertelsmann",
+     "name": "Bertelsmann BKK",
+     "state": "BKK",
+     "web": "https://www.bertelsmann-bkk.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.bertelsmann-bkk.de/leistungen/pflegeversicherung/pflegeleistungen",
+       "2026-10-25",
+       "The located guidance did not state whether the six-month prior-care requirement has been abolished."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bertelsmann-bkk.de/leistungen/pflegeversicherung/pflegeleistungen",
+       "2026-10-25"
+      ],
+      [
+       "amb",
+       "",
+       "https://www.bertelsmann-bkk.de/fileadmin/medien/dokumente/antraege_versicherte/BeBKK_Antrag_Verhinderungspflege_bf_0725.pdf",
+       "2026-10-25",
+       "The current application refers only to proved necessary expenses, while the factsheet linked from the current benefits page also explains the ordinary two-month Pflegegeld amount."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bertelsmann-bkk.de/leistungen/pflegeversicherung/pflegeleistungen",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.bertelsmann-bkk.de/leistungen/pflegeversicherung/pflegeleistungen",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "na",
+       "",
+       "https://www.bertelsmann-bkk.de/leistungen/pflegeversicherung/pflegeleistungen",
+       "2026-10-25",
+       "The located guidance did not state the compulsory frequency of §37(3) advice visits."
+      ]
+     ]
+    },
+    {
+     "id": "merck",
+     "name": "Merck BKK",
+     "state": "BKK",
+     "web": "https://www.merck-bkk.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.merck-bkk.de/fileadmin/medien/dokumente/downloadcenter/downloads_fuer/versicherte/Infoblatt_Pflege_2026.pdf",
+       "2026-10-25",
+       "The located guidance did not state whether the six-month prior-care requirement has been abolished."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.merck-bkk.de/fileadmin/medien/dokumente/downloadcenter/downloads_fuer/versicherte/Infoblatt_Pflege_2026.pdf",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.merck-bkk.de/fileadmin/medien/dokumente/downloadcenter/downloads_fuer/versicherte/Infoblatt_Pflege_2026.pdf",
+       "2026-10-25",
+       "The located guidance did not state the specific reimbursement limits for close relatives or household members."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.merck-bkk.de/fileadmin/medien/dokumente/downloadcenter/downloads_fuer/versicherte/Infoblatt_Pflege_2026.pdf",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.merck-bkk.de/fileadmin/medien/dokumente/downloadcenter/downloads_fuer/versicherte/Infoblatt_Pflege_2026.pdf",
+       "2026-10-25",
+       "The located guidance did not state how long Pflegegeld continues during inpatient hospital treatment."
+      ],
+      [
+       "na",
+       "",
+       "https://www.merck-bkk.de/fileadmin/medien/dokumente/downloadcenter/downloads_fuer/versicherte/Infoblatt_Pflege_2026.pdf",
+       "2026-10-25",
+       "The located guidance did not state the compulsory frequency of §37(3) advice visits."
+      ]
+     ]
+    }
+   ],
+   "region": "fund type"
   }
  ]
 }
