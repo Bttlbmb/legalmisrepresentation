@@ -1399,11 +1399,11 @@
     {
      "id": "supported-country",
      "title": "Basic accounts beyond commercial markets",
-     "lawKey": "Lawful EU residence",
+     "lawKey": "Lawful EU stay",
      "claimKey": "Only supported countries",
-     "law": "German basic-account eligibility covers consumers lawfully resident in the EU. A bank’s ordinary supported-country list is not an additional statutory refusal ground. Statutory identity, anti-money-laundering, existing usable domestic account and other specified refusal grounds remain.",
+     "law": "German basic-account eligibility covers consumers lawfully staying in the EU. A bank’s ordinary supported-country list is not an additional statutory refusal ground. Statutory identity, anti-money-laundering, existing usable domestic account and other specified refusal grounds remain.",
      "provision": "Directive 2014/92/EU, Arts. 15–16; German ZKG §§3,31–37",
-     "lawUrl": "https://www.gesetze-im-internet.de/zkg/BJNR072010016.html",
+     "lawUrl": "https://www.gesetze-im-internet.de/zkg/__31.html",
      "cases": [
       "banking-n26-supported-country"
      ]
@@ -1415,9 +1415,10 @@
      "claimKey": "One inactive year",
      "law": "In Germany, inactivity alone can justify terminating a basic account only after more than 24 consecutive months without an account-holder-initiated payment transaction, if that termination right was agreed, and with at least two months’ notice. Other statutory termination grounds remain separate.",
      "provision": "Directive 2014/92/EU, Art. 19(2)(b),(4); German ZKG §42(1)–(5)",
-     "lawUrl": "https://www.gesetze-im-internet.de/zkg/BJNR072010016.html",
+     "lawUrl": "https://www.gesetze-im-internet.de/zkg/__42.html",
      "cases": [
-      "banking-n26-one-year-inactivity"
+      "banking-n26-one-year-inactivity",
+      "banking-bbva-one-year-inactivity"
      ]
     },
     {
@@ -1520,12 +1521,25 @@
      "id": "germany-basic-account-age",
      "title": "Age and German basic accounts",
      "lawKey": "Represented minors eligible",
-     "claimKey": "Minimum age14",
-     "law": "ZKG section31(1) grants the basic-account right to every qualifying consumer lawfully staying in the EU and imposes no general minimum age of14. Section34 limits individual refusals to sections35–37. Civil capacity and representation still matter: BGB sections106–107 permit a minor aged7 or above to make a contract with the necessary legal representative consent, and section1629 governs parental representation. A properly represented13-year-old meeting the other statutory and identity/AML conditions is not excluded merely by age. This comparison addresses the expressly labelled minimum-age row, not independent contractual capacity for every child.",
-     "provision": "ZKG sections31,34 · BGB sections106–107,1629",
+     "claimKey": "Minimum age 14 or 18",
+     "law": "The Basiskonto right in §31 ZKG has no general minimum age of 14 or 18. The ordinary civil-law rules on legal capacity, consent and representation still apply. A minor aged seven or above has limited capacity and generally needs the legal representative’s consent for an account contract that is not merely legally beneficial; parents generally represent the child under §1629 BGB. A properly represented 13- or 17-year-old who satisfies the other statutory and identity requirements is not excluded merely by a bank’s stated age cutoff. A self-service or ordinary adult account route restricted to adults does not by itself establish that the separate statutory Basiskonto is unavailable to minors.",
+     "provision": "ZKG §31(1); §34(1); BGB §§106–107, 1629",
      "lawUrl": "https://www.gesetze-im-internet.de/zkg/__31.html",
      "cases": [
-      "banking-gls-minimum-age-fourteen"
+      "banking-gls-minimum-age-fourteen",
+      "banking-dkb-minimum-age-eighteen"
+     ]
+    },
+    {
+     "id": "germany-p-konto",
+     "title": "P-Konto on request",
+     "lawKey": "P-Konto on request",
+     "claimKey": "Dutch licence exemption",
+     "law": "An applicant may already request that a Basiskonto be operated as a Pfändungsschutzkonto (P-Konto) in the statutory application. A natural person may also require an existing payment account to be operated as a P-Konto, including when its balance is negative. Only one P-Konto may be held per person, and a P-Konto must operate on a credit-balance basis. Merely opening an ordinary Basiskonto does not automatically create attachment protection. This question concerns availability on request, not protection amounts or conversion-processing deadlines.",
+     "provision": "ZKG §33(1); ZPO §850k(1)–(3)",
+     "lawUrl": "https://www.gesetze-im-internet.de/zpo/__850k.html",
+     "cases": [
+      "banking-bunq-de-p-konto-licence-exemption"
      ]
     }
    ]
@@ -21214,14 +21228,14 @@
    "claim": "says it may refuse the statutory basic account because the applicant lives outside its supported markets.",
    "quote": "Unter bestimmten Umständen kann N26 deinen Antrag auf ein Basiskonto ablehnen. Das ist der Fall, wenn:\ndu außerhalb eines von uns unterstützten Landes lebst.\ndu bereits ein N26 Bankkonto oder ein anderes Bankkonto in Deutschland hast und es in vollem Umfang nutzen kannst.\ndu innerhalb der letzten 3 Jahre wegen einer Straftat gegen die Bank, ihre Mitarbeiter oder ihre Kunden verurteilt wurdest.\ndu bereits in der Vergangenheit ein Basiskonto bei N26 unterhalten hast, das wegen Überziehung oder unzulässiger Nutzung geschlossen wurde.\ndu die Mindestanforderungen gemäß des Geldwäsche- und Kreditwesengesetzes nicht erfüllst.",
    "lang": "German",
-   "tr": "Under certain circumstances N26 may reject your application for a basic account. This is the case if: you live outside one of our supported countries; you already have an N26 bank account or another bank account in Germany and can use it in full; you have been convicted within the last three years of an offence against the bank, its employees or its customers; you previously held an N26 basic account that was closed because of overdrawing or prohibited use; or you do not meet the minimum requirements under money-laundering and banking legislation.",
-   "law": "ZKG §31(1) gives each consumer lawfully resident in the EU the right to a German basic-account contract with an institution offering consumer payment accounts. §§32 and 34–37 limit additional conditions and refusal grounds; a commercial supported-market list is not among them. Existing usable domestic accounts, specified prior misconduct or lawful prior termination, and required identity and anti-money-laundering checks can still justify refusal.",
+   "tr": "Under certain circumstances N26 may reject your application for a basic account. This is the case if:\n• you live outside one of our supported countries.\n• you already have an N26 bank account or another bank account in Germany and can use it in full.\n• you have been convicted within the last three years of an offence against the bank, its employees or its customers.\n• you previously held an N26 basic account that was closed because of overdrawing or prohibited use.\n• you do not meet the minimum requirements under money-laundering and banking legislation.",
+   "law": "ZKG § 31(1) gives each consumer lawfully staying in the EU the right to a German basic-account contract with an institution offering consumer payment accounts. §§ 32 and 34–37 limit additional conditions and refusal grounds; a commercial supported-market list is not among them. Existing usable domestic accounts, specified prior misconduct or lawful prior termination, and required identity and anti-money-laundering checks can still justify refusal.",
    "sourceUrl": "https://support.n26.com/de-de/konto-und-personliche-informationen/sonstiges/konto-gemaess-zkg-30",
-   "lawUrl": "https://www.gesetze-im-internet.de/zkg/BJNR072010016.html",
+   "lawUrl": "https://www.gesetze-im-internet.de/zkg/__31.html",
    "example": "Hypothetical: An adult legally resident in Romania applies to N26 Bank SE for its German statutory basic account. Romania is absent from the linked supported-country list. Assume a complete application, successful required identification and anti-money-laundering checks, the ability to use the offered app services, no usable German payment account and no other statutory refusal ground. Romanian residence alone does not permit refusal, yet the FAQ lists unsupported-country residence as a reason to refuse.",
-   "context": "The German and English statutory-account FAQs expressly distinguish this product from N26 Standard. Their supported-country refusal bullet links a commercial country list that excludes several EU states. Current support-category navigation links the FAQ. The linked application accepts a country address field without listing supported markets; a separate current ZKG information PDF describes EU-wide entitlement and omits this market restriction. Those broader passages are retained as counterevidence. This concerns the express FAQ restriction, not a finding that N26 actually rejected applicants.",
-   "scope": "German statutory N26 basic-account guidance, checked 18 October 2026. The exclusion previously recorded for generic N26 ordinary-account criteria remains valid; this new finding uses the separate statutory ZKG page. Only published wording is assessed. No application, customer contact, refusal, harm or intent was tested.",
-   "date": "2026-10-18",
+   "context": "The current statutory FAQ expressly distinguishes the account from N26 Standard and lists unsupported-country residence as a refusal ground. The linked supported-country list omits Romania. The separate indexed statutory information recognises lawful EU stay generally, and the current application country field does not restrict address countries. These contrary passages are material; this is a wording discrepancy rather than evidence of actual refusals.",
+   "scope": "German statutory Basiskonto published guidance checked 25 October 2026. Only wording assessed; no customer contact, actual refusal, closure, loss or intent tested.",
+   "date": "2026-10-25",
    "langs": [
     "German",
     "English"
@@ -21233,16 +21247,30 @@
     {
      "lang": "German",
      "quote": "Unter bestimmten Umständen kann N26 deinen Antrag auf ein Basiskonto ablehnen. Das ist der Fall, wenn:\ndu außerhalb eines von uns unterstützten Landes lebst.\ndu bereits ein N26 Bankkonto oder ein anderes Bankkonto in Deutschland hast und es in vollem Umfang nutzen kannst.\ndu innerhalb der letzten 3 Jahre wegen einer Straftat gegen die Bank, ihre Mitarbeiter oder ihre Kunden verurteilt wurdest.\ndu bereits in der Vergangenheit ein Basiskonto bei N26 unterhalten hast, das wegen Überziehung oder unzulässiger Nutzung geschlossen wurde.\ndu die Mindestanforderungen gemäß des Geldwäsche- und Kreditwesengesetzes nicht erfüllst.",
-     "tr": "Under certain circumstances N26 may reject your application for a basic account. This is the case if: you live outside one of our supported countries; you already have an N26 bank account or another bank account in Germany and can use it in full; you have been convicted within the last three years of an offence against the bank, its employees or its customers; you previously held an N26 basic account that was closed because of overdrawing or prohibited use; or you do not meet the minimum requirements under money-laundering and banking legislation.",
+     "tr": "Under certain circumstances N26 may reject your application for a basic account. This is the case if:\n• you live outside one of our supported countries.\n• you already have an N26 bank account or another bank account in Germany and can use it in full.\n• you have been convicted within the last three years of an offence against the bank, its employees or its customers.\n• you previously held an N26 basic account that was closed because of overdrawing or prohibited use.\n• you do not meet the minimum requirements under money-laundering and banking legislation.",
      "url": "https://support.n26.com/de-de/konto-und-personliche-informationen/sonstiges/konto-gemaess-zkg-30",
-     "site": "support.n26.com/de-de — statutory account FAQ"
+     "site": "N26 statutory Basiskonto FAQ — German"
     },
     {
      "lang": "English",
      "quote": "Under some circumstances, N26 is allowed to reject your Basiskonto request. That’s the case if you:\nLive outside of a supported country.\nAlready have an N26 bank account or another bank account in Germany and can use it to its full extent.\nWere convicted of a crime against the bank, its employees, or its customers within the past 3 years.\nHave already maintained a Basiskonto at N26 in the past that was closed due to prohibited usage or a negative balance.\nYou didn’t meet minimum requirements in accordance to the Money Laundering Act and the Credit Services Act.",
      "tr": "",
      "url": "https://support.n26.com/en-de/account-and-personal-details/miscellaneous/account-in-conjunction-with-zkg-30",
-     "site": "support.n26.com/en-de — statutory account FAQ"
+     "site": "N26 statutory Basiskonto FAQ — English"
+    }
+   ],
+   "ctx": [
+    {
+     "lang": "German",
+     "quote": "Das Konto gemäß §§ 30 ff. ZKG ist kein N26 Standardkonto. Das Zahlungskontengesetz (ZKG) gibt allen Verbrauchern, die sich rechtmäßig in der Europäischen Union aufhalten, das Recht, ein Basiszahlungskonto zu führen. Dies gilt für Personen, die in einem unterstützten Land leben.",
+     "tr": "The account under §§ 30 ff ZKG is not an N26 Standard account. The Payment Accounts Act gives all consumers lawfully staying in the European Union the right to hold a basic payment account. This applies to people who live in a supported country.",
+     "url": "https://support.n26.com/de-de/konto-und-personliche-informationen/sonstiges/konto-gemaess-zkg-30"
+    },
+    {
+     "lang": "German",
+     "quote": "Seit Einführung des Zahlungskontengesetzes (kurz ZKG) im Juni 2016 hat jeder Verbraucher mit rechtmäßigem Aufenthalt in der Europäischen Union grundsätzlich den Anspruch auf ein Zahlungskonto, das grundlegende Funktionen zur Erfüllung der täglichen Zahlungsgeschäfte bietet. Dieses Konto nennt sich Basiskonto, die Eröffnung erfolgt über den unten beschriebenen Prozess. Voraussetzung dafür ist, dass du nicht schon ein Zahlungskonto bei N26 oder einer anderen Bank in Deutschland hast. Antragsberechtigt sind bspw. Personen ohne festen Wohnsitz und Asylsuchende. Das bedeutet, ein Wohnsitz im Sinne des Meldegesetzes ist nicht erforderlich und die postalische Erreichbarkeit über Angehörige, Freunde oder eine Beratungsstelle reicht demnach zur Kontoeröffnung aus.",
+     "tr": "Since the Payment Accounts Act (ZKG) was introduced in June2016, every consumer lawfully staying in the European Union is generally entitled to a payment account offering basic functions for daily payments. This is called a basic account and is opened through the process described below. A condition is that you do not already hold a payment account at N26 or another bank in Germany. Eligible applicants include people without a fixed home and asylum seekers. This means a residence within the meaning of registration law is not required and postal reachability through relatives, friends or an advice centre is sufficient for account opening.",
+     "url": "https://docs.n26.com/legal/01+DE/02+ZKG/de/03zkg-basic-account-de.pdf"
     }
    ],
    "marks": [
@@ -21272,14 +21300,14 @@
    "claim": "says in its currently supplied application guidance that one year without turnover can justify closing a statutory basic account.",
    "quote": "Das Kreditinstitut ist nicht verpflichtet, ein Girokonto für den Antragsteller zu führen, wenn der Antragsteller keinen Anspruch auf ein Basiskonto hat oder dies für das Kreditinstitut unzumutbar ist. In diesem Fall darf die Bank auch ein bestehendes Konto kündigen. Unzumutbar ist die Eröffnung oder Fortführung einer Kontoverbindung insbesondere, wenn\n○​ der Kunde die Leistungen des Kreditinstitutes missbraucht, insbesondere für gesetzwidrige Transaktionen, z.B. Betrug, Geldwäsche o.ä.\n○​ der Antragsteller Falschangaben macht, die für das Vertragsverhältnis wesentlich sind\n○​ der Antragsteller Mitarbeiter oder Kunden grob belästigt oder gefährdet\n○​ die bezweckte Nutzung des Kontos zur Teilnahme am bargeldlosen Zahlungsverkehr nicht gegeben ist, weil z.B. das Konto durch Handlungen vollstreckender Gläubiger blockiert ist oder ein Jahr lang umsatzlos geführt wird\n○​ nicht sichergestellt ist, dass das Institut die für die Kontoführung und -nutzung vereinbarten üblichen Entgelte erhält\n○​ der Kunde auch im Übrigen die Vereinbarungen nicht einhält.",
    "lang": "German",
-   "tr": "The credit institution is not obliged to maintain a current account for the applicant if the applicant has no entitlement to a basic account or if doing so is unreasonable for the institution. In that case the bank may also terminate an existing account. Opening or continuing an account is unreasonable in particular if: the customer abuses the institution’s services, especially for unlawful transactions such as fraud or money laundering; the applicant gives false information material to the contractual relationship; the applicant seriously harasses or endangers employees or customers; the intended use of the account to participate in cashless payments is absent, for example because enforcement by creditors blocks the account or it has been maintained without turnover for one year; payment of the agreed customary account maintenance and use fees is not assured; or the customer otherwise fails to comply with the agreements.",
-   "law": "Under ZKG §42(1), only the specified statutory termination grounds apply. For inactivity alone, §42(2)(1) requires more than 24 consecutive months without a holder-initiated payment, an agreed termination right, and at least two months’ notice. One year without turnover is insufficient by itself. Separate misconduct, unpaid-fee, false-information and other statutory grounds can still permit termination.",
+   "tr": "The credit institution is not obliged to maintain a current account for the applicant if the applicant has no entitlement to a basic account or if doing so is unreasonable for the institution. In that case the bank may also terminate an existing account. Opening or continuing an account is unreasonable in particular if:\n• the customer abuses the institution’s services, especially for unlawful transactions such as fraud or money laundering.\n• the applicant gives false information material to the contractual relationship.\n• the applicant seriously harasses or endangers employees or customers.\n• the intended use of the account to participate in cashless payments is absent, for example because enforcement by creditors blocks the account or it has been maintained without turnover for one year.\n• payment of the agreed customary account maintenance and use fees is not assured.\n• the customer otherwise fails to comply with the agreements.",
+   "law": "Under ZKG § 42(1), only the specified statutory termination grounds apply. For inactivity alone, § 42(2)(1) requires more than 24 consecutive months without a holder-initiated payment, an agreed termination right, and at least two months’ notice. One year without turnover is insufficient by itself. Separate misconduct, unpaid-fee, false-information and other statutory grounds can still permit termination.",
    "sourceUrl": "https://docs.n26.com/cs/Form_Antrag_auf_Abschluss_eines_Basiskontovertrags.pdf",
-   "lawUrl": "https://www.gesetze-im-internet.de/zkg/BJNR072010016.html",
-   "example": "Hypothetical legal comparison: Assume the application guidance’s no-turnover condition is met for 13 months and there is no other statutory termination ground. That period alone is too short: ZKG §42(2)(1) requires more than 24 consecutive months without a holder-initiated payment. The example assumes the source condition is met; it does not equate bank-fee postings with no turnover or assume a particular N26 fee arrangement. Current contract terms separately incorporate the statutory rule.",
-   "context": "The support FAQ currently links a nine-page application bundle whose first page identifies statutory ZKG basic-account background information and says the bank can also close an existing account when continuing it is unreasonable, including the one-year inactivity example. The current legal-document index independently links an eight-page application bundle with the same passage. Its legacy-looking device references are disclosed. Current 19 June 2026 interface terms 6.3 expressly incorporate §42(2) for basic-account customers; that correct contractual clause conflicts with the application guidance and prevents treating the one-year statement as proven operational policy.",
-   "scope": "Current linked German N26 statutory-account application guidance, reviewed 18 October 2026. Narrow published-information discrepancy only; no claim about actual closure, operative contract interpretation or all N26 publications. Same publisher/origin as the supported-country finding.",
-   "date": "2026-10-18",
+   "lawUrl": "https://www.gesetze-im-internet.de/zkg/__42.html",
+   "example": "Hypothetical legal comparison: Assume the application guidance’s no-turnover condition is met for 13 months and there is no other statutory termination ground. That period alone is too short: ZKG § 42(2)(1) requires more than 24 consecutive months without a holder-initiated payment. The example assumes the source condition is met; it does not equate bank-fee postings with no turnover or assume a particular N26 fee arrangement. Current contract terms separately incorporate the statutory rule.",
+   "context": "The current statutory FAQ and current ZKG legal-document index each link an application bundle whose background page expressly says an existing account may be terminated for unreasonableness, including a year without turnover. The legacy-looking device list is disclosed. Current account terms expressly apply § 42(2) ZKG for basic-account holders, contradicting that guidance; actual closure practice was not tested. The operative PDF begins Version 3.0 dated 19 June 2026; the override is in its appended supplementary terms, section 6.3.",
+   "scope": "German statutory Basiskonto published guidance checked 25 October 2026. Only wording assessed; no customer contact, actual refusal, closure, loss or intent tested.",
+   "date": "2026-10-25",
    "langs": [
     "German"
    ],
@@ -21290,16 +21318,24 @@
     {
      "lang": "German",
      "quote": "Das Kreditinstitut ist nicht verpflichtet, ein Girokonto für den Antragsteller zu führen, wenn der Antragsteller keinen Anspruch auf ein Basiskonto hat oder dies für das Kreditinstitut unzumutbar ist. In diesem Fall darf die Bank auch ein bestehendes Konto kündigen. Unzumutbar ist die Eröffnung oder Fortführung einer Kontoverbindung insbesondere, wenn\n○​ der Kunde die Leistungen des Kreditinstitutes missbraucht, insbesondere für gesetzwidrige Transaktionen, z.B. Betrug, Geldwäsche o.ä.\n○​ der Antragsteller Falschangaben macht, die für das Vertragsverhältnis wesentlich sind\n○​ der Antragsteller Mitarbeiter oder Kunden grob belästigt oder gefährdet\n○​ die bezweckte Nutzung des Kontos zur Teilnahme am bargeldlosen Zahlungsverkehr nicht gegeben ist, weil z.B. das Konto durch Handlungen vollstreckender Gläubiger blockiert ist oder ein Jahr lang umsatzlos geführt wird\n○​ nicht sichergestellt ist, dass das Institut die für die Kontoführung und -nutzung vereinbarten üblichen Entgelte erhält\n○​ der Kunde auch im Übrigen die Vereinbarungen nicht einhält.",
-     "tr": "The credit institution is not obliged to maintain a current account for the applicant if the applicant has no entitlement to a basic account or if doing so is unreasonable for the institution. In that case the bank may also terminate an existing account. Opening or continuing an account is unreasonable in particular if: the customer abuses the institution’s services, especially for unlawful transactions such as fraud or money laundering; the applicant gives false information material to the contractual relationship; the applicant seriously harasses or endangers employees or customers; the intended use of the account to participate in cashless payments is absent, for example because enforcement by creditors blocks the account or it has been maintained without turnover for one year; payment of the agreed customary account maintenance and use fees is not assured; or the customer otherwise fails to comply with the agreements.",
+     "tr": "The credit institution is not obliged to maintain a current account for the applicant if the applicant has no entitlement to a basic account or if doing so is unreasonable for the institution. In that case the bank may also terminate an existing account. Opening or continuing an account is unreasonable in particular if:\n• the customer abuses the institution’s services, especially for unlawful transactions such as fraud or money laundering.\n• the applicant gives false information material to the contractual relationship.\n• the applicant seriously harasses or endangers employees or customers.\n• the intended use of the account to participate in cashless payments is absent, for example because enforcement by creditors blocks the account or it has been maintained without turnover for one year.\n• payment of the agreed customary account maintenance and use fees is not assured.\n• the customer otherwise fails to comply with the agreements.",
      "url": "https://docs.n26.com/cs/Form_Antrag_auf_Abschluss_eines_Basiskontovertrags.pdf",
-     "site": "N26 support-linked application — printed page 1"
+     "site": "N26 support-linked statutory application bundle"
     },
     {
      "lang": "German",
-     "quote": "Das Kreditinstitut ist nicht verpflichtet, ein Girokonto für den Antragsteller zu führen, wenn der Antragsteller keinen Anspruch auf ein Basiskonto hat oder dies für das Kreditinstitut unzumutbar ist. In diesem Fall darf die Bank auch ein bestehendes Konto kündigen. Unzumutbar ist die Eröffnung oder Fortführung einer Kontoverbindung insbesondere, wenn\n○ der Kunde die Leistungen des Kreditinstitutes missbraucht, insbesondere für gesetzwidrige Transaktionen, z.B. Betrug, Geldwäsche o.ä.\n○ der Antragsteller Falschangaben macht, die für das Vertragsverhältnis wesentlich sind\n○ der Antragsteller Mitarbeiter oder Kunden grob belästigt oder gefährdet\n○ die bezweckte Nutzung des Kontos zur Teilnahme am bargeldlosen Zahlungsverkehr nicht gegeben ist, weil z.B. das Konto durch Handlungen vollstreckender Gläubiger blockiert ist oder ein Jahr lang umsatzlos geführt wird\n○ nicht sichergestellt ist, dass das Institut die für die Kontoführung und -nutzung vereinbarten üblichen Entgelte erhält\n○ der Kunde auch im Übrigen die Vereinbarungen nicht einhält.",
-     "tr": "The credit institution is not obliged to maintain a current account for the applicant if the applicant has no entitlement to a basic account or if doing so is unreasonable for the institution. In that case the bank may also terminate an existing account. Opening or continuing an account is unreasonable in particular if: the customer abuses the institution’s services, especially for unlawful transactions such as fraud or money laundering; the applicant gives false information material to the contractual relationship; the applicant seriously harasses or endangers employees or customers; the intended use of the account to participate in cashless payments is absent, for example because enforcement by creditors blocks the account or it has been maintained without turnover for one year; payment of the agreed customary account maintenance and use fees is not assured; or the customer otherwise fails to comply with the agreements.",
+     "quote": "Das Kreditinstitut ist nicht verpflichtet, ein Girokonto für den Antragsteller zu führen, wenn der Antragsteller keinen Anspruch auf ein Basiskonto hat oder dies für das Kreditinstitut unzumutbar ist. In diesem Fall darf die Bank auch ein bestehendes Konto kündigen. Unzumutbar ist die Eröffnung oder Fortführung einer Kontoverbindung insbesondere, wenn\n○​ der Kunde die Leistungen des Kreditinstitutes missbraucht, insbesondere für gesetzwidrige Transaktionen, z.B. Betrug, Geldwäsche o.ä.\n○​ der Antragsteller Falschangaben macht, die für das Vertragsverhältnis wesentlich sind\n○​ der Antragsteller Mitarbeiter oder Kunden grob belästigt oder gefährdet\n○​ die bezweckte Nutzung des Kontos zur Teilnahme am bargeldlosen Zahlungsverkehr nicht gegeben ist, weil z.B. das Konto durch Handlungen vollstreckender Gläubiger blockiert ist oder ein Jahr lang umsatzlos geführt wird\n○​ nicht sichergestellt ist, dass das Institut die für die Kontoführung und -nutzung vereinbarten üblichen Entgelte erhält\n○​ der Kunde auch im Übrigen die Vereinbarungen nicht einhält.",
+     "tr": "The credit institution is not obliged to maintain a current account for the applicant if the applicant has no entitlement to a basic account or if doing so is unreasonable for the institution. In that case the bank may also terminate an existing account. Opening or continuing an account is unreasonable in particular if:\n• the customer abuses the institution’s services, especially for unlawful transactions such as fraud or money laundering.\n• the applicant gives false information material to the contractual relationship.\n• the applicant seriously harasses or endangers employees or customers.\n• the intended use of the account to participate in cashless payments is absent, for example because enforcement by creditors blocks the account or it has been maintained without turnover for one year.\n• payment of the agreed customary account maintenance and use fees is not assured.\n• the customer otherwise fails to comply with the agreements.",
      "url": "https://docs.n26.com/legal/01+DE/02+ZKG/de/14zkgBasis_Kontoantrag-de.pdf",
-     "site": "N26 legal-index application — printed page 1"
+     "site": "N26 legal-index statutory application bundle"
+    }
+   ],
+   "ctx": [
+    {
+     "lang": "German",
+     "quote": "Für das Kündigungsrecht von N26 gilt Ziffer 19. der Allgemeinen Geschäftsbedingungen der N26, Grundregeln für die Beziehung zwischen Kunde und Bank, als vereinbart.\n\nFür Kunden die Anspruch auf ein Basiskonto gemäß § 38 ff. Zahlungskontengesetz (ZKG) erheben, gilt entgegen Satz 1 das Kündigungsrecht gemäß § 42 Absatz 2 ZKG als mit dem Endkunden vereinbart.",
+     "tr": "For N26’s termination right, clause19 of N26’s General Terms and Conditions, Basic Rules for the Relationship between Customer and Bank, is agreed.\n\nFor customers claiming a basic account under §§38ff ZKG, contrary to sentence1, the termination right under §42(2) ZKG is agreed with the end customer.",
+     "url": "https://docs.n26.com/legal/01+DE/01+Account/de/03account-terms-and-conditions-de.pdf"
     }
    ],
    "marks": [
@@ -21459,18 +21495,18 @@
    "area": "banking",
    "topic": "cash-deposit-prerequisite",
    "pub": "Revolut — German branch",
-   "src": "Revolut Germany — current Basiskonto unavailability notice, complete one-page bilingual PDF",
+   "src": "Revolut Germany — current bilingual Basiskonto unavailability notice",
    "claim": "says German law prevents its basic accounts because none of its account models accepts cash deposits.",
    "quote": "Gemäß deutschem Recht, insbesondere § 38 Abs. 2 ZKG, muss ein Basiskonto bestimmte Pflichtfunktionen bieten. Dies beinhaltet die Möglichkeit, Bareinzahlungen vorzunehmen. Da wir derzeit für keines unserer Kontomodelle Bareinzahlungen anbieten, sind wir nicht in der Lage, Basiskonten anzubieten.\nFalls du in der Vergangenheit ein Basiskonto bei uns hattest, kannst du die entsprechenden Bedingungen hier einsehen.",
    "lang": "German",
-   "tr": "According to German law, specifically section38(2)ZKG, a basic account has to offer certain mandatory functions. This includes the ability to deposit cash. Since we do not currently offer cash deposits for any of our account models, we are unable to offer basic accounts.\nIf you have held a basic account with us in the past, you can view the corresponding terms here.",
-   "law": "ZKG §38(2) lists basic payment services, but §38(4) expressly limits the required services to the extent the institution generally offers them to ordinary consumer payment-account holders. The absence of cash deposits across all plans therefore does not itself make a statutory basic account legally impossible. §31 requires an institution offering consumer payment accounts to enter a qualifying basic-account contract; §34 allows refusal only under §§35–37. Bundestag explanatory materials pp81–83 expressly apply the service-extent proviso to direct-bank business models. Identity, AML and the specified individual refusal grounds remain relevant.",
-   "sourceUrl": "https://cdn.revolut.com/terms_and_conditions/pdf/basiskonto_9bc2c879_2.0.0_1774609203_de.pdf",
+   "tr": "According to German law, specifically section38(2) ZKG, a basic account must provide certain mandatory functions. This includes the ability to deposit cash. Since we currently offer cash deposits for none of our account models, we are unable to offer basic accounts.\nIf you held a basic account with us in the past, you can view the corresponding terms here.",
+   "law": "ZKG § 38(2) lists basic payment services, but § 38(4) limits the required services to the extent the institution generally offers them to ordinary consumer payment-account holders. No cash deposits across any ordinary model therefore does not itself make a Basiskonto legally impossible. §§ 31 and 34 require a qualifying statutory contract and permit refusal only on the specified individual grounds. Identity, AML and those individual grounds remain relevant.",
+   "sourceUrl": "https://www.revolut.com/de-DE/legal/basic-bank-account/",
    "lawUrl": "https://www.gesetze-im-internet.de/zkg/__38.html",
-   "example": "Hypothetical: a lawfully EU-resident adult has no usable German payment account, makes a complete statutory basic-account application to the German branch, passes required identity/AML checks and triggers no statutory refusal ground. The bank offers consumer current accounts but no cash-in service on any model. Section38(4) limits the required services to that ordinary offering; the published cash-in legal explanation would tell this applicant no basic account can be offered.",
-   "context": "The current German legal index links this exact basic-account notice, and the notice links a one-page bilingual PDF with the same complete wording. That original PDF was retained. It expressly labels older basic-account terms as for past holders; their former minimum 18 condition is not treated as current guidance. Current ordinary-account terms effective 22May2026 describe a consumer payment account supplied by the German branch. The legal page advertises a future3December2026 version, so this research retained the separately linked version applicable today. The finding concerns the stated legal reason, not whether the provider actually processes an application.",
-   "scope": "Germany only, as at 18October2026. Published legal-reason discrepancy; no test application, refusal, enforcement or operational incapacity adjudicated. German-branch consumer payment-account offering is independently supported. No obligation to invent cash-in facilities beyond ordinary offerings is alleged.",
-   "date": "2026-10-18",
+   "example": "Hypothetical: an adult lawfully staying in the EU has no usable German payment account, submits a complete statutory application to the German branch, satisfies identity/AML checks and triggers no statutory refusal ground. The bank offers ordinary consumer payment accounts but no cash-deposit service on any model. § 38(4) limits the required service extent to that offering; absence of deposits alone does not permit the notice’s legal-impossibility conclusion.",
+   "context": "The current German legal products index links this notice, which labels old Basiskonto terms as for past holders and links a current one-page bilingual PDF with the same complete notice. HTML and PDF are separate publications of one drafting origin. Its cash-deposit help independently states that cash deposits are currently unavailable. Ordinary German-branch consumer terms effective 22 May 2026 identify a payment account; the terms page’s default replacement applies from 3 December 2026 and is not treated as operative. The finding concerns the notice’s legal reason, not an operational application test.",
+   "scope": "Germany, current published legal reason checked 25 October 2026. No requirement to create cash facilities beyond the bank’s ordinary offering and no inference about an actual refusal.",
+   "date": "2026-10-25",
    "langs": [
     "German",
     "English"
@@ -21482,16 +21518,38 @@
     {
      "lang": "German",
      "quote": "Gemäß deutschem Recht, insbesondere § 38 Abs. 2 ZKG, muss ein Basiskonto bestimmte Pflichtfunktionen bieten. Dies beinhaltet die Möglichkeit, Bareinzahlungen vorzunehmen. Da wir derzeit für keines unserer Kontomodelle Bareinzahlungen anbieten, sind wir nicht in der Lage, Basiskonten anzubieten.\nFalls du in der Vergangenheit ein Basiskonto bei uns hattest, kannst du die entsprechenden Bedingungen hier einsehen.",
-     "tr": "According to German law, specifically section38(2)ZKG, a basic account has to offer certain mandatory functions. This includes the ability to deposit cash. Since we do not currently offer cash deposits for any of our account models, we are unable to offer basic accounts.\nIf you have held a basic account with us in the past, you can view the corresponding terms here.",
+     "tr": "According to German law, specifically section38(2) ZKG, a basic account must provide certain mandatory functions. This includes the ability to deposit cash. Since we currently offer cash deposits for none of our account models, we are unable to offer basic accounts.\nIf you held a basic account with us in the past, you can view the corresponding terms here.",
+     "url": "https://www.revolut.com/de-DE/legal/basic-bank-account/",
+     "site": "Revolut Germany notice"
+    },
+    {
+     "lang": "English",
+     "quote": "According to German law, specifically section 38 (2) ZKG, a Basic Account has to offer certain obligatory functions. This includes the ability to deposit cash. Since we do not currently offer cash deposits for any of our plans, we are unable to offer Basic Accounts.\nIf you have held a basic account with us in the past, you can view the corresponding terms here.",
+     "tr": "",
+     "url": "https://www.revolut.com/de-DE/legal/basic-bank-account/",
+     "site": "Revolut Germany notice"
+    },
+    {
+     "lang": "German",
+     "quote": "Gemäß deutschem Recht, insbesondere § 38 Abs. 2 ZKG, muss ein Basiskonto bestimmte Pflichtfunktionen bieten. Dies beinhaltet die Möglichkeit, Bareinzahlungen vorzunehmen. Da wir derzeit für keines unserer Kontomodelle Bareinzahlungen anbieten, sind wir nicht in der Lage, Basiskonten anzubieten.\nFalls du in der Vergangenheit ein Basiskonto bei uns hattest, kannst du die entsprechenden Bedingungen hier einsehen.",
+     "tr": "According to German law, specifically section38(2) ZKG, a basic account must provide certain mandatory functions. This includes the ability to deposit cash. Since we currently offer cash deposits for none of our account models, we are unable to offer basic accounts.\nIf you held a basic account with us in the past, you can view the corresponding terms here.",
      "url": "https://cdn.revolut.com/terms_and_conditions/pdf/basiskonto_9bc2c879_2.0.0_1774609203_de.pdf",
-     "site": "Revolut — German branch"
+     "site": "Revolut bilingual PDF"
     },
     {
      "lang": "English",
      "quote": "According to German law, specifically section 38 (2) ZKG, a Basic Account has to offer certain obligatory functions. This includes the ability to deposit cash. Since we do not currently offer cash deposits for any of our plans, we are unable to offer Basic Accounts.\nIf you have held a basic account with us in the past, you can view the corresponding terms here.",
      "tr": "",
      "url": "https://cdn.revolut.com/terms_and_conditions/pdf/basiskonto_9bc2c879_2.0.0_1774609203_de.pdf",
-     "site": "Revolut Germany, same bilingual currentPDF"
+     "site": "Revolut bilingual PDF"
+    }
+   ],
+   "ctx": [
+    {
+     "lang": "German",
+     "quote": "Leider kannst du noch nicht Bargeld auf dein Revolut Konto einzahlen – wir arbeiten daran, diese Funktion so schnell wie möglich in deinem Land verfügbar zu machen.\nWir können derzeit kein genaues Datum angeben, aber wir werden dich benachrichtigen, sobald Bargeldeinzahlungen für dich verfügbar sind. Wir bitten um dein Verständnis.",
+     "tr": "Unfortunately you cannot yet deposit cash into your Revolut account—we are working to make this function available in your country as soon as possible.\nWe cannot currently give an exact date, but we will notify you once cash deposits are available. Thank you for your understanding.",
+     "url": "https://help.revolut.com/de-DE/help/adding-money/can-i-deposit-cash-to-revolut/"
     }
    ],
    "marks": [
@@ -21505,7 +21563,7 @@
     },
     {
      "lang": "English",
-     "text": "Since we do not currently offer cash deposits for any of our account models, we are unable to offer basic accounts."
+     "text": "Since we currently offer cash deposits for none of our account models, we are unable to offer basic accounts."
     }
    ],
    "lawMarks": [
@@ -21660,13 +21718,13 @@
    "quote": "Die kurze Antwort lautet: Sie dürfen so viele Konten besitzen, wie Sie möchten. Es gibt kein Gesetz und keine Vorgabe seitens der Banken oder Sparkassen in Deutschland, die eine maximale Anzahl von Konten vorgeben würde. Für unterschiedliche Zwecke ist es oft sogar sinnvoll, verschiedene Konten bei ein und derselben Sparkasse zu führen.\n\nAllerdings ist zu beachten, dass laut gesetzlicher Regelung nur ein Basis- sowie Pfändungsschutzkonto bundesweit pro Person zu unterhalten ist.",
    "lang": "German",
    "tr": "The short answer is: you may hold as many accounts as you like. There is no law or rule of banks or savings banks in Germany prescribing a maximum number of accounts. For different purposes it is often even sensible to hold different accounts at the same savings bank.\n\nHowever, it must be noted that legislation permits only one basic account and one attachment-protection account per person nationwide.",
-   "law": "ZKG section 35(1) permits refusal where a usable German payment account already exists, but expressly prohibits refusal on that ground once that account has been terminated or its closure notified. This permits a temporary overlap while an old basic account runs to its notified closure date. Section30(2) also recognises expressly agreed basic-account contracts alongside contracts made under the statutory entitlement; section 42 provides limited termination rights rather than a general prohibition on holding two basic accounts. The separate one-P-Konto rule in ZPO section 850k(3) is correct and is not disputed.",
+   "law": "ZKG section 35(1) permits refusal where a usable German payment account already exists, but expressly prohibits refusal on that ground once that account has been terminated or its closure notified. This permits a temporary overlap while an old basic account runs to its notified closure date. That limited compulsory-opening exception contradicts a universal statutory prohibition on holding two Basiskonten. The separate one-P-Konto rule in ZPO section 850k(3) is correct and is not disputed.",
    "sourceUrl": "https://www.rheinhessen-sparkasse.de/de/home/privatkunden/girokonto.html",
    "lawUrl": "https://www.gesetze-im-internet.de/zkg/__35.html",
    "example": "Hypothetical: an otherwise qualifying consumer has received notice that an old German basic account will close at the end of next month, and submits a complete application for a new basic account today. Assume all other eligibility, identity/AML requirements and refusal rules are satisfied. ZKG section 35(1) prevents refusal merely because the old account remains open until its notified closure. For that transitional period the consumer may lawfully have both basic accounts. The FAQ’s statutory one-account prohibition excludes this possibility. Neither account is a P-Konto.",
-   "context": "The current home navigation links the current-account overview; its complete two-paragraph FAQ answer distinguishes general accounts from a purported statutory one-basic-account limit. The current dedicated basic-account page and prices/legal-documents navigation were checked. Material counterevidence: the currently linked statutory application expressly accommodates an existing German account whose closure has been notified, and even multiple existing accounts. Its complete section 5 is retained below. January2025 consumer information describes the basic account as a payment account with basic functions and says opening/use do not depend on occupation or additional services. The FAQ’s separate one-P-Konto statement is correct.",
-   "scope": "Current German ZKG basic accounts; alleged legal prohibition only. This is not a claim to unlimited compulsory accounts while an ordinary usable unclosed German account exists, a pricing allegation, or an actual refusal. Temporary switching overlap with notified closure isolates the error. No inference about other Sparkassen or drafting origin.",
-   "date": "2026-10-18",
+   "context": "The current overview FAQ expressly calls a nationwide one-Basiskonto limit a legal rule, alongside the distinct and correct one-P-Konto rule. The current statutory product/application route remains separately available: the form accommodates existing German accounts, multiple accounts and cancellation/closure/use exceptions. Those correct qualifications do not turn the FAQ’s asserted legal prohibition into a statutory rule. Only published wording is assessed.",
+   "scope": "German statutory Basiskonto published guidance checked 25 October 2026. Only wording assessed; no customer contact, actual refusal, closure, loss or intent tested.",
+   "date": "2026-10-25",
    "langs": [
     "German"
    ],
@@ -21679,15 +21737,27 @@
      "quote": "Die kurze Antwort lautet: Sie dürfen so viele Konten besitzen, wie Sie möchten. Es gibt kein Gesetz und keine Vorgabe seitens der Banken oder Sparkassen in Deutschland, die eine maximale Anzahl von Konten vorgeben würde. Für unterschiedliche Zwecke ist es oft sogar sinnvoll, verschiedene Konten bei ein und derselben Sparkasse zu führen.\n\nAllerdings ist zu beachten, dass laut gesetzlicher Regelung nur ein Basis- sowie Pfändungsschutzkonto bundesweit pro Person zu unterhalten ist.",
      "tr": "The short answer is: you may hold as many accounts as you like. There is no law or rule of banks or savings banks in Germany prescribing a maximum number of accounts. For different purposes it is often even sensible to hold different accounts at the same savings bank.\n\nHowever, it must be noted that legislation permits only one basic account and one attachment-protection account per person nationwide.",
      "url": "https://www.rheinhessen-sparkasse.de/de/home/privatkunden/girokonto.html",
-     "site": "Rheinhessen Sparkasse"
+     "site": "Rheinhessen FAQ"
     }
    ],
    "ctx": [
     {
      "lang": "German",
-     "quote": "5. Angaben zu gegebenenfalls vorhandenen weiteren Zahlungskonten:\nDie folgenden Angaben werden benötigt, um zu prüfen, ob Sie berechtigt sind, ein Basiskonto zu eröffnen.\nIch habe bislang kein Zahlungskonto (z. B. Girokonto) in Deutschland.\nIch habe bereits ein Zahlungskonto (z. B. Girokonto) in Deutschland.\nFalls Sie bereits ein Zahlungskonto in Deutschland haben, machen Sie bitte die folgenden Angaben, soweit für Sie zutreffend. Falls Sie mehrere Zahlungskonten haben, machen Sie die entsprechenden Angaben bitte auf einem Zusatzblatt.\nDieses Zahlungskonto habe ich bei: (Name des kontoführenden Instituts)\nDieses Zahlungskonto hat folgende IBAN-Nummer:\nDieses Zahlungskonto wird als Pfändungsschutzkonto geführt: ja nein\nDas kontoführende Institut hat dieses Zahlungskonto gekündigt beziehungsweise hat mir mitgeteilt, dass es dieses Zahlungskonto schließen wird.\nIch habe dieses Zahlungskonto gekündigt.\nObwohl ich bereits ein Zahlungskonto habe, kann ich dieses aus folgenden Gründen* nicht tatsächlich für die Ausführung von Zahlungsvorgängen nutzen:\nDas Guthaben auf meinem Konto wird gepfändet und es handelt sich bei dem Konto nicht um ein Pfändungsschutzkonto.\nSonstiges:\n* Wenn Sie dieses Konto zum Beispiel nicht für Überweisungen nutzen können, weil Ihnen keine Kontoüberziehung eingeräumt worden ist, gilt dies nicht als Grund.",
-     "tr": "5. Details of any other existing payment accounts:\nThe following information is needed to check your entitlement to open a basic account.\nI have no payment account (for example a current account) in Germany.\nI already have a payment account (for example a current account) in Germany.\nIf you already have an account in Germany, provide the following information where applicable. If you have several payment accounts, give the corresponding information on an additional sheet.\nI hold this payment account with: (name of institution)\nThis payment account has the following IBAN:\nThis payment account is an attachment-protection account: yes/no\nThe institution has terminated this account or informed me it will close it.\nI have terminated this payment account.\nAlthough I already have a payment account, I cannot actually use it for payment transactions for the following reasons*:\nMy balance is attached and the account is not an attachment-protection account.\nOther:\n* If, for example, you cannot use this account for transfers because you have not been granted an overdraft, this does not count as a reason.",
-     "url": "https://www.rheinhessen-sparkasse.de/content/dam/myif/sk-worms-alzey-ried/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf"
+     "quote": "Falls Sie bereits ein Zahlungskonto in Deutschland haben, machen Sie bitte die folgenden Angaben, soweit für Sie zutreffend. Falls Sie mehrere Zahlungskonten haben, machen Sie die entsprechenden Angaben bitte auf einem Zusatzblatt.",
+     "tr": "If you already have a payment account in Germany, please provide the following information where applicable. If you have several payment accounts, please provide the corresponding information on an additional sheet.",
+     "url": "https://www.rheinhessen-sparkasse.de/content/dam/myif/sk-worms-alzey-ried/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true"
+    },
+    {
+     "lang": "German",
+     "quote": "Das kontoführende Institut hat dieses Zahlungskonto gekündigt beziehungsweise hat mir mitgeteilt, dass es dieses Zahlungskonto schließen wird.\nIch habe dieses Zahlungskonto gekündigt.\nObwohl ich bereits ein Zahlungskonto habe, kann ich dieses aus folgenden Gründen* nicht tatsächlich für die Ausführung von Zahlungsvorgängen nutzen:\nDas Guthaben auf meinem Konto wird gepfändet und es handelt sich bei dem Konto nicht um ein Pfändungsschutzkonto.\nSonstiges:",
+     "tr": "The institution maintaining the account has terminated this payment account or has told me that it will close it.\nI have terminated this payment account.\nAlthough I already have a payment account, I cannot actually use it to carry out payment transactions for the following reasons*:\nThe balance in my account is being attached and the account is not an attachment-protection account.\nOther:",
+     "url": "https://www.rheinhessen-sparkasse.de/content/dam/myif/sk-worms-alzey-ried/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true"
+    },
+    {
+     "lang": "German",
+     "quote": "* Wenn Sie dieses Konto zum Beispiel nicht für Überweisungen nutzen können, weil Ihnen keine Kontoüberziehung eingeräumt worden ist, gilt dies nicht als Grund.",
+     "tr": "* If, for example, you cannot use this account for transfers because you have not been granted an overdraft, this does not count as a reason.",
+     "url": "https://www.rheinhessen-sparkasse.de/content/dam/myif/sk-worms-alzey-ried/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true"
     }
    ],
    "marks": [
@@ -21708,19 +21778,19 @@
    "id": "banking-gls-minimum-age-fourteen",
    "area": "banking",
    "topic": "germany-basic-account-age",
-   "pub": "GLS Gemeinschaftsbank eG",
+   "pub": "GLS Bank",
    "src": "Current GLS Basiskonto — minimum age for new customers",
    "claim": "sets a minimum age of 14 for its statutory basic account.",
    "quote": "GLS Basiskonto: Konditionen für Neukund*innen\nLeistungen | Konditionen\nKontoführungsgebühr | 3,80 EUR pro Monat\nBeleghafte Buchungen | 1 EUR\nOnlinebankingverfahren | SecureGo plus App; Sm@rtTAN\nKontoauszüge | monatlich elektronisch in das Online-Postfach\nBesonderheiten | Bargeldeinzahlungen sind an den Geldautomaten an den GLS Standorten Bochum, Berlin, Frankfurt, Freiburg, Hamburg und München kostenfrei, bei der Reisebank gebührenpflichtig (s. Konditionenblatt).\nMindestalter | 14 Jahre\nNutzung | Das Konto ist ausschließlich zur privaten Nutzung gedacht.\nGLS BankCard (girocard Debit Mastercard) | 15 EUR pro Jahr\nGLS Beitrag | Kund*innen, für die wir ausschließlich das gesetzlich definierte Basiskonto führen, zahlen keinen GLS Beitrag.",
    "lang": "German",
    "tr": "GLS basic account: conditions for new customers\nServices | Conditions\nAccount fee |3.80 euros per month\nPaper-based entries |1 euro\nOnline banking method | SecureGo plus app; Sm@rtTAN\nStatements | electronically each month in the online mailbox\nSpecial features | Cash deposits are free at GLS ATMs in Bochum, Berlin, Frankfurt, Freiburg, Hamburg and Munich; fees apply at Reisebank(see conditions sheet).\nMinimum age |14 years\nUse | The account is intended exclusively for private use.\nGLS BankCard(girocard Debit Mastercard) |15 euros per year\nGLS contribution | Customers for whom we operate exclusively the statutory basic account pay no GLS contribution.",
-   "law": "ZKG section 31(1) grants the basic-account right to every qualifying consumer lawfully staying in the EU and imposes no general minimum age of 14. Section34 limits individual refusals to sections 35–37. Civil capacity and representation still matter: BGB sections 106–107 permit a minor aged7 or above to make a contract with the necessary legal representative consent, and section 1629 governs parental representation. A properly represented13-year-old meeting the other statutory and identity/AML conditions is not excluded merely by age. This comparison addresses the expressly labelled minimum-age row, not independent contractual capacity for every child.",
+   "law": "ZKG section 31(1) grants the basic-account right to every qualifying consumer lawfully staying in the EU and imposes no general minimum age of 14. Section 34 limits individual refusals to sections 35–37. Civil capacity and representation still matter: BGB sections 106–107 permit a minor aged 7 or above to make a contract with the necessary legal representative consent, and section 1629 governs parental representation. A properly represented 13-year-old meeting the other statutory and identity/AML conditions is not excluded merely by age. This comparison addresses the expressly labelled minimum-age row, not independent contractual capacity for every child.",
    "sourceUrl": "https://www.gls.de/konten-karten/konten/basiskonto/",
    "lawUrl": "https://www.gesetze-im-internet.de/zkg/__31.html",
-   "example": "Hypothetical: a13-year-old lawfully staying in the EU applies for a German statutory basic account with the necessary parental consent and representation. Assume no usable existing German payment account, no other statutory refusal ground, and all identity/AML requirements are satisfied. The published minimum-age14 row excludes the applicant solely by age, although the statutory right has no such age cutoff. This does not establish that the bank would actually refuse or that its separately advertised U18 account is unavailable.",
-   "context": "The page explicitly ties its Basiskonto to the Zahlungskontengesetz, then labels14 as the minimum age in the complete new-customer conditions table. Material context: the same page separately advertises an ordinary free GLS Konto U18 for ages7–17 and gives a full basic-account requirements list without an age item. Both are retained below. Current prices index links the1September2026 price/services list and October2026 price board; neither establishes a statutory14 minimum. The indexed2016 application and standard-information PDFs return404 directly and no current incoming link was found in the current forms index, so they are not treated as current originals. The actual product directs basic-account applicants to telephone contact.",
-   "scope": "Current German statutory basic-account guidance; explicit minimum-age condition only. Necessary legal consent/representation and all other statutory/identity checks remain assumed. No actual application, refusal, entitlement to credit/overdraft, fee illegality or outcome alleged. Ordinary youth-account availability is acknowledged, not characterised as denial.",
-   "date": "2026-10-18",
+   "example": "Hypothetical: a 13-year-old lawfully staying in the EU applies for a German statutory basic account with the necessary parental consent and representation. Assume no usable existing German payment account, no other statutory refusal ground, and all identity/AML requirements are satisfied. The published minimum-age 14 row excludes the applicant solely by age, although the statutory right has no such age cutoff. This does not establish that the bank would actually refuse or that its separately advertised U18 account is unavailable.",
+   "context": "The current product expressly ties the GLS Basiskonto to the ZKG, says it is offered from 14 and labels 14 as the minimum age in the complete new-customer table. The same page separately advertises an ordinary free GLS Konto U18 for ages 7–17 and gives a Basiskonto requirements list without an age item. The current price table does not establish a statutory 14 minimum. The product directs applicants to telephone contact; no current public statutory form was located. The comparison assumes proper legal representation and all other requirements.",
+   "scope": "German statutory Basiskonto published guidance checked 25 October 2026. Only wording assessed; no customer contact, actual refusal, closure, loss or intent tested.",
+   "date": "2026-10-25",
    "langs": [
     "German"
    ],
@@ -21733,26 +21803,20 @@
      "quote": "GLS Basiskonto: Konditionen für Neukund*innen\nLeistungen | Konditionen\nKontoführungsgebühr | 3,80 EUR pro Monat\nBeleghafte Buchungen | 1 EUR\nOnlinebankingverfahren | SecureGo plus App; Sm@rtTAN\nKontoauszüge | monatlich elektronisch in das Online-Postfach\nBesonderheiten | Bargeldeinzahlungen sind an den Geldautomaten an den GLS Standorten Bochum, Berlin, Frankfurt, Freiburg, Hamburg und München kostenfrei, bei der Reisebank gebührenpflichtig (s. Konditionenblatt).\nMindestalter | 14 Jahre\nNutzung | Das Konto ist ausschließlich zur privaten Nutzung gedacht.\nGLS BankCard (girocard Debit Mastercard) | 15 EUR pro Jahr\nGLS Beitrag | Kund*innen, für die wir ausschließlich das gesetzlich definierte Basiskonto führen, zahlen keinen GLS Beitrag.",
      "tr": "GLS basic account: conditions for new customers\nServices | Conditions\nAccount fee |3.80 euros per month\nPaper-based entries |1 euro\nOnline banking method | SecureGo plus app; Sm@rtTAN\nStatements | electronically each month in the online mailbox\nSpecial features | Cash deposits are free at GLS ATMs in Bochum, Berlin, Frankfurt, Freiburg, Hamburg and Munich; fees apply at Reisebank(see conditions sheet).\nMinimum age |14 years\nUse | The account is intended exclusively for private use.\nGLS BankCard(girocard Debit Mastercard) |15 euros per year\nGLS contribution | Customers for whom we operate exclusively the statutory basic account pay no GLS contribution.",
      "url": "https://www.gls.de/konten-karten/konten/basiskonto/",
-     "site": "GLS Bank"
+     "site": "GLS statutory Basiskonto product and conditions"
     }
    ],
    "ctx": [
     {
      "lang": "German",
      "quote": "In Übereinstimmung mit dem Zahlungskontengesetz stellen wir Verbraucher*innen ab 14 Jahren mit rechtmäßigem Aufenthalt in der Europäischen Union (einschließlich Personen ohne festen Wohnsitz und Asylsuchenden) ein Basiskonto zur Verfügung.",
-     "tr": "In accordance with the Payment Accounts Act, we provide a basic account to consumers aged14 and over lawfully staying in the European Union(including people without a fixed address and asylum seekers).",
+     "tr": "In accordance with the Payment Accounts Act, we provide a basic account to consumers aged14 and over lawfully staying in the European Union, including people without a fixed home and asylum seekers.",
      "url": "https://www.gls.de/konten-karten/konten/basiskonto/"
     },
     {
      "lang": "German",
      "quote": "Menschen mit gültigen Ausweispapieren sowie einem festen Wohnsitz können ab 28 Jahren ein GLS Konto eröffnen. Zwischen 18 und 27 Jahren kannst Du das GLS Konto 18-27 ohne Kontoführungsgebühren nutzen. Für Kinder und Jugendliche von 7 bis 17 Jahren gibt es das kostenlose GLS Konto U18.",
-     "tr": "People with valid identity documents and a fixed residence can open a GLS account from age28. Those aged18–27 can use the GLS18–27 account without account-management charges. Children and young people aged7–17 have the free GLS U18 account.",
-     "url": "https://www.gls.de/konten-karten/konten/basiskonto/"
-    },
-    {
-     "lang": "German",
-     "quote": "Voraussetzungen für ein GLS Basiskonto\nDu eröffnest das Konto alleine & als Einzelkonto\nDu eröffnest das Konto für Dich selbst und nicht im Namen einer anderen Person\nDu führst das Konto als Privatperson und auf eigene Rechnung\nDu lebst in Deutschland oder einem anderen Land der EU\nDu hast noch kein anderes Zahlungskonto in Deutschland",
-     "tr": "Requirements for a GLS basic account\nYou open the account alone as an individual account\nYou open the account for yourself, not in another person’s name\nYou operate the account as a private individual for your own account\nYou live in Germany or another EU country\nYou do not yet have another payment account in Germany",
+     "tr": "People with valid identity documents and a fixed residence can open a GLS account from age28. Between18 and27 you can use the GLS18–27 account without account-management fees. The free GLS U18 account is available for children and young people aged7–17.",
      "url": "https://www.gls.de/konten-karten/konten/basiskonto/"
     }
    ],
@@ -21814,6 +21878,234 @@
    ],
    "lawMarks": [
     "gross annual pension entitlement up to 18,000 euros"
+   ]
+  },
+  "banking-dkb-minimum-age-eighteen": {
+   "id": "banking-dkb-minimum-age-eighteen",
+   "area": "banking",
+   "topic": "germany-basic-account-age",
+   "pub": "DKB",
+   "src": "DKB Basiskonto FAQ — opening requirements",
+   "claim": "states that applicants for its statutory Basiskonto must be at least 18.",
+   "quote": "Voraussetzungen für die Eröffnung\n• du bist Verbraucher*in mit rechtmäßigem Aufenthalt in der EU\n• du bist mindestens 18 Jahre alt\n• du hast noch kein Zahlungskonto bei uns oder bei einer anderen Bank\n• das Konto wird ausschließlich privat genutzt (eine geschäftliche Nutzung ist nicht möglich)",
+   "lang": "German",
+   "tr": "Requirements for opening\n• you are a consumer lawfully staying in the EU\n• you are at least 18 years old\n• you do not yet have a payment account with us or another bank\n• the account is used exclusively privately (business use is not possible)",
+   "law": "ZKG § 31(1) gives qualifying consumers a right to a Basiskonto without a general minimum age of 18. Under § 34(1), refusal is limited to §§ 35–37. The ordinary capacity, consent and representation rules still apply: BGB §§ 106–107 and 1629 permit a properly represented 17-year-old to enter the account contract. An ordinary online adult-account route may have its own age condition; this FAQ and the BFSG passage expressly apply 18 to the statutory Basiskonto.",
+   "sourceUrl": "https://www.dkb.de/fragen-antworten/was-muss-ich-zum-basiskonto-wissen",
+   "lawUrl": "https://www.gesetze-im-internet.de/zkg/__31.html",
+   "example": "Hypothetical: A 17-year-old consumer lawfully staying in the EU applies through the postal statutory route with the necessary legal representative acting and consenting. Assume complete required information, successful identity/AML checks, no usable German payment account and no other statutory refusal ground. Being 17 alone does not remove the statutory entitlement, but the FAQ and BFSG information require 18.",
+   "context": "The same current statutory opening FAQ links a paper application, so its age condition is not merely an age gate for app self-service. The current BFSG information repeats 18 specifically for the Basiskonto and says postal applicants must meet those section 1.3 conditions. The application itself has no stated age cutoff; its generic third-party identity sheet includes an under 16 birth-certificate option, preserved as counterevidence. Separate Girokonto u 18 instructions do not expressly create an exception to the published Basiskonto age rule.",
+   "scope": "German statutory Basiskonto published guidance checked 25 October 2026. Only wording assessed; no customer contact, actual refusal, closure, loss or intent tested.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Voraussetzungen für die Eröffnung\n• du bist Verbraucher*in mit rechtmäßigem Aufenthalt in der EU\n• du bist mindestens 18 Jahre alt\n• du hast noch kein Zahlungskonto bei uns oder bei einer anderen Bank\n• das Konto wird ausschließlich privat genutzt (eine geschäftliche Nutzung ist nicht möglich)",
+     "tr": "Requirements for opening\n• you are a consumer lawfully staying in the EU\n• you are at least 18 years old\n• you do not yet have a payment account with us or another bank\n• the account is used exclusively privately (business use is not possible)",
+     "url": "https://www.dkb.de/fragen-antworten/was-muss-ich-zum-basiskonto-wissen",
+     "site": "DKB Basiskonto FAQ"
+    },
+    {
+     "lang": "German",
+     "quote": "Jeder Verbraucher (das sind Privatpersonen, die ein Produkt oder eine Dienstleistung für persönliche Zwecke nutzen) hat einen Anspruch auf ein Zahlungskonto mit grundlegenden Funktionen, das sogenannte Basiskonto oder auch Konto für Jedermann.\n\nVoraussetzungen dafür, dass Sie ein Basiskonto bei uns bekommen sind unter anderem:\n- Sie sind Verbraucher.\n- Sie leben rechtmäßig in einem Land der Europäischen Union.\n- Sie sind mindestens 18 Jahre alt.\n- Sie haben kein anderes nutzbares Zahlungskonto bei uns oder bei einer anderen Bank.\n- Sie möchten das Konto privat nutzen (eine geschäftliche Nutzung ist nicht möglich).",
+     "tr": "Every consumer (a private person using a product or service for personal purposes) is entitled to a payment account with basic functions, called a Basiskonto or account for everyone.\n\nRequirements for receiving a basic account from us include:\n- You are a consumer.\n- You live lawfully in a European Union country.\n- You are at least 18 years old.\n- You have no other usable payment account with us or another bank.\n- You want to use the account privately (business use is not possible).",
+     "url": "https://dok.dkb.de/pdf/i_barrierefrei_konto_5000_pk.pdf",
+     "site": "DKB BFSG account information, September 2026"
+    }
+   ],
+   "ctx": [
+    {
+     "lang": "German",
+     "quote": "Sie können ein Basiskonto schriftlich beantragen, wenn Sie die in 1.3 genannten Voraussetzungen erfüllen. Den Antrag erhalten Sie von uns auf Anfrage.",
+     "tr": "You may apply for a basic account in writing if you meet the requirements in 1.3. We provide the application on request.",
+     "url": "https://dok.dkb.de/pdf/i_barrierefrei_konto_5000_pk.pdf"
+    },
+    {
+     "lang": "German",
+     "quote": "Für Minderjährige unter 16 Jahren: Sofern kein gültiger Pass oder Personalausweis vorliegt, ist eine Kopie der Geburtsurkunde ausreichend, sofern die Steueridentifikationsnummer des Kindes vorliegt und die Identität des gesetzlichen Vertreters überprüft wurde",
+     "tr": "For minors under 16: If there is no valid passport or identity card, a copy of the birth certificate is sufficient provided the child’s tax identification number is available and the identity of the legal representative has been checked.",
+     "url": "https://dok.dkb.de/pdf/a_basiskonto.pdf"
+    },
+    {
+     "lang": "German",
+     "quote": "Wir übernehmen keine Gewähr für die Aktualität, Richtigkeit und Vollständigkeit der bereitgestellten FAQ für Privatkund*innen.",
+     "tr": "We do not warrant the currentness, accuracy or completeness of the FAQ supplied for private customers.",
+     "url": "https://www.dkb.de/fragen-antworten/was-muss-ich-zum-basiskonto-wissen"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "du bist mindestens 18 Jahre alt"
+    },
+    {
+     "lang": "German",
+     "text": "Sie sind mindestens 18 Jahre alt"
+    },
+    {
+     "lang": "English",
+     "text": "you are at least 18 years old"
+    },
+    {
+     "lang": "English",
+     "text": "You are at least 18 years old"
+    }
+   ],
+   "lawMarks": [
+    "without a general minimum age of 18"
+   ]
+  },
+  "banking-bbva-one-year-inactivity": {
+   "id": "banking-bbva-one-year-inactivity",
+   "area": "banking",
+   "topic": "inactivity",
+   "pub": "BBVA — Germany",
+   "src": "BBVA background information on the Basiskonto — one-year inactivity",
+   "claim": "says in its currently supplied statutory-account background information that one year without turnover can justify closing an account.",
+   "quote": "Das Kreditinstitut ist nicht verpflichtet, ein Girokonto für den Antragsteller zu führen, wenn der Antragsteller keinen Anspruch auf ein Basiskonto hat oder dies für das Kreditinstitut unzumutbar ist. In diesem Fall darf die Bank auch ein bestehendes Konto kündigen. Unzumutbar ist die Eröffnung oder Fortführung einer Kontoverbindung insbesondere, wenn:\n● Kund*innen die Leistungen des Kreditinstitutes missbrauchen, insbesondere für gesetzwidrige Transaktionen, z.B. Betrug, Geldwäsche o.ä.,\n● Antragstellende Falschangaben machen, die für das Vertragsverhältnis wesentlich sind,\n● Antragstellende die BBVA-Mitarbeitenden oder Kund*innen grob belästigen oder gefährden,\n● die bezweckte Nutzung des Kontos zur Teilnahme am bargeldlosen Zahlungsverkehr nicht gegeben ist, weil z.B. das Konto durch Handlungen vollstreckender Gläubiger blockiert ist oder ein Jahr lang umsatzlos geführt wird,\n● nicht sichergestellt ist, dass das Institut die für die Kontoführung und -nutzung vereinbarten üblichen Entgelte erhält,\n● Kund*innen auch im Übrigen die Vereinbarungen nicht einhalten.",
+   "lang": "German",
+   "tr": "The credit institution is not obliged to maintain a current account for the applicant if the applicant has no entitlement to a basic account or maintaining it is unreasonable for the institution. In this case the bank may also terminate an existing account. Opening or continuing an account relationship is unreasonable in particular if:\n● customers misuse the institution’s services, particularly for unlawful transactions, e.g. fraud, money laundering or similar;\n● applicants make false statements material to the contractual relationship;\n● applicants seriously harass or endanger BBVA staff or customers;\n● the intended use of the account for cashless payments is absent, for example because enforcement creditors have blocked the account or it has had no turnover for one year;\n● it is not assured that the institution will receive the usual agreed account-management and usage fees;\n● customers otherwise fail to comply with the agreements.",
+   "law": "ZKG § 42(1) makes the statutory termination grounds exhaustive. For inactivity alone, § 42(2)(1) requires more than 24 consecutive months without a payment transaction ordered by the holder, an agreed termination right and at least two months’ notice. One year without turnover is insufficient by itself. Other statutory grounds for termination remain possible under their own conditions; a general unreasonableness formula cannot replace them.",
+   "sourceUrl": "https://www.bbva.de/content/dam/public-web/alemania/documents/general/rechtliche-dokumente/dokumente-nach-zkg/hintergrundinformationen-zum-basiskonto.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/zkg/__42.html",
+   "example": "Hypothetical legal comparison: Assume BBVA’s background information’s no-turnover condition is met for 13 months and there is no other statutory termination ground. Assume the holder remains entitled, has supplied accurate information, owes no qualifying unpaid fees, has no other usable German account and has not used the account unlawfully or committed relevant misconduct. That period alone is too short: ZKG §42(2)(1) requires more than 24 consecutive months without a holder-ordered payment, an agreed termination right and at least two months’ notice. The example assumes the source condition is met; it does not equate bank-fee postings with no turnover or assert BBVA’s actual charging or closure practice.",
+   "context": "The one-page background sheet is currently linked under documents and applications under ZKG, and expressly identifies the statutory Basiskonto. Its legacy Jedermann-style drafting is disclosed and shares the N26 template. Current separate account explanation says banks may terminate a Basiskonto only where the ZKG permits it; the statutory form preserves existing-account exceptions. These broader correct passages do not remove the express one-year example, and the case does not infer actual closure practice.",
+   "scope": "German statutory Basiskonto published guidance checked 25 October 2026. Only wording assessed; no customer contact, actual refusal, closure, loss or intent tested.",
+   "date": "2026-10-25",
+   "langs": [
+    "German"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Das Kreditinstitut ist nicht verpflichtet, ein Girokonto für den Antragsteller zu führen, wenn der Antragsteller keinen Anspruch auf ein Basiskonto hat oder dies für das Kreditinstitut unzumutbar ist. In diesem Fall darf die Bank auch ein bestehendes Konto kündigen. Unzumutbar ist die Eröffnung oder Fortführung einer Kontoverbindung insbesondere, wenn:\n● Kund*innen die Leistungen des Kreditinstitutes missbrauchen, insbesondere für gesetzwidrige Transaktionen, z.B. Betrug, Geldwäsche o.ä.,\n● Antragstellende Falschangaben machen, die für das Vertragsverhältnis wesentlich sind,\n● Antragstellende die BBVA-Mitarbeitenden oder Kund*innen grob belästigen oder gefährden,\n● die bezweckte Nutzung des Kontos zur Teilnahme am bargeldlosen Zahlungsverkehr nicht gegeben ist, weil z.B. das Konto durch Handlungen vollstreckender Gläubiger blockiert ist oder ein Jahr lang umsatzlos geführt wird,\n● nicht sichergestellt ist, dass das Institut die für die Kontoführung und -nutzung vereinbarten üblichen Entgelte erhält,\n● Kund*innen auch im Übrigen die Vereinbarungen nicht einhalten.",
+     "tr": "The credit institution is not obliged to maintain a current account for the applicant if the applicant has no entitlement to a basic account or maintaining it is unreasonable for the institution. In this case the bank may also terminate an existing account. Opening or continuing an account relationship is unreasonable in particular if:\n● customers misuse the institution’s services, particularly for unlawful transactions, e.g. fraud, money laundering or similar;\n● applicants make false statements material to the contractual relationship;\n● applicants seriously harass or endanger BBVA staff or customers;\n● the intended use of the account for cashless payments is absent, for example because enforcement creditors have blocked the account or it has had no turnover for one year;\n● it is not assured that the institution will receive the usual agreed account-management and usage fees;\n● customers otherwise fail to comply with the agreements.",
+     "url": "https://www.bbva.de/content/dam/public-web/alemania/documents/general/rechtliche-dokumente/dokumente-nach-zkg/hintergrundinformationen-zum-basiskonto.pdf",
+     "site": "BBVA background information on the Basiskonto"
+    }
+   ],
+   "ctx": [
+    {
+     "lang": "German",
+     "quote": "Verbraucherinnen oder Verbraucher können den Basiskontovertrag jederzeit kündigen. Banken können den Basiskontovertrag nur kündigen, wenn das Zahlungskontengesetz dies erlaubt.",
+     "tr": "Consumers can terminate the basic-account contract at any time. Banks can terminate a basic-account contract only where the Payment Accounts Act permits it.",
+     "url": "https://www.bbva.de/content/dam/public-web/alemania/documents/general/rechtliche-dokumente/konto-und-debitkarte/erlauterungs-blatt-zum-girokonto.pdf"
+    },
+    {
+     "lang": "German",
+     "quote": "Jedem Institut ist es freigestellt, darüber hinausgehende Bankdienstleistungen anzubieten. Die Bereitschaft zur Kontoführung ist grundsätzlich gegeben, unabhängig von Art und Höhe der Einkünfte, z.B. Arbeitslosengeld, Sozialhilfe. Eintragungen bei der SCHUFA, die auf schlechte wirtschaftliche Verhältnisse des Kunden bzw. der Kundin hindeuten, sind allein kein Grund, die Führung eines Girokontos zu verweigern.",
+     "tr": "Each institution is free to offer additional banking services. Willingness to maintain the account generally exists regardless of the type or amount of income, such as unemployment benefit or social assistance. SCHUFA entries indicating the customer’s poor economic circumstances are not alone a reason to refuse to maintain a current account.",
+     "url": "https://www.bbva.de/content/dam/public-web/alemania/documents/general/rechtliche-dokumente/dokumente-nach-zkg/hintergrundinformationen-zum-basiskonto.pdf"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "ein Jahr lang umsatzlos geführt wird"
+    },
+    {
+     "lang": "English",
+     "text": "it has had no turnover for one year"
+    }
+   ],
+   "lawMarks": [
+    "more than 24 consecutive months"
+   ]
+  },
+  "banking-bunq-de-p-konto-licence-exemption": {
+   "id": "banking-bunq-de-p-konto-licence-exemption",
+   "area": "banking",
+   "topic": "germany-p-konto",
+   "pub": "bunq — German branch",
+   "src": "Current German statutory Basiskonto application — P-Konto notice",
+   "claim": "says its Dutch banking licence exempts its German statutory basic account from P-Konto duties.",
+   "quote": "Hinweis: Pfändungsschutzkonto (P-Konto) bunq B.V. ist ein in den Niederlanden zugelassenes Kreditinstitut (Vergunning De Nederlandsche Bank). Als ausländisches Institut, das in Deutschland im Wege des Europäischen Passes tätig ist, unterliegt bunq nicht der deutschen Verpflichtung zur Führung eines Pfändungsschutzkontos nach § 850k ZPO. Die Eröffnung eines P-Kontos ist bei bunq daher nicht möglich. Zur Einrichtung eines Pfändungsschutzkontos wenden Sie sich bitte an ein in Deutschland zugelassenes Kreditinstitut.",
+   "lang": "German",
+   "tr": "Note: attachment-protection account (P-Konto)\nbunq B.V. is a credit institution authorised in the Netherlands (licensed by De Nederlandsche Bank). As a foreign institution operating in Germany under the European passport, bunq is not subject to the German obligation to operate an attachment-protection account under §850k ZPO. Opening a P-Konto at bunq is therefore not possible. To set up an attachment-protection account, please contact a credit institution authorised in Germany.",
+   "law": "ZKG § 33(1) expressly allows a qualifying applicant to require that the Basiskonto be operated as a P-Konto already at application. Section 30(3) makes the foreign company the bearer of the German branch’s rights and duties under this statutory-account chapter; a Dutch licence is not an exemption for that German branch product. ZPO § 850k(1)–(3) separately provides conversion on request and the one-P-Konto rule. The finding is limited to the initial request for bunq’s current German statutory Basiskonto, rather than every account held directly in the Netherlands.",
+   "sourceUrl": "https://static.bunq.com/website/documents/bunq-form-application-basic-account-de.pdf",
+   "lawUrl": "https://www.gesetze-im-internet.de/zkg/__33.html",
+   "example": "Hypothetical: an adult lawfully staying in the EU applies through bunq’s published German-branch statutory route, has no usable German payment account or existing P-Konto, supplies all necessary information and identity/AML documents and triggers no statutory refusal ground. They request P-Konto treatment with the application. ZKG § 33(1) permits that request; the published application instead says P-Konto opening is impossible because bunq is Dutch-licensed.",
+   "context": "The current German Basiskonto page links this exact application and directs applications to the Munich branch. The linked English help expressly calls the product a ZKG Basiskonto with German IBAN, gives that same branch address and repeats that P-Konto is unavailable. The form itself names bunq B.V. in Amsterdam and invokes European passporting; those facts are preserved rather than silently treated as a German-incorporated bank. The separate German P-Konto FAQ repeats the Dutch-licence reason. No actual application, refusal, attachment or customer loss was tested.",
+   "scope": "Current German statutory Basiskonto application route checked 25 October 2026. Limited to P-Konto treatment requested at opening; no conclusion about direct Dutch-only accounts or processing/protection amounts.",
+   "date": "2026-10-25",
+   "langs": [
+    "German",
+    "English"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "German",
+     "quote": "Hinweis: Pfändungsschutzkonto (P-Konto) bunq B.V. ist ein in den Niederlanden zugelassenes Kreditinstitut (Vergunning De Nederlandsche Bank). Als ausländisches Institut, das in Deutschland im Wege des Europäischen Passes tätig ist, unterliegt bunq nicht der deutschen Verpflichtung zur Führung eines Pfändungsschutzkontos nach § 850k ZPO. Die Eröffnung eines P-Kontos ist bei bunq daher nicht möglich. Zur Einrichtung eines Pfändungsschutzkontos wenden Sie sich bitte an ein in Deutschland zugelassenes Kreditinstitut.",
+     "tr": "Note: attachment-protection account (P-Konto)\nbunq B.V. is a credit institution authorised in the Netherlands (licensed by De Nederlandsche Bank). As a foreign institution operating in Germany under the European passport, bunq is not subject to the German obligation to operate an attachment-protection account under §850k ZPO. Opening a P-Konto at bunq is therefore not possible. To set up an attachment-protection account, please contact a credit institution authorised in Germany.",
+     "url": "https://static.bunq.com/website/documents/bunq-form-application-basic-account-de.pdf",
+     "site": "bunq German application"
+    },
+    {
+     "lang": "English",
+     "quote": "Can I get a P-Konto with bunq? No, bunq doesn't offer a Pfändungsschutzkonto. You can open one with another bank.",
+     "tr": "",
+     "url": "https://help.bunq.com/articles/how-do-i-apply-for-a-basiskonto-with-bunq",
+     "site": "bunq Basiskonto help"
+    },
+    {
+     "lang": "German",
+     "quote": "Bietet bunq ein P-Konto an? Jetzt, da wir wissen, was ein P-Konto ist und wofür es genutzt wird, lass uns anschauen, ob bunq es anbietet. Auch wenn wir deutsche IBANs unterstützen, stammt unsere Banklizenz aus den Niederlanden, daher bieten wir aktuell P-Kontos nicht an. Wir sind rechtlich verpflichtet, Anweisungen von Behörden zu befolgen, wenn es um eine Pfändung oder Kontopfändung geht. Allerdings bearbeiten wir nur offizielle Schreiben von Behörden.",
+     "tr": "Does bunq offer a P-Konto?\nNow that we know what a P-Konto is and what it is used for, let’s look at whether bunq offers it. Although we support German IBANs, our banking licence comes from the Netherlands, so we do not currently offer P-Konten. We are legally obliged to follow authorities’ instructions concerning attachments or account attachments. However, we process only official letters from authorities.",
+     "url": "https://help.bunq.com/de-de/articles/what-is-a-p-konto",
+     "site": "bunq P-Konto help"
+    }
+   ],
+   "ctx": [
+    {
+     "lang": "English",
+     "quote": "A Basiskonto is a basic payment account that the German law, under the German Payment Accounts Act, the Zahlungskontengesetz (ZKG, §§ 30 to 53), guarantees to almost everyone. It works like an everyday bank account, without an overdraft or credit. With a Basiskonto account, you get a Euro account with a German IBAN, a digital card, transfers, and direct debits.",
+     "tr": "",
+     "url": "https://help.bunq.com/articles/how-do-i-apply-for-a-basiskonto-with-bunq"
+    },
+    {
+     "lang": "English",
+     "quote": "Send the filled out form by postal mail to the following address: bunq B.V. Niederlassung Deutschland Landsbergerstraße 302 80687 München",
+     "tr": "",
+     "url": "https://help.bunq.com/articles/how-do-i-apply-for-a-basiskonto-with-bunq"
+    }
+   ],
+   "marks": [
+    {
+     "lang": "German",
+     "text": "unterliegt bunq nicht der deutschen Verpflichtung zur Führung eines Pfändungsschutzkontos nach § 850k ZPO."
+    },
+    {
+     "lang": "English",
+     "text": "bunq is not subject to the German obligation to operate an attachment-protection account under §850k ZPO."
+    },
+    {
+     "lang": "English",
+     "text": "No, bunq doesn't offer a Pfändungsschutzkonto."
+    },
+    {
+     "lang": "German",
+     "text": "stammt unsere Banklizenz aus den Niederlanden, daher bieten wir aktuell P-Kontos nicht an."
+    },
+    {
+     "lang": "English",
+     "text": "our banking licence comes from the Netherlands, so we do not currently offer P-Konten."
+    }
+   ],
+   "lawMarks": [
+    "allows a qualifying applicant to require that the Basiskonto be operated as a P-Konto already at application"
    ]
   },
   "returns-mercedes-original-packaging": {
@@ -49829,6 +50121,2085 @@
     }
    ],
    "region": "country"
+  },
+  {
+   "id": "banks-de",
+   "area": "banking",
+   "sector": "biz",
+   "title": "Banks in Germany",
+   "one": "Bank",
+   "who": "Banks offering consumer payment accounts in Germany",
+   "lawShort": "German law",
+   "checked": "2026-10-25",
+   "qs": [
+    {
+     "id": "existing-account",
+     "title": "Existing accounts",
+     "q": "When does another account prevent you from obtaining a Basiskonto?",
+     "law": "Only an actually usable German payment account can support refusal on this ground; terminated or notified closure is an exception.",
+     "topic": "banking~germany-multiple-basic-accounts",
+     "lawText": "A bank may refuse a qualifying Basiskonto application on this ground where the applicant already holds a payment account at an institution in Germany and can actually use it for basic payment services. An account abroad, a savings account without payment facilities or a pending application alone does not suffice. The bank may not refuse on this ground if the existing account has been terminated or its closure notified. This is a limit on the statutory right to compel opening, not a general prohibition on holding two Basiskonten. Other statutory refusal grounds remain possible. The separate one-P-Konto rule applies to attachment-protected accounts.",
+     "prov": "ZKG §35(1)–(2); ZPO §850k(3)",
+     "lawUrl": "https://www.gesetze-im-internet.de/zkg/__35.html"
+    },
+    {
+     "id": "cash",
+     "title": "Cash deposits and withdrawals",
+     "q": "Can you deposit and withdraw cash with a Basiskonto?",
+     "law": "Cash services must be available to the extent the bank generally offers them to ordinary consumer account holders.",
+     "topic": "banking~cash-deposit-prerequisite",
+     "lawText": "The statutory basic services include cash deposits and withdrawals. They must be available to the extent the bank generally offers those services to ordinary consumer payment-account holders, including the relevant counter, ATM or network facilities. The bank need not create cash facilities it offers to nobody. The absence of cash deposits across all account models does not itself establish that the law prevents the bank from offering any Basiskonto. There is no universal entitlement to free cash transactions, every ATM or every branch. Prices, identity checks and applicable service conditions must be read separately; the number of services may not be capped merely because the holder has a Basiskonto. For a foreign institution operating through a German branch, the comparison is with the ordinary consumer offering of that branch.",
+     "prov": "ZKG §§30(3), 38(2)–(4)",
+     "lawUrl": "https://www.gesetze-im-internet.de/zkg/__38.html"
+    },
+    {
+     "id": "payments",
+     "title": "Transfers, direct debits and card payments",
+     "q": "Can you make transfers, direct debits and card payments with a Basiskonto?",
+     "law": "Basic services include transfers, standing orders, direct debits and payment-card transactions within the bank’s general offering.",
+     "topic": null,
+     "lawText": "The basic payment services include transfers and standing orders, direct debits including one-off debits, and payment-card transactions or an equivalent payment instrument, without a credit entitlement. These services include payments involving another payment-service provider in the EEA. They must be provided to the extent generally offered to ordinary consumer account holders, through the bank’s usual payment-order channels. A bank need not supply channels it offers to nobody. A credit card, a particular card brand, foreign-currency service or every country in SEPA is not automatically required. A free-transaction allowance followed by charges is not a prohibition on further transactions; the number of basic services may not itself be restricted. For a foreign institution operating through a German branch, the comparison is with the ordinary consumer offering of that branch.",
+     "prov": "ZKG §§30(3), 38(2)–(4)",
+     "lawUrl": "https://www.gesetze-im-internet.de/zkg/__38.html"
+    },
+    {
+     "id": "p-konto",
+     "title": "P-Konto on request",
+     "q": "Can your Basiskonto be opened or converted into a P-Konto?",
+     "law": "P-Konto treatment can be requested at application or later; each person may hold only one P-Konto.",
+     "topic": "banking~germany-p-konto",
+     "lawText": "An applicant may already request that a Basiskonto be operated as a Pfändungsschutzkonto (P-Konto) in the statutory application. A natural person may also require an existing payment account to be operated as a P-Konto, including when its balance is negative. Only one P-Konto may be held per person, and a P-Konto must operate on a credit-balance basis. Merely opening an ordinary Basiskonto does not automatically create attachment protection. This question concerns availability on request, not protection amounts or conversion-processing deadlines.",
+     "prov": "ZKG §33(1); ZPO §850k(1)–(3)",
+     "lawUrl": "https://www.gesetze-im-internet.de/zpo/__850k.html"
+    },
+    {
+     "id": "bundling",
+     "title": "Extra products and membership",
+     "q": "Must you buy another product or become a member to get a Basiskonto?",
+     "law": "No tied additional services; narrow exceptions permit certain occupational restrictions and uniformly required cooperative shares.",
+     "topic": null,
+     "lawText": "Opening, the statutory content and use of a Basiskonto may not be tied to additional services such as another account product, insurance or an overdraft. Optional extras and ordinary account or transaction charges are not prohibited tied services. An occupational restriction is permitted only where the bank’s account business exclusively serves that occupational group. Requiring cooperative shares is permitted only if the institution imposes that condition equally on all customers. A discount condition is not automatically an opening condition. Read the actual product conditions and ordinary bank offering before classifying a profession or membership restriction.",
+     "prov": "ZKG §32(1)–(2); §39",
+     "lawUrl": "https://www.gesetze-im-internet.de/zkg/__32.html"
+    }
+   ],
+   "ents": [
+    {
+     "id": "deutsche-bank",
+     "name": "Deutsche Bank (including Postbank)",
+     "state": "Hessen",
+     "web": "https://www.deutsche-bank.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.deutsche-bank.de/dam/deutschebank/de/shared/pdf/konto-karte/ser-basiskonto-neukunden-vj-antrag-ag.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.deutsche-bank.de/dam/deutschebank/de/shared/pdf/konto-karte/ser-basiskonto-neukunden-vj-antrag-ag.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.deutsche-bank.de/dam/deutschebank/de/shared/pdf/konto-karte/ser-basiskonto-neukunden-vj-antrag-ag.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.deutsche-bank.de/dam/deutschebank/de/shared/pdf/konto-karte/ser-basiskonto-neukunden-vj-antrag-ag.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.deutsche-bank.de/dam/deutschebank/de/shared/pdf/konto-karte/ser-basiskonto-neukunden-vj-antrag-ag.pdf",
+       "2026-10-25"
+      ]
+     ],
+     "op": "Deutsche Bank AG"
+    },
+    {
+     "id": "commerzbank",
+     "name": "Commerzbank (including comdirect)",
+     "state": "Hessen",
+     "web": "https://www.commerzbank.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.commerzbank.de/portal/media/efw-dokumente/antrag_basiskonto.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.commerzbank.de/portal/media/efw-dokumente/basiskonto_info.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.commerzbank.de/portal/media/efw-dokumente/basiskonto_info.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.commerzbank.de/portal/media/efw-dokumente/antrag_basiskonto.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.commerzbank.de/portal/media/efw-dokumente/basiskonto_info.pdf",
+       "2026-10-25"
+      ]
+     ],
+     "op": "Commerzbank AG"
+    },
+    {
+     "id": "hypovereinsbank",
+     "name": "HypoVereinsbank",
+     "state": "Bayern",
+     "web": "https://www.hypovereinsbank.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.hypovereinsbank.de/content/dam/hypovereinsbank/privatkunden/pdf/Girokonten/HVB-BasisKonto-Antragsformular.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.hypovereinsbank.de/hvb/privatkunden/banking-im-alltag/girokonten/basiskonto",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.hypovereinsbank.de/hvb/privatkunden/banking-im-alltag/girokonten/basiskonto",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.hypovereinsbank.de/content/dam/hypovereinsbank/privatkunden/pdf/Girokonten/HVB-BasisKonto-Antragsformular.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.hypovereinsbank.de/content/dam/hypovereinsbank/privatkunden/pdf/Girokonten/HVB-BasisKonto-Antragsformular.pdf",
+       "2026-10-25"
+      ]
+     ],
+     "op": "UniCredit Bank GmbH"
+    },
+    {
+     "id": "santander",
+     "name": "Santander Consumer Bank",
+     "state": "Nordrhein-Westfalen",
+     "web": "https://www.santander.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.openbank.de/content/dam/openbank/dokumente/formulare/antrag-auf-abschluss-eines-basiskontos.pdf.coredownload.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.santander.de/content/pdf/informationen/vorvertragliche-informationen-girokonten.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.santander.de/content/pdf/informationen/vorvertragliche-informationen-girokonten.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.openbank.de/content/dam/openbank/dokumente/formulare/antrag-auf-abschluss-eines-basiskontos.pdf.coredownload.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.openbank.de/content/dam/openbank/dokumente/formulare/antrag-auf-abschluss-eines-basiskontos.pdf.coredownload.pdf",
+       "2026-10-25"
+      ]
+     ],
+     "op": "Openbank Deutschland AG (formerly Santander Consumer Bank AG)"
+    },
+    {
+     "id": "targobank",
+     "name": "TARGOBANK",
+     "state": "Nordrhein-Westfalen",
+     "web": "https://www.targobank.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.targobank.de/de/download/Basis-Konto_Antrag.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.targobank.de/de/download/information_zu_zahlungskonten_und_zahlungsdiensten.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.targobank.de/de/download/information_zu_zahlungskonten_und_zahlungsdiensten.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.targobank.de/de/download/Basis-Konto_Antrag.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.targobank.de/de/download/Basis-Konto_Antrag.pdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "ing",
+     "name": "ING",
+     "state": "Hessen",
+     "web": "https://www.ing.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.ing.de/girokonto/kundenservice/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ing.de/binaries/content/assets/pdfdelivererfiles/dokumente/2636_allgemeine_informationen_basiskonto/allgemeine_informationen_basiskonto_2636_06.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ing.de/binaries/content/assets/pdfdelivererfiles/dokumente/2636_allgemeine_informationen_basiskonto/allgemeine_informationen_basiskonto_2636_06.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ing.de/girokonto/kundenservice/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ing.de/binaries/content/assets/pdfdelivererfiles/dokumente/2636_allgemeine_informationen_basiskonto/allgemeine_informationen_basiskonto_2636_06.pdf",
+       "2026-10-25"
+      ]
+     ],
+     "op": "ING-DiBa AG"
+    },
+    {
+     "id": "dkb",
+     "name": "DKB",
+     "state": "Berlin",
+     "web": "https://www.dkb.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://dok.dkb.de/pdf/a_basiskonto.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://dok.dkb.de/pdf/i_barrierefrei_konto_5000_pk.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://dok.dkb.de/pdf/i_barrierefrei_konto_5000_pk.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://dok.dkb.de/pdf/a_basiskonto.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://dok.dkb.de/pdf/a_basiskonto.pdf",
+       "2026-10-25"
+      ]
+     ],
+     "op": "Deutsche Kreditbank AG"
+    },
+    {
+     "id": "consorsbank",
+     "name": "Consorsbank",
+     "state": "Bayern",
+     "web": "https://www.consorsbank.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.consorsbank.de/content/dam/de-cb/editorial/nc/formulare/zahlungsverkehr/Antrag-auf-Abschluss-eines-Basiskontovertrags.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.consorsbank.de/web/Girokonto/Basiskonto",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.consorsbank.de/web/Girokonto/Basiskonto",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.consorsbank.de/content/dam/de-cb/editorial/nc/formulare/zahlungsverkehr/Antrag-auf-Abschluss-eines-Basiskontovertrags.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.consorsbank.de/content/dam/de-cb/editorial/nc/formulare/zahlungsverkehr/Antrag-auf-Abschluss-eines-Basiskontovertrags.pdf",
+       "2026-10-25"
+      ]
+     ],
+     "op": "BNP Paribas S.A., Niederlassung Deutschland"
+    },
+    {
+     "id": "norisbank",
+     "name": "norisbank",
+     "state": "Nordrhein-Westfalen",
+     "web": "https://www.norisbank.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.norisbank.de/dam/norisbank/de/shared/pdf/nb-bundle-nk-basiskonto-beschreibb.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.norisbank.de/dam/norisbank/de/shared/pdf/nb-bundle-nk-basiskonto-beschreibb.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.norisbank.de/dam/norisbank/de/shared/pdf/nb-bundle-nk-basiskonto-beschreibb.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.norisbank.de/dam/norisbank/de/shared/pdf/nb-bundle-nk-basiskonto-beschreibb.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.norisbank.de/dam/norisbank/de/shared/pdf/nb-bundle-nk-basiskonto-beschreibb.pdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "n26",
+     "name": "N26",
+     "state": "Berlin",
+     "web": "https://n26.com",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://docs.n26.com/cs/Form_Antrag_auf_Abschluss_eines_Basiskontovertrags.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://docs.n26.com/legal/01+DE/02+ZKG/de/03zkg-basic-account-de.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://docs.n26.com/legal/01+DE/02+ZKG/de/03zkg-basic-account-de.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://docs.n26.com/cs/Form_Antrag_auf_Abschluss_eines_Basiskontovertrags.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://docs.n26.com/cs/Form_Antrag_auf_Abschluss_eines_Basiskontovertrags.pdf",
+       "2026-10-25"
+      ]
+     ],
+     "op": "N26 Bank SE"
+    },
+    {
+     "id": "c24",
+     "name": "C24 Bank",
+     "state": "Hessen",
+     "web": "https://www.c24.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://api.c24.de/api/documents/application_basic_payment_account/download/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://api.c24.de/api/documents/application_basic_payment_account/download/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://api.c24.de/api/documents/c24_current_accounts_conditions/download/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://api.c24.de/api/documents/application_basic_payment_account/download/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://api.c24.de/api/documents/application_basic_payment_account/download/",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "revolut",
+     "name": "Revolut — German branch",
+     "state": "Berlin",
+     "web": "https://www.revolut.com/de-DE",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.revolut.com/de-DE/legal/basic-bank-account/",
+       "2026-10-25",
+       "The current notice does not explain this point; linked older account terms are for former holders."
+      ],
+      [
+       "bad",
+       "banking-revolut-de-cash-deposit-prerequisite",
+       "https://www.revolut.com/de-DE/legal/basic-bank-account/",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.revolut.com/de-DE/legal/basic-bank-account/",
+       "2026-10-25",
+       "The current notice does not explain this point; linked older account terms are for former holders."
+      ],
+      [
+       "na",
+       "",
+       "https://www.revolut.com/de-DE/legal/basic-bank-account/",
+       "2026-10-25",
+       "The current notice does not explain this point; linked older account terms are for former holders."
+      ],
+      [
+       "na",
+       "",
+       "https://www.revolut.com/de-DE/legal/basic-bank-account/",
+       "2026-10-25",
+       "The current notice does not explain this point; linked older account terms are for former holders."
+      ]
+     ],
+     "op": "Revolut Bank UAB, Zweigniederlassung Deutschland"
+    },
+    {
+     "id": "bunq",
+     "name": "bunq — Germany",
+     "state": "Bayern",
+     "web": "https://www.bunq.com/de-de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://static.bunq.com/website/documents/bunq-form-application-basic-account-de.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bunq.com/de-de/basiskonto",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bunq.com/de-de/basiskonto",
+       "2026-10-25"
+      ],
+      [
+       "bad",
+       "banking-bunq-de-p-konto-licence-exemption",
+       "https://static.bunq.com/website/documents/bunq-form-application-basic-account-de.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bunq.com/de-de/basiskonto",
+       "2026-10-25"
+      ]
+     ],
+     "op": "bunq B.V., acting through bunq B.V. Niederlassung Deutschland"
+    },
+    {
+     "id": "bbva",
+     "name": "BBVA — Germany",
+     "state": "Hessen",
+     "web": "https://www.bbva.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.bbva.de/content/dam/public-web/alemania/documents/general/rechtliche-dokumente/dokumente-nach-zkg/antrag-basiskonto.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bbva.de/content/dam/public-web/alemania/documents/general/rechtliche-dokumente/konto-und-debitkarte/bbva-allgemeine-informationen-zu-zahlungskonten.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bbva.de/content/dam/public-web/alemania/documents/general/rechtliche-dokumente/konto-und-debitkarte/bbva-allgemeine-informationen-zu-zahlungskonten.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bbva.de/content/dam/public-web/alemania/documents/general/rechtliche-dokumente/dokumente-nach-zkg/antrag-basiskonto.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.bbva.de/content/dam/public-web/alemania/documents/general/rechtliche-dokumente/konto-und-debitkarte/bbva-allgemeine-informationen-zu-zahlungskonten.pdf",
+       "2026-10-25"
+      ]
+     ],
+     "op": "Banco Bilbao Vizcaya Argentaria, S.A., Niederlassung Deutschland"
+    },
+    {
+     "id": "berliner-sparkasse",
+     "name": "Berliner Sparkasse",
+     "state": "Berlin",
+     "web": "https://www.berliner-sparkasse.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.berliner-sparkasse.de/content/dam/myif/berliner-sk/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.berliner-sparkasse.de/content/dam/myif/berliner-sk/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.berliner-sparkasse.de/content/dam/myif/berliner-sk/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.berliner-sparkasse.de/content/dam/myif/berliner-sk/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.berliner-sparkasse.de/content/dam/myif/berliner-sk/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ],
+     "op": "Berliner Sparkasse — BSK 1818 AG"
+    },
+    {
+     "id": "haspa",
+     "name": "Hamburger Sparkasse",
+     "state": "Hamburg",
+     "web": "https://www.haspa.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.haspa.de/content/dam/myif/haspa/work/dokumente/pdf/allgemein/antrag-auf-abschluss-einen-basiskontovertrages-data.pdf?stref=opener",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.haspa.de/content/dam/myif/haspa/work/dokumente/pdf/haspa/informationen-fuer-den-verbraucher-data.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.haspa.de/content/dam/myif/haspa/work/dokumente/pdf/haspa/informationen-fuer-den-verbraucher-data.pdf?n=true",
+       "2026-10-25",
+       "The sheet lists everyday payments; the current price list also covers EEA transfers."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.haspa.de/content/dam/myif/haspa/work/dokumente/pdf/haspa/informationen-fuer-den-verbraucher-data.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.haspa.de/content/dam/myif/haspa/work/dokumente/pdf/haspa/informationen-fuer-den-verbraucher-data.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "ksk-koeln",
+     "name": "Kreissparkasse Köln",
+     "state": "Nordrhein-Westfalen",
+     "web": "https://www.ksk-koeln.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.ksk-koeln.de/content/dam/myif/kskkoeln/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ksk-koeln.de/content/dam/myif/kskkoeln/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ksk-koeln.de/content/dam/myif/kskkoeln/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ksk-koeln.de/content/dam/myif/kskkoeln/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ksk-koeln.de/content/dam/myif/kskkoeln/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "sskm",
+     "name": "Stadtsparkasse München",
+     "state": "Bayern",
+     "web": "https://www.sskm.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.sskm.de/content/dam/myif/sskm/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sskm.de/content/dam/myif/sskm/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sskm.de/content/dam/myif/sskm/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sskm.de/content/dam/myif/sskm/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sskm.de/content/dam/myif/sskm/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "sparkasse-hannover",
+     "name": "Sparkasse Hannover",
+     "state": "Niedersachsen",
+     "web": "https://www.sparkasse-hannover.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-hannover.de/content/dam/myif/spk-hannover/work/dokumente/pdf/vertragsbedingungen/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-hannover.de/content/dam/myif/spk-hannover/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-hannover.de/content/dam/myif/spk-hannover/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-hannover.de/content/dam/myif/spk-hannover/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-hannover.de/content/dam/myif/spk-hannover/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "osd",
+     "name": "Ostsächsische Sparkasse Dresden",
+     "state": "Sachsen",
+     "web": "https://www.ostsaechsische-sparkasse-dresden.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.ostsaechsische-sparkasse-dresden.de/content/dam/myif/ospa-dresden/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ostsaechsische-sparkasse-dresden.de/content/dam/myif/ospa-dresden/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ostsaechsische-sparkasse-dresden.de/content/dam/myif/ospa-dresden/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ostsaechsische-sparkasse-dresden.de/content/dam/myif/ospa-dresden/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ostsaechsische-sparkasse-dresden.de/content/dam/myif/ospa-dresden/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "rheinhessen",
+     "name": "Rheinhessen Sparkasse",
+     "state": "Rheinland-Pfalz",
+     "web": "https://www.rheinhessen-sparkasse.de",
+     "rows": [
+      [
+       "bad",
+       "banking-rheinhessen-one-basic-account",
+       "https://www.rheinhessen-sparkasse.de/de/home/privatkunden/girokonto.html",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.rheinhessen-sparkasse.de/content/dam/myif/sk-worms-alzey-ried/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.rheinhessen-sparkasse.de/content/dam/myif/sk-worms-alzey-ried/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.rheinhessen-sparkasse.de/content/dam/myif/sk-worms-alzey-ried/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.rheinhessen-sparkasse.de/content/dam/myif/sk-worms-alzey-ried/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "foerde",
+     "name": "Förde Sparkasse",
+     "state": "Schleswig-Holstein",
+     "web": "https://www.foerde-sparkasse.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.foerde-sparkasse.de/content/dam/myif/foerde-spk/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.foerde-sparkasse.de/content/dam/myif/foerde-spk/work/dokumente/pdf/allgemein/zkg/Entgeltinformation-04_Basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The current Basiskonto fee sheet lists the relevant cash and payment services."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.foerde-sparkasse.de/content/dam/myif/foerde-spk/work/dokumente/pdf/allgemein/zkg/Entgeltinformation-04_Basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The current Basiskonto fee sheet lists the relevant cash and payment services."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.foerde-sparkasse.de/content/dam/myif/foerde-spk/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "amb",
+       "",
+       "https://www.foerde-sparkasse.de/content/dam/myif/foerde-spk/work/dokumente/pdf/allgemein/zkg/Entgeltinformation-04_Basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The form and information say no extras are required; the fee sheet also says the packaged account cannot be contracted separately."
+      ]
+     ]
+    },
+    {
+     "id": "uckermark",
+     "name": "Sparkasse Uckermark",
+     "state": "Brandenburg",
+     "web": "https://www.spk-uckermark.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.spk-uckermark.de/content/dam/myif/sk-uckermark/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.spk-uckermark.de/content/dam/myif/sk-uckermark/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.spk-uckermark.de/content/dam/myif/sk-uckermark/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.spk-uckermark.de/content/dam/myif/sk-uckermark/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.spk-uckermark.de/content/dam/myif/sk-uckermark/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "biberach",
+     "name": "Kreissparkasse Biberach",
+     "state": "Baden-Württemberg",
+     "web": "https://www.ksk-bc.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.ksk-bc.de/content/dam/myif/ksk-biberach/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ksk-bc.de/content/dam/myif/ksk-biberach/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ksk-bc.de/content/dam/myif/ksk-biberach/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ksk-bc.de/content/dam/myif/ksk-biberach/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ksk-bc.de/content/dam/myif/ksk-biberach/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "koelnbonn",
+     "name": "Sparkasse KölnBonn",
+     "state": "Nordrhein-Westfalen",
+     "web": "https://www.sparkasse-koelnbonn.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-koelnbonn.de/content/dam/myif/spk-koelnbonn/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-koelnbonn.de/content/dam/myif/spk-koelnbonn/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-koelnbonn.de/content/dam/myif/spk-koelnbonn/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-koelnbonn.de/content/dam/myif/spk-koelnbonn/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-koelnbonn.de/content/dam/myif/spk-koelnbonn/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "leipzig",
+     "name": "Sparkasse Leipzig",
+     "state": "Sachsen",
+     "web": "https://www.sparkasse-leipzig.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-leipzig.de/content/dam/myif/sksk-leipzig/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-leipzig.de/content/dam/myif/sksk-leipzig/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-leipzig.de/content/dam/myif/sksk-leipzig/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-leipzig.de/content/dam/myif/sksk-leipzig/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-leipzig.de/content/dam/myif/sksk-leipzig/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "nuernberg",
+     "name": "Sparkasse Nürnberg",
+     "state": "Bayern",
+     "web": "https://www.sparkasse-nuernberg.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-nuernberg.de/content/dam/myif/spk-nuernberg/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-nuernberg.de/content/dam/myif/spk-nuernberg/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-nuernberg.de/content/dam/myif/spk-nuernberg/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-nuernberg.de/content/dam/myif/spk-nuernberg/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-nuernberg.de/content/dam/myif/spk-nuernberg/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "freiburg",
+     "name": "Sparkasse Freiburg-Nördlicher Breisgau",
+     "state": "Baden-Württemberg",
+     "web": "https://www.sparkasse-freiburg.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-freiburg.de/content/dam/myif/spk-freiburg-breisgau/work/dokumente/pdf/allgemein/Antrag_Abschluss_Basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-freiburg.de/content/dam/myif/spk-freiburg-breisgau/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-freiburg.de/content/dam/myif/spk-freiburg-breisgau/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-freiburg.de/content/dam/myif/spk-freiburg-breisgau/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-freiburg.de/content/dam/myif/spk-freiburg-breisgau/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "bremen",
+     "name": "Sparkasse Bremen",
+     "state": "Bremen",
+     "web": "https://www.sparkasse-bremen.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-bremen.de/content/dam/myif/sk-bremen/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-bremen.de/content/dam/myif/sk-bremen/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-bremen.de/content/dam/myif/sk-bremen/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-bremen.de/content/dam/myif/sk-bremen/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-bremen.de/content/dam/myif/sk-bremen/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "frankfurter-sparkasse",
+     "name": "Frankfurter Sparkasse (including 1822direkt)",
+     "state": "Hessen",
+     "web": "https://www.frankfurter-sparkasse.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.frankfurter-sparkasse.de/content/dam/myif/sk-frankfurt/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.frankfurter-sparkasse.de/content/dam/myif/sk-frankfurt/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.frankfurter-sparkasse.de/content/dam/myif/sk-frankfurt/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.frankfurter-sparkasse.de/content/dam/myif/sk-frankfurt/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.frankfurter-sparkasse.de/content/dam/myif/sk-frankfurt/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "mittelthueringen",
+     "name": "Sparkasse Mittelthüringen",
+     "state": "Thüringen",
+     "web": "https://www.sparkasse-mittelthueringen.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-mittelthueringen.de/content/dam/myif/spk-mittelthueringen/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-mittelthueringen.de/content/dam/myif/spk-mittelthueringen/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-mittelthueringen.de/content/dam/myif/spk-mittelthueringen/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-mittelthueringen.de/content/dam/myif/spk-mittelthueringen/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-mittelthueringen.de/content/dam/myif/spk-mittelthueringen/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "magdeburg",
+     "name": "Sparkasse MagdeBurg",
+     "state": "Sachsen-Anhalt",
+     "web": "https://www.sparkasse-magdeburg.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-magdeburg.de/content/dam/myif/spk-magdeburg/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25",
+       "The linked application recognises existing-account closure and actual-usability exceptions."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-magdeburg.de/content/dam/myif/spk-magdeburg/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists cash deposits and withdrawals."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-magdeburg.de/content/dam/myif/spk-magdeburg/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information lists transfers, standing orders, direct debits and debitcard payments."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-magdeburg.de/content/dam/myif/spk-magdeburg/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information expressly offers a P-Konto on request."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-magdeburg.de/content/dam/myif/spk-magdeburg/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25",
+       "The linked information says additional services are not required."
+      ]
+     ]
+    },
+    {
+     "id": "saarbruecken",
+     "name": "Sparkasse Saarbrücken",
+     "state": "Saarland",
+     "web": "https://www.sparkasse-saarbruecken.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-saarbruecken.de/content/dam/myif/spk-saarbruecken/work/dokumente/pdf/allgemein/antrag-auf-abschluss-eines-basiskontovertrags.pdf?n=true",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-saarbruecken.de/content/dam/myif/spk-saarbruecken/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-saarbruecken.de/content/dam/myif/spk-saarbruecken/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-saarbruecken.de/content/dam/myif/spk-saarbruecken/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.sparkasse-saarbruecken.de/content/dam/myif/spk-saarbruecken/work/dokumente/pdf/vertragsbedingungen/information-fuer-den-verbraucher-basiskonto.pdf?n=true",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "ospa",
+     "name": "OstseeSparkasse Rostock",
+     "state": "Mecklenburg-Vorpommern",
+     "web": "https://www.ospa.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.ospa.de/content/dam/myif/ostseespk-rostock/work/dokumente/pdf/vertragsbedingungen/Konten/182198000.pdf?n=true",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ospa.de/content/dam/myif/ostseespk-rostock/work/dokumente/pdf/vertragsbedingungen/Verbraucher-Info/182195600.pdf?n=true",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ospa.de/content/dam/myif/ostseespk-rostock/work/dokumente/pdf/vertragsbedingungen/Verbraucher-Info/182195600.pdf?n=true",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ospa.de/content/dam/myif/ostseespk-rostock/work/dokumente/pdf/vertragsbedingungen/Verbraucher-Info/182195600.pdf?n=true",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ospa.de/content/dam/myif/ostseespk-rostock/work/dokumente/pdf/vertragsbedingungen/Verbraucher-Info/182195600.pdf?n=true",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "gls",
+     "name": "GLS Bank",
+     "state": "Nordrhein-Westfalen",
+     "web": "https://www.gls.de",
+     "rows": [
+      [
+       "amb",
+       "",
+       "https://www.gls.de/konten-karten/konten/basiskonto/",
+       "2026-10-25",
+       "The summary omits closure and unusable-account exceptions; a current qualifying application could not be located."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.gls.de/konten-karten/konten/basiskonto/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.gls.de/media/PDF/Broschueren/GLS_Bank/Barrierefreiheit/269170_Information_fuer_Verbraucher_nach_dem_Barrierefreiheitsstaerkungsgesetz__BFSG__-_Zahlungsdiensterahmenvertrag.pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.gls.de/gls-bank/service/fragen-antworten/allgemeines-finanz-glossar/was-ist-ein-pfaendungsschutzkonto/",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://www.gls.de/konten-karten/konten/basiskonto/",
+       "2026-10-25"
+      ]
+     ],
+     "op": "GLS Gemeinschaftsbank eG"
+    },
+    {
+     "id": "bbbank",
+     "name": "BBBank",
+     "state": "Baden-Württemberg",
+     "web": "https://www.bbbank.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/antrag-auf-abschluss-eines-basiskontovertrags-1",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/informationsbogen-fuer-verbraucher-zum-basiskonto",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/informationsbogen-fuer-verbraucher-zum-basiskonto",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/antrag-auf-abschluss-eines-basiskontovertrags-1",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/informationsbogen-fuer-verbraucher-zum-basiskonto",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "berliner-volksbank",
+     "name": "Berliner Volksbank",
+     "state": "Berlin",
+     "web": "https://www.berliner-volksbank.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/antrag_basiskontopdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/entgeltinformation-basiskontopdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/entgeltinformation-basiskontopdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/antrag_basiskontopdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/antrag_basiskontopdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "frankfurter-volksbank",
+     "name": "Frankfurter Volksbank Rhein/Main",
+     "state": "Hessen",
+     "web": "https://www.frankfurter-volksbank.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/antrag-basiskonto-1",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/produktinformation-fvb-basiskonto-30.04.2026pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/produktinformation-fvb-basiskonto-30.04.2026pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/produktinformation-fvb-basiskonto-30.04.2026pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/produktinformation-fvb-basiskonto-30.04.2026pdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "volksbank-koeln-bonn",
+     "name": "Volksbank Köln Bonn",
+     "state": "Nordrhein-Westfalen",
+     "web": "https://www.volksbank-koeln-bonn.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.vr-agb-sb.de/dgverlag/346820.PDF",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "dresden-bautzen",
+     "name": "Volksbank Dresden-Bautzen",
+     "state": "Sachsen",
+     "web": "https://www.volksbank-dresden-bautzen.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.vr-agb-sb.de/dgverlag/346820.PDF",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "sparda-berlin",
+     "name": "Sparda-Bank Berlin",
+     "state": "Berlin",
+     "web": "https://www.sparda-b.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/Antrag%20auf%20Abschluss%20eines%20Basiskontovertragspdf-4",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/informationbasiskontopdf-1",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/informationbasiskontopdf-1",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/informationbasiskontopdf-1",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/informationbasiskontopdf-1",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "psd-nuernberg",
+     "name": "PSD Bank Nürnberg",
+     "state": "Bayern",
+     "web": "https://www.psd-nuernberg.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.psd-nuernberg.de/produkte/girokonto-karten/basiskonto.html",
+       "2026-10-25",
+       "The located product and contract materials do not explain the existing-account refusal rule."
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/982025-Allgemeine_Informationen_zum_Basiskonto_fuer_Verbraucherpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/982025-Allgemeine_Informationen_zum_Basiskonto_fuer_Verbraucherpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/982025-Allgemeine_Informationen_zum_Basiskonto_fuer_Verbraucherpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/982025-Allgemeine_Informationen_zum_Basiskonto_fuer_Verbraucherpdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "sparda-bw",
+     "name": "Sparda-Bank Baden-Württemberg",
+     "state": "Baden-Württemberg",
+     "web": "https://www.sparda-bw.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://hub.sparda-bw.de/storyblok/asset/x/cfface7d76/antrag-auf-abschluss-eines-basiskontovertrags.PDF?_hash=BHZDX2lltW8vGKkL8vc5C-wZJeHeV5CJSSx3FeXnFqQ",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://hub.sparda-bw.de/storyblok/asset/x/f1541a76db/entgeltinformation-basiskonto_05-05-2026.pdf?_hash=DpDhYiOko1qYKNgE8qjGOF6nmj6qr_vTjav8vku5QFs",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://hub.sparda-bw.de/storyblok/asset/x/f1541a76db/entgeltinformation-basiskonto_05-05-2026.pdf?_hash=DpDhYiOko1qYKNgE8qjGOF6nmj6qr_vTjav8vku5QFs",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://hub.sparda-bw.de/storyblok/asset/x/cfface7d76/antrag-auf-abschluss-eines-basiskontovertrags.PDF?_hash=BHZDX2lltW8vGKkL8vc5C-wZJeHeV5CJSSx3FeXnFqQ",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://hub.sparda-bw.de/storyblok/asset/x/cfface7d76/antrag-auf-abschluss-eines-basiskontovertrags.PDF?_hash=BHZDX2lltW8vGKkL8vc5C-wZJeHeV5CJSSx3FeXnFqQ",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "sparda-west",
+     "name": "Sparda-Bank West",
+     "state": "Nordrhein-Westfalen",
+     "web": "https://www.sparda-west.de",
+     "rows": [
+      [
+       "na",
+       "",
+       "https://www.sparda-west.de/wir-ueber-uns/zahlen-und-fakten/pflichtinformation.html",
+       "2026-10-25",
+       "The advertised Basiskonto information link is broken; the readable fee sheets do not answer this question."
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/Entgeltinformation%20Basiskonto%20(SpardaGiro%20Flex)pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/Entgeltinformation%20Basiskonto%20(SpardaGiro%20Flex)pdf",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.sparda-west.de/wir-ueber-uns/zahlen-und-fakten/pflichtinformation.html",
+       "2026-10-25",
+       "The advertised Basiskonto information link is broken; the readable fee sheets do not answer this question."
+      ],
+      [
+       "na",
+       "",
+       "https://www.sparda-west.de/wir-ueber-uns/zahlen-und-fakten/pflichtinformation.html",
+       "2026-10-25",
+       "The advertised Basiskonto information link is broken; the readable fee sheets do not answer this question."
+      ]
+     ]
+    },
+    {
+     "id": "psd-nord",
+     "name": "PSD Bank Nord",
+     "state": "Hamburg",
+     "web": "https://www.psd-nord.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/antrag_basiskonto_972001pdf",
+       "2026-10-25"
+      ],
+      [
+       "na",
+       "",
+       "https://www.psd-nord.de/banking-service/services.html",
+       "2026-10-25",
+       "The application is available, but a Basiskonto-specific description of these services was not located."
+      ],
+      [
+       "na",
+       "",
+       "https://www.psd-nord.de/banking-service/services.html",
+       "2026-10-25",
+       "The application is available, but a Basiskonto-specific description of these services was not located."
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/antrag_basiskonto_972001pdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/antrag_basiskonto_972001pdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "psd-rns",
+     "name": "PSD Bank RheinNeckarSaar",
+     "state": "Baden-Württemberg",
+     "web": "https://www.psd-rheinneckarsaar.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/972001-Antrag-Basiskontopdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/990024-Standardkundeninformationen-zu-Basiskontenpdf-1",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/990024-Standardkundeninformationen-zu-Basiskontenpdf-1",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/990024-Standardkundeninformationen-zu-Basiskontenpdf-1",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/990024-Standardkundeninformationen-zu-Basiskontenpdf-1",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "kd-bank",
+     "name": "Bank für Kirche und Diakonie",
+     "state": "Nordrhein-Westfalen",
+     "web": "https://www.kd-bank.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.vr-agb-sb.de/dgverlag/346820.PDF",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "eisenberg",
+     "name": "Volksbank Eisenberg (including EthikBank)",
+     "state": "Thüringen",
+     "web": "https://www.my-volksbank.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.ethikbank.de/fileadmin/ethikbank/Dokumente/Formulare/Basiskonto.pdf",
+       "2026-10-25",
+       "Assessed EthikBank’s guidance; Volksbank Eisenberg’s main-brand pages could not be accessed."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ethikbank.de/fileadmin/ethikbank/Dokumente/AGB-VVI-Sobe/Kundeninfo_Basiskonto.pdf",
+       "2026-10-25",
+       "Assessed EthikBank’s guidance; Volksbank Eisenberg’s main-brand pages could not be accessed."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ethikbank.de/fileadmin/ethikbank/Dokumente/AGB-VVI-Sobe/Kundeninfo_Basiskonto.pdf",
+       "2026-10-25",
+       "Assessed EthikBank’s guidance; Volksbank Eisenberg’s main-brand pages could not be accessed."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ethikbank.de/fileadmin/ethikbank/Dokumente/AGB-VVI-Sobe/Kundeninfo_Basiskonto.pdf",
+       "2026-10-25",
+       "Assessed EthikBank’s guidance; Volksbank Eisenberg’s main-brand pages could not be accessed."
+      ],
+      [
+       "ok",
+       "",
+       "https://www.ethikbank.de/fileadmin/ethikbank/Dokumente/AGB-VVI-Sobe/Kundeninfo_Basiskonto.pdf",
+       "2026-10-25",
+       "Assessed EthikBank’s guidance; Volksbank Eisenberg’s main-brand pages could not be accessed."
+      ]
+     ],
+     "op": "Volksbank Eisenberg eG"
+    },
+    {
+     "id": "dreieich-offenbach",
+     "name": "VR Bank Dreieich-Offenbach",
+     "state": "Hessen",
+     "web": "https://www.vrbanking.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/346820pdf-6",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ]
+     ]
+    },
+    {
+     "id": "bonn-rhein-sieg",
+     "name": "VR-Bank Bonn Rhein-Sieg",
+     "state": "Nordrhein-Westfalen",
+     "web": "https://www.vrbank-brs.de",
+     "rows": [
+      [
+       "ok",
+       "",
+       "https://www.vr-agb-sb.de/dgverlag/346820.PDF",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ],
+      [
+       "ok",
+       "",
+       "https://atruvia.scene7.com/is/content/atruvia/basiskonto-anlage-muster-standardkundeninformationpdf",
+       "2026-10-25"
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "pflegekassen",
