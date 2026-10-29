@@ -34,7 +34,7 @@ for (const narrow of [false, true]) {
     }
     for (const cid of Object.keys(data.cases)) routes.push(`#${layout}.case.${cid}`);
     // Institution pages exist only in A1 and only when the data carries groups; without groups they fall back to the front page.
-    const groups = data.groups || [], must = {}, sourceOnArrival = {};
+    const groups = data.groups || [], must = {}, sourceOnArrival = {}, sys = (data.systemic || [])[0], cityFindings = {};
     if (layout === 'A1') {
       must['#A1'] = groups.length ? 'class="lens"' : 'class="home-cols"';
       routes.push('#A1.inst');
@@ -58,6 +58,23 @@ for (const narrow of [false, true]) {
         }
       }
       routes.push('#A1.group.no-such-group', '#A1.entity.no-such~entity');
+      // Systemic sweeps are optional like the groups: without data the overview falls back to the front page.
+      routes.push('#A1.sys');
+      must['#A1.sys'] = sys ? 'id="sy-bands"' : 'class="hero"';
+      for (const c of sys ? sys.cities : []) {
+        routes.push(`#A1.city.${c[0]}`);
+        must[`#A1.city.${c[0]}`] = 'class="area-head"';
+        cityFindings[`#A1.city.${c[0]}`] = c[6].length;
+      }
+      routes.push('#A1.city.no-such-city');
+      // Districts join the same pages; a district id is never a city route and the other way round.
+      for (const d of sys ? sys.districts || [] : []) {
+        routes.push(`#A1.district.${d[0]}`);
+        must[`#A1.district.${d[0]}`] = 'class="area-head"';
+        cityFindings[`#A1.district.${d[0]}`] = d[5].length;
+      }
+      routes.push('#A1.district.no-such-district');
+      if (sys && (sys.districts || []).length) routes.push(`#A1.city.${sys.districts[0][0]}`, `#A1.district.${sys.cities[0][0]}`);
     }
     for (const route of routes) {
       ctx.location.hash = route;
@@ -69,7 +86,24 @@ for (const narrow of [false, true]) {
         const escaped = sourceOnArrival[route].replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
         if (!html.includes(`href="${escaped}" target="_blank"`)) throw new Error(`Wrong publication on arrival: ${route}`);
       }
-      if (!groups.length && html.includes('lens-row')) throw new Error(`Institution switch without data: ${route}`);
+      if (!groups.length && !sys && html.includes('class="lens"')) throw new Error(`Institution switch without data: ${route}`);
+      // The sweep switch is part of the header, and the systemic overview says how many were inspected and the share of them.
+      if (data.groups && data.groups.length && ['#A1', '#A1.inst', '#A1.sys'].includes(route) && !/<header class="site">[\s\S]*class="lens"[\s\S]*<\/header>/.test(html)) throw new Error(`Sweep switch is not in the header: ${route}`);
+      if (route === '#A1.sys' && sys && !/class="sy-sum-line"[\s\S]*cities<\/span>|cities inspected · <b>[\d,.]+<\/b> \(\d+%\)/.test(html)) throw new Error(`Overview lacks the inspected summary with its share: ${route}`);
+      if (route.startsWith('#A1.city.') || route.startsWith('#A1.district.') || route === '#A1.sys') {
+        if (sys && /undefined|NaN/.test(html)) throw new Error(`Broken value on a systemic page: ${route}`);
+        // One row per finding, and a city nobody has read says so.
+        if (route in cityFindings && html.split('class="cp-row"').length - 1 !== cityFindings[route]) throw new Error(`Finding rows do not match the data: ${route}`);
+        // Each finding is one closed disclosure, and a page with findings opens with the count of what was found.
+        // The note under the count header is folded in, not repeated at the end, and the header sits in its own column.
+        if (route.startsWith('#A1.city.') || route.startsWith('#A1.district.')) {
+          if (route in cityFindings && (!html.includes('class="cp-two"') || !html.includes('class="cp-rail"'))) throw new Error(`Two-column wrapper missing: ${route}`);
+          if (html.includes('class="cp-nt"') && html.includes('class="res-note"')) throw new Error(`Note shown twice: ${route}`);
+        }
+        if (cityFindings[route] > 0 && (!html.includes('class="cp-sum"') || html.split('<details class="cp-more">').length - 1 !== cityFindings[route])) throw new Error(`Finding disclosures or summary missing: ${route}`);
+      }
+      if ((route === '#A1.city.no-such-city' || route === '#A1.district.no-such-district' || (sys && (sys.districts || []).length && (route === `#A1.city.${sys.districts[0][0]}` || route === `#A1.district.${sys.cities[0][0]}`)))
+          && (html.includes('cp-') || html.includes('id="sy-bands"'))) throw new Error(`Unknown place rendered: ${route}`);
       if (route.startsWith('#A1.group.no-such') || route.startsWith('#A1.entity.no-such')) {
         if (html.includes('res-card') || html.includes('res-q')) throw new Error(`Unknown institution page rendered: ${route}`);
       }

@@ -370,13 +370,15 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .area-line .issues.gap { font-size: var(--s-xs); margin-top: -2px; }
 
 /* institutions: group and institution pages, and the front-page switch */
-.lens-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; padding: 18px 0 6px; }
+.lens-row { padding: 6px 0; }
 .lens-row .res-legend { padding-top: 0; }
-.lens { display: inline-flex; gap: 2px; padding: 3px; border: 1px solid var(--rule); border-radius: 999px; background: var(--surface); }
-.lens a { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 16px; border-radius: 999px; color: var(--ink-2); font-size: var(--s-sm); text-decoration: none; }
+/* The sweep switch sits in the header bar, right-aligned beside the theme button. */
+.site-in .lens { display: inline-flex; margin-left: auto; padding: 2px; gap: 2px; border-radius: 8px; background: var(--rule-2); }
+.lens a { display: inline-flex; align-items: center; gap: 6px; min-height: 28px; padding: 0 12px; border-radius: 6px; color: var(--ink-2); font-size: var(--s-xs); text-decoration: none; }
 .lens a:hover { color: var(--ink); }
-.lens a[aria-current="page"] { background: var(--ink); color: var(--bg); }
+.lens a[aria-current="page"] { background: var(--surface); color: var(--ink); box-shadow: 0 0 0 1px var(--rule), 0 1px 2px rgba(0, 0, 0, .06); }
 .lens a span { opacity: .65; font-variant-numeric: tabular-nums; }
+.A .hero { padding-top: 24px; }
 .res-bar { display: flex; height: 8px; min-width: 0; border-radius: 2px; overflow: hidden; background: var(--rule); }
 .area-line > .res-bar { grid-column: 1 / -1; margin-top: 6px; }
 .res-bar i, .res-dots i, .res-legend i, .res-card .sq { display: block; }
@@ -529,6 +531,130 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* ---------- systemic sweeps: cities ---------- */
+.lens a span.x { opacity: 1; }
+.res-bar i.na { background: var(--surface); box-shadow: inset 0 0 0 1px var(--rule); }
+.sy-sum { display: grid; gap: 4px; color: var(--ink-2); font-size: var(--s-sm); font-variant-numeric: tabular-nums; }
+.sy-sum-line { display: flex; align-items: center; gap: 10px; }
+.sy-sum-line b { color: var(--ink); font-weight: 600; }
+.sy-sum-note { margin-top: 2px; font-size: var(--s-xs); color: var(--ink-3); }
+.sy-g { flex: none; width: 10px; height: 10px; border-radius: 2px; background: var(--ink-3); }
+.sy-g.ci { border-radius: 50%; }
+.sy-note { color: var(--ink-3); font-size: var(--s-xs); padding-top: 18px; max-width: 78ch; }
+.sy-note summary { cursor: pointer; color: var(--ink-2); font-size: var(--s-sm); min-height: 32px; display: flex; align-items: center; }
+.sy-note p { padding-top: 6px; color: var(--ink-2); font-size: var(--s-sm); }
+.sy-ctl { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 8px 24px; align-items: center; padding: 16px 0 6px; }
+.sy-read { font-size: var(--s-sm); color: var(--ink-2); min-height: 1.55em; }
+.sy-read b { color: var(--ink); font-weight: 600; }
+.sy-read .red { color: var(--claim); }
+.sy-read a { color: var(--ink); }
+.sy-hits { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: var(--s-sm); }
+.sy-hits:empty { display: none; }
+.sy-hits a { color: var(--ink); } .sy-hits small { color: var(--ink-3); font-size: var(--s-xs); }
+.sy-keys { display: flex; flex-wrap: wrap; gap: 6px 8px; padding: 8px 0 4px; }
+.sy-keys button { font: inherit; font-size: var(--s-xs); color: var(--ink-2); display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 12px; border: 1px solid var(--rule); border-radius: 999px; background: var(--surface); cursor: pointer; }
+.sy-keys button[aria-pressed="true"] { border-color: var(--ink); color: var(--ink); }
+.sy-keys i { display: block; width: 10px; height: 10px; border-radius: 2px; }
+.sy-keys i.bad, .cp-sq.bad { background: var(--res-bad); } .sy-keys i.amb, .cp-sq.amb { background: var(--res-amb); } .sy-keys i.ok, .cp-sq.ok { background: var(--res-ok); }
+.sy-keys i.na { box-shadow: inset 0 0 0 1.5px var(--ink-3); }
+.sy-bands { padding-top: 6px; }
+.sy-cols { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 16px; align-items: start; padding-top: 8px; }
+.sy-state { min-width: 0; display: block; break-inside: avoid; margin: 0 0 16px; padding: 14px 16px 16px; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); }
+.sy-state h3 { font-size: var(--s-md); font-weight: 600; line-height: 1.25; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.sy-sq { display: flex; flex-wrap: wrap; gap: 2px; padding-top: 8px; }
+.sy-sq a { display: block; width: 10px; height: 10px; border-radius: 2px; }
+.sy-sq a.bad { background: var(--res-bad); } .sy-sq a.amb { background: var(--res-amb); } .sy-sq a.ok { background: var(--res-ok); }
+.sy-sq a.na { background: transparent; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink-3) 55%, transparent); }
+.sy-bands[data-f="bad"] a:not(.bad), .sy-bands[data-f="amb"] a:not(.amb), .sy-bands[data-f="ok"] a:not(.ok), .sy-bands[data-f="na"] a:not(.na) { opacity: .14; }
+.sy-bands.q a:not(.hit) { opacity: .2; }
+.sy-sq a.hit { outline: 2px solid var(--ink); outline-offset: 1px; }
+.sy-sq a.sel { outline: 2px solid var(--focus); outline-offset: 1px; }
+.sy-sub { color: var(--ink-3); font-size: var(--s-xs); padding-top: 8px; }
+.sy-sub + .sy-sq, .sy-sub + .sy-named, .sy-sq.dist { padding-top: 6px; }
+/* The districts and the cities of a state are two groups inside its card. */
+.sy-grp { min-width: 0; margin-top: 12px; }
+.sy-grp > .sy-sub { padding-top: 0; }
+/* With districts on the page, districts are squares and cities are dots. */
+.sy-bands.mixed .sy-sq:not(.dist) a, .sy-bands.mixed .sy-nm i { border-radius: 50%; }
+.sy-named { display: flex; flex-wrap: wrap; gap: 4px 14px; padding-top: 8px; font-size: var(--s-xs); color: var(--ink-2); line-height: 1.4; }
+.sy-nm { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); text-decoration: none; }
+.sy-nm:hover { color: var(--ink); text-decoration: underline; }
+.sy-nm i { display: block; width: 10px; height: 10px; border-radius: 2px; }
+.sy-nm i.bad { background: var(--res-bad); } .sy-nm i.amb { background: var(--res-amb); } .sy-nm i.ok { background: var(--res-ok); }
+.sy-nm i.na { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink-3) 55%, transparent); }
+@media (max-width: 800px) { .sy-ctl { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 640px) { .sy-sq a { width: 11px; height: 11px; } .sy-cols .sy-sq a { width: 10px; height: 10px; } }
+@media (max-width: 760px) {
+  .site-in:has(.lens) { flex-wrap: wrap; height: auto; padding: 8px 0 10px; row-gap: 8px; }
+  .site-in:has(.lens) .wordmark { order: 1; }
+  .site-in:has(.lens) .site-tools { order: 2; margin-left: auto; }
+  .site-in .lens { order: 3; display: flex; width: 100%; margin-left: 0; }
+  .lens a { flex: 1 1 auto; justify-content: center; padding: 0 6px; white-space: nowrap; }
+}
+@media (max-width: 380px) { .lens a .x { display: none; } }
+
+/* city page */
+.cp-sq { display: inline-block; flex: none; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; }
+.cp-sq.na { background: transparent; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink-3) 55%, transparent); }
+.cp-sq.x { background: repeating-linear-gradient(135deg, var(--ink-3) 0 1px, var(--surface) 1px 4px); }
+.cp-lab { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 8px; font-size: var(--s-sm); }
+.cp-lab b { font-weight: 600; } .cp-lab b.red { color: var(--claim); }
+.cp-tag { color: var(--ink-3); font-size: var(--s-xs); }
+.cp-svc { font-weight: 600; color: var(--ink); min-width: 0; overflow-wrap: anywhere; hyphens: auto; -webkit-hyphens: auto; }
+@media (min-width: 641px) { .cp-svc::before { content: "·"; margin-right: 8px; color: var(--ink-3); font-weight: 400; } }
+.cp-list { display: grid; grid-template-columns: minmax(0, 1fr); padding-top: 6px; }
+.cp-row { padding: 6px 0 4px; border-top: 1px solid var(--rule); }
+.cp-row:first-child { border-top: 0; }
+.cp-claim { font-family: var(--f-display); font-weight: 400; font-size: var(--s-lg); line-height: 1.3; letter-spacing: -.005em; text-wrap: wrap; overflow-wrap: break-word; max-width: 60ch; padding-top: 4px; }
+.cp-src { color: var(--ink-3); font-size: var(--s-xs); display: flex; flex-wrap: wrap; gap: 2px 14px; padding: 12px 0 10px; }
+.cp-src a { color: var(--ink-2); }
+.cp-unc { font-size: var(--s-sm); color: var(--ink-2); max-width: 68ch; padding-top: 4px; }
+/* Claims run up to about 600 characters; a closed row shows four lines and opening it shows the rest. */
+.cp-more:not([open]) .cp-claim { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; }
+.cp-more > summary { list-style: none; position: relative; display: block; padding: 10px 34px 10px 0; min-height: 44px; cursor: pointer; }
+.cp-more > summary::-webkit-details-marker { display: none; }
+.cp-more > summary::after { content: ""; position: absolute; right: 6px; top: 20px; width: 8px; height: 8px; border-right: 1.5px solid var(--ink-3); border-bottom: 1.5px solid var(--ink-3); transform: rotate(45deg); }
+.cp-more[open] > summary::after { top: 24px; transform: rotate(-135deg); }
+.cp-more > summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+.cp-more .compare { margin-top: 4px; }
+.cp-sum { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: var(--s-md); }
+.cp-sum li { display: inline-flex; align-items: center; gap: 8px; color: var(--ink-2); }
+.cp-sum b { font-weight: 600; font-size: var(--s-lg); color: var(--ink); font-variant-numeric: tabular-nums; }
+.cp-ctx { color: var(--ink-3); font-size: var(--s-sm); padding-top: 10px; max-width: 62ch; }
+.cp-nt { padding-top: 6px; max-width: 62ch; }
+.cp-nt > summary { cursor: pointer; display: inline-flex; align-items: center; min-height: 32px; font-size: var(--s-sm); color: var(--ink-2); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; list-style: none; }
+.cp-nt > summary::-webkit-details-marker { display: none; }
+.cp-nt p { color: var(--ink-2); font-size: var(--s-sm); padding-top: 4px; }
+@media (min-width: 960px) {
+  .cp-two { display: grid; grid-template-columns: 300px minmax(0, 1fr); column-gap: 56px; align-items: start; }
+  .cp-rail { position: sticky; top: 20px; }
+  .cp-main { max-width: 720px; }
+}
+.cp-q { white-space: pre-line; }
+.cp-orig { border-top: 1px solid var(--rule-2); padding-top: 10px; margin-top: 2px; }
+.cp-orig summary { list-style: none; cursor: pointer; font-size: var(--s-xs); color: var(--ink-3); display: flex; justify-content: space-between; gap: 12px; }
+.cp-orig summary::-webkit-details-marker { display: none; }
+.cp-orig summary .t::before { content: "Show"; } .cp-orig[open] summary .t::before { content: "Hide"; }
+.cp-orig blockquote { margin: 8px 0 0; white-space: pre-line; font-family: var(--f-display); font-size: var(--s-md); color: var(--ink-2); }
+.cp-law-p { font-size: var(--s-xs); color: var(--ink-3); overflow-wrap: anywhere; }
+.cp-law-p a { color: var(--ink-2); }
+.cp-pages { display: grid; margin: 0; padding: 0; list-style: none; }
+.cp-pages li { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 10px; padding: 8px 0; border-top: 1px solid var(--rule-2); font-size: var(--s-sm); min-width: 0; }
+.cp-pages li:first-child { border-top: 0; }
+.cp-pages li .cp-sq { align-self: center; }
+.cp-pages a { color: var(--ink-2); overflow-wrap: anywhere; }
+.cp-pages .d { margin-left: auto; color: var(--ink-3); font-size: var(--s-xs); white-space: nowrap; }
+.cp-pages .o { color: var(--ink-3); font-size: var(--s-xs); }
+.cp-sec { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px; padding-top: 22px; }
+.cp-sec > summary { list-style: none; cursor: pointer; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid var(--rule); }
+.cp-sec > summary::-webkit-details-marker { display: none; }
+.cp-sec > summary h2 { font-size: var(--s-xs); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.cp-sec > summary span { font-size: var(--s-xs); color: var(--ink-3); }
+.cp-sec > summary span::after { content: " ⌄"; } .cp-sec[open] > summary span::after { content: " ⌃"; }
+.cp-empty { padding: 22px 0 6px; max-width: 62ch; display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+.cp-empty p { font-family: var(--f-display); font-size: var(--s-lg); line-height: 1.4; }
+.cp-empty small { color: var(--ink-3); font-size: var(--s-sm); }
 </style>
 
 <div id="root"></div>
@@ -612,7 +738,8 @@ function state() {
   if ((s.kind === "area" && !AREA[s.id]) || (s.kind === "topic" && !TOPIC[s.id]) || (s.kind === "case" && !CASES[s.id])) s.kind = "home";
   // Institution pages exist only in the public layout and only when the data carries groups.
   if ((s.kind === "inst" && !(GROUPS.length && s.L === "A1")) || (s.kind === "group" && !(GROUP[s.id] && s.L === "A1"))
-    || (s.kind === "entity" && !(ENTITY[s.id] && s.L === "A1"))) s.kind = "home";
+    || (s.kind === "entity" && !(ENTITY[s.id] && s.L === "A1"))
+    || (s.kind === "sys" && !(SYS && s.L === "A1")) || (s.kind === "city" && !(SYSCITY[s.id] && s.L === "A1")) || (s.kind === "district" && !(SYSDIST[s.id] && s.L === "A1"))) s.kind = "home";
   const m = /^from-([^~]+)(?:~(.+))?$/.exec(extra || "");
   if (m && s.L === "A1" && GROUP[m[1]] && (!m[2] || ENTITY[m[1] + "~" + m[2]])) s.from = m[2] ? m[1] + "~" + m[2] : m[1];
   return s;
@@ -625,8 +752,11 @@ function protoBar(s) {
   return `<div class="proto"><div class="proto-in"><span class="proto-label">Layout A · country and language</span><nav class="proto-tabs" aria-label="Proposals">${tabs}</nav></div></div>`;
 }
 const LOGO = `<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="14" fill="#1d2228"/><rect x="13" y="20" width="38" height="8" rx="2" fill="#fff"/><rect x="13" y="36" width="38" height="8" rx="2" fill="#fff"/><path d="M40 11L24 53" fill="none" stroke="#1d2228" stroke-width="10" stroke-linecap="round"/><path d="M40 11L24 53" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/></svg>`;
-function siteBar(L, extra = "") {
-  return `<header class="site"><div class="site-in"><a class="wordmark" href="${href(L)}">${LOGO}<span>Legal <i>Misrepresentation</i></span></a><div class="site-tools">${extra}${themeBtn()}</div></div></header>`;
+// The sweep switch lives in the header; lensRow() hands it over while the page body is built, and the next siteBar() takes it.
+let lensNav = "";
+const takeLens = () => { const n = lensNav; lensNav = ""; return n; };
+function siteBar(L, extra = "", nav = "") {
+  return `<header class="site"><div class="site-in"><a class="wordmark" href="${href(L)}">${LOGO}<span>Legal <i>Misrepresentation</i></span></a>${nav}<div class="site-tools">${extra}${themeBtn()}</div></div></header>`;
 }
 /* Theme: light until the viewer picks dark; the choice is remembered in this browser. The system setting is not followed. */
 const SUN = `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4L6 18M18 6l1.4-1.4"/></svg>`;
@@ -803,6 +933,12 @@ const LONG_WORDS = 60;
 // The original starts hidden behind the English translation. Once a reader opens one, later originals stay open for the session.
 let showOriginals = false;
 document.addEventListener("toggle", e => { if (e.target.matches && e.target.matches("details.q-orig")) showOriginals = e.target.open; }, true);
+// On a city page only one finding is open at a time: opening a drawer closes the others.
+document.addEventListener("toggle", e => {
+  const d = e.target;
+  if (!d.matches || !d.matches("details.cp-more") || !d.open) return;
+  d.closest(".cp-list").querySelectorAll("details.cp-more[open]").forEach(o => { if (o !== d) o.open = false; });
+}, true);
 function passageHtml(text, lang, marks) {
   const [open, close] = QUOTES[lang] || QUOTES.English;
   const blocks = String(text).split(/\n+/).map(b => b.trim()).filter(Boolean);
@@ -981,14 +1117,17 @@ function caseTable(t, a, L) {
 
 function renderAS(s) {
   const L = s.L;
+  lensNav = "";
   let body = "";
   if (s.kind === "inst" || s.kind === "group" || s.kind === "entity") {
     body = instBody(s);
+  } else if (s.kind === "sys" || s.kind === "city" || s.kind === "district") {
+    body = sysBody(s);
   } else if (s.kind === "home" && L === "A1") {
     // Front page: government and companies side by side, every area with its first issues; the area page lists all of them.
     body = `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${intro}</p>
       <p class="stats">${TOTAL.areas} areas · ${TOTAL.topics} issues · ${TOTAL.cases} cases<span class="stats-note">A case is one published finding. It can cover several pages or institutions.</span></p></section>
-      ${GROUPS.length ? lensRow(L, "issue") : ""}<div class="home-cols">${SECTORS.map(sec => {
+      ${GROUPS.length || SYS ? lensRow(L, "issue") : ""}<div class="home-cols">${SECTORS.map(sec => {
         const as = AREAS.filter(a => a.sector === sec.id), sc = SECTOR_SCOPE[sec.id];
         return `<section class="home-sec"><div class="sector-h"><h2>${sc.title}</h2><span>${plural(as.reduce((x, a) => x + nCases(a), 0), "case", "cases")}</span></div>
           <p class="sector-sub">${sc.sub}</p>
@@ -1043,7 +1182,7 @@ function renderAS(s) {
       : `<a href="${href(L)}">All areas</a><span>/</span><a href="${href(L, "area", a.id)}">${esc(a.title)}</a><span>/</span><a href="${href(L, "topic", t.key)}">${esc(t.title)}</a>`}</nav>
       <div class="case-wrap">${caseViewS(c, g, institutionVersion(c, ent))}</div>`;
   }
-  return `<div class="A ${L}">${siteBar(L)}<main class="wrap">${body}</main></div>`;
+  return `<div class="A ${L}">${siteBar(L, "", takeLens())}<main class="wrap">${body}</main></div>`;
 }
 
 /* ================= B · Reader ================= */
@@ -1176,9 +1315,11 @@ const pageLabel = url => { try { const u = new URL(url), segs = u.pathname.split
 
 function lensRow(L, current) {
   const tab = (kind, label) => `<a href="${href(L, kind)}"${current === (kind || "issue") ? ' aria-current="page"' : ""}>${label}</a>`;
-  // On the institution view the legend that explains the bars sits beside the switch.
-  const legend = current === "inst" ? `<p class="res-legend">${["bad", "amb", "ok", ...(GROUPS.some(g => g.inst.unp) ? ["unp"] : [])].map(k => `<span><i class="${k}"></i>${RESULT[k]}</span>`).join("")}</p>` : "";
-  return `<div class="lens-row"><nav class="lens" aria-label="Browse by">${tab("", "Issue sweeps")}${tab("inst", "Institution sweeps")}</nav>${legend}</div>`;
+  // With systemic sweeps the three tabs share a short form: below 380px the word "sweeps" drops so they fit one line.
+  const sfx = SYS ? '<span class="x"> sweeps</span>' : " sweeps";
+  lensNav = `<nav class="lens" aria-label="Browse by">${tab("", "Issue" + sfx)}${GROUPS.length ? tab("inst", "Institution" + sfx) : ""}${SYS ? tab("sys", "Systemic" + sfx) : ""}</nav>`;
+  // On the institution view the legend that explains the bars sits under the statistics.
+  return current === "inst" ? `<div class="lens-row"><p class="res-legend">${["bad", "amb", "ok", ...(GROUPS.some(g => g.inst.unp) ? ["unp"] : [])].map(k => `<span><i class="${k}"></i>${RESULT[k]}</span>`).join("")}</p></div>` : "";
 }
 
 function instHome(L) {
@@ -1329,6 +1470,174 @@ function instBody(s) {
   return entityPage(s.L, g, e);
 }
 
+/* ================= Systemic sweeps: cities ================= */
+// Optional like the institution groups: DATA.systemic exists only when subjects/systemic/ holds a file, and without it nothing below is used.
+const SYS = (DATA.systemic || [])[0] || null;
+const SYSCITY = {}, SYSDIST = {};
+const SYS_STATES = { "01": "Schleswig-Holstein", "02": "Hamburg", "03": "Lower Saxony", "04": "Bremen", "05": "North Rhine-Westphalia", "06": "Hesse", "07": "Rhineland-Palatinate", "08": "Baden-Württemberg", "09": "Bavaria", "10": "Saarland", "11": "Berlin", "12": "Brandenburg", "13": "Mecklenburg-Vorpommern", "14": "Saxony", "15": "Saxony-Anhalt", "16": "Thuringia" };
+const SYS_CITY_STATES = ["02", "04", "11"];
+const SYS_LABEL = { bad: "Misrepresentation", amb: "Unclear", ok: "No misrepresentation found", na: "Not yet inspected" };
+const SYS_PAGE = { bad: "Misrepresentation", amb: "Unclear", ok: "No misrepresentation found", na: "Not addressed in the guidance found", x: "Guidance not accessible" };
+const SYS_KEYS = ["bad", "amb", "ok", "na"];
+const SYS_DE = /[äöüßÄÖÜ]|\b(der|die|das|und|nicht|wird|werden|für|mit|eine|ein|den|dem|von|bei|Die|Der|Das|Sie|ist|sind)\b/;
+if (SYS) {
+  SYS.list = SYS.cities.map(([id, rank, name, pop, cov, pages, F, web]) => {
+    const c = { id, rank, name, pop, cov, pages, F, web, st: id.slice(0, 2), bad: F.filter(f => f.s === "bad").length, amb: F.filter(f => f.s === "amb").length };
+    c.k = c.bad ? "bad" : c.amb ? "amb" : cov === "s" ? "ok" : "na";
+    c.read = pages.filter(p => p[0] === "bad" || p[0] === "amb" || p[0] === "ok").length;
+    SYSCITY[id] = c;
+    return c;
+  });
+  SYS.cnt = { bad: 0, amb: 0, ok: 0, na: 0 };
+  SYS.list.forEach(c => SYS.cnt[c.k]++);
+  SYS.confirmed = SYS.list.reduce((n, c) => n + c.bad, 0);
+  SYS.inspected = SYS.cnt.bad + SYS.cnt.amb + SYS.cnt.ok;
+  // Districts (Landkreise) are optional too: a hand-picked set with no rank or population, shown beside the cities and never added to their totals.
+  SYS.dlist = (SYS.districts || []).map(([id, name, st, cov, pages, F, web, auth]) => {
+    const c = { id, name, st, cov, pages, F, web, auth, dist: true, bad: F.filter(f => f.s === "bad").length, amb: F.filter(f => f.s === "amb").length };
+    c.k = c.bad ? "bad" : c.amb ? "amb" : cov === "s" ? "ok" : "na";
+    c.read = pages.filter(p => p[0] === "bad" || p[0] === "amb" || p[0] === "ok").length;
+    SYSDIST[id] = c;
+    return c;
+  });
+  SYS.dbad = SYS.dlist.filter(c => c.k === "bad").length;
+  SYS.dread = SYS.dlist.filter(c => c.k !== "na").length;
+  SYS.dbad_all = SYS.dlist.reduce((n, c) => n + c.bad, 0);
+}
+const sysNoun = n => n === 1 ? "misrepresentation" : "misrepresentations";
+const sysSearchKey = t => t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const SYS_HINT = SYS && SYS.dlist.length ? "Hover or tap a dot or square to see the city or district." : "Hover or tap a square to see the city.";
+const sysKind = c => c.dist ? "district" : "city";
+const sysReadLine = (c, open) => `<b>${esc(c.name)}</b> · ${esc(SYS_STATES[c.st])} · ${c.dist ? "district" : `${fmtN(c.pop)} inhabitants`} · ${c.bad ? `<span class="red">${c.bad} ${sysNoun(c.bad)}</span>` : SYS_LABEL[c.k].toLowerCase()}${open ? ` · <a href="${href("A1", sysKind(c), c.id)}">Open page →</a>` : ""}`;
+const sysSquare = c => `<a class="${c.k}${c.dist ? " d" : ""}" href="${href("A1", sysKind(c), c.id)}" data-id="${c.id}" tabindex="-1" aria-label="${esc(c.name)}: ${esc(SYS_LABEL[c.k].toLowerCase())}"></a>`;
+
+// One line per kind: how many were inspected, how many of them have at least one misrepresentation, and that share of the inspected.
+const sysSumLine = (shape, inspected, [one, many], bad) => `<p class="sy-sum-line"><i class="sy-g ${shape}"></i><span><b>${fmtN(inspected)}</b> ${inspected === 1 ? one : many} inspected · <b>${fmtN(bad)}</b>${inspected ? ` (${Math.round(100 * bad / inspected)}%)` : ""} with a misrepresentation</span></p>`;
+
+function sysHome(L) {
+  const stateBlock = id => {
+    const l = SYS.list.filter(c => c.st === id);
+    const d = (SYS.dlist || []).filter(c => c.st === id);
+    return `<section class="sy-state"><h3>${esc(SYS_STATES[id])}</h3>${d.length ? `<div class="sy-grp"><p class="sy-sub">${plural(d.length, "district", "districts")}</p><div class="sy-sq dist">${d.map(sysSquare).join("")}</div></div>` : ""}<div class="sy-grp"><p class="sy-sub">${plural(l.length, "city", "cities")}</p><div class="sy-sq">${l.map(sysSquare).join("")}</div></div></section>`;
+  };
+  const ids = Object.keys(SYS_STATES).filter(id => !SYS_CITY_STATES.includes(id)).sort((a, b) => SYS.list.filter(c => c.st === b).length - SYS.list.filter(c => c.st === a).length);
+  // Berlin, Hamburg and Bremen (with Bremerhaven) have one or two cities each: one block with named squares.
+  const cs = SYS.list.filter(c => SYS_CITY_STATES.includes(c.st));
+  const cityStates = `<section class="sy-state"><h3>City-states</h3><div class="sy-grp"><p class="sy-sub">${plural(cs.length, "city", "cities")}</p><div class="sy-named">${cs.map(c => `<a class="sy-nm" href="${href("A1", "city", c.id)}"><i class="${c.k}"></i>${esc(c.name)}</a>`).join("")}</div></div></section>`;
+  return `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${esc(widow(`Websites of the ${fmtN(SYS.list.length)} largest German cities${SYS.dlist.length ? " and all German districts" : ""}, checked against federal and EU law.`))}</p>
+    <div class="sy-sum">${SYS.dlist.length ? sysSumLine("sq", SYS.dread, ["district", "districts"], SYS.dbad) : ""}${sysSumLine(SYS.dlist.length ? "ci" : "sq", SYS.inspected, ["city", "cities"], SYS.cnt.bad)}
+      <p class="sy-sum-note">Misrepresentations in all: ${SYS.dlist.length ? `${fmtN(SYS.dbad_all)} on district websites, ` : ""}${fmtN(SYS.confirmed)} on city websites.</p></div></section>
+    ${lensRow(L, "sys")}
+    <div class="sy-ctl"><input class="res-search" id="sy-q" type="search" placeholder="${SYS.dlist.length ? "Find a city or district" : "Find a city"}" aria-label="${SYS.dlist.length ? "Find a city or district" : "Find a city"}" autocomplete="off"><p class="sy-read" id="sy-read" aria-live="polite">${SYS_HINT}</p></div>
+    <ul class="sy-hits" id="sy-hits"></ul>
+    <div class="sy-keys" role="group" aria-label="Show only">${SYS_KEYS.map(k => `<button type="button" data-k="${k}" aria-pressed="false"><i class="${k}"></i>${SYS_LABEL[k]} · ${fmtN(SYS.cnt[k])}</button>`).join("")}</div>
+    <div class="sy-bands${SYS.dlist.length ? " mixed" : ""}" id="sy-bands"><div class="sy-cols">${ids.map(stateBlock).join("")}${cityStates}</div></div>
+    <p class="stats" style="padding-top:12px">${SYS.dlist.length ? "One dot per city, largest first within each state. Squares are districts (Landkreise); an empty one has not been inspected yet." : "One square per city, largest first within each state."}</p>
+    <details class="sy-note"><summary>How to read this</summary><p>A misrepresentation is one confirmed statement on one ${SYS.dlist.length ? "city’s or district’s" : "city’s"} website. A city counts as inspected when at least one service page was read in detail. The percentage is the share of the places inspected so far. Places were not inspected to the same depth${SYS.dlist.length ? " and the districts were chosen by hand" : ""}, so it is not a rate for German cities or districts, and places should not be ranked by it. “No misrepresentation found” applies only to the pages read. A ${SYS.dlist.length ? "city or district" : "city"} that is not yet inspected is listed, not cleared. The ${fmtN(SYS.list.length)} cities are the largest in Germany by population on ${fmtDate(SYS.popDate)}.${SYS.dlist.length ? ` All ${fmtN(SYS.dlist.length)} German districts (Landkreise) are listed; the ${fmtN(SYS.dread)} inspected so far were chosen by hand to test access and coverage, so they are not a sample.` : ""}</p></details>`;
+}
+
+function afterSys() {
+  const root = document.getElementById("sy-bands");
+  if (!root) return;
+  const read = document.getElementById("sy-read"), q = document.getElementById("sy-q"), hits = document.getElementById("sy-hits");
+  const touch = matchMedia("(hover: none)"), squares = () => [...root.querySelectorAll("a[data-id]")];
+  const at = e => { const a = e.target.closest("a[data-id]"); return a && (SYSCITY[a.dataset.id] || SYSDIST[a.dataset.id]); };
+  root.addEventListener("pointerover", e => { const c = at(e); if (c && e.pointerType !== "touch") read.innerHTML = sysReadLine(c); });
+  // With a finger the first tap selects a square and names the city; tapping the selected square opens its page.
+  root.addEventListener("click", e => {
+    const c = at(e); if (!c) return;
+    const a = e.target.closest("a[data-id]");
+    if (touch.matches && !a.classList.contains("sel")) {
+      e.preventDefault();
+      squares().forEach(x => x.classList.toggle("sel", x === a));
+      read.innerHTML = sysReadLine(c, true);
+    }
+  });
+  q.addEventListener("input", () => {
+    const v = sysSearchKey(q.value.trim());
+    root.classList.toggle("q", !!v);
+    const found = v ? SYS.list.concat(SYS.dlist).filter(c => sysSearchKey(c.name).includes(v)) : [];
+    const ids = new Set(found.map(c => c.id));
+    squares().forEach(a => a.classList.toggle("hit", ids.has(a.dataset.id)));
+    hits.innerHTML = found.slice(0, 8).map(c => `<li><a href="${href("A1", sysKind(c), c.id)}">${esc(c.name)}</a> <small>${esc(SYS_STATES[c.st])}${c.dist ? " · district" : ""}</small></li>`).join("") + (found.length > 8 ? `<li><small>${found.length - 8} more</small></li>` : "");
+    read.innerHTML = !v ? SYS_HINT : found.length === 1 ? sysReadLine(found[0], true) : found.length ? `${found.length} ${SYS.dlist.length ? "places" : "cities"} match.` : `No ${SYS.dlist.length ? "city or district" : "city"} matches.`;
+  });
+  document.querySelectorAll(".sy-keys button").forEach(b => b.addEventListener("click", () => {
+    const on = b.getAttribute("aria-pressed") !== "true";
+    document.querySelectorAll(".sy-keys button").forEach(x => x.setAttribute("aria-pressed", "false"));
+    b.setAttribute("aria-pressed", String(on));
+    if (on) root.dataset.f = b.dataset.k; else delete root.dataset.f;
+  }));
+}
+
+/* ---------- a city ---------- */
+function cityFacts(c) {
+  const dates = c.pages.map(p => p[2]).concat(c.F.map(f => f.date)).filter(Boolean).sort();
+  return { done: dates[dates.length - 1] };
+}
+function cityLede(c, f) {
+  if (!c.pages.length && !c.F.length && c.dist) return `Nobody has read ${c.name}’s website yet.`;
+  if (!c.pages.length && !c.F.length) return `${c.name} is on the list of the ${fmtN(SYS.list.length)} largest cities, but nobody has read its website yet.`;
+  if (c.k === "na") return `We found ${plural(c.pages.length, "page", "pages")} on ${c.name}’s website but did not read any of them in enough detail to judge.`;
+  const found = [c.bad && plural(c.bad, "misrepresentation", "misrepresentations"), c.amb && `${c.amb} unclear`].filter(Boolean).join(" and ");
+  return `We read ${plural(c.read, "service page", "service pages")} on ${fmtDate(f.done)} and found ${found || "no misrepresentation"}.`;
+}
+function cityPassage(x) {
+  const de = x.lang === "German", main = de && x.tr ? quoted(x.tr, "English") : quoted(x.q, x.lang);
+  return `<div class="side side-claim"><p class="side-label">What the page says</p><blockquote class="cp-q"${de && !x.tr ? ' lang="de"' : ""}>${esc(main)}</blockquote>
+    ${de && x.tr ? `<details class="cp-orig"><summary><span>German original</span><span class="t"></span></summary><blockquote lang="de">${esc(quoted(x.q, "German"))}</blockquote></details>` : de ? `<p class="cp-law-p">German original, not translated.</p>` : ""}</div>`;
+}
+function cityLaw(x) {
+  const link = x.lawUrl ? `<a href="${esc(x.lawUrl)}" target="_blank" rel="noopener">${esc(x.prov || "Law text")} ↗</a>` : esc(x.prov);
+  return `<div class="side side-law"><p class="side-label">What the law says</p><p class="law-text" style="font-size:var(--s-md)">${esc(x.why)}</p>${link ? `<p class="cp-law-p">${link}</p>` : ""}</div>`;
+}
+// The service is the page title the research recorded. Notes after a dash, bar or colon are cut, so are an authority before a colon ("Landratsamt München: Wohngeld") and the authority after a dash, and a bare record id ("wartburg-basic") is no title.
+function cityService(x) {
+  let t = (x.page || "").trim();
+  if (/^[a-z0-9]+(-[a-z0-9]+)+$/.test(t)) return "";
+  t = t.replace(/^[^:]*(Landratsamt|Kreisverwaltung|Landkreis|Kreis|Service-\w+)[^:]*:\s+/i, "").split(/ — | – | \| |: /)[0].trim();
+  return t.length > 64 ? t.slice(0, 61).replace(/\s+\S*$/, "") + "…" : t;
+}
+// A finding is one disclosure: the summary holds the result, the service and the claim; opening it shows the page link, the passage and the law.
+function cityFinding(x) {
+  const de = SYS_DE.test(x.claim), svc = cityService(x);
+  return `<article class="cp-row"><details class="cp-more"><summary><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc" lang="de">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
+    <h3 class="cp-claim"${de ? ' lang="de"' : ""}>${keep(widow(x.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, "")))}</h3>
+    ${x.s === "amb" && x.unc ? `<p class="cp-unc">${esc(x.unc)}</p>` : ""}</summary>
+    <p class="cp-src"><a href="${esc(x.url)}" target="_blank" rel="noopener">Page checked ↗</a>${x.date ? `<span>${fmtDate(x.date)}</span>` : ""}</p>
+    <div class="compare">${cityPassage(x)}${cityLaw(x)}</div></details></article>`;
+}
+// The header counts what was found, then says once how many pages were read and when.
+function cityTally(c, f) {
+  if (!c.F.length && !c.read) return "";
+  const ok = c.pages.filter(p => p[0] === "ok").length;
+  const items = [["bad", c.bad, c.bad === 1 ? "misrepresentation" : "misrepresentations"], ["amb", c.amb, "unclear"], ["ok", ok, ok === 1 ? "page with nothing found" : "pages with nothing found"]].filter(x => x[1]);
+  return `<ul class="cp-sum">${items.map(([k, n, w]) => `<li><i class="cp-sq ${k}"></i><b>${n}</b>${w}</li>`).join("")}</ul>
+    <p class="cp-ctx">${esc(plural(c.read, "service page", "service pages"))} read${f.done ? ` on ${fmtDate(f.done)}` : ""}. Results describe only those pages.</p>`;
+}
+function cityPages(c, open) {
+  if (!c.pages.length) return "";
+  return `<details class="cp-sec"${open ? " open" : ""}><summary><h2>Pages read</h2><span>${c.pages.length}</span></summary><ul class="cp-pages">${c.pages.map(([k, url, d]) =>
+    `<li><i class="cp-sq ${k}"></i><a href="${esc(url)}" target="_blank" rel="noopener">${esc(pageLabel(url))} ↗</a><span class="o">${SYS_PAGE[k]}</span>${d ? `<span class="d">${fmtDate(d)}</span>` : ""}</li>`).join("")}</ul></details>`;
+}
+function cityPage(L, c) {
+  const f = cityFacts(c), empty = !c.pages.length && !c.F.length, tally = cityTally(c, f);
+  const noteText = `Each result describes only the pages we read${f.done ? ` up to ${fmtDate(f.done)}` : ""}. It does not show whether anyone was refused or misled in practice, and the pages may have changed since.${c.F.length || c.k === "na" ? "" : " No misrepresentation found does not mean the rest of the site is correct."}${c.dist ? " This district was chosen by hand, so it says nothing about other districts." : ""}`;
+  // With the count header the note sits under it as a disclosure; a page without one keeps it at the end.
+  const folded = !empty && tally ? `<details class="cp-nt"><summary>What this shows</summary><p>${esc(noteText)}</p></details>` : "";
+  const note = !empty && !tally ? `<p class="res-note"><b>What this shows.</b> ${esc(noteText)}</p>` : "";
+  // Two columns from 960px: the header stays in view beside the findings.
+  return `<div class="cp-two"><aside class="cp-rail"><nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "sys")}">← Systemic sweeps</a></nav>
+    <header class="area-head"><p class="eyebrow">${esc(SYS_STATES[c.st])} · ${c.dist ? "District" : `${fmtN(c.pop)} inhabitants`}</p><h1>${esc(c.name)}</h1>
+    ${tally || `<p class="lede">${esc(widow(cityLede(c, f)))}</p>`}${folded}
+    ${c.web || c.auth ? `<p class="meta-line">${c.auth ? `<span>${esc(c.auth)}</span>` : ""}${c.web ? `<span><a href="${esc(c.web)}" target="_blank" rel="noopener">Official website ↗</a></span>` : ""}</p>` : ""}</header></aside>
+    <div class="cp-main">${empty ? `<div class="cp-empty"><div class="cp-lab"><i class="cp-sq na"></i><b>Not yet inspected</b></div><p>Nothing is known about ${esc(c.name)}’s website yet. That is not a clean result.</p>${c.dist ? "" : `<small>Listed by population on ${fmtDate(SYS.popDate)}.</small>`}</div>`
+      : `${c.F.length ? `<div class="cp-list">${c.F.map(cityFinding).join("")}</div>` : c.k === "ok" ? `<div class="cp-empty"><p>Nothing found on the pages we read. They are listed below.</p></div>` : ""}${cityPages(c, !c.F.length)}${note}`}</div></div>`;
+}
+function sysBody(s) {
+  return s.kind === "sys" ? sysHome(s.L) : cityPage(s.L, s.kind === "district" ? SYSDIST[s.id] : SYSCITY[s.id]);
+}
+
 /* ---------- render ---------- */
 let last = null;
 function render() {
@@ -1339,6 +1648,7 @@ function render() {
   document.body.style.overflow = "";
   if (s.L[0] === "A") afterA(s);
   if (s.L === "A1" && s.kind === "group") afterGroup(s);
+  if (s.L === "A1" && s.kind === "sys") afterSys();
   if (s.L === "B") afterB(s, prev);
   if (s.L === "C") afterC(s, prev);
   last = s;
