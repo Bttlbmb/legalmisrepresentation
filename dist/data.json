@@ -54689,7 +54689,7 @@
        "lang": "German",
        "q": "Basiselterngeld\nBasiselterngeld kann nur in den ersten 14 Lebensmonaten des Kindes bezogen werden. Der Anspruch besteht für 12 Lebensmonate Ihres Kindes.\nSoweit sich bei mindestens einem Elternteil das Erwerbseinkommen nach der Geburt mindert, können Sie zwei zusätzliche Basiselterngeldmonate nutzen.\nSie müssen mindestens zwei Monate und können höchstens zwölf Monate Basiselterngeld in Anspruch nehmen.\nEin gleichzeitiger Bezug von Basiselterngeld ist nur innerhalb der ersten zwölf Lebensmonate des Kindes und maximal für einen Monat möglich. Eltern von Frühchen, Mehrlingen oder neugeborenen Kindern mit Behinderung oder Geschwisterkindern mit Behinderung können nach Bedarf und für mehr als einen Monat gleichzeitig Basiselterngeld beziehen.",
        "tr": "Basic parental allowance (Basiselterngeld)\nBasic parental allowance can only be received during the first 14 months of the child's life. The entitlement is for 12 months of your child's life.\nIf the earned income of at least one parent is reduced after the birth, you can use two additional months of basic parental allowance.\nYou must take at least two months and can take at most twelve months of basic parental allowance.\nReceiving basic parental allowance at the same time is only possible within the child's first twelve months of life and for a maximum of one month. Parents of premature babies, multiples or newborn children with a disability or siblings with a disability can receive basic parental allowance at the same time as needed and for more than one month.",
-       "why": "For some premature births, the law extends both the 14-month window and the 12-month limit. The page does not mention this.",
+       "why": "For some premature births, the law extends both the 14-month window and the 12-month limit.",
        "prov": "§ 4(5) BEEG",
        "lawUrl": "https://www.gesetze-im-internet.de/beeg/__4.html",
        "date": "2026-10-27"
@@ -55116,7 +55116,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires an EU or EEA driving licence to remain valid when applying to exchange it.",
+       "claim": "Requires an EU or EEA driving licence to remain valid when applying to exchange it.",
        "page": "EU/EWR Führerschein Umschreibung",
        "url": "https://www.stadt-koeln.de/service/produkte/00835/index.html",
        "lang": "German",
@@ -55723,7 +55723,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page extends orphan’s pension for disability where the child can support themselves, reversing the condition.",
+       "claim": "Extends orphan’s pension for disability where the child can support themselves, reversing the condition.",
        "page": "Voll und Halbwaisenrente",
        "url": "https://www.dortmund.de/services/waisenrente.html",
        "lang": "German",
@@ -56296,7 +56296,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page says every death notification must be submitted in writing.",
+       "claim": "Says every death notification must be submitted in writing.",
        "page": "Sterbefall anzeigen und beurkunden lassen",
        "url": "https://www.dresden.de/de/rathaus/dienstleistungen/sterbefall.php",
        "lang": "German",
@@ -56429,7 +56429,7 @@
        "lang": "German",
        "q": "Wer kein Wohngeld erhalten kann\nAlle Personen, die eine der nachstehend genannten Leistungen beziehen sind vom Bezug von Wohngeld ausgeschlossen:\n• Bürgergeld und Sozialgeld nach dem SGB II\n• Sozialhilfe- Hilfe zum Lebensunterhalt und Grundsicherung im Alter und bei Erwerbsminderung nach SGB XII\n• Hilfe zum Lebensunterhalt nach dem Bundesversorgungsgesetz oder einem Gesetz, das dieses für anwendbar erklärt\n• Leistungen in besonderen Fällen und Grundleistungen nach dem Asylbewerberleistungsgesetz\n• Leistungen nach dem Sozialgesetzbuch VIII (Kinder- und Jugendhilfe)\nErhält der Antragsteller und alle zu berücksichtigenden Haushaltsmitglieder eine der oben genannten Leistungen, besteht kein zusätzlicher Wohngeldanspruch.\nBezieht eines oder mehrere Haushaltsmitglieder eines Haushalts keine der oben genannten Leistungen, so kann für diese Person/en weiterhin ein Anspruch auf Wohngeld bestehen.",
        "tr": "Who cannot receive housing benefit\nAll persons who receive one of the benefits named below are excluded from receiving housing benefit:\n• Bürgergeld (basic income support for jobseekers) and social benefit (Sozialgeld) under SGB II\n• Social assistance - social assistance and basic security in old age and in case of reduced earning capacity under SGB XII\n• Social assistance under the Federal Pensions Act (Bundesversorgungsgesetz) or a law that declares it applicable\n• Benefits in special cases and basic benefits under the Asylum Seekers' Benefits Act\n• Benefits under the Eighth Social Code (SGB VIII) (child and youth welfare)\nIf the applicant and all household members to be taken into account receive one of the benefits named above, there is no additional entitlement to housing benefit.\nIf one or more members of a household do not receive any of the benefits named above, an entitlement to housing benefit may continue to exist for this person or these persons.",
-       "why": "This exclusion requires a household consisting only of recipients and benefits that include housing costs. Youth-welfare help without housing costs or receipt in a mixed household does not alone trigger it. The page separately recognises possible entitlement for nonrecipient household members.",
+       "why": "This exclusion applies only where all household members are recipients and the benefits include housing costs. Youth-welfare help without housing costs, or receipt in a mixed household, does not by itself trigger it.",
        "prov": "§ 7(1) sentence 1 no. 9 WoGG",
        "lawUrl": "https://www.gesetze-im-internet.de/wogg/__7.html",
        "date": "2026-10-27"
@@ -57449,7 +57449,7 @@
        "lang": "German",
        "q": "Wenn Sie sich nach der Geburt Ihres Kindes dazu entscheiden, auf eine weitere Berufstätigkeit zu verzichten oder weniger als 32 Stunden wöchentlich zu arbeiten, haben Sie Anspruch auf die Zahlung von Elterngeld. Das Elterngeld ersetzt 65%-67% des bisherigen Nettoerwerbseinkommens, höchstens jedoch 1.800 € und mindestens 300 € - auch für Nichterwerbstätige.",
        "tr": "If, after the birth of your child, you decide to give up further employment or to work fewer than 32 hours per week, you are entitled to payment of parental allowance. The parental allowance replaces 65%-67% of previous net earned income, but at most 1,800 € and at least 300 € - also for those not in employment.",
-       "why": "For qualifying prior earnings below €1,000, the replacement rate rises above 67% and can reach 100%. The page’s fixed range leaves out this low-income rule.",
+       "why": "For qualifying prior earnings below €1,000, the parental allowance replacement rate rises above 67% and can reach 100%.",
        "prov": "§ 2(2) sentence 1 BEEG",
        "lawUrl": "https://www.gesetze-im-internet.de/beeg/__2.html",
        "date": "2026-10-27"
@@ -57482,7 +57482,7 @@
       },
       {
        "s": "bad",
-       "claim": "The family guide says paternity can be acknowledged before birth only at the youth office.",
+       "claim": "Says, in its family guide, that paternity can be acknowledged before birth only at the youth office.",
        "page": "Vaterschaftsanerkennung vor Geburt nur beim Jugendamt",
        "url": "https://www.wuppertal.de/microsite/familienbuero/schwangerschaft_und_geburt/schwangerschaft_und_geburt/Hallo-da-bin-ich.php",
        "lang": "German",
@@ -58135,7 +58135,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires siblings to show authorisation or a legal interest in birth-register documents or information.",
+       "claim": "Requires siblings to show authorisation or a legal interest in birth-register documents or information.",
        "page": "Geburtsurkunden/Registerauskunft: Geschwister nur mit rechtlichem Interesse",
        "url": "https://www.bonn.de/vv/produkte/Geburtsurkunde.php?loc=de",
        "lang": "German",
@@ -58725,7 +58725,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires immigration-office permission to change EU Blue Card jobs during the first two years.",
+       "claim": "Requires immigration-office permission to change EU Blue Card jobs during the first two years.",
        "page": "Blaue Karte EU zur Ausübung einer hochqualifizierten Beschäftigung beantragen",
        "url": "https://web1.karlsruhe.de/service/Buergerdienste/leistung.php?id=6004479",
        "lang": "German",
@@ -59175,7 +59175,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires B2 German for a residence permit to search for vocational training.",
+       "claim": "Requires B2 German for a residence permit to search for vocational training.",
        "page": "Ausbildungsplatzsuche: B2 statt B1",
        "url": "https://www.stadt-muenster.de/aufenthaltsrecht/ausbildung/vor-der-ausbildung",
        "lang": "German",
@@ -59505,13 +59505,13 @@
      [
       {
        "s": "bad",
-       "claim": "The page requires foreign business applicants to produce residence and self-employment permission.",
+       "claim": "Requires foreign business applicants to produce residence and self-employment permission.",
        "page": "Gewerbe- und Reisegewerbeunterlagen für Unionsbürger",
        "url": "https://www.augsburg.de/buergerservice-rathaus/buergerservice/dienste-a-z/aemterweise/leistungen-ordnungsamt/gewerbebetriebe-an-um-abmeldung",
        "lang": "German",
        "q": "Unterlagen erfolgen kann. Eine sofortige Bearbeitung ist nicht möglich.\nDie persönliche Abgabe der Unterlagen ist\nnur\nmit Termin möglich, welchen Sie über den nachfolgenden Link buchen können.\nHier gelangen Sie zur Online-Terminreservierung\nDie entsprechenden Formulare dazu finden Sie\nhier\n.\nBitte sehen Sie von Rückfragen zum Bearbeitungsstand ab. Bei fehlenden Unterlagen und Rückfragen kontaktieren wir Sie.\nBeschreibung\nWer ein stehendes Gewerbe anfangen will, muss dies bei der zuständigen Behörde anzeigen (§ 14 GewO)\nAnzeigepflichtig ist hierbei:\nDer Beginn des Betriebes (auch einer Zweigniederlassung oder unselbständigen Zweigstelle)\nDie Verlegung des Betriebes (innerhalb des Gemeindegebietes) sowie jede wesentliche Änderung der gewerblichen Tätigkeit\nDie Aufgabe oder Verlegung außerhalb des Gemeindegebietes oder wenn sich der Gegenstand des Gewerbes maßgeblich ändert\nAnzeigepflichtig ist jede natürliche (z. B. auch der Gesellschafter von Personengesellschaften) oder juristische Person.\nDie Anzeige ist gleichzeitig mit Beginn des Betriebes bzw. dem anzeigepflichtigen Ereignisses zu erstatten. Eine Unterlassung der Anzeige kann unter anderem als Ordnungswidrigkeit geahndet werden.\nDes Weiteren gibt es\nerlaubnispflichtige Gewerbe, reisegewerbliche Tätigkeiten, überwachungsbedürftige Gewerbe\nund handwerksrechtliche Tätigkeiten.\nFür diese Gewerbe sind neben der Anmeldung außerdem eine Gewerbeerlaubnis, eine Reisegewerbekarte bzw. ein Eintrag in die Handwerksrolle notwendig.\nZuständige Dienststelle\nOrdnungsamt\nUnterlagen\nPersonalausweis oder Reisepass zur Überprüfung der Personalien, bei ausländischen Antragsteller ist eine Aufenthaltserlaubnis bzw. –berechtigung vorzulegen; bei Bevollmächtigung eine schriftliche Vollmacht und Ausweis des Vollmachtgebers sowie des Bevollmächtigten\nBei im Handels-, Vereins-, oder Genossenschaftsregister eingetragenen Gesellschaften ein Registerauszug\nFür die Gewerbean-, -um- und –abmeldung sind die amtlich vorgeschriebenen Vordrucke zu verwenden (siehe Formulare)",
        "tr": "documents can take place. Immediate processing is not possible.\nPersonal submission of the documents is\nonly\npossible with an appointment, which you can book via the following link.\nHere you get to the online appointment booking\nYou will find the corresponding forms\nhere\n.\nPlease refrain from enquiring about the processing status. If documents are missing or we have queries, we will contact you.\nDescription\nAnyone who wants to start a fixed-location trade must notify the responsible authority of this (§ 14 GewO)\nThe following must be notified:\nThe start of the business (also of a branch or dependent branch office)\nThe relocation of the business (within the municipal area) and any significant change to the commercial activity\nThe closure or relocation outside the municipal area, or if the subject of the trade changes significantly\nEvery natural person (e.g. also the partner of a partnership) or legal entity is obliged to notify.\nThe notification must be made at the same time as the start of the business or the event requiring notification. Failure to notify can be punished, among other things, as an administrative offence.\nFurthermore, there are\ntrades requiring a licence, itinerant trade activities, trades requiring supervision\nand craft-law activities.\nFor these trades, in addition to the registration, a trade licence, an itinerant trade card or an entry in the register of crafts (Handwerksrolle) is also necessary.\nResponsible office\nPublic order office (Ordnungsamt)\nDocuments\nIdentity card or passport to verify personal details; in the case of foreign applicants, a residence permit or right of residence must be presented; in the case of authorisation, a written power of attorney and the identity document of the person granting the power of attorney as well as of the authorised person\nFor companies entered in the commercial register, register of associations or register of cooperatives, a register extract\nFor business registration, change and deregistration, the officially prescribed forms must be used (see Forms)",
-       "why": "Qualifying EU citizens exercising freedom-of-movement rights, including covered self-employed people, do not need a residence permit. The page’s general document demand therefore goes too far for this group.",
+       "why": "Qualifying EU citizens exercising freedom-of-movement rights, including covered self-employed people, do not need a residence permit.",
        "prov": "FreizügG/EU §§ 2(2) nos. 2–3, 2a(1)",
        "lawUrl": "https://www.gesetze-im-internet.de/freiz_gg_eu_2004/__2.html",
        "date": "2026-10-27"
@@ -60171,7 +60171,7 @@
        "lang": "German",
        "q": "Für den Anspruch auf Elterngeld müssen außerdem die folgenden Voraussetzungen vorliegen:\nDie Berechtigte bzw. der Berechtigte lebt mit dem Kind im selben Haushalt\narbeitet während der Elternzeit nicht mehr als 30 Wochenstunden",
        "tr": "For entitlement to parental allowance, the following requirements must also be met:\nThe entitled person (female or male) lives with the child in the same household\ndoes not work more than 30 hours per week during parental leave",
-       "why": "For births or adoption placements from 1 September 2021, the normal limit is 32 hours a week. Parental leave uses the monthly average; parental allowance uses the child’s life-month average. The city’s parental-benefit page correctly gives 32 hours.",
+       "why": "For births or adoption placements from 1 September 2021, the normal limit is 32 hours a week. Parental leave uses the monthly average; parental allowance uses the child’s life-month average.",
        "prov": "§§ 1(6) no. 1, 15(4) BEEG",
        "lawUrl": "https://www.gesetze-im-internet.de/beeg/__1.html",
        "date": "2026-10-27"
@@ -60204,7 +60204,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page applies representative and court involvement, and exemption from the one-year interval, to all adults with legal support.",
+       "claim": "Applies representative and court involvement, and exemption from the one-year interval, to all adults with legal support.",
        "page": "Erklärungen nach dem Selbstbestimmungsgesetz",
        "url": "https://www.gelsenkirchen.de/de/_meta/buergerservice/1632-erklaerungen-nach-dem-selbstbestimmungsgesetz-sbgg",
        "lang": "German",
@@ -60437,7 +60437,7 @@
        "lang": "German",
        "q": "Die Personalausweisbehörde kann die Personen von der Ausweispflicht befreien,\ndie voraussichtlich dauerhaft in einem Krankenhaus, einem Pflegeheim oder einer ähnlichen Einrichtung untergebracht sind\ndie sich wegen einer dauerhaften Behinderung nicht allein in der Öffentlichkeit bewegen können oder\nfür die ein Betreuer oder eine Betreuerin nicht durch einstweilige Anordnung bestellt ist oder die handlungs- oder einwilligungsfähig sind und von einem oder von einer mit öffentlich beglaubigter Vollmacht Bevollmächtigten vertreten werden.\nEntsprechende Anträge können formlos in jeder Meldestelle abgegeben werden.",
        "tr": "The identity-card authority can exempt persons from the obligation to hold an identity card\nwho are expected to be permanently accommodated in a hospital, a nursing home or a similar institution\nwho, because of a permanent disability, cannot move around in public on their own or\nfor whom a guardian has not been appointed by interim order or who are capable of acting or of giving consent and are represented by a person authorised with a publicly certified power of attorney.\nApplications to this effect can be submitted informally at any registration office.",
-       "why": "This exemption route concerns people unable to act legally or give consent, represented through a publicly certified power of attorney. The page reverses the capacity condition. Other exemption routes remain separate.",
+       "why": "This exemption route concerns people unable to act legally or give consent, represented through a publicly certified power of attorney. Other exemption routes remain separate.",
        "prov": "§ 1 PAuswG",
        "lawUrl": "https://www.gesetze-im-internet.de/pauswg/__1.html",
        "date": "2026-10-27"
@@ -60657,7 +60657,7 @@
        "lang": "German",
        "q": "Die Vaterschaftsanerkennung muss öffentlich beurkundet werden. Sie kann nicht unter einer Bedingung oder einer Zeitbestimmung erfolgen und muss persönlich abgegeben werden. Eine Bevollmächtigung ist ausgeschlossen. Die Anerkennung ist bereits vor der Geburt des Kindes möglich.\nDie Anerkennung der Vaterschaft ist erst rechtswirksam mit Zustimmung der Mutter. Ist ein Elternteil noch minderjährig, müssen dessen Sorgeberechtigte (meistens die Eltern) und ggf. auch das Kind, in der Regel vertreten durch das Jugendamt als Vormund, zustimmen.",
        "tr": "The acknowledgement of paternity must be publicly recorded. It cannot be made subject to a condition or a time limit and must be given in person. Authorisation by a representative is excluded. The acknowledgement is already possible before the child is born.\nThe acknowledgement of paternity only becomes legally effective with the mother's consent. If a parent is still a minor, that parent's persons with parental custody (usually the parents) and, where applicable, also the child, as a rule represented by the youth office as guardian, must consent.",
-       "why": "Since 1 April 2026, the mother’s consent is not needed if she has died. The consent rule in the page’s text no longer applies in that case.",
+       "why": "Since 1 April 2026, the mother’s consent is not needed for an acknowledgement of fatherhood if she has died.",
        "prov": "§ 1595 BGB",
        "lawUrl": "https://www.gesetze-im-internet.de/bgb/__1595.html",
        "date": "2026-10-27"
@@ -62070,7 +62070,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page says married people can adopt an unrelated child only together.",
+       "claim": "Says married people can adopt an unrelated child only together.",
        "page": "Ein fremdes Kind adoptieren",
        "url": "https://halle.de/serviceportal/dienstleistungen/leistung/ein-fremdes-kind-adoptieren/402322478",
        "lang": "German",
@@ -62117,7 +62117,7 @@
        "lang": "German",
        "q": "Das Antragsersuchen ist durch Sie zu präzisieren, auf welche Informationen oder Verarbeitungsvorgänge sich das Auskunftsersuchen konkret bezieht (beispielsweise im Zusammenhang mit Wohngeld, Parkausweis etc.). Allgemeine Auskunftsersuchen werden von uns auf Grund der großen Menge von gespeicherten Informationen nicht bearbeitet. Auskunftsersuchen zu gleichen Inhalten, die mehr als einmal im Jahr gestellt werden, müssen wir zur Bearbeitung ablehnen.",
        "tr": "You must specify in your application request which information or processing operations the request for information specifically relates to (for example in connection with housing benefit, parking permit etc.). Because of the large amount of stored information, we do not process general requests for information. Requests for information on the same content that are made more than once a year must be rejected by us for processing.",
-       "why": "A request can be refused only if it is clearly unfounded or excessive, and the city must show this. Frequent repeats can be a sign of this but do not settle it. A yearly limit alone does not automatically bar a justified new request.",
+       "why": "A request can be refused only if it is clearly unfounded or excessive, and the body refusing it must show this. Frequent repeats can signal this but do not settle it. A yearly limit alone does not automatically bar a justified new request.",
        "prov": "Art. 12(5), Art. 15(1) GDPR",
        "lawUrl": "https://publications.europa.eu/resource/celex/32016R0679",
        "date": "2026-10-27",
@@ -62775,7 +62775,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page says driver-card renewal can be requested as late as five working days before expiry.",
+       "claim": "Says driver-card renewal can be requested as late as five working days before expiry.",
        "page": "Fahrerkarte beantragen",
        "url": "https://rathaus.rostock.de/de/service/dienstleistungen/fahrerkarte_beantragen/402320",
        "lang": "German",
@@ -63363,7 +63363,7 @@
        "lang": "German",
        "q": "Basiselterngeld\n• Basiselterngeld kann bis zur Vollendung des 14. Lebensmonats des Kindes bezogen werden. Sie erhalten das Basiselterngeld in Höhe von 67 Prozent ihres vorgeburtlichen (laufend versteuerten) Einkommens. Es wird mindestens in Höhe von 300,00 Euro und bis zu einem Höchstbetrag von 1.800,00 Euro für jeden Lebensmonat gezahlt.\n• Eltern haben gemeinsam Anspruch auf 12 Monatsbeträge Basiselterngeld, die sie untereinander aufteilen können. Beziehen beide Elternteile Elterngeld, und liegt bei einem Elternteil eine Minderung des Einkommens aus Erwerbstätigkeit in zwei Lebensmonaten vor, kann für weitere 2 Lebensmonate Basiselterngeld bezogen werden („Partnermonate“).",
        "tr": "Basic parental allowance (Basiselterngeld)\n• Basic parental allowance can be received until the child's 14th month of life is completed. You receive the basic parental allowance at 67 percent of your pre-birth (regularly taxed) income. It is paid at a minimum of 300.00 euros and up to a maximum of 1,800.00 euros for each month of life.\n• Parents together are entitled to 12 monthly amounts of basic parental allowance, which they can divide between themselves. If both parents receive parental allowance, and one parent has a reduction in income from employment in two months of life, basic parental allowance can be received for a further 2 months of life (\"partner months\").",
-       "why": "The 67% figure is the statutory starting rate. The rate varies with income; the page also points to an individual calculation.",
+       "why": "67% is the starting rate for basic parental allowance. The rate varies with income.",
        "prov": "§ 2(1)–(4) BEEG",
        "lawUrl": "https://www.gesetze-im-internet.de/beeg/__2.html",
        "date": "2026-10-27",
@@ -63540,7 +63540,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page offers naturalisation after three years for exceptional integration and C1 German.",
+       "claim": "Offers naturalisation after three years for exceptional integration and C1 German.",
        "page": "Einbürgerung",
        "url": "https://www.saarbruecken.de/rathaus/buergerservice/einbuergerung",
        "lang": "German",
@@ -63559,7 +63559,7 @@
        "lang": "German",
        "q": "Zum Nachweis eines Betriebssitzes in Saarbrücken erbitten wir – sofern Sitz der Betriebsstätte abweichend von der Wohnanschrift und nicht im eigenen Eigentum des Gewerbemeldenden – die Vorlage des Mietvertrages zwischen dem Hauseigentümer und dem Gewerbetreibenden oder eine schriftliche, kurze Einverständniserklärung des Hauseigentümers.\nBei Gewerbeanmeldung von ausländischen Staatsangehörigen ist eine Aufenthaltsgenehmigung der zuständigen Ausländerbehörde vorzulegen, die die Erlaubnis beinhaltet, eine selbständige Gewerbstätigkeit aufzunehmen.\nEin in einem ausländischen Handelsregister eingetragenes Unternehmen hat die entsprechenden Eintragungsunterlagen nebst deutscher Übersetzung (von vereidigtem Übersetzer) vorzulegen.",
        "tr": "To prove a business seat in Saarbrücken, we ask – if the seat of the business premises differs from the home address and is not owned by the person registering the business – for the submission of the tenancy agreement between the property owner and the trader or a short written declaration of consent from the property owner.\nWhen foreign nationals register a business, a residence permit (Aufenthaltsgenehmigung) from the competent immigration office must be submitted that includes permission to take up self-employed business activity.\nA company entered in a foreign commercial register must submit the relevant registration documents together with a German translation (by a sworn translator).",
-       "why": "EU citizens entitled to free movement for lawful self-employment do not need a residence permit. The page’s document requirement is therefore too broad for that group.",
+       "why": "EU citizens entitled to free movement for lawful self-employment do not need a residence permit.",
        "prov": "§ 2a(1); § 2(2) no. 2 FreizügG/EU",
        "lawUrl": "https://www.gesetze-im-internet.de/freiz_gg_eu_2004/__2a.html",
        "date": "2026-10-27"
@@ -63912,7 +63912,7 @@
        "lang": "German",
        "q": "Das Basiselterngeld wird für maximal 14 Lebensmonate gezahlt, wobei beide Elternteile den Zeitraum frei untereinander aufteilen können. Ein Elternteil kann maximal zwölf Lebensmonate allein Elterngeld beziehen, zwei weitere Monate sind für den anderen Elternteil reserviert. Für Elterngeldfälle mit Geburten ab dem 1. April 2024 ist der gleichzeitige Bezug von Basiselterngeld in den ersten zwölf Lebensmonaten nur für einen Monat erlaubt. Weiterhin uneingeschränkt parallel Basiselterngeld beziehen dürfen Eltern von Mehrlingen, Frühgeburten (6 Wochen zu früh), behinderten Kindern oder behinderter Geschwisterkinder die einen Geschwisterbonus auslösen.",
        "tr": "Basic parental allowance (Basiselterngeld) is paid for a maximum of 14 months of the child's life, and both parents can divide the period freely between themselves. One parent can receive parental allowance alone for a maximum of twelve months of the child's life; two further months are reserved for the other parent. For parental allowance cases with births from 1 April 2024, receiving basic parental allowance at the same time in the first twelve months of the child's life is permitted for only one month. Parents of multiple births, premature births (6 weeks early), disabled children or disabled siblings who trigger a sibling bonus may still receive basic parental allowance in parallel without restriction.",
-       "why": "Qualifying premature births can allow 13–16 monthly amounts for one parent and basic benefit through life-month 15–18. The exact extension depends on how early the child was born. The page’s separate premature-birth exception concerns joint receipt, not duration.",
+       "why": "After a qualifying premature birth, one parent can get 13 to 16 monthly amounts. Basic parental allowance can run through life-month 15 to 18, depending on how early the child was born. Receiving it together under the separate premature-birth exception does not change the duration.",
        "prov": "§ 4(1), (4)–(5); § 28 BEEG",
        "lawUrl": "https://www.gesetze-im-internet.de/beeg/__4.html",
        "date": "2026-10-27"
@@ -63938,14 +63938,14 @@
        "lang": "German",
        "q": "Mietobergrenzen\nFür die Berechnung des Wohngeldes wird nur die Miete beziehungsweise die Belastung bis zu folgenden Höchstbeträgen berücksichtigt:\n• Haushaltsmitglieder: eine Person – Höchstbetrag/Euro Miete inklusive Nebenkosten ohne Heizung und Strom: 511 Euro\n• Haushaltsmitglieder: zwei Personen – Höchstbetrag/Euro Miete inklusive Nebenkosten ohne Heizung und Strom: 619 Euro\n• Haushaltsmitglieder: drei Personen – Höchstbetrag/Euro Miete inklusive Nebenkosten ohne Heizung und Strom: 737 Euro\n• Haushaltsmitglieder: vier Personen – Höchstbetrag/Euro Miete inklusive Nebenkosten ohne Heizung und Strom: 858 Euro\n• Haushaltsmitglieder: fünf Personen – Höchstbetrag/Euro Miete inklusive Nebenkosten ohne Heizung und Strom: 982 Euro\n• jede weitere Person – Höchstbetrag/Euro Miete inklusive Nebenkosten ohne Heizung und Strom: 119 Euro",
        "tr": "Maximum rent limits\nFor the calculation of housing benefit, only the rent or the burden up to the following maximum amounts is taken into account:\n• Household members: one person – maximum amount/euros rent including service charges without heating and electricity: 511 euros\n• Household members: two persons – maximum amount/euros rent including service charges without heating and electricity: 619 euros\n• Household members: three persons – maximum amount/euros rent including service charges without heating and electricity: 737 euros\n• Household members: four persons – maximum amount/euros rent including service charges without heating and electricity: 858 euros\n• Household members: five persons – maximum amount/euros rent including service charges without heating and electricity: 982 euros\n• each additional person – maximum amount/euros rent including service charges without heating and electricity: 119 euros",
-       "why": "The most rent counted is the basic maximum plus a climate component, so it is higher than the page’s figures. For one person it can be up to 530.20 euros, not 511.",
+       "why": "The most rent counted for housing benefit is the basic maximum plus a climate component. For one person it can be up to 530.20 euros.",
        "prov": "§ 11(1) no. 1 WoGG",
        "lawUrl": "https://www.gesetze-im-internet.de/wogg/__11.html",
        "date": "2026-10-27"
       },
       {
        "s": "bad",
-       "claim": "The page gives 16 as the minimum age for an AM driving licence.",
+       "claim": "Gives 16 as the minimum age for an AM driving licence.",
        "page": "Erstmalige Erteilung einer allgemeinen Fahrerlaubnis",
        "url": "https://serviceportal.oldenburg.de/buergerservice/dienstleistungen/erstmalige-erteilung-einer-allgemeinen-fahrerlaubnis-900000146-0.html?myMedium=1&auswahl=0",
        "lang": "German",
@@ -64450,7 +64450,7 @@
        "lang": "German",
        "q": "Folgende Beträge werden angerechnet, das heißt, sie verringern Ihren BAföG-Bedarf:\nDas Einkommen Ihrer Eltern und/oder Ihres Ehegatten/Lebenspartners im vorletzten Jahr vor Beginn des Bewilligungszeitraums, wenn er über dem Freibetrag liegt. Der Freibetrag ist:\n• EUR 2.415, wenn Ihre Eltern zusammenleben,\n• EUR 1.605 je Elternteil, wenn Ihre Eltern getrennt leben und\n• EUR 1.605 für einen möglichen Ehegatten/Lebenspartner.\nvon dem so ermittelten Elterneinkommen bleiben weitere 50 % - sowie für jedes Geschwisterkind in nicht förderfähiger Ausbildung zusätzlich 5 % - anrechnungsfrei\nHinweis: Wenn Ihre Eltern oder Ihr Ehegatte/Lebenspartner aktuell deutlich weniger verdienen als im vorletzten Jahr vor Bewilligung, können Sie einen Aktualisierungsantrag stellen.",
        "tr": "The following amounts are offset, that is, they reduce your BAföG (student financial aid) need:\nThe income of your parents and/or your spouse/partner in the year before last before the start of the approval period, if it is above the allowance. The allowance is:\n• EUR 2,415 if your parents live together,\n• EUR 1,605 per parent if your parents live apart and\n• EUR 1,605 for a possible spouse/partner.\nA further 50% of the parental income determined in this way - and an additional 5% for each sibling in non-fundable training - remains exempt from offsetting\nNote: If your parents or your spouse/partner currently earn significantly less than in the year before last before approval, you can submit an update application.",
-       "why": "The page’s figures are out of date. The current allowance is 2,540 euros for married parents who live together. It is 1,690 euros for each other parent and for a spouse.",
+       "why": "The amount of parents’ income that student aid ignores is 2,540 euros for married parents who live together. It is 1,690 euros for each other parent and for a spouse.",
        "prov": "§ 25(1) BAföG",
        "lawUrl": "https://www.gesetze-im-internet.de/baf_g/__25.html",
        "date": "2026-10-27"
@@ -64684,7 +64684,7 @@
        "lang": "German",
        "q": "Elterngeld gibt es für alle erwerbstätigen Eltern (Arbeitnehmerinnen und Arbeitnehmer, Beamtinnen und Beamte, Selbstständige etc.) und Eltern ohne aktuelles Erwerbseinkommen (etwa Hausfrauen, Arbeitslose, Studierende und Auszubildende).\n\nNicht nur die leiblichen Eltern sind elterngeldberechtigt, sondern auch Adoptiveltern und in Ausnahmefällen auch Verwandte bis zum dritten Grad, die Zeit für die Betreuung des neugeborenen Kindes investieren.\nDie Elterngeldleistung beträgt prozentual mindestens 67 Prozent des entfallenden Nettoeinkommens, absolut mindestens 300 Euro und höchstens 1800 Euro (67 Prozent von maximal 2700 Euro, die als Einkommen berüsichtigt werden) für mindestens die ersten zwölf Lebensmonate des Kindes.",
        "tr": "Parental allowance is available to all working parents (employees, civil servants, self-employed people etc.) and to parents without current earned income (for example housewives, unemployed people, students and trainees).\n\nNot only the biological parents are entitled to parental allowance, but also adoptive parents and, in exceptional cases, relatives up to the third degree who invest time in caring for the newborn child.\nThe parental allowance amounts, as a percentage, to at least 67 per cent of the lost net income, and in absolute terms to at least 300 euros and at most 1800 euros (67 per cent of a maximum of 2700 euros that are taken into account as income) for at least the first twelve months of the child's life.",
-       "why": "For higher income before birth, the statutory replacement rate falls to 65%. The page’s €300 minimum and €1,800 maximum do not make 67% the minimum replacement rate.",
+       "why": "For higher income before the birth, the replacement rate falls to 65%. The minimum of €300 and maximum of €1,800 do not make 67% the minimum replacement rate.",
        "prov": "§ 2(1)–(3); § 4a(1) BEEG",
        "lawUrl": "https://www.gesetze-im-internet.de/beeg/__2.html",
        "date": "2026-10-27"
@@ -65239,7 +65239,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page says basic-security applications cannot be made by telephone.",
+       "claim": "Says basic-security applications cannot be made by telephone.",
        "page": "Grundsicherung im Alter und bei Erwerbsminderung",
        "url": "https://serviceportal-neuss.de/suche/-/egov-bis-detail/dienstleistung/26087/show",
        "lang": "German",
@@ -65258,7 +65258,7 @@
        "lang": "German",
        "q": "Anspruch auf Grundsicherung im Alter und bei Erwerbsminderung haben\n• Personen, die die Altergrenze erreicht haben.\n\nPersonen, die vor dem 1. Januar 1947 geboren sind, erreichen die Altersgrenze mit Vollendung des 65. Lebensjahres.\n(Für Personen, die nach dem 31. Dezember 1946 geboren sind, wurde die Altersgrenze angehoben. Pro Jahr um einen Monat. Personen, die im Jahr 1964 geboren wurden, erreichen die Altersgrenze mit Vollendung des 67. Lebensjahres.)\n• Personen, die das 18. Lebensjahr vollendet haben und dauerhaft voll erwerbsgemindert sind,\n• Personen, die das 18. Lebensjahr vollendet haben, für den Zeitraum, in dem sie in einer Werkstatt für behinderte Menschen (§ 57 des Neunten Buches) oder bei einem anderen Leistungsanbieter (§ 60 des Neunten Buches) das Eingangsverfahren und den Berufsbildungsbereich durchlaufen oder in einem Ausbildungsverhältnis stehen, für das sie ein Budget für Ausbildung (§ 61a des Neunten Buches) erhalten,\nsofern sie ihren notwendigen Lebensunterhalt nicht ausreichend oder überhaupt nicht aus eigenen Kräften und Mitteln, insbesondere aus ihrem Einkommen und Vermögen, sicherstellen können. Leistungen der Grundsicherung im Alter und bei Erwerbsminderung setzen also voraus, dass Bedürftigkeit vorliegt.",
        "tr": "The following are entitled to basic security in old age and in case of reduced earning capacity\n• Persons who have reached the age limit.\n\nPersons born before 1 January 1947 reach the age limit on completing their 65th year of life.\n(For persons born after 31 December 1946, the age limit was raised. By one month per year. Persons born in 1964 reach the age limit on completing their 67th year of life.)\n• Persons who have completed their 18th year of life and have permanently fully reduced earning capacity,\n• Persons who have completed their 18th year of life, for the period in which they go through the entry procedure and the vocational training area in a workshop for disabled people (§ 57 of Book Nine) or with another benefit provider (§ 60 of Book Nine) or are in a training relationship for which they receive a budget for training (§ 61a of Book Nine),\nprovided they cannot secure their necessary living costs sufficiently or at all from their own strength and means, in particular from their income and assets. Benefits of basic security in old age and in case of reduced earning capacity therefore require that need exists.",
-       "why": "For birth years 1959–1963, it rises by two months per year, not one. The page’s correct endpoint of age 67 for people born in 1964 does not correct the intervening years.",
+       "why": "For basic security in old age, the age limit rises by two months per birth year for people born in 1959 to 1963. People born in 1964 reach it at age 67.",
        "prov": "§ 41(2) SGB XII",
        "lawUrl": "https://www.gesetze-im-internet.de/sgb_12/__41.html",
        "date": "2026-10-27"
@@ -65284,7 +65284,7 @@
        "lang": "German",
        "q": "Die Ausübung einer Erwerbstätigkeit wird nur in geringem Umfang erlaubt (120 ganze bzw. 240 halbe Tage im Jahr, sowie studentische Nebentätigkeiten). Der Lebensunterhalt muss unabhängig von Einnahmen aus einer solchen Tätigkeit bestritten werden können. Bei einer Studienbewerbung wird die Aufnahme einer Erwerbstätigkeit nicht erlaubt, ebenso im ersten Jahr des Aufenthaltes zu studienvorbereitenden Maßnahmen.",
        "tr": "Taking up gainful employment is only permitted to a small extent (120 full or 240 half days a year, as well as student side jobs). It must be possible to pay for your living costs independently of income from such an activity. During a study application, taking up gainful employment is not permitted, likewise in the first year of residence for study-preparation measures.",
-       "why": "The current study-permit rule provides a 140-workday account and favourable weekly counting rules. These can allow work beyond the page’s 120-full-day limit.",
+       "why": "The current rule for study permits gives a 140-workday allowance, with favourable rules for counting weekly work. Together these can allow more than 120 full workdays.",
        "prov": "§ 16b(3) AufenthG",
        "lawUrl": "https://www.gesetze-im-internet.de/aufenthg_2004/__16b.html",
        "date": "2026-10-27"
@@ -65463,7 +65463,7 @@
        "lang": "German",
        "q": "Wer kann kein Wohngeld erhalten - Ausschlussgründe\nAlle Personen, die eine der nachstehend genannten Leistungen beziehen, sind vom Bezug von Wohngeld ausgeschlossen:\n• Arbeitslosengeld II und Sozialgeld nach dem SGB II\n• Sozialhilfe- Hilfe zum Lebensunterhalt und Grundsicherung im Alter und bei Erwerbsminderung nach SGB XII\n• Hilfe zum Lebensunterhalt nach dem Bundesversorgungsgesetz oder einem Gesetz, das dieses für anwendbar erklärt\n• Leistungen in besonderen Fällen und Grundleistungen nach dem Asylbewerberleistungsgesetz\n• Leistungen nach dem Sozialgesetzbuch VIII (Kinder- und Jugendhilfe)\n\nErhält der Antragsteller und alle zu berücksichtigenden Haushaltsmitglieder eine der oben genannten Leistungen, besteht kein zusätzlicher Wohngeldanspruch.\nBezieht eines oder mehrere Haushaltsmitglieder eines Haushalts keine der oben genannten Leistungen, so kann für diese Person/en weiterhin ein Anspruch auf Wohngeld bestehen.",
        "tr": "Who cannot receive housing benefit - grounds for exclusion\nAll persons who receive one of the benefits named below are excluded from receiving housing benefit:\n• Unemployment benefit II and social benefit (Sozialgeld) under SGB II\n• Social assistance - assistance with living costs and basic security in old age and in case of reduced earning capacity under SGB XII\n• Assistance with living costs under the Federal Benefits Act (Bundesversorgungsgesetz) or a law that declares it applicable\n• Benefits in special cases and basic benefits under the Asylum Seekers' Benefits Act\n• Benefits under Social Code Book VIII (child and youth welfare)\n\nIf the applicant and all household members to be taken into account receive one of the benefits named above, there is no additional entitlement to housing benefit.\nIf one or more members of a household do not receive any of the benefits named above, an entitlement to housing benefit can still exist for this person or these persons.",
-       "why": "The youth-welfare exclusion requires a household consisting only of recipients and benefits that include accommodation costs. Not every youth-welfare service triggers it. The page separately recognises that other household members may still qualify.",
+       "why": "The youth-welfare exclusion from housing benefit applies only if the whole household receives such benefits and they include accommodation costs. Not every youth-welfare service triggers it. Household members who receive no such benefit may still qualify.",
        "prov": "§ 7(1) sentence 1 no. 9, (2) WoGG",
        "lawUrl": "https://www.gesetze-im-internet.de/wogg/__7.html",
        "date": "2026-10-27"
@@ -65666,7 +65666,7 @@
       },
       {
        "s": "amb",
-       "claim": "The page’s exclusive civil-certificate list omits grandchildren and other direct-line relatives beyond those named.",
+       "claim": "Gives an exclusive list of who can request civil-status certificates, omitting grandchildren and other direct-line relatives beyond those named.",
        "page": "Urkunden",
        "url": "https://www.ingolstadt.de/Service/Lebenslagen/Urkunden",
        "lang": "German",
@@ -65811,7 +65811,7 @@
       },
       {
        "s": "amb",
-       "claim": "The page initially requires a child’s consent to paternity acknowledgment only if the mother lacks custody.",
+       "claim": "Says at first that a child must consent to paternity acknowledgment only if the mother lacks custody.",
        "page": "Vaterschaftsanerkennung erklären und beurkunden lassen",
        "url": "https://www.pforzheim.de/buerger/buergerservice/info/service-bw/leistungen/show/1439-vaterschaftsanerkennung-erklaeren-und-beurkunden-lassen.html",
        "lang": "German",
@@ -66630,7 +66630,7 @@
        "lang": "German",
        "q": "Rechtsbehelf\nkein",
        "tr": "Legal remedy\nnone",
-       "why": "If a registrar refuses an official act, an applicant can ask the local court to direct the registrar to act. This also matters for the civil-register service included on the page.",
+       "why": "If a registrar refuses an official act, an applicant can ask the local court to direct the registrar to act. This remedy also applies to civil-register services.",
        "prov": "PStG § 49(1), § 50",
        "lawUrl": "https://www.gesetze-im-internet.de/pstg/__49.html",
        "date": "2026-10-27",
@@ -66936,7 +66936,7 @@
        "lang": "German",
        "q": "Wenn Sie Bürgergeld erhalten, wenden Sie sich bitte an das Jobcenter Wolfsburg. Dort erhalten Sie weitere Informationen und können die Leistungen vor Ort beantragen.\nWenn Sie Sozialhilfe oder Asylleistungen seitens der Stadt Wolfsburg erhalten, können Sie sich im Servicebüro (Rathaus B, Zimmer 103) beraten lassen und den Antrag stellen. Empfänger von Wohngeld und/oder Kinderzuschlag stellen die Anträge bitte bei der Stadt Wolfsburg/Wohngeldstelle (Rathaus B, Zimmer 120 und 121).\nNatürlich können Sie den Antrag auch wie gewohnt per Post an die jeweilige Behörde senden. Der Antrag wirkt auf den Ersten des Monats zurück, in dem er eingeht. Es gilt der Poststempel.",
        "tr": "If you receive Bürgergeld (basic income support for jobseekers), please contact the Jobcenter Wolfsburg. There you will receive further information and can apply for the benefits on site.\nIf you receive social assistance or asylum benefits from the City of Wolfsburg, you can get advice and submit the application at the service office (town hall B, room 103). Recipients of housing benefit and/or child supplement (Kinderzuschlag) please submit the applications to the City of Wolfsburg/housing benefit office (town hall B, rooms 120 and 121).\nOf course you can also send the application by post to the respective authority as usual. The application takes effect retroactively to the first of the month in which it is received. The postmark applies.",
-       "why": "For households receiving housing benefit or child supplement, education benefits can start in the month conditions are met, including before application. The claim has a twelve-month time limit.",
+       "why": "For households receiving housing benefit or child supplement, education benefits can start in the month the conditions are met, including before the application. The time limit for claiming is twelve months.",
        "prov": "§ 5(1), § 6b(2a) BKGG",
        "lawUrl": "https://www.gesetze-im-internet.de/bkgg_1996/__5.html",
        "date": "2026-10-27"
@@ -67524,7 +67524,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page says parental allowance must be applied for within three months of birth.",
+       "claim": "Says parental allowance must be applied for within three months of birth.",
        "page": "Elterngeld",
        "url": "https://www.bottrop.de/vv/produkte/dezernat5/51/Elterngeld.php",
        "lang": "German",
@@ -67790,7 +67790,7 @@
        "lang": "German",
        "q": "Wer kann diese Leistung bekommen?\nSchülerinnen und Schüler, die eine allgemein- oder berufsbildende Schule besuchen, wenn sie jünger als 25 Jahre sind.\nBerufsschüler, die eine Ausbildungsvergütung erhalten, sind von der Leistung ausgeschlossen.\nWie kann ich die Leistung bekommen?\nZweimal im Jahr, jeweils zu Beginn eines Schulhalbjahres, wird ein zusätzlicher Geldbetrag gezahlt: Zum 1. August in Höhe von 116 Euro und zum 1. Februar in Höhe von 58 Euro.\nEin zusätzlicher Antrag ist für Bezieher laufender Sozialhilfeleistungen nicht erforderlich. Wer bereits Leistungen nach dem Zweiten oder Zwölften Buch Sozialgesetzbuch oder dem Asylbewerberleistungsgesetz bezieht, bekommt für seine Kinder diese Leistung automatisch, wenn die genannten Voraussetzungen erfüllt sind.",
        "tr": "Who can receive this benefit?\nPupils who attend a general or vocational school, if they are younger than 25.\nVocational school pupils who receive a training allowance are excluded from the benefit.\nHow can I receive the benefit?\nTwice a year, at the start of each school half-year, an additional sum of money is paid: on 1 August in the amount of 116 euros and on 1 February in the amount of 58 euros.\nAn additional application is not required for recipients of ongoing social assistance benefits. Anyone who already receives benefits under the Second or Twelfth Book of the Social Code or the Asylum Seekers' Benefits Act automatically receives this benefit for their children if the stated requirements are met.",
-       "why": "In 2026, eligible pupils receive €130 plus €65 for school supplies, totalling €195. The page’s €116 and €58 instalments, and the linked €150 annual figure, are outdated.",
+       "why": "In 2026, eligible pupils receive €130 plus €65 for school supplies, totalling €195.",
        "prov": "§ 34(3a) SGB XII; § 3 RBSFV 2026; § 28(3) SGB II",
        "lawUrl": "https://www.gesetze-im-internet.de/sgb_12/__34.html",
        "date": "2026-10-27"
@@ -68579,7 +68579,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires refugees seeking a settlement permit to have no previous convictions.",
+       "claim": "Requires refugees seeking a settlement permit to have no previous convictions.",
        "page": "Niederlassungserlaubnis",
        "url": "https://service.salzgitter.de/dienstleistungen/-/egov-bis-detail/dienstleistung/17767/show",
        "lang": "German",
@@ -69754,7 +69754,7 @@
        "lang": "German",
        "q": "Welche Fristen muss ich beachten?\nPunkte, die ab dem 01.05.2014 ins Register eingetragen werden, werden nach folgender Frist getilgt. Diese richtet sich nach der Schwere des Verstoßes:\nOrdnungswidrigkeiten (schwere Verstöße): 2,5 Jahre\nOrdnungswidrigkeiten (besonders schwere Verstöße): 5 Jahre\nStraftaten ohne Entziehung der Fahrerlaubnis: 5 Jahre\nStraftaten mit Entziehung der Fahrerlaubnis: 10 Jahre\nDie Frist beginnt mit ab der Rechtskraft der Entscheidung. Für vor dem 01.05.2014 eingetragene Punkte gelten Übergangsregelungen.",
        "tr": "Which deadlines must I observe?\nPoints entered in the register from 1 May 2014 are deleted after the following period. This depends on the seriousness of the offence:\nAdministrative offences (serious violations): 2.5 years\nAdministrative offences (particularly serious violations): 5 years\nCriminal offences without withdrawal of the driving licence: 5 years\nCriminal offences with withdrawal of the driving licence: 10 years\nThe period begins with from the legal effect of the decision. Transitional rules apply to points entered before 1 May 2014.",
-       "why": "If the licence is withdrawn because the driver is unfit, the period starts later, when a new licence is issued. It starts at most five years after the decision became final. The page’s date can be up to five years too early.",
+       "why": "If the licence is withdrawn because the driver is unfit, the deletion period starts later, when a new licence is issued. It starts at most five years after the decision became final.",
        "prov": "§ 29(5) StVG",
        "lawUrl": "https://www.gesetze-im-internet.de/stvg/__29.html",
        "date": "2026-10-27"
@@ -70397,7 +70397,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page gives statutory health-insurance maternity benefit as up to €13 per working day.",
+       "claim": "Gives maternity benefit from public health insurance as up to €13 per working day.",
        "page": "Maternity benefit: working-day rather than calendar-day cap",
        "url": "https://www.esslingen.de/leben-und-lernen/familie-und-bildung/familienwegweiser/arbeit-und-beruf/beruf-und-kind",
        "lang": "German",
@@ -70430,7 +70430,7 @@
        "lang": "German",
        "q": "Kinderbetreuungskosten\nErwerbstätige Alleinerziehende und Paare, bei denen beide Partner erwerbstätig sind, können für ihre Kinder von der Geburt bis zum 14. Lebensjahr zwei Drittel der Kinderbetreuungskosten, bis max. 4000 Euro pro Kind und Jahr, als Werbungskosten oder Betriebsausgaben von der Steuer absetzen.",
        "tr": "Childcare costs\nEmployed single parents and couples in which both partners are employed can deduct two thirds of the childcare costs for their children, from birth up to the 14th year of life, up to a maximum of 4000 euros per child per year, from tax as income-related expenses or business expenses.",
-       "why": "Under current tax law, eligible childcare costs count as special expenses (Sonderausgaben). That is a different category from the work or business expenses the page names.",
+       "why": "Under current tax law, eligible childcare costs count as special expenses (Sonderausgaben), not as work or business expenses.",
        "prov": "§ 10(1) no. 5 EStG",
        "lawUrl": "https://www.gesetze-im-internet.de/estg/__10.html",
        "date": "2026-10-27",
@@ -70499,7 +70499,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page excludes students living alone from housing benefit whenever they qualify for BAföG.",
+       "claim": "Excludes students living alone from housing benefit whenever they qualify for BAföG (student financial aid).",
        "page": "Wohngeld: alleinlebende BAföG-Berechtigte pauschal ausgeschlossen",
        "url": "https://www.gera.de/serviceportal/lebenslagen-fuer-buergerinnen-und-buerger-c213181427/sozialleistungen-c213181486/existenzsicherung-und-staatliche-unterstuetzung-c213181487/wohngeld-erstantrag-l215139836",
        "lang": "German",
@@ -71678,7 +71678,7 @@
        "lang": "German",
        "q": "An wen muss ich mich wenden?\nZuständig für die Nachbeurkundung ist das Standesamt Ihres Wohnortes oder des Ortes, an dem Sie zuletzt gewohnt haben oder des Ortes Ihres gewöhnlichen Aufenthalts.\nIst Ihr gewöhnlicher Aufenthalt nicht in Deutschland, ist das Standesamt I in Berlin für die Nachbeurkundung zuständig.",
        "tr": "Whom do I have to contact?\nThe registry office of your place of residence, or of the place where you last lived, or of the place of your habitual residence is responsible for the subsequent certification (Nachbeurkundung).\nIf your habitual residence is not in Germany, registry office I in Berlin is responsible for the subsequent certification.",
-       "why": "A former German home can still make a local registry office responsible. Berlin is the fallback only if the earlier statutory steps yield no responsible office. The page’s preceding sentence correctly includes former German homes.",
+       "why": "A former German home can still make a local registry office responsible. Berlin is responsible only as a fallback, if the earlier steps in the law yield no responsible office.",
        "prov": "§ 34(4) PStG",
        "lawUrl": "https://www.gesetze-im-internet.de/pstg/__34.html",
        "date": "2026-10-27"
@@ -72402,7 +72402,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page describes learning support as tutoring only where a pupil risks not moving up a school year.",
+       "claim": "Describes learning support as tutoring only where a pupil risks not moving up a school year.",
        "page": "Lernförderung: konkrete Versetzungsgefährdung verlangt",
        "url": "https://serviceportal.velbert.de/detail/-/vr-bis-detail/dienstleistung/74743/show",
        "lang": "German",
@@ -73603,7 +73603,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page excludes a listed humanitarian residence permit from naturalisation.",
+       "claim": "Excludes a listed humanitarian residence permit from naturalisation.",
        "page": "Einbürgerungsvoraussetzungen",
        "url": "https://www.hansestadt-lueneburg.de/buergerservice/buergeramt/einbuergerung/einbuergerungsvoraussetzungen.html",
        "lang": "German",
@@ -74969,7 +74969,7 @@
        "lang": "German",
        "q": "Das europäische Führungszeugnis kostet 17 Euro, also vier Euro mehr als die rein nationalen Varianten. Die Meldebehörde leitet den Antrag an das Bundesamt für Justiz weiter. Dieses bittet den betreffenden EU-Mitgliedstaat um Mitteilung des Inhalts des dortigen Strafregisters. Eine Übersetzung sowie eine inhaltliche Überprüfung der mitgeteilten Angaben erfolgt dabei nicht. Das Europäische Führungszeugnis soll spätestens 20 Werktage nach Übermittlung des Ersuchens des Bundesamts an den Herkunftsstaat erteilt werden.",
        "tr": "The European criminal-record certificate costs 17 euros, that is four euros more than the purely national variants. The registration office forwards the application to the Federal Office of Justice. The latter asks the EU member state concerned to communicate the content of its criminal register. No translation or substantive check of the information communicated is carried out. The European criminal-record certificate is to be issued no later than 20 working days after the Federal Office's request has been transmitted to the state of origin.",
-       "why": "The uniform federal certificate fee is €13, including the European version. The page’s neighbouring general €13 fee does not correct its separate €17 statement for European certificates.",
+       "why": "The uniform federal fee for a criminal-record certificate is €13, including the European version.",
        "prov": "JVKostG, fee no. 1130; § 30b BZRG",
        "lawUrl": "https://www.gesetze-im-internet.de/jvkostg/anlage.html",
        "date": "2026-10-29"
@@ -75152,7 +75152,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page lists €46 as the ordinary eID card fee.",
+       "claim": "Lists €46 as the ordinary eID card fee.",
        "page": "eID-Karte – Stadt Rosenheim",
        "url": "https://www.rosenheim.de/buergerservice/ausweise-dokumente/eid-karte",
        "lang": "German",
@@ -75452,7 +75452,7 @@
       },
       {
        "s": "amb",
-       "claim": "The page excludes students from housing benefit whenever they qualify in principle for BAföG.",
+       "claim": "Excludes students from housing benefit whenever they qualify in principle for BAföG (student financial aid).",
        "page": "Wohngeld beantragen",
        "url": "https://www.friedrichshafen.de/buerger-stadt/rathaus-buergerservice/dienstleistungen-a-z/detailseite/dienstleistung/wohngeld-beantragen/",
        "lang": "German",
@@ -75579,7 +75579,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires an advance appointment before a basic-security application can be submitted.",
+       "claim": "Requires an advance appointment before a basic-security application can be submitted.",
        "page": "Grundsicherung und Krankenhilfe",
        "url": "https://www.huerth.de/vv/produkte/rathaus/dezernat3/sozialamt/grundsicherung-und-krankenhilfe.php",
        "lang": "German",
@@ -75647,7 +75647,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires everyone without a German school or training qualification to provide B1 and citizenship-test proof.",
+       "claim": "Requires everyone without a German school or training qualification to provide B1 and citizenship-test proof.",
        "page": "Einbürgerung",
        "url": "https://www.bergheim.de/vv/produkte/einbuergerung.php",
        "lang": "German",
@@ -75760,7 +75760,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page accepts certified translations of foreign documents only from translators appointed or sworn in Germany.",
+       "claim": "Accepts certified translations of foreign documents only from translators appointed or sworn in Germany.",
        "page": "Anmeldung/Ummeldung eines Wohnsitzes",
        "url": "https://www.herten.de/buergerservice/dienstleistungen-a-z/detailseite/anmeldung-eines-wohnsitzes",
        "lang": "German",
@@ -78096,7 +78096,7 @@
        "lang": "German",
        "q": "Beim Einzug in eine Wohnung, beim Wegzug ins Ausland und in den Fällen der ersatzlosen Aufgabe einer Wohnung ist eine Bestätigung des Wohnungsgebers erforderlich.",
        "tr": "When moving into a home, when moving abroad and in cases where a home is given up without replacement, a confirmation from the landlord is required.",
-       "why": "The general housing-provider confirmation duty concerns moving in. It no longer applies to deregistration; the city’s own departure checklist also omits it.",
+       "why": "The general duty to get a housing-provider confirmation applies when moving in. It no longer applies to deregistration.",
        "prov": "§ 19, § 17(2), § 23(6) BMG",
        "lawUrl": "https://www.gesetze-im-internet.de/bmg/__19.html",
        "date": "2026-10-29"
@@ -78443,7 +78443,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page says housing-benefit renewal applications cannot be submitted more than two months before expiry.",
+       "claim": "Says housing-benefit renewal applications cannot be submitted more than two months before expiry.",
        "page": "Wohngeld erstmalig oder neu beantragen",
        "url": "https://www.wolfenbuettel.de/B%C3%BCrgerservice/Was-erledige-ich-wo-/Dienstleistungen-von-A-bis-Z/Ausgabe-Dienstleistung/Wohngeld-erstmalig-oder-neu-beantragen.php?ModID=10&FID=2672.519.1&call=suche&kuo=1",
        "lang": "German",
@@ -78868,7 +78868,7 @@
        "lang": "German",
        "q": "Einige Leistungen (zum Beispiel Schulbedarf [insgesamt 174 Euro im Jahr]) werden als Geldleistungen an die Leistungsempfänger*innen gezahlt. Folgende Leistungen können in der Regel über die Bildungskarte abgerechnet werden: Leistungen für die Teilhabe am sozialen und kulturellen Leben, gemeinschaftliches Mittagessen in der Kindertagesstätte, Kindertagespflege oder Schule und eine angemessene Lernförderung (Nachhilfe).",
        "tr": "Some benefits—for example school supplies [174 euros in total per year]—are paid in cash to benefit recipients. The following benefits can generally be settled through the education card: social and cultural participation, shared lunches in childcare or school, and appropriate learning support (tutoring).",
-       "why": "The 2026 amount is €195: €130 plus €65. The €174 amount is from 2023; the page gives the correct amounts elsewhere.",
+       "why": "The 2026 amount for school supplies is €195: €130 plus €65. The €174 amount was the 2023 figure.",
        "prov": "§ 28(3) SGB II; § 34(3), (3a), Anlage 1 SGB XII",
        "lawUrl": "https://www.gesetze-im-internet.de/sgb_2/__28.html",
        "date": "2026-10-27"
@@ -79062,7 +79062,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires new gender-ambivalent names when a gender entry becomes diverse or is deleted.",
+       "claim": "Requires new gender-ambivalent names when a gender entry becomes diverse or is deleted.",
        "page": "Selbstbestimmungsgesetz",
        "url": "https://www.peine.de/de/buergerservice/lebenslagen/SBGG.php",
        "lang": "German",
@@ -79711,7 +79711,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page excludes refugees and all holders of humanitarian residence permits from EU long-term residence.",
+       "claim": "Excludes refugees and all holders of humanitarian residence permits from EU long-term residence.",
        "page": "Daueraufenthalt-EU - Erlaubnis beantragen / Stadt Leonberg",
        "url": "https://www.leonberg.de/B%C3%BCrger-Stadt/Politik-und-Rathaus/Serviceportal-Leonberg/B%C3%BCrgerservice/Daueraufenthalt-EU-Erlaubnis-beantragen.php?ModID=10&FID=2747.618.1",
        "lang": "German",
@@ -80073,7 +80073,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page lists €22.80 for an ordinary identity card issued before the applicant turns 24.",
+       "claim": "Lists €22.80 for an ordinary identity card issued before the applicant turns 24.",
        "page": "Pässe & Ausweise | Stadt Freising",
        "url": "https://www.freising.de/rathaus/buergerbuero/paesse-ausweise",
        "lang": "German",
@@ -80181,7 +80181,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page describes old-age basic security as available to people older than 65.",
+       "claim": "Gives old-age basic security as available to people older than 65.",
        "page": "Soziale Hilfen nach dem Sozialgesetzbuch",
        "url": "https://www.erftstadt.de/vv/produkte/aaa-ungeordnete/soziale-hilfen.php",
        "lang": "German",
@@ -80740,7 +80740,7 @@
        "lang": "German",
        "q": "Was benötige ich um einen Reisepass zu beantragen?\nBei der Beantragung eines Reisepasse ist eine persönliche Vorsprache beim Bürgerbüro erforderlich.\nTerminvereinbarung\nErforderliche Unterlagen:\nGültiger/bisheriger Personalausweis oder Reisepass bei Kindern und Jugendlichen: Kinderreisepass oder Geburtsurkunde\nEin aktuelles biometrisches Passfoto (nicht älter als 1 Jahr). Erlaubt sind nur Frontalaufnahmen, keine Halbprofile. Das Gesicht muss zentriert auf dem Foto erkennbar sein. Die Augen müssen offen und deutlich sichtbar sein, der Mund muss geschlossen sein.\nBei Kindern bis 18 Jahre: Einverständniserklärung beider Erziehungsberechtigten oder Sorgerechtsnachweis bei nur einer erziehungsberechtigten Person\nAntragstellende Person ab 24 Jahren: 60 Euro\nAntragstellende Person unter 24 Jahren: 37,50 Euro\nKein Foto zur Hand? Foto vom Selbstbedienungsterminal - Gebühr 8 Euro",
        "tr": "What do I need to apply for a passport?\nWhen applying for a passport, you must attend the citizens' office in person.\nAppointment booking\nRequired documents:\nValid/current identity card or passport; for children and young people: child passport or birth certificate\nA current biometric passport photograph (no more than 1 year old). Only frontal views are permitted, not half profiles. The face must be visible in the centre of the photograph. The eyes must be open and clearly visible; the mouth must be closed.\nFor children up to age 18: declaration of consent from both persons with parental responsibility or proof of custody where only one person has parental responsibility\nApplicant aged 24 or over: 60 euros\nApplicant under age 24: 37.50 euros\nNo photograph to hand? Photograph from the self-service terminal – fee 8 euros",
-       "why": "The current ordinary base fee from age 24 is €70. The page’s repeated €60 base in its express-passport information is outdated too.",
+       "why": "The current ordinary base fee from age 24 is €70. The same €70 base applies in the fees for an express passport.",
        "prov": "§ 27 PassV",
        "lawUrl": "https://www.gesetze-im-internet.de/passv_2007/__27.html",
        "date": "2026-10-27"
@@ -80779,13 +80779,13 @@
      [
       {
        "s": "bad",
-       "claim": "The page lists a recent home move as a requirement for a protective register-disclosure block.",
+       "claim": "Lists a recent home move as a requirement for a block on giving out your address data.",
        "page": "Auskunftssperren",
        "url": "https://www.soest.de/politik-verwaltung/dienstleistungen-a-z/auskunftssperren",
        "lang": "German",
        "q": "Jede Melderegisterauskunft ist unzulässig, wenn Tatsachen vorliegen, die die Annahme rechtfertigen, dass der betroffenen Person oder einer anderen Person durch eine Melderegisterauskunft eine Gefahr für Le­ben, Gesundheit, persönliche Freiheit oder ähnliche schutzwürdige Interessen erwachsen kann (§ 51 Abs. 1 BMG).\nVoraussetzungen für die Einrichtung einer Auskunftssperre:\n• Aktueller Wohnungswechsel\n• Entsprechende Belege die eine Auskunftssperre rechtfertigen (z. B. Anzeige von der Polizei, Gerichts­beschlüsse, Bescheinigung vom Anwalt)\nBitte beachten Sie:\nDie Zugehörigkeit zu einer bestimmten Berufsgruppe reicht für die Einrichtung einer Auskunftssperre nicht aus!\nBevor Sie die Auskunftssperre bei uns beantragen, prüfen Sie bitte folgendes:\nWelchen Privatpersonen haben Sie Ihre neue Adresse bereits mitgeteilt?\nWelchen Behörden ist Ihre neue Adresse bereits bekannt?\nBeispiele: Kfz-Zulassung, Finanzamt, Jugendamt, Gerichte, Ausländerbehörde\nEs ist notwendig, dass Sie bei diesen öffentlichen Stellen ebenfalls eine entsprechende Sperre beantragen.\nPrüfen Sie bei Ihrer Krankenversicherung ob ggf. Daten an den Hauptversicherer (z. B. Ehemann, Vater) weitergegeben werden. Auch hier gilt: Antrag auf Auskunftssperre bei der Krankenversicherung stellen",
        "tr": "A population-register disclosure is unlawful where facts justify assuming that it could endanger the affected or another person's life, health, personal freedom or similar protected interests (§ 51(1)BMG).\nPrerequisites for entering a disclosure block:\n• A recent change of residence\n• Supporting evidence justifying a block (for example a police complaint, court decisions or a lawyer's certificate).\nPlease note: Membership of a particular professional group is insufficient by itself.\nBefore applying, check which private persons and authorities know your new address; examples include vehicle registration, tax office, youth welfare office, courts and immigration authority. You must also apply for corresponding blocks at those bodies. Check whether your health insurer shares information with the main insured person; also apply there for a block.",
-       "why": "A block is required where facts justify concern that disclosure could endanger life, health, personal freedom or similar protected interests. A recent move is not a general condition, despite the page’s correct opening explanation.",
+       "why": "A block is required where facts justify concern that disclosure could endanger a person’s life, health, personal freedom or similar protected interests. A recent move is not a general condition.",
        "prov": "BMG § 51(1); BMGVwV nos. 51.0–51.1.1",
        "lawUrl": "https://www.gesetze-im-internet.de/bmg/__51.html",
        "date": "2026-10-27"
@@ -81170,7 +81170,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page presents address-book publishers’ access to adult residents’ details and an objection as current.",
+       "claim": "Presents address-book publishers’ access to adult residents’ details, and an objection to it, as current.",
        "page": "Melderegister: Auskunftssperre oder Übermittlungssperre — Stadt Hof",
        "url": "https://www.hof.de/dienstleistungen/melderegister-beantragung-einer-auskunftssperre-oder-bermittlungssperre",
        "lang": "German",
@@ -81567,7 +81567,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page requires a separate business deregistration when moving to another municipality.",
+       "claim": "Requires a separate business deregistration when a business moves to another municipality.",
        "page": "Gewerbeabmeldung",
        "url": "https://www.kaufbeuren.de/desktopdefault.aspx/tabid-1931/2756_read-19331/",
        "lang": "German",
@@ -82463,13 +82463,13 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires private birth notifications for births in Erkrath to be made orally.",
+       "claim": "Requires private birth notifications for births in Erkrath to be made orally.",
        "page": "Geburt anmelden",
        "url": "https://www.erkrath.de/rathaus-politik/verwaltung/serviceportal/geburt-anmelden",
        "lang": "German",
        "q": "Die Geburt eines Kindes wird von dem Standesamt beurkundet, in dessen Bezirk das Kind geboren wurde.\nIst Ihr Kind in einem Krankenhaus geboren worden, erhalten Sie in der Regel eine schriftliche Anzeige über die Geburt vom Krankenhaus zur Unterschrift vorgelegt. Das Krankenhaus leitet diese schriftliche Geburtsanzeige an das zuständige Standesamt am Ort des Krankenhauses weiter. Dieses Standesamt beurkundet die Geburt.\nIst Ihr Kind im Stadtgebiet von Erkrath geboren worden, ist die Geburt dem Standesamt in Erkrath mündlich anzuzeigen. Hierzu legen Sie bitte eine Bescheinigung des Arztes oder der Hebamme vor, die bei der Geburt des Kindes dabei waren.",
        "tr": "A child’s birth is recorded by the registry office in whose district the child was born.\nIf your child was born in a hospital, you will generally be given a written birth notice by the hospital to sign. The hospital forwards that written birth notice to the registry office responsible for the hospital’s location. That registry office records the birth.\nIf your child was born within the city of Erkrath, the birth must be reported orally to the registry office in Erkrath. For this, please present a certificate from the doctor or midwife who attended the child’s birth.",
-       "why": "The individuals covered by the birth-notification duty can report in writing instead. Institutions have a separate written-notification duty, which the page describes for hospitals.",
+       "why": "People who have a duty to report a birth can report it in writing rather than orally. Institutions such as hospitals have their own separate duty to notify in writing.",
        "prov": "PStG §§ 18(1), sentence 1 no. 1, 19, 20",
        "lawUrl": "https://www.gesetze-im-internet.de/pstg/__18.html",
        "date": "2026-10-27"
@@ -84435,7 +84435,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page lists residence-card fees of €37 from age 24 and €22.80 below 24.",
+       "claim": "Lists residence-card fees of €37 from age 24 and €22.80 below 24.",
        "page": "Angaben zur Ausstellung einer Aufenthaltskarte für drittstaatsangehörige Familienangehörige von EU-/ EWR-Bürgern (außer Deutschland) einreichen",
        "url": "https://www.buxtehude.de/buergerservice/dienstleistungen/angaben-zur-ausstellung-einer-aufenthaltskarte-fuer-drittstaatsangehoerige-familienangehoerige-von-eu-ewr-buergern-ausser-deutschland-einreichen-904001244-0.html?myMedium=1&auswahl=0",
        "lang": "German",
@@ -84454,7 +84454,7 @@
        "lang": "German",
        "q": "Über die Leistungen nach dem Bildungs- und Teilhabepaket können Sie finanzielle Unterstützung für verschiedene Aktivitäten erhalten. Die Förderung richtet sich an junge Erwachsene.\nDie Leistungen aus dem Bildungs- und Teilhabepaket werden im Rahmen von bestimmten Sozialleistungen bewilligt. Die Grundsicherung im Alter und bei Erwerbsminderung als Teil der Sozialhilfe zählt zu diesen Sozialleistungen. Wenn Sie Anspruch auf Grundsicherung im Alter und bei Erwerbsminderung haben, können Sie altersunabhängig finanzielle Unterstützung aus dem Bildungs- und Teilhabepaket beantragen Die Förderung betrifft folgende Bereiche:\nBis maximal zum 25. Lebensjahr:\nFür eintägige Ausflüge von Schulen werden die Kosten in tatsächlicher Höhe erstattet.\nFür mehrtägige Ausflüge sowie für Klassenfahrten im Rahmen schulrechtlicher Bestimmungen werden die Kosten in tatsächlicher Höhe übernommen.\nDie Ausstattung mit persönlichem Schulbedarf wird jährlich mit zwei pauschalen Beträgen jeweils zum Schulbeginn gefördert. Die Höhe des Betrages unterscheidet sich zwischen dem 1. und 2. Schulhalbjahr.\nDie erforderlichen tatsächlichen Aufwendungen für die Beförderung zur nächstgelegenen Schule des gewählten Bildungsganges (Schülermonatskarten) werden übernommen.\nFür ergänzende angemessene Lernförderung werden Kosten übernommen, soweit sie erforderlich ist, um die nach schulrechtlichen Bestimmungen festgelegten Lernziele zu erreichen.\nAufwendungen für die gemeinschaftliche Mittagsverpflegung von Schülerinnen und Schülern (falls in schulischer Verantwortung) werden gezahlt.",
        "tr": "Education and participation benefits can provide financial support for various activities. The support is aimed at young adults.\nEducation and participation benefits are awarded in connection with certain social benefits. Basic support in old age and reduced earning capacity is one of them. If you are entitled to that support, you can apply for education and participation assistance regardless of age. The support covers the following areas:\nUp to a maximum age of 25:\nThe actual costs of one-day school trips are reimbursed.\nThe actual costs of trips lasting several days and school trips under school-law provisions are covered.\nPersonal school supplies are supported by two flat-rate payments each year, at the start of the respective school half-year. Their amounts differ.\nThe necessary actual transport costs to the nearest school of the chosen educational course are covered.\nAppropriate supplementary tutoring costs are covered where necessary to achieve essential learning objectives under school law.\nThe costs of communal school meals are paid if the meals are under school responsibility.",
-       "why": "Under this support, education costs of pupils at general or vocational schools have no cut-off at 25. The page’s own earlier sentence says the same.",
+       "why": "Under the education and participation benefits of social assistance, education costs of pupils at general or vocational schools have no cut-off at age 25.",
        "prov": "§ 34(1) SGB XII",
        "lawUrl": "https://www.gesetze-im-internet.de/sgb_12/__34.html",
        "date": "2026-10-27"
@@ -86272,7 +86272,7 @@
        "lang": "German",
        "q": "Eine persönliche Vorsprache ist erforderlich!\nDie Mitarbeiter des Standesamtes Wesseling nehmen Ihre Einbürgerungsanträge entgegen und leiten diese für Sie an den Rhein-Erft-Kreis als zuständige Einbürgerungsbehörde weiter.\nIn der Regel müssen für die Einbürgerung unter anderem folgende Voraussetzungen vorliegen:\nSie leben mindestens acht Jahre rechtmäßig im Bundesgebiet.\nDer Heimatpass muss noch mindestens 8 Monate bei Antragsstellung gültig sein.\nSie sind freizügigkeitsberechtigt, im Besitz einer anrechnungsfähigen Aufenthaltserlaubnis oder einer Niederlassungserlaubnis.\nSie sind nicht vorbestraft.\nSie bekennen sich zur freiheitlichen demokratischen Grundordnung.\nSie verfügen über ausreichende Kenntnisse der deutschen Sprache (gffs. ist ein B1 Test erforderlich).\nSie verfügen über Kenntnisse der Rechts- und Gesellschaftsordnung und der Lebensverhältnisse in Deutschland (Der Einbürgerungstest kann bei fast allen Volkshochschulen abgelegt werden; Ausnahme: Volkshochschule Wesseling ).\nSie bestreiten den Lebensunterhalt aus eigenen Mitteln oder haben die Inanspruchnahme öffentlicher Leistungen nicht zu vertreten.",
        "tr": "A personal appointment is required!\nThe staff of the Wesseling registry office accept your naturalisation applications and forward them for you to Rhein-Erft-Kreis as the competent naturalisation authority.\nAs a rule, the following requirements, among others, must be met for naturalisation:\nYou have lived lawfully in Germany for at least eight years.\nYour home-country passport must still be valid for at least 8 months when you apply.\nYou are entitled to freedom of movement, hold a qualifying residence permit or hold a settlement permit.\nYou have no criminal record.\nYou declare your commitment to the free democratic basic order.\nYou have sufficient knowledge of German (a B1 test may be required).\nYou have knowledge of Germany’s legal and social order and living conditions (the naturalisation test can be taken at almost all adult education centres; exception: Wesseling adult education centre).\nYou support yourself from your own resources or are not responsible for claiming public benefits.",
-       "why": "You have a right to naturalisation after five years of living lawfully in Germany, if you meet all the other conditions. The eight years on the page are out of date.",
+       "why": "You have a right to naturalisation (becoming a German citizen) after five years of living lawfully in Germany, if you meet all the other conditions.",
        "prov": "§ 10(1) StAG",
        "lawUrl": "https://www.gesetze-im-internet.de/stag/__10.html",
        "date": "2026-10-27"
@@ -86962,7 +86962,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page gives 16 as the minimum age for an eID card.",
+       "claim": "Gives 16 as the minimum age for an eID card.",
        "page": "eID-Karte EU — Serviceportal Stadt Beckum",
        "url": "https://serviceportal.beckum.de/detail/-/vr-bis-detail/dienstleistung/48932/show",
        "lang": "German",
@@ -87475,7 +87475,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page lists monthly child benefit as €194 for the first two children, €200 for the third and €225 thereafter.",
+       "claim": "Lists monthly child benefit as €194 for the first two children, €200 for the third and €225 thereafter.",
        "page": "Jugendamt",
        "url": "https://www.portawestfalica.de/rathaus/verwaltung/jugendamt/",
        "lang": "German",
@@ -88636,7 +88636,7 @@
        "lang": "German",
        "q": "Geringfügige Beschäftigung - Mini-Jobs\nEine geringfügige Beschäftigung bis 556 Euro ist für den Arbeitnehmer versicherungsfrei. Nur der Arbeitgeber zahlt vom tatsächlichen Arbeitsverdienst einen Pauschalbetrag von derzeit 15% (bei Beschäftigungen im Haushalt 5%) in die Rentenversicherung ein. Diese Rentenbeiträge steigern zwar die Rentenansprüche und erhöhen die Wartezeitmonate, jedoch nicht in dem Umfang wie ein vollwertiger Pflichtbeitrag.\nDer Arbeitnehmer hat die Möglichkeit durch eigene ergänzende Beitragszahlungen \"aufzustocken\" und somit vollwertige Beitragszeiten zu erwerben. Dabei ist die Differenz zwischen dem Arbeitgeberpauschalbetrag und dem Beitragssatz von derzeit 19,9% zu zahlen, mindestens jedoch aus einem Arbeitsverdienst von 155,-- Euro.\nZum Verfahren:\nDer Arbeitnehmer verzichtet auf seine Versicherungsfreiheit und muss dies schriftlich gegenüber dem Arbeitgeber erklären. Diese Erklärung ist nur für die Zukunft gültig und kann für die gesamte Dauer der geringfügigen Beschäftigung nicht widerrufen werden.\nWünschen Sie nähere Informationen und eine Einzelfallprüfung, wenden Sie sich bitte an die Rentenversicherungsstelle.",
        "tr": "Marginal employment – minijobs\nMarginal employment up to 556 euros is exempt from insurance for the employee. Only the employer pays a flat contribution into pension insurance of currently 15% of actual earnings (5% for employment in a household). Although these pension contributions increase pension entitlements and the number of qualifying months, they do not do so to the same extent as a full compulsory contribution.\nThe employee can top up through their own supplementary contribution payments and thereby acquire full contribution periods. The difference between the employer’s flat contribution and the current contribution rate of 19.9% must be paid, based on earnings of at least 155 euros.\nProcedure:\nThe employee waives their exemption from insurance and must declare this to the employer in writing. This declaration applies only for the future and cannot be revoked for the entire duration of the marginal employment.\nIf you would like more information and an assessment of your individual case, please contact the pension insurance office.",
-       "why": "For a covered newly started minijob, pension insurance is compulsory by default. The employee can apply for exemption. The page reverses which choice requires an application.",
+       "why": "In a covered newly started minijob, pension insurance is compulsory by default. The employee has to apply to be exempt; no application is needed to be insured.",
        "prov": "§§ 1 sentence 1 no. 1, 6(1b), (6) SGB VI; § 8(1) no. 1 SGB IV",
        "lawUrl": "https://www.gesetze-im-internet.de/sgb_6/__6.html",
        "date": "2026-10-27"
@@ -88872,7 +88872,7 @@
        "lang": "German",
        "q": "Unterlagen\nBundespersonalausweis bzw. Nationalpass\nbei Gewerbeanmeldung durch Bevollmächtigten: Vollmacht\nAufenthaltserlaubnis bei ausländischen Gewerbetreibenden, sofern sie nicht der EG angehören\nAuszug aus dem Handelsregister (nur für im Handelsregister eingetragene Firmen und Einzelpersonen)Handwerkskarte (nur für Handwerksbetriebe)\nevtl. erforderliche Erlaubnis bei genehmigungspflichtigen Gewerben (z. B. Gaststätten, Makler u. Bauträger, Spielhallen, Automatenaufstellung, Bewachungsgewerbe, Versteigerer, Pfandleiher, Güterkraftverkehr und dergl.)",
        "tr": "Documents\nGerman identity card or national passport\nIf an authorised representative registers the business: power of attorney\nResidence permit for foreign traders, unless they belong to the European Community\nCommercial-register extract (only for registered companies and individuals); crafts card (only for crafts businesses)\nAny required permit for businesses requiring authorisation, such as restaurants, brokers and developers, amusement arcades, machine installation, security businesses, auctioneers, pawnbrokers, road haulage and similar.",
-       "why": "Qualifying EU and EEA citizens do not need a residence permit for ordinary business notification. The exemption also covers non-EU EEA citizens, whom the page’s European Community exception leaves out.",
+       "why": "Qualifying EU and EEA citizens do not need a residence permit for ordinary business notification. This also covers citizens of EEA states that are not in the EU.",
        "prov": "§§ 2(1), (2) no. 2, 2a(1), 12 FreizügG/EU",
        "lawUrl": "https://www.gesetze-im-internet.de/freiz_gg_eu_2004/__2a.html",
        "date": "2026-10-27"
@@ -89203,7 +89203,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires siblings to provide authorisation or prove a legal interest in civil-status certificates.",
+       "claim": "Requires siblings to provide authorisation or prove a legal interest to get civil-status certificates.",
        "page": "Standesamt",
        "url": "https://www.wermelskirchen.de/aktuelles-rathaus/buergerservice/standesamt",
        "lang": "German",
@@ -89437,7 +89437,7 @@
        "lang": "German",
        "q": "Nicht angerechnet werden Geldbeträge bei Alleinstehenden bis zu einem Betrag von 2.600,- € und bei Verheirateten oder Lebenspartnern bis zu einem Betrag von 3.214,- €.",
        "tr": "Sums of money are not counted for single persons up to an amount of 2,600 € and for married persons or civil partners up to an amount of 3,214 €.",
-       "why": "The current rule protects €10,000 for each relevant adult, so the page’s lower limits are out of date. An otherwise eligible single adult with €5,000 in cash is within the protection.",
+       "why": "The current rule protects €10,000 for each relevant adult. An otherwise eligible single adult with €5,000 in cash is within that protection.",
        "prov": "§ 1 of the regulation under § 90(2) no. 9 SGB XII",
        "lawUrl": "https://www.gesetze-im-internet.de/bshg_88abs2dv_1988/__1.html",
        "date": "2026-10-28"
@@ -89680,7 +89680,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page lists landlord confirmation for deregistering a move abroad or closing a secondary home.",
+       "claim": "Lists landlord confirmation among the documents for deregistering a move abroad or closing a secondary home.",
        "page": "Wohnsitz Abmeldung — Stadt Vechta Kommune365 portal",
        "url": "https://www.kommune365.de/stadt-vechta/dienstleistung/1983_wohnsitz-abmeldung?kommune=stadt-vechta",
        "lang": "German",
@@ -89991,13 +89991,13 @@
      [
       {
        "s": "bad",
-       "claim": "The page’s deadline section requires business deregistration on relocation and warns that delay can bring a fine.",
+       "claim": "Requires business deregistration on relocation, in its deadline section, and warns that delay can bring a fine.",
        "page": "Gewerbe abmelden",
        "url": "https://www.achim.de/buergerservice/dienstleistungen/gewerbe-abmelden-900000089-0.html?myMedium=1&auswahl=0",
        "lang": "German",
        "q": "Welche Fristen muss ich beachten?\nSie sind verpflichtet, Ihr Gewerbe zum Zeitpunkt der Betriebsauflösung beziehungsweise zum Zeitpunkt der Betriebsverlegung in den Zuständigkeitsbereich einer anderen Gemeinde oder der Änderung der Rechtsform abzumelden. Bei einer verspäteten Abmeldung kann eine Geldbuße verhängt werden.",
        "tr": "What deadlines must I observe?\nYou are obliged to deregister your business at the time it closes, at the time it moves into the jurisdiction of another municipality, or when its legal form changes. A fine may be imposed for late deregistration.",
-       "why": "For a continuing business moving between municipalities, notification goes only to the new authority. The page’s opening correctly explains automatic deregistration at the old location, conflicting with its later deadline and fine warning.",
+       "why": "A continuing business that moves between municipalities notifies only the new authority. Deregistration at the old location then happens automatically.",
        "prov": "GewO § 14(1), sentence 3",
        "lawUrl": "https://www.gesetze-im-internet.de/gewo/__14.html",
        "date": "2026-10-27"
@@ -90225,7 +90225,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page lists a €17 fee for a European certificate of conduct.",
+       "claim": "Lists a €17 fee for a European certificate of conduct.",
        "page": "Nienburg — Einfaches Führungszeugnis beantragen",
        "url": "https://www.nienburg.de/buergerservice/dienstleistungen/einfaches-fuehrungszeugnis-beantragen-88-0.html?myMedium=1",
        "lang": "German",
@@ -90812,7 +90812,7 @@
        "lang": "German",
        "q": "Wohnungsgeberbescheinigung über den Auszug, vollständig und korrekt ausgefüllt soweit noch möglich",
        "tr": "Landlord confirmation of moving out, completed fully and correctly as far as still possible",
-       "why": "Landlord confirmation is normally required for moving in, not deregistering a departure. The routine exit-certificate requirement was abolished. The city’s separate main checklist correctly leaves it out.",
+       "why": "Landlord confirmation is normally required for moving in, not for deregistering a departure. The routine exit-certificate requirement was abolished.",
        "prov": "§ 19(1), (3) BMG",
        "lawUrl": "https://www.gesetze-im-internet.de/bmg/__19.html",
        "date": "2026-10-29"
@@ -90838,7 +90838,7 @@
        "lang": "German",
        "q": "Hierfür benötigen Sie den neuen elektronischen Personalausweises bzw. einen elektronischen Aufenthaltstitel und ein Kartenlesegerät.",
        "tr": "For this you need the new electronic identity card or an electronic residence permit and a card reader.",
-       "why": "The eID card for qualifying EU citizens can also provide electronic identity proof. The law does not limit online applications to the two documents named on the page.",
+       "why": "The eID card for qualifying EU citizens can also provide electronic identity proof. Online applications are not limited to a German electronic identity card or electronic residence permit.",
        "prov": "§ 30c(2) BZRG",
        "lawUrl": "https://www.gesetze-im-internet.de/bzrg/__30c.html",
        "date": "2026-10-29"
@@ -91259,7 +91259,7 @@
        "lang": "German",
        "q": "Welche Fristen muss ich beachten?\nSie sind verpflichtet, Ihr Gewerbe zum Zeitpunkt der Betriebsauflösung beziehungsweise zum Zeitpunkt der Betriebsverlegung in den Zuständigkeitsbereich einer anderen Gemeinde oder der Änderung der Rechtsform abzumelden. Bei einer verspäteten Abmeldung kann eine Geldbuße verhängt werden.",
        "tr": "What deadlines must I observe?\nYou are obliged to deregister your business at the time it closes, at the time it moves into the jurisdiction of another municipality, or when its legal form changes. A fine may be imposed for late deregistration.",
-       "why": "For that relocation, notification goes only to the new registration authority. The page’s opening correctly explains automatic old-location deregistration, so its later instruction is contradictory.",
+       "why": "For a business moving to another municipality, notification goes only to the new registration authority. Deregistration at the old location happens automatically.",
        "prov": "GewO § 14(1) sentence 3",
        "lawUrl": "https://www.gesetze-im-internet.de/gewo/__14.html",
        "date": "2026-10-27"
@@ -92375,7 +92375,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page gives the immediate child supplement as €20 per month.",
+       "claim": "Gives the immediate child supplement as €20 per month.",
        "page": "Antrag auf Weiterbewilligung von Bürgergeld stellen | Winnenden",
        "url": "https://www.winnenden.de/-/dienstleistungen/antrag-auf-weiterbewilligung-von-buergergeld-stellen/vbid6027351",
        "lang": "German",
@@ -92394,7 +92394,7 @@
        "lang": "German",
        "q": "Sie benötigen eine Betriebserlaubnis für alle anderen neuen oder gebrauchten Fahrzeuge, für die keine Übereinstimmungserklärung (CoC-Bescheinigung) vorliegt, zum Beispiel für\n• selbst konstruierte Fahrzeuge\n• Fahrzeuge, die von einem Staat außerhalb des Europäischen Wirtschaftsraums importiert wurden\n• Fahrzeuge ohne EG-Typgenehmigung\n• Fahrzeuge, deren Betriebserlaubnis erloschen ist, zum Beispiel\n  • Fahrzeuge, die länger als 7 Jahren abgemeldet waren\n  • Gegebenenfalls Fahrzeuge, an denen Änderungen durch Ein- oder Umbauten vorgenommen wurden",
        "tr": "You need an operating permit for all other new or used vehicles for which no certificate of conformity (CoC certificate) is available, for example for\n• self-built vehicles\n• vehicles that were imported from a state outside the European Economic Area\n• vehicles without EC type approval\n• vehicles whose operating permit has expired, for example\n  • vehicles that were deregistered for more than 7 years\n  • where applicable, vehicles on which changes have been made through fitting or conversion work",
-       "why": "Temporary deregistration alone does not end the operating permit, even after seven years. It generally continues until final decommissioning, subject to withdrawal and exceptions. The page’s introduction correctly calls permits indefinite, contradicting its later example.",
+       "why": "Temporary deregistration alone does not end the operating permit, even after seven years. It generally continues until final decommissioning, subject to withdrawal and exceptions.",
        "prov": "StVZO § 19",
        "lawUrl": "https://www.gesetze-im-internet.de/stvzo_2012/__19.html",
        "date": "2026-10-28"
@@ -92993,7 +92993,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page directs foreign-birth registration to Berlin whenever the applicant and relevant family members live abroad.",
+       "claim": "Directs foreign-birth registration to Berlin whenever the applicant and relevant family members live abroad.",
        "page": "Geburtenregister, Nachbeurkundung einer Geburt im Ausland (Wohnsitz oder gewöhnlicher Aufenthalt in Deutschland)",
        "url": "https://riesa.de/rathaus/buergerservice/dienstleistungen-a-z/leistung/geburtenregister-nachbeurkundung-einer-geburt-im-ausland-wohnsitz-oder-gewoehnlicher-aufenthalt-in-deutschland",
        "lang": "German",
@@ -93006,7 +93006,7 @@
       },
       {
        "s": "amb",
-       "claim": "The page’s deadline section requires deregistration when a business moves to another municipality.",
+       "claim": "Requires deregistration, in its deadline section, when a business moves to another municipality.",
        "page": "Gewerbe abmelden",
        "url": "https://riesa.de/rathaus/buergerservice/dienstleistungen-a-z/leistung/gewerbe-abmelden",
        "lang": "German",
@@ -93479,7 +93479,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page requires all foreign nationals filing a business notice to provide a residence-permit copy.",
+       "claim": "Requires all foreign nationals filing a business notice to provide a residence-permit copy.",
        "page": "Gewerbeanmeldung",
        "url": "https://www.waltrop.de/bso?seite=angebot&id=2120",
        "lang": "German",
@@ -93668,7 +93668,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires all custodians’ consent for identity-card applications by anyone under 18.",
+       "claim": "Requires all custodians’ consent for identity-card applications by anyone under 18.",
        "page": "Güstrow — Personalausweis, Reisedokumente und eID-Karte",
        "url": "https://www.guestrow.de/buergerservice/buergerbuero/personalausweis-reisedokumente",
        "lang": "German",
@@ -94033,7 +94033,7 @@
        "lang": "German",
        "q": "Widerspuch gegen die Übermittlung von Daten an Adressbuchverlage ( § 50 Absatz 5 BMG in Verbindung mit § 50 Absatz 3 BMG)",
        "tr": "Objection to the transfer of data to address-book publishers ( § 50(5) BMG in conjunction with § 50(3) BMG)",
-       "why": "The current objection rule in the registration law refers only to paragraphs 1 and 2 of its section. It does not refer to paragraph 3, which the page also cites.",
+       "why": "The current objection rule in the registration law refers only to paragraphs 1 and 2 of its section. It does not refer to paragraph 3.",
        "prov": "§ 50(3), (5) BMG",
        "lawUrl": "https://www.gesetze-im-internet.de/bmg/__50.html",
        "date": "2026-10-28",
@@ -95411,7 +95411,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page lists a €30 identity-card surcharge for issuance by a German consular or diplomatic mission abroad.",
+       "claim": "Lists a €30 identity-card surcharge for issuance by a German consular or diplomatic mission abroad.",
        "page": "Personalausweis beantragen | Serviceportal Stadt Teltow",
        "url": "https://serviceportal.teltow.de/dienstleistungen/-/egov-bis-detail/dienstleistung/3004/show",
        "lang": "German",
@@ -100002,7 +100002,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page’s closed list of applicants for registering a death abroad excludes others with a legal interest.",
+       "claim": "Gives a closed list of applicants for registering a death abroad, excluding others with a legal interest.",
        "page": "Nachbeurkundung eines Sterbefalls im Ausland beantragen",
        "url": "https://www.badoldesloe.de/Politik-und-Verwaltung/Was-erledige-ich-wo-/Nachbeurkundung-eines-Sterbefalls-im-Ausland-beantragen.php?object=tx%2C2965.73568.1&ModID=10&FID=2965.628.1&NavID=2965.13&kuo=1&call=suche",
        "lang": "German",
@@ -100786,7 +100786,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page says EU/EEA eID cards are available only from age 16.",
+       "claim": "Says EU/EEA eID cards are available only from age 16.",
        "page": "eID-Karte",
        "url": "https://www.haren.de/buergerservice/dienstleistungen/eid-karte-als-europaeische-buergerin-oder-europaeischer-buerger-beantragen-oder-aendern-900000503-0.html",
        "lang": "German",
@@ -103119,7 +103119,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page says housing-benefit applications must arrive by the end of the month for which payment is sought.",
+       "claim": "Says housing-benefit applications must arrive by the end of the month for which payment is sought.",
        "page": "Wohngeld erstmalig oder neu beantragen",
        "url": "https://www.stassfurt.de/de/detail-leistungen/leistung/955/zustaendigestelle/38/wohngeld_erstmalig_oder_neu_beantragen.html",
        "lang": "German",
@@ -103215,7 +103215,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page accepts marriage-certificate translations only from sworn translators authorised in Germany.",
+       "claim": "Accepts marriage-certificate translations only from sworn translators authorised in Germany.",
        "page": "Ehefähigkeitszeugnis beantragen",
        "url": "https://www.metzingen.de/leistung/Ehefaehigkeitszeugnis-beantragen-service4407",
        "lang": "German",
@@ -104031,7 +104031,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page says small sentences and suspended youth sentences are omitted from conduct certificates without noting sexual-offence exceptions.",
+       "claim": "Says small sentences and suspended youth sentences are omitted from conduct certificates, without noting sexual-offence exceptions.",
        "page": "Führungszeugnis; Beantragung eines einfachen Führungszeugnisses",
        "url": "https://www.stadt-kitzingen.de/buergerservice-views/leistungen/BAY:entry:32824-VLR/fuehrungszeugnis-beantragung-eines-einfachen-fuehrungszeugnisses/",
        "lang": "German",
@@ -104796,7 +104796,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires the other custodian’s consent and identity-document copy when one parent registers a child.",
+       "claim": "Requires the other custodian’s consent and identity-document copy when one parent registers a child.",
        "page": "Anmeldung einer Wohnung (Zuzug)",
        "url": "https://www.apolda.de/rathaus-service/buergerservice/buergerbuero/anmeldung-einer-wohnung-zuzug",
        "lang": "German",
@@ -105677,7 +105677,7 @@
        "lang": "German",
        "q": "Sie können einen vorläufigen Personalausweis beantragen, wenn\nSie die deutsche Staatsbürgerschaft besitzen,\nin Deutschland gemeldet sind und\nkeinen gültigen Personalausweis besitzen.",
        "tr": "You can apply for a temporary identity card if\nyou hold German citizenship,\nyou are registered in Germany and\nyou do not hold a valid identity card.",
-       "why": "A homeless German person staying temporarily in the city can qualify without registration. They must credibly show immediate need and prove identity and nationality.",
+       "why": "A homeless German person staying temporarily where they apply can qualify without being registered. They must credibly show immediate need and prove identity and nationality.",
        "prov": "§ 1(4) no. 2, § 3(1) PAuswG",
        "lawUrl": "https://www.gesetze-im-internet.de/pauswg/__1.html",
        "date": "2026-10-27"
@@ -106203,7 +106203,7 @@
        "lang": "German",
        "q": "Hinweis: Sie können sich nicht durch einen Bevollmächtigten vertreten lassen. Antragsberechtigt ist jedoch auch Ihre gesetzliche Vertretung. Handeln Sie selbst als gesetzlicher Vertreter/gesetzliche Vertreterin, müssen Sie Ihre Vertretungsmacht nachweisen.",
        "tr": "Note: You cannot be represented by an authorised agent. However, your legal representation is also entitled to apply. If you yourself act as legal representative, you must prove your power of representation.",
-       "why": "An authorised representative may apply if their authority is entered in the commercial or cooperative register. The page’s general ban leaves out this exception.",
+       "why": "An authorised representative may apply if their authority is entered in the commercial or cooperative register.",
        "prov": "§ 150(2) sentence 2 GewO",
        "lawUrl": "https://www.gesetze-im-internet.de/gewo/__150.html",
        "date": "2026-10-27"
@@ -106966,7 +106966,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires separate applications for all education and participation benefits under social assistance.",
+       "claim": "Requires separate applications for all education and participation benefits under social assistance.",
        "page": "Bildungspaket - Leistungen für Bildung und Teilhabe beantragen",
        "url": "https://www.eislingen.de/de/Rathaus/Buergerservice/Dienstleistungen-A-Z/Dienstleistung?view=publish&item=service&id=1021",
        "lang": "German",
@@ -107475,7 +107475,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires a German translation of every foreign-born child’s birth certificate for a first identity card.",
+       "claim": "Requires a German translation of every foreign-born child’s birth certificate for a first identity card.",
        "page": "Personalausweis erstmalig oder nach Ablauf beantragen",
        "url": "https://www.donaueschingen.de/de/Stadt-Buerger/Rathaus/Service-A-Z/Dienstleistung?view=publish&item=service&id=900",
        "lang": "German",
@@ -109258,7 +109258,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page exempts work that is minor in extent or lasts at most two months from the youth medical examination.",
+       "claim": "Exempts work that is minor in extent or lasts at most two months from the youth medical examination.",
        "page": "Youth employment — medical examination exception",
        "url": "https://www.gross-umstadt.de/buergerservice/leistungen/HES%3Aentry%3A60757-VLR/untersuchungsberechtigungsschein-beantragen/",
        "lang": "German",
@@ -110159,7 +110159,7 @@
        "lang": "German",
        "q": "Kosten\nGebühren für die Ausstellung von Personalausweisen ab 01.01.2021\nAntragsteller ab 24 Jahren: 37,00 EUR\nAntragsteller unter 24 Jahren: 22,80 EUR\nAusstellung von Ausweisen für Bedürftige: Gebührenreduzierung oder -befreiung möglich; aufgrund der Berücksichtigung im Regelbedarf ist eine Bedürftigkeit der Leistungsempfänger nach SGB II und SGB XII im Regelfall nicht mehr gegeben",
        "tr": "Costs\nFees for issuing identity cards from 1 January 2021\nApplicants aged 24 and above: €37.00\nApplicants under 24: €22.80\nIssuing cards to people in need: a fee reduction or waiver is possible; because the expense is included in standard needs, recipients under SGB II and SGB XII are generally no longer considered in need.",
-       "why": "The current fees are €46 for applicants aged 24 and over and €27.60 for those under 24. The page shows the old amounts.",
+       "why": "The current fees are €46 for applicants aged 24 and over and €27.60 for those under 24.",
        "prov": "§ 1(1) PAuswGebV",
        "lawUrl": "https://www.gesetze-im-internet.de/pauswgebv/__1.html",
        "date": "2026-10-28"
@@ -111816,7 +111816,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page says basic security ends if a parent or child has annual income above €100,000.",
+       "claim": "Says basic security ends if a parent or child has annual income above €100,000.",
        "page": "Grundsicherung im Alter und bei Erwerbsminderung",
        "url": "https://serviceportal.telgte.de/detail/-/vr-bis-detail/dienstleistung/41052/show",
        "lang": "German",
@@ -112204,13 +112204,13 @@
       },
       {
        "s": "bad",
-       "claim": "The page offers withdrawal within one year if a paternity acknowledgment has not yet taken effect.",
+       "claim": "Offers withdrawal within one year if a paternity acknowledgment has not yet taken effect.",
        "page": "Bietet für aktuelle Vaterschaftsanerkennungen weiterhin einen einjährigen Widerruf an",
        "url": "https://www.torgau.eu/rathaus-politik/rathaus/was-erledige-ich-wo/leistung/vaterschaftsanerkennung-beurkundung-durch-das-standesamt-2531",
        "lang": "German",
        "q": "Fristen\nErklärung zur Anerkennung der Vaterschaft\nim Regelfall jederzeit möglich, auch vor der Geburt des Kindes\nbei scheidungsabhängiger Vaterschaftsanerkennung spätestens bis zum Ablauf eines Jahres nach Rechtskraft der Ehescheidung\nWiderruf\nbis zu einem Jahr nach der Beurkundung der Vaterschaftsanerkennung, wenn die Vaterschaftsanerkennung noch nicht wirksam geworden ist (Beispiel: fehlende Zustimmung der Mutter)",
        "tr": "Deadlines\nDeclaration of acknowledgement of paternity\nas a rule possible at any time, also before the birth of the child\nin the case of acknowledgement of paternity dependent on a divorce, at the latest by the end of one year after the divorce becomes final\nRevocation\nup to one year after the certification of the acknowledgement of paternity, if the acknowledgement of paternity has not yet become effective (example: missing consent of the mother)",
-       "why": "The special withdrawal right was removed for new paternity acknowledgments made after 1 April 2026. The page still presents it as a current option.",
+       "why": "The special withdrawal right was removed for new paternity acknowledgments made after 1 April 2026.",
        "prov": "BGB § 1597",
        "lawUrl": "https://www.gesetze-im-internet.de/bgb/__1597.html",
        "date": "2026-10-27"
@@ -112546,7 +112546,7 @@
        "lang": "German",
        "q": "Rechtsbehelf:\nkein",
        "tr": "Legal remedy:\nnone",
-       "why": "If a registrar refuses an official act, the applicant can ask the competent local court to direct the registrar to act. This includes the civil-register access service covered on the page.",
+       "why": "If a registrar refuses an official act, the applicant can ask the competent local court to direct the registrar to act. This includes civil-register access services.",
        "prov": "PStG § 49(1), § 50(1)",
        "lawUrl": "https://www.gesetze-im-internet.de/pstg/__49.html",
        "date": "2026-10-27"
@@ -113302,7 +113302,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page counts every co-resident family member’s income when assessing subsistence assistance.",
+       "claim": "Counts every co-resident family member’s income when assessing subsistence assistance.",
        "page": "Hilfe zum Lebensunterhalt (Sozialhilfe) beantragen | Stadt Mayen",
        "url": "https://www.mayen.de/buergerservice/leistungen/RLP%3Aentry%3A258562/hilfe-zum-lebensunterhalt-sozialhilfe-beantragen/",
        "lang": "German",
@@ -113334,7 +113334,7 @@
        "lang": "German",
        "q": "Wenn die Kosten der Unterkunft von einem anderen Sozialleistungsträger übernommen werden, haben Sie keinen Anspruch auf Wohngeld. Dies ist der Fall, wenn Sie bereits\nBürgergeld oder\nGrundsicherung im Alter oder\nbei Erwerbsminderung oder\nHilfe zum Lebensunterhalt oder\neine andere Transferleistung beziehen, bei deren Berechnung Kosten der Unterkunft berücksichtigt worden sind.",
        "tr": "If the costs of accommodation are covered by another social-benefit provider, you have no entitlement to housing benefit. This is the case if you already receive\nBürgergeld (basic income support for jobseekers) or\nbasic security in old age or\nin case of reduced earning capacity or\nsocial assistance or\nanother transfer benefit in whose calculation costs of accommodation have been taken into account.",
-       "why": "The bar does not apply if you get these benefits only as a loan (money you must repay). The page does not mention this exception.",
+       "why": "You are not barred from housing benefit if you get the other benefits only as a loan (money you must repay).",
        "prov": "§ 7(1) sentence 3 no. 1 WoGG",
        "lawUrl": "https://www.gesetze-im-internet.de/wogg/__7.html",
        "date": "2026-10-27"
@@ -113388,7 +113388,7 @@
        "lang": "German",
        "q": "Expresspass mit 48 Seiten\n• 91,50 € > 24 Jahre (6 Jahre gültig)\n• 124,00 €< 24 Jahre (10 Jahre gültig)",
        "tr": "Express passport with 48 pages\n• 91.50 € > 24 years (valid for 6 years)\n• 124.00 €< 24 years (valid for 10 years)",
-       "why": "Under 24, the fee is €37.50 + €22 + €32 = €91.50, with six years’ validity. From 24, it is €70 + €22 + €32 = €124, normally with ten years’ validity. The page swaps the age groups.",
+       "why": "Under 24, the fee is €37.50 + €22 + €32 = €91.50, with six years’ validity. From 24, it is €70 + €22 + €32 = €124, normally with ten years’ validity.",
        "prov": "§ 27 PassV",
        "lawUrl": "https://www.gesetze-im-internet.de/passv_2007/__27.html",
        "date": "2026-10-27"
@@ -113798,7 +113798,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page lists German identity cards and EU eID cards for online conduct-certificate applications, omitting residence permits.",
+       "claim": "Lists German identity cards and EU eID cards for online criminal-record certificate applications, omitting residence permits.",
        "page": "Führungszeugnis — Stadt Marsberg",
        "url": "https://www.marsberg.de/de/rathaus/verwaltung/anliegen/32-Buerger-und-Ordnung/fuehrungszeugnis.php",
        "lang": "German",
@@ -114859,7 +114859,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page allows a legal representative to apply for a conduct certificate only before the applicant turns 17.",
+       "claim": "Allows a legal representative to apply for a criminal-record certificate only before the applicant turns 17.",
        "page": "Blankenburg (Harz) — Führungszeugnis statutory representation",
        "url": "https://www.blankenburg.de/rathaus/buergerservice/buergerbuero/fuehrungszeugnis/",
        "lang": "German",
@@ -115041,14 +115041,14 @@
        "lang": "German",
        "q": "Ferner sind angemessene Kranken- und Pflegeversicherungsbeiträge berücksichtigungsfähig.\nHilfe zum Lebensunterhalt steht bedürftigen Personen zu, die keinen Anspruch auf Grundsicherung im Alter und bei Erwerbsminderung, Arbeitslosengeld II und Sozialgeld haben (d. h. selbst erwerbsfähig i. S. des Sozialgesetzbuch – Zweites Buch (SGB II) sind oder in Bedarfsgemeinschaft mit einer erwerbsfähigen Person leben).\nSozialhilfe ist eine nachrangige Leistung, die Personen erhalten, die sich nicht selbst helfen können. Ansprüche gegen Dritte – insbesondere Unterhaltsansprüche – sind grundsätzlich vorrangig zu verfolgen. Werden sie nicht rechtzeitig erfüllt und muss deswegen die Sozialhilfe eintreten, gehen die Ansprüche unter bestimmten Voraussetzungen auf die zuständige Stelle über, welche sie dann ihrerseits geltend machen kann.",
        "tr": "In addition, appropriate health and long-term care insurance contributions can be taken into account.\nSocial assistance (Hilfe zum Lebensunterhalt) is due to persons in need who have no entitlement to basic security in old age and in case of reduced earning capacity, unemployment benefit II and Sozialgeld (social benefit) (i.e. who are themselves capable of work within the meaning of the Social Code – Book Two (SGB II) or live in a needs community with a person capable of work).\nSocial assistance is a subsidiary benefit that is received by persons who cannot help themselves. Claims against third parties – in particular maintenance claims – must in principle be pursued first. If they are not satisfied in time and social assistance must therefore step in, the claims pass under certain conditions to the competent office, which can then in turn assert them.",
-       "why": "People eligible in principle for jobseeker basic support, whether as workers or household relatives, are excluded from social-assistance living-cost support. The page’s bracketed explanation reverses that boundary.",
+       "why": "Social-assistance living-cost support excludes people eligible in principle for jobseeker basic support. This applies whether they are workers or household relatives.",
        "prov": "SGB XII § 21",
        "lawUrl": "https://www.gesetze-im-internet.de/sgb_12/__21.html",
        "date": "2026-10-27"
       },
       {
        "s": "bad",
-       "claim": "The page requires young adults in residential youth support to contribute whenever they have income or savings.",
+       "claim": "Requires young adults in residential youth support to contribute whenever they have income or savings.",
        "page": "Hilfen für junge Volljährige: veraltete Kostenbeteiligung aus Einkommen oder Vermögen",
        "url": "https://www.holzminden.de/buergerservice/dienstleistungen/hilfe-fuer-junge-volljaehrige-beantragen-900000944-0.html?myMedium=1&auswahl=0",
        "lang": "German",
@@ -115913,7 +115913,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page says assistance for blind people starts no earlier than the application month.",
+       "claim": "Says assistance for blind people starts no earlier than the application month.",
        "page": "Blindenhilfe beantragen / Stadt Bergneustadt",
        "url": "https://www.bergneustadt.de/Rathaus-Politik/Verwaltung/Anliegen-A-Z/Anliegen-Bildung-Soziales-Ordnung/Blindenhilfe-beantragen.php?object=tx,3759.2.1&ModID=10&FID=3759.5343.1&NavID=3759.321&text=Blindenhilfe%25beantragen&kat=3759.106&kuo=1",
        "lang": "German",
@@ -118537,7 +118537,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page requires foreign adoption-procedure documents to carry an apostille or consular authentication.",
+       "claim": "Requires foreign adoption-procedure documents to carry an apostille or consular authentication.",
        "page": "Adoption eines ausländischen Kindes beantragen",
        "url": "https://www.damme.de/B%C3%BCrger-Stadt/B%C3%BCrger/Dienstleistungen-A-Z/Adoption-eines-ausl%C3%A4ndischen-Kindes-beantragen.php?object=tx,2432.2.1&ModID=10&FID=2432.2731.1&NavID=2432.83&ort=&sfwort=1",
        "lang": "German",
@@ -120428,7 +120428,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page offers a registration-data block against Bundeswehr recruitment-information mail.",
+       "claim": "Offers a registration-data block against Bundeswehr recruitment-information mail.",
        "page": "Übermittlungssperre",
        "url": "https://openrathaus.bad-langensalza.de/dienstleistungen/-/egov-bis-detail/dienstleistung/2670/show",
        "lang": "German",
@@ -120467,7 +120467,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page tells relocating businesses to deregister at the old office before registering at the new one.",
+       "claim": "Tells relocating businesses to deregister at the old office before registering at the new one.",
        "page": "Gewerbeabmeldung nach § 14 oder § 55c der Gewerbeordnung — Serviceportal Stadt Bad Langensalza",
        "url": "https://openrathaus.bad-langensalza.de/dienstleistungen/-/egov-bis-detail/dienstleistung/166/show",
        "lang": "German",
@@ -120763,7 +120763,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page lists a €30 identity-card surcharge for issuance by a German diplomatic or consular mission abroad.",
+       "claim": "Lists a €30 identity-card surcharge for issuance by a German diplomatic or consular mission abroad.",
        "page": "Personalausweis beantragen",
        "url": "https://kelsterbach.de/Rathaus-B%C3%BCrgerservice/Dienstleistungen/Personalausweis-beantragen.php?FID=3950.351.1&ModID=10",
        "lang": "German",
@@ -121110,7 +121110,7 @@
        "lang": "German",
        "q": "Gebühr: 31,00 €",
        "tr": "Fee: €31 for the adjacent German-mission surcharge row.",
-       "why": "The statutory surcharge for those ordinary passport applications is €36, on top of the normal fee. The page understates it by €5.",
+       "why": "The surcharge set by law for those ordinary passport applications is €36, on top of the normal fee.",
        "prov": "§ 27(3) PassV",
        "lawUrl": "https://www.gesetze-im-internet.de/passv_2007/__27.html",
        "date": "2026-10-29"
@@ -121211,7 +121211,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page says applicants must be at least 16 to obtain an eID card.",
+       "claim": "Says applicants must be at least 16 to obtain an eID card.",
        "page": "eID-Karte",
        "url": "https://www.straelen.de/buergerservice/leistungen/NRW:entry:31387-VLR/eid-karte/",
        "lang": "German",
@@ -121688,7 +121688,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page requires landlord confirmation when deregistering a home, including for a move abroad.",
+       "claim": "Requires landlord confirmation when deregistering a home, including for a move abroad.",
        "page": "Wohnsitz Abmeldung | Stadt Bargteheide",
        "url": "https://www.bargteheide.de/Rathaus-Politik/Anliegen-Formulare/Anliegen-von-A-Z/Wohnsitz-Abmeldung.php?FID=2971.538.1&ModID=10",
        "lang": "German",
@@ -122393,7 +122393,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page says deregistration is required only when someone moves out and takes a home abroad.",
+       "claim": "Says deregistration is required only when someone moves out and takes a home abroad.",
        "page": "Zuzüge, Umzüge, Wegzüge",
        "url": "https://www.luebbenau-spreewald.de/seite/481289/zuz%C3%BCge-umz%C3%BCge-wegz%C3%BCge.html",
        "lang": "German",
@@ -122928,13 +122928,13 @@
      [
       {
        "s": "bad",
-       "claim": "The page gives a €17 fee for a European certificate of conduct.",
+       "claim": "Gives a €17 fee for a European criminal-record certificate.",
        "page": "Führungszeugnis beantragen",
        "url": "https://www.finsterwalde.de/Politik-Verwaltung/B%C3%BCrgerservice/Was-erledige-ich-wo-/F%C3%BChrungszeugnis-beantragen.php?object=tx,3652.2216.1&NavID=3652.201",
        "lang": "German",
        "q": "Beantragung EU-Führungszeugnis\nFür Einwohner, die eine EU-Staatsangehörigkeit besitzen, kann ein so genanntes EU-Führungszeugnis beantragt werden. Die Gebühr beträgt 17,00 Euro.",
        "tr": "European certificate application: EU nationals may apply for a European certificate; the fee is EUR 17.",
-       "why": "The federal fee is €13 for a European certificate, as for ordinary certificates. The page identifies no additional optional service or surcharge.",
+       "why": "The federal fee is €13 for a European criminal-record certificate, the same as for an ordinary one.",
        "prov": "JVKostG Annex, fee 1130; BZRG § 30b",
        "lawUrl": "https://www.gesetze-im-internet.de/jvkostg/anlage.html",
        "date": "2026-10-28"
@@ -123171,7 +123171,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page offers under-18s a written request to block Bundeswehr information-mail transfers.",
+       "claim": "Offers under-18s a written request to block Bundeswehr information-mail transfers.",
        "page": "Auskunftssperren im Melderegister — Stadt Schwalbach am Taunus",
        "url": "https://www.schwalbach.de/Buergerservice/Dienstleistungen-A-Z.htm/Dienstleistungen/Auskunftssperren-im-Melderegister.html?cat=0category_id%3D0",
        "lang": "German",
@@ -123360,7 +123360,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page offers an objection to address-book transfers and says residents are informed when registering and annually.",
+       "claim": "Offers an objection to address-book transfers and says residents are informed when registering and annually.",
        "page": "Adressbuch - Eintrag sperren lassen",
        "url": "https://www.ebersbach.de/leistung/Adressbuch-Eintrag-sperren-lassen-service963",
        "lang": "German",
@@ -124735,7 +124735,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page ends a legal representative’s conduct-certificate application route at the child’s 17th birthday.",
+       "claim": "Says a legal representative can apply for a criminal-record certificate only until the child’s 17th birthday.",
        "page": "Führungszeugnis — Stadt Jever",
        "url": "https://www.stadt-jever.de/buergerservice/dienstleistungen/fuehrungszeugnis-900000397-0.html?myMedium=1&auswahl=0",
        "lang": "German",
@@ -124821,7 +124821,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page says an eID card can be issued only from age 16.",
+       "claim": "Says an eID card can be issued only from age 16.",
        "page": "eID-Karte; Beantragung — Stadt Dorfen",
        "url": "https://www.dorfen.de/leistung/eID-Karte-Beantragung-service596",
        "lang": "German",
@@ -125039,7 +125039,7 @@
        "lang": "German",
        "q": "Als Alternative zum bisherigen Kinderreisepass stehen seit Januar 2024 folgende Dokumente zur Verfügung: - Personalausweis (Kosten: 22,80€, Gültigkeit von 6 Jahren.)",
        "tr": "As alternatives to the former child passport, the following documents have been available since January 2024: identity card (cost €22.80, valid six years).",
-       "why": "An ordinary identity card for an applicant under 24 costs €27.60. The city’s separate identity-card service correctly gives that amount, leaving conflicting current guidance.",
+       "why": "An ordinary identity card for an applicant under 24 costs €27.60.",
        "prov": "§ 1(1) no. 1 PAuswGebV",
        "lawUrl": "https://www.gesetze-im-internet.de/pauswgebv/__1.html",
        "date": "2026-10-28"
@@ -126895,7 +126895,7 @@
        "lang": "German",
        "q": "Haben beide Partner Ihren Haupt- oder Nebenwohnsitz nicht in Oschatz, ist das Standesamt des Wohnsitzes für die Anmeldung zuständig. Die Eheschließung kann dennoch in Oschatz erfolgen. Für eine unverbindliche Terminreservierung können sie sich in diesem Fall telefonisch mit uns in Verbindung setzen. Die verbindliche Eintragung eines Eheschließungstermines ist nur nach persönlicher Vorsprache mindestens eines Verlobten und nach Vorlage der vollständigen Unterlagen beim Standesamt möglich.\nKann ein Ehepartner aus wichtigem Grund nicht zur Anmeldung der Eheschließung erscheinen, so kann die Anmeldung mittels Vollmacht allein erfolgen.",
        "tr": "If neither partner has a main or secondary residence in Oschatz, the registry office of the residence is responsible for registration. The marriage may nevertheless take place in Oschatz. In that case they may contact us by phone for a nonbinding ceremony reservation. A binding ceremony date is entered only after at least one fiancé appears personally and the complete documents have been submitted to the registry office. If one partner cannot appear to register the marriage for an important reason, registration may be completed by the other under authorization.",
-       "why": "You normally register the marriage where either partner lives or usually stays. If neither of you lives or usually stays in Germany, the registry office where you plan to marry is responsible. The page does not mention this.",
+       "why": "You normally register the marriage at the registry office where either partner lives or usually stays. If neither of you lives or usually stays in Germany, the registry office where you plan to marry is responsible.",
        "prov": "§ 12(1) PStG",
        "lawUrl": "https://www.gesetze-im-internet.de/pstg/__12.html",
        "date": "2026-10-29"
@@ -127047,7 +127047,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page offers an objection to transferring young residents’ data for Bundeswehr information mail.",
+       "claim": "Offers an objection to transferring young residents’ data for Bundeswehr information mail.",
        "page": "Was erledige ich wo?",
        "url": "https://www.lich.de/rathaus-politik/buergerservice/was-erledige-ich-wo",
        "lang": "German",
@@ -127171,7 +127171,7 @@
        "lang": "German",
        "q": "17,00 € Europäisches Führungszeugnis",
        "tr": "€17.00 European criminal-record certificate",
-       "why": "The fee for a criminal-record certificate (Führungszeugnis), including the European one, is €13. The page names no separate surcharge that would explain €17.",
+       "why": "The fee for a criminal-record certificate (Führungszeugnis), including the European one, is €13.",
        "prov": "Item 1130 JVKostG fee schedule; § 30b BZRG",
        "lawUrl": "https://www.gesetze-im-internet.de/jvkostg/anlage.html",
        "date": "2026-10-28"
@@ -127660,7 +127660,7 @@
        "lang": "German",
        "q": "Rechte an den genannten Fundsachen sind im Fundbüro der Stadtverwaltung Dippoldiswalde, Markt 2, unter der Rufnummer 03504 64990 geltend zu machen.\n\nSie benötigen bei der Abholung: Ihren Personalausweis und einen Nachweis darüber, dass dieser Gegenstand wirklich Ihnen gehört (z.B. eine Rechnung vom Fahrrad, die PIN vom Handy und Ladekabel, einen Zweitschlüssel, ein Bild des Gegenstandes). Der Fundgegenstand ist zu beschreiben.\nFür die Herausgabe wird eine Verwaltungsgebühr in Höhe von 5,00 € bis 10,00 € erhoben.\n\nDas Fundbüro ist laut Gesetz verpflichtet, Fundsachen mindestens sechs Monate lang aufzubewahren (Ausnahme: verderbliche Güter oder solche, deren Aufbewahrung mit erheblichen Kosten verbunden sind).\nMeldet sich der Verlierer innerhalb dieser Frist nicht, so hat der Finder Anspruch auf den gefundenen Gegenstand. Wird dieses Recht durch den Finder nicht wahrgenommen oder handelt es sich bei den Fundsachen um in öffentlichen Gebäuden oder Verkehrsmitteln gefundene Gegenstände, wird die Stadt selbst Eigentümerin der Sachen.",
        "tr": "Rights in the listed found property must be asserted at the City Administration of Dippoldiswalde lost-property office, Markt 2, by telephone at 03504 64990.\n\nTo collect it, you need your identity card and proof that the item really belongs to you (for example, a bicycle receipt, the phone's PIN and charging cable, a spare key, or a picture of the item). The found item must be described.\nAn administrative fee of €5 to €10 is charged for handing it over.\n\nAccording to the law, the lost-property office must keep found items for at least six months (except perishable goods or goods whose storage entails considerable costs).\nIf the loser does not come forward within this period, the finder has a claim to the found item. If the finder does not exercise this right, or if the found items were found in public buildings or means of transport, the city itself becomes the owner of the items.",
-       "why": "Finds in covered authority offices or public transport follow special notice and auction rules. The authority or operator may receive sale proceeds only after the statutory three-year period. Neither the location nor six months makes the city owner.",
+       "why": "Finds in covered authority offices or public transport follow special notice and auction rules. The authority or operator may receive sale proceeds only after a three-year period set by law. Neither the place of the find nor six months makes the city the owner.",
        "prov": "BGB § 978(1), §§ 979–981",
        "lawUrl": "https://www.gesetze-im-internet.de/bgb/__978.html",
        "date": "2026-10-29"
@@ -127760,7 +127760,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page says a certificate of conduct always costs €13.",
+       "claim": "Says a criminal-record certificate always costs €13.",
        "page": "Führungszeugnisse — Stadt Eichstätt",
        "url": "https://www.eichstaett.de/einwohnermeldeamt_und_passamt/fuehrungszeugnisse/",
        "lang": "German",
@@ -129162,7 +129162,7 @@
        "lang": "German",
        "q": "Ein Antragsvordruck kann im Internet nicht zur Verfügung gestellt werden, da nach den z.Z. geltenden gesetzlichen Vorschriften der Antrag persönlich gestellt werden muss.",
        "tr": "An application form cannot be made available on the internet, since under the statutory provisions currently in force the application must be made in person.",
-       "why": "Residents can also apply in writing with an officially or publicly certified signature. This is their own written application, distinct from using an ordinary authorised representative. The city’s online service also advertises electronic applications.",
+       "why": "You can also apply in writing, with a signature certified by an official or public body. This is your own written application, not one made through an ordinary authorised representative.",
        "prov": "§ 30(2) BZRG",
        "lawUrl": "https://www.gesetze-im-internet.de/bzrg/__30.html",
        "date": "2026-10-28"
@@ -130740,7 +130740,7 @@
        "lang": "German",
        "q": "Wer über höheres Einkommen verfügt, hat dieses für die Kosten der häuslichen Hilfe zur Pflege einzusetzen. Grundsätzlich gilt, dass alle erzielbaren Einkünfte - bis auf wenige Ausnahmen - zum Einkommen zählen. Hierunter fallen auch vertragliche Ansprüche, die dem Betroffenen Geldleistungen oder geldwerte Leistungen zusprechen.\nVermögen setzt sich aus dem gesamten verwertbaren Vermögen zusammen; allein ein Betrag in Höhe von 5.000 Euro muss nicht zur Deckung der Pflegekosten eingesetzt werden. Bitte beachten Sie, dass auch Rückkaufswerte aus Versicherungen zum Vermögen gerechnet werden.",
        "tr": "Anyone with higher income must use it to meet domestic care assistance costs. As a general rule all obtainable income, with few exceptions, counts as income, including contractual claims providing money or benefits of monetary value.\nAssets consist of all realisable assets; only EUR 5,000 need not be used for care costs. Please note that insurance surrender values also count as assets.",
-       "why": "An eligible adult can keep €10,000 in cash or other monetary assets under the federal care-assistance rules. The page’s separate, correct residential-care figure does not change its €5,000 statement for care at home.",
+       "why": "Under the federal care-assistance rules, an eligible adult can keep €10,000 in cash or other monetary assets.",
        "prov": "§ 1 sentence 1 no. 1 DVO zu § 90(2) no. 9 SGB XII; §§ 19(3), 90(2) no. 9 SGB XII",
        "lawUrl": "https://www.gesetze-im-internet.de/bshg_88abs2dv_1988/__1.html",
        "date": "2026-10-29"
@@ -132521,7 +132521,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page gives C1/C1E licences validity until age 50 without limiting that rule to protected older licences.",
+       "claim": "Gives C1/C1E licences validity until age 50, without limiting that rule to protected older licences.",
        "page": "Verlängerung einer befristeten Fahrerlaubnis beantragen",
        "url": "https://www.ammerland.de/Service/Serviceportal/Verl%C3%A4ngerung-einer-befristeten-Fahrerlaubnis-beantragen.php?FID=2843.701.1&ModID=10",
        "lang": "German",
@@ -135281,7 +135281,7 @@
        "lang": "German",
        "q": "Wer kann einen Antrag auf Leistungen für Bildung und Teilhabe stellen?\nBürgerinnen und Bürger, die Leistungen nach dem\nSGB II\nSGB XII, Wohngeldgesetz,\nAsylbewerberleistungsgesetz oder\nKinderzuschlag nach dem Bundeskindergeldgesetz\nbeziehen, haben Anspruch auf Leistungen für Bildung und Teilhabe.\nDie\nAntragsteller\ndürfen noch keine 25 Jahre alt sein,\nsollten eine allgemeinbildende oder berufsbildende Schule besuchen und\nkeine Ausbildungsvergütung erhalten oder\nKind in einer Kindertageseinrichtung/Kindertagespflege sein.\nWichtig ist, dass der Antrag für jedes Kind gesondert und grundsätzlich vor Deckung des Bedarfs gestellt wird. Bitte nutzen Sie die hierfür die vorgesehenen Antragsformulare.",
        "tr": "Who can apply for education and participation benefits?\nPeople receiving SGB II, SGB XII, housing benefit, asylum-seeker benefits or child supplement are entitled to education and participation benefits.\nApplicants must not yet be 25, should attend a general or vocational school and receive no training remuneration, or be a child in nursery/day care.\nIt is important that an application be made separately for each child and generally before the need is met. Please use the application forms provided.",
-       "why": "Under jobseeker and social-assistance rules, only learning support requires a separate education-benefit application. Ordinary excursions and meals do not; necessary evidence can still be required. The page correctly waives a separate school-material application for jobseeker-benefit recipients.",
+       "why": "Under the jobseeker and social-assistance rules, only learning support needs a separate education-benefit application. Ordinary excursions and meals do not, though evidence can still be required. Jobseeker-benefit recipients need no separate application for school materials.",
        "prov": "§ 37(1) SGB II; § 34a(1) SGB XII",
        "lawUrl": "https://www.gesetze-im-internet.de/sgb_2/__37.html",
        "date": "2026-10-29"
@@ -135526,7 +135526,7 @@
        "lang": "German",
        "q": "Keine Vorstrafen\nSie dürfen für die Einbürgerung weder wegen einer rechtswidrigen Tat zu einer Strafe verurteilt, noch darf gegen Sie auf Grund Ihrer Schuldunfähigkeit eine Maßregelung der Besserung und Sicherung angeordnet worden sein.\nAusnahmen:\nEine Einbürgerung ist in der Regel trotzdem möglich, wenn Sie folgende Verurteilungen erhalten, haben:\n• die Verhängung von Erziehungsmaßregeln oder Zuchtmitteln nach dem Jugendgerichtsgesetz,\n• bis zu 90 Tagessätzen Geldstrafe,\n• bis zu 3 Monaten Freiheitsstrafe, die zur Bewährung ausgesetzt und nach Ablauf der Bewährungszeit erlassen worden ist.\nLiegen mehrere Verurteilungen vor, so sind diese zusammenzuzählen.\nDiese Ausnahmen gelten nicht, wenn Sie wegen einer rechtswidrigen antisemitischen, rassistischen oder sonstigen menschenverachtenden Tat im Sinne von § 46 Abs. 2 S. 2 des Strafgesetzbuches zu einer Freiheits-, Geld- oder Jugendstrafe verurteilt wurden und ein solcher Beweggrund im Rahmen des Urteils festgestellt worden ist.\nZu hohe Verurteilungen - wann ist die Einbürgerung möglich?\nWenn Sie das Strafmaß übersteigen, ist die Einbürgerung erst möglich, wenn Ihre Vorstrafen im Bundeszentralregister gelöscht (getilgt) wurden - soweit auch die restlichen Voraussetzungen erfüllt sind.\nWichtig!:\nDas Bundeszentralregister ist nicht das Führungszeugnis! Die Anfrage bei dem Bundeszentralregister erfolgt durch die Staatangehörigkeitsbehörde.",
        "tr": "No previous convictions\nFor naturalisation, you must neither have been sentenced for an unlawful act nor have had a measure of rehabilitation and security ordered because you lacked criminal responsibility.\nExceptions:\nNaturalisation is generally still possible if you have received the following convictions:\n• educational measures or disciplinary measures under the Youth Courts Act,\n• a fine of up to 90 daily rates,\n• imprisonment of up to 3 months, suspended on probation and remitted after the probation period.\nIf there are several convictions, they must be added together.\nThese exceptions do not apply if you were sentenced to imprisonment, a fine or a youth sentence for an unlawful antisemitic, racist or otherwise inhuman act under §46(2),second sentence,of the Criminal Code and such a motive was established in the judgment.\nConvictions that are too high - when is naturalisation possible?\nIf you exceed the sentence level, naturalisation is possible only once your previous convictions have been deleted (expunged) from the Federal Central Register, provided the other requirements are also met.\nImportant!:\nThe Federal Central Register is not the certificate of good conduct. The nationality authority makes the enquiry to the Federal Central Register.",
-       "why": "Usual limits include 90 daily fine units or prison terms up to three months, suspended and later waived after probation. A slight excess can be disregarded after an individual decision. The page gives general individual-assessment advice; hate-motivated-offence exclusions and other naturalisation conditions remain.",
+       "why": "For naturalisation (becoming a German citizen), usual limits include 90 daily fine units. They also include prison terms up to three months, suspended and later waived after probation. A slight excess can be disregarded after an individual decision. Hate-motivated offences are excluded, and other naturalisation conditions still apply.",
        "prov": "§ 12a(1) StAG",
        "lawUrl": "https://www.gesetze-im-internet.de/stag/__12a.html",
        "date": "2026-10-29"
@@ -136235,7 +136235,7 @@
        "lang": "German",
        "q": "Teilnehmende an Vollzeitlehrgängen erhalten monatlich zusätzlich einen Beitrag zum Lebensunterhalt. Die Höhe ist abhängig von Ihrem Einkommen und Vermögen beziehungsweise dem Einkommen Ihres Ehemannes oder Ihrer Ehefrau bzw. Ihres Lebenspartners oder Ihrer Lebenspartnerin:\n•\nAlleinstehende ohne Kind: höchstens 963,00 Euro\n•\nAlleinerziehende Personen mit einem Kind: 1198,00 Euro. Der Kindererhöhungsbetrag für jedes Kind beträgt 235,00 Euro.\n•\nVerheiratete ohne Kind: 1.198,00 Euro\n•\nVerheiratete mit einem Kind: 1.433,00 Euro Der Kindererhöhungsbetrag für jedes Kind beträgt 235,00 Euro.\n•\nAlleinerziehende Personen erhalten einen zusätzlichen Zuschuss von 150,00 Euro pro Kind als Kinderbetreuungskosten.",
        "tr": "Participants in full-time courses also receive a monthly subsistence contribution. Its amount depends on your income and assets or your spouse’s or civil partner’s income:\n• Single persons without a child: at most 963.00 euros\n• Single parents with one child: 1198.00 euros. The increase for each child is 235.00 euros.\n• Married persons without a child: 1198.00 euros\n• Married persons with one child: 1433.00 euros. The increase for each child is 235.00 euros.\n• Single parents receive an additional 150.00 euros per child as childcare costs.",
-       "why": "A single course participant without children can get up to 1,019 euros a month, including insurance supplements. That is 56 euros more than the page’s 963 euros, before income and assets are set against it. If you are insured through a family member, it is 882 euros.",
+       "why": "A single course participant without children can get up to 1,019 euros a month, including insurance supplements, before income and assets are set against it. If you are insured through a family member, it is 882 euros.",
        "prov": "§ 10(2) AFBG",
        "lawUrl": "https://www.gesetze-im-internet.de/afbg/__10.html",
        "date": "2026-10-29"
@@ -136262,7 +136262,7 @@
        "lang": "German",
        "q": "Folgende Beträge werden angerechnet, das heißt, sie verringern Ihren BAföG-Bedarf:\n•\nDas Einkommen Ihrer Eltern sowie Ihrer Ehefrau oder Ihres Ehemannes oder Ihrer Lebenspartnerin oder Ihres Lebenspartners im vorletzten Jahr vor Beginn des Bewilligungszeitraums, wenn er über dem Freibetrag liegt. Der Freibetrag ist:\n•\n2.540 EUR, wenn Ihre Eltern zusammenleben,\n•\n1.690 EUR je Elternteil, wenn Ihre Eltern getrennt leben und\n•\n1.690 EUR für Ihre Ehefrau oder Lebenspartnerin oder Ihren Ehemann oder Lebenspartner.\n•\nvon dem so ermittelten Elterneinkommen bleiben weitere 50 Prozent - sowie für jedes Geschwisterkind in nicht förderfähiger Ausbildung zusätzlich 5 Prozent - anrechnungsfrei\n•\nDarüber hinaus kann es weitere Freibeträge geben, zum Beispiel für weitere Kinder oder andere nach dem Zivilrecht Unterhaltsberechtigte der oben genannten Personen.\n•\nHinweis: Wenn Ihre Eltern oder Ihre Ehefrau oder Ihr Ehemann oder Ihre Lebenspartnerin oder Ihr Lebenspartner aktuell deutlich weniger verdienen als im vorletzten Jahr vor Bewilligung, können Sie einen Aktualisierungsantrag stellen.\n•\nIhr eigenes Einkommen, wenn es mehr als 556 EUR pro Monat beträgt. Darüber hinaus kann es weitere zusätzliche Freibeträge geben, wenn Sie anderen Personen Unterhalt zahlen müssen.\n•\nIhr eigenes Vermögen, soweit es bis zur Vollendung des 30. Lebensjahres höher als 15.000 EUR oder ab der Vollendung des 30. Lebensjahres höher als EUR 45.000 EUR ist.",
        "tr": "The following amounts are credited, meaning they reduce your BAföG need:\n• Your parents’ and spouse’s or civil partner’s income in the second calendar year before the approval period if it exceeds the allowance: 2540 euros for parents living together,1690 euros per separated parent and 1690 euros for a spouse or civil partner.\n• A further 50 percent of the resulting parental income and 5 percent for each sibling in noneligible education remain exempt.\n• Additional allowances may apply, for example for further children or other civil-law dependants.\n• Note: if parents or spouse/civil partner currently earn substantially less than in the second prior year, you can request an updated calculation.\n• Your own income if it exceeds 556 euros per month. Additional allowances may apply if you must maintain other persons.\n• Your assets above 15000 euros before age 30 or 45000 euros from age 30.",
-       "why": "The 2026 personal allowance is €389 against income after statutory deductions. The page separately defines employee income after deductions too.",
+       "why": "The 2026 personal allowance is €389 against income after legal deductions.",
        "prov": "§§ 21–23 BAföG; 2026 allowance notice",
        "lawUrl": "https://www.gesetze-im-internet.de/baf_g/__23.html",
        "date": "2026-10-29",
@@ -136708,7 +136708,7 @@
       },
       {
        "s": "bad",
-       "claim": "The page says housing benefit reduces housing costs by at most 50%, while linking fuller guidance and inviting enquiries.",
+       "claim": "Says housing benefit reduces housing costs by at most 50%, while linking fuller guidance and inviting enquiries.",
        "page": "ffb-wg",
        "url": "https://www.lra-ffb.de/gesundheit-soziales-migration/hilfe-in-besonderen-situationen/wohngeld",
        "lang": "German",
@@ -137731,7 +137731,7 @@
        "lang": "German",
        "q": "Wie hoch ist das Mutterschaftsgeld?\nMitglieder der gesetzlichen Krankenversicherung erhalten Mutterschaftsgeld von ihrer Krankenkasse.\nDie Höhe richtet sich nach der Schutzfrist und beträgt maximal 13 Euro pro Kalendertag. Übersteigt das durchschnittliche kalendertägliche Entgelt diesen Betrag, ist der Arbeitgeber verpflichtet, die Differenz als Zuschuss zu zahlen.\nGeringfügig Beschäftigte und privat Versicherte erhalten keine laufende Zahlung, sondern ein einmaliges Mutterschaftsgeld zu Lasten des Bundes.",
        "tr": "How much is maternity benefit?\nMembers of statutory health insurance receive maternity benefit from their health insurer.\nThe amount depends on the protection period and is at most EUR 13 per calendar day. If average daily pay exceeds this amount, the employer must pay the difference as a supplement.\nMarginally employed and privately insured people receive no ongoing payment, but a one-off maternity benefit paid by the federal government.",
-       "why": "Employees with a minijob and their own statutory health-insurance membership can receive insurer-paid maternity benefit when maternity protection stops their employment pay. Family cover alone is insufficient. The page’s general membership rule and linked federal guidance correctly distinguish this.",
+       "why": "Minijob employees who are themselves members of statutory health insurance can receive maternity benefit from their insurer. This applies when maternity protection stops their pay from work. Cover only through a family member is not enough.",
        "prov": "§ 24i(1)–(3) SGB V; § 19(1)–(2) MuSchG",
        "lawUrl": "https://www.gesetze-im-internet.de/sgb_5/__24i.html",
        "date": "2026-10-29"
@@ -138607,7 +138607,7 @@
       },
       {
        "s": "amb",
-       "claim": "The indexed guidance gives an eight-year naturalisation residence period, reducible to seven or six years.",
+       "claim": "Gives an eight-year residence period for naturalisation (becoming a German citizen), reducible to seven or six years.",
        "page": "Eigenständige Einbürgerung von Ausländern mit Einbürgerungsanspruch — Landkreis Rostock",
        "url": "https://www.landkreis-rostock.de/de/zustaendigkeit-kreisordnungsamt/leistung/40/eigenst%C3%A4ndige_einb%C3%BCrgerung_von_ausl%C3%A4ndern_mit_einb%C3%BCrgerungsanspruch.html",
        "lang": "German",
@@ -138736,7 +138736,7 @@
        "lang": "German",
        "q": "Voraussetzungen\nEin Anspruch auf Leistungen zur Grundsicherung besteht, wenn\ndie oder der Betroffene den gewöhnlichen Aufenthalt in der Bundesrepublik Deutschland hat und\ndie Altersgrenze erreicht hat (je nach Einzelfall 65 Jahre und älter) oder\nnach Vollendung des 18. Lebensjahres dauerhaft voll erwerbsgemindert ist oder\nnach Vollendung des 18. Lebensjahres\nin einer Werkstatt für behinderte Menschen oder bei einem anderen Leistungsanbieter den Eingangs- und Berufsbildungsbereich durchläuft oder\nin einem Ausbildungsverhältnis steht, für das er ein Budget für Arbeit erhält.\nBedürftigkeit\nDie Betroffenen müssen bedürftig sein, das heißt ihr Einkommen und Vermögen (beziehungsweise das ihres Ehegatten/Lebensgefährten) reicht nicht aus, um den notwendigen Lebensunterhalt sicherzustellen.\nHaben die Hilfebedürftigen unterhaltspflichtige Eltern oder Kinder, darf deren jährliches Einkommen EUR 100.000 nicht übersteigen.",
        "tr": "Requirements\nAn entitlement to basic security exists if the person habitually resides in Germany and has reached the age limit (depending on the case 65 and older), or is permanently fully unable to work after 18, or after 18 undergoes the entry and vocational-training area of a sheltered workshop or another provider, or is in a training relationship for which they receive a budget for work.\nNeed\nThe persons must be in need: their income and assets (or those of their spouse/partner) do not suffice to secure necessary living expenses.\nIf needy persons have parents or children liable to support them, their annual income must not exceed EUR 100,000.",
-       "why": "Income over €100,000 can allow the authority to pursue financial-support claims against parents or children; it does not automatically exclude basic security. Support actually received can affect need. Another passage on the page correctly describes this recovery rule.",
+       "why": "Annual income over €100,000 can allow the authority to pursue support claims against parents or children. It does not automatically exclude you from basic security. Support you actually receive can affect your need.",
        "prov": "§§ 41(1), 43, 94(1), (1a) SGB XII",
        "lawUrl": "https://www.gesetze-im-internet.de/sgb_12/__94.html",
        "date": "2026-10-29"
@@ -139231,7 +139231,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page limits school-supplies support to year 10, despite a broader earlier eligibility section.",
+       "claim": "Limits school-supplies support to year 10, despite a broader earlier eligibility section.",
        "page": "Paket für Bildung und Teilhabe",
        "url": "https://integreat.app/altmarkkreis-salzwedel/de/familie/paket-f%C3%BCr-bildung-und-teilhabe/",
        "lang": "German",
@@ -139804,7 +139804,7 @@
      [
       {
        "s": "bad",
-       "claim": "The page states a 14-month parental-benefit maximum, while separately describing ElterngeldPlus stretching and linking general information.",
+       "claim": "States a 14-month parental-allowance maximum, while describing ElterngeldPlus (parental allowance plus) stretching and linking general information.",
        "page": "Bundeselterngeld- und Elternzeitgesetz (BEEG)",
        "url": "https://www.kreis-eic.de/buergerservice/familie-jugend-schule-und-sport/jugendamt/elterngeld",
        "lang": "German",
@@ -139823,7 +139823,7 @@
        "lang": "German",
        "q": "Führerscheinumtausch\nHinweise für Fristen zum Führerscheinumtausch\nFür Führerscheine vor 31.12.1998\nFür Führerscheine, die vor dem\n31.12.1998\nerstellt wurden, entscheidet das\nGeburtsdatum\ndes Inhabers über die Frist.\nGeburtsjahr\nStichtag des Umtauschs\nVor 1953\n19.01.2033\n1953 - 1958\n19.01.2022\n1959 - 1964\n19.01.2023\n1965 - 1970\n19.01.2024\nAb 1971\n19.01.2025\nFür Führerscheine ab 01.01.1999\nFür Führerscheine ab dem\n01.01.1999\nentscheidet das Ausstellungsjahr über die Frist.\nAusstellungsjahr\nStichtag des Umtauschs\n1999 - 2001\n19.01.2026\n2002 - 2004\n19.01.2027\n2005 - 2007\n19.01.2028\n2008\n19.01.2029\n2009\n19.01.2030\n2010\n19.01.2031\n2011\n19.01.2032\n2012 - 18.01.2013\n19.01.2033",
        "tr": "Driving-licence exchange\nInformation about exchange deadlines\nFor licences before 31 December 1998\nFor licences issued before 31 December 1998, the holder’s date of birth determines the deadline.\nBirth year — exchange deadline\nBefore 1953 —19 January 2033\n1953–1958 —19 January 2022\n1959–1964 —19 January 2023\n1965–1970 —19 January 2024\nFrom 1971 —19 January 2025\nFor licences from 1 January 1999\nFor licences from 1 January 1999, the issue year determines the deadline.\nIssue year — exchange deadline\n1999–2001 —19 January 2026\n2002–2004 —19 January 2027\n2005–2007 —19 January 2028\n2008 —19 January 2029\n2009 —19 January 2030\n2010 —19 January 2031\n2011 —19 January 2032\n2012–18 January 2013 —19 January 2033",
-       "why": "A footnote says holders born before 1953 must exchange their licence by 19 January 2033, whatever the issue year. For these holders the page’s issue-year table can give an earlier date.",
+       "why": "Holders born before 1953 must exchange their licence by 19 January 2033, whatever the issue year. An earlier issue-year deadline therefore does not apply to them.",
        "prov": "§ 24a(2) FeV; Annex 8e, part II, footnote",
        "lawUrl": "https://www.gesetze-im-internet.de/fev_2010/anlage_8e.html",
        "date": "2026-10-29"

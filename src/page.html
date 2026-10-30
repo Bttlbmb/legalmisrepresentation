@@ -603,6 +603,7 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .cp-tag { color: var(--ink-3); font-size: var(--s-xs); }
 .cp-svc { font-weight: 600; color: var(--ink); min-width: 0; overflow-wrap: anywhere; hyphens: auto; -webkit-hyphens: auto; }
 @media (min-width: 641px) { .cp-svc::before { content: "·"; margin-right: 8px; color: var(--ink-3); font-weight: 400; } }
+.cp-svc.long::before { content: none; }
 .cp-list { display: grid; grid-template-columns: minmax(0, 1fr); padding-top: 6px; }
 .cp-row { padding: 6px 0 4px; border-top: 1px solid var(--rule); }
 .cp-row:first-child { border-top: 0; }
@@ -1667,12 +1668,12 @@ function cityService(x, place = "") {
   for (const sep of [" / ", " - "]) { const i = t.lastIndexOf(sep); if (i > 0 && SVC_AUTH.test(t.slice(i + sep.length))) t = t.slice(0, i).trim(); }
   const own = place.replace(/^(Landkreis|Kreis|Stadt|Städteregion|Region|Regionalverband) /, "").replace(/ \(.*\)$/, "");
   if (!t || t === own || /\bmunicipal service guidance$/.test(t) || SVC_NOTE.test(t)) return "";
-  return t.length > 64 ? t.slice(0, 61).replace(/\s+\S*$/, "") + "…" : t;
+  return t.length > 96 ? t.slice(0, 93).replace(/\s+\S*$/, "") + "…" : t;
 }
 // A finding is one disclosure: the summary holds the result, the service and the claim; opening it shows the page link, the passage and the law.
 function cityFinding(x, place) {
   const de = isGermanClaim(x.claim), svc = cityService(x, place);
-  return `<article class="cp-row"><details class="cp-more"><summary><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc" lang="de">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
+  return `<article class="cp-row"><details class="cp-more"><summary><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc${svc.length > 56 ? " long" : ""}" lang="de">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
     <h3 class="cp-claim"${de ? ' lang="de"' : ""}>${keep(widow(x.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, "")))}</h3>
     ${x.s === "amb" && x.unc ? `<p class="cp-unc">${esc(x.unc)}</p>` : ""}</summary>
     <p class="cp-src"><a href="${esc(x.url)}" target="_blank" rel="noopener">Page checked ↗</a>${x.date ? `<span>${fmtDate(x.date)}</span>` : ""}</p>
