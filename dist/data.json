@@ -92523,9 +92523,101 @@
        "ok",
        "https://www.gaggenau.de/fuehrungszeugnis.1161.htm",
        "2026-10-29"
+      ],
+      [
+       "na",
+       "https://www.gaggenau.de/startseite.1.htm",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://www.gaggenau.de/abmeldung.1218.htm",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://www.gaggenau.de/fundsachen.67669.htm",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://www.gaggenau.de/fundsachen.1159.htm",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.gaggenau.de/wohnsitz-in-gaggenau-anmelden.172067.htm",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.gaggenau.de/personalausweis.1117.htm",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.gaggenau.de/reisepass.1116.htm",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.gaggenau.de/eheschliessung.1188.htm",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.gaggenau.de/wohngeld-beantragen.1119.htm",
+       "2026-10-30"
+      ],
+      [
+       "na",
+       "https://www.gaggenau.de/online-formulare.7323.htm",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.gaggenau.de/fuehrungszeugnis.1161.htm",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.gaggenau.de/bildungs-und-teilhabepaket.957.htm",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.gaggenau.de/aufenthaltstitel-beantragen.3769.htm",
+       "2026-10-30"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Tells people moving abroad to deregister in person on moving day and says they cannot apply in advance.",
+       "page": "Abmeldung",
+       "url": "https://www.gaggenau.de/abmeldung.1218.htm",
+       "lang": "German",
+       "q": "Sie haben sich entschieden ins Ausland zu ziehen? Dann sind Sie verpflichtet, sich in Deutschland abzumelden.\n\nBitte kommen Sie am Tag des Auszugs zur Abmeldung persönlich zu uns ins Bürgerbüro. Eine vorzeitige Abmeldung zu einem Datum in der Zukunft ist nicht möglich!",
+       "tr": "Have you decided to move abroad? Then you are required to deregister in Germany.\n\nPlease come to our citizens’ office in person on the day you move out to deregister. Deregistration in advance for a future date is not possible!",
+       "why": "They may deregister from one week before leaving until two weeks afterward. A move-abroad notice may be submitted in writing.",
+       "prov": "BMG §§17(2), 23(6)",
+       "lawUrl": "https://www.gesetze-im-internet.de/bmg/__17.html",
+       "date": "2026-10-30"
+      },
+      {
+       "s": "bad",
+       "claim": "Says a finder gains ownership after six months if the owner has not collected the item.",
+       "page": "Fundsachen",
+       "url": "https://www.gaggenau.de/fundsachen.67669.htm",
+       "lang": "German",
+       "q": "Fundsachen können im Bürgerbüro bei der Stadt Gaggenau abgegeben werden. Die Fundgegenstände werden dort in ein Verzeichnis aufgenommen und sind untenstehend veröffentlicht.\nSofern eine Fundsache vom Eigentümer nicht innerhalb von 6 Monaten abgeholt wird, geht das Eigentum auf den Finder über. Falls der Finder den Anspruch auf Eigenerwerb ablehnt, kann die Fundsache nach Ablauf der 6-Monats-Frist öffentlich versteigert, verkauft oder verschenkt werden.",
+       "tr": "Found items can be handed in at the City of Gaggenau citizens’ office. They are entered in a list there and published below.\nIf the owner does not collect a found item within six months, ownership passes to the finder. If the finder declines the right to acquire ownership, the item may be publicly auctioned, sold or given away after six months.",
+       "why": "Items found inside public offices or public transport vehicles are excluded from the six-month ownership rule. The finder must hand them over promptly.",
+       "prov": "BGB §§973(1), 978(1)",
+       "lawUrl": "https://www.gesetze-im-internet.de/bgb/__978.html",
+       "date": "2026-10-30"
+      }
+     ],
      ""
     ],
     [
@@ -94508,9 +94600,99 @@
        "ok",
        "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/9245/show",
        "2026-10-29"
+      ],
+      [
+       "bad",
+       "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/565980/show",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/6730/show",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/7616/show",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/8479/show",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/7611/show",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/8658/show",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/7613/show",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/28372/show",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/7693/show",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/7788/show",
+       "2026-10-30"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says authorities still receive registry information immediately despite an address-disclosure block.",
+       "page": "Address-disclosure block",
+       "url": "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/565980/show",
+       "lang": "German",
+       "q": "Eine Auskunftssperre für das Melderegister wird auf Antrag eingetragen, wenn der Betroffene der Meldebehörde glaubhaft geschildert hat, dass ihm oder einer anderen Person durch eine Auskunftserteilung eine Gefahr für Leben, Gesundheit, persönliche Freiheit oder ähnliche schutzwürdige Belange erwachsen kann. Entsprechende Nachweise (z. B. Bestätigung durch die Polizei) sind dem Antrag beizufügen.\nAuskünfte über Namen, Vornamen und Anschriften dürfen dann nicht automatisch an Dritte erteilt werden. Die Betroffenen werden vor Erteilung einer Melderegisterauskunft angehört. Behörden erhalten weiterhin sofort eine Auskunft.\nDie Auskunftssperre wird im Melderegister im Datensatz zur eigenen Person eingetragen. Sie wird auch im Datensatz von Ehegatten oder Lebenspartnern, beim gesetzlichen Vertreter oder minderjährigen Kindern als sogenannte beigeschriebene Daten berücksichtigt. Die Auskunftssperre wird auf zwei Jahre befristet und kann auf Antrag verlängert werden.",
+       "tr": "A registry disclosure block is entered on application when the person credibly explains that a disclosure could endanger their life, health, personal freedom or similar protected interests, or those of another person. Supporting evidence, such as a police confirmation, must be attached.\nSurnames, given names and addresses may then no longer be disclosed automatically to third parties. The affected people are heard before a registry disclosure. Authorities still receive information immediately.\nThe block is entered in the person's record and also taken into account for linked data about spouses, registered civil partners, legal representatives or minor children. It lasts two years and may be extended on request.",
+       "why": "Ordinary authorities’ automated lookups get a neutral answer and manual handling, so they do not receive the data immediately. Certain security agencies have controlled exceptions.",
+       "prov": "BMG §§34a(5)–(6), 34(5), 51",
+       "lawUrl": "https://www.gesetze-im-internet.de/bmg/__34a.html",
+       "date": "2026-10-30"
+      },
+      {
+       "s": "bad",
+       "claim": "Limits civil-status certificates to the recorded person, spouses, ancestors and descendants.",
+       "page": "Civil-status certificates",
+       "url": "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/6730/show",
+       "lang": "German",
+       "q": "Geburts-, Heirats- und Sterbeurkunden (auch international) können Sie nur bei dem Standesamt erhalten, das die ursprüngliche Beurkundung vorgenommen hat.\nWenn Sie aktuelle Urkunden aus dem Ehe-, Lebenspartnerschafts-, Geburten- oder Sterberegister benötigen, können Sie diese im Standesamt anfordern.\nDafür müssen Sie sich mit einem Personalausweis, Reisepass oder anderem Ausweis mit Lichtbild ausweisen oder digital mit der BundID beantragen. Es können nur Urkunden für Personen ausgestellt werden, die in dem jeweiligen Register eingetragen sind, sowie deren Ehegatten, Vorfahren und Abkömmlingen.\nSollten Sie Urkunden im Auftrag einer anderen Person abholen, benötigen wir von dieser eine schriftliche Vollmacht und eine Kopie des Ausweises. Sie können die gewünschte Urkunde persönlich, schriftlich per Post, per eMail (standesamt@stadt.wegberg.de) oder Fax oder digital anfordern.",
+       "tr": "You can obtain birth, marriage and death certificates, including international versions, only from the registry office that made the original entry.\nIf you need current certificates from the marriage, civil partnership, birth or death register, you can request them at the registry office.\nYou must identify yourself with a photo ID, or apply digitally with BundID. Certificates can be issued only for people entered in the relevant register, and for their spouses, ancestors and descendants.\nIf you collect a certificate for another person, you need their written authorization and an ID copy. You may request it in person, by post, email, fax or digitally.",
+       "why": "Applicants older than 16 who are registered civil partners or credibly show a legal interest can also receive certificates. For birth or death records, siblings of the child or deceased person need only credibly show a legitimate interest.",
+       "prov": "PStG §62(1)",
+       "lawUrl": "https://www.gesetze-im-internet.de/pstg/__62.html",
+       "date": "2026-10-30"
+      },
+      {
+       "s": "bad",
+       "claim": "Lists €51 as the naturalization fee for children without stating the statutory conditions.",
+       "page": "Naturalization application",
+       "url": "https://service.wegberg.de/detail/-/vr-bis-detail/dienstleistung/7616/show",
+       "lang": "German",
+       "q": "Kosten\nErwachsene: 255,-- €, Kinder 51,-- €",
+       "tr": "Costs\nAdults: €255; children: €51",
+       "why": "A minor naturalized together with another applicant pays €51 only if the child has no income under tax law. Other naturalizations usually cost €255, subject to exemptions or relief.",
+       "prov": "StAG §38(2)–(4)",
+       "lawUrl": "https://www.gesetze-im-internet.de/stag/__38.html",
+       "date": "2026-10-30"
+      }
+     ],
      ""
     ],
     [
@@ -95302,9 +95484,68 @@
        "ok",
        "https://www.olching.de/politik-and-service/serviceportal/online-dienste",
        "2026-10-29"
+      ],
+      [
+       "bad",
+       "https://olching.de/politik-and-service/serviceportal/online-dienste/online-ausweis",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://olching.de/politik-and-service/serviceportal/online-dienste/ewa-elektronische-wohnsitzanmeldung",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.olching.de/familie-and-soziales/familie-und-partnerschaft/geburt",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.olching.de/familie-and-soziales/familie-und-partnerschaft/sterbefaelle",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.olching.de/familie-and-soziales/familie-und-partnerschaft/kinderbetreuung/anmeldeverfahren",
+       "2026-10-30"
+      ],
+      [
+       "na",
+       "https://www.olching.de/politik-and-service/stadtverwaltung/aufgaben-wo-finde-ich-was",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.olching.de/wirtschaft-infrastruktur/wirtschaftsfoerderung/existenzgruendung",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.olching.de/politik-and-service/finanzen/steuern",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.olching.de/politik-and-service/aktuelles/meldungen-2024/seit-1-januar-2024-kinderreisepass-abgeschafft",
+       "2026-10-30"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says the first-use ID PIN is mailed to your registered address when your card is issued.",
+       "page": "Online Ausweis",
+       "url": "https://olching.de/politik-and-service/serviceportal/online-dienste/online-ausweis",
+       "lang": "German",
+       "q": "Was brauchen Sie zur Nutzung\n• Auf dem Personalausweis ist die Online-Ausweisfunktion aktiviert\nBei Personalausweisen, die nach 2017 ausgegeben wurden, ist die Online-Ausweisfunktion standardmäßig aktiviert\n• Selbstgewählte 6-stellige ist PIN bekannt\n  • Bei Erstnutzung ist die 5-stellige Transport PIN notwendig. Diese wurde bei Ausstellung des Personalausweises per Brief an die Meldeadresse versendet. Sollte diese Transport PIN nicht mehr vorliegen oder Sie die 6-stellige selbstgewählte PIN nicht mehr kennen, kommen Sie kostenfrei zum Freischalten im Bürgerbüro vorbei.",
+       "tr": "What you need to use it\n• The online ID function is activated on the identity card\nFor identity cards issued after 2017, the online ID function is activated by default\n• You know your self-selected six-digit PIN\n  • For first use, you need the five-digit initial PIN. It was sent by letter to your registered address when the identity card was issued. If you no longer have that initial PIN or no longer know your self-selected six-digit PIN, visit the citizen office for free activation.",
+       "why": "Since 17 February 2025, eligible residents receive the initial PIN letter at their ID application. Limited mailing exceptions apply to people living abroad.",
+       "prov": "PAuswV §17(1)–(2)",
+       "lawUrl": "https://www.gesetze-im-internet.de/pauswv/__17.html",
+       "date": "2026-10-30"
+      }
+     ],
      ""
     ],
     [
@@ -96126,9 +96367,101 @@
        "na",
        "https://www.muehlacker.de/",
        "2026-10-29"
+      ],
+      [
+       "na",
+       "https://www.muehlacker.de/stadt/cityweb/dienstleistungen.php",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://www.muehlacker.de/stadt/cityweb/dienstleistungen/abmeldung-des-wohnsitzes.php",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.muehlacker.de/stadt/rathaus-politik/buergerservice/neubuerger.php",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://www.muehlacker.de/stadt/cityweb/dienstleistungen/polizeiliches-fuehrungszeugnis.php",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.muehlacker.de/stadt/cityweb/dienstleistungen/personalausweise.php",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.muehlacker.de/stadt/cityweb/dienstleistungen/passangelegenheiten.php",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.muehlacker.de/stadt/rathaus-politik/buergerservice/ausweis-service.php",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.muehlacker.de/stadt/cityweb/dienstleistungen/auskunft-aus-dem-melderegister.php",
+       "2026-10-30"
+      ],
+      [
+       "na",
+       "https://www.muehlacker.de/stadt/cityweb/dienstleistungen/uebermittlungssperren.php",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.muehlacker.de/stadt/cityweb/aemter/standesamt.php",
+       "2026-10-30"
+      ],
+      [
+       "na",
+       "https://www.muehlacker.de/stadt/cityweb/dienstleistungen/gewerbe-an-um-abmeldungen.php",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.muehlacker.de/stadt/cityweb/aemter/sozialamt.php",
+       "2026-10-30"
+      ],
+      [
+       "na",
+       "https://www.muehlacker.de/stadt/cityweb/aemter/auslaenderamt.php",
+       "2026-10-30"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says residence deregistration requires the resident or a representative to visit the registration office.",
+       "page": "Mühlacker residence deregistration",
+       "url": "https://www.muehlacker.de/stadt/cityweb/dienstleistungen/abmeldung-des-wohnsitzes.php",
+       "lang": "German",
+       "q": "Achtung: Vorsprachen im Einwohnermeldeamt sind ausschließlich mit Terminvereinbarung möglich.\nTermine im Einwohnermeldeamt können hier online vereinbart werden.\nBitte beachten Sie:\nBei An-, Ab- und Ummeldungen müssen Sie persönlich (oder ein Bevollmächtigter) unter Vorlage von Personalausweis/Reisepass/Kinderreisepass beim Einwohnermeldeamt vorsprechen.",
+       "tr": "Please note: visits to the residents' registration office are possible only with an appointment.\nAppointments at the residents' registration office can be booked online here.\nPlease note:\nFor registration, deregistration and change of registration, you (or an authorised representative) must appear in person at the registration office and present an identity card, passport or child passport.",
+       "why": "Someone moving abroad without another German home may deregister in writing. They need not visit the office to use that route.",
+       "prov": "BMG §§17(2), 23(6)",
+       "lawUrl": "https://www.gesetze-im-internet.de/bmg/__23.html",
+       "date": "2026-10-30"
+      },
+      {
+       "s": "bad",
+       "claim": "Says applicants must visit the office for a criminal-record certificate, unless they apply online.",
+       "page": "Mühlacker Führungszeugnis application",
+       "url": "https://www.muehlacker.de/stadt/cityweb/dienstleistungen/polizeiliches-fuehrungszeugnis.php",
+       "lang": "German",
+       "q": "Achtung: Vorsprachen im Einwohnermeldeamt sind ausschließlich mit Terminvereinbarung möglich.\nTermine im Einwohnermeldeamt können hier online vereinbart werden.\nBitte beachten Sie:\nZur Beantragung eines Führungszeugnisses ist die persönliche Vorsprache unter Vorlage eines Ausweisdokuments erforderlich. Die Gebühr beträgt 13,00€.\nAlternativ können Sie das Führungszeugnis auch online unter folgender Adresse beantragen: www.fuehrungszeugnis.bund.de\nHinweis: Zur Online-Beantragung benötigen Sie einen neuen Personalausweis mit aktivierter Online-Funktion sowie das passende Kartenlesegerät oder die Software (Ausweis-App).",
+       "tr": "Please note: visits to the residents' registration office are possible only with an appointment.\nAppointments can be booked online here.\nPlease note:\nTo apply for a criminal-record certificate, personal attendance with an identity document is required. The fee is €13.\nAlternatively, you can apply online at www.fuehrungszeugnis.bund.de.\nNote: for an online application, you need a newer identity card with activated online function and a suitable card reader or the AusweisApp software.",
+       "why": "A person living in Germany may also apply in writing to the registration office. Their signature must be officially or publicly certified. They must prove their identity.",
+       "prov": "BZRG §30(2)",
+       "lawUrl": "https://www.gesetze-im-internet.de/bzrg/__30.html",
+       "date": "2026-10-30"
+      }
+     ],
      ""
     ],
     [
@@ -97261,9 +97594,109 @@
        "ok",
        "https://www.horb.de/leistung/Fuehrungszeugnis-erweitert-beantragen-service732",
        "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.horb.de/online-buergerservice",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.horb.de/organisationseinheit/Buergerbuero-unit338",
+       "2026-10-30"
+      ],
+      [
+       "na",
+       "https://www.horb.de/organisationseinheit/Personenstandswesen-unit339",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://www.horb.de/leistung/Hausgeburt-dem-Standesamt-melden-service760",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://www.horb.de/leistung/Eheschliessung-mit-einer-oder-einem-auslaendischen-Staatsangehoerigen-anmelden-service706",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.horb.de/leistung/Eheschliessung-anmelden-service702",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.horb.de/leistung/Wohngeld-beantragen-service870",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.horb.de/leistung/Wohnsitz-anmelden-service1586",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.horb.de/leistung/Gewerbe-abmelden-service744",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.horb.de/leistung/Reisepass-erstmalig-oder-nach-Ablauf-beantragen-service820",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.horb.de/leistung/Geburtsurkunde-beantragen-service742",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://www.horb.de/leistung/Melderegister-Auskunftssperre-beantragen-service782",
+       "2026-10-30"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says you must report a home birth in person at the registry office.",
+       "page": "Hausgeburt dem Standesamt melden",
+       "url": "https://www.horb.de/leistung/Hausgeburt-dem-Standesamt-melden-service760",
+       "lang": "German",
+       "q": "Verfahrensablauf\nSie müssen persönlich beim Standesamt des Geburtsortes erscheinen.\nDie Geburt wird dort beurkundet.\nNach der Beurkundung der Geburt erhalten Sie, wenn die Namen des Kindes schon feststehen, eine Geburtsurkunde, ansonsten eine Geburtsbescheinigung.",
+       "tr": "Procedure\nYou must appear in person at the registry office of the place of birth.\nThe birth is registered there.\nAfter registration, you receive a birth certificate if the child's names have already been decided, otherwise a birth confirmation.",
+       "why": "A custodial parent may report a live home birth orally or in writing within one week, with credible proof.",
+       "prov": "PStG §§18(1), 19",
+       "lawUrl": "https://www.gesetze-im-internet.de/pstg/__18.html",
+       "date": "2026-10-30"
+      },
+      {
+       "s": "bad",
+       "claim": "Says a doctor's or midwife's certificate is required to report a home birth.",
+       "page": "Hausgeburt dem Standesamt melden",
+       "url": "https://www.horb.de/leistung/Hausgeburt-dem-Standesamt-melden-service760",
+       "lang": "German",
+       "q": "Erforderliche Unterlagen\n• ärztliche Bescheinigung oder Bescheinigung der Hebamme über die Geburt\n• Personalausweis oder Reisepass der Eltern (oder ein anerkannter Passersatz)",
+       "tr": "Required documents\n• a doctor's or midwife's certificate of the birth\n• the parents' identity cards or passports (or a recognized passport substitute)",
+       "why": "For an oral report, a doctor's or midwife's certificate is requested only if one attended the birth. Other reports still need credible proof.",
+       "prov": "PStV §33 no. 4; PStG §18(1)",
+       "lawUrl": "https://www.gesetze-im-internet.de/pstv/__33.html",
+       "date": "2026-10-30"
+      },
+      {
+       "s": "bad",
+       "claim": "Says translations for foreign-language marriage documents must be made by translators sworn in Germany.",
+       "page": "Eheschließung mit einer oder einem ausländischen Staatsangehörigen anmelden",
+       "url": "https://www.horb.de/leistung/Eheschliessung-mit-einer-oder-einem-auslaendischen-Staatsangehoerigen-anmelden-service706",
+       "lang": "German",
+       "q": "Hinweis: Für fremdsprachige Urkunden müssen Sie lückenlose Übersetzungen in deutscher Sprache vorlegen. Diese fertigen in Deutschland öffentlich bestellte und vereidigte Übersetzer oder Übersetzerinnen an.",
+       "tr": "Note: For foreign-language documents, you must submit complete German translations. These are prepared by translators publicly appointed and sworn in Germany.",
+       "why": "For covered EU birth or marriage records, Germany must accept a certified translation by someone qualified under any EU member state's law.",
+       "prov": "Regulation (EU) 2016/1191 Art. 6(2)",
+       "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32016R1191",
+       "date": "2026-10-30"
+      }
+     ],
      ""
     ],
     [
@@ -117897,9 +118330,61 @@
        "amb",
        "https://www.cham.de/rathaus-service/buergerservice/was-erledige-ich-wo/detail?lang=de&service-6376=",
        "2026-10-29"
+      ],
+      [
+       "bad",
+       "https://www.cham.de/rathaus-service/buergerservice/was-erledige-ich-wo/detail?service-6404&lang=de",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://www.cham.de/rathaus-service/buergerservice/was-erledige-ich-wo/detail?service-6405&lang=de",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.cham.de/rathaus-service/buergerservice/was-erledige-ich-wo/detail?service-6598&lang=de",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.cham.de/rathaus-service/buergerservice/was-erledige-ich-wo/detail?service-6397&lang=de",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.cham.de/rathaus-service/buergerservice/was-erledige-ich-wo/detail?service-6417&lang=de",
+       "2026-10-30"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Presents a home birth as requiring oral notice because written notice is unavailable.",
+       "page": "Birth notification",
+       "url": "https://www.cham.de/rathaus-service/buergerservice/was-erledige-ich-wo/detail?service-6404&lang=de",
+       "lang": "German",
+       "q": "Mündliche Anzeige\nIst keine schriftliche Anzeige möglich, muss die Geburt des Kindes beim Standesamt mündlich angezeigt werden. Dies ist z.B. dann der Fall, wenn es sich um eine Hausgeburt handelt.\nZur Anzeige sind verpflichtet:\n• Jeder Elternteil des Kindes, wenn er sorgeberechtigt ist.\n• Jede andere Person die bei der Geburt zugegen war oder von der Geburt aus eigenem Wissen unterrichtet ist.",
+       "tr": "Oral notification\nIf written notification is not possible, the child’s birth must be reported orally to the registry office. This is the case, for example, with a home birth.\nThe following must report it:\n• Each parent who has custody of the child.\n• Any other person present at the birth or informed of it from personal knowledge.",
+       "why": "A person responsible for reporting a home birth may notify the registry office orally or in writing. They must still provide credible proof of the birth.",
+       "prov": "PStG §18(1)(1)",
+       "lawUrl": "https://www.gesetze-im-internet.de/pstg/__18.html",
+       "date": "2026-10-30"
+      },
+      {
+       "s": "bad",
+       "claim": "Lists birth-certificate applicants over 16 but leaves out spouses and registered civil partners.",
+       "page": "Birth certificate application",
+       "url": "https://www.cham.de/rathaus-service/buergerservice/was-erledige-ich-wo/detail?service-6405&lang=de",
+       "lang": "German",
+       "q": "Folgende Personen über 16 Jahre können einen Antrag stellen:\n• Die Person, auf die sich der Eintrag im Register bezieht.\n• Vorfahren und Nachkommen, also zum Beispiel Eltern, Kinder oder Enkelkinder (Verwandtschaftsverhältnis ist darzulegen und ggf. nachzuweisen).\n• Geschwister, wenn sie ein berechtigtes Interesse glaubhaft machen (Verwandtschaftsverhältnis ist darzulegen und ggf. nachzuweisen).\n• Andere Personen, die ein rechtliches Interesse nachweisen können, zum Beispiel durch ein Schreiben vom Nachlassgericht, ein Gerichtsurteil oder einen vollstreckbaren Titel.",
+       "tr": "The following people over 16 can apply:\n• The person to whom the register entry relates.\n• Ancestors and descendants, such as parents, children or grandchildren (the family relationship must be stated and may need proof).\n• Siblings who credibly show a legitimate interest (the family relationship must be stated and may need proof).\n• Other people who can prove a legal interest, for example with a probate-court letter, court judgment or enforceable title.",
+       "why": "Applicants over 16 who are spouses or registered civil partners may apply directly, without proving a separate legal interest.",
+       "prov": "PStG §62(1)",
+       "lawUrl": "https://www.gesetze-im-internet.de/pstg/__62.html",
+       "date": "2026-10-30"
+      }
+     ],
      ""
     ],
     [
@@ -121541,9 +122026,89 @@
        "ok",
        "https://www.boppard.de/rathaus-verwaltung/buergerservice/einwohnermeldeamt/?sds=1",
        "2026-10-28"
+      ],
+      [
+       "bad",
+       "https://www.boppard.de/rathaus-verwaltung/buergerservice/einwohnermeldeamt/",
+       "2026-10-29"
+      ],
+      [
+       "bad",
+       "https://www.boppard.de/rathaus-verwaltung/buergerservice/standesamt/geburt/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.boppard.de/rathaus-verwaltung/buergerservice/einwohnermeldeamt/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.boppard.de/rathaus-verwaltung/buergerservice/fundbuero/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.boppard.de/rathaus-verwaltung/buergerservice/standesamt/eheschliessung/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.boppard.de/rathaus-verwaltung/buergerservice/standesamt/urkunden/",
+       "2026-10-29"
+      ],
+      [
+       "x",
+       "https://www.boppard.de/buergerservice/leistungen/RLP:entry:105649:ANLR-VLR/personalausweis-beantragen/",
+       "2026-10-29"
+      ],
+      [
+       "x",
+       "https://www.personalausweisportal.de/SharedDocs/downloads/Webs/PA/DE/informationsmaterial/flyer-broschueren/Broschuere_eID_karte.pdf?__blob=publicationFile&v=9",
+       "2026-10-29"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says EU citizens must be at least 16 to apply for an eID card.",
+       "page": "Boppard eID-card application",
+       "url": "https://www.boppard.de/rathaus-verwaltung/buergerservice/einwohnermeldeamt/",
+       "lang": "German",
+       "q": "Beantragung einer eID-Karte für EU-Bürger\nFür die Beantragung einer eID-Karte ist ein gültiges Ausweisdokument mitzubringen\nMindestalter: 16 Jahre\nGebühr: 37,00 €\nDie Gebühr kann bar oder mit EC-Karte gezahlt werden\nHier finden Sie eine aktualisierte Information in Form eines barrierefreien Flyers:\nPersonalausweisportal: https://www.personalausweisportal.de/SharedDocs/downloads/Webs/PA/DE/informationsmaterial/flyer-broschueren/Broschuere_eID_karte.pdf?__blob=publicationFile&v=9",
+       "tr": "Applying for an eID card for EU citizens\nA valid identity document must be brought when applying for an eID card.\nMinimum age: 16 years.\nFee: EUR 37.00.\nThe fee may be paid in cash or by debit card.\nHere is updated information in an accessible flyer, linked to the federal identity-card portal.",
+       "why": "Eligible non-German EU and EEA citizens can apply from age 13. Those aged 13 to 15 may apply themselves.",
+       "prov": "eIDKG §§ 1(1), 8(1)",
+       "lawUrl": "https://www.gesetze-im-internet.de/eidkg/__8.html",
+       "date": "2026-10-29"
+      },
+      {
+       "s": "bad",
+       "claim": "Says a newborn cannot take a double surname formed from both parents’ surnames.",
+       "page": "Boppard newborn registration",
+       "url": "https://www.boppard.de/rathaus-verwaltung/buergerservice/standesamt/geburt/",
+       "lang": "German",
+       "q": "Wenn Sie verheiratet sind und einen gemeinsamen Ehenamen führen, erhält Ihr Kind Ihren Ehenamen als Geburtsnamen. Führen Sie als Eltern keinen gemeinsamen Ehenamen, können Sie wahlweise entweder den Familiennamen der Mutter oder den Familiennamen des Vaters als Geburtsnamen bestimmen. Hierzu ist jedoch (wenn das erste gemeinsame Kind beurkundet wird) die persönliche Vorsprache beider Elternteile erforderlich.\nDie Bildung eines Doppelnamens als Geburtsname des Kindes - gebildet aus dem Namen beider Eltern - ist rechtlich unzulässig.\nWenn Sie, die Mutter, unverheiratet sind und bislang auch keine Vaterschaft zu Ihrem Kind anerkannt wurde, erhält das Kind Ihren Familiennamen.",
+       "tr": "If you are married and have a common married name, your child takes it as a birth name. If the parents have no common married name, they may choose either the mother’s or father’s surname. Both parents must appear in person when the first joint child is registered.\nForming a double surname from both parents’ surnames as the child’s birth name is legally impermissible.\nIf the mother is unmarried and paternity has not been acknowledged, the child takes her surname.",
+       "why": "For births from 1 May 2025, parents with joint custody and different surnames may choose a double surname.",
+       "prov": "BGB § 1617(1); EGBGB Art. 229 § 67",
+       "lawUrl": "https://www.gesetze-im-internet.de/bgb/__1617.html",
+       "date": "2026-10-29"
+      },
+      {
+       "s": "bad",
+       "claim": "Requires translators of foreign birth or marriage records to be publicly appointed or sworn in Germany.",
+       "page": "Boppard ordinary identity-card document instructions",
+       "url": "https://www.boppard.de/rathaus-verwaltung/buergerservice/einwohnermeldeamt/",
+       "lang": "German",
+       "q": "Beantragung eines Personalausweises\nFür die Beantragung eines Personalausweises sind folgende Unterlagen mitzubringen:\n• altes Dokument (auch wenn dieses schon abgelaufen ist)\n• Geburts- / Ehe- oder Lebenspartnerschaftsurkunde bzw. Familienstammbuch:\nWenn Sie verheiratet, verpartnert, geschieden oder verwitwet sind, wird anstelle einer Geburtsurkunde die Eheurkunde bzw. die Lebenspartnerschaftsurkunde benötigt.\nDie Bescheinigung einer Namensänderung ist ebenfalls vorzulegen.\nBei ausländischen Urkunden wird zudem eine Übersetzung durch einen Dolmetscher / Übersetzer benötigt. Diese müssen in Deutschland öffentlich bestellt oder beeidigt sein. Urkunden und Übersetzungen müssen im Original vorgelegt werden.\nSoll ein Dokument für ein Kind beantragt werden, muss das Kind bei der Antragstellung anwesend sein.\nBei einer unter 16jährigen Person ist es notwendig, dass ein Sorgeberechtigter bei der Beantragung dabei ist.\nEs kann sein, dass wir in Einzelfällen zusätzliche Unterlagen von Ihnen anfordern, da die auf dieser Seite genannten Informationen nur die Regelfälle abdecken. Vielen Dank für Ihr Verständnis!",
+       "tr": "Applying for a German identity card\nBring the following documents to apply for an identity card:\n• an old document, even if expired\n• a birth, marriage or registered-partnership certificate, or a family record.\nIf you are married, in a registered partnership, divorced or widowed, a marriage or registered-partnership certificate is needed instead of a birth certificate.\nEvidence of a name change must also be presented.\nForeign certificates also require a translation by an interpreter or translator. They must be publicly appointed or sworn in Germany. Certificates and translations must be presented in the original.\nIf a document is requested for a child, the child must be present at the application.\nFor a person under 16, a person with parental responsibility must attend the application.\nWe may request additional documents in individual cases because this page covers only standard cases. Thank you for your understanding!",
+       "why": "Germany must accept certified translations of covered EU public records made by translators qualified under another EU country’s law.",
+       "prov": "Regulation (EU) 2016/1191 Arts. 2(1), 6(2), 27",
+       "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R1191",
+       "date": "2026-10-29"
+      }
+     ],
      ""
     ],
     [
@@ -121750,9 +122315,48 @@
        "amb",
        "https://www.stadtbergen.de/stadtleben/soziales",
        "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.stadtbergen.de/rathaus/buergerservice/buergerserviceportal",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://www.stadtbergen.de/rathaus/buergerservice/fundbuero",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.stadtbergen.de/stadtleben/familie-und-kinderbetreuung/kindertagesstaetten",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.stadtbergen.de/stadtleben/bauen-und-wohnen/plaene-und-aktuelles",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.stadtbergen.de/stadtleben/soziales/sozialwohnungen",
+       "2026-10-30"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says a finder can claim ownership after six months if the loser has not collected the item.",
+       "page": "Fundbüro – Stadtbergen",
+       "url": "https://www.stadtbergen.de/rathaus/buergerservice/fundbuero",
+       "lang": "German",
+       "q": "Fundsachen\nSie haben einen Gegenstand verloren oder gefunden?\nDann melden Sie sich bitte hier:\nStadtverwaltung Stadtbergen\nOberer Stadtweg 2, Zimmer 02\n86391 Stadtbergen\nTel.: 0821 2438-181\nFax: 0821 2438-107\nE-Mail schreiben\nBeim Abholen einer Fundsache bitte den Personalausweis mitbringen.\nFundtiere\nBei einem Fundtier wenden Sie sich bitte an:\nStadtverwaltung Stadtbergen\nOberer Stadtweg 2, Zimmer 02\n86391 Stadtbergen\nTel.: 0821 2438-181\nFax: 0821 2438-107\nE-Mail schreiben\nAufbewahrung\nDie Aufbewahrung von Fundgegenständen bei der Stadtverwaltung Stadtbergen ist gebührenfrei.\nDie Aufbewahrungsfrist für Fundsachen beträgt 6 Monate ab Anzeige des Fundes.\nWird die Fundsache vom Verlierer nicht abgeholt, so hat der Finder Anspruch auf Eigentumserwerb.\nWird der Fundgegenstand im Fundbüro verwahrt, so wird der Finder nach Ablauf der Aufbewahrungsfrist benachrichtigt, dass die Fundsache abgeholt werden kann.",
+       "tr": "Lost property: Have you lost or found an item? Then contact Stadtbergen City Administration, Oberer Stadtweg 2, Room 02, 86391 Stadtbergen; telephone 0821 2438-181; fax 0821 2438-107; write an email. Please bring your identity card when collecting a lost item. Found animals: For a found animal, contact Stadtbergen City Administration, Oberer Stadtweg 2, Room 02, 86391 Stadtbergen; telephone 0821 2438-181; fax 0821 2438-107; write an email. Storage: Storage of found items at Stadtbergen City Administration is free. The storage period for found items is six months from reporting the find. If the loser has not collected the item, the finder has a claim to acquire ownership. If the found item is stored at the lost-property office, the finder will be notified after the storage period that it can be collected.",
+       "why": "Items found inside public offices or public transport vehicles are excluded from the six-month ownership rule. The finder must hand them over promptly.",
+       "prov": "BGB §§973(1), 978(1)",
+       "lawUrl": "https://www.gesetze-im-internet.de/bgb/__978.html",
+       "date": "2026-10-30"
+      }
+     ],
      ""
     ],
     [
@@ -121775,6 +122379,31 @@
       [
        "amb",
        "https://www.templin.de/sprechzeit-der-schiedsstelle-verschoben/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.templin.de/templiner/buergerservice/oeffnungszeiten/",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.templin.de/fruehfoerderung/",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.templin.de/existenzgruendung/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.templin.de/fundsachen/",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://www.templin.de/kinderbtreuung/",
        "2026-10-29"
       ]
      ],
@@ -122182,9 +122811,79 @@
        "amb",
        "https://www.bad-neustadt.de/rathaus/buergerservice/leistungen-a-z/",
        "2026-10-28"
+      ],
+      [
+       "bad",
+       "https://www.bad-neustadt.de/rathaus/verwaltung/standesamt/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.bad-neustadt.de/rathaus/buergerservice/online-services/ausweise-dokumente/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.bad-neustadt.de/rathaus/buergerservice/online-services/gewerbe-arbeit/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.bad-neustadt.de/rathaus/buergerservice/formulare/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.bad-neustadt.de/rathaus/buergerservice/bayern-id/",
+       "2026-10-30"
+      ],
+      [
+       "bad",
+       "https://www.bad-neustadt.de/rathaus/buergerservice/ansprechpartner/",
+       "2026-10-30"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says both partners must register their planned marriage in person at the registry office.",
+       "page": "Standesamt der Stadt Bad Neustadt a. d. Saale",
+       "url": "https://www.bad-neustadt.de/rathaus/verwaltung/standesamt/",
+       "lang": "German",
+       "q": "c) Anmeldung der Eheschließung\nWelche einzelnen Schritte müssen vor einer Trauung in Bad Neustadt a.d.Saale erledigt werden?\nSie sind wohnhaft innerhalb unseres Standesamtsbezirks:\n1. Unverbindliche Terminreservierung beim Standesamt Bad Neustadt a.d.Saale frühestens ein Jahr vorab (hier erhalten Sie auch Informationen über die zur Anmeldung der Eheschließung benötigten Unterlagen), gerne auch telefonisch\n2. Anmeldung der Eheschließung beim Standesamt Bad Neustadt a.d.Saale durch persönliche Vorsprache beider Verlobter mit allen benötigten Unterlagen (max. 6 Monate vor dem Eheschließungstermin) – hierfür bitte vorab Termin vereinbaren",
+       "tr": "c) Register a planned marriage\nWhat steps must be completed before a wedding in Bad Neustadt a.d.Saale?\nYou live in our registry district:\n1. Optional date reservation with the Bad Neustadt registry office no earlier than one year in advance (you can also learn which documents are needed to register the planned marriage), including by telephone\n2. Register the planned marriage at the Bad Neustadt registry office through both partners attending in person with all required documents (no more than six months before the wedding date); please arrange an appointment beforehand",
+       "why": "If one partner cannot attend, they can authorize the other in writing to register the planned marriage. If both cannot attend for important reasons, they may apply in writing or through a representative.",
+       "prov": "PStG §12(1); PStV §28(1)",
+       "lawUrl": "https://www.gesetze-im-internet.de/pstv/__28.html",
+       "date": "2026-10-30"
+      },
+      {
+       "s": "bad",
+       "claim": "Says a home birth must be reported to the registry office in person within one week.",
+       "page": "Standesamt der Stadt Bad Neustadt a. d. Saale",
+       "url": "https://www.bad-neustadt.de/rathaus/verwaltung/standesamt/",
+       "lang": "German",
+       "q": "b) Hausgeburt\nEine Hausgeburt innerhalb unseres Standesamtsbezirkes muss dem Standesamt innerhalb einer Woche persönlich angezeigt werden (i. d. R. durch ein Elternteil).\nMitzubringen sind:\n- Personalausweis/Reisepass des Anzeigenden\n- Geburtsbescheinigung der Hebamme\n…sowie die benötigen Unterlagen zur Geburtsbeurkundung aus der obigen Tabelle.",
+       "tr": "b) Home birth\nA home birth within our registry district must be reported to the registry office in person within one week (usually by a parent).\nBring:\n- the reporter's identity card or passport\n- birth confirmation from the midwife\n…and the documents needed to register the birth from the table above.",
+       "why": "A person responsible for reporting a live birth may do so orally or in writing within one week. They must still provide credible evidence of the birth.",
+       "prov": "PStG §§18(1), 19; PStV §33",
+       "lawUrl": "https://www.gesetze-im-internet.de/pstg/__18.html",
+       "date": "2026-10-30"
+      },
+      {
+       "s": "bad",
+       "claim": "Lists Kinderreisepässe (former special child passports) among documents the citizen office issues.",
+       "page": "Ämter der Stadtverwaltung Bad Neustadt a. d. Saale",
+       "url": "https://www.bad-neustadt.de/rathaus/buergerservice/ansprechpartner/",
+       "lang": "German",
+       "q": "Bürgerservice\nZuständigkeitsbereich des Bürgerservices:\n• Meldewesen (An-, Ab- und Ummeldungen)\n• Meldebescheinigungen (z. B. Bestätigung von Führerscheinanträgen)\n• Passwesen (Ausstellen von Personalausweisen, Reisepässen, Kinderreisepässe und vorläufige Dokumente) | Fotografen für das neue digitale Passfoto-Verfahren finden Sie über die Suche: https://alfo-passbild.com/fotograf-in-der-naehe/",
+       "tr": "Citizen service\nResponsibilities of the citizen service:\n• residence registration (registering, deregistering and changing an address)\n• registration certificates (for example, confirmation for driver's-licence applications)\n• passport and identity services (issuing identity cards, passports, special children's passports (Kinderreisepässe) and provisional documents) | You can search for photographers for the new digital passport-photo procedure at https://alfo-passbild.com/fotograf-in-der-naehe/",
+       "why": "No new Kinderreisepässe can be issued since 1 January 2024. Older ones may still be used while valid.",
+       "prov": "PassG §§1(2), 28(1)–(2)",
+       "lawUrl": "https://www.gesetze-im-internet.de/pa_g_1986/__1.html",
+       "date": "2026-10-30"
+      }
+     ],
      ""
     ],
     [
@@ -122344,6 +123043,86 @@
        "amb",
        "https://www.ribnitz-damgarten.de/buergerservice/online-dienste/wohnen-melden",
        "2026-10-28"
+      ],
+      [
+       "amb",
+       "https://www.ribnitz-damgarten.de/buergerservice/haeufig-gefragt/einwohnermeldeamt",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.ribnitz-damgarten.de/buergerservice/haeufig-gefragt/kita-und-kindertagespflege",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.ribnitz-damgarten.de/buergerservice/haeufig-gefragt/schule-hort",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.ribnitz-damgarten.de/buergerservice/online-dienste/wohnen-melden",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.ribnitz-damgarten.de/buergerservice/online-dienste/gewerbe",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.ribnitz-damgarten.de/buergerservice/online-dienste/familie",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://www.ribnitz-damgarten.de/buergerservice/mv-serviceportal",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.ribnitz-damgarten.de/buergerservice/online-dienste",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.ribnitz-damgarten.de/buergerservice/haeufig-gefragt/angelscheine-erwerben",
+       "2026-10-29"
+      ],
+      [
+       "x",
+       "https://www.ribnitz-damgarten.de/buergerservice/leistungen-von-a-z",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.ribnitz-damgarten.de/buergerservice/haeufig-gefragt/bauantraege",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.ribnitz-damgarten.de/buergerservice/haeufig-gefragt/rentensprechstunde",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.ribnitz-damgarten.de/politik-verwaltung/stadtverwaltung/verwaltungsstruktur/haupt-und-personalamt/wohngeld",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.ribnitz-damgarten.de/buergerservice/foerderung",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.ribnitz-damgarten.de/buergerservice/fundbuero",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.ribnitz-damgarten.de/politik-verwaltung/stadtverwaltung/verwaltungsstruktur/haupt-und-personalamt/standesamt",
+       "2026-10-29"
       ]
      ],
      [],
@@ -122463,6 +123242,51 @@
        "ok",
        "https://www.raunheim.de/buergerservice-views/leistungen/HES:entry:1723903-VLR/fuehrungszeugnis-beantragen/",
        "2026-10-28"
+      ],
+      [
+       "na",
+       "https://www.raunheim.de/rathaus/service/dienstleistungen/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.raunheim.de/buergerservice-views/leistungen/HES:entry:1381759-VLR/gewerbe-anmelden/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.raunheim.de/buergerservice-views/leistungen/HES:entry:113110-VLR/gewerbe-abmelden/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.raunheim.de/buergerservice-views/leistungen/HES:entry:1380223-VLR/reisepass-beantragen/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.raunheim.de/buergerservice-views/leistungen/HES:entry:1383220-VLR/wohngeld/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.raunheim.de/buergerservice-views/leistungen/HES:entry:1383163-VLR/wohngeld-bewilligung-einer-erhoehung/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.raunheim.de/buergerservice-views/leistungen/HES:entry:1383160-VLR/wohngeld-bewilligung-erneut/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.raunheim.de/buergerservice-views/leistungen/HES:entry:875482-VLR/meldebescheinigung/",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.raunheim.de/leben/bildung-betreuung/kitas-und-krippen/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -122924,6 +123748,46 @@
        "ok",
        "https://www.abensberg.de/buergerservice/rathaus/ewo",
        "2026-10-28"
+      ],
+      [
+       "ok",
+       "https://www.abensberg.de/buergerservice/onlineservice",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.abensberg.de/buergerservice/rathaus/ordnungsamt",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.abensberg.de/buergerservice/rathaus/standesamt",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.buergerservice-portal.de/bayern/abensberg/#/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.buergerservice-portal.de/bayern/abensberg/bsp_ewo_uebermittlungssperren/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.buergerservice-portal.de/bayern/abensberg/bsp_ewo_meldebestaetigung/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.buergerservice-portal.de/bayern/abensberg/geburtsurkunde/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.buergerservice-portal.de/bayern/abensberg/ew-einfache-melderegisterauskunft/",
+       "2026-10-29"
       ]
      ],
      [],
@@ -124157,9 +125021,99 @@
        "ok",
        "https://tevis.krzn.de/tevisweb530/select2?md=2",
        "2026-10-28"
+      ],
+      [
+       "bad",
+       "https://www.kalkar.de/serviceportal/dienstleistung/wohngeld-erstmalig-oder-neu-beantragen",
+       "2026-10-29"
+      ],
+      [
+       "bad",
+       "https://www.kalkar.de/serviceportal/dienstleistung/wohngeld-erhoehung-beantragen",
+       "2026-10-29"
+      ],
+      [
+       "bad",
+       "https://www.kalkar.de/serviceportal/dienstleistung/gewerbe-abmelden",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.kalkar.de/serviceportal/dienstleistung/fuehrungszeugnis-beantragen",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.kalkar.de/serviceportal/dienstleistung/anmeldung-haupt-oder-nebenwohnsitz",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.kalkar.de/serviceportal/dienstleistung/personalausweis-beantragen",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.kalkar.de/serviceportal/dienstleistung/reisepass-beantragen",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.kalkar.de/serviceportal/dienstleistung/befreiung-von-der-ausweispflicht-beantragen",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.kalkar.de/serviceportal/dienstleistung/geburt-anzeigen",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://www.kalkar.de/serviceportal/a-z/all",
+       "2026-10-29"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says housing benefit is approved for no more than one year.",
+       "page": "Wohngeld erstmalig oder neu beantragen",
+       "url": "https://www.kalkar.de/serviceportal/dienstleistung/wohngeld-erstmalig-oder-neu-beantragen",
+       "lang": "German",
+       "q": "Wer Grundsicherungsleistungen nach dem SGB II oder SGB XII bekommt, ist nicht wohngeldberechtigt, da die Kosten der Unterkunft bereits von den jeweiligen Kostenträgern übernommen werden. Es kann sich jedoch unter bestimmten Voraussetzungen ein eigener Wohngeldanspruch für minderjährige Kinder ergeben, die noch im Haushalt der Eltern mit Leistungsanspruch SGB II oder SGB XII leben.\n\nWohngeld kann nur auf Antragstellung gewährt werden. Der Antrag wird längstens für ein Jahr bewilligt, danach ist ein Wiederholungsantrag zu stellen. Antragsformulare erhalten Sie in der Wohngeldstelle Kalkar (vgl. \"Kontakt\" im rechten Bereich der Seite) oder unter dem Link „Formulare“ im unteren Bereich dieser Seite.",
+       "tr": "People receiving basic security benefits under SGB II or SGB XII are not eligible for housing benefit because their housing costs are already covered by those providers. Under some conditions, minor children in their household may have their own housing-benefit claim.\n\nHousing benefit is granted only on application. The application is approved for no more than one year; afterwards a repeat application must be made. Forms are available from the Kalkar housing-benefit office or through the forms link below.",
+       "why": "Housing benefit is normally approved for 12 months. If circumstances are expected to stay stable, the authority may approve up to 24 months.",
+       "prov": "WoGG § 25(1)",
+       "lawUrl": "https://www.gesetze-im-internet.de/wogg/__25.html",
+       "date": "2026-10-29"
+      },
+      {
+       "s": "bad",
+       "claim": "Says higher housing benefit needs an income drop or rent or ownership-cost rise above 15%, unless the household grows.",
+       "page": "Wohngeld Erhöhung beantragen",
+       "url": "https://www.kalkar.de/serviceportal/dienstleistung/wohngeld-erhoehung-beantragen",
+       "lang": "German",
+       "q": "Sie haben gegenüber der Behörde eine Mitteilungspflicht,\n• wenn sich die Miete/ Belastung (ohne Heizkosten) um mehr als 15 Prozent verringert,\n• wenn das Einkommen der Haushaltsmitglieder um mehr als 15 Prozent steigt,\n• wenn sich die Zahl der Haushaltsmitglieder verringert,\n• wenn ein oder mehrere Haushaltsmitglieder Transferleistungen (Arbeitslosengeld II, Sozialgeld, Grundsicherung) beantragen oder beziehen,\n• beim Tod eines alleinstehenden Haushaltsmitgliedes (Meldung durch die Erben oder Betreuer).\nDie Änderungen können zu einer Verringerung oder gegebenenfalls zu einem vollständigen Wegfall des Wohngelds führen.\n\nWenn Sie bereits Wohngeld beziehen, können Sie einen neuen Antrag auf höheres Wohngeld stellen,\n• wenn sich Ihr Gesamteinkommen verringert hat,\n• sich die Anzahl der zu berücksichtigenden Haushaltsmitglieder erhöht hat oder\n• sich Ihre Miete oder Belastung bei Wohneigentum erhöht hat.\nDiese Veränderungen können, aber müssen nicht zwangsläufig zu einer Erhöhung des Wohngeldes führen.\n\nWenn Sie bereits Wohngeld beziehen, können Sie einen neuen Antrag auf höheres Wohngeld stellen,\n• wenn sich Ihr Gesamteinkommen verringert hat,\n• sich die Anzahl der zu berücksichtigenden Haushaltsmitglieder erhöht hat oder\n• sich Ihre Miete oder Belastung bei Wohneigentum erhöht hat.\n\nVoraussetzungen\nVoraussetzungen für eine Erhöhung des Wohngeldes sind:\n• die Verringerung des Einkommens um mehr als 15 %,\n• die Erhöhung der Zahl der Haushaltsmitglieder,\n• die Erhöhung der Miete oder der Belastung bei Wohneigentum um mehr als 15 %.\nDiese Veränderungen können, müssen aber nicht zu einer Erhöhung des Wohngeldes führen. Einzelheiten erfragen Sie bitte in Ihrer örtlich zuständigen Wohngeldbehörde.",
+       "tr": "You must inform the authority,\n• if rent or ownership burden (excluding heating costs) falls by more than 15%,\n• if household members' income rises by more than 15%,\n• if the number of household members falls,\n• if one or more members apply for or receive transfer benefits (unemployment benefit II, social allowance, basic security),\n• if a person living alone dies (notice by heirs or carers).\nThese changes can reduce or even end housing benefit.\n\nIf you already receive housing benefit, you may apply again for higher benefit,\n• if your total income has fallen,\n• if the number of counted household members has risen, or\n• if your rent or ownership burden has risen.\nThese changes may, but do not necessarily, raise housing benefit.\n\nIf you already receive housing benefit, you may apply again for higher benefit,\n• if your total income has fallen,\n• if the number of counted household members has risen, or\n• if your rent or ownership burden has risen.\n\nRequirements\nThe requirements for an increase in housing benefit are:\n• a reduction in income by more than 15%,\n• an increase in the number of household members,\n• an increase in rent or ownership burden by more than 15%.\nThese changes may, but need not, increase housing benefit. Please ask your local housing-benefit authority for details.",
+       "why": "A total-income drop above 10% can qualify if it increases the benefit. Rent or ownership costs can also qualify if the counted amount rises over 10% after deducting the heating-relief amount and increases the benefit.",
+       "prov": "WoGG § 27(1) sentence 1 nos. 2–3",
+       "lawUrl": "https://www.gesetze-im-internet.de/wogg/__27.html",
+       "date": "2026-10-29"
+      },
+      {
+       "s": "bad",
+       "claim": "Tells a business moving to another municipality to deregister at the old office before registering at the new one.",
+       "page": "Gewerbe abmelden",
+       "url": "https://www.kalkar.de/serviceportal/dienstleistung/gewerbe-abmelden",
+       "lang": "German",
+       "q": "Wenn Sie den Betrieb Ihres Gewerbes einstellen möchten, sind Sie verpflichtet, Ihr Gewerbe abzumelden.\n\nDas Gleiche gilt, wenn Sie den Hauptsitz Ihres Betriebes bzw. einer Zweigniederlassung oder einer unselbständigen Zweigstelle Ihres Unternehmens an einen neuen Standort verlegen und sich daraus die Zuständigkeit einer abweichenden Gemeinde ergibt. Melden Sie zuerst Ihr Gewerbe oder Geschäft am bisherigen Standort ab. Anschließend melden Sie es am neuen Standort wieder an.\n\nWenn Sie die Rechtsform Ihres Gewerbes ändern, ist ebenfalls eine Gewerbe-Abmeldung erforderlich. Zunächst müssen Sie Ihren Betrieb unter der bisherigen Rechtsform abmelden. Anschließend melden Sie Ihr Gewerbe unter der neuen Rechtsform wieder an.\n\nWenn Sie Ihren Hauptsitz Ihres Betriebes bzw. einer Zweigniederlassung oder einer unselbständigen Zweigstelle Ihres Unternehmens an einen neuen Standort verlegen, ohne dass sich an der Zuständigkeit innerhalb der Gemeinde etwas ändert, genügt eine Gewerbeummeldung.",
+       "tr": "If you stop operating your trade, you must deregister it.\n\nThe same applies if you move your head office, branch or dependent branch to a new location that makes another municipality responsible. First deregister your trade or business at its former location. Then register it again at the new location.\n\nA change of legal form also requires deregistration. First deregister the former legal form, then register the new one.\n\nIf you move within the same municipality's jurisdiction, a trade amendment notice is enough.",
+       "why": "For a move to another reporting district, the business reports the move only to the new office. The new office sends the registration details to the former office, completing deregistration there.",
+       "prov": "GewO § 14(1) sentence 3; GewAnzV § 3(2a)",
+       "lawUrl": "https://www.gesetze-im-internet.de/gewo/__14.html",
+       "date": "2026-10-29"
+      }
+     ],
      ""
     ],
     [
@@ -124480,9 +125434,68 @@
        "ok",
        "https://www.gruenstadt.de/buergerservice/leistungen/RLP%3Aentry%3A115816%3AANLR-VLR/wohnsitz-anmelden/",
        "2026-10-28"
+      ],
+      [
+       "na",
+       "https://www.gruenstadt.de/rathaus-politik/service/buergerservice/",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://www.gruenstadt.de/buergerservice/abteilungen/RLP:department:346403/buergerservice/",
+       "2026-10-29"
+      ],
+      [
+       "bad",
+       "https://www.gruenstadt.de/buergerservice/leistungen/RLP:entry:115918:ANLR-VLR/wohngeldantrag-abgabe/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.gruenstadt.de/buergerservice/leistungen/RLP:entry:91069:ANLR-VLR/wohnberechtigungsschein-beantragen/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.gruenstadt.de/rathaus-politik/verwaltung/wohnungsverwaltung/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.gruenstadt.de/buergerservice/leistungen/RLP:entry:91055:ANLR-VLR/gewerbe-abmelden/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.gruenstadt.de/buergerservice/leistungen/RLP:entry:91056:ANLR-VLR/gewerbe-anmelden/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.gruenstadt.de/rathaus-politik/verwaltung/standesamt/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.gruenstadt.de/rathaus-politik/service/online-formulare/",
+       "2026-10-29"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Calls a completed form and six listed proofs indispensable for applying for housing benefit.",
+       "page": "Wohngeldantrag Abgabe",
+       "url": "https://www.gruenstadt.de/buergerservice/leistungen/RLP:entry:115918:ANLR-VLR/wohngeldantrag-abgabe/",
+       "lang": "German",
+       "q": "Voraussetzungen\nUnbedingt erforderliche Unterlagen für die Beantragung von Wohngeld sind:\n• der ausgefüllte Antrag auf Wohngeld (Mietzuschuss (Mieter) oder Lastenzuschuss (Eigentümer))\n• Mietbescheinigung, auszufüllen vom Vermieter (mit Angabe über Größe sowie Baujahr des Wohnraums)\n• Mietvertrag und Mietquittung\n• Personalausweis oder Reisepass\n• Meldebestätigung\n• Verdienstbescheinigung, auszufüllen vom Arbeitgeber\n• Einkommensnachweise (Ausbildungs- oder Arbeitsvertrag, Lohnabrechnungen)",
+       "tr": "Requirements\nDocuments indispensable for applying for housing benefit are:\n• a completed housing-benefit application (rent subsidy for tenants or ownership-cost subsidy for owners)\n• landlord confirmation of rent (including the dwelling's size and year of construction)\n• lease and rent receipt\n• identity card or passport\n• registration certificate\n• employer-completed earnings certificate\n• income evidence (training or employment contract, payslips)",
+       "why": "A municipality must receive and forward an application; missing information can be completed later. Housing benefit normally starts in the application month.",
+       "prov": "SGB I § 16(1)–(3); WoGG §§ 22(1), 25(2); SGB I § 60(1)",
+       "lawUrl": "https://www.gesetze-im-internet.de/sgb_1/__16.html",
+       "date": "2026-10-29"
+      }
+     ],
      ""
     ],
     [
@@ -124506,6 +125519,61 @@
        "na",
        "https://hilchenbach.de/B%C3%BCrgerservice-Rathaus-Politik/B%C3%BCrgerb%C3%BCro/",
        "2026-10-28"
+      ],
+      [
+       "na",
+       "https://hilchenbach.de/B%C3%BCrgerservice-/",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://hilchenbach.de/Rathaus-und-Politik/Rathaus/B%C3%BCrgerservice/Dienstleistungen-von-A-bis-Z/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://hilchenbach.de/Rathaus-und-Politik/Rathaus/B%C3%BCrgerservice/Fachdienste/B%C3%BCrgerservice-und-Ordnung/B%C3%BCrgerb%C3%BCro/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://hilchenbach.de/Rathaus-und-Politik/Rathaus/B%C3%BCrgerservice/Fachdienste/B%C3%BCrgerservice-und-Ordnung/Standesamt/",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://portal.hilchenbach.de/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://portal.hilchenbach.de/services/2",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://portal.hilchenbach.de/services/3",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://portal.hilchenbach.de/services/5",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://portal.hilchenbach.de/services/8",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://hilchenbach.de/B%C3%BCrgerservice-Rathaus-Politik/Beh%C3%B6rdenwegweiser/Stichwortverzeichnis/Gewerbeabmeldung.php?FID=2632.1010.1&La=1&ModID=10&NavID=2632.16&object=tx%2C2632.3.1&ort=&sfwort=1",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://hilchenbach.de/Menschen/Familien/Unterst%C3%BCtzung/index.php?FID=2632.536.1&ModID=10&object=tx%7C2632.3",
+       "2026-10-29"
       ]
      ],
      [],
@@ -124552,9 +125620,83 @@
        "ok",
        "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/wohnsitz-an-und-ummeldung/",
        "2026-10-28"
+      ],
+      [
+       "bad",
+       "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/gewerbean-um-und-abmeldungen/",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/reisepass-beantragung/",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/gewerbean-um-und-abmeldungen/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/urkundenanforderung/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/fundbuero-im-stadtgebiet/",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/geburt-beurkundung/",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/vaterschaft-anerkennung-und-feststellung/",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.stadt-immenstadt.de/bildung-familie/kindertageseinrichtungen/",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/wohngeld/",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/beglaubigung-von-dokumenten-und-unterschriften/",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://www.stadt-immenstadt.de/aktuelles/stadtnachrichten/detail/offentliche-bekanntmachung-zur-eintragungsmoglichkeit-von-ubermittlungssperren-nach-dem-bundesmeldegesetz/",
+       "2026-10-29"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says everyone starting self-employment must register a trade with the city.",
+       "page": "Immenstadt trade registration guidance",
+       "url": "https://www.stadt-immenstadt.de/stadt-rathaus/buergerservice/was-erledige-ich-wo/gewerbean-um-und-abmeldungen/",
+       "lang": "German",
+       "q": "Gewerbean-, -um- und -abmeldungen\nJede Person, die sich selbstständig machen will, muss ihr Gewerbe bei der Stadtverwaltung anmelden. Gewerbetreibende sind Sie, wenn Sie mit dem Ziel Gewinn zu erzielen eine dauerhafte wirtschaftliche Tätigkeit auf eigene Verantwortung und Rechnung ausüben. Jegliche Änderungen der Tätigkeit oder des Ausübungsortes sind der Gemeindeverwaltung mitzuteilen (Ummeldung). Auch die Aufgabe des Gewerbes oder ein Umzug in einen anderen Zuständigkeitsbereich muss angezeigt werden (Abmeldung).\nFür Ihre jeweiligen Anliegen im Gewerbeamt buchen Sie bitte einen Termin auf unserer Homepage.",
+       "tr": "Trade registration, changes and deregistration\nEvery person wishing to become self-employed must register their trade with the city administration. You are a trader if you carry out ongoing economic activity independently and on your own account with the aim of making a profit. Any changes to the activity or place of operation must be reported to the municipality as a change of registration. Ending the trade or moving to another jurisdiction must also be reported as deregistration.\nFor your trade-office matters, please book an appointment on our website.",
+       "why": "Only trade operators must file a trade notice. A solo lawyer is excluded from that duty.",
+       "prov": "GewO §§ 6(1), 14(1); EStG § 18(1)",
+       "lawUrl": "https://www.gesetze-im-internet.de/gewo/__14.html",
+       "date": "2026-10-29"
+      }
+     ],
      ""
     ],
     [
@@ -124603,9 +125745,96 @@
        "amb",
        "https://www.loeningen.de/buergerservice/dienstleistungen/wohngeld-erstmalig-oder-neu-beantragen-900000065-0.html?auswahl=0&myMedium=1",
        "2026-10-28"
+      ],
+      [
+       "na",
+       "https://www.loeningen.de/portal/seiten/dienstleistungen-900000051-31140.html",
+       "2026-10-29"
+      ],
+      [
+       "bad",
+       "https://www.loeningen.de/buergerservice/dienstleistungen/erhoehungsantrag-fuer-wohngeld-stellen-900000215-0.html?myMedium=1",
+       "2026-10-29"
+      ],
+      [
+       "bad",
+       "https://www.loeningen.de/buergerservice/dienstleistungen/gewerbe-abmelden-900000158-0.html?auswahl=0&myMedium=1",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.loeningen.de/buergerservice/dienstleistungen/wohngeld-erstmalig-oder-neu-beantragen-900000065-0.html?auswahl=0&myMedium=1",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.loeningen.de/buergerservice/dienstleistungen/weiterleistung-fuer-wohngeld-beantragen-900000216-0.html?myMedium=1",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.loeningen.de/buergerservice/dienstleistungen/wesentliche-aenderungen-fuer-wohngeld-wie-anzahl-haushaltsmitglieder-miete-belastung-oder-einkuenfte-mitteilen-900000214-0.html?myMedium=1",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.loeningen.de/buergerservice/dienstleistungen/gewerbe-anmelden-900000136-0.html?myMedium=1",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://www.loeningen.de/buergerservice/dienstleistungen/wohnsitz-ummeldung-900000161-0.html?auswahl=0&myMedium=1",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.loeningen.de/buergerservice/dienstleistungen/personalausweis-aenderung-wegen-adressaenderung-900000145-0.html?auswahl=0&myMedium=1",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.loeningen.de/buergerservice/dienstleistungen/eheurkunde-beantragen-900000169-0.html?auswahl=0&myMedium=1",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.loeningen.de/buergerservice/dienstleistungen/sterbefall-anzeigen-900000180-0.html?auswahl=0&myMedium=1",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.loeningen.de/buergerservice/dienstleistungen/einen-hund-anmelden-900000014-0.html?myMedium=1",
+       "2026-10-29"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says higher housing benefit needs an income drop or rent or ownership-cost rise above 15%, unless the household grows.",
+       "page": "Erhöhungsantrag für Wohngeld stellen",
+       "url": "https://www.loeningen.de/buergerservice/dienstleistungen/erhoehungsantrag-fuer-wohngeld-stellen-900000215-0.html?myMedium=1",
+       "lang": "German",
+       "q": "Voraussetzungen\n• Das Gesamteinkommen aller Haushaltsmitglieder hat sich um mehr als 15 Prozent verringert oder\n• die Zahl Ihrer Haushaltsmitglieder hat sich erhöht oder\n• Ihre Miete oder Ihre Belastung bei Wohneigentum ohne Heizkosten hat sich um mehr als 15 Prozent erhöht.",
+       "tr": "Requirements\n• Total income of all household members has fallen by more than 15 percent, or\n• the number of household members has increased, or\n• rent or ownership burden excluding heating costs has risen by more than 15 percent.",
+       "why": "A drop in total income above 10% can qualify if the benefit rises. The same applies to counted rent or ownership costs rising above 10% after the heating deduction.",
+       "prov": "WoGG § 27(1) sentence 1 nos. 2–3",
+       "lawUrl": "https://www.gesetze-im-internet.de/wogg/__27.html",
+       "date": "2026-10-29"
+      },
+      {
+       "s": "bad",
+       "claim": "Later says businesses moving to another municipality must deregister their trade or risk a fine.",
+       "page": "Gewerbe abmelden",
+       "url": "https://www.loeningen.de/buergerservice/dienstleistungen/gewerbe-abmelden-900000158-0.html?auswahl=0&myMedium=1",
+       "lang": "German",
+       "q": "Welche Fristen muss ich beachten?\nSie sind verpflichtet, Ihr Gewerbe zum Zeitpunkt der Betriebsauflösung beziehungsweise zum Zeitpunkt der Betriebsverlegung in den Zuständigkeitsbereich einer anderen Gemeinde oder der Änderung der Rechtsform abzumelden. Bei einer verspäteten Abmeldung kann eine Geldbuße verhängt werden.",
+       "tr": "What deadlines must I observe?\nYou must deregister your trade when it closes, when it moves into another municipality's jurisdiction, or when its legal form changes. Late deregistration can result in a fine.",
+       "why": "For a move to another reporting district, the business reports only to the new office. That office sends the details to the former office, completing deregistration there.",
+       "prov": "GewO § 14(1) sentence 3; GewAnzV § 3(2a)",
+       "lawUrl": "https://www.gesetze-im-internet.de/gewo/__14.html",
+       "date": "2026-10-29"
+      }
+     ],
      ""
     ],
     [
@@ -124843,9 +126072,68 @@
        "ok",
        "https://lorsch.de/de/cityweb/aemter/buerger-buero.php",
        "2026-10-28"
+      ],
+      [
+       "na",
+       "https://lorsch.de/de/cityweb/dienstleistungen.php",
+       "2026-10-29"
+      ],
+      [
+       "bad",
+       "https://lorsch.de/de/cityweb/dienstleistungen/538724742.php",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://lorsch.de/de/cityweb/aemter/standesamt.php",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://lorsch.de/de/cityweb/dienstleistungen/459393394.php",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://lorsch.de/de/cityweb/dienstleistungen/buerger-und-wohngeld.php",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://lorsch.de/de/cityweb/dienstleistungen/965670105.php",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://lorsch.de/de/cityweb/dienstleistungen/963081800.php",
+       "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://lorsch.de/de/cityweb/dienstleistungen/6356259293.php",
+       "2026-10-29"
+      ],
+      [
+       "na",
+       "https://lorsch.de/de/cityweb/online-service.php",
+       "2026-10-29"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says a mother or father must report a home birth in person at the registry office with a doctor's or midwife's certificate.",
+       "page": "Geburtsanzeige und -beurkundung",
+       "url": "https://lorsch.de/de/cityweb/dienstleistungen/538724742.php",
+       "lang": "German",
+       "q": "Eine Geburt ist dem für den Geburtsort zuständigen Standesamt anzuzeigen. Erfolgt die Geburt in einem Krankenhaus, so zeigt die Krankenhausverwaltung dem Standesamt die Geburt an. Bei einer Hausgeburt muss die Geburt von der Mutter oder dem Vater persönlich unter Vorlage einer ärztlichen Bescheinigung oder einer Bescheinigung der Hebamme bei dem Standesamt angezeigt werden.",
+       "tr": "A birth must be reported to the registry office responsible for the place of birth. If the birth takes place in a hospital, the hospital administration reports it to the registry office. For a home birth, the mother or father must report the birth in person at the registry office and present a doctor's or midwife's certificate.",
+       "why": "A custodial parent may report a home birth within one week orally or in writing, with credible proof. A written report does not require appearing in person.",
+       "prov": "PStG § 18(1) sentences 1–3; § 19 sentence 1 no. 1",
+       "lawUrl": "https://www.gesetze-im-internet.de/pstg/__18.html",
+       "date": "2026-10-29"
+      }
+     ],
      ""
     ],
     [
@@ -124859,6 +126147,36 @@
        "ok",
        "https://www.eggenfelden.de/rathaus-eggenfelden/buergerbuero",
        "2026-10-28"
+      ],
+      [
+       "amb",
+       "https://www.eggenfelden.de/rathaus-eggenfelden/buergerbuero",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.eggenfelden.de/rathaus-eggenfelden/formulare",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.eggenfelden.de/rathaus-eggenfelden/standesamt",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.eggenfelden.de/leben-in-eggenfelden/gesundheit-soziales/soziale-beratungsdienste-und-hilfen",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.eggenfelden.de/leben-in-eggenfelden/gesundheit-soziales/inklusion",
+       "2026-10-30"
+      ],
+      [
+       "amb",
+       "https://www.eggenfelden.de/images/pdf/Befreiung_von_Ausweispflicht_Antrag.pdf",
+       "2026-10-30"
       ]
      ],
      [],
