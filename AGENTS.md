@@ -47,6 +47,12 @@ A second way in beside the issue pages: the **Issue sweeps / Institution sweeps*
 
 ## Systemic sweeps pages
 
+On 30 October 2026 the owner clarified that an actually read service directory may count as
+inspected with no misrepresentation found. City coverage `directory` is exported as `d` and
+counts alongside `s`; the page explains that the directory check did not assess detailed legal
+guidance. Keep it separate in the data and preserve access failures as uninspected. The district
+counter retains its existing rule. The overview's method note uses this clarified city definition.
+
 A third way in beside Issue and Institution sweeps: the **Systemic sweeps** pill, an overview of German cities and a page for each city. All of it is driven by `DATA.systemic`, made by the backend from `subjects/systemic/germany.json` (see the backend's data format, "Systemic site file"). With no systemic data the pill, the routes and the data are exactly as before; the build output without it is unchanged. Layout A1 only.
 
 - **Routes:** `#A1.sys` (overview) and `#A1.city.<AGS>`. An unknown city or a build without systemic data falls back to the front page.

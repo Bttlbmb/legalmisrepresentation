@@ -80950,6 +80950,11 @@
        "amb",
        "https://www.neunkirchen.de/index.php?L=3522&id=ummelden-neunkirchen",
        "2026-10-28"
+      ],
+      [
+       "x",
+       "https://www.neunkirchen.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -83197,7 +83202,7 @@
      256,
      "Weiden i.d.OPf.",
      42444,
-     "l",
+     "d",
      [
       [
        "ok",
@@ -86329,6 +86334,16 @@
        "x",
        "https://weissenfels.de/B%C3%BCrgerservice/B%C3%BCrgerzentrum/Standesamt/Selbstbestimmungsgesetz/",
        "2026-10-28"
+      ],
+      [
+       "x",
+       "https://weissenfels.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.weissenfels.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -90432,6 +90447,16 @@
        "x",
        "https://www.wernigerode.de/B%C3%BCrgerservice/Serviceportal/Meistgesuchte-Dienstleistungen/Dienstleistungsliste/Wohngeld-erstmalig-oder-neu-beantragen.php?FID=3098.1181.1&ModID=10&kuo=1&ort=3098.1",
        "2026-10-28"
+      ],
+      [
+       "x",
+       "https://wernigerode.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.wernigerode.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -90612,7 +90637,7 @@
      372,
      "Naumburg (Saale)",
      31940,
-     "l",
+     "s",
      [
       [
        "x",
@@ -94306,6 +94331,16 @@
        "ok",
        "https://www.zeitz.de/Leben/Soziales/Wohngeld/",
        "2026-10-27"
+      ],
+      [
+       "x",
+       "https://zeitz.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.zeitz.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -97869,6 +97904,16 @@
        "amb",
        "https://www.aschersleben.de/B%C3%BCrgerservice/Wo-finde-ich-was-/Dienstleistungen/",
        "2026-10-28"
+      ],
+      [
+       "x",
+       "https://aschersleben.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.aschersleben.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -101253,12 +101298,32 @@
      542,
      "Köthen (Anhalt)",
      24110,
-     "l",
+     "d",
      [
       [
        "na",
        "https://www.koethen-anhalt.de/de/aemter-und-behoerden/organisationseinheit/22/einwohnermeldeabteilung_325.html",
        "2026-10-27"
+      ],
+      [
+       "ok",
+       "https://termine-reservieren.de/termine/koethen-anhalt/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://www.koethen-anhalt.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://koethen-anhalt.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.koethen-anhalt.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -106191,6 +106256,21 @@
        "x",
        "https://www.eisleben.eu/B%C3%BCrgerservice/index.php",
        "2026-10-27"
+      ],
+      [
+       "x",
+       "https://www.eisleben.eu/Dienstleistungen/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://eisleben.eu/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.eisleben.eu/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -107265,7 +107345,7 @@
      601,
      "Gardelegen",
      21822,
-     "l",
+     "d",
      [
       [
        "ok",
@@ -107296,6 +107376,26 @@
        "ok",
        "https://www.gardelegen.de/B%C3%BCrgerservice/Anliegen-von-A-bis-Z/Was-erledige-ich-wo-/Dienstleistungen/Befreiung-von-den-Kindertagesbetreuungskosten-beantragen.php?FID=3524.1653.1&ModID=10",
        "2026-10-28"
+      ],
+      [
+       "ok",
+       "https://buergerportal.gardelegen.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://www.gardelegen.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://gardelegen.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.gardelegen.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -117351,7 +117451,7 @@
      755,
      "Bobingen",
      17905,
-     "l",
+     "s",
      [
       [
        "na",
@@ -118770,6 +118870,21 @@
        "amb",
        "https://www.horn-badmeinberg.de/Verwaltung/B%C3%BCrgerberatung/Dienstleistungen/%C3%9Cbermittlungssperren.php?FID=3165.60.1&La=1&ModID=10&NavID=3165.166&kuo=1&object=tx%2C3165.2.1",
        "2026-10-28"
+      ],
+      [
+       "x",
+       "https://horn-badmeinberg.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.horn-badmeinberg.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://service.horn-badmeinberg.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -120407,6 +120522,21 @@
        "amb",
        "https://www.heidenau.de/Stadt-Rathaus/Rathaus/B%C3%BCrgerservice/",
        "2026-10-28"
+      ],
+      [
+       "x",
+       "https://www.heidenau.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://heidenau.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.heidenau.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -120652,7 +120782,7 @@
      807,
      "Altena",
      16621,
-     "l",
+     "s",
      [
       [
        "amb",
@@ -120794,7 +120924,7 @@
      810,
      "Blaustein",
      16581,
-     "l",
+     "s",
      [
       [
        "ok",
@@ -120993,7 +121123,7 @@
      815,
      "Breisach am Rhein",
      16487,
-     "l",
+     "d",
      [
       [
        "x",
@@ -121014,6 +121144,11 @@
        "x",
        "https://stadt.breisach.de/de/city/service/36/108/Personalausweise",
        "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://stadt.breisach.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -121183,7 +121318,7 @@
      819,
      "Pocking",
      16414,
-     "l",
+     "s",
      [
       [
        "na",
@@ -121808,6 +121943,21 @@
        "amb",
        "https://www.walldorf.de/rathaus/buergerservice/was-erledige-ich-wo",
        "2026-10-28"
+      ],
+      [
+       "x",
+       "https://www.walldorf.de/rathaus/buergerservice/was-erledige-ich-wo",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://walldorf.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.walldorf.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -122611,7 +122761,7 @@
      847,
      "Templin",
      15590,
-     "l",
+     "s",
      [
       [
        "na",
@@ -122662,8 +122812,14 @@
      848,
      "Bitburg",
      15554,
-     "n",
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.bitburg.de/buergerservice-views/leistungen/RLP%3Aentry%3A8967860%3A072320018018%3AANLR/reisepass-beantragen/",
+       "2026-10-29"
+      ]
+     ],
      [],
      ""
     ],
@@ -122672,12 +122828,22 @@
      849,
      "Mindelheim",
      15531,
-     "l",
+     "s",
      [
       [
        "amb",
        "https://www.mindelheim.de/rathaus/rathaus/wegweiser",
        "2026-10-28"
+      ],
+      [
+       "amb",
+       "https://serviceportal.komuna.net/mindelheim/rsp/meldebescheinigung/start",
+       "2026-10-29"
+      ],
+      [
+       "amb",
+       "https://serviceportal.komuna.net/mindelheim/rsp/aufenthaltsbescheinigung/start",
+       "2026-10-29"
       ]
      ],
      [],
@@ -122810,6 +122976,21 @@
        "na",
        "https://blomberg-lippe.de/index.php?FID=3739.6876.1&ModID=10&kuo=1&object=tx%2C3739.2&ort=3739.20",
        "2026-10-28"
+      ],
+      [
+       "x",
+       "https://www.blomberg-lippe.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://blomberg-lippe.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.blomberg-lippe.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -122820,7 +123001,7 @@
      853,
      "Altdorf b.Nürnberg",
      15478,
-     "l",
+     "d",
      [
       [
        "ok",
@@ -122841,6 +123022,26 @@
        "x",
        "https://www.altdorf.de/seite/de/cns73a87b942c66d/036%3A4660/c_3/Buergerserviceportal.html",
        "2026-10-29"
+      ],
+      [
+       "ok",
+       "https://www.buergerservice-portal.de/bayern/altdorfbnuernberg",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://www.altdorf.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://altdorf.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.altdorf.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -123284,7 +123485,7 @@
      862,
      "Ribnitz-Damgarten",
      15333,
-     "l",
+     "s",
      [
       [
        "amb",
@@ -123478,7 +123679,7 @@
      865,
      "Raunheim",
      15297,
-     "l",
+     "s",
      [
       [
        "ok",
@@ -123614,7 +123815,7 @@
      868,
      "Langenau",
      15274,
-     "l",
+     "s",
      [
       [
        "ok",
@@ -123989,7 +124190,7 @@
      877,
      "Abensberg",
      15061,
-     "l",
+     "s",
      [
       [
        "ok",
@@ -124583,12 +124784,17 @@
      890,
      "Landsberg",
      14772,
-     "l",
+     "s",
      [
       [
        "amb",
        "https://www.stadt-landsberg.de/de/zustaendigkeit-copy-1684131062/leistung/66/vorlaeufigen_personalausweis_beantragen.html",
        "2026-10-28"
+      ],
+      [
+       "amb",
+       "https://www.stadt-landsberg.de/de/einwohnermeldeamt.html",
+       "2026-10-30"
       ]
      ],
      [],
@@ -124669,7 +124875,7 @@
      893,
      "Karlstadt",
      14739,
-     "l",
+     "s",
      [
       [
        "ok",
@@ -124735,7 +124941,7 @@
      895,
      "Homberg (Efze)",
      14703,
-     "l",
+     "s",
      [
       [
        "ok",
@@ -124751,6 +124957,11 @@
        "ok",
        "https://www.homberg-efze.de/buergerservice/leistungen/HES%3Aentry%3A54374-VLR/wohnung-anmeldung/",
        "2026-10-28"
+      ],
+      [
+       "amb",
+       "https://www.homberg-efze.de/buergerservice/leistungen/HES:entry:54283-VLR/reisepass-beantragen/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -124995,7 +125206,7 @@
      901,
      "Tornesch",
      14588,
-     "l",
+     "s",
      [
       [
        "amb",
@@ -125016,6 +125227,11 @@
        "ok",
        "https://www.tornesch.de/rathaus-und-buergerservice/digitaler-buergerservice/was-erledige-ich-wo/detail/fuehrungszeugnis-vor-ort-beantragen-3136",
        "2026-10-28"
+      ],
+      [
+       "amb",
+       "https://www.tornesch.de/rathaus-und-buergerservice/digitaler-buergerservice/was-erledige-ich-wo/detail/erhoehungsantrag-fuer-wohngeld-stellen-3093",
+       "2026-10-30"
       ]
      ],
      [],
@@ -125549,12 +125765,17 @@
      911,
      "Löbau",
      14467,
-     "l",
+     "s",
      [
       [
        "ok",
        "https://www.loebau.de/b%C3%BCrgerservice-und-verwaltung/satzungen-und-formulare/formulare/",
        "2026-10-28"
+      ],
+      [
+       "amb",
+       "https://www.loebau.de/b%C3%BCrgerservice-und-verwaltung/beteiligung-und-information/b%C3%BCrgerinformation/",
+       "2026-10-29"
       ]
      ],
      [],
@@ -125750,7 +125971,7 @@
      915,
      "Hilchenbach",
      14412,
-     "l",
+     "d",
      [
       [
        "ok",
@@ -125766,6 +125987,26 @@
        "na",
        "https://hilchenbach.de/B%C3%BCrgerservice-Rathaus-Politik/B%C3%BCrgerb%C3%BCro/",
        "2026-10-28"
+      ],
+      [
+       "ok",
+       "https://hilchenbach.de/B%C3%BCrgerservice-/",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://hilchenbach.de/Rathaus-und-Politik/Rathaus/B%C3%BCrgerservice/Dienstleistungen-von-A-bis-Z/",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://portal.hilchenbach.de/",
+       "2026-10-30"
+      ],
+      [
+       "ok",
+       "https://portal.hilchenbach.de/servicesabisz",
+       "2026-10-30"
       ],
       [
        "na",
@@ -126388,7 +126629,7 @@
      923,
      "Eggenfelden",
      14271,
-     "l",
+     "s",
      [
       [
        "ok",
@@ -126434,8 +126675,19 @@
      924,
      "Bad Camberg",
      14268,
-     "n",
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.bad-camberg.de/buergerservice/leistungen/HES%3Aentry%3A58775-VLR/personalausweis-beantragen/",
+       "2026-10-28"
+      ],
+      [
+       "ok",
+       "https://www.bad-camberg.de/buergerservice/leistungen/HES%3Aentry%3A58778-VLR/reisepass-beantragen/",
+       "2026-10-28"
+      ]
+     ],
      [],
      ""
     ],
@@ -126474,8 +126726,14 @@
      926,
      "Angermünde",
      14233,
-     "n",
-     [],
+     "s",
+     [
+      [
+       "amb",
+       "https://www.angermuende.de/buergerservice/standesamt/",
+       "2026-10-29"
+      ]
+     ],
      [],
      ""
     ],
@@ -126484,8 +126742,34 @@
      927,
      "Neutraubling",
      14224,
-     "n",
-     [],
+     "d",
+     [
+      [
+       "ok",
+       "https://www.buergerservice-portal.de/bayern/neutraubling/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://www.stadt-neutraubling.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://stadt-neutraubling.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.stadt-neutraubling.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://www.stadt-neutraubling.de/buergerservice/rathaus-service/was-erledige-ich-wo",
+       "2026-10-30"
+      ]
+     ],
      [],
      ""
     ],
@@ -127918,6 +128202,21 @@
        "amb",
        "https://www.wanzleben-boerde.de/de/39%2C1072.html?accessibility%5Bfontsize%5D=0",
        "2026-10-28"
+      ],
+      [
+       "x",
+       "https://www.wanzleben-boerde.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "https://wanzleben-boerde.de/",
+       "2026-10-30"
+      ],
+      [
+       "x",
+       "http://www.wanzleben-boerde.de/",
+       "2026-10-30"
       ]
      ],
      [],
@@ -127976,12 +128275,17 @@
      962,
      "Bad Soden-Salmünster",
      13719,
-     "l",
+     "d",
      [
       [
        "amb",
        "https://www.badsoden-salmuenster.de/buergerportal",
        "2026-10-28"
+      ],
+      [
+       "ok",
+       "https://www.badsoden-salmuenster.de/buergerportal",
+       "2026-10-30"
       ]
      ],
      [],
@@ -128062,12 +128366,17 @@
      965,
      "Pegnitz",
      13665,
-     "l",
+     "s",
      [
       [
        "amb",
        "https://www.pegnitz.de/burgerservice/formulare-zum-download.html",
        "2026-10-28"
+      ],
+      [
+       "amb",
+       "https://www.pegnitz.de/rathaus-und-politik/verwaltung-1/verwaltung/allgemeine-verwaltung/standesamt.html",
+       "2026-10-29"
       ]
      ],
      [],
@@ -128231,7 +128540,7 @@
      970,
      "Jessen (Elster)",
      13639,
-     "l",
+     "s",
      [
       [
        "amb",
@@ -128312,7 +128621,7 @@
      972,
      "Solms",
      13579,
-     "l",
+     "s",
      [
       [
        "ok",
@@ -129401,12 +129710,17 @@
      995,
      "Plattling",
      13160,
-     "l",
+     "s",
      [
       [
        "ok",
        "https://www.plattling.de/buergerservice/online-services/fuehrungszeugnis-online-beantragen/",
        "2026-10-28"
+      ],
+      [
+       "ok",
+       "https://www.plattling.de/unsere-stadt/bauen-und-wohnen/",
+       "2026-10-29"
       ]
      ],
      [],
