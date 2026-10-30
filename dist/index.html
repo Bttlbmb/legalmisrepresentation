@@ -614,8 +614,11 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .cp-row { padding: 6px 0 4px; border-top: 1px solid var(--rule); }
 .cp-row:first-child { border-top: 0; }
 .cp-claim { font-family: var(--f-display); font-weight: 400; font-size: var(--s-lg); line-height: 1.3; letter-spacing: -.005em; text-wrap: wrap; overflow-wrap: break-word; max-width: 60ch; padding-top: 4px; }
-.cp-src { color: var(--ink-3); font-size: var(--s-xs); display: flex; flex-wrap: wrap; gap: 2px 14px; padding: 12px 0 10px; }
-.cp-src a { color: var(--ink-2); }
+/* Where the passage comes from and how it is shown: labelled lines above the two panels. */
+.cp-src { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 3px 12px; margin: 0; padding: 12px 0 14px; font-size: var(--s-sm); line-height: 1.45; }
+.cp-src dt { font-size: var(--s-xs); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); font-weight: 600; padding-top: 3px; }
+.cp-src dd { margin: 0; color: var(--ink-2); min-width: 0; }
+.cp-src dd a { color: var(--ink-2); overflow-wrap: anywhere; }
 .cp-unc { font-size: var(--s-sm); color: var(--ink-2); max-width: 68ch; padding-top: 4px; }
 /* Claims run up to about 600 characters; a closed row shows four lines and opening it shows the rest. */
 .cp-more:not([open]) .cp-claim { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; }
@@ -1657,7 +1660,7 @@ function cityQuote(raw, lang) {
 function cityPassage(x) {
   const de = x.lang === "German", shown = de && x.tr ? cityQuote(x.tr, "en") : cityQuote(x.q, LANG[x.lang] || "");
   return `<div class="side side-claim"><p class="side-label">What the page says</p>${shown}
-    ${de && x.tr ? `<details class="cp-orig"><summary><span>German original</span><span class="t"></span></summary>${cityQuote(x.q, "de")}</details>` : de ? `<p class="cp-law-p">German original, not translated.</p>` : ""}</div>`;
+    ${de && x.tr ? `<details class="cp-orig"><summary><span>German original</span><span class="t"></span></summary>${cityQuote(x.q, "de")}</details>` : ""}</div>`;
 }
 function cityLaw(x) {
   const link = x.lawUrl ? `<a href="${esc(x.lawUrl)}" target="_blank" rel="noopener">${esc(x.prov || "Law text")} ↗</a>` : esc(x.prov);
@@ -1670,13 +1673,19 @@ function cityService(x) {
   t = t.replace(/^[^:]*(Landratsamt|Kreisverwaltung|Landkreis|Kreis|Service-\w+)[^:]*:\s+/i, "").split(/ — | – | \| |: /)[0].trim();
   return t.length > 64 ? t.slice(0, 61).replace(/\s+\S*$/, "") + "…" : t;
 }
-// A finding is one disclosure: the summary holds the result, the service and the claim; opening it shows the page link, the passage and the law.
+// The source block names the page (its whole address, without the scheme), the date it was checked and how the passage is shown. The last line is for a German page only: translated or not.
+function citySource(x) {
+  const de = x.lang === "German", shown = x.tr ? "English translation of the German page · German original below" : "German page, not translated";
+  const row = (k, v) => `<dt>${k}</dt><dd>${v}</dd>`;
+  return `<dl class="cp-src">${row("Page", `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.url.replace(/^https?:\/\//, ""))}\u2060\u202f↗</a>`)}${x.date ? row("Checked", fmtDate(x.date)) : ""}${de ? row("Shown as", shown) : ""}</dl>`;
+}
+// A finding is one disclosure: the summary holds the result, the service and the claim; opening it shows the source block, the passage and the law.
 function cityFinding(x) {
   const de = isGermanClaim(x.claim), svc = cityService(x);
   return `<article class="cp-row"><details class="cp-more"><summary><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc" lang="de">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
     <h3 class="cp-claim"${de ? ' lang="de"' : ""}>${keep(widow(x.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, "")))}</h3>
     ${x.s === "amb" && x.unc ? `<p class="cp-unc">${esc(x.unc)}</p>` : ""}</summary>
-    <p class="cp-src"><a href="${esc(x.url)}" target="_blank" rel="noopener">Page checked ↗</a>${x.date ? `<span>${fmtDate(x.date)}</span>` : ""}</p>
+    ${citySource(x)}
     <div class="compare">${cityPassage(x)}${cityLaw(x)}</div></details></article>`;
 }
 // The header counts what was found, then says once how many pages were read and when.

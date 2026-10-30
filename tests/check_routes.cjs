@@ -115,6 +115,14 @@ for (const narrow of [false, true]) {
             const german = (f.claim.match(/\b(der|die|das|und|nicht|wird|werden|für|mit|eine|ein|den|dem|von|bei|Die|Der|Das|Sie|ist|sind)\b/g) || []).length >= 2;
             if (row.includes('class="cp-tag"') !== german) throw new Error(`"Claim in German" tag does not match the headline in finding ${i}: ${route}`);
             if (row.includes('white-space') || row.includes('style="font-size')) throw new Error(`Inline type or whitespace style in finding ${i}: ${route}`);
+            // The source block names the page, the check date and, for a German page, whether the passage is translated; the old one-line link and note are gone.
+            const src = (row.match(/<dl class="cp-src">([\s\S]*?)<\/dl>/) || [])[1] || '';
+            const bare = f.url.replace(/^https?:\/\//, '').replaceAll('&', '&amp;');
+            if (!src.includes('<dt>Page</dt>') || !src.includes(bare)) throw new Error(`Source block lacks the page address in finding ${i}: ${route}`);
+            if (src.includes('<dt>Checked</dt>') !== !!f.date) throw new Error(`Source block date does not match the data in finding ${i}: ${route}`);
+            if (src.includes('<dt>Shown as</dt>') !== (f.lang === 'German')) throw new Error(`Source block status does not match the language in finding ${i}: ${route}`);
+            if (f.lang === 'German' && !src.includes(f.tr ? 'German original below' : 'not translated')) throw new Error(`Source block status is wrong in finding ${i}: ${route}`);
+            if (row.includes('Page checked') || row.includes('German original, not translated.')) throw new Error(`Old source line still shown in finding ${i}: ${route}`);
           });
         }
       }
