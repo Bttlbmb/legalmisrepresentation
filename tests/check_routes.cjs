@@ -23,7 +23,7 @@ for (const narrow of [false, true]) {
       getElementById: node, querySelector() { return null; }, querySelectorAll() { return []; },
       addEventListener() {}
     },
-    window: { addEventListener() {}, scrollTo() {} }, scrollY: 0, scrollTo() {}, console
+    window: { addEventListener() {}, scrollTo() {} }, scrollY: 0, scrollTo() {}, console, URL
   });
   scripts.forEach(script => vm.runInContext(script, ctx));
   const citySweep = (data.systemic || [])[0];
@@ -128,8 +128,9 @@ for (const narrow of [false, true]) {
             if (row.includes('white-space') || row.includes('style="font-size')) throw new Error(`Inline type or whitespace style in finding ${i}: ${route}`);
             // The source block names the page, the check date and, for a German page, whether the passage is translated; the old one-line link and note are gone.
             const src = (row.match(/<dl class="cp-src">([\s\S]*?)<\/dl>/) || [])[1] || '';
-            const bare = f.url.replace(/^https?:\/\//, '').replaceAll('&', '&amp;');
-            if (!src.includes('<dt>Page</dt>') || !src.includes(bare)) throw new Error(`Source block lacks the page address in finding ${i}: ${route}`);
+            const esc = u => u.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+            const host = new URL(f.url).hostname.replace(/^www\./, '');
+            if (!src.includes('<dt>Page</dt>') || !src.includes(`href="${esc(f.url)}"`) || !src.includes(`title="${esc(f.url)}"`) || !new RegExp(`>${host.replaceAll('.', '\\.')}[^<]*</a>`).test(src)) throw new Error(`Source block lacks the page link, its tooltip or the website name in finding ${i}: ${route}`);
             if (src.includes('<dt>Checked</dt>') !== !!f.date) throw new Error(`Source block date does not match the data in finding ${i}: ${route}`);
             if (src.includes('<dt>Shown as</dt>') !== (f.lang === 'German')) throw new Error(`Source block status does not match the language in finding ${i}: ${route}`);
             if (f.lang === 'German' && !src.includes(f.tr ? 'German original below' : 'not translated')) throw new Error(`Source block status is wrong in finding ${i}: ${route}`);

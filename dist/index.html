@@ -1673,11 +1673,12 @@ function cityService(x) {
   t = t.replace(/^[^:]*(Landratsamt|Kreisverwaltung|Landkreis|Kreis|Service-\w+)[^:]*:\s+/i, "").split(/ — | – | \| |: /)[0].trim();
   return t.length > 64 ? t.slice(0, 61).replace(/\s+\S*$/, "") + "…" : t;
 }
-// The source block names the page (its whole address, without the scheme), the date it was checked and how the passage is shown. The last line is for a German page only: translated or not.
+// The source block names the page (its website; the link and its tooltip hold the whole address), the date it was checked and how the passage is shown. The last line is for a German page only: translated or not.
 function citySource(x) {
   const de = x.lang === "German", shown = x.tr ? "English translation of the German page · German original below" : "German page, not translated";
   const row = (k, v) => `<dt>${k}</dt><dd>${v}</dd>`;
-  return `<dl class="cp-src">${row("Page", `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.url.replace(/^https?:\/\//, ""))}\u2060\u202f↗</a>`)}${x.date ? row("Checked", fmtDate(x.date)) : ""}${de ? row("Shown as", shown) : ""}</dl>`;
+  const host = (() => { try { return new URL(x.url).hostname.replace(/^www\./, ""); } catch (e) { return x.url.replace(/^https?:\/\//, ""); } })();
+  return `<dl class="cp-src">${row("Page", `<a href="${esc(x.url)}" target="_blank" rel="noopener" title="${esc(x.url)}">${esc(host)}\u2060\u202f↗</a>`)}${x.date ? row("Checked", fmtDate(x.date)) : ""}${de ? row("Shown as", shown) : ""}</dl>`;
 }
 // A finding is one disclosure: the summary holds the result, the service and the claim; opening it shows the source block, the passage and the law.
 function cityFinding(x) {
