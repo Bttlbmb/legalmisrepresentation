@@ -34,7 +34,7 @@ for (const narrow of [false, true]) {
     }
     for (const cid of Object.keys(data.cases)) routes.push(`#${layout}.case.${cid}`);
     // Institution pages exist only in A1 and only when the data carries groups; without groups they fall back to the front page.
-    const groups = data.groups || [], must = {}, sourceOnArrival = {}, sys = (data.systemic || [])[0], cityFindings = {};
+    const groups = data.groups || [], must = {}, sourceOnArrival = {}, sys = (data.systemic || [])[0], cityFindings = {}, cityData = {};
     if (layout === 'A1') {
       must['#A1'] = groups.length ? 'class="lens"' : 'class="home-cols"';
       routes.push('#A1.inst');
@@ -65,6 +65,7 @@ for (const narrow of [false, true]) {
         routes.push(`#A1.city.${c[0]}`);
         must[`#A1.city.${c[0]}`] = 'class="area-head"';
         cityFindings[`#A1.city.${c[0]}`] = c[6].length;
+        cityData[`#A1.city.${c[0]}`] = c[6];
       }
       routes.push('#A1.city.no-such-city');
       // Districts join the same pages; a district id is never a city route and the other way round.
@@ -72,6 +73,7 @@ for (const narrow of [false, true]) {
         routes.push(`#A1.district.${d[0]}`);
         must[`#A1.district.${d[0]}`] = 'class="area-head"';
         cityFindings[`#A1.district.${d[0]}`] = d[5].length;
+        cityData[`#A1.district.${d[0]}`] = d[5];
       }
       routes.push('#A1.district.no-such-district');
       if (sys && (sys.districts || []).length) routes.push(`#A1.city.${sys.districts[0][0]}`, `#A1.district.${sys.cities[0][0]}`);
@@ -101,6 +103,20 @@ for (const narrow of [false, true]) {
           if (html.includes('class="cp-nt"') && html.includes('class="res-note"')) throw new Error(`Note shown twice: ${route}`);
         }
         if (cityFindings[route] > 0 && (!html.includes('class="cp-sum"') || html.split('<details class="cp-more">').length - 1 !== cityFindings[route])) throw new Error(`Finding disclosures or summary missing: ${route}`);
+        // A passage keeps every word of the research text, the translation and the German original alike; only its layout is structured.
+        // The "Claim in German" tag shows only on a headline that really is German, not on one that names BAföG or Führungszeugnis.
+        if (route in cityData) {
+          const words = s => (s.match(/[\p{L}\p{N}]+/gu) || []).join(' ');
+          const plain = s => s.replace(/<[^>]+>/g, ' ').replaceAll('&lt;', '<').replaceAll('&gt;', '>').replaceAll('&quot;', '"').replaceAll('&#39;', "'").replaceAll('&amp;', '&');
+          html.split('<article class="cp-row">').slice(1).forEach((row, i) => {
+            const f = cityData[route][i], quotes = [...row.matchAll(/<blockquote class="cp-q"[^>]*>([\s\S]*?)<\/blockquote>/g)].map(m => words(plain(m[1])));
+            const want = f.lang === 'German' && f.tr ? [f.tr, f.q] : [f.q];
+            if (quotes.length !== want.length || want.some((w, k) => quotes[k] !== words(w))) throw new Error(`A passage differs from the research text in finding ${i}: ${route}`);
+            const german = (f.claim.match(/\b(der|die|das|und|nicht|wird|werden|für|mit|eine|ein|den|dem|von|bei|Die|Der|Das|Sie|ist|sind)\b/g) || []).length >= 2;
+            if (row.includes('class="cp-tag"') !== german) throw new Error(`"Claim in German" tag does not match the headline in finding ${i}: ${route}`);
+            if (row.includes('white-space') || row.includes('style="font-size')) throw new Error(`Inline type or whitespace style in finding ${i}: ${route}`);
+          });
+        }
       }
       if ((route === '#A1.city.no-such-city' || route === '#A1.district.no-such-district' || (sys && (sys.districts || []).length && (route === `#A1.city.${sys.districts[0][0]}` || route === `#A1.district.${sys.cities[0][0]}`)))
           && (html.includes('cp-') || html.includes('id="sy-bands"'))) throw new Error(`Unknown place rendered: ${route}`);

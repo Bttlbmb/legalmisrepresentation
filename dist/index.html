@@ -638,12 +638,30 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
   .cp-rail { position: sticky; top: 20px; }
   .cp-main { max-width: 720px; }
 }
-.cp-q { white-space: pre-line; }
+/* The passage and the law text share one size and line height. The passage is set off by a thin rule, not by size. */
+.cp-more .cp-q { margin: 0; font-family: var(--f-display); font-size: var(--s-md); line-height: 1.55; border-left: 2px solid var(--rule); padding-left: 14px;
+  hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }
+.cp-more .cp-q .q-p { margin: 0 0 .65em; }
+.cp-more .cp-q .q-list { margin: 0 0 .65em; padding-left: 1.25em; }
+.cp-more .cp-q .q-list li { margin: .2em 0; padding-left: .15em; } .cp-more .cp-q .q-list li::marker { color: var(--ink-3); }
+.cp-more .cp-q .cp-qh { font-family: var(--f-body); font-size: var(--s-sm); font-weight: 600; color: var(--ink-2); line-height: 1.4; margin: 0 0 .45em; }
+.cp-more .cp-q .cp-qh:not(:first-child) { margin-top: 1em; }
+.cp-more .cp-q .cp-qt { border-collapse: collapse; width: 100%; margin: 0 0 .65em; font-family: var(--f-body); font-size: var(--s-sm); hyphens: manual; -webkit-hyphens: manual; }
+.cp-more .cp-q .cp-qt td { border-top: 1px solid var(--rule-2); padding: 5px 10px 5px 0; vertical-align: top; }
+.cp-more .cp-q .cp-url { hyphens: none; -webkit-hyphens: none; overflow-wrap: anywhere; }
+.cp-more .cp-q > :last-child { margin-bottom: 0; }
+.cp-more .law-text { font-size: var(--s-md); line-height: 1.55; }
+/* From 960px the passage gets the width and the law stays in view while a long passage is read. */
+@media (min-width: 960px) {
+  .cp-more .compare { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); }
+  .cp-more .side-law { position: sticky; top: 16px; align-self: start; border-left: 0; }
+  .cp-more .side-claim { border-right: 1px solid var(--rule); }
+}
 .cp-orig { border-top: 1px solid var(--rule-2); padding-top: 10px; margin-top: 2px; }
 .cp-orig summary { list-style: none; cursor: pointer; font-size: var(--s-xs); color: var(--ink-3); display: flex; justify-content: space-between; gap: 12px; }
 .cp-orig summary::-webkit-details-marker { display: none; }
 .cp-orig summary .t::before { content: "Show"; } .cp-orig[open] summary .t::before { content: "Hide"; }
-.cp-orig blockquote { margin: 8px 0 0; white-space: pre-line; font-family: var(--f-display); font-size: var(--s-md); color: var(--ink-2); }
+.cp-more .cp-orig .cp-q { margin-top: 8px; }
 .cp-law-p { font-size: var(--s-xs); color: var(--ink-3); overflow-wrap: anywhere; }
 .cp-law-p a { color: var(--ink-2); }
 .cp-pages { display: grid; margin: 0; padding: 0; list-style: none; }
@@ -1486,7 +1504,9 @@ const SYS_CITY_STATES = ["02", "04", "11"];
 const SYS_LABEL = { bad: "Misrepresentation", amb: "Unclear", ok: "No misrepresentation found", na: "Not yet inspected" };
 const SYS_PAGE = { bad: "Misrepresentation", amb: "Unclear", ok: "No misrepresentation found", na: "Not addressed in the guidance found", x: "Guidance not accessible" };
 const SYS_KEYS = ["bad", "amb", "ok", "na"];
-const SYS_DE = /[äöüßÄÖÜ]|\b(der|die|das|und|nicht|wird|werden|für|mit|eine|ein|den|dem|von|bei|Die|Der|Das|Sie|ist|sind)\b/;
+// A headline is German only when it holds German function words. Umlauts alone do not count: plain English headlines name BAföG, Führungszeugnis or Bürgergeld.
+const SYS_DE_WORDS = /\b(der|die|das|und|nicht|wird|werden|für|mit|eine|ein|den|dem|von|bei|Die|Der|Das|Sie|ist|sind)\b/g;
+const isGermanClaim = t => (String(t).match(SYS_DE_WORDS) || []).length >= 2;
 if (SYS) {
   SYS.list = SYS.cities.map(([id, rank, name, pop, cov, pages, F, web]) => {
     const c = { id, rank, name, pop, cov, pages, F, web, st: id.slice(0, 2), bad: F.filter(f => f.s === "bad").length, amb: F.filter(f => f.s === "amb").length };
@@ -1589,14 +1609,59 @@ function cityLede(c, f) {
   const found = [c.bad && plural(c.bad, "misrepresentation", "misrepresentations"), c.amb && `${c.amb} unclear`].filter(Boolean).join(" and ");
   return `We read ${plural(c.read, "service page", "service pages")} on ${fmtDate(f.done)} and found ${found || "no misrepresentation"}.`;
 }
+// A passage keeps every word of the research text; only its layout changes. Lines the source merely wrapped are joined, "•" and lettered or
+// numbered items become a list, a short title line becomes a heading and "a | b" lines a table. The research's own line breaks otherwise stay.
+function cityQuoteBlocks(raw) {
+  const BULLET = /^(?:[•▪◦‣*–-]|\(?[a-z0-9]{1,2}[).])\s+/, BULLET_MARK = /^[•▪◦‣*–-]\s*/, SOFT = /[A-Za-zäöüß]-$/;
+  const lines = String(raw).split("\n").map(s => s.replace(/[ \t ]+/g, " ").trim());
+  const blocks = [];
+  let cur = null;
+  const push = b => { blocks.push(b); cur = b; };
+  lines.forEach((ln, i) => {
+    if (!ln) { cur = null; return; }
+    const next = lines.slice(i + 1).find(Boolean) || "", prev = i > 0 ? lines[i - 1] : "";
+    if (ln.includes(" | ")) {
+      const cells = ln.split(" | ").map(s => s.trim());
+      if (cur && cur.t === "table") cur.rows.push(cells); else push({ t: "table", rows: [cells] });
+      return;
+    }
+    if (BULLET.test(ln)) {
+      const item = ln.replace(BULLET_MARK, "");
+      if (cur && cur.t === "list") cur.items.push(item); else push({ t: "list", items: [item] });
+      return;
+    }
+    const isFirst = !blocks.length && !cur;
+    const shortLine = ln.length <= 72 && /^[A-ZÄÖÜ0-9]/.test(ln) && !/[.,;]$/.test(ln) && !/[.!?]\s/.test(ln);
+    const leadsList = /:$/.test(ln) && BULLET.test(next);
+    // A heading is short, starts a block and is followed by a capital or an item; a line that ends on "?" is always one.
+    if (shortLine && /^[A-ZÄÖÜ•0-9(–-]/.test(next) && !leadsList && next &&
+        ((((!cur || prev === "") && (isFirst || /[:?]$/.test(ln) || prev === ""))) || /\?$/.test(ln))) { push({ t: "head", text: ln }); cur = null; return; }
+    // A line that continues the one before: it starts in lower case, or the line before ended on a comma or a hyphenated word.
+    const cont = cur && (cur.t === "para" || cur.t === "list") && (/^[a-zäöüß(„“]/.test(ln) || /(?:,|[A-Za-zäöüß]-)$/.test(prev));
+    if (cont && cur.t === "list") { const k = cur.items.length - 1; cur.items[k] += (SOFT.test(cur.items[k]) ? "" : " ") + ln; return; }
+    if (cont && cur.t === "para") { cur.text += (SOFT.test(cur.text) ? "" : " ") + ln; return; }
+    if (cur && cur.t === "para" && !/[.:;?!)”"“]$/.test(prev) && /^[A-ZÄÖÜ]/.test(ln) && prev.length > 60) { cur.text += " " + ln; return; }
+    push({ t: "para", text: ln });
+  });
+  return blocks;
+}
+// Addresses wrap anywhere but are never hyphenated.
+const cityInline = t => esc(t).replace(/(https?:\/\/[^\s<]+|www\.[^\s<]+)/g, '<span class="cp-url">$1</span>');
+function cityQuote(raw, lang) {
+  const html = cityQuoteBlocks(raw).map(b => b.t === "head" ? `<p class="cp-qh">${cityInline(b.text)}</p>`
+    : b.t === "list" ? `<ul class="q-list">${b.items.map(i => `<li>${cityInline(i)}</li>`).join("")}</ul>`
+    : b.t === "table" ? `<table class="cp-qt">${b.rows.map(r => `<tr>${r.map(c => `<td>${cityInline(c)}</td>`).join("")}</tr>`).join("")}</table>`
+    : `<p class="q-p">${cityInline(b.text)}</p>`).join("");
+  return `<blockquote class="cp-q"${lang ? ` lang="${lang}"` : ""}>${html}</blockquote>`;
+}
 function cityPassage(x) {
-  const de = x.lang === "German", main = de && x.tr ? quoted(x.tr, "English") : quoted(x.q, x.lang);
-  return `<div class="side side-claim"><p class="side-label">What the page says</p><blockquote class="cp-q"${de && !x.tr ? ' lang="de"' : ""}>${esc(main)}</blockquote>
-    ${de && x.tr ? `<details class="cp-orig"><summary><span>German original</span><span class="t"></span></summary><blockquote lang="de">${esc(quoted(x.q, "German"))}</blockquote></details>` : de ? `<p class="cp-law-p">German original, not translated.</p>` : ""}</div>`;
+  const de = x.lang === "German", shown = de && x.tr ? cityQuote(x.tr, "en") : cityQuote(x.q, LANG[x.lang] || "");
+  return `<div class="side side-claim"><p class="side-label">What the page says</p>${shown}
+    ${de && x.tr ? `<details class="cp-orig"><summary><span>German original</span><span class="t"></span></summary>${cityQuote(x.q, "de")}</details>` : de ? `<p class="cp-law-p">German original, not translated.</p>` : ""}</div>`;
 }
 function cityLaw(x) {
   const link = x.lawUrl ? `<a href="${esc(x.lawUrl)}" target="_blank" rel="noopener">${esc(x.prov || "Law text")} ↗</a>` : esc(x.prov);
-  return `<div class="side side-law"><p class="side-label">What the law says</p><p class="law-text" style="font-size:var(--s-md)">${esc(x.why)}</p>${link ? `<p class="cp-law-p">${link}</p>` : ""}</div>`;
+  return `<div class="side side-law"><p class="side-label">What the law says</p><p class="law-text">${esc(x.why)}</p>${link ? `<p class="cp-law-p">${link}</p>` : ""}</div>`;
 }
 // The service is the page title the research recorded. Notes after a dash, bar or colon are cut, so are an authority before a colon ("Landratsamt München: Wohngeld") and the authority after a dash, and a bare record id ("wartburg-basic") is no title.
 function cityService(x) {
@@ -1607,7 +1672,7 @@ function cityService(x) {
 }
 // A finding is one disclosure: the summary holds the result, the service and the claim; opening it shows the page link, the passage and the law.
 function cityFinding(x) {
-  const de = SYS_DE.test(x.claim), svc = cityService(x);
+  const de = isGermanClaim(x.claim), svc = cityService(x);
   return `<article class="cp-row"><details class="cp-more"><summary><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc" lang="de">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
     <h3 class="cp-claim"${de ? ' lang="de"' : ""}>${keep(widow(x.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, "")))}</h3>
     ${x.s === "amb" && x.unc ? `<p class="cp-unc">${esc(x.unc)}</p>` : ""}</summary>
