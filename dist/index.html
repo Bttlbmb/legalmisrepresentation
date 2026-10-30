@@ -1586,7 +1586,8 @@ function afterSys() {
     const found = v ? SYS.list.concat(SYS.dlist).filter(c => sysSearchKey(c.name).includes(v)) : [];
     const ids = new Set(found.map(c => c.id));
     squares().forEach(a => a.classList.toggle("hit", ids.has(a.dataset.id)));
-    hits.innerHTML = found.slice(0, 8).map(c => `<li><a href="${href("A1", sysKind(c), c.id)}">${esc(c.name)}</a> <small>${esc(SYS_STATES[c.st])}${c.dist ? " · district" : ""}</small></li>`).join("") + (found.length > 8 ? `<li><small>${found.length - 8} more</small></li>` : "");
+    // One match is already named in the line above with its "Open page" link, so the list would only repeat it.
+    hits.innerHTML = found.length === 1 ? "" : found.slice(0, 8).map(c => `<li><a href="${href("A1", sysKind(c), c.id)}">${esc(c.name)}</a> <small>${esc(SYS_STATES[c.st])}${c.dist ? " · district" : ""}</small></li>`).join("") + (found.length > 8 ? `<li><small>${found.length - 8} more</small></li>` : "");
     read.innerHTML = !v ? SYS_HINT : found.length === 1 ? sysReadLine(found[0], true) : found.length ? `${found.length} ${SYS.dlist.length ? "places" : "cities"} match.` : `No ${SYS.dlist.length ? "city or district" : "city"} matches.`;
   });
   document.querySelectorAll(".sy-keys button").forEach(b => b.addEventListener("click", () => {
