@@ -1657,16 +1657,21 @@ function cityLaw(x) {
   const link = x.lawUrl ? `<a href="${esc(x.lawUrl)}" target="_blank" rel="noopener">${esc(x.prov || "Law text")} ↗</a>` : esc(x.prov);
   return `<div class="side side-law"><p class="side-label">What the law says</p><p class="law-text">${esc(x.why)}</p>${link ? `<p class="cp-law-p">${link}</p>` : ""}</div>`;
 }
-// The service is the page title the research recorded. Notes after a dash, bar or colon are cut, so are an authority before a colon ("Landratsamt München: Wohngeld") and the authority after a dash, and a bare record id ("wartburg-basic") is no title.
-function cityService(x) {
+// The service is the page title the research recorded. Notes after a dash, bar or colon are cut, so are an authority before a colon ("Landratsamt München: Wohngeld"), a site or authority after a plain hyphen or slash ("Wohngeld - Serviceportal Stadt Gummersbach") and the authority after a dash. Some recorded titles are no title and show nothing: a bare record id ("wartburg-basic"), the place's own name, a placeholder ("Münster municipal service guidance"), a German sentence that summarises a finding ("Schließt …") and a note on it ("… nur beim Jugendamt").
+const SVC_AUTH = /stadt|gemeinde|serviceportal|landratsamt|landkreis|kreis|rathaus|verwaltung|bürgerservice/i;
+const SVC_NOTE = /^(?:Stellt|Nennt|Verlangt|Fordert|Schließt|Bietet|Beschränkt|Behauptet|Setzt|Lässt|Erklärt|Macht|Sagt|Gibt|Führt|Verweist|Sieht|Legt|Räumt|Nimmt|Erwähnt|Verneint) |\b(?:nur|statt|schon) /;
+function cityService(x, place = "") {
   let t = (x.page || "").trim();
   if (/^[a-z0-9]+(-[a-z0-9]+)+$/.test(t)) return "";
   t = t.replace(/^[^:]*(Landratsamt|Kreisverwaltung|Landkreis|Kreis|Service-\w+)[^:]*:\s+/i, "").split(/ — | – | \| |: /)[0].trim();
+  for (const sep of [" / ", " - "]) { const i = t.lastIndexOf(sep); if (i > 0 && SVC_AUTH.test(t.slice(i + sep.length))) t = t.slice(0, i).trim(); }
+  const own = place.replace(/^(Landkreis|Kreis|Stadt|Städteregion|Region|Regionalverband) /, "").replace(/ \(.*\)$/, "");
+  if (!t || t === own || /\bmunicipal service guidance$/.test(t) || SVC_NOTE.test(t)) return "";
   return t.length > 64 ? t.slice(0, 61).replace(/\s+\S*$/, "") + "…" : t;
 }
 // A finding is one disclosure: the summary holds the result, the service and the claim; opening it shows the page link, the passage and the law.
-function cityFinding(x) {
-  const de = isGermanClaim(x.claim), svc = cityService(x);
+function cityFinding(x, place) {
+  const de = isGermanClaim(x.claim), svc = cityService(x, place);
   return `<article class="cp-row"><details class="cp-more"><summary><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc" lang="de">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
     <h3 class="cp-claim"${de ? ' lang="de"' : ""}>${keep(widow(x.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, "")))}</h3>
     ${x.s === "amb" && x.unc ? `<p class="cp-unc">${esc(x.unc)}</p>` : ""}</summary>
@@ -1698,7 +1703,7 @@ function cityPage(L, c) {
     ${tally || `<p class="lede">${esc(widow(cityLede(c, f)))}</p>`}${folded}
     ${c.web || c.auth ? `<p class="meta-line">${c.auth ? `<span>${esc(c.auth)}</span>` : ""}${c.web ? `<span><a href="${esc(c.web)}" target="_blank" rel="noopener">Official website ↗</a></span>` : ""}</p>` : ""}</header></aside>
     <div class="cp-main">${empty ? `<div class="cp-empty"><div class="cp-lab"><i class="cp-sq na"></i><b>Not yet inspected</b></div><p>Nothing is known about ${esc(c.name)}’s website yet. That is not a clean result.</p>${c.dist ? "" : `<small>Listed by population on ${fmtDate(SYS.popDate)}.</small>`}</div>`
-      : `${c.F.length ? `<div class="cp-list">${c.F.map(cityFinding).join("")}</div>` : c.k === "ok" ? `<div class="cp-empty"><p>Nothing found on the pages we read. They are listed below.</p></div>` : ""}${cityPages(c, !c.F.length)}${note}`}</div></div>`;
+      : `${c.F.length ? `<div class="cp-list">${c.F.map(x => cityFinding(x, c.name)).join("")}</div>` : c.k === "ok" ? `<div class="cp-empty"><p>Nothing found on the pages we read. They are listed below.</p></div>` : ""}${cityPages(c, !c.F.length)}${note}`}</div></div>`;
 }
 function sysBody(s) {
   return s.kind === "sys" ? sysHome(s.L) : cityPage(s.L, s.kind === "district" ? SYSDIST[s.id] : SYSCITY[s.id]);
