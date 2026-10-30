@@ -26,6 +26,17 @@ for (const narrow of [false, true]) {
     window: { addEventListener() {}, scrollTo() {} }, scrollY: 0, scrollTo() {}, console
   });
   scripts.forEach(script => vm.runInContext(script, ctx));
+  const citySweep = (data.systemic || [])[0];
+  if (citySweep) {
+    const inspected = citySweep.cities.filter(c => c[6].length || c[4] === 's' || c[4] === 'd').length;
+    if (vm.runInContext('SYS.inspected', ctx) !== inspected) throw new Error('City count omits inspected directories or includes access failures');
+    for (const c of citySweep.cities.filter(c => c[4] === 'd' && !c[6].length)) {
+      ctx.location.hash = `#A1.city.${c[0]}`;
+      vm.runInContext('render()', ctx);
+      const page = node('root').innerHTML;
+      if (!page.includes('This result includes a check of service listings and links.') || page.includes('<b>Not yet inspected</b>')) throw new Error(`Directory scope or result missing: ${c[0]}`);
+    }
+  }
   for (const layout of ['A', 'A1', 'A2', 'A3', 'B', 'C']) {
     const routes = [`#${layout}`];
     for (const area of data.areas) {
