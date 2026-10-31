@@ -556,7 +556,7 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .sy-keys button { font: inherit; font-size: var(--s-xs); color: var(--ink-2); display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 12px; border: 1px solid var(--rule); border-radius: 999px; background: var(--surface); cursor: pointer; }
 .sy-keys button[aria-pressed="true"] { border-color: var(--ink); color: var(--ink); }
 .sy-keys i { display: block; width: 10px; height: 10px; border-radius: 2px; }
-.sy-keys i.bad, .cp-sq.bad { background: var(--res-bad); } .sy-keys i.amb, .cp-sq.amb { background: var(--res-amb); } .sy-keys i.ok, .cp-sq.ok { background: var(--res-ok); }
+.sy-keys i.bad, .sy-keys i.major, .cp-sq.bad { background: var(--res-bad); } .sy-keys i.amb, .cp-sq.amb { background: var(--res-amb); } .sy-keys i.ok, .cp-sq.ok { background: var(--res-ok); }
 .sy-keys i.na { box-shadow: inset 0 0 0 1.5px var(--ink-3); }
 .sy-bands { padding-top: 6px; }
 .sy-cols { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 16px; align-items: start; padding-top: 8px; }
@@ -566,7 +566,7 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .sy-sq a { display: block; width: 10px; height: 10px; border-radius: 2px; }
 .sy-sq a.bad { background: var(--res-bad); } .sy-sq a.amb { background: var(--res-amb); } .sy-sq a.ok { background: var(--res-ok); }
 .sy-sq a.na { background: transparent; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink-3) 55%, transparent); }
-.sy-bands[data-f="bad"] a:not(.bad), .sy-bands[data-f="amb"] a:not(.amb), .sy-bands[data-f="ok"] a:not(.ok), .sy-bands[data-f="na"] a:not(.na) { opacity: .14; }
+.sy-bands[data-f="major"] a:not(.maj), .sy-bands[data-f="bad"] a:not(.bad), .sy-bands[data-f="amb"] a:not(.amb), .sy-bands[data-f="ok"] a:not(.ok), .sy-bands[data-f="na"] a:not(.na) { opacity: .14; }
 .sy-bands.q a:not(.hit) { opacity: .2; }
 .sy-sq a.hit { outline: 2px solid var(--ink); outline-offset: 1px; }
 .sy-sq a.sel { outline: 2px solid var(--focus); outline-offset: 1px; }
@@ -615,6 +615,8 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .cp-more:not([open]) .cp-claim { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; }
 .cp-more > summary { list-style: none; position: relative; display: block; padding: 10px 34px 10px 0; min-height: 44px; cursor: pointer; }
 .cp-more > summary::-webkit-details-marker { display: none; }
+.cp-more > summary.maj .cp-lab { padding-right: 62px; }
+.cp-tier { position: absolute; right: 34px; top: 10px; font-size: var(--s-xs); line-height: 1.5; font-weight: 600; color: var(--ink); border: 1px solid var(--ink); border-radius: 4px; padding: 0 6px; white-space: nowrap; }
 .cp-more > summary::after { content: ""; position: absolute; right: 6px; top: 20px; width: 8px; height: 8px; border-right: 1.5px solid var(--ink-3); border-bottom: 1.5px solid var(--ink-3); transform: rotate(45deg); }
 .cp-more[open] > summary::after { top: 24px; transform: rotate(-135deg); }
 .cp-more > summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
@@ -1495,7 +1497,7 @@ const SYS = (DATA.systemic || [])[0] || null;
 const SYSCITY = {}, SYSDIST = {};
 const SYS_STATES = { "01": "Schleswig-Holstein", "02": "Hamburg", "03": "Lower Saxony", "04": "Bremen", "05": "North Rhine-Westphalia", "06": "Hesse", "07": "Rhineland-Palatinate", "08": "Baden-Württemberg", "09": "Bavaria", "10": "Saarland", "11": "Berlin", "12": "Brandenburg", "13": "Mecklenburg-Vorpommern", "14": "Saxony", "15": "Saxony-Anhalt", "16": "Thuringia" };
 const SYS_CITY_STATES = ["02", "04", "11"];
-const SYS_LABEL = { bad: "Misrepresentation", amb: "Unclear", ok: "No misrepresentation found", na: "Not yet inspected" };
+const SYS_LABEL = { bad: "Misrepresentation", major: "With a major one", amb: "Unclear", ok: "No misrepresentation found", na: "Not yet inspected" };
 const SYS_PAGE = { bad: "Misrepresentation", amb: "Unclear", ok: "No misrepresentation found", na: "Not addressed in the guidance found", x: "Guidance not accessible" };
 const SYS_KEYS = ["bad", "amb", "ok", "na"];
 // A headline is German only when it holds German function words. Umlauts alone do not count: plain English headlines name BAföG, Führungszeugnis or Bürgergeld.
@@ -1524,16 +1526,25 @@ if (SYS) {
   SYS.dbad = SYS.dlist.filter(c => c.k === "bad").length;
   SYS.dread = SYS.dlist.filter(c => c.k !== "na").length;
   SYS.dbad_all = SYS.dlist.reduce((n, c) => n + c.bad, 0);
+  // Consequence grades (f.g: "M" major, "m" minor) exist only for confirmed findings; without any, nothing about them is shown.
+  const sysHasMajor = c => c.F.some(f => f.g === "M");
+  SYS.major = SYS.list.filter(sysHasMajor).length;
+  SYS.dmajor = SYS.dlist.filter(sysHasMajor).length;
+  SYS.cnt.major = SYS.major;
+  SYS.gMajor = SYS.list.concat(SYS.dlist).reduce((n, c) => n + c.F.filter(f => f.g === "M").length, 0);
+  SYS.gMinor = SYS.list.concat(SYS.dlist).reduce((n, c) => n + c.F.filter(f => f.g === "m").length, 0);
 }
+const SYS_GRADE_NOTE = "A major misrepresentation could, if a resident believed the page, stop them claiming something the law gives them or cost them money, a start date or a deadline. A minor one is an extra step, a false expectation or a small detail. AI readers graded each one against a written rubric, and a person has not checked every grade. A grade describes what could happen if someone relied on the page, not what did happen. The percentages beside the major counts are shares of the places inspected and of all misrepresentations, not rates.";
+const SYS_ROW_NOTE = "A major misrepresentation could, if a resident believed the page, stop them claiming something the law gives them or cost them money, a start date or a deadline. It carries a “Major” label. The others are minor: an extra step, a false expectation or a small detail. AI readers graded each one against a written rubric, and a person has not checked every grade. A grade describes what could happen if someone relied on the page, not what did happen.";
 const sysNoun = n => n === 1 ? "misrepresentation" : "misrepresentations";
 const sysSearchKey = t => t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const SYS_HINT = SYS && SYS.dlist.length ? "Hover or tap a dot or square to see the city or district." : "Hover or tap a square to see the city.";
 const sysKind = c => c.dist ? "district" : "city";
 const sysReadLine = (c, open) => `<b>${esc(c.name)}</b> · ${esc(SYS_STATES[c.st])} · ${c.dist ? "district" : `${fmtN(c.pop)} inhabitants`} · ${c.bad ? `<span class="red">${c.bad} ${sysNoun(c.bad)}</span>` : SYS_LABEL[c.k].toLowerCase()}${open ? ` · <a href="${href("A1", sysKind(c), c.id)}">Open page →</a>` : ""}`;
-const sysSquare = c => `<a class="${c.k}${c.dist ? " d" : ""}" href="${href("A1", sysKind(c), c.id)}" data-id="${c.id}" tabindex="-1" aria-label="${esc(c.name)}: ${esc(SYS_LABEL[c.k].toLowerCase())}"></a>`;
+const sysSquare = c => `<a class="${c.k}${c.F.some(f => f.g === "M") ? " maj" : ""}${c.dist ? " d" : ""}" href="${href("A1", sysKind(c), c.id)}" data-id="${c.id}" tabindex="-1" aria-label="${esc(c.name)}: ${esc(SYS_LABEL[c.k].toLowerCase())}"></a>`;
 
 // One line per kind: how many were inspected, how many of them have at least one misrepresentation, and that share of the inspected.
-const sysSumLine = (shape, inspected, [one, many], bad) => `<p class="sy-sum-line"><i class="sy-g ${shape}"></i><span><b>${fmtN(inspected)}</b> ${inspected === 1 ? one : many} inspected · <b>${fmtN(bad)}</b>${inspected ? ` (${Math.round(100 * bad / inspected)}%)` : ""} with a misrepresentation</span></p>`;
+const sysSumLine = (shape, inspected, [one, many], bad, major) => `<p class="sy-sum-line"><i class="sy-g ${shape}"></i><span><b>${fmtN(inspected)}</b> ${inspected === 1 ? one : many} inspected · <b>${fmtN(bad)}</b>${inspected ? ` (${Math.round(100 * bad / inspected)}%)` : ""} with a misrepresentation${SYS.gMajor ? ` · <b>${fmtN(major)}</b>${inspected ? ` (${Math.round(100 * major / inspected)}%)` : ""} with a major one` : ""}</span></p>`;
 
 function sysHome(L) {
   const stateBlock = id => {
@@ -1544,17 +1555,17 @@ function sysHome(L) {
   const ids = Object.keys(SYS_STATES).filter(id => !SYS_CITY_STATES.includes(id)).sort((a, b) => SYS.list.filter(c => c.st === b).length - SYS.list.filter(c => c.st === a).length);
   // Berlin, Hamburg and Bremen (with Bremerhaven) have one or two cities each: one block with named squares.
   const cs = SYS.list.filter(c => SYS_CITY_STATES.includes(c.st));
-  const cityStates = `<section class="sy-state"><h3>City-states</h3><div class="sy-grp"><p class="sy-sub">${plural(cs.length, "city", "cities")}</p><div class="sy-named">${cs.map(c => `<a class="sy-nm" href="${href("A1", "city", c.id)}"><i class="${c.k}"></i>${esc(c.name)}</a>`).join("")}</div></div></section>`;
+  const cityStates = `<section class="sy-state"><h3>City-states</h3><div class="sy-grp"><p class="sy-sub">${plural(cs.length, "city", "cities")}</p><div class="sy-named">${cs.map(c => `<a class="sy-nm${c.F.some(f => f.g === "M") ? " maj" : ""}" href="${href("A1", "city", c.id)}"><i class="${c.k}"></i>${esc(c.name)}</a>`).join("")}</div></div></section>`;
   return `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${esc(widow(`Websites of the ${fmtN(SYS.list.length)} largest German cities${SYS.dlist.length ? " and all German districts" : ""}, checked against federal and EU law.`))}</p>
-    <div class="sy-sum">${SYS.dlist.length ? sysSumLine("sq", SYS.dread, ["district", "districts"], SYS.dbad) : ""}${sysSumLine(SYS.dlist.length ? "ci" : "sq", SYS.inspected, ["city", "cities"], SYS.cnt.bad)}
-      <p class="sy-sum-note">Misrepresentations in all: ${SYS.dlist.length ? `${fmtN(SYS.dbad_all)} on district websites, ` : ""}${fmtN(SYS.confirmed)} on city websites.</p></div></section>
+    <div class="sy-sum">${SYS.dlist.length ? sysSumLine("sq", SYS.dread, ["district", "districts"], SYS.dbad, SYS.dmajor) : ""}${sysSumLine(SYS.dlist.length ? "ci" : "sq", SYS.inspected, ["city", "cities"], SYS.cnt.bad, SYS.major)}
+      <p class="sy-sum-note">Misrepresentations in all: ${SYS.dlist.length ? `${fmtN(SYS.dbad_all)} on district websites, ` : ""}${fmtN(SYS.confirmed)} on city websites.${SYS.gMajor ? ` AI-graded: ${fmtN(SYS.gMajor)} major (${Math.round(100 * SYS.gMajor / (SYS.gMajor + SYS.gMinor))}%), ${fmtN(SYS.gMinor)} minor.` : ""}</p></div></section>
     ${lensRow(L, "sys")}
     <div class="sy-ctl"><input class="res-search" id="sy-q" type="search" placeholder="${SYS.dlist.length ? "Find a city or district" : "Find a city"}" aria-label="${SYS.dlist.length ? "Find a city or district" : "Find a city"}" autocomplete="off"><p class="sy-read" id="sy-read" aria-live="polite">${SYS_HINT}</p></div>
     <ul class="sy-hits" id="sy-hits"></ul>
-    <div class="sy-keys" role="group" aria-label="Show only">${SYS_KEYS.map(k => `<button type="button" data-k="${k}" aria-pressed="false"><i class="${k}"></i>${SYS_LABEL[k]} · ${fmtN(SYS.cnt[k])}</button>`).join("")}</div>
+    <div class="sy-keys" role="group" aria-label="Show only">${(SYS.gMajor ? ["bad", "major", "amb", "ok", "na"] : SYS_KEYS).map(k => `<button type="button" data-k="${k}" aria-pressed="false"><i class="${k}"></i>${SYS_LABEL[k]} · ${fmtN(SYS.cnt[k])}</button>`).join("")}</div>
     <div class="sy-bands${SYS.dlist.length ? " mixed" : ""}" id="sy-bands"><div class="sy-cols">${ids.map(stateBlock).join("")}${cityStates}</div></div>
     <p class="stats" style="padding-top:12px">${SYS.dlist.length ? "One dot per city, largest first within each state. Squares are districts (Landkreise); an empty one has not been inspected yet." : "One square per city, largest first within each state."}</p>
-    <details class="sy-note"><summary>How to read this</summary><p>A misrepresentation is one confirmed statement on one ${SYS.dlist.length ? "city’s or district’s" : "city’s"} website. A city counts as inspected when we read its service guidance or available service directory. A directory check does not assess detailed legal guidance. The percentage is the share of the places inspected so far. Places were not inspected to the same depth${SYS.dlist.length ? " and the districts were chosen by hand" : ""}, so it is not a rate for German cities or districts, and places should not be ranked by it. “No misrepresentation found” applies only to the pages read. A ${SYS.dlist.length ? "city or district" : "city"} that is not yet inspected is listed, not cleared. The ${fmtN(SYS.list.length)} cities are the largest in Germany by population on ${fmtDate(SYS.popDate)}.${SYS.dlist.length ? ` All ${fmtN(SYS.dlist.length)} German districts (Landkreise) are listed; the ${fmtN(SYS.dread)} inspected so far were chosen by hand to test access and coverage, so they are not a sample.` : ""}</p></details>`;
+    <details class="sy-note"><summary>How to read this</summary><p>A misrepresentation is one confirmed statement on one ${SYS.dlist.length ? "city’s or district’s" : "city’s"} website. A city counts as inspected when we read its service guidance or available service directory. A directory check does not assess detailed legal guidance. The percentage is the share of the places inspected so far. Places were not inspected to the same depth${SYS.dlist.length ? " and the districts were chosen by hand" : ""}, so it is not a rate for German cities or districts, and places should not be ranked by it. “No misrepresentation found” applies only to the pages read. A ${SYS.dlist.length ? "city or district" : "city"} that is not yet inspected is listed, not cleared. The ${fmtN(SYS.list.length)} cities are the largest in Germany by population on ${fmtDate(SYS.popDate)}.${SYS.dlist.length ? ` All ${fmtN(SYS.dlist.length)} German districts (Landkreise) are listed; the ${fmtN(SYS.dread)} inspected so far were chosen by hand to test access and coverage, so they are not a sample.` : ""}</p>${SYS.gMajor ? `<p>${esc(SYS_GRADE_NOTE)}</p>` : ""}</details>`;
 }
 
 function afterSys() {
@@ -1671,11 +1682,14 @@ function cityService(x, place = "") {
   return t.length > 96 ? t.slice(0, 93).replace(/\s+\S*$/, "") + "…" : t;
 }
 // A finding is one disclosure: the summary holds the result, the service and the claim; opening it shows the page link, the passage and the law.
+// Misrepresentations first, major before minor, then the unclear ones; within each group the data order stays.
+const sysOrdered = F => F.map((x, i) => [x.s === "bad" ? (x.g === "M" ? 0 : 1) : 2, i, x]).sort((a, b) => a[0] - b[0] || a[1] - b[1]).map(t => t[2]);
 function cityFinding(x, place) {
   const de = isGermanClaim(x.claim), svc = cityService(x, place);
-  return `<article class="cp-row"><details class="cp-more"><summary><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc${svc.length > 56 ? " long" : ""}" lang="de">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
+  const major = x.g === "M";
+  return `<article class="cp-row"><details class="cp-more"><summary${major ? ' class="maj"' : ""}><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc${svc.length > 56 ? " long" : ""}" lang="de">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
     <h3 class="cp-claim"${de ? ' lang="de"' : ""}>${keep(widow(x.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, "")))}</h3>
-    ${x.s === "amb" && x.unc ? `<p class="cp-unc">${esc(x.unc)}</p>` : ""}</summary>
+    ${x.s === "amb" && x.unc ? `<p class="cp-unc">${esc(x.unc)}</p>` : ""}${major ? `<span class="cp-tier" title="Could stop a resident claiming something the law gives them, or cost them money">Major</span>` : ""}</summary>
     <p class="cp-src"><a href="${esc(x.url)}" target="_blank" rel="noopener">Page checked ↗</a>${x.date ? `<span>${fmtDate(x.date)}</span>` : ""}</p>
     <div class="compare">${cityPassage(x)}${cityLaw(x)}</div></details></article>`;
 }
@@ -1683,7 +1697,8 @@ function cityFinding(x, place) {
 function cityTally(c, f) {
   if (!c.F.length && !c.read) return "";
   const ok = c.pages.filter(p => p[0] === "ok").length;
-  const items = [["bad", c.bad, c.bad === 1 ? "misrepresentation" : "misrepresentations"], ["amb", c.amb, "unclear"], ["ok", ok, ok === 1 ? "page with nothing found" : "pages with nothing found"]].filter(x => x[1]);
+  const majors = c.F.filter(f => f.g === "M").length, graded = c.F.some(f => f.g);
+  const items = [["bad", c.bad, `${c.bad === 1 ? "misrepresentation" : "misrepresentations"}${graded ? `, ${majors === 0 ? "all minor" : majors === c.bad ? (c.bad === 1 ? "major" : "all major") : `${majors} major`}` : ""}`], ["amb", c.amb, "unclear"], ["ok", ok, ok === 1 ? "page with nothing found" : "pages with nothing found"]].filter(x => x[1]);
   return `<ul class="cp-sum">${items.map(([k, n, w]) => `<li><i class="cp-sq ${k}"></i><b>${n}</b>${w}</li>`).join("")}</ul>
     <p class="cp-ctx">${esc(plural(c.read, c.cov === "d" ? "page" : "service page", c.cov === "d" ? "pages" : "service pages"))} read${f.done ? ` on ${fmtDate(f.done)}` : ""}. Results describe only those pages.</p>`;
 }
@@ -1696,7 +1711,8 @@ function cityPage(L, c) {
   const f = cityFacts(c), empty = !c.pages.length && !c.F.length, tally = cityTally(c, f);
   const noteText = `${c.cov === "d" ? "This result includes a check of service listings and links. That check did not assess detailed legal guidance. " : ""}Each result describes only the pages we read${f.done ? ` up to ${fmtDate(f.done)}` : ""}. It does not show whether anyone was refused or misled in practice, and the pages may have changed since.${c.F.length || c.k === "na" ? "" : " No misrepresentation found does not mean the rest of the site is correct."}${c.dist ? " This district was chosen by hand, so it says nothing about other districts." : ""}`;
   // With the count header the note sits under it as a disclosure; a page without one keeps it at the end.
-  const folded = !empty && tally ? `<details class="cp-nt"><summary>What this shows</summary><p>${esc(noteText)}</p></details>` : "";
+  const gradeNote = c.F.some(x => x.g) ? `<details class="cp-nt"><summary>How consequences are graded</summary><p>${esc(SYS_ROW_NOTE)}</p></details>` : "";
+  const folded = !empty && tally ? `<details class="cp-nt"><summary>What this shows</summary><p>${esc(noteText)}</p></details>${gradeNote}` : "";
   const note = !empty && !tally ? `<p class="res-note"><b>What this shows.</b> ${esc(noteText)}</p>` : "";
   // Two columns from 960px: the header stays in view beside the findings.
   return `<div class="cp-two"><aside class="cp-rail"><nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "sys")}">← Systemic sweeps</a></nav>
@@ -1704,7 +1720,7 @@ function cityPage(L, c) {
     ${tally || `<p class="lede">${esc(widow(cityLede(c, f)))}</p>`}${folded}
     ${c.web || c.auth ? `<p class="meta-line">${c.auth ? `<span>${esc(c.auth)}</span>` : ""}${c.web ? `<span><a href="${esc(c.web)}" target="_blank" rel="noopener">Official website ↗</a></span>` : ""}</p>` : ""}</header></aside>
     <div class="cp-main">${empty ? `<div class="cp-empty"><div class="cp-lab"><i class="cp-sq na"></i><b>Not yet inspected</b></div><p>Nothing is known about ${esc(c.name)}’s website yet. That is not a clean result.</p>${c.dist ? "" : `<small>Listed by population on ${fmtDate(SYS.popDate)}.</small>`}</div>`
-      : `${c.F.length ? `<div class="cp-list">${c.F.map(x => cityFinding(x, c.name)).join("")}</div>` : c.k === "ok" ? `<div class="cp-empty"><p>Nothing found on the pages we read. They are listed below.</p></div>` : ""}${cityPages(c, !c.F.length)}${note}`}</div></div>`;
+      : `${c.F.length ? `<div class="cp-list">${sysOrdered(c.F).map(x => cityFinding(x, c.name)).join("")}</div>` : c.k === "ok" ? `<div class="cp-empty"><p>Nothing found on the pages we read. They are listed below.</p></div>` : ""}${cityPages(c, !c.F.length)}${note}`}</div></div>`;
 }
 function sysBody(s) {
   return s.kind === "sys" ? sysHome(s.L) : cityPage(s.L, s.kind === "district" ? SYSDIST[s.id] : SYSCITY[s.id]);

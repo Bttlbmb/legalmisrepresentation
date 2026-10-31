@@ -45,6 +45,8 @@ for (const narrow of [false, true]) {
     }
     for (const cid of Object.keys(data.cases)) routes.push(`#${layout}.case.${cid}`);
     // Institution pages exist only in A1 and only when the data carries groups; without groups they fall back to the front page.
+    // Rows list misrepresentations first, major before minor, then unclear findings; within a group the data order stays.
+    const ordered = F => F.map((x, i) => [x.s === 'bad' ? (x.g === 'M' ? 0 : 1) : 2, i, x]).sort((a, b) => a[0] - b[0] || a[1] - b[1]).map(t => t[2]);
     const groups = data.groups || [], must = {}, sourceOnArrival = {}, sys = (data.systemic || [])[0], cityFindings = {}, cityData = {};
     if (layout === 'A1') {
       must['#A1'] = groups.length ? 'class="lens"' : 'class="home-cols"';
@@ -76,7 +78,7 @@ for (const narrow of [false, true]) {
         routes.push(`#A1.city.${c[0]}`);
         must[`#A1.city.${c[0]}`] = 'class="area-head"';
         cityFindings[`#A1.city.${c[0]}`] = c[6].length;
-        cityData[`#A1.city.${c[0]}`] = c[6];
+        cityData[`#A1.city.${c[0]}`] = ordered(c[6]);
       }
       routes.push('#A1.city.no-such-city');
       // Districts join the same pages; a district id is never a city route and the other way round.
@@ -84,7 +86,7 @@ for (const narrow of [false, true]) {
         routes.push(`#A1.district.${d[0]}`);
         must[`#A1.district.${d[0]}`] = 'class="area-head"';
         cityFindings[`#A1.district.${d[0]}`] = d[5].length;
-        cityData[`#A1.district.${d[0]}`] = d[5];
+        cityData[`#A1.district.${d[0]}`] = ordered(d[5]);
       }
       routes.push('#A1.district.no-such-district');
       if (sys && (sys.districts || []).length) routes.push(`#A1.city.${sys.districts[0][0]}`, `#A1.district.${sys.cities[0][0]}`);
@@ -103,10 +105,30 @@ for (const narrow of [false, true]) {
       // The sweep switch is part of the header, and the systemic overview says how many were inspected and the share of them.
       if (data.groups && data.groups.length && ['#A1', '#A1.inst', '#A1.sys'].includes(route) && !/<header class="site">[\s\S]*class="lens"[\s\S]*<\/header>/.test(html)) throw new Error(`Sweep switch is not in the header: ${route}`);
       if (route === '#A1.sys' && sys && !/class="sy-sum-line"[\s\S]*cities<\/span>|cities inspected · <b>[\d,.]+<\/b> \(\d+%\)/.test(html)) throw new Error(`Overview lacks the inspected summary with its share: ${route}`);
+      if (route === '#A1.sys' && sys) {
+        // Consequence grades (finding.g, only on confirmed findings): shown on the overview only when the data carries them.
+        const graded = sys.cities.concat(sys.districts || []).some(c => (c[6] || c[5]).some(f => f.g));
+        if (graded !== (html.includes('with a major one') && html.includes('AI-graded:'))) throw new Error('Overview major counts and graded data disagree');
+        if (!graded && html.includes('with a major one')) throw new Error('Major counts without grades');
+        if (graded !== html.includes('data-k="major"')) throw new Error('The major chip and graded data disagree');
+      }
       if (route.startsWith('#A1.city.') || route.startsWith('#A1.district.') || route === '#A1.sys') {
         if (sys && /undefined|NaN/.test(html)) throw new Error(`Broken value on a systemic page: ${route}`);
         // One row per finding, and a city nobody has read says so.
         if (route in cityFindings && html.split('class="cp-row"').length - 1 !== cityFindings[route]) throw new Error(`Finding rows do not match the data: ${route}`);
+        if (route in cityData) {
+          // One "Major" label per major finding and none for minor or ungraded ones; only confirmed findings carry a grade.
+          const majors = cityData[route].filter(f => f.g === 'M').length;
+          if (html.split('class="cp-tier"').length - 1 !== majors) throw new Error(`Major labels do not match the data: ${route}`);
+          if (cityData[route].some(f => f.g && f.s !== 'bad')) throw new Error(`A grade on a finding that is not a confirmed misrepresentation: ${route}`);
+          // The header count names how many misrepresentations are major, and the grading note is there to open.
+          const bad = cityData[route].filter(f => f.s === 'bad');
+          if (bad.some(f => f.g)) {
+            const word = majors === 0 ? 'all minor' : majors === bad.length ? (bad.length === 1 ? 'major' : 'all major') : `${majors} major`;
+            const sum = (html.match(/<ul class="cp-sum">[\s\S]*?<\/ul>/) || [''])[0];
+            if (!sum.includes(`, ${word}</li>`) || !html.includes('How consequences are graded')) throw new Error(`Header major count or grading note missing: ${route}`);
+          }
+        }
         // Each finding is one closed disclosure, and a page with findings opens with the count of what was found.
         // The note under the count header is folded in, not repeated at the end, and the header sits in its own column.
         if (route.startsWith('#A1.city.') || route.startsWith('#A1.district.')) {
