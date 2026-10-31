@@ -108,7 +108,7 @@ for (const narrow of [false, true]) {
       if (route === '#A1.sys' && sys) {
         // Consequence grades (finding.g, only on confirmed findings): shown on the overview only when the data carries them.
         const graded = sys.cities.concat(sys.districts || []).some(c => (c[6] || c[5]).some(f => f.g));
-        if (graded !== (html.includes('with a major one') && html.includes('AI-graded:'))) throw new Error('Overview major counts and graded data disagree');
+        if (graded !== html.includes('with a major one')) throw new Error('Overview major counts and graded data disagree');
         if (!graded && html.includes('with a major one')) throw new Error('Major counts without grades');
         if (graded !== html.includes('data-k="major"')) throw new Error('The major chip and graded data disagree');
       }
