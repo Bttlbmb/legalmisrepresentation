@@ -132244,13 +132244,147 @@
     ],
     [
      "01059",
-     "Kreis Schleswig-Flensburg",
+     "Schleswig-Flensburg",
      "01",
-     "n",
-     [],
-     [],
-     "",
-     ""
+     "s",
+     [
+      [
+       "na",
+       "https://www.schleswig-flensburg.de/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.schleswig-flensburg.de/sitemap.xml",
+       "2026-10-31"
+      ],
+      [
+       "bad",
+       "https://www.schleswig-flensburg.de/Navigation/Migration/Asyl-Aufenthalt-und-Einb%C3%BCrgerung/Einb%C3%BCrgerung/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.schleswig-flensburg.de/Navigation/Jugend-und-Familie-/Beistandschaften-Unterhaltsvorschusskasse/Unterhaltsvorschusskasse-/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.schleswig-flensburg.de/Navigation/Sozialzentrum-Jobcenter/Leistungen/Wohngeld/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.schleswig-flensburg.de/Navigation/Sozialzentrum-Jobcenter/Leistungen/Grundsicherung-nach-dem-SGB-II/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.schleswig-flensburg.de/Navigation/Sozialzentrum-Jobcenter/Leistungen/Bildungs-und-Teilhabepaket/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.schleswig-flensburg.de/Navigation/Sozialzentrum-Jobcenter/Leistungen/Hilfe-zum-Lebensunterhalt-nach-dem-SGB-XII/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.schleswig-flensburg.de/Navigation/Sozialzentrum-Jobcenter/Leistungen/Grundsicherung-im-Alter-und-bei-Erwerbsminderung-nach-dem-SBG-XII/",
+       "2026-10-31"
+      ],
+      [
+       "bad",
+       "https://www.schleswig-flensburg.de/Navigation/Soziales/Familienwegweiser/Finanzen-Wohnen/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.schleswig-flensburg.de/Navigation/Gesundheit/Infektionsschutz/Belehrung-43-IfSG-/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.schleswig-flensburg.de/Navigation/Gesundheit/Infektionsschutz/Masernschutzgesetz/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.schleswig-flensburg.de/Navigation/Migration/Asyl-Aufenthalt-und-Einb%C3%BCrgerung/Unionsb%C3%BCrger-und-deren-Familienangeh%C3%B6rige/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.schleswig-flensburg.de/Navigation/Migration/Asyl-Aufenthalt-und-Einb%C3%BCrgerung/Aufenthaltstitel-/Erwerbst%C3%A4tige/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.schleswig-flensburg.de/Navigation/Migration/Asyl-Aufenthalt-und-Einb%C3%BCrgerung/Aufenthaltstitel-/Familienzusammenf%C3%BChrung/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.schleswig-flensburg.de/Navigation/Migration/Asyl-Aufenthalt-und-Einb%C3%BCrgerung/Aufenthaltstitel-/Auszubildende-Studierende-Sprachkursteilnehmende/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.schleswig-flensburg.de/Navigation/Migration/Asyl-Aufenthalt-und-Einb%C3%BCrgerung/Asylbewerber-Leistungsgesetz/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.schleswig-flensburg.de/Navigation/Migration/Asyl-Aufenthalt-und-Einb%C3%BCrgerung/Vorübergehende-Aussetzung-der-Abschiebung-Duldung-/",
+       "2026-10-31"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says you must give up or lose your old citizenship to be naturalised, with EU states given as an example exception.",
+       "page": "Einbürgerung",
+       "url": "https://www.schleswig-flensburg.de/Navigation/Migration/Asyl-Aufenthalt-und-Einb%C3%BCrgerung/Einb%C3%BCrgerung/",
+       "lang": "German",
+       "q": "Ein Anspruch auf Einbürgerung besteht regelmäßig, wenn folgende Voraussetzungen erfüllt sind:\n• Seit 5 Jahren ein rechtmäßiger und gewöhnlicher Aufenthalt in Deutschland\n• Identität und bisherige Staatsangehörigkeit sind geklärt\n• Bekenntnis zur freiheitlich-demokratischen Grundordnung des Grundgesetzes der Bundesrepublik Deutschland\n• Im Besitz eines unbefristeten oder verfestigten Aufenthaltsrecht zum Zeitpunkt der Einbürgerung\n• Lebensunterhalt für sich und die unterhaltsberechtigten Familienangehörigen kann ohne Inanspruchnahme von Sozialhilfe oder Arbeitslosengeld II bestritten werden\n• Die bisherige Staatsangehörigkeit wird aufgegeben oder verloren (Ausnahme z. B. EU-Staaten)\n• Keine Verurteilung wegen einer Straftat\n• ausreichende Deutschkenntnisse\n• Kenntnisse der deutschen Rechts- und Gesellschaftsordnung und der Lebensverhältnisse in Deutschland\nZu diesen Voraussetzungen gibt es verschiedene Ausnahmen, zum Beispiel bei besonderen Integrationsleistungen. Für bestimmte Personengruppen bestehen Sonderregelungen. Hierzu berät Sie gerne Ihre Einbürgerungsbehörde.",
+       "tr": "A right to naturalisation normally exists if the following conditions are met:\n• five years of lawful and habitual residence in Germany\n• identity and previous nationality are established\n• profession of the free democratic basic order of the Basic Law of the Federal Republic of Germany\n• at the time of naturalisation, holding an unlimited or consolidated right of residence\n• livelihood for oneself and the family members entitled to maintenance can be met without claiming social assistance or unemployment benefit II\n• the previous nationality is given up or lost (exception, e.g. EU states)\n• no conviction for a crime\n• sufficient German language skills\n• knowledge of the German legal and social order and of living conditions in Germany\nThere are various exceptions to these conditions, for example for special integration achievements. Special rules exist for certain groups of persons. Your naturalisation authority will be glad to advise you on this.",
+       "why": "Giving up your previous citizenship is no longer a condition for naturalisation. The law has not required it since 27 June 2024, so you can keep it. Another country’s law may still end your old citizenship.\n\nScope: Only the renunciation list item. No finding on other conditions or on other countries own rules.\n\nContext: Complete live Kreis page read (text-first, 2026-10-31) with its closing sentence on exceptions and special rules and the contact block of the Fachdienst Migrationsmanagement. The same site also shows state-authored naturalisation text under /Was-erledige-ich-wo-/ (marked as coming from the Zuständigkeitsfinder Schleswig-Holstein), which says that the previous nationality may be kept; that text is a different publisher and is not linked from this list. Current StAG §§ 10 and 12a were read in full. Not rendered in a browser. The page links an Informations- und Merkblatt (PDF created 25 March 2026, sha256 a06b9ec5…ea125, read by agent C and by me after the review; not retained). It lists the current conditions without any renunciation condition, so it is inconsistent with the page but does not correct the sentence.\n\nAdditional source passage (Informations- und Merkblatt, page 1-2, list of conditions under “Einbürgerungen nach § 10” and the sentence after it): You must always meet the following conditions in addition to the lawful residence described under the individual sections:\n• Proven sufficient knowledge of German at level B 1.\n• Holding an unlimited right of residence or [...] a residence permit for purposes other than those named in §§ 16a, 16b, 16d, 16e, 16f, 17, 18f, 19, 19b, 19e, 20, 22, 23a, §§ 24, 25(3) to (5) and 104c of the Residence Act.\n• No previous convictions.\n• Lasting securing of the livelihood from own income.\n• Profession of the free democratic basic order [...]\n• Passing the naturalisation test.\nIn naturalisation there are further exceptions, namely on freedom from convictions and on securing the livelihood from own income. [Source: https://www.schleswig-flensburg.de/output/download.php?fid=3333.5100.1.PDF]",
+       "prov": "§ 10(1) StAG (no. 4 repealed)",
+       "lawUrl": "https://www.gesetze-im-internet.de/stag/__10.html",
+       "date": "2026-10-31",
+       "g": "M"
+      },
+      {
+       "s": "bad",
+       "claim": "Says housing benefit is ruled out if you receive upgrade-training BAföG.",
+       "page": "Familienwegweiser: Finanzen, Wohnen",
+       "url": "https://www.schleswig-flensburg.de/Navigation/Soziales/Familienwegweiser/Finanzen-Wohnen/",
+       "lang": "German",
+       "q": "Wohngeld plus ist für Menschen, die ihre Miete oder ihren Kredit für eine Immobilie nicht aus eigenen finanziellen Mitteln bezahlen können.\nWohngeld ist ausgeschlossen bei Bezug von Grundsicherung im Alter, Erwerbsminderung, Hilfe zur Pflege, Bürgergeld, Grundleistungen nach dem Asylbewerberleistungsgesetz oder wenn Sie als Schüler*in BAfÖG, Studenten-/Aufstiegs-BAfÖG oder Berufsausbildungsbeihilfe erhalten.\nWohngeld können Sie grundsätzlich als Mieter oder Eigentümer einer Immobilie bekommen, in der Sie selbst wohnen. Bitte wenden Sie sich an die Wohngeldstelle in Ihrem Sozialzentrum.",
+       "tr": "Housing benefit plus is for people who cannot pay their rent or the loan for a property from their own financial means.\nHousing benefit is excluded if you receive basic security in old age, reduced earning capacity, care assistance, Bürgergeld, basic benefits under the Asylum Seekers' Benefits Act or if you, as a pupil, receive BAföG, student/upgrade-training BAföG or vocational training allowance.\nYou can in principle receive housing benefit as a tenant or as an owner of a property in which you live yourself. Please contact the housing-benefit office in your Sozialzentrum.",
+       "why": "The law does not exclude upgrade-training aid from housing benefit. It counts half of it as income.\n\nScope: Only the named item “Aufstiegs-BAföG” (upgrade-training aid) in the exclusion sentence. Not claimed: care assistance (Hilfe zur Pflege) in the same sentence, the other listed benefits, or the rule that § 20(2) WoGG excludes only if all household members are entitled.\n\nContext: Complete live page read (text-first, 2026-10-31), including the neighbouring paragraphs. The Kreis own detailed Wohngeld page lists the exclusions correctly with hedges and does not name upgrade-training aid. WoGG §§ 7, 14 and 20 read in full: § 14(2) no. 27 letter e counts half of the grant-paid AFBG maintenance contributions as income, which presupposes that housing benefit is possible. Not rendered in a browser.",
+       "prov": "§ 14(2) WoGG; §§ 7(1), 20(2) WoGG",
+       "lawUrl": "https://www.gesetze-im-internet.de/wogg/__14.html",
+       "date": "2026-10-31",
+       "g": "M"
+      },
+      {
+       "s": "amb",
+       "claim": "Says the food-handling certificate expires if the employer does not repeat the instruction every two years.",
+       "page": "Belehrung nach § 43 Infektionsschutzgesetz",
+       "url": "https://www.schleswig-flensburg.de/Navigation/Gesundheit/Infektionsschutz/Belehrung-43-IfSG-/",
+       "lang": "German",
+       "q": "Die Belehrung (früher Gesundheitszeugnis) ist Voraussetzung für den beruflichen Umgang mit Lebensmitteln. Personen, die bestimmte Lebensmittel herstellen, behandeln oder in Verkehr bringen oder die in Küchen von Gaststätten, Cafés, Kantinen und sonstigen Einrichtungen zur Gemeinschaftsverpflegung arbeiten, benötigen eine Belehrung nach § 43 Infektionsschutzgesetz (IfSG) bevor Sie diese Tätigkeit aufnehmen.\nZiel der Belehrung ist es, eine Weiterverbreitung von Krankheitserregern durch die Verunreinigung von Lebensmitteln zu verhindern. Dafür werden Kenntnisse zur Hygiene und zum Erkennen von Symptomen und Krankheiten vermittelt, bei denen die Tätigkeit vorübergehend bis zur Genesung nicht mehr ausgeübt werden darf.\nDie Erstbelehrung muss durch den Fachdienst Gesundheit erfolgen und bescheinigt werden. Sie darf bei erstmaliger Aufnahme der Tätigkeit nicht älter als drei Monate sein.\nBei Aufnahme der Tätigkeit ist dann eine zusätzliche Belehrung durch den Arbeitgeber vorgeschrieben. Die Bescheinigung verliert ihre Gültigkeit, wenn im weiteren Verlauf nicht mindestens alle 2 Jahre eine Folgebelehrung durch den Arbeitgeber erfolgt.",
+       "tr": "The instruction (formerly health certificate) is a precondition for working professionally with food. People who produce, handle or place on the market certain foods, or who work in kitchens of restaurants, cafés, canteens and other communal-catering facilities, need an instruction under § 43 of the Infection Protection Act (IfSG) before they take up this activity.\nThe aim of the instruction is to prevent the spread of pathogens through contamination of food. For this, knowledge of hygiene and of recognising symptoms and illnesses is taught, in which the activity may temporarily not be carried out until recovery.\nThe first instruction must be given by the Fachdienst Gesundheit and certified. At the first taking up of the activity it must not be older than three months.\nOn taking up the activity an additional instruction by the employer is then required. The certificate loses its validity if, in the further course, a follow-up instruction by the employer does not take place at least every 2 years.",
+       "why": "The law does not say the certificate lapses. It requires employers to repeat the instruction every two years and to document it.\n\nScope: Only the statement that the certificate loses its validity. The three-month rule, the fee and the employer duty are not criticised.\n\nContext: Complete live page read (text-first, 2026-10-31): first four paragraphs and the online-instruction, fee (EUR 25) and exemption sections. The linked Belehrung leaflet (PDF 18 Aug 2022, sha256 ce035081…e4, read by agent C; not retained) only lists activities, bans and hygiene rules and says nothing on validity. The Landkreis Hameln-Pyrmont portal says the certificate “gilt bundesweit und unbefristet”. Current IfSG § 43 read in full. Not rendered in a browser.",
+       "prov": "§ 43(1), (4), (5) IfSG",
+       "lawUrl": "https://www.gesetze-im-internet.de/ifsg/__43.html",
+       "date": "2026-10-31",
+       "unc": "The law sets no expiry, but the sentence may only mean that the employer must document the two-yearly instruction."
+      }
+     ],
+     "https://www.schleswig-flensburg.de/",
+     "Kreis Schleswig-Flensburg"
     ],
     [
      "01060",
@@ -133506,13 +133640,84 @@
     ],
     [
      "03252",
-     "Landkreis Hameln-Pyrmont",
+     "Hameln-Pyrmont",
      "03",
-     "n",
+     "s",
+     [
+      [
+       "na",
+       "https://www.hameln-pyrmont.de/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.hameln-pyrmont.de/sitemap.xml",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://service.hameln-pyrmont.de/",
+       "2026-10-31"
+      ],
+      [
+       "x",
+       "https://service.hameln-pyrmont.de/buergerservice/dienstleistungen/wohngeld-erstmalig-oder-neu-beantragen-900000033-0.html",
+       "2026-10-31"
+      ],
+      [
+       "x",
+       "https://service.hameln-pyrmont.de/buergerservice/dienstleistungen/einbuergerung-fuer-auslaender-mit-einbuergerungsanspruch-beantragen-900000726-0.html",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://service.hameln-pyrmont.de/buergerservice/dienstleistungen/unterhaltsvorschuss-fuer-kinder-von-alleinerziehenden-beantragen-900000585-0.html",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://service.hameln-pyrmont.de/buergerservice/dienstleistungen/bafoeg-fuer-einen-schulbesuch-beantragen-900000481-0.html",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://service.hameln-pyrmont.de/buergerservice/dienstleistungen/grundsicherung-im-alter-und-bei-erwerbsminderung-sozialhilfe--900000524-0.html",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://service.hameln-pyrmont.de/buergerservice/dienstleistungen/hilfe-zum-lebensunterhalt-gewaehrung-900000530-0.html",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://service.hameln-pyrmont.de/buergerservice/dienstleistungen/hilfe-zur-pflege-beantragen-900000532-0.html",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://service.hameln-pyrmont.de/buergerservice/dienstleistungen/blindengeld-beantragen-900000565-0.html",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://service.hameln-pyrmont.de/buergerservice/dienstleistungen/infektionsschutzbelehrung-inklusive-bescheinigung-beantragen-900000483-0.html",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://service.hameln-pyrmont.de/buergerservice/dienstleistungen/waffenschein-beantragen-900000843-0.html",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.hameln-pyrmont.de/Wir-f%C3%BCr-Sie/Aktuelles/Pressemitteilungen/Neue-Online-Antragsstrecken-f%C3%BCr-verschiedene-Sozialleistungen-starten-Antragstellung-jetzt-digital-und-komfortabel-m%C3%B6glich.php?FID=3767.1574.1",
+       "2026-10-31"
+      ]
+     ],
      [],
-     [],
-     "",
-     ""
+     "https://www.hameln-pyrmont.de/",
+     "Landkreis Hameln-Pyrmont"
     ],
     [
      "03254",
@@ -134788,13 +134993,163 @@
     ],
     [
      "05154",
-     "Kreis Kleve",
+     "Kleve",
      "05",
-     "n",
-     [],
-     [],
-     "",
-     ""
+     "s",
+     [
+      [
+       "na",
+       "https://www.kreis-kleve.de/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-kleve.de/sitemap.xml",
+       "2026-10-31"
+      ],
+      [
+       "bad",
+       "https://www.kreis-kleve.de/aufgaben/migration/staatsangehoerigkeit/einbuergerung",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/migration/staatsangehoerigkeit/staatsangehoerigkeitsausweis",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/auto-mobilitaet-strassenverkehr/fuehrerschein/umtausch-und-pflichtumtausch-fuehrerschein",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/auto-mobilitaet-strassenverkehr/fuehrerschein/begleitetes-fahren-ab-17",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-kleve.de/aufgaben/auto-mobilitaet-strassenverkehr/fuehrerschein",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-kleve.de/aufgaben/auto-mobilitaet-strassenverkehr/kfz-zulassung",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/migration/auslaenderbehoerde/aufenthaltstitel-allgemein",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-kleve.de/aufgaben/migration/auslaenderbehoerde/erwerbstaetigkeit-mit-aufenthaltserlaubnis",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/migration/auslaenderbehoerde/einreise",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/migration/auslaenderbehoerde/familiennachzug",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/migration/auslaenderbehoerde/chancen-aufenthaltsrecht",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/migration/auslaenderbehoerde/unionsbuergerinnen-und-buerger",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-kleve.de/aufgaben/migration/auslaenderbehoerde/studieren-der-hochschule-rhein-waal",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/migration/auslaenderbehoerde/elektronischer-aufenthaltstitel",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/migration/auslaenderbehoerde/ukraine-infos-fuer-gefluechtete",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-kleve.de/aufgaben/auto-mobilitaet-strassenverkehr/mobilitaet/meinticket-sozialticket",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-kleve.de/aufgaben/soziales-pflege/pflege/pflegewohngeld",
+       "2026-10-31"
+      ],
+      [
+       "bad",
+       "https://www.kreis-kleve.de/aufgaben/pflege-soziales/pflege/kurzzeitpflege",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/soziales-pflege/pflege/angebote-zur-unterstuetzung-im-alltag",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-kleve.de/aufgaben/kinder-jugend-und-familie/hilfe-zur-erziehung",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-kleve.de/aufgaben/gesundheit/impfungen",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-kleve.de/aufgaben/ordnungsaufgaben/jagd",
+       "2026-10-31"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Lists no conviction for any crime as a condition for naturalisation.",
+       "page": "Einbürgerung",
+       "url": "https://www.kreis-kleve.de/aufgaben/migration/staatsangehoerigkeit/einbuergerung",
+       "lang": "German",
+       "q": "Voraussetzungen für eine Einbürgerung sind unter anderem:\n• 5 Jahre rechtmäßiger, gewöhnlicher Aufenthalt in Deutschland\n• Handlungsfähigkeit nach Maßgabe von § 34 Satz 1 Staatsangehörigkeitsgesetz (StAG) oder gesetzliche Vertretung\n• geklärte Identität und Staatsangehörigkeit\n• unbefristetes oder auf Dauer angelegtes Aufenthaltsrecht zum Zeitpunkt der Einbürgerung (Aufenthaltserlaubnis / Niederlassungserlaubnis), freizügigkeitsberechtigte/r Unionsbürgerin / Unionsbürger, Staatsangehörige/r der Schweiz\n• Bekenntnis zur freiheitlichen demokratischen Grundordnung des Grundgesetzes der Bundesrepublik Deutschland\n• Nachweis ausreichender deutscher Sprachkenntnisse auf dem Niveau B 1 des Gemeinsamen Europäischen Referenzrahmens für Sprachen\n• Nachweis über Kenntnisse der Rechts- und Gesellschaftsordnung und der Lebensverhältnisse in Deutschland (\"Einbürgerungstest\" / Test „Leben in Deutschland“)\n• dauerhafte, eigenständige Sicherung des Lebensunterhalts für sich und die unterhaltsberechtigten Angehörigen\n• Gewährleistung der Einordnung in die deutschen Lebensverhältnisse, insbesondere keine Verheiratung mit mehreren Ehegatten gleichzeitig oder Missachtung der Gleichberechtigung von Mann und Frau\n• keine Verurteilung wegen einer Straftat",
+       "tr": "Conditions for naturalisation include:\n• 5 years of lawful, habitual residence in Germany\n• legal capacity under § 34 sentence 1 of the Nationality Act (StAG) or legal representation\n• established identity and nationality\n• unlimited or permanent right of residence at the time of naturalisation (residence permit / settlement permit), freedom-of-movement-entitled Union citizen, Swiss national\n• profession of the free democratic basic order of the Basic Law of the Federal Republic of Germany\n• proof of sufficient German language skills at level B 1 of the Common European Framework of Reference for Languages\n• proof of knowledge of the legal and social order and of living conditions in Germany (\"naturalisation test\" / \"Life in Germany\" test)\n• lasting, independent securing of the livelihood for oneself and the dependants\n• assurance of integration into German living conditions, in particular no marriage to several spouses at the same time or disregard for the equality of men and women\n• no conviction for a crime",
+       "why": "A conviction does not always bar naturalisation. Fines of up to 90 daily rates are disregarded, as are some short suspended sentences. Several small penalties are added together. Hate-motivated crimes are an exception.\n\nScope: Only the categorical no-conviction item for an applicant within the § 12a(1) disregard rules. No finding on the livelihood, co-naturalisation or other items.\n\nContext: Complete live page read (text-first, 2026-10-31): conditions list introduced by “unter anderem”, co-naturalisation section, fee table (EUR 255; EUR 51 per child), contact data. The linked Einbürgerungsunterlagen checklist (PDF 09/2026, sha256 2f52c7bf…c6bcf, read by agent C; not retained) and the easy-language page were read by the reviewer and contain no qualification of the conviction item. Current StAG §§ 10, 12a and 38 read in full. The page does not state a renunciation condition. Not rendered in a browser; the reviewer inspected the HTML structure: the item is its own list item.",
+       "prov": "§ 12a(1) StAG; § 10(1) sentence 1 no. 5 StAG",
+       "lawUrl": "https://www.gesetze-im-internet.de/stag/__12a.html",
+       "date": "2026-10-31",
+       "g": "M"
+      },
+      {
+       "s": "bad",
+       "claim": "Says short-term care insurance pays at most EUR 1,774 a year, or EUR 3,386 with respite care.",
+       "page": "Kurzzeitpflege",
+       "url": "https://www.kreis-kleve.de/aufgaben/pflege-soziales/pflege/kurzzeitpflege",
+       "lang": "German",
+       "q": "Die Kosten für eine Kurzzeitpflege werden durch die Pflegekassen übernommen (§ 42 SGB XI Pflege-Versicherungsgesetz). Kann die häusliche Pflege zeitweise nicht, noch nicht oder nicht im erforderlichen Umfang erbracht werden und reicht auch teilstationäre Pflege nicht aus, besteht Anspruch auf Pflege in einer vollstationären Einrichtung.\nDies gilt für eine Übergangszeit im Anschluss an eine stationäre Behandlung von Pflegebedürftigen (Krankenhausaufenthalt) oder in sonstigen Krisensituationen, in denen vorübergehend häusliche oder teilstationäre Pflege nicht möglich oder nicht ausreichend ist (z.B. akute Verschlimmerung des Pflegezustandes, Urlaub oder Krankheit der Pflegeperson).\nDie Pflegekasse übernimmt die pflegebedingten Aufwendungen und die Kosten der sozialen Betreuung für höchstens acht Wochen und maximal bis 1774 EUR pro Kalenderjahr. Die Kurzzeitpflege kann unter Anrechnung auf den für Verhinderungspflege zustehenden Leistungsbetrag um bis zu 1612 EUR auf dann 3.386 EUR verdoppelt werden, soweit Verhinderungspflege noch nicht in Anspruch genommen wurde. Die zeitliche Beschränkung erweitert sich in diesem Falle ebenfalls um das Doppelte auf acht Wochen pro Kalenderjahr. Voraussetzungen:\n• Mitgliedschaft in einer gesetzlichen oder privaten Pflegekasse\n• Vorliegen von Pflegebedürftigkeit – mindestens Pflegegrad 2 - nach den Kriterien des Pflege-Versicherungsgesetzes.",
+       "tr": "The costs of short-term care are covered by the care funds (§ 42 SGB XI, Care Insurance Act). If home care cannot be provided temporarily, not yet, or not to the necessary extent, and day or night care is also not enough, there is a right to care in a full-time facility.\nThis applies for a transitional period after in-patient treatment of people in need of care (hospital stay) or in other crisis situations in which home or part-time care is temporarily not possible or not sufficient (e.g. acute worsening of the care situation, holiday or illness of the carer).\nThe care fund covers the care-related expenses and the costs of social support for at most eight weeks and up to a maximum of EUR 1774 per calendar year. Short-term care can be doubled, with offsetting against the respite-care amount, by up to EUR 1612 to then EUR 3,386, provided respite care has not yet been used. The time limit then also extends by double to eight weeks per calendar year. Conditions:\n• membership of a statutory or private care fund\n• existence of need for care - at least care grade 2 - under the criteria of the Care Insurance Act.",
+       "why": "Since 1 July 2025, short-term care and respite care share one yearly amount of up to EUR 3,539 per calendar year. A separate EUR 1,774 cap no longer applies.\n\nScope: Only the stated yearly euro limits for short-term care. No finding on the eight-week limit, the care-grade condition or the social-assistance route.\n\nContext: Complete live page read (text-first, 2026-10-31). The same page repeats the “auf 1774 EUR beschränkten Leistungen” figure in a later bullet on costs that residents pay; the page carries no Stand date. Current SGB XI §§ 42 and 42a were read in full. The Kreis page on support offers (Entlastungsbetrag EUR 131) is current. Only this Kleve care page was checked for the figure; other Kleve care pages were not searched. Not rendered in a browser.",
+       "prov": "§ 42(2) and § 42a(1) SGB XI",
+       "lawUrl": "https://www.gesetze-im-internet.de/sgb_11/__42a.html",
+       "date": "2026-10-31",
+       "g": "M"
+      }
+     ],
+     "https://www.kreis-kleve.de/",
+     "Kreis Kleve (Der Landrat)"
     ],
     [
      "05158",
@@ -135780,13 +136135,191 @@
     ],
     [
      "06431",
-     "Landkreis Bergstraße",
+     "Bergstraße",
      "06",
-     "n",
-     [],
-     [],
-     "",
-     ""
+     "s",
+     [
+      [
+       "na",
+       "https://www.kreis-bergstrasse.de/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-bergstrasse.de/sitemap.xml",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/",
+       "2026-10-31"
+      ],
+      [
+       "x",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/unsere-dienstleistungen-im-ueberblick/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/soziales-und-teilhabe/wohngeldbehoerde/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/soziales-und-teilhabe/grundsicherung-und-hilfe-zum-lebensunterhalt/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/familie-jugend-senioren/finanzen-und-finanzielle-foerderungen/bafoeg/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/familie-jugend-senioren/finanzen-und-finanzielle-foerderungen/unterhaltsvorschuss/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/familie-jugend-senioren/leben-im-alter/hilfe-zur-pflege/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/soziales-und-teilhabe/bestattungskosten/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/soziales-und-teilhabe/eingliederungshilfe/",
+       "2026-10-31"
+      ],
+      [
+       "bad",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/auslaender-und-asyl/auslaender-und-migration/einbuergerung/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/auslaender-und-asyl/auslaender-und-migration/auslaenderrecht-und-aufenthaltstitel/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/auslaender-und-asyl/auslaender-und-migration/ukraine/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/auslaender-und-asyl/auslaender-und-migration/visum-und-einreise/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/auslaender-und-asyl/auslaender-und-migration/asylrecht/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/verkehr-und-strasse/fahrerlaubnisse/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/verkehr-und-strasse/fahrzeugzulassungen/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/oeffentliche-sicherheit-und-ordnung/waffenrecht/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/gesundheit-und-verbraucherschutz/infektionsschutz-und-umwelthygiene/lebensmittel-belehrung-ifsg/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/gesundheit-und-verbraucherschutz/infektionsschutz-und-umwelthygiene/masernschutzgesetz/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/bildung-und-schule/kostenuebernahme-fuer-fahrten-zur-schule/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/familie-jugend-senioren/finanzen-und-finanzielle-foerderungen/wirtschaftliche-jugendhilfe-sgb-viii/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-bergstrasse.de/unser-buergerservice/oeffentliche-sicherheit-und-ordnung/konsumcannabis/",
+       "2026-10-31"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says you can be naturalised only if you have never been convicted of a crime.",
+       "page": "Einbürgerung",
+       "url": "https://www.kreis-bergstrasse.de/unser-buergerservice/auslaender-und-asyl/auslaender-und-migration/einbuergerung/",
+       "lang": "German",
+       "q": "Ausländer können unter bestimmten Voraussetzungen nach §§ 8 ff Staatsangehörigkeitsgesetz (StAG) auf Antrag die deutsche Staatsangehörigkeit erwerben.\nWelche Voraussetzung muss ich erfüllen?\n• mich seit 5 Jahren rechtmäßig und ununterbrochen in Deutschland aufhalten, oder bei einer Ehe mit einem Deutschen genügt ein dreijähriger Aufenthalt bei einer seit mindestens zweijährigen bestehenden Ehe\n• eine Niederlassungserlaubnis oder Aufenthaltserlaubnis ( ausgenommen die §§ 16, 17, 20, 22, 23 Abs. 1, 23 a, 24 und 25 Abs. 3 bis 5) besitzen\n• mich zur freiheitlichen demokratischen Grundordnung des Grundgesetzes für die Bundesrepublik Deutschland bekennen\n• den Lebensunterhalt sicher stellen können, ohne Inanspruchnahme von Sozialleistungen\n• wurde nicht wegen einer Straftat verurteilt\n• ausreichend deutsche Sprachkenntnisse nachweisen können (siehe Merkblatt „Sprachkenntnisse“)\n• staatsbürgerliches Grundwissen und Kenntnisse über die Grundsätze und Werte unserer Verfassung (siehe Merkblatt „Staatsbürgerliches Grundwissen“) haben\n• bereit sein, die bisherige Staatsangehörigkeit aufzugeben (Ausnahmen sind möglich!)\nFür besondere Fallkonstellationen gibt es besondere Einbürgerungsgrundlagen, über die die Einbürgerungsbehörde (Regierungspräsidium Darmstadt) und die unteren Verwaltungsbehörden (Landkreis Bergstraße, Städte und Gemeinden) beraten.",
+       "tr": "Foreigners can, under certain conditions, acquire German citizenship on application under §§ 8 ff of the Nationality Act (StAG).\nWhich conditions must I meet?\n• live lawfully and without interruption in Germany for 5 years, or, where married to a German, three years of residence suffice for a marriage that has lasted at least two years\n• hold a settlement permit or residence permit (except §§ 16, 17, 20, 22, 23(1), 23a, 24 and 25(3) to (5))\n• profess the free democratic basic order of the Basic Law for the Federal Republic of Germany\n• be able to secure my livelihood without claiming social benefits\n• have not been convicted of a crime\n• be able to prove sufficient German language skills (see leaflet \"Language skills\")\n• have basic civic knowledge and knowledge of the principles and values of our constitution (see leaflet \"Basic civic knowledge\")\n• be prepared to give up the previous nationality (exceptions are possible!)\nFor special situations there are special bases for naturalisation, on which the naturalisation authority (Regierungspräsidium Darmstadt) and the lower administrative authorities (Kreis Bergstraße, towns and municipalities) advise.",
+       "why": "A conviction does not always bar naturalisation. Fines of up to 90 daily rates are disregarded, as are some short suspended sentences. Several small penalties are added together. Hate-motivated crimes are an exception.\n\nScope: Only the categorical no-conviction list item for an applicant within the § 12a(1) disregard rules. No finding on the other listed conditions.\n\nContext: Complete live page read (text-first, 2026-10-31), including the responsibility section (towns above 7,500 inhabitants through the registry office; smaller municipalities through the Kreis foreigners and migration office; the Regierungspräsidium Darmstadt as naturalisation authority), the procedure and the fee section (EUR 255; EUR 51 per child). The closing sentence refers to special bases for special situations, but it does not correct any listed condition. Current StAG §§ 10, 12a and 38 were read in full. The page was not rendered in a browser; the list is main-content text, not hidden template text. The page itself says the Regierungspräsidium Darmstadt is the naturalisation authority and that the Kreis and the municipalities advise, so it is intake guidance, not the authority decision text. The linked Merkblatt PDFs were not part of this page.",
+       "prov": "§ 12a(1) StAG; § 10(1) sentence 1 no. 5 StAG",
+       "lawUrl": "https://www.gesetze-im-internet.de/stag/__12a.html",
+       "date": "2026-10-31",
+       "g": "M"
+      },
+      {
+       "s": "bad",
+       "claim": "Says you must be ready to give up your previous citizenship to be naturalised, with unspecified exceptions.",
+       "page": "Einbürgerung",
+       "url": "https://www.kreis-bergstrasse.de/unser-buergerservice/auslaender-und-asyl/auslaender-und-migration/einbuergerung/",
+       "lang": "German",
+       "q": "Ausländer können unter bestimmten Voraussetzungen nach §§ 8 ff Staatsangehörigkeitsgesetz (StAG) auf Antrag die deutsche Staatsangehörigkeit erwerben.\nWelche Voraussetzung muss ich erfüllen?\n• mich seit 5 Jahren rechtmäßig und ununterbrochen in Deutschland aufhalten, oder bei einer Ehe mit einem Deutschen genügt ein dreijähriger Aufenthalt bei einer seit mindestens zweijährigen bestehenden Ehe\n• eine Niederlassungserlaubnis oder Aufenthaltserlaubnis ( ausgenommen die §§ 16, 17, 20, 22, 23 Abs. 1, 23 a, 24 und 25 Abs. 3 bis 5) besitzen\n• mich zur freiheitlichen demokratischen Grundordnung des Grundgesetzes für die Bundesrepublik Deutschland bekennen\n• den Lebensunterhalt sicher stellen können, ohne Inanspruchnahme von Sozialleistungen\n• wurde nicht wegen einer Straftat verurteilt\n• ausreichend deutsche Sprachkenntnisse nachweisen können (siehe Merkblatt „Sprachkenntnisse“)\n• staatsbürgerliches Grundwissen und Kenntnisse über die Grundsätze und Werte unserer Verfassung (siehe Merkblatt „Staatsbürgerliches Grundwissen“) haben\n• bereit sein, die bisherige Staatsangehörigkeit aufzugeben (Ausnahmen sind möglich!)\nFür besondere Fallkonstellationen gibt es besondere Einbürgerungsgrundlagen, über die die Einbürgerungsbehörde (Regierungspräsidium Darmstadt) und die unteren Verwaltungsbehörden (Landkreis Bergstraße, Städte und Gemeinden) beraten.",
+       "tr": "Foreigners can, under certain conditions, acquire German citizenship on application under §§ 8 ff of the Nationality Act (StAG).\nWhich conditions must I meet?\n• live lawfully and without interruption in Germany for 5 years, or, where married to a German, three years of residence suffice for a marriage that has lasted at least two years\n• hold a settlement permit or residence permit (except §§ 16, 17, 20, 22, 23(1), 23a, 24 and 25(3) to (5))\n• profess the free democratic basic order of the Basic Law for the Federal Republic of Germany\n• be able to secure my livelihood without claiming social benefits\n• have not been convicted of a crime\n• be able to prove sufficient German language skills (see leaflet \"Language skills\")\n• have basic civic knowledge and knowledge of the principles and values of our constitution (see leaflet \"Basic civic knowledge\")\n• be prepared to give up the previous nationality (exceptions are possible!)\nFor special situations there are special bases for naturalisation, on which the naturalisation authority (Regierungspräsidium Darmstadt) and the lower administrative authorities (Kreis Bergstraße, towns and municipalities) advise.",
+       "why": "Giving up your previous citizenship is no longer a condition for naturalisation. The law has not required it since 27 June 2024, so you can keep it. Another country’s law may still end your old citizenship.\n\nScope: Only the readiness-to-renounce list item. No finding on other listed conditions or on the law of other countries.\n\nContext: Complete live page read (text-first, 2026-10-31), including the responsibility section (towns above 7,500 inhabitants through the registry office; smaller municipalities through the Kreis foreigners and migration office; the Regierungspräsidium Darmstadt as naturalisation authority), the procedure and the fee section (EUR 255; EUR 51 per child). The closing sentence refers to special bases for special situations, but it does not correct any listed condition. Current StAG §§ 10, 12a and 38 were read in full. The page was not rendered in a browser; the list is main-content text, not hidden template text. Other items in the same list (the residence-permit list) also use pre-2024 wording; they are not findings here except the § 23(1) item.",
+       "prov": "§ 10(1) StAG (no. 4 repealed)",
+       "lawUrl": "https://www.gesetze-im-internet.de/stag/__10.html",
+       "date": "2026-10-31",
+       "g": "M"
+      },
+      {
+       "s": "bad",
+       "claim": "Says a residence permit issued under a state order admitting certain groups cannot count toward naturalisation.",
+       "page": "Einbürgerung",
+       "url": "https://www.kreis-bergstrasse.de/unser-buergerservice/auslaender-und-asyl/auslaender-und-migration/einbuergerung/",
+       "lang": "German",
+       "q": "Ausländer können unter bestimmten Voraussetzungen nach §§ 8 ff Staatsangehörigkeitsgesetz (StAG) auf Antrag die deutsche Staatsangehörigkeit erwerben.\nWelche Voraussetzung muss ich erfüllen?\n• mich seit 5 Jahren rechtmäßig und ununterbrochen in Deutschland aufhalten, oder bei einer Ehe mit einem Deutschen genügt ein dreijähriger Aufenthalt bei einer seit mindestens zweijährigen bestehenden Ehe\n• eine Niederlassungserlaubnis oder Aufenthaltserlaubnis ( ausgenommen die §§ 16, 17, 20, 22, 23 Abs. 1, 23 a, 24 und 25 Abs. 3 bis 5) besitzen\n• mich zur freiheitlichen demokratischen Grundordnung des Grundgesetzes für die Bundesrepublik Deutschland bekennen\n• den Lebensunterhalt sicher stellen können, ohne Inanspruchnahme von Sozialleistungen\n• wurde nicht wegen einer Straftat verurteilt\n• ausreichend deutsche Sprachkenntnisse nachweisen können (siehe Merkblatt „Sprachkenntnisse“)\n• staatsbürgerliches Grundwissen und Kenntnisse über die Grundsätze und Werte unserer Verfassung (siehe Merkblatt „Staatsbürgerliches Grundwissen“) haben\n• bereit sein, die bisherige Staatsangehörigkeit aufzugeben (Ausnahmen sind möglich!)\nFür besondere Fallkonstellationen gibt es besondere Einbürgerungsgrundlagen, über die die Einbürgerungsbehörde (Regierungspräsidium Darmstadt) und die unteren Verwaltungsbehörden (Landkreis Bergstraße, Städte und Gemeinden) beraten.",
+       "tr": "Foreigners can, under certain conditions, acquire German citizenship on application under §§ 8 ff of the Nationality Act (StAG).\nWhich conditions must I meet?\n• live lawfully and without interruption in Germany for 5 years, or, where married to a German, three years of residence suffice for a marriage that has lasted at least two years\n• hold a settlement permit or residence permit (except §§ 16, 17, 20, 22, 23(1), 23a, 24 and 25(3) to (5))\n• profess the free democratic basic order of the Basic Law for the Federal Republic of Germany\n• be able to secure my livelihood without claiming social benefits\n• have not been convicted of a crime\n• be able to prove sufficient German language skills (see leaflet \"Language skills\")\n• have basic civic knowledge and knowledge of the principles and values of our constitution (see leaflet \"Basic civic knowledge\")\n• be prepared to give up the previous nationality (exceptions are possible!)\nFor special situations there are special bases for naturalisation, on which the naturalisation authority (Regierungspräsidium Darmstadt) and the lower administrative authorities (Kreis Bergstraße, towns and municipalities) advise.",
+       "why": "A residence permit given under a state order admitting certain groups can count, if you meet all other conditions. The law’s list of excluded permit types does not include it.\n\nScope: Only the express exclusion of § 23(1) in the second list item; only that item was compared. No inference about other outdated citations in the same list or about the other conditions.\n\nContext: Complete live page read (text-first, 2026-10-31), including the responsibility section (towns above 7,500 inhabitants through the registry office; smaller municipalities through the Kreis foreigners and migration office; the Regierungspräsidium Darmstadt as naturalisation authority), the procedure and the fee section (EUR 255; EUR 51 per child). The closing sentence refers to special bases for special situations, but it does not correct any listed condition. Current StAG §§ 10, 12a and 38 were read in full. The page was not rendered in a browser; the list is main-content text, not hidden template text.",
+       "prov": "§ 10(1) sentence 1 no. 2 StAG; § 23(1) AufenthG",
+       "lawUrl": "https://www.gesetze-im-internet.de/stag/__10.html",
+       "date": "2026-10-31",
+       "g": "M"
+      },
+      {
+       "s": "amb",
+       "claim": "Says housing benefit is ruled out for households where everyone receives BAföG or training aid, with no exception for loans.",
+       "page": "Wohngeldbehörde",
+       "url": "https://www.kreis-bergstrasse.de/unser-buergerservice/soziales-und-teilhabe/wohngeldbehoerde/",
+       "lang": "German",
+       "q": "Wer bekommt kein Wohngeld ?\nKeinen Anspruch auf Wohngeld hat:\n• wer über den festgesetzten Einkommensgrenzen liegt\n• Haushalte denen nur Personen angehören, die eine Ausbildung im Sinne des Bundesausbildungsförderungsgesetzes (BAföG  oder Berufsausbildungsbeihilfe nach dem Sozialgesetzbuch ( III: Buch ) beziehen\n• alleinstehende Wehrpflichtige und Zivildienstleistende für die Dauer des Grundwehrdienstes / Zivildienstes\n• wer nicht Mieter oder Eigentümer der Wohnung ist\n• Empfänger / innen folgender Transferleistungen, sofern bei der Berechnung die Unterkunftskosten berücksichtigt sind :\n  – Arbeitslosengeld II und Sozialgeld nach dem zweiten Sozialgesetzbuch\n  – Hilfe zum Lebensunterhalt oder Grundsicherung im Alter und bei Erwerbsminderung nach dem zwölften Buch Sozialgesetzbuch\n  – Ergänzende Hilfe zum Lebensunterhalt nach dem Bundesversorgungsgesetz\n  – Leistungen in besonderen Fällen und Grundleistungen nach dem Asylbewerberleistungsgesetz\n  – Leistungen der Kinder- und Jugendhilfe nach dem Achten Buch Sozialgesetzbuch, wenn alle zum Haushalt gehörenden Personen zu den Empfängern dieser Leistung gehören.",
+       "tr": "Who gets no housing benefit?\nThere is no entitlement to housing benefit for:\n• anyone whose income is above the fixed income limits\n• households that consist only of persons who receive training aid within the meaning of the Federal Training Assistance Act (BAföG or vocational training allowance under the Social Code (Book III) )\n• single conscripts and civilian-service members for the duration of basic military or civilian service\n• anyone who is not a tenant or owner of the dwelling\n• recipients of the following transfer benefits, where housing costs were taken into account in the calculation:\n  – unemployment benefit II and social benefit under the Second Book of the Social Code\n  – social assistance for living costs or basic security in old age and for reduced earning capacity under the Twelfth Book of the Social Code\n  – supplementary social assistance under the Federal War Victims Relief Act\n  – benefits in special cases and basic benefits under the Asylum Seekers' Benefits Act\n  – benefits of child and youth welfare under the Eighth Book of the Social Code, if all persons in the household receive these benefits",
+       "why": "Housing benefit is not ruled out where the training aid is paid only as a loan. This applies even if every household member receives BAföG (student financial aid).\n\nScope: Only households whose members receive the education benefits exclusively as loans. No claim for ordinary grant/loan awards or for the in-principle entitlement rule.\n\nContext: Complete live page read (text-first). The page states the correct start month, 12-month award and change thresholds (checked against WoGG §§ 25 and 27). The linked “Hinweisblatt zum Wohngeldantrag” (PDF 02/23, sha256 66a5e12f…97bb, read by agent C and by me after the review; not retained) contains no mention of BAföG, training aid or loans, so it neither corrects nor repeats the bullet. The page says “beziehen” (receive), while the law refers to entitlement in principle; that wording is narrower than the law and is not the finding.",
+       "prov": "§ 20(2) WoGG",
+       "lawUrl": "https://www.gesetze-im-internet.de/wogg/__20.html",
+       "date": "2026-10-31",
+       "unc": "Loan-only awards are rare, and the short list may only summarise the rule."
+      }
+     ],
+     "https://www.kreis-bergstrasse.de/",
+     "Kreis Bergstraße (Der Kreisausschuss)"
     ],
     [
      "06432",
@@ -136574,13 +137107,178 @@
     ],
     [
      "07133",
-     "Landkreis Bad Kreuznach",
+     "Bad Kreuznach",
      "07",
-     "n",
-     [],
-     [],
-     "",
-     ""
+     "s",
+     [
+      [
+       "na",
+       "https://www.kreis-badkreuznach.de/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-badkreuznach.de/impressum/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-4-sozialamt/soziale-hilfen/wohngeld/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-4-sozialamt/soziale-hilfen/wohngeld-1/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-4-sozialamt/soziale-hilfen/informationen-zu-existenzsichernden-leistungen/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-4-sozialamt/soziale-hilfen/informationen-ueber-die-hilfe-zur-pflege/hilfe-zum-lebensunterhalt/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-4-sozialamt/soziale-hilfen/informationen-ueber-die-hilfe-zur-pflege/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-4-sozialamt/soziale-hilfen/informationen-ueber-die-hilfe-zur-pflege/hilfe-in-besonderen-lebenslagen/",
+       "2026-10-31"
+      ],
+      [
+       "bad",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-4-sozialamt/soziale-hilfen/ausbildungsfoerderung/bafoeg-1/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-4-sozialamt/bildung-und-teilhabe-but/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-6-bauen-und-umwelt/schulen/bildung-und-teilhabe/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-4-sozialamt/menschen-mit-behinderung/schwerbehinderten-ausweis/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-4-sozialamt/pflege/pflegebeduerftigkeit/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-5-kreisjugendamt/sorgerecht-und-unterhalt/unterhaltsvorschuss/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-5-kreisjugendamt/elterngeld/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-5-kreisjugendamt/kindertagesstaetten/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-3-sicherheit-ordnung-und-verkehr/verkehr/fuehrerscheinfahrerlaubnis/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-3-sicherheit-ordnung-und-verkehr/verkehr/kfz-zulassung/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-3-sicherheit-ordnung-und-verkehr/verkehr/kfz-zulassung/weitere-zulassungen/",
+       "2026-10-31"
+      ],
+      [
+       "bad",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/informationen-aus-amt-10-der-kreisverwaltung-bad-kreuznach-auslaenderamt/informationen-zum-thema-einbuergerung/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-3-sicherheit-ordnung-und-verkehr/migration-integration-asyl/servicepoint-der-auslaenderbehoerde/aufenthaltstitelallgemeines-aufenthaltsrecht/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/informationen-aus-amt-10-der-kreisverwaltung-bad-kreuznach-auslaenderamt/verpflichtungserklaerungen/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/informationen-aus-amt-10-der-kreisverwaltung-bad-kreuznach-auslaenderamt/asylangelegenheiten/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-3-sicherheit-ordnung-und-verkehr/jagd-und-waffen/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-3-sicherheit-ordnung-und-verkehr/prostituiertenschutzgesetz/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-7-gesundheitsamt/hygiene-infektionsschutz/belehrungen-im-lebensmittelbereich/",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-7-gesundheitsamt/hygiene-infektionsschutz/ueberwachung-masernschutzgesetz/",
+       "2026-10-31"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says Aufstiegs-BAföG (advanced-training aid) gives a 40% grant and 60% loan, and waives 40% of the loan if you pass.",
+       "page": "Aufstiegs-BAföG",
+       "url": "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/amt-4-sozialamt/soziale-hilfen/ausbildungsfoerderung/bafoeg-1/",
+       "lang": "German",
+       "q": "Leistungen für die Teilnehmer an Fortbildungsmaßnahmen\nTeilnehmer an Vollzeitveranstaltungen erhalten vom Staat einen monatlichen Unterhaltsbeitrag zum Lebensunterhalt. Bei der Berechnung des Unterhaltsbeitrages wird Einkommen und Vermögen überprüft.\nSowohl für Vollzeit- als auch für Teilzeitmaßnahmen wird eine Förderung für die Maßnahme- und Prüfungskosten, sowie für die Kosten des Meisterstückes sofern Sie ein solches anfertigen müssen, gewährt. Diese umfasst für alle ab dem 01.08.2016 beginnenden Maßnahmen 40% Zuschuss und 60% Darlehen. Von dem in Anspruch genommenen Darlehen für die Maßnahme- und Prüfungskosten können wiederum 40% erlassen werden, wenn der Teilnehmer die Prüfung besteht.",
+       "tr": "Benefits for participants in advanced-training measures\nParticipants in full-time courses receive a monthly maintenance contribution for living costs from the state. Income and assets are checked when the maintenance contribution is calculated.\nFor both full-time and part-time measures, support is granted for the course and examination costs and for the costs of the master piece if you have to make one. For all measures beginning on or after 01.08.2016 this comprises a 40% grant and 60% loan. Of the loan taken up for the course and examination costs, 40% can in turn be waived if the participant passes the examination.",
+       "why": "The law pays 50% of the supported course, exam and project costs as a grant, not 40%. If you pass the exam, 50% of the loan for course and exam fees is waived, not 40%.\n\nScope: Only the grant/loan split and the waiver percentage for the Maßnahmebeitrag (course, exam and project costs) on this page. Maintenance contribution, eligibility, income checks and application steps are not assessed. The waiver concerns only the loan for course and exam fees.\n\nContext: Complete page read (text-first, 31 October 2026). The page links to afbg-digital.de and aufstiegs-bafoeg.de for further information; those external sites and any PDF were not read. AFBG §§ 12 and 13b read by the author and § 30 (transition) read by the reviewer on gesetze-im-internet.de on 31 October 2026.",
+       "prov": "§ 12(1) sentence 2, § 13b(1), § 30(1), (2) AFBG",
+       "lawUrl": "https://www.gesetze-im-internet.de/afbg/__12.html",
+       "date": "2026-10-31",
+       "g": "M"
+      },
+      {
+       "s": "bad",
+       "claim": "Lists “not convicted of a criminal offence” as a naturalisation condition, with no minor-offence exception.",
+       "page": "Einbürgerung",
+       "url": "https://www.kreis-badkreuznach.de/kreisverwaltung/organisation/informationen-aus-amt-10-der-kreisverwaltung-bad-kreuznach-auslaenderamt/informationen-zum-thema-einbuergerung/",
+       "lang": "German",
+       "q": "Anspruch auf Einbürgerung\nAnspruch auf Einbürgerung besteht, falls die folgenden Voraussetzungen vorliegen:\nSie haben seit fünf Jahren Ihren gewöhnlichen rechtmäßigen Aufenthalt in der Bundesrepublik Deutschland\n(Diese Frist kann ggf. auch verkürzt werden z. B. bei deutschen Ehegatten, bei besonderen Integrationsleistungen.)\nSie besitzen zum Zeitpunkt der Einbürgerung ein unbefristetes Aufenthaltsrecht (z. B. eine Niederlassungserlaubnis) oder eine Aufenthaltserlaubnis gem. der Aufzählung in § 10 Abs. 1 Nr. 2 StAG oder sind freizügigkeitsberechtigter Unionsbürger, Schweizer/Schweizerin.\nSie können den Lebensunterhalt für sich und Ihre unterhaltsberechtigten Familienangehörigen ohne Anspruch auf Leistungen oder der Inanspruchnahme von Leistungen nach dem Zweiten oder Zwölften Buch des Sozialgesetzbuches bestreiten (Ausnahmen hiervon sind möglich).\nSie haben eine eigene Wohnung oder ein Unterkommen.\nSie besitzen ausreichende Kenntnisse der deutschen Sprache.\nSie haben Kenntnisse über die Rechts- und Gesellschaftsordnung sowie der Lebensverhältnisse in Deutschland.\nSie wurden nicht wegen einer Straftat verurteilt.\nSie bekennen sich zur freiheitlich demokratischen Grundordnung des Grundgesetzes der Bundesrepublik Deutschland",
+       "tr": "Right to naturalisation\nThere is a right to naturalisation if the following conditions are met:\nYou have had your habitual lawful residence in the Federal Republic of Germany for five years.\n(This period can in some cases be shortened, for example for German spouses or for special integration achievements.)\nAt the time of naturalisation you hold a permanent right of residence (for example a settlement permit) or a residence permit according to the list in § 10(1) no. 2 StAG, or you are a freedom-of-movement-entitled Union citizen, or Swiss.\nYou can support yourself and your dependants without a claim to, or use of, benefits under the Second or Twelfth Book of the Social Code (exceptions to this are possible).\nYou have your own home or accommodation.\nYou have sufficient knowledge of the German language.\nYou have knowledge of the legal and social order and of living conditions in Germany.\nYou have not been convicted of a criminal offence.\nYou profess your commitment to the free democratic basic order of the Basic Law of the Federal Republic of Germany.",
+       "why": "Fines of up to 90 daily rates and some other minor sentences are disregarded for naturalisation. A single minor conviction does not by itself rule you out.\n\nScope: Only the unqualified conviction bullet on this page. The residence-permit, support, language, test and home bullets are not assessed as findings.\n\nContext: Complete page read (text-first, 31 October 2026). The linked leaflet “Merkblatt zur Einbürgerung” (PDF, May 2024; sha256 7b274673873f9feffc838a3100062caba45a2fb1ea913fd1f96a24e79ca5bf64) was read in memory and deleted; it repeats the unqualified wording (see context quote). The bullet “eigene Wohnung oder ein Unterkommen” is not a condition in § 10(1) StAG; it is noted but not argued. StAG §§ 10 and 12a read on gesetze-im-internet.de on 31 October 2026.\n\nAdditional source passage (Merkblatt zur Einbürgerung (PDF, May 2024), opening list on page 1): There is a right to naturalisation if the following conditions are met:\nYou have had your habitual lawful residence in the Federal Republic of Germany for five years\n(This period can in some cases be shortened, for example for German spouses or for special integration achievements.)\nAt the time of naturalisation you hold a permanent right of residence (for example a settlement permit) or a residence permit according to the list in § 10(1) no. 2 StAG, or you are a freedom-of-movement-entitled Union citizen, or Swiss\nYou can support yourself and your dependants without a claim to, or use of, benefits under the Second or Twelfth Book of the Social Code (exceptions to this are possible)\nYou have your own home or accommodation\nYou have sufficient knowledge of the German language\nYou have knowledge of the legal and social order and of living conditions in Germany\nYou have not been convicted of a criminal offence\nYou profess your commitment to the free democratic basic order of the Basic Law of the Federal Republic of Germany [Source: https://www.kreis-badkreuznach.de/fileadmin/media/downloads/02_Aemter/Amt_3_Sicherheit_Ordnung_und_Verkehr/Migration_Integration/Einb%C3%BCrgerung/Merkblatt-Einbuergerung_Mai24.pdf]",
+       "prov": "§ 10(1) sentence 1 no. 5, § 12a(1) StAG",
+       "lawUrl": "https://www.gesetze-im-internet.de/stag/__10.html",
+       "date": "2026-10-31",
+       "g": "M"
+      }
+     ],
+     "https://www.kreis-badkreuznach.de/",
+     "Kreisverwaltung Bad Kreuznach"
     ],
     [
      "07134",
@@ -137206,13 +137904,230 @@
     ],
     [
      "08117",
-     "Landkreis Göppingen",
+     "Göppingen",
      "08",
-     "n",
-     [],
-     [],
-     "",
-     ""
+     "s",
+     [
+      [
+       "na",
+       "https://www.landkreis-goeppingen.de/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.landkreis-goeppingen.de/impressum",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/kreissozialamt/hilfe-zum-lebensunterhalt",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/kreissozialamt/grundsicherung-im-alter",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/kreissozialamt/wohngeldbehoerde",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/kreissozialamt/hilfe-zur-pflege",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/ausbildungsfoerderung",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/rechts--u-ordnungsamt/einbuergerungenstaatsangehoerigkeitsrecht",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/kreissozialamt/bestattungskosten",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/auslaenderbehoerde/eu-buerger",
+       "2026-10-31"
+      ],
+      [
+       "bad",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/auslaenderbehoerde/familiennachzug",
+       "2026-10-31"
+      ],
+      [
+       "bad",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/auslaenderbehoerde/humanitaere-gruende",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/auslaenderbehoerde/erwerbstaetigkeit",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/auslaenderbehoerde/verpflichtungserklaerung",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/kreisjugendamt",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/kreisjugendamt/unterhalt-vormundschaften",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/kreisjugendamt/kindertagesbetreuung",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/rechts--u-ordnungsamt/waffenrecht",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/fuehrerscheinstelle",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/fuehrerscheinstelle/verlaengerung-fuehrerschein",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/fuehrerscheinstelle/auslaend-fuehrerscheine",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/fuehrerscheinstelle/eu-fuehrerschein",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/strassenverkehrsamt/parkausweise-fuer-schwerbehinderte",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/asyl-und-fluechtlinge",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/asyl-und-fluechtlinge/anschlussunterbringung",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/veterinaerwesen-und-verbraucherschutz/lebensmittelueberwachung",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/gesundheitsamt/gesundheitliche-beratung-prostschg",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/kreisjugendamt/wirtschaftl-jugendhilfe",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.landkreis-goeppingen.de/landratsamt/aemter/forstamt",
+       "2026-10-31"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says a humanitarian residence permit, including for asylum holders and refugees, lasts at most two years at a time.",
+       "page": "Residence permit on humanitarian grounds",
+       "url": "https://www.landkreis-goeppingen.de/landratsamt/aemter/auslaenderbehoerde/humanitaere-gruende",
+       "lang": "German",
+       "q": "Eine Aufenthaltserlaubnis auf dieser Grundlage erhalten insbesondere Personen, welche im Rahmen eines Asylverfahrens den Status eines Asylberechtigten zuerkannt erhalten haben oder bei denen das Vorliegen von Abschiebungsverboten nach der Genfer Flüchtlingskonvention oder sonstige Abschiebungsverbote festgestellt wurden.\nDie Aufenthaltserlaubnis aus humanitären Gründen kann für jeweils längstens zwei Jahre erteilt oder verlängert werden. Sie darf nicht verlängert werden, wenn das Ausreisehindernis oder die einer Aufenthaltsbeendigung entgegenstehenden Gründe entfallen sind (z. B. durch Änderung der politischen Verhältnisse im Herkunftsstaat).\nNach siebenjährigem Besitz der Aufenthaltserlaubnis aus humanitären Gründen kann unter bestimmten Voraussetzungen eine (unbefristete) Niederlassungserlaubnis erteilt werden. Die Dauer eines vorausgegangenen Asylverfahrens ist hier anrechenbar. Beispiel: Flüchtlinge bei individueller erheblicher konkreter Gefahr für Leib, Leben und Freiheit im Heimatstaat.",
+       "tr": "A residence permit on this basis is granted in particular to persons who, in an asylum procedure, have been recognised as entitled to asylum, or for whom prohibitions on removal under the Geneva Refugee Convention or other prohibitions on removal have been established.\nThe residence permit on humanitarian grounds can be issued or extended for at most two years in each case. It must not be extended if the obstacle to departure or the grounds that stand in the way of ending the stay have ceased (for example through a change in the political situation in the country of origin).\nAfter holding the residence permit on humanitarian grounds for seven years, a (permanent) settlement permit can be issued under certain conditions. The duration of a previous asylum procedure counts towards this. Example: refugees facing an individual, substantial, concrete danger to life, body and freedom in their home state.",
+       "why": "Permits for recognised asylum holders and refugees are issued for three years. In general these permits can run for up to three years at a time. Some other humanitarian permits are shorter.\n\nScope: Only the stated two-year ceiling as it applies to permits for recognised asylum holders and refugees. Other humanitarian permits that are shorter (for example for protection from removal, or in the first 18 months of some residence permits) are not argued. Settlement permit timing and fees are separate.\n\nContext: Complete page read (text-first, 31 October 2026). The page itself says it cannot state all conditions (“nicht möglich ... abschließend darzustellen”) and invites contact; it links no leaflet. AufenthG § 26 read on gesetze-im-internet.de on 31 October 2026.",
+       "prov": "§ 26(1) sentences 1 and 2 AufenthG",
+       "lawUrl": "https://www.gesetze-im-internet.de/aufenthg_2004/__26.html",
+       "date": "2026-10-31",
+       "g": "m"
+      },
+      {
+       "s": "bad",
+       "claim": "Says a settlement permit (permanent residence) can come after seven years with a humanitarian permit.",
+       "page": "Residence permit on humanitarian grounds",
+       "url": "https://www.landkreis-goeppingen.de/landratsamt/aemter/auslaenderbehoerde/humanitaere-gruende",
+       "lang": "German",
+       "q": "Eine Aufenthaltserlaubnis auf dieser Grundlage erhalten insbesondere Personen, welche im Rahmen eines Asylverfahrens den Status eines Asylberechtigten zuerkannt erhalten haben oder bei denen das Vorliegen von Abschiebungsverboten nach der Genfer Flüchtlingskonvention oder sonstige Abschiebungsverbote festgestellt wurden.\nDie Aufenthaltserlaubnis aus humanitären Gründen kann für jeweils längstens zwei Jahre erteilt oder verlängert werden. Sie darf nicht verlängert werden, wenn das Ausreisehindernis oder die einer Aufenthaltsbeendigung entgegenstehenden Gründe entfallen sind (z. B. durch Änderung der politischen Verhältnisse im Herkunftsstaat).\nNach siebenjährigem Besitz der Aufenthaltserlaubnis aus humanitären Gründen kann unter bestimmten Voraussetzungen eine (unbefristete) Niederlassungserlaubnis erteilt werden. Die Dauer eines vorausgegangenen Asylverfahrens ist hier anrechenbar. Beispiel: Flüchtlinge bei individueller erheblicher konkreter Gefahr für Leib, Leben und Freiheit im Heimatstaat.",
+       "tr": "A residence permit on this basis is granted in particular to persons who, in an asylum procedure, have been recognised as entitled to asylum, or for whom prohibitions on removal under the Geneva Refugee Convention or other prohibitions on removal have been established.\nThe residence permit on humanitarian grounds can be issued or extended for at most two years in each case. It must not be extended if the obstacle to departure or the grounds that stand in the way of ending the stay have ceased (for example through a change in the political situation in the country of origin).\nAfter holding the residence permit on humanitarian grounds for seven years, a (permanent) settlement permit can be issued under certain conditions. The duration of a previous asylum procedure counts towards this. Example: refugees facing an individual, substantial, concrete danger to life, body and freedom in their home state.",
+       "why": "Recognised asylum holders and refugees have a right to a settlement permit after five years. They can get it after three if they speak German very well and their living costs are almost entirely covered. Others can apply once the usual five-year conditions are met.\n\nScope: Only the seven-year statement in the third paragraph of the quoted passage (settlement permit after holding the permit). The validity period and fees are separate cases.\n\nContext: Complete page read (text-first, 31 October 2026). The page itself says it cannot state all conditions (“nicht möglich ... abschließend darzustellen”) and invites contact; it links no leaflet. AufenthG § 26 read on gesetze-im-internet.de on 31 October 2026. § 9(2) AufenthG (five years) read the same day.",
+       "prov": "§ 26(3) sentences 1 and 3, § 26(4), § 9(2) AufenthG",
+       "lawUrl": "https://www.gesetze-im-internet.de/aufenthg_2004/__26.html",
+       "date": "2026-10-31",
+       "g": "M"
+      },
+      {
+       "s": "bad",
+       "claim": "Says children can usually join foreign parents only up to age 16, and up to adulthood only in exceptions.",
+       "page": "Residence permit for family reunification",
+       "url": "https://www.landkreis-goeppingen.de/landratsamt/aemter/auslaenderbehoerde/familiennachzug",
+       "lang": "German",
+       "q": "Eine Aufenthaltserlaubnis zum Zwecke des Familiennachzuges kann dem ausländischen Ehepartner eines Deutschen oder eines mit Aufenthaltsrecht hier lebenden ausländischen Staatsbürgers erteilt werden.\nDer Nachzug von Kindern zu ihren hier lebenden ausländischen Eltern ist in der Regel nur bis zum Alter von sechzehn Jahren möglich. In Ausnahmefällen kommt auch ein Nachzug von Kindern bis zur Volljährigkeit in Betracht.\nDer Nachzug von sonstigen Familienangehörigen ist auf besonders gelagerte Ausnahmefälle bei Vorliegen einer außergewöhnlichen Härte beschränkt.\nFür die Erteilung einer Aufenthaltserlaubnis im Rahmen des Familiennachzuges wird regelmäßig der Nachweis ausreichender eigener Mittel zur Sicherung des Lebensunterhaltes einschließlich Krankenversicherungsschutz und ausreichendem Wohnraum vorausgesetzt. Vor der Einreise ist bei der deutschen Auslandsvertretung im Herkunftsstaat ein Visum für den beabsichtigten Aufenthaltszweck einzuholen.\nHinweis:\nWegen der Vielzahl der im Einzelfall zu beachtenden Regelungen lassen Sie sich bitte über die Voraussetzungen für die Erteilung einer Aufenthaltserlaubnis zum Zwecke des Familiennachzuges von der Ausländerbehörde beraten. Bitte nehmen Sie dazu mit uns Kontakt auf.",
+       "tr": "A residence permit for family reunification can be issued to the foreign spouse of a German or of a foreign national living here with a right of residence.\nThe reunification of children with their foreign parents living here is usually possible only up to the age of sixteen. In exceptional cases the reunification of children up to the age of majority also comes into consideration.\nThe reunification of other family members is limited to specially situated exceptional cases where there is an exceptional hardship.\nFor a residence permit for family reunification, proof of sufficient own means to secure living costs, including health insurance cover and adequate housing, is regularly required. Before entry, a visa for the intended purpose of stay must be obtained from the German mission in the country of origin.\nNote:\nBecause of the large number of rules to be observed in individual cases, please have the office advise you on the conditions for issuing a residence permit for family reunification. Please contact us.",
+       "why": "An unmarried child under 18 of a foreign parent with most residence permits has a right to a permit. Housing and living costs must still be covered. At 16 or over, a child not moving with the parents must also speak German or be likely to integrate. Refugee and skilled-worker families are exempt from this test.\n\nScope: Only the age statement for children. The spouse sentence (“kann”) for a spouse of a German, where § 28(1) says “ist zu erteilen”, is noted for the reviewer and not argued as a finding.\n\nContext: Complete page read (text-first, 31 October 2026). AufenthG §§ 28 and 32 read on gesetze-im-internet.de on 31 October 2026. No form or leaflet is linked on the page.",
+       "prov": "§ 32(1), (2) AufenthG",
+       "lawUrl": "https://www.gesetze-im-internet.de/aufenthg_2004/__32.html",
+       "date": "2026-10-31",
+       "g": "M"
+      },
+      {
+       "s": "amb",
+       "claim": "Lists fees of EUR 110 to issue and EUR 80 to extend a humanitarian residence permit.",
+       "page": "Residence permit on humanitarian grounds",
+       "url": "https://www.landkreis-goeppingen.de/landratsamt/aemter/auslaenderbehoerde/humanitaere-gruende",
+       "lang": "German",
+       "q": "Eine Aufenthaltserlaubnis auf dieser Grundlage erhalten insbesondere Personen, welche im Rahmen eines Asylverfahrens den Status eines Asylberechtigten zuerkannt erhalten haben oder bei denen das Vorliegen von Abschiebungsverboten nach der Genfer Flüchtlingskonvention oder sonstige Abschiebungsverbote festgestellt wurden.\nGebühren\nErstmalige Erteilung einer Aufenthaltserlaubnis: 110,00 EUR\nVerlängerung einer Aufenthaltserlaubnis: 80,00 EUR\nFür Minderjährige ermäßigt sich die Gebühr um 50 %.",
+       "tr": "A residence permit on this basis is granted in particular to persons who, in an asylum procedure, have been recognised as entitled to asylum, or for whom prohibitions on removal under the Geneva Refugee Convention or other prohibitions on removal have been established.\nFees\nFirst issue of a residence permit: EUR 110.00\nExtension of a residence permit: EUR 80.00\nFor minors the fee is reduced by 50 %.",
+       "why": "The legal fee is EUR 100 to issue a residence permit and EUR 93 or 96 to extend it. Recognised asylum holders, refugees and people with subsidiary protection pay no such fee.\n\nScope: Only the fee amounts on this page and their difference from the fee table. Whether the office charges refugees is not inferred, and the missing exemption is context, not the finding.\n\nContext: Complete page read (text-first, 31 October 2026). The page itself says it cannot state all conditions (“nicht möglich ... abschließend darzustellen”) and invites contact; it links no leaflet. AufenthG § 26 read on gesetze-im-internet.de on 31 October 2026. AufenthV §§ 45 and 52 read on gesetze-im-internet.de on 31 October 2026. The same EUR 110 and EUR 80 appear on the page “Aufenthalt für Erwerbstätige” (gp-work), where the exemption does not matter; not counted separately.",
+       "prov": "§ 45 nos. 1 and 2, § 49(2), § 50(1), § 52(3), § 53(1) AufenthV",
+       "lawUrl": "https://www.gesetze-im-internet.de/aufenthv/__45.html",
+       "date": "2026-10-31",
+       "unc": "The amounts may include a separate processing fee and could not be matched to the fee table."
+      },
+      {
+       "s": "amb",
+       "claim": "Says there is still a recruitment stop for people from outside the EU with no or low qualifications.",
+       "page": "Residence for people who work",
+       "url": "https://www.landkreis-goeppingen.de/landratsamt/aemter/auslaenderbehoerde/erwerbstaetigkeit",
+       "lang": "German",
+       "q": "Das Aufenthaltsgesetz sieht für hochqualifizierte Ausländer (z. B. Wissenschaftler mit besonderen fachlichen Kenntnissen, Lehrpersonen oder wissenschaftliche Mitarbeiter in herausgehobener Position, Spezialisten und leitende Angestellte mit besonderer Berufserfahrung) die Möglichkeit der Erteilung einer zeitlich unbefristeten Niederlassungserlaubnis unmittelbar nach der Einreise vor.\nNeu einreisende Selbständige können eine Aufenthaltserlaubnis erhalten, wenn an der geplanten Tätigkeit ein wirtschaftliches Interesse oder ein regionales Bedürfnis besteht und eine positive Auswirkung auf die Wirtschaft erwarten lässt.\nFür ausländische Studenten besteht nach erfolgreichem Abschluss eines Studiums in Deutschland die Möglichkeit, sich um einen dem Studienabschluss angemessenen Arbeitsplatz zu bewerben.\nFür Nicht- und Geringqualifizierte aus Staaten außerhalb der EU bleibt es beim bisherigen Anwerbestopp.\nHinweis:\nWegen der Vielzahl der zu beachtenden Regelungen ist es an dieser Stelle nicht möglich, die Voraussetzungen für die Erteilung bzw. Verlängerung der Aufenthaltserlaubnis zum Zwecke der Erwerbstätigkeit abschließend darzustellen. Bitte nehmen Sie bei Bedarf mit uns Kontakt auf.",
+       "tr": "For highly qualified foreigners (for example scientists with special expertise, teachers or research staff in prominent positions, specialists and senior employees with special professional experience), the Residence Act provides for the possibility of issuing a permanent settlement permit immediately after entry.\nNewly arriving self-employed people can receive a residence permit if there is an economic interest or a regional need for the planned activity and a positive effect on the economy can be expected.\nForeign students have the possibility, after successfully completing a degree in Germany, to apply for a job appropriate to their degree.\nFor unskilled and low-skilled people from countries outside the EU, the previous recruitment stop remains in place.\nNote:\nBecause of the large number of rules to be observed, it is not possible on this page to set out the conditions for issuing or extending the residence permit for the purpose of employment exhaustively. Please contact us if needed.",
+       "why": "Citizens of six Western Balkan states can be approved for any job, up to 50,000 a year. Citizens of some other countries and seasonal workers can also be approved.\n\nScope: Only the unqualified recruitment-stop sentence. The sentences on highly qualified people, self-employed people and students are not assessed.\n\nContext: Complete page read (text-first, 31 October 2026). BeschV § 26 read on gesetze-im-internet.de on 31 October 2026. The page also shows fees of EUR 110 and EUR 80 (see the humanitarian fee case).",
+       "prov": "§ 26(1) and (2), § 15a BeschV",
+       "lawUrl": "https://www.gesetze-im-internet.de/beschv_2013/__26.html",
+       "date": "2026-10-31",
+       "unc": "The sentence may describe only the general rule, and the page says it cannot list every condition."
+      }
+     ],
+     "https://www.landkreis-goeppingen.de/",
+     "Landratsamt Göppingen"
     ],
     [
      "08118",
@@ -139621,13 +140536,134 @@
     ],
     [
      "10044",
-     "Landkreis Saarlouis",
+     "Saarlouis",
      "10",
-     "n",
-     [],
-     [],
-     "",
-     ""
+     "s",
+     [
+      [
+       "na",
+       "https://www.kreis-saarlouis.de/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-saarlouis.de/Impressum.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/Kreissozialamt.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/Kreissozialamt/Existenzsicherung.htm",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-saarlouis.de/Kreissozialamt/Hilfe-zur-Pflege.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/BAfoeG.htm",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-saarlouis.de/Kreisjugendamt/Unterhaltsvorschuss.htm",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-saarlouis.de/Arbeit-und-Soziales/Bildung-und-Teilhabe.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/Sicherheit-Ordnung/Staatshoheitsangelegenheiten.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/Masernschutzgesetz.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/Gesundheit/Hygieneueberwachung/Belehrungen.htm",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-saarlouis.de/Sicherheit-Ordnung/Jagd-Waffen-Gewerbe.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/EU-Parkausweis.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/Parkausweis-Deutschland.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/Betreuungsbehoerde.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/Adoption.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/Kreisjugendamt/Beurkundungen.htm",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-saarlouis.de/Kreisjugendamt/Beistandschaften.htm",
+       "2026-10-31"
+      ],
+      [
+       "bad",
+       "https://www.kreis-saarlouis.de/Wirtschaftliche-Jugendhilfe.htm",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-saarlouis.de/Kreisjugendamt.htm",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-saarlouis.de/KFZ-Zulassungsstelle/Infos.htm",
+       "2026-10-31"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says assets can be used to charge parents or children for educational youth help.",
+       "page": "Wirtschaftliche Jugendhilfe",
+       "url": "https://www.kreis-saarlouis.de/Wirtschaftliche-Jugendhilfe.htm",
+       "lang": "German",
+       "q": "Im Sachgebiet der Leistungsabteilung werden die Leistungen finanziert, die notwendig sind, wenn Eltern und deren Kindern erzieherische Hilfen gewährt werden. Für die erzieherischen Hilfen werden entsprechend § 91 SGB VIII die Kinder und deren Eltern aus ihrem Einkommen und ggf. aus ihrem Vermögen zu den entstandenen Kosten herangezogen. In diesem Sachgebiet findet auch die Führung des Haushaltes des Jugendamtes statt. So werden hier die anfallenden Rechnungen haushaltstechnisch erfasst, wie zum Beispiel die monatlichen Zahlungen an die Träger von Kindereinrichtungen, Zahlungen an Pflegeeltern und Kinderheime.",
+       "tr": "In the benefits section, the services that are needed when educational help is granted to parents and their children are financed. For educational help, in accordance with § 91 SGB VIII, the children and their parents are called on to contribute to the costs incurred from their income and, where applicable, from their assets. This section also runs the youth office budget. The incoming invoices are recorded here for budget purposes, for example the monthly payments to the providers of children's facilities, payments to foster parents and children's homes.",
+       "why": "Parents are charged from income only, not from assets. Young people’s own income and savings are not charged; only child benefit and money paid for the same purpose count. Charges apply only to listed full-time and part-time services.\n\nScope: Narrowed to assets: the use of “Vermögen” as a basis for charging parents or children. The statement about children’s income and the reach to “erzieherische Hilfen” generally are context, not the finding. Kita fees, the grants listed on the page and application steps are not assessed.\n\nContext: Complete page read (text-first, 31 October 2026). The first paragraph of the page (grants for childcare and all-day school) is a different service and is not part of the quotation. SGB VIII §§ 91, 92, 93 and 94 read on gesetze-im-internet.de on 31 October 2026 (the website shows no amendment history, so the effective date of the current wording was not checked).",
+       "prov": "§§ 91, 92(1), (1a), 93(1) sentence 3, 94(3), 94(6) SGB VIII",
+       "lawUrl": "https://www.gesetze-im-internet.de/sgb_8/__92.html",
+       "date": "2026-10-31",
+       "g": "M"
+      }
+     ],
+     "https://www.kreis-saarlouis.de/",
+     "Landkreis Saarlouis (Landrat)"
     ],
     [
      "10045",
@@ -139844,13 +140880,128 @@
     ],
     [
      "12064",
-     "Landkreis Märkisch-Oderland",
+     "Märkisch-Oderland",
      "12",
-     "n",
-     [],
-     [],
-     "",
-     ""
+     "s",
+     [
+      [
+       "na",
+       "https://www.maerkisch-oderland.de/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://service.lkmol.de/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.maerkisch-oderland.de/leben-im-landkreis/leben-gesellschaft/soziales",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://service.lkmol.de/dienstleistungen/-/egov-bis-detail/dienstleistung/18831/show",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://service.lkmol.de/dienstleistungen/-/egov-bis-detail/dienstleistung/14992/show",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.maerkisch-oderland.de/leben-im-landkreis/leben-gesellschaft/jugend-familie",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://service.lkmol.de/dienstleistungen/-/egov-bis-detail/dienstleistung/23865/show",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://service.lkmol.de/dienstleistungen/-/egov-bis-detail/dienstleistung/23221/show",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://service.lkmol.de/dienstleistungen/-/egov-bis-detail/dienstleistung/26759/show",
+       "2026-10-31"
+      ],
+      [
+       "bad",
+       "https://www.maerkisch-oderland.de/leben-im-landkreis/infrastruktur-sicherheit/verkehr/fahrerlaubnis",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.maerkisch-oderland.de/leben-im-landkreis/infrastruktur-sicherheit/verkehr/fahrerlaubnis/modellversuch-moped-mit-15-jahren-fuer-das-bundesland-brandenburg",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.maerkisch-oderland.de/leben-im-landkreis/infrastruktur-sicherheit/verkehr/fahrzeugzulassung",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.maerkisch-oderland.de/leben-im-landkreis/infrastruktur-sicherheit/ordnung-auslaenderangelegenheiten/staatsangehoerigkeitsbehoerde",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://service.lkmol.de/dienstleistungen/-/egov-bis-detail/dienstleistung/20111/show",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.maerkisch-oderland.de/leben-im-landkreis/infrastruktur-sicherheit/ordnung-auslaenderangelegenheiten/auslaenderbehoerde",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://service.lkmol.de/dienstleistungen/-/egov-bis-detail/dienstleistung/18830/show",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.maerkisch-oderland.de/leben-im-landkreis/leben-gesellschaft/migration",
+       "2026-10-31"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says an application for the unrestricted motorcycle licence (class A) can be made at the earliest at age 24.",
+       "page": "Fahrerlaubnis",
+       "url": "https://www.maerkisch-oderland.de/leben-im-landkreis/infrastruktur-sicherheit/verkehr/fahrerlaubnis",
+       "lang": "German",
+       "q": "Erwerb einer Fahrerlaubnis\nDer Antrag auf Ersterteilung der Klassen A1, AM, L, T kann frühestens mit 15 ½ Jahren gestellt werden. Der Antrag auf Erteilung der Klassen A2, B, BE kann frühestens mit 17 ½ Jahren und Klasse A (unbeschränkt) frühestens mit 24 Jahren gestellt werden (vgl. § 10 FeV).\nDie Antragstellung kann auch über die zuständige Amts-/Stadt- oder Gemeindeverwaltung erfolgen.",
+       "tr": "Acquiring a driving licence\nThe application for first issue of classes A1, AM, L, T can be made at the earliest at 15 and a half years. The application for classes A2, B, BE can be made at the earliest at 17 and a half years and for class A (unrestricted) at the earliest at 24 years (see § 10 FeV).\nThe application can also be made through the responsible office, town or municipal administration.",
+       "why": "You can get class A at 20 if you have held class A2 for at least two years. Age 24 applies only to direct access. You may apply six months before the age.\n\nScope: Only the class A age statement; not the AM, A1, L or T age statements.\n\nContext: Complete page and the class list were read. The “Erweiterung” section lists documents and fees without ages. The page repeats the same ages in a later answer.",
+       "prov": "§ 10(1) no. 4 (a) and (c) FeV; § 21(4) FeV",
+       "lawUrl": "https://www.gesetze-im-internet.de/fev_2010/__10.html",
+       "date": "2026-10-31",
+       "g": "m"
+      },
+      {
+       "s": "amb",
+       "claim": "Lists the conditions for maintenance advance for ages 12 to 17 as if all had to be met.",
+       "page": "Unterhaltsvorschuss (service portal)",
+       "url": "https://service.lkmol.de/dienstleistungen/-/egov-bis-detail/dienstleistung/14992/show",
+       "lang": "German",
+       "q": "Wenn Ihr Kind zwischen 12 und 17 Jahre alt ist, müssen zusätzlich folgende Bedingungen erfüllt sein:\nIhr Kind selbst erhält kein Bürgergeld.\nDurch den Unterhaltsvorschuss kann die Hilfebedürftigkeit Ihres Kindes vermieden werden.\nSie haben ein Brutto-Monatseinkommen von mindestens 600,00 EUR und erhalten gegebenenfalls ergänzendes Bürgergeld.",
+       "tr": "If your child is between 12 and 17 years old, the following additional conditions must also be met:\nYour child itself receives no Bürgergeld.\nMaintenance advance can avoid your child's need for assistance.\nYou have a gross monthly income of at least EUR 600 and, where applicable, receive supplementary Bürgergeld.",
+       "why": "For a child aged 12 to 17, one of these is enough: the child gets no Bürgergeld, or the advance ends the child’s need for it, or the parent earns at least EUR 600 gross.\n\nScope: Only the additional conditions for ages 12 to 17 in the portal list; not other UVG conditions.\n\nContext: Complete portal service description was read. The main Jugend & Familie page of the same district gives the alternatives with “oder”; that passage is a separate publication and counterevidence. Similar wording was confirmed in other districts (for example districts-15089-uvg-alternatives); each publication is assessed on its own context.\n\nAdditional source passage (Section Unterhaltsvorschuss, Wer hat Anspruch, paragraph after the age 12 rule.): In addition, children up to their 18th birthday are entitled if\nthey receive no SGB II benefits or\nmaintenance advance means they will no longer depend on SGB II benefits or\nthe single parent has monthly gross income of at least EUR 600 and receives only supplementary SGB II benefits. [Source: https://www.maerkisch-oderland.de/leben-im-landkreis/leben-gesellschaft/jugend-familie]\n\nAdditional source passage (Merkblatt section I, left column, after the age 12 rule (hyphenation at line ends removed).): In addition, your child is entitled to maintenance advance until their 18th birthday if:\n1. it receives no SGB II benefits\nor\n2. payment of maintenance advance means it will no longer depend on SGB II benefits\nor\n3. the single parent has monthly gross income of at least EUR 600 and receives only supplementary SGB II benefits. [Source: https://service.lkmol.de/dienstleistungen/-/egov-bis-detail/dokument/16785/download?_9_WAR_vrportlet_priv_r_p_action=bisview-dienstleistung-show]",
+       "prov": "§ 1(1a) sentence 1 nos. 1 and 2 UhVorschG",
+       "lawUrl": "https://www.gesetze-im-internet.de/uhvorschg/__1.html",
+       "date": "2026-10-31",
+       "unc": "The page’s own leaflet and the district’s main page state the alternatives correctly, so the list may be shorthand."
+      }
+     ],
+     "https://www.maerkisch-oderland.de/",
+     "Landkreis Märkisch-Oderland (Kreisverwaltung)"
     ],
     [
      "12065",
@@ -140461,13 +141612,68 @@
     ],
     [
      "13074",
-     "Landkreis Nordwestmecklenburg",
+     "Nordwestmecklenburg",
      "13",
-     "n",
-     [],
-     [],
-     "",
-     ""
+     "s",
+     [
+      [
+       "na",
+       "https://www.nordwestmecklenburg.de/",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://service.nordwestmecklenburg.de/de/einstieg-serviceportal.html",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.nordwestmecklenburg.de/de/familie-detail/leistung/72/leistungen_f%C3%BCr_bildung_und_teilhabe_bei_kindern,_jugendlichen_und_jungen_erwachsenen_beantragen.html",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.nordwestmecklenburg.de/de/wohnen-detail/leistung/71/sozialhilfe:_grundsicherung_im_alter_und_bei_erwerbsminderung_beantragen.html",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.nordwestmecklenburg.de/de/soziale_leistungen.html",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.nordwestmecklenburg.de/de/leistungen-der-auslaenderbehoerde.html",
+       "2026-10-31"
+      ],
+      [
+       "x",
+       "https://www.nordwestmecklenburg.de/de/auslaenderbehoerde-detail/leistung/1215/",
+       "2026-10-31"
+      ],
+      [
+       "x",
+       "https://www.nordwestmecklenburg.de/de/startseite.html",
+       "2026-10-31"
+      ]
+     ],
+     [
+      {
+       "s": "amb",
+       "claim": "Says you need eight years of lawful residence (seven with an integration course) for a right to naturalisation.",
+       "page": "Einbürgerung mit Anspruch (detail page 208), text as read by reviewer b",
+       "url": "https://www.nordwestmecklenburg.de/de/auslaenderbehoerde-detail/leistung/208/eigenst%C3%A4ndige_einb%C3%BCrgerung_von_ausl%C3%A4ndern_mit_einb%C3%BCrgerungsanspruch.html",
+       "lang": "German",
+       "q": "Sie haben seit mindestens acht Jahren ununterbrochen rechtmäßig Ihren gewöhnlichen Aufenthalt in Deutschland.\nDie Frist verkürzt sich auf sieben Jahre, wenn Sie erfolgreich an einem Integrationskurs teilgenommen haben. Dies muss mit einer Bescheinigung des Kursträgers nach dem Aufenthaltsgesetz nachgewiesen werden. Wenn besondere Integrationsleistungen vorliegen, kann die Frist auf sechs Jahre verkürzt werden.",
+       "tr": "You have had your habitual lawful residence in Germany without interruption for at least eight years.\nThe period is reduced to seven years if you have successfully taken part in an integration course. This must be proved by a certificate from the course provider under the Residence Act. If there are special integration achievements, the period can be reduced to six years.",
+       "why": "You have a right to naturalisation after five years of lawful residence in Germany if you meet the other conditions.\n\nScope: Only the residence-period statement on page 208; not other conditions, other pages or the nationality bullet.\n\nContext: Not read by the author: page date, pages 209, 210, 1255, 1256, 1258, 978, 979 and any linked leaflet. Reviewer b read pages 208 to 210 on 2026-10-31.",
+       "prov": "§ 10(1) sentence 1 StAG",
+       "lawUrl": "https://www.gesetze-im-internet.de/stag/__10.html",
+       "date": "2026-10-31"
+      }
+     ],
+     "https://www.nordwestmecklenburg.de/",
+     "Landkreis Nordwestmecklenburg"
     ],
     [
      "13075",
@@ -140794,13 +142000,89 @@
     ],
     [
      "14626",
-     "Landkreis Görlitz",
+     "Görlitz",
      "14",
-     "n",
+     "s",
+     [
+      [
+       "na",
+       "https://www.kreis-goerlitz.de/",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-goerlitz.de/Jugend/Bildung-und-Teilhabe.htm?waid=397",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-goerlitz.de/Jugend/Erziehungs-und-Elterngeld.htm?waid=397",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-goerlitz.de/03-Landratsamt/Seiten/Formulare-und-Online-Antraege-1.html",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-goerlitz.de/Seiten/Pflichtumtausch-Fahrerlaubnis.html",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-goerlitz.de/Dienste-online/Fahrerlaubnis-Online-Termin.htm?waid=394",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-goerlitz.de/Dienste-online/online-Fahrzeugzulassung.htm?waid=394",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-goerlitz.de/Jugend/Kita-Tagespflege.htm?waid=394",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-goerlitz.de/Jugend/Uebertragene-Leistungen-nach-SGB-VIII.htm?waid=394",
+       "2026-10-31"
+      ],
+      [
+       "amb",
+       "https://www.kreis-goerlitz.de/Seiten/Vorzulegende-Dokumente-in-der-Fuehrerscheinbehoerde.html",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-goerlitz.de/Gesundheit/Masern.htm?waid=397",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-goerlitz.de/Gesundheit/Vorsorge/Gesundheitsausweis/-Belehrung-zum-Infektionsschutzgesetz.htm?waid=397",
+       "2026-10-31"
+      ],
+      [
+       "ok",
+       "https://www.kreis-goerlitz.de/Gesundheit/Beratung/Betreuung.htm?waid=397",
+       "2026-10-31"
+      ],
+      [
+       "na",
+       "https://www.kreis-goerlitz.de/Jugend/Pflegekinder.htm?waid=397",
+       "2026-10-31"
+      ],
+      [
+       "x",
+       "https://www.kreis-goerlitz.de/Landratsamt/Aemteruebersicht.htm?waid=394",
+       "2026-10-31"
+      ]
+     ],
      [],
-     [],
-     "",
-     ""
+     "https://www.kreis-goerlitz.de/",
+     "Landkreis Görlitz (Landratsamt)"
     ],
     [
      "14627",
