@@ -1515,7 +1515,7 @@ if (SYS) {
   SYS.list.forEach(c => SYS.cnt[c.k]++);
   SYS.confirmed = SYS.list.reduce((n, c) => n + c.bad, 0);
   SYS.inspected = SYS.cnt.bad + SYS.cnt.amb + SYS.cnt.ok;
-  // Districts (Landkreise) are optional too: a hand-picked set with no rank or population, shown beside the cities and never added to their totals.
+  // Districts (Landkreise) have no rank or population; they appear beside the cities and never enter city totals.
   SYS.dlist = (SYS.districts || []).map(([id, name, st, cov, pages, F, web, auth]) => {
     const c = { id, name, st, cov, pages, F, web, auth, dist: true, bad: F.filter(f => f.s === "bad").length, amb: F.filter(f => f.s === "amb").length };
     c.k = c.bad ? "bad" : c.amb ? "amb" : cov === "s" ? "ok" : "na";
@@ -1565,7 +1565,7 @@ function sysHome(L) {
     <div class="sy-keys" role="group" aria-label="Show only">${(SYS.gMajor ? ["bad", "major", "amb", "ok", "na"] : SYS_KEYS).map(k => `<button type="button" data-k="${k}" aria-pressed="false"><i class="${k}"></i>${SYS_LABEL[k]} · ${fmtN(SYS.cnt[k])}</button>`).join("")}</div>
     <div class="sy-bands${SYS.dlist.length ? " mixed" : ""}" id="sy-bands"><div class="sy-cols">${ids.map(stateBlock).join("")}${cityStates}</div></div>
     <p class="stats" style="padding-top:12px">${SYS.dlist.length ? "One dot per city, largest first within each state. Squares are districts (Landkreise); an empty one has not been inspected yet." : "One square per city, largest first within each state."}</p>
-    <details class="sy-note"><summary>How to read this</summary><p>A misrepresentation is one confirmed statement on one ${SYS.dlist.length ? "city’s or district’s" : "city’s"} website. A city counts as inspected when we read its service guidance or available service directory. A directory check does not assess detailed legal guidance. The percentage is the share of the places inspected so far. Places were not inspected to the same depth${SYS.dlist.length ? " and the districts were chosen by hand" : ""}, so it is not a rate for German cities or districts, and places should not be ranked by it. “No misrepresentation found” applies only to the pages read. A ${SYS.dlist.length ? "city or district" : "city"} that is not yet inspected is listed, not cleared. The ${fmtN(SYS.list.length)} cities are the largest in Germany by population on ${fmtDate(SYS.popDate)}.${SYS.dlist.length ? ` All ${fmtN(SYS.dlist.length)} German districts (Landkreise) are listed; the ${fmtN(SYS.dread)} inspected so far were chosen by hand to test access and coverage, so they are not a sample.` : ""}</p>${SYS.gMajor ? `<p>${esc(SYS_GRADE_NOTE)}</p>` : ""}</details>`;
+    <details class="sy-note"><summary>How to read this</summary><p>A misrepresentation is one confirmed statement on one ${SYS.dlist.length ? "city’s or district’s" : "city’s"} website. A city counts as inspected when we read its service guidance or available service directory. A directory check does not assess detailed legal guidance. The percentage is the share of the places inspected so far. Places were not inspected to the same depth, so it is not a rate for German cities or districts, and places should not be ranked by it. “No misrepresentation found” applies only to the pages read. A ${SYS.dlist.length ? "city or district" : "city"} that is not yet inspected is listed, not cleared. The ${fmtN(SYS.list.length)} cities are the largest in Germany by population on ${fmtDate(SYS.popDate)}.${SYS.dlist.length ? ` All ${fmtN(SYS.dlist.length)} German districts (Landkreise) are listed; ${fmtN(SYS.dread)} had service guidance read, while ${fmtN(SYS.dlist.length - SYS.dread)} had access checks only. The number of pages read varies by district, and inaccessible services remain unresolved.` : ""}</p>${SYS.gMajor ? `<p>${esc(SYS_GRADE_NOTE)}</p>` : ""}</details>`;
 }
 
 function afterSys() {
@@ -1613,7 +1613,7 @@ function cityLede(c, f) {
   if (!c.pages.length && !c.F.length) return `${c.name} is on the list of the ${fmtN(SYS.list.length)} largest cities, but nobody has read its website yet.`;
   if (c.k === "na") return `We found ${plural(c.pages.length, "page", "pages")} on ${c.name}’s website but did not read any of them in enough detail to judge.`;
   const found = [c.bad && plural(c.bad, "misrepresentation", "misrepresentations"), c.amb && `${c.amb} unclear`].filter(Boolean).join(" and ");
-  return `We read ${plural(c.read, "service page", "service pages")} on ${fmtDate(f.done)} and found ${found || "no misrepresentation"}.`;
+  return `We ${c.dist ? "checked" : "read"} ${plural(c.read, "service page", "service pages")} on ${fmtDate(f.done)} and found ${found || "no misrepresentation"}.`;
 }
 // A passage keeps every word of the research text; only its layout changes. Lines the source merely wrapped are joined, "•" and lettered or
 // numbered items become a list, a short title line becomes a heading and "a | b" lines a table. The research's own line breaks otherwise stay.
@@ -1693,23 +1693,23 @@ function cityFinding(x, place) {
     <p class="cp-src"><a href="${esc(x.url)}" target="_blank" rel="noopener">Page checked ↗</a>${x.date ? `<span>${fmtDate(x.date)}</span>` : ""}</p>
     <div class="compare">${cityPassage(x)}${cityLaw(x)}</div></details></article>`;
 }
-// The header counts what was found, then says once how many pages were read and when.
+// The header counts what was found, then says once how many pages were checked and when.
 function cityTally(c, f) {
   if (!c.F.length && !c.read) return "";
   const ok = c.pages.filter(p => p[0] === "ok").length;
   const majors = c.F.filter(f => f.g === "M").length, graded = c.F.some(f => f.g);
   const items = [["bad", c.bad, `${c.bad === 1 ? "misrepresentation" : "misrepresentations"}${graded ? `, ${majors === 0 ? "all minor" : majors === c.bad ? (c.bad === 1 ? "major" : "all major") : `${majors} major`}` : ""}`], ["amb", c.amb, "unclear"], ["ok", ok, ok === 1 ? "page with nothing found" : "pages with nothing found"]].filter(x => x[1]);
   return `<ul class="cp-sum">${items.map(([k, n, w]) => `<li><i class="cp-sq ${k}"></i><b>${n}</b>${w}</li>`).join("")}</ul>
-    <p class="cp-ctx">${esc(plural(c.read, c.cov === "d" ? "page" : "service page", c.cov === "d" ? "pages" : "service pages"))} read${f.done ? ` on ${fmtDate(f.done)}` : ""}. Results describe only those pages.</p>`;
+    <p class="cp-ctx">${esc(plural(c.read, c.cov === "d" ? "page" : "service page", c.cov === "d" ? "pages" : "service pages"))} ${c.dist ? "checked" : "read"}${f.done ? ` on ${fmtDate(f.done)}` : ""}. Results describe only those pages.</p>`;
 }
 function cityPages(c, open) {
   if (!c.pages.length) return "";
-  return `<details class="cp-sec"${open ? " open" : ""}><summary><h2>Pages read</h2><span>${c.pages.length}</span></summary><ul class="cp-pages">${c.pages.map(([k, url, d]) =>
+  return `<details class="cp-sec"${open ? " open" : ""}><summary><h2>Pages ${c.dist ? "checked" : "read"}</h2><span>${c.pages.length}</span></summary><ul class="cp-pages">${c.pages.map(([k, url, d]) =>
     `<li><i class="cp-sq ${k}"></i><a href="${esc(url)}" target="_blank" rel="noopener">${esc(pageLabel(url))} ↗</a><span class="o">${SYS_PAGE[k]}</span>${d ? `<span class="d">${fmtDate(d)}</span>` : ""}</li>`).join("")}</ul></details>`;
 }
 function cityPage(L, c) {
   const f = cityFacts(c), empty = !c.pages.length && !c.F.length, tally = cityTally(c, f);
-  const noteText = `${c.cov === "d" ? "This result includes a check of service listings and links. That check did not assess detailed legal guidance. " : ""}Each result describes only the pages we read${f.done ? ` up to ${fmtDate(f.done)}` : ""}. It does not show whether anyone was refused or misled in practice, and the pages may have changed since.${c.F.length || c.k === "na" ? "" : " No misrepresentation found does not mean the rest of the site is correct."}${c.dist ? " This district was chosen by hand, so it says nothing about other districts." : ""}`;
+  const noteText = `${c.cov === "d" ? "This result includes a check of service listings and links. That check did not assess detailed legal guidance. " : ""}Each result describes only the pages we ${c.dist ? "checked" : "read"}${f.done ? ` up to ${fmtDate(f.done)}` : ""}. It does not show whether anyone was refused or misled in practice, and the pages may have changed since.${c.F.length || c.k === "na" ? "" : " No misrepresentation found does not mean the rest of the site is correct."}`;
   // With the count header the note sits under it as a disclosure; a page without one keeps it at the end.
   const gradeNote = c.F.some(x => x.g) ? `<details class="cp-nt"><summary>How consequences are graded</summary><p>${esc(SYS_ROW_NOTE)}</p></details>` : "";
   const folded = !empty && tally ? `<details class="cp-nt"><summary>What this shows</summary><p>${esc(noteText)}</p></details>${gradeNote}` : "";
