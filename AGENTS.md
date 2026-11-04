@@ -7,6 +7,7 @@ This repository contains the public static viewer. Research belongs in the separ
 - Do not edit case text in `dist/`; change its subject's backend JSON and regenerate.
 - Serve only `dist/` on loopback for preview. GitHub Pages publishes that same folder at https://bttlbmb.github.io/legalmisrepresentation/. The website must work without a running backend.
 - Do not add raw research captures, local paths, credentials, or private backend notes to public output.
+- Write new interface labels and editorial headings in plain English. New Systemic service titles must have independently reviewed English mappings before publication; an untranslated fallback is not a finished new label. Follow the backend's `docs/plain-language.md` and `docs/service-title-translations.md`. Preserve original source-title metadata, quotations, marks and proper names separately.
 - After rebuilding, run the backend's `build --check`, check inline JavaScript syntax, and inspect the affected routes in a browser.
 - Commit website changes separately from backend changes. Pushing changes to `dist/`, the route test, or the Pages workflow to `main` deploys automatically. Keep research-only tasks local unless publication is authorized.
 - Pages uses the GitHub Actions publishing source and `.github/workflows/pages.yml`. After an authorized deployment, wait for the workflow to succeed and verify the live page. Preserve the project subpath and hash-based case links.
