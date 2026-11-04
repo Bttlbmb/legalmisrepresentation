@@ -551,8 +551,9 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .sy-note { color: var(--ink-3); font-size: var(--s-xs); padding-top: 18px; max-width: 78ch; }
 .sy-note summary { cursor: pointer; color: var(--ink-2); font-size: var(--s-sm); min-height: 32px; display: flex; align-items: center; }
 .sy-note p { padding-top: 6px; color: var(--ink-2); font-size: var(--s-sm); }
-.sy-ctl { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 8px 24px; align-items: center; padding: 16px 0 6px; }
-.sy-read { font-size: var(--s-sm); color: var(--ink-2); min-height: 1.55em; }
+/* The search row stays in view while the cards scroll, so the line that names a hovered or tapped city never leaves the screen (30 October 2026 proposal C). */
+.sy-ctl { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 8px 24px; align-items: center; margin-top: 10px; padding: 10px 0; position: sticky; top: calc(var(--proto-h) + env(safe-area-inset-top, 0px)); z-index: 20; background: var(--bg); border-bottom: 1px solid var(--rule); }
+.sy-read { font-size: var(--s-md); color: var(--ink-2); min-height: 1.55em; }
 .sy-read b { color: var(--ink); font-weight: 600; }
 .sy-read .red { color: var(--claim); }
 .sy-read a { color: var(--ink); }
@@ -590,7 +591,7 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .sy-nm i { display: block; width: 10px; height: 10px; border-radius: 2px; }
 .sy-nm i.bad { background: var(--res-bad); } .sy-nm i.amb { background: var(--res-amb); } .sy-nm i.ok { background: var(--res-ok); }
 .sy-nm i.na { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink-3) 55%, transparent); }
-@media (max-width: 800px) { .sy-ctl { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 800px) { .sy-ctl { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 8px 12px; padding: 6px 0; } .sy-read { font-size: var(--s-xs); line-height: 1.35; } }
 @media (max-width: 640px) { .sy-sq a { width: 11px; height: 11px; } .sy-cols .sy-sq a { width: 10px; height: 10px; } }
 @media (max-width: 760px) {
   .site-in:has(.lens) { flex-wrap: wrap; height: auto; padding: 8px 0 10px; row-gap: 8px; }
