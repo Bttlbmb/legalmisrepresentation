@@ -1680,6 +1680,7 @@ function cityService(x, place = "") {
   for (const sep of [" / ", " - "]) { const i = t.lastIndexOf(sep); if (i > 0 && SVC_AUTH.test(t.slice(i + sep.length))) t = t.slice(0, i).trim(); }
   const own = place.replace(/^(Landkreis|Kreis|Stadt|Städteregion|Region|Regionalverband) /, "").replace(/ \(.*\)$/, "");
   if (!t || t === own || /\bmunicipal service guidance$/.test(t) || SVC_NOTE.test(t)) return "";
+  if (x.service) t = x.service;
   return t.length > 96 ? t.slice(0, 93).replace(/\s+\S*$/, "") + "…" : t;
 }
 // A finding is one disclosure: the summary holds the result, the service and the claim; opening it shows the page link, the passage and the law.
@@ -1688,7 +1689,7 @@ const sysOrdered = F => F.map((x, i) => [x.s === "bad" ? (x.g === "M" ? 0 : 1) :
 function cityFinding(x, place) {
   const de = isGermanClaim(x.claim), svc = cityService(x, place);
   const major = x.g === "M";
-  return `<article class="cp-row"><details class="cp-more"><summary${major ? ' class="maj"' : ""}><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc${svc.length > 56 ? " long" : ""}" lang="de">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
+  return `<article class="cp-row"><details class="cp-more"><summary${major ? ' class="maj"' : ""}><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc${svc.length > 56 ? " long" : ""}" lang="${x.service ? "en" : "de"}">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
     <h3 class="cp-claim"${de ? ' lang="de"' : ""}>${keep(widow(x.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, "")))}</h3>
     ${x.s === "amb" && x.unc ? `<p class="cp-unc">${esc(x.unc)}</p>` : ""}${major ? `<span class="cp-tier" title="Could stop a resident claiming something the law gives them, or cost them money">Major</span>` : ""}</summary>
     <p class="cp-src"><a href="${esc(x.url)}" target="_blank" rel="noopener">Page checked ↗</a>${x.date ? `<span>${fmtDate(x.date)}</span>` : ""}</p>
