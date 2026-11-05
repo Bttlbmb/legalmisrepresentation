@@ -541,6 +541,11 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .sy-sum-note { margin-top: 2px; font-size: var(--s-xs); color: var(--ink-3); }
 .sy-g { flex: none; width: 10px; height: 10px; border-radius: 2px; background: var(--ink-3); }
 .sy-g.ci { border-radius: 50%; }
+.sy-tabs { display: flex; gap: 24px; margin: 16px 0 14px; border-bottom: 1px solid var(--rule); }
+.sy-tabs a { display: inline-flex; align-items: center; min-height: 36px; margin-bottom: -1px; color: var(--ink-2); font-size: var(--s-sm); text-decoration: none; border-bottom: 2px solid transparent; }
+.sy-tabs a:hover { color: var(--ink); }
+.sy-tabs a[aria-current="page"] { color: var(--ink); font-weight: 600; border-bottom-color: var(--ink); }
+.sy-one { grid-template-columns: minmax(0, 1fr); }
 .sy-note { color: var(--ink-3); font-size: var(--s-xs); padding-top: 18px; max-width: 78ch; }
 .sy-note summary { cursor: pointer; color: var(--ink-2); font-size: var(--s-sm); min-height: 32px; display: flex; align-items: center; }
 .sy-note p { padding-top: 6px; color: var(--ink-2); font-size: var(--s-sm); }
@@ -761,7 +766,7 @@ function state() {
   // Institution pages exist only in the public layout and only when the data carries groups.
   if ((s.kind === "inst" && !(GROUPS.length && s.L === "A1")) || (s.kind === "group" && !(GROUP[s.id] && s.L === "A1"))
     || (s.kind === "entity" && !(ENTITY[s.id] && s.L === "A1"))
-    || (s.kind === "sys" && !(SYS && s.L === "A1")) || (s.kind === "city" && !(SYSCITY[s.id] && s.L === "A1")) || (s.kind === "district" && !(SYSDIST[s.id] && s.L === "A1"))) s.kind = "home";
+    || (s.kind === "sys" && !(SYS && s.L === "A1" && (!s.id || SWEEP[s.id]))) || (s.kind === "city" && !(SYSCITY[s.id] && s.L === "A1")) || (s.kind === "district" && !(SYSDIST[s.id] && s.L === "A1"))) s.kind = "home";
   const m = /^from-([^~]+)(?:~(.+))?$/.exec(extra || "");
   if (m && s.L === "A1" && GROUP[m[1]] && (!m[2] || ENTITY[m[1] + "~" + m[2]])) s.from = m[2] ? m[1] + "~" + m[2] : m[1];
   return s;
@@ -1535,18 +1540,53 @@ if (SYS) {
   SYS.gMajor = SYS.list.concat(SYS.dlist).reduce((n, c) => n + c.F.filter(f => f.g === "M").length, 0);
   SYS.gMinor = SYS.list.concat(SYS.dlist).reduce((n, c) => n + c.F.filter(f => f.g === "m").length, 0);
 }
+// Smaller sweeps of other countries: each has its own tab and page. Their places share the city pages; ids never collide with German AGS codes.
+const SWEEP = {};
+const SYSX = (DATA.systemic || []).slice(1);
+SYSX.forEach(sw => {
+  sw.list = sw.cities.map(([id, rank, name, pop, cov, pages, F, web, group]) => {
+    const c = { id, rank, name, pop, cov, pages, F, web, group, sw, bad: F.filter(f => f.s === "bad").length, amb: F.filter(f => f.s === "amb").length };
+    c.k = c.bad ? "bad" : c.amb ? "amb" : cov === "s" || cov === "d" ? "ok" : "na";
+    c.read = pages.filter(p => p[0] === "bad" || p[0] === "amb" || p[0] === "ok").length;
+    SYSCITY[id] = c;
+    return c;
+  });
+  sw.dlist = [];
+  sw.cnt = { bad: 0, amb: 0, ok: 0, na: 0 };
+  sw.list.forEach(c => sw.cnt[c.k]++);
+  sw.confirmed = sw.list.reduce((n, c) => n + c.bad, 0);
+  sw.inspected = sw.cnt.bad + sw.cnt.amb + sw.cnt.ok;
+  sw.groups = [...new Set(sw.list.map(c => c.group))];
+  SWEEP[sw.id] = sw;
+});
 const SYS_GRADE_NOTE = "A major misrepresentation could, if a resident believed the page, stop them claiming something the law gives them or cost them money, a start date or a deadline. A minor one is an extra step, a false expectation or a small detail. AI readers graded each one against a written rubric, and a person has not checked every grade. A grade describes what could happen if someone relied on the page, not what did happen. The percentage beside each major count is a share of the places inspected, not a rate.";
 const SYS_ROW_NOTE = "A major misrepresentation could, if a resident believed the page, stop them claiming something the law gives them or cost them money, a start date or a deadline. It carries a “Major” label. The others are minor: an extra step, a false expectation or a small detail. AI readers graded each one against a written rubric, and a person has not checked every grade. A grade describes what could happen if someone relied on the page, not what did happen.";
 const sysNoun = n => n === 1 ? "misrepresentation" : "misrepresentations";
 const sysSearchKey = t => t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const SYS_HINT = SYS && SYS.dlist.length ? "Hover or tap a dot or square to see the city or district." : "Hover or tap a square to see the city.";
+const sysArea = c => c.sw ? c.group : SYS_STATES[c.st];
 const sysKind = c => c.dist ? "district" : "city";
-const sysReadLine = (c, open) => `<b>${esc(c.name)}</b> · ${esc(SYS_STATES[c.st])} · ${c.dist ? "district" : `${fmtN(c.pop)} inhabitants`} · ${c.bad ? `<span class="red">${c.bad} ${sysNoun(c.bad)}</span>` : SYS_LABEL[c.k].toLowerCase()}${open ? ` · <a href="${href("A1", sysKind(c), c.id)}">Open page →</a>` : ""}`;
+const sysReadLine = (c, open) => `<b>${esc(c.name)}</b> · ${esc(sysArea(c))} · ${c.dist ? "district" : `${fmtN(c.pop)} inhabitants`} · ${c.bad ? `<span class="red">${c.bad} ${sysNoun(c.bad)}</span>` : SYS_LABEL[c.k].toLowerCase()}${open ? ` · <a href="${href("A1", sysKind(c), c.id)}">Open page →</a>` : ""}`;
 const sysSquare = c => `<a class="${c.k}${c.F.some(f => f.g === "M") ? " maj" : ""}${c.dist ? " d" : ""}" href="${href("A1", sysKind(c), c.id)}" data-id="${c.id}" tabindex="-1" aria-label="${esc(c.name)}: ${esc(SYS_LABEL[c.k].toLowerCase())}"></a>`;
 
 // One line per kind: how many were inspected, how many of them have at least one misrepresentation, and that share of the inspected.
 const sysSumLine = (shape, inspected, [one, many], bad, major) => `<p class="sy-sum-line"><i class="sy-g ${shape}"></i><span><b>${fmtN(inspected)}</b> ${inspected === 1 ? one : many} inspected · <b>${fmtN(bad)}</b>${inspected ? ` (${Math.round(100 * bad / inspected)}%)` : ""} with a misrepresentation${SYS.gMajor ? ` · <b>${fmtN(major)}</b>${inspected ? ` (${Math.round(100 * major / inspected)}%)` : ""} with a major one` : ""}</span></p>`;
 
+// With more than one sweep, a second row of tabs under the title: one page per sweep. Without other sweeps nothing is added.
+const sysTabs = (L, current) => SYSX.length ? `<nav class="sy-tabs" aria-label="Sweeps">${[SYS].concat(SYSX).map(sw => `<a href="${href(L, "sys", sw === SYS ? "" : sw.id)}"${sw === current ? ' aria-current="page"' : ""}>${esc(sw === SYS ? "Germany" : sw.tab || sw.title)}</a>`).join("")}</nav>` : "";
+function sysCountryHome(L, sw) {
+  // One card per group, the largest first, laid out like the German states.
+  const group = g => { const l = sw.list.filter(c => c.group === g); return `<section class="sy-state"><h3>${esc(g)}</h3><div class="sy-grp"><p class="sy-sub">${plural(l.length, "place", "places")}</p><div class="sy-sq">${l.map(sysSquare).join("")}</div></div></section>`; };
+  const groups = sw.groups.slice().sort((x, y) => sw.list.filter(c => c.group === y).length - sw.list.filter(c => c.group === x).length);
+  return `<section class="hero"><h1>What you’re told vs. what the law says</h1>${sysTabs(L, sw)}<p class="lede">${esc(widow(sw.scope || ""))}</p>
+    <div class="sy-sum"><p class="sy-sum-line"><i class="sy-g ci"></i><span><b>${fmtN(sw.inspected)}</b> ${sw.inspected === 1 ? "place" : "places"} inspected · <b>${fmtN(sw.cnt.bad)}</b> with a misrepresentation</span></p>${sw.note ? `<p class="sy-sum-note">${esc(sw.note)}</p>` : ""}</div></section>
+    ${lensRow(L, "sys")}
+    <div class="sy-ctl sy-one"><p class="sy-read" id="sy-read">Hover or tap a dot to see the place.</p></div>
+    <div class="sy-keys" role="group" aria-label="Show only">${SYS_KEYS.map(k => `<button type="button" data-k="${k}" aria-pressed="false"><i class="${k}"></i>${SYS_LABEL[k]} · ${fmtN(sw.cnt[k])}</button>`).join("")}</div>
+    <div class="sy-bands mixed" id="sy-bands"><div class="sy-cols">${groups.map(group).join("")}</div></div>
+    <p class="stats" style="padding-top:12px">One dot per place, largest first within each group. An empty dot has not been inspected yet.</p>
+    <details class="sy-note"><summary>How to read this</summary><p>A misrepresentation is one confirmed statement on one council’s website. A place counts as inspected when we read the service guidance of its council. A place is not the same as a council: some are served by more than one. “Not yet inspected” is not a clean result, and a place we could not open stays in that group. Only confirmed misrepresentations are counted; a statement we are not sure about is shown as unclear. The percentages used for the German sweep are left out here because so few places have been read. The results describe only the pages read and are not a rate for these places.</p></details>`;
+}
 function sysHome(L) {
   const stateBlock = id => {
     const l = SYS.list.filter(c => c.st === id);
@@ -1557,7 +1597,7 @@ function sysHome(L) {
   // Berlin, Hamburg and Bremen (with Bremerhaven) have one or two cities each: one block with named squares.
   const cs = SYS.list.filter(c => SYS_CITY_STATES.includes(c.st));
   const cityStates = `<section class="sy-state"><h3>City-states</h3><div class="sy-grp"><p class="sy-sub">${plural(cs.length, "city", "cities")}</p><div class="sy-named">${cs.map(c => `<a class="sy-nm${c.F.some(f => f.g === "M") ? " maj" : ""}" href="${href("A1", "city", c.id)}"><i class="${c.k}"></i>${esc(c.name)}</a>`).join("")}</div></div></section>`;
-  return `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${esc(widow(`Websites of the ${fmtN(SYS.list.length)} largest German cities${SYS.dlist.length ? " and all German districts" : ""}, checked against federal and EU law.`))}</p>
+  return `<section class="hero"><h1>What you’re told vs. what the law says</h1>${sysTabs(L, SYS)}<p class="lede">${esc(widow(`Websites of the ${fmtN(SYS.list.length)} largest German cities${SYS.dlist.length ? " and all German districts" : ""}, checked against federal and EU law.`))}</p>
     <div class="sy-sum">${SYS.dlist.length ? sysSumLine("sq", SYS.dread, ["district", "districts"], SYS.dbad, SYS.dmajor) : ""}${sysSumLine(SYS.dlist.length ? "ci" : "sq", SYS.inspected, ["city", "cities"], SYS.cnt.bad, SYS.major)}
       <p class="sy-sum-note">Misrepresentations in all: ${SYS.dlist.length ? `${fmtN(SYS.dbad_all)} on district websites, ` : ""}${fmtN(SYS.confirmed)} on city websites.</p></div></section>
     ${lensRow(L, "sys")}
@@ -1569,10 +1609,11 @@ function sysHome(L) {
     <details class="sy-note"><summary>How to read this</summary><p>A misrepresentation is one confirmed statement on one ${SYS.dlist.length ? "city’s or district’s" : "city’s"} website. A city counts as inspected when we read its service guidance or available service directory. A directory check does not assess detailed legal guidance. The percentage is the share of the places inspected so far. Places were not inspected to the same depth, so it is not a rate for German cities or districts, and places should not be ranked by it. “No misrepresentation found” applies only to the pages read. A ${SYS.dlist.length ? "city or district" : "city"} that is not yet inspected is listed, not cleared. The ${fmtN(SYS.list.length)} cities are the largest in Germany by population on ${fmtDate(SYS.popDate)}.${SYS.dlist.length ? ` All ${fmtN(SYS.dlist.length)} German districts (Landkreise) are listed; ${fmtN(SYS.dread)} had service guidance read, while ${fmtN(SYS.dlist.length - SYS.dread)} had access checks only. The number of pages read varies by district, and inaccessible services remain unresolved.` : ""}</p>${SYS.gMajor ? `<p>${esc(SYS_GRADE_NOTE)}</p>` : ""}</details>`;
 }
 
-function afterSys() {
+function afterSys(sw = SYS) {
   const root = document.getElementById("sy-bands");
   if (!root) return;
   const read = document.getElementById("sy-read"), q = document.getElementById("sy-q"), hits = document.getElementById("sy-hits");
+  const places = () => sw.list.concat(sw.dlist);
   const touch = matchMedia("(hover: none)"), squares = () => [...root.querySelectorAll("a[data-id]")];
   const at = e => { const a = e.target.closest("a[data-id]"); return a && (SYSCITY[a.dataset.id] || SYSDIST[a.dataset.id]); };
   root.addEventListener("pointerover", e => { const c = at(e); if (c && e.pointerType !== "touch") read.innerHTML = sysReadLine(c); });
@@ -1586,14 +1627,14 @@ function afterSys() {
       read.innerHTML = sysReadLine(c, true);
     }
   });
-  q.addEventListener("input", () => {
+  if (q) q.addEventListener("input", () => {
     const v = sysSearchKey(q.value.trim());
     root.classList.toggle("q", !!v);
-    const found = v ? SYS.list.concat(SYS.dlist).filter(c => sysSearchKey(c.name).includes(v)) : [];
+    const found = v ? places().filter(c => sysSearchKey(c.name).includes(v)) : [];
     const ids = new Set(found.map(c => c.id));
     squares().forEach(a => a.classList.toggle("hit", ids.has(a.dataset.id)));
     // One match is already named in the line above with its "Open page" link, so the list would only repeat it.
-    hits.innerHTML = found.length === 1 ? "" : found.slice(0, 8).map(c => `<li><a href="${href("A1", sysKind(c), c.id)}">${esc(c.name)}</a> <small>${esc(SYS_STATES[c.st])}${c.dist ? " · district" : ""}</small></li>`).join("") + (found.length > 8 ? `<li><small>${found.length - 8} more</small></li>` : "");
+    hits.innerHTML = found.length === 1 ? "" : found.slice(0, 8).map(c => `<li><a href="${href("A1", sysKind(c), c.id)}">${esc(c.name)}</a> <small>${esc(sysArea(c))}${c.dist ? " · district" : ""}</small></li>`).join("") + (found.length > 8 ? `<li><small>${found.length - 8} more</small></li>` : "");
     read.innerHTML = !v ? SYS_HINT : found.length === 1 ? sysReadLine(found[0], true) : found.length ? `${found.length} ${SYS.dlist.length ? "places" : "cities"} match.` : `No ${SYS.dlist.length ? "city or district" : "city"} matches.`;
   });
   document.querySelectorAll(".sy-keys button").forEach(b => b.addEventListener("click", () => {
@@ -1611,7 +1652,7 @@ function cityFacts(c) {
 }
 function cityLede(c, f) {
   if (!c.pages.length && !c.F.length && c.dist) return `Nobody has read ${c.name}’s website yet.`;
-  if (!c.pages.length && !c.F.length) return `${c.name} is on the list of the ${fmtN(SYS.list.length)} largest cities, but nobody has read its website yet.`;
+  if (!c.pages.length && !c.F.length) return `${c.name} is on the list of the ${fmtN((c.sw || SYS).list.length)} largest ${c.sw ? "towns and cities" : "cities"}, but nobody has read its website yet.`;
   if (c.k === "na") return `We found ${plural(c.pages.length, "page", "pages")} on ${c.name}’s website but did not read any of them in enough detail to judge.`;
   const found = [c.bad && plural(c.bad, "misrepresentation", "misrepresentations"), c.amb && `${c.amb} unclear`].filter(Boolean).join(" and ");
   return `We ${c.dist ? "checked" : "read"} ${plural(c.read, "service page", "service pages")} on ${fmtDate(f.done)} and found ${found || "no misrepresentation"}.`;
@@ -1717,15 +1758,15 @@ function cityPage(L, c) {
   const folded = !empty && tally ? `<details class="cp-nt"><summary>What this shows</summary><p>${esc(noteText)}</p></details>${gradeNote}` : "";
   const note = !empty && !tally ? `<p class="res-note"><b>What this shows.</b> ${esc(noteText)}</p>` : "";
   // Two columns from 960px: the header stays in view beside the findings.
-  return `<div class="cp-two"><aside class="cp-rail"><nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "sys")}">← Systemic sweeps</a></nav>
-    <header class="area-head"><p class="eyebrow">${esc(SYS_STATES[c.st])} · ${c.dist ? "District" : `${fmtN(c.pop)} inhabitants`}</p><h1>${esc(c.name)}</h1>
+  return `<div class="cp-two"><aside class="cp-rail"><nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "sys", c.sw ? c.sw.id : "")}">← ${c.sw ? esc(c.sw.tab || c.sw.title) : "Systemic sweeps"}</a></nav>
+    <header class="area-head"><p class="eyebrow">${esc(sysArea(c))} · ${c.dist ? "District" : `${fmtN(c.pop)} inhabitants`}</p><h1>${esc(c.name)}</h1>
     ${tally || `<p class="lede">${esc(widow(cityLede(c, f)))}</p>`}${folded}
     ${c.web || c.auth ? `<p class="meta-line">${c.auth ? `<span>${esc(c.auth)}</span>` : ""}${c.web ? `<span><a href="${esc(c.web)}" target="_blank" rel="noopener">Official website ↗</a></span>` : ""}</p>` : ""}</header></aside>
-    <div class="cp-main">${empty ? `<div class="cp-empty"><div class="cp-lab"><i class="cp-sq na"></i><b>Not yet inspected</b></div><p>Nothing is known about ${esc(c.name)}’s website yet. That is not a clean result.</p>${c.dist ? "" : `<small>Listed by population on ${fmtDate(SYS.popDate)}.</small>`}</div>`
+    <div class="cp-main">${empty ? `<div class="cp-empty"><div class="cp-lab"><i class="cp-sq na"></i><b>Not yet inspected</b></div><p>Nothing is known about ${esc(c.name)}’s website yet. That is not a clean result.</p>${c.dist ? "" : `<small>Listed by population on ${fmtDate((c.sw || SYS).popDate)}.</small>`}</div>`
       : `${c.F.length ? `<div class="cp-list">${sysOrdered(c.F).map(x => cityFinding(x, c.name)).join("")}</div>` : c.k === "ok" ? `<div class="cp-empty"><p>Nothing found on the pages we read. They are listed below.</p></div>` : ""}${cityPages(c, !c.F.length)}${note}`}</div></div>`;
 }
 function sysBody(s) {
-  return s.kind === "sys" ? sysHome(s.L) : cityPage(s.L, s.kind === "district" ? SYSDIST[s.id] : SYSCITY[s.id]);
+  return s.kind === "sys" ? (s.id ? sysCountryHome(s.L, SWEEP[s.id]) : sysHome(s.L)) : cityPage(s.L, s.kind === "district" ? SYSDIST[s.id] : SYSCITY[s.id]);
 }
 
 /* ---------- render ---------- */
@@ -1738,7 +1779,7 @@ function render() {
   document.body.style.overflow = "";
   if (s.L[0] === "A") afterA(s);
   if (s.L === "A1" && s.kind === "group") afterGroup(s);
-  if (s.L === "A1" && s.kind === "sys") afterSys();
+  if (s.L === "A1" && s.kind === "sys") afterSys(s.id ? SWEEP[s.id] : SYS);
   if (s.L === "B") afterB(s, prev);
   if (s.L === "C") afterC(s, prev);
   last = s;
