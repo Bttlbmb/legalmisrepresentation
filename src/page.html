@@ -1703,9 +1703,10 @@ function cityQuote(raw, lang) {
   return `<blockquote class="cp-q"${lang ? ` lang="${lang}"` : ""}>${html}</blockquote>`;
 }
 function cityPassage(x) {
-  const de = x.lang === "German", shown = de && x.tr ? cityQuote(x.tr, "en") : cityQuote(x.q, LANG[x.lang] || "");
+  const foreign = x.lang && x.lang !== "English", translated = foreign && x.tr;
+  const shown = translated ? cityQuote(x.tr, "en") : cityQuote(x.q, LANG[x.lang] || "");
   return `<div class="side side-claim"><p class="side-label">What the page says</p>${shown}
-    ${de && x.tr ? `<details class="cp-orig"><summary><span>German original</span><span class="t"></span></summary>${cityQuote(x.q, "de")}</details>` : de ? `<p class="cp-law-p">German original, not translated.</p>` : ""}</div>`;
+    ${translated ? `<details class="cp-orig"><summary><span>${esc(x.lang)} original</span><span class="t"></span></summary>${cityQuote(x.q, LANG[x.lang] || "")}</details>` : foreign ? `<p class="cp-law-p">${esc(x.lang)} original, not translated.</p>` : ""}</div>`;
 }
 function cityLaw(x) {
   const link = x.lawUrl ? `<a href="${esc(x.lawUrl)}" target="_blank" rel="noopener">${esc(x.prov || "Law text")} ↗</a>` : esc(x.prov);
@@ -1730,11 +1731,12 @@ const sysOrdered = F => F.map((x, i) => [x.s === "bad" ? (x.g === "M" ? 0 : 1) :
 function cityFinding(x, place) {
   const de = isGermanClaim(x.claim), svc = cityService(x, place);
   const major = x.g === "M";
+  const context = [x.scope, x.context, x.evidence_note].filter(t => typeof t === "string" && t.trim());
   return `<article class="cp-row"><details class="cp-more"><summary${major ? ' class="maj"' : ""}><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc${svc.length > 56 ? " long" : ""}" lang="${x.service ? "en" : "de"}">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
     <h3 class="cp-claim"${de ? ' lang="de"' : ""}>${keep(widow(x.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, "")))}</h3>
     ${x.s === "amb" && x.unc ? `<p class="cp-unc">${esc(x.unc)}</p>` : ""}${major ? `<span class="cp-tier" title="Could stop a resident claiming something the law gives them, or cost them money">Major</span>` : ""}</summary>
     <p class="cp-src"><a href="${esc(x.url)}" target="_blank" rel="noopener">Page checked ↗</a>${x.date ? `<span>${fmtDate(x.date)}</span>` : ""}</p>
-    <div class="compare">${cityPassage(x)}${cityLaw(x)}</div></details></article>`;
+    <div class="compare">${cityPassage(x)}${cityLaw(x)}</div>${context.length ? `<div class="cp-inside"><p class="cp-law-p"><b>Scope and context</b></p>${context.map(t => `<p class="cp-law-p">${esc(t)}</p>`).join("")}</div>` : ""}</details></article>`;
 }
 // The header counts what was found, then says once how many pages were checked and when.
 function cityTally(c, f) {

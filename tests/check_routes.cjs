@@ -80,6 +80,18 @@ for (const narrow of [false, true]) {
         cityFindings[`#A1.city.${c[0]}`] = c[6].length;
         cityData[`#A1.city.${c[0]}`] = ordered(c[6]);
       }
+      // Other countries share city rendering, including translated passages and optional context.
+      for (const sw of (data.systemic || []).slice(1)) {
+        routes.push(`#A1.sys.${sw.id}`);
+        must[`#A1.sys.${sw.id}`] = 'class="sy-tabs"';
+        for (const c of sw.cities) {
+          const route = `#A1.city.${c[0]}`;
+          routes.push(route);
+          must[route] = 'class="area-head"';
+          cityFindings[route] = c[6].length;
+          cityData[route] = ordered(c[6]);
+        }
+      }
       routes.push('#A1.city.no-such-city');
       // Districts join the same pages; a district id is never a city route and the other way round.
       for (const d of sys ? sys.districts || [] : []) {
@@ -136,15 +148,27 @@ for (const narrow of [false, true]) {
           if (html.includes('class="cp-nt"') && html.includes('class="res-note"')) throw new Error(`Note shown twice: ${route}`);
         }
         if (cityFindings[route] > 0 && (!html.includes('class="cp-sum"') || html.split('<details class="cp-more">').length - 1 !== cityFindings[route])) throw new Error(`Finding disclosures or summary missing: ${route}`);
-        // A passage keeps every word of the research text, the translation and the German original alike; only its layout is structured.
+        // A passage keeps every word of the research text, the English translation and any original alike; only its layout is structured.
         // The "Claim in German" tag shows only on a headline that really is German, not on one that names BAföG or Führungszeugnis.
         if (route in cityData) {
           const words = s => (s.match(/[\p{L}\p{N}]+/gu) || []).join(' ');
           const plain = s => s.replace(/<[^>]+>/g, ' ').replaceAll('&lt;', '<').replaceAll('&gt;', '>').replaceAll('&quot;', '"').replaceAll('&#39;', "'").replaceAll('&amp;', '&');
           html.split('<article class="cp-row">').slice(1).forEach((row, i) => {
             const f = cityData[route][i], quotes = [...row.matchAll(/<blockquote class="cp-q"[^>]*>([\s\S]*?)<\/blockquote>/g)].map(m => words(plain(m[1])));
-            const want = f.lang === 'German' && f.tr ? [f.tr, f.q] : [f.q];
+            const translated = f.lang && f.lang !== 'English' && f.tr;
+            const want = translated ? [f.tr, f.q] : [f.q];
             if (quotes.length !== want.length || want.some((w, k) => quotes[k] !== words(w))) throw new Error(`A passage differs from the research text in finding ${i}: ${route}`);
+            if (translated && !row.includes(`<summary><span>${f.lang} original</span>`)) throw new Error(`Original-language label missing in finding ${i}: ${route}`);
+            if (f.lang === 'English' && row.includes('class="cp-orig"')) throw new Error(`English original hidden in finding ${i}: ${route}`);
+            if (f.lang === 'Spanish' && translated && (!row.includes('<blockquote class="cp-q" lang="en">') || !row.includes('<blockquote class="cp-q" lang="es">'))) throw new Error(`Spanish translation or original language missing in finding ${i}: ${route}`);
+            const context = [f.scope, f.context, f.evidence_note].filter(t => typeof t === 'string' && t.trim());
+            const inside = (row.match(/<div class="cp-inside">([\s\S]*?)<\/div>/) || [])[1];
+            if (Boolean(inside) !== Boolean(context.length)) throw new Error(`Optional context visibility differs in finding ${i}: ${route}`);
+            if (inside) {
+              const paragraphs = [...inside.matchAll(/<p class="cp-law-p">([\s\S]*?)<\/p>/g)].map(m => words(plain(m[1])));
+              const expected = ['Scope and context', ...context].map(words);
+              if (paragraphs.length !== expected.length || expected.some((p, k) => paragraphs[k] !== p)) throw new Error(`Scope or context differs from data in finding ${i}: ${route}`);
+            }
             const german = (f.claim.match(/\b(der|die|das|und|nicht|wird|werden|für|mit|eine|ein|den|dem|von|bei|Die|Der|Das|Sie|ist|sind)\b/g) || []).length >= 2;
             if (row.includes('class="cp-tag"') !== german) throw new Error(`"Claim in German" tag does not match the headline in finding ${i}: ${route}`);
             if (row.includes('white-space') || row.includes('style="font-size')) throw new Error(`Inline type or whitespace style in finding ${i}: ${route}`);

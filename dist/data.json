@@ -159204,6 +159204,3367 @@
      "Landratsamt Altenburger Land"
     ]
    ]
+  },
+  {
+   "id": "united-states",
+   "title": "US cities and towns",
+   "popDate": "2025-07-01",
+   "cities": [
+    [
+     "3651000",
+     1,
+     "New York",
+     8584629,
+     "s",
+     [
+      [
+       "amb",
+       "https://portal.311.nyc.gov/article/?kanumber=KA-03115",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.nyc.gov/site/animalwelfare/resources/service-and-emotional-support-animals.page",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.nyc.gov/site/hpd/services-and-information/resources-for-people-with-disabilities.page",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://portal.311.nyc.gov/article/?kanumber=KA-02117",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "New York"
+    ],
+    [
+     "0644000",
+     2,
+     "Los Angeles",
+     3869089,
+     "s",
+     [
+      [
+       "na",
+       "https://housing.lacity.gov/rental-property-owners/resources-for-all-rental-properties",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://housing.lacity.gov/housing/assistance-and-service-animals",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "1714000",
+     3,
+     "Chicago",
+     2731585,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.chicago.gov/city/en/depts/mopd.html",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.chicago.gov/city/en/depts/mopd/provdrs/CareerCenter/svcs/benefits_analysis1.html",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.chicago.gov/city/en/depts/mopd/provdrs/hous/svcs/accessible_home_modificationprogram-ages0-5911.html",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Illinois"
+    ],
+    [
+     "4835000",
+     4,
+     "Houston",
+     2397315,
+     "s",
+     [
+      [
+       "bad",
+       "https://www.houstontx.gov/hr/privacy_policy.html",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.houstontx.gov/courts/passports.html",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says the health plan has 60 days to respond to an access request if the records are held elsewhere or offsite.",
+       "page": "INDIVIDUAL REQUEST TO INSPECT HEALTH INFORMATION",
+       "url": "https://www.houstontx.gov/hr/hrfiles/privacy/HIPAA%20Request%20to%20Inspect%20PHI.pdf",
+       "lang": "English",
+       "q": "I request to review health information held about me in the City of Houston Self-Insured Medical Group Health Plans’ \"designated record set,\" in accordance with the Health Insurance Portability and Accountability Act of 1996 (HIPAA). A \"designated record set\" includes information such as medical records; billing records; enrollment, payment, claims adjudication and health plan case or medical management record systems; or records used to make decisions about individuals.\nI understand that the Plans’ administrator has 30 days to respond to this request, and that if someone else holds the information or it is off-site, the response time is 60 days.",
+       "tr": "",
+       "why": "The plan must act within 30 days, wherever the records are kept. It can take one further 30-day extension if it gives written reasons and a completion date within the first 30 days.",
+       "prov": "45 CFR 164.524(a), (b)(2), (d)(3); 45 CFR 160.103",
+       "lawUrl": "https://www.ecfr.gov/current/title-45/section-164.524",
+       "date": "2026-11-05",
+       "service": "Access health records",
+       "g": "m",
+       "scope": "A member’s request for their own accessible health information held by or for the city’s self-insured medical plan, including records held offsite on its behalf. This excludes employer employment records, independently held records outside the plan’s control, requests to send records to someone else and lawful refusals.",
+       "context": "The current privacy notice, effective 1 January 2026, requires this form and says federal regulations prevail over discrepancies. A total of 60 days can be lawful with the required written extension, but the form instead makes that period depend on where the records are held. The form is undated; its current link does not establish when its wording was reviewed.",
+       "evidence_note": "The complete form and notice were read through live web text extraction and independently reviewed. An original-PDF checksum was unavailable, and no original PDF archive was retained."
+      },
+      {
+       "s": "amb",
+       "claim": "Says all legal guardians must attend or submit consent for a minor’s passport.",
+       "page": "City of Houston Municipal Courts Department - U.S. Passport Services",
+       "url": "https://www.houstontx.gov/courts/passports.html",
+       "lang": "English",
+       "q": "Minors\nAll legal guardians must be present or submit a consent form (DS-3053).\nOriginal Valid ID is required for applicants 16 years and older.",
+       "tr": "",
+       "why": "Applicants aged 16 or 17 normally sign their own application. A passport officer may require a parent’s or guardian’s consent.",
+       "prov": "22 CFR 51.28(a)–(c)",
+       "lawUrl": "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-F/part-51/subpart-B/section-51.28",
+       "date": "2026-11-05",
+       "service": "Apply for a passport",
+       "unc": "The page may use “minors” as shorthand for under-16 applications and links to federal instructions.",
+       "scope": "Houston’s passport application guidance for an ordinary applicant aged 16 or 17. Different rules for children under 16, custody circumstances and the passport officer’s discretion still apply.",
+       "context": "The page accepts new applications on form DS-11 and refers readers to current State Department instructions. “Minors” may mean children under 16 here, and an officer can require additional consent. These qualifications leave the proposed discrepancy unresolved."
+      }
+     ],
+     "",
+     "Texas"
+    ],
+    [
+     "0455000",
+     5,
+     "Phoenix",
+     1665481,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.phoenix.gov/administration/departments/publictransit/transit-programs/rider-information/public-transit-ada.html",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.phoenix.gov/administration/departments/eod/faq.html",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "amb",
+       "claim": "Gives conflicting instructions on how long DBE business certification lasts.",
+       "page": "Equal Opportunity FAQ | City of Phoenix",
+       "url": "https://www.phoenix.gov/administration/departments/eod/faq.html",
+       "lang": "English",
+       "q": "How long is certification valid?\nSBE or DBE certification is valid for five years, with an annual declaration of eligibility required to maintain SBE or DBE status. If you qualify for certification, you will receive a letter showing your firm's renewal date.\nThe annual declaration of eligibility requires an update of information and a copy of your latest tax return (business and/or personal). The annual declaration of eligibility is required to continue certification through the renewal date.\nIt is the responsibility of certified firms to renew their eligibility. A renewal is an abbreviated process from the original application process. For more information, call the Equal Opportunity Department at 602-262-6790.",
+       "tr": "",
+       "why": "Federal DBE certification has no fixed expiry. Firms must meet continuing requirements and can lose certification through the required procedures.",
+       "prov": "49 CFR 26.83(h), (j);26.87;26.111",
+       "lawUrl": "https://www.ecfr.gov/current/title-49/subtitle-A/part-26/subpart-E/section-26.83",
+       "date": "2026-11-05",
+       "service": "Business certification",
+       "unc": "The FAQ also says certification does not expire and mixes several business programmes.",
+       "scope": "The federal Disadvantaged Business Enterprise certification discussed in the city’s business FAQ. Local small-business certification, airport concessions certification and every current re-evaluation requirement are outside this comparison.",
+       "context": "Another answer on the same page correctly says certification does not expire and requires annual updates. The FAQ mixes several certification programmes and also describes renewal dates. A continuing review or formal removal is different from automatic expiry. The conflicting answers leave the meaning unresolved."
+      }
+     ],
+     "",
+     "Arizona"
+    ],
+    [
+     "4260000",
+     6,
+     "Philadelphia",
+     1574281,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.phila.gov/open-records-policy/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.phila.gov/services/crime-law-justice/report-a-crime-or-concern/discrimination-and-unfair-practices/file-a-complaint-about-housing-or-property-discrimination/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Pennsylvania"
+    ],
+    [
+     "4865000",
+     7,
+     "San Antonio",
+     1548422,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.sa.gov/Directory/Departments/NHSD/Housing-Support/Counseling-Mediation/Mediation",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.sa.gov/Directory/Departments/OCC/Passports",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "0666000",
+     8,
+     "San Diego",
+     1406106,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.sandiego.gov/city-attorney/news",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.sandiego.gov/city-attorney/news",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.sandiego.gov/planning/work/housing/toolkit/housing-accessibility",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "4819000",
+     9,
+     "Dallas",
+     1329491,
+     "s",
+     [
+      [
+       "ok",
+       "https://dallascityhall.com/government/citysecretary/openrecords/Pages/Procedures-to-Obtain-Information.aspx",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.dallaslibrary.org/services/library-card",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "4827000",
+     10,
+     "Fort Worth",
+     1028117,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.fortworthtexas.gov/departments/communications/records",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.fortworthtexas.gov/departments/development-services/infrastructure-division",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.fortworthtexas.gov/departments/civil-rights-office/housing-employment-public-accommodation",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "1235000",
+     11,
+     "Jacksonville",
+     1017689,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.jacksonville.gov/departments/neighborhoods/housing-and-community-development/fair-housing",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Florida"
+    ],
+    [
+     "4805000",
+     12,
+     "Austin",
+     1002632,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.austintexas.gov/services/submit-public-information-request",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.austintexas.gov/services/submit-public-information-request",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://library.austintexas.gov/node/1734948",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "0668000",
+     13,
+     "San Jose",
+     989814,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.sanjoseca.gov/your-government/departments-offices/fire-department/public-records",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.sanjoseca.gov/your-government/departments-offices/fire-department/public-records",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.sanjoseca.gov/your-government/appointees/city-clerk",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "3712000",
+     14,
+     "Charlotte",
+     964784,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.charlottenc.gov/City-Government/Departments/Charlotte-Mecklenburg-Community-Relations/Training-and-Resources",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.charlottenc.gov/City-Government/Departments/Charlotte-Mecklenburg-Community-Relations/Training-and-Resources",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.charlottenc.gov/City-Government/Departments/Charlotte-Mecklenburg-Community-Relations/Training-and-Resources",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.charlottenc.gov/City-Government/Departments/Charlotte-Mecklenburg-Community-Relations/Fair-Housing",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says security deposits must be held in a bank or savings institution in North Carolina.",
+       "page": "When You Rent",
+       "url": "https://www.charlottenc.gov/files/sharedassets/city/v/1/city-government/departments/documents/when-you-rent-book-city-of-charlotte-2020.pdf",
+       "lang": "English",
+       "q": "A security deposit is a refundable amount of money paid before move-in to protect the landlord from loss/damage due to a renter’s actions. Under North Carolina law, the maximum that a landlord can charge for a security deposit depends on the length of the lease:\n• Week-to-week lease → two weeks’ rent\n• Month-to-month lease → 1.5 months’ rent\n• Leases longer than monthly → two months’ rent\nThe owner must inform the tenant in writing, within thirty (30) days of the lease beginning, of where the security deposit is being held. The deposit must be held in a licensed, insured bank or savings institution in North Carolina.",
+       "tr": "",
+       "why": "Landlords may instead provide a bond from an insurer licensed in North Carolina. An out-of-state trust account is also allowed if the landlord gives the tenant an adequate bond.",
+       "prov": "North Carolina General Statutes 42-50 and 42-56",
+       "lawUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_42/GS_42-50.html",
+       "date": "2026-11-05",
+       "service": "Renting a home",
+       "g": "m",
+       "scope": "Ordinary residential tenancies covered by the state’s security-deposit law, where the landlord can choose the statutory bond alternative. Single-room lettings and separate duties applying to property brokers are excluded. A tenant cannot require a landlord to choose a different lawful arrangement.",
+       "context": "The book correctly describes different deposit caps for different tenancy lengths, but gives an unqualified North Carolina bank requirement. Its general warning against unlawful lease terms does not identify the bond alternatives. The city currently links the book; its 2020 filename does not establish a recent editorial review."
+      }
+     ],
+     "",
+     "North Carolina"
+    ],
+    [
+     "3918000",
+     15,
+     "Columbus",
+     938396,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.columbus.gov/Government/Departments/Human-Resources/ADA-Compliance/Grievance-Procedure",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Ohio"
+    ],
+    [
+     "1836003",
+     16,
+     "Indianapolis",
+     901116,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.indy.gov/activity/notice-of-tenant-rights-and-responsibilities-the-notice",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.indy.gov/activity/file-impd-complaint",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Indiana"
+    ],
+    [
+     "0667000",
+     17,
+     "San Francisco",
+     826079,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.sf.gov/reports--security-deposits",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.sf.gov/get-information-311",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "5363000",
+     18,
+     "Seattle",
+     784777,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.seattle.gov/public-records",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.seattle.gov/rentinginseattle/renters/are-you-ready-to-rent/fair-housing",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Washington"
+    ],
+    [
+     "0820000",
+     19,
+     "Denver",
+     740613,
+     "s",
+     [
+      [
+       "ok",
+       "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/Resident-Resources/Eviction-Help",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/Resident-Resources/Eviction-Help/Tenant-Rights-and-Resources",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/Resident-Resources/Eviction-Help/Tenant-Rights-and-Resources",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/Resident-Resources/Eviction-Help/Tenant-Rights-and-Resources",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.denvergov.org/content/denvergov/en/human-rights-and-community-partnerships/our-offices/anti-discrimination.html",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says the ten-day period to pay overdue rent always applies, even if the lease says otherwise.",
+       "page": "Tenant Rights and Resources",
+       "url": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/Resident-Resources/Eviction-Help/Tenant-Rights-and-Resources",
+       "lang": "English",
+       "q": "If a tenant has not paid rent or violates the terms of the lease, the landlord can give the tenant a signed “Demand for Compliance or Right to Possession.” This notice is also commonly called a “10-day demand.” The demand must clearly state the amount of rent owed or the violation of the lease to start the eviction process. The tenant can pay the rent if rent is owed, correct the violation, move out, or dispute the eviction before a judge in court.\nThe 10-day demand requirements always apply, even if the language of the lease states that it does not.",
+       "tr": "",
+       "why": "For a single-family home, the period can be five days if the landlord owns five or fewer such homes and the agreement says the ten-day period does not apply.",
+       "prov": "Colorado Revised Statutes 13-40-104(1)(d), (5)(d)",
+       "lawUrl": "https://olls.info/crs/crs2026-title-13.htm",
+       "date": "2026-11-05",
+       "service": "Tenant rights and resources",
+       "g": "m",
+       "scope": "Nonpayment under a qualifying five-day residential agreement for a single-family home, where the landlord owns five or fewer such homes and the agreement excludes the ten-day period. Subsidised or CARES-covered homes, employer housing, victim-survivor protections and other special rules are outside this comparison. A notice period is not the date of physical eviction.",
+       "context": "The notice says it is a general guide that does not cover every exception. Its linked 2025 handbook says most tenants receive ten days and identifies a separate 30-day federal protection. Those qualifications do not specifically correct the statement that ten days always applies despite the lease. Older and newer linked versions are not separate independent findings."
+      }
+     ],
+     "",
+     "Colorado"
+    ],
+    [
+     "4752006",
+     20,
+     "Nashville-Davidson",
+     721074,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.nashville.gov/departments/planning/housing-division/fair-housing",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Tennessee"
+    ],
+    [
+     "4055000",
+     21,
+     "Oklahoma City",
+     719849,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.okc.gov/Government/Records/Records-Request/Public-Records-Fees",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.okc.gov/Government/Records/Records-Request/Public-Records-Fees",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.okc.gov/Government/About-OKC/Accessibility",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Oklahoma"
+    ],
+    [
+     "1150000",
+     22,
+     "Washington",
+     693645,
+     "s",
+     [
+      [
+       "ok",
+       "https://dmv.dc.gov/proofofidentity",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://dmv.dc.gov/page/real-id-faqs",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://ohr.dc.gov/service/file-discrimination-complaint",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "District of Columbia"
+    ],
+    [
+     "4824000",
+     23,
+     "El Paso",
+     683012,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.elpasolibrary.org/explore/passport-services",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "3240000",
+     24,
+     "Las Vegas",
+     679817,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.lasvegasnevada.gov/Government/Departments/Human-Resources/Accessibility",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Nevada"
+    ],
+    [
+     "2507000",
+     25,
+     "Boston",
+     672973,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.boston.gov/departments/housing/top-ten-things-tenants-and-landlords-need-know",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.boston.gov/departments/housing/top-ten-things-tenants-and-landlords-need-know",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.boston.gov/departments/fair-housing-and-equity",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.boston.gov/departments/fair-housing-and-equity",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Massachusetts"
+    ],
+    [
+     "2622000",
+     26,
+     "Detroit",
+     649095,
+     "s",
+     [
+      [
+       "ok",
+       "https://detroitmi.gov/departments/civil-rights-inclusion-opportunity-department/about-crio/civil-rights-team",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://ed2d38b8-29ee-4e4e-bfdf-6a3884bb81a1.filesusr.com/ugd/71a68c_80da16d2c5c44821a2771bf2effbdeaa.pdf",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://ed2d38b8-29ee-4e4e-bfdf-6a3884bb81a1.filesusr.com/ugd/71a68c_c12d309e6397407fb05523e18f14dc88.pdf",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://detroitmi.gov/departments/civil-rights-inclusion-opportunity-department/office-disability-affairs/request-accommodations-or-provide-accessibility-feedback",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://detroitmi.gov/government/boards-and-commissions/tenants-rights-commission",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://detroitmi.gov/departments/housing-and-revitalization-department/office-immigrant-affairs-and-economic-inclusion",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Michigan"
+    ],
+    [
+     "2148006",
+     27,
+     "Louisville/Jefferson County",
+     641962,
+     "s",
+     [
+      [
+       "amb",
+       "https://louisvilleky.gov/government/human-relations-commission/enforcement-faqs",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://louisvilleky.gov/government/louisville-metro-open-records/submit-open-records-request",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://louisvilleky.gov/government/human-relations-commission/know-your-rights-louisville",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://louisvilleky.gov/government/human-relations-commission/enforcement-faqs",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Kentucky"
+    ],
+    [
+     "4159000",
+     28,
+     "Portland",
+     635109,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.portland.gov/public-records/overview",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.portland.gov/public-records/overview",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.portland.gov/policies/human-resources-administrative-rules/leaves/hrar-605-paid-and-protected-oregon-and-family",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.portland.gov/officeofequity/disability/service-animals",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.portland.gov/phb/fair-housing",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.portland.gov/civic/immigrants/free-legal-services",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "amb",
+       "claim": "Says businesses may ask anyone bringing a service animal two questions.",
+       "page": "Service Animals",
+       "url": "https://www.portland.gov/officeofequity/disability/service-animals",
+       "lang": "English",
+       "q": "Business owners and staff are allowed to ask two questions of anyone bringing in an animal they say is a service animal:\n\n1. Is your dog required because of a disability?\n2. What work or task is it trained to perform?\n\nQuestions about someone’s disability, asking the dog to demonstrate the task, or requests for “certification” or other kinds of documentation are not allowed.\nWhy? Well, disability is private, the task may not be demonstrate-able, and people are allowed to train their own service animal (meaning they may not have documentation).\n\nThis is a situation where we are balancing the right of people with disabilities to have some privacy and autonomy with the rights of business owners to protect their business and customers.",
+       "tr": "",
+       "why": "Businesses generally cannot ask these questions when the animal’s trained work is readily apparent.",
+       "prov": "28 CFR36.302(c)(6);28 CFR35.136(f)",
+       "lawUrl": "https://www.ecfr.gov/current/title-28/chapter-I/part-36/subpart-C/section-36.302",
+       "date": "2026-11-05",
+       "service": "Service animals",
+       "unc": "The suspected-fraud heading can imply genuine doubt, and the linked federal guidance states the correct limit.",
+       "scope": "The city’s guidance for businesses covered by the Americans with Disabilities Act. Different rules for employment or housing are outside this comparison.",
+       "context": "The section is headed “What if I Think Someone is Lying About Having a Service Animal?”, which can imply genuine uncertainty. The page links to federal guidance that correctly limits the two questions to cases where service status is not obvious. It also forbids certification and task-demonstration demands. These qualifications leave the wording unclear."
+      }
+     ],
+     "",
+     "Oregon"
+    ],
+    [
+     "4748000",
+     29,
+     "Memphis",
+     609647,
+     "s",
+     [
+      [
+       "ok",
+       "https://memphistn.gov/wp-content/uploads/2025/11/NPP-revised-07282025.pdf",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://totalrewards.memphistn.gov/fmla-adaaa/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://memphistn.gov/ada/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://memphistn.gov/about-hcd/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://memphistn.gov/memphiscares/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Tennessee"
+    ],
+    [
+     "2404000",
+     30,
+     "Baltimore",
+     569997,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.baltimorecity.gov/civil-rights/our-work/community-relations-commission",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.baltimorecity.gov/civil-rights/our-work/community-relations-commission/discrimination-complaint-process-expectations",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.baltimorecity.gov/civil-rights",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://civilrights.baltimorecity.gov/sites/default/files/Disabilities%20brochure_0.pdf",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Maryland"
+    ],
+    [
+     "5553000",
+     31,
+     "Milwaukee",
+     562407,
+     "s",
+     [
+      [
+       "amb",
+       "https://city.milwaukee.gov/police/Information-Services/Obtain-Crash-Reports",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://city.milwaukee.gov/dns/programs/rent",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://city.milwaukee.gov/dns/programs/rent",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Wisconsin"
+    ],
+    [
+     "3502000",
+     32,
+     "Albuquerque",
+     556588,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.cabq.gov/clerk/documents/public-facing-fee-schedule_ada_accessible.pdf",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cabq.gov/humanresources/employee-relations/leavebenefits/fmla/fmlaoverview",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.cabq.gov/health-housing-homelessness/homelessness/supportive-housing",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "New Mexico"
+    ],
+    [
+     "0627000",
+     33,
+     "Fresno",
+     555549,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.fresno.gov/cityattorney/codeenforcement/rental-housing/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.fresno.gov/wp-content/uploads/2023/04/CaliforniaTenantRenterGuide.pdf",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.fresno.gov/wp-content/uploads/2023/04/Brochure-FINAL-12point-ENGLISH.pdf",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.fresno.gov/planning/housing-community-development/housing-services/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.fresno.gov/citycouncil/district-5/immigration-resources/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "0477000",
+     34,
+     "Tucson",
+     548371,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.tucsonaz.gov/Departments/Clerks/Public-Records/FAQ",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.tucsonaz.gov/Departments/Tucson-City-Court/Forms-and-Filings/Appeal-request-and-Set-aside/Set-Aside-Information",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Section-8/Information-for-People-with-Disabilities",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says the court can refuse to set aside a conviction without giving reasons.",
+       "page": "Set Aside Information",
+       "url": "https://www.tucsonaz.gov/Departments/Tucson-City-Court/Forms-and-Filings/Appeal-request-and-Set-aside/Set-Aside-Information",
+       "lang": "English",
+       "q": "The judge has discretion to grant or deny (without explanation) any application to set-aside judgment",
+       "tr": "",
+       "why": "If the court refuses an application to set aside a conviction, it must give its reasons in writing and on the record.",
+       "prov": "Arizona Revised Statutes 13-905(I)",
+       "lawUrl": "https://www.azleg.gov/ars/13/00905.htm",
+       "date": "2026-11-05",
+       "service": "Apply to set aside a conviction",
+       "g": "M",
+       "scope": "A refusal to set aside a misdemeanor conviction within Tucson City Court’s jurisdiction. The law does not guarantee approval, a hearing, reasons of a particular length or an appeal through this provision.",
+       "context": "The page correctly says that setting aside a conviction does not erase the record. Its linked application, dated 2022, says a hearing can be requested but is not required. Not holding a hearing is different from refusing without reasons: the statute requires reasons both in writing and on the record."
+      },
+      {
+       "s": "bad",
+       "claim": "Says someone who already has a second chance certificate cannot apply for another for a misdemeanor.",
+       "page": "Set Aside Information",
+       "url": "https://www.tucsonaz.gov/Departments/Tucson-City-Court/Forms-and-Filings/Appeal-request-and-Set-aside/Set-Aside-Information",
+       "lang": "English",
+       "q": "To qualify, the court must first grant an application to set aside the judgment of guilt. Once qualified, any person convicted of a misdemeanor that has not previously received a certificate of second chance may apply. Arizona Revised Statutes (A.R.S.) § 13-905(K).",
+       "tr": "",
+       "why": "The bar on another second chance certificate applies to someone who already received one for a felony. An earlier misdemeanor certificate alone does not create that bar.",
+       "prov": "Arizona Revised Statutes 13-905(K), (L), (N)",
+       "lawUrl": "https://www.azleg.gov/ars/13/00905.htm",
+       "date": "2026-11-05",
+       "service": "Apply to set aside a conviction",
+       "g": "M",
+       "scope": "An otherwise eligible misdemeanor case within Tucson City Court’s jurisdiction, where the conviction has been set aside and no previous certificate was issued for a felony. All offence, sentence, discharge, timing and victim-rights conditions remain. This does not guarantee that a conviction will be set aside.",
+       "context": "The current court page has no historical disclaimer. Its linked 2022 application repeats a declaration about having no previous certificate of any kind, reflecting older wording. The later law distinguishes previous felony certificates. Setting aside the conviction does not erase the record, and the certificate does not guarantee employment or a licence."
+      }
+     ],
+     "",
+     "Arizona"
+    ],
+    [
+     "0664000",
+     35,
+     "Sacramento",
+     536449,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.cityofsacramento.gov/fire/emergency-medical-services/incident-reports",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cityofsacramento.gov/city-government/accessibility",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "1304000",
+     36,
+     "Atlanta",
+     529110,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.atlantaga.gov/government/mayor-s-office/executive-offices/office-of-transparency",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.atlantaga.gov/government/departments/city-planning/housing",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://atldefenders.atlantaga.gov/services-we-provide",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Georgia"
+    ],
+    [
+     "2938000",
+     37,
+     "Kansas City",
+     521220,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.kcmo.gov/home/showpublisheddocument/17143/639279958871800000",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.kcmo.gov/home/showpublisheddocument/17143/639279958871800000",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.kcmo.gov/city-hall/departments/civil-rights-and-equal-opportunity-creo/welcoming-kansas-city-video-series",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.kcmo.gov/city-hall/departments/human-relations/filing-a-discrimination-complaint-civil-rights-division",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Missouri"
+    ],
+    [
+     "0446000",
+     38,
+     "Mesa",
+     513656,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.mesaaz.gov/Government/Public-Records-Requests",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.mesaaz.gov/Business-Development/ADA-for-Business",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.mesaaz.gov/Business-Development/ADA-for-Business",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.mesaaz.gov/Utilities/StartCancel-Residential-Service",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.mesaaz.gov/Utilities/StartCancel-Residential-Service",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.mesaaz.gov/Government/Together-Mesa/Civil-Rights-Protections",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Arizona"
+    ],
+    [
+     "3755000",
+     39,
+     "Raleigh",
+     506306,
+     "s",
+     [
+      [
+       "amb",
+       "https://raleighnc.gov/ask-raleigh-fix-report-request/services/records-request",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://raleighnc.gov/housing/services/resources-housing-crises-and-homelessness",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://raleighnc.gov/careers-jobs-and-volunteering/services/pay-and-benefits",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://raleighnc.gov/careers-jobs-and-volunteering/services/pay-and-benefits",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "North Carolina"
+    ],
+    [
+     "0816000",
+     40,
+     "Colorado Springs",
+     494743,
+     "s",
+     [
+      [
+       "ok",
+       "https://coloradosprings.gov/city-communications/page/colorado-open-records-act-cora",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://coloradosprings.gov/get-help-housing-and-homelessness-response",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://coloradosprings.gov/housing-help-and-resources",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://coloradosprings.gov/office-accessibility/page/request-ada-accommodation-or-service",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Colorado"
+    ],
+    [
+     "1245000",
+     41,
+     "Miami",
+     489812,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.miami.gov/My-Government/Departments/Office-of-the-City-Attorney/FAQ",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.miami.gov/My-Government/Government-Services/Apply-for-a-Passport-at-City-Hall",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Florida"
+    ],
+    [
+     "3137000",
+     42,
+     "Omaha",
+     488797,
+     "s",
+     [
+      [
+       "x",
+       "https://hr.omaha.gov/hr-policies/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://omahalibrary.org/policies/confidentiality-of-library-records-policy/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://omahalibrary.org/policies/code-of-conduct-policy/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://publicworks.omaha.gov/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Nebraska"
+    ],
+    [
+     "5182000",
+     43,
+     "Virginia Beach",
+     453737,
+     "s",
+     [
+      [
+       "amb",
+       "https://hs.virginiabeach.gov/financial-assistance/snap",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://attorney.virginiabeach.gov/virginia-freedom-of-information-act",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://ems.virginiabeach.gov/community/medical-record-requests",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://hs.virginiabeach.gov/financial-assistance",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Virginia"
+    ],
+    [
+     "0643000",
+     44,
+     "Long Beach",
+     450469,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.longbeach.gov/health/services/directory/records/birth-records/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.longbeach.gov/lbcd/hn/tenant-landlord-resources/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.longbeach.gov/lbcd/hn/tenant-landlord-resources/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "0653000",
+     45,
+     "Oakland",
+     440838,
+     "s",
+     [
+      [
+       "bad",
+       "https://www.oaklandca.gov/files/assets/city/v/1/econ-workforce-dev/housing-comm-dev/documents/rental-laws/info-sheet_security-deposits_sp_4.8.21_final.pdf",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.oaklandca.gov/files/assets/city/v/1/econ-workforce-dev/housing-comm-dev/documents/rental-laws/info-sheet_security-deposits_en_7.8.24_final.pdf",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.oaklandca.gov/Government/Boards-Commissions/Alameda-County-Oakland-Community-Action-Partnership-AC-OCAP/Assistance-Programs",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.oaklandca.gov/Planning-Building/Building-Construction-Permits-Inspections/Building-Codes/Persons-with-Disabilities-Compliance",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Sets the security-deposit limit at two or three months’ rent in Spanish.",
+       "page": "Depósitos de seguridad",
+       "url": "https://www.oaklandca.gov/files/assets/city/v/1/econ-workforce-dev/housing-comm-dev/documents/rental-laws/info-sheet_security-deposits_sp_4.8.21_final.pdf",
+       "lang": "Spanish",
+       "q": "Antes de mudarse a la vivienda\nEl depósito de seguridad no puede exceder dos veces el alquiler mensual en una unidad sin amueblar o tres veces el alquiler mensual en una unidad amueblada. Los depósitos de seguridad en Oakland no acumulan intereses.",
+       "tr": "Before moving into the home\nThe security deposit cannot exceed twice the monthly rent for an unfurnished unit or three times the monthly rent for a furnished unit. Security deposits in Oakland do not accrue interest.",
+       "why": "The usual limit for a new security deposit is one month’s rent. Some small landlords can charge two months.",
+       "prov": "California Civil Code 1950.5(c)(1)–(3), (5)–(6)",
+       "lawUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5.",
+       "date": "2026-11-05",
+       "service": "Security deposits",
+       "g": "M",
+       "scope": "An ordinary residential deposit first demanded and collected after 1 July 2024, from a landlord outside the small-landlord exception. Earlier deposits, special housing regimes, agreed advance rent and tenant-requested alteration arrangements are excluded. The interest and small-claims statements are separate issues.",
+       "context": "The Spanish sheet has a 2021 footer but is linked as a current resource, without an archive label. The separately linked English sheet, updated in 2024, correctly gives the newer one-month rule and the small-landlord exception. The finding concerns the Spanish version; it does not say that every language version is wrong."
+      }
+     ],
+     "",
+     "California"
+    ],
+    [
+     "2743000",
+     46,
+     "Minneapolis",
+     430324,
+     "s",
+     [
+      [
+       "ok",
+       "https://sicktimeinfo.minneapolismn.gov/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://sicktimeinfo.minneapolismn.gov/policy-overview.html",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.minneapolismn.gov/resident-services/property-housing/housing/renting/renters/emergency-rental/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.minneapolismn.gov/government/departments/service-center/services-we-provide/additional-services/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Minnesota"
+    ],
+    [
+     "0603526",
+     47,
+     "Bakersfield",
+     422165,
+     "s",
+     [
+      [
+       "na",
+       "https://www.bakersfieldcity.us/projects-programs",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.bakersfieldcity.us/disadvantaged-business-enterprise",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.bakersfieldcity.us/americans-with-disabilities-act?contentId=c43c816b-1bcb-4c4a-8cbd-12bbcd45cb30",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.bakersfieldcity.us/community-vitality?contentId=c2492e09-2c0c-4a87-b98e-7b8128b8f93d",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://content.civicplus.com/api/assets/ca-bakersfield/721f782f-b852-447e-a8fb-accb4610a8ee?cache=1800",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "4075000",
+     48,
+     "Tulsa",
+     416209,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.cityoftulsa.org/media/28942/executive-order-no-2025-08.pdf",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://cityoftulsa.org/path-to-home/path-to-home-reporting-tips/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Oklahoma"
+    ],
+    [
+     "1271000",
+     49,
+     "Tampa",
+     413554,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.tampa.gov/sites/default/files/document/2026/public-records-policy-and-guide-revised-3242025-1-ua-ada.pdf",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.tampa.gov/info/online-services-help",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.tampa.gov/neighborhood-and-community-affairs/human-rights/faq",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Florida"
+    ],
+    [
+     "0804000",
+     50,
+     "Aurora",
+     410053,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.auroragov.org/residents/water/pay_my_water_bill/landlord_resources",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.auroragov.org/residents/community_development/homelessness_in_aurora/homelessness_resources",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.auroragov.org/residents/community_development/fair_housing",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "amb",
+       "claim": "Says senior housing is outside the Fair Housing Act.",
+       "page": "Fair Housing",
+       "url": "https://www.auroragov.org/residents/community_development/fair_housing",
+       "lang": "English",
+       "q": "The act does not include:\n• Housing operated by organizations or private clubs that limit occupancy to members\n• Housing reserved exclusively for seniors\n• Owner-occupied building with four units or less\n• Single-family housing (sold or rented) without a real estate broker",
+       "tr": "",
+       "why": "Qualifying senior housing can be exempt from family-status rules. Other protections, including against race and disability discrimination, still apply.",
+       "prov": "42 USC 3607(b)(1)–(2); 42 USC 3604(a), (f)",
+       "lawUrl": "https://uscode.house.gov/us/usc/t42/s3607/",
+       "date": "2026-11-05",
+       "service": "Fair housing rights",
+       "unc": "The linked HUD booklet correctly limits the exemption, so the local summary may be shorthand.",
+       "scope": "Otherwise covered private housing that qualifies for the federal older-person exemption. Separate exemptions for some owner-occupied or religious housing may still matter.",
+       "context": "The linked HUD booklet correctly says that the older-person exemption concerns family status, while other protections remain. The local page also immediately lists prohibited discrimination and says advertising restrictions include exempt properties. The summary may therefore be shorthand; this remains unclear, rather than a confirmed error across the whole guidance."
+      }
+     ],
+     "",
+     "Colorado"
+    ],
+    [
+     "4804000",
+     51,
+     "Arlington",
+     402134,
+     "s",
+     [
+      [
+       "x",
+       "https://www.arlingtontx.gov/City-Services/Code-Compliance/Code-Compliance-Directory/Code-Compliance-Education",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.arlingtontx.gov/Government/Municipal-Court/Municipal-Court-Options",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.arlingtontx.gov/City-Services/Water-Utilities/Water-Utilities/My-Water-Account",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.arlingtontx.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.arlingtontx.gov/Government/Data-Information/Data-Information-Directory/Accessibility/ADA-Policies",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "2079000",
+     52,
+     "Wichita",
+     400987,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.wichita.gov/2084/Renters-Rights",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.wichita.gov/2084/Renters-Rights",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.wichita.gov/1545/Fair-Housing",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.wichita.gov/2084/Renters-Rights",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says foreclosure ends a tenant’s lease even when ten months remain.",
+       "page": "Renters' Rights",
+       "url": "https://www.wichita.gov/2084/Renters-Rights",
+       "lang": "English",
+       "q": "When the property is foreclosed, in most circumstances, it also ends your lease.\n\nThe foreclosure wipes out your agreement. Sadly, it doesn’t matter if a tenant still had 10 months left on the long-term rental agreement, it’s done.\nFortunately, that doesn’t necessarily mean tenant(s) have to leave immediately. The new owner is still required to give a proper notice of the lease termination. In 2009, Congress passed the Mortgage Reform and Anti- Predatory Lending Act in the wake of the sub-prime mortgage crisis, which now typically requires 90 days’ notice.",
+       "tr": "",
+       "why": "A tenant with a genuine, independent lease can usually stay until it ends. A buyer moving in as their main home can end it with at least 90 days’ notice.",
+       "prov": "Protecting Tenants at Foreclosure Act s702(a)–(c), 12 USC5220 note; Pub L115-174 s304",
+       "lawUrl": "https://uscode.house.gov/us/usc/t12/s5220/",
+       "date": "2026-11-05",
+       "service": "Tenant rights",
+       "g": "M",
+       "scope": "A qualifying fixed-term residential lease made before the foreclosure transferred complete title, where the buyer will not use the home as their main residence and no separate lawful ground ends the lease. The tenant must not be the former owner or their child, spouse or parent. The lease must be an independent transaction, at rent not substantially below market unless publicly subsidised.",
+       "context": "The page begins with “in most circumstances” and later mentions 90 days’ notice, but its ten-month example still says the remaining lease is wiped out. The linked handbook repeats that account. Other tenancy protections may give additional rights; this comparison does not describe every foreclosure or any actual eviction."
+      }
+     ],
+     "",
+     "Kansas"
+    ],
+    [
+     "3916000",
+     53,
+     "Cleveland",
+     363608,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.clevelandohio.gov/city-hall/departments/public-health/birth-death-certificates",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.clevelandohio.gov/city-hall/departments/law/ada-policy",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.clevelandohio.gov/city-hall/departments/public-safety",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.clevelandohio.gov/residents/programs-services",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.clevelandohio.gov/city-hall/departments/community-development/programs-services/fair-housing",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Ohio"
+    ],
+    [
+     "2255000",
+     54,
+     "New Orleans",
+     362154,
+     "s",
+     [
+      [
+       "bad",
+       "https://nola.gov/next/nopd/topics/expunging-records/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://nola.gov/public-records-requests/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://nola.gov/home/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://nola.gov/next/americans-with-disabilities-act-(ada)/home/",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says a person can have only one felony conviction removed from public access in their lifetime.",
+       "page": "Guide to Expunging Criminal Records in Orleans Parish",
+       "url": "https://nola.gov/next/nopd/topics/expunging-records/",
+       "lang": "English",
+       "q": "Are You Eligible for Expungement?\n\nBefore beginning the process, confirm you qualify under Louisiana law:\n\n• Felony Convictions: You may expunge only ONE felony conviction in your lifetime\n• Misdemeanor Convictions: You may expunge only ONE misdemeanor conviction within a five-year period\n• DWI Convictions: You may expunge only ONE DWI conviction in a ten-year period\n• Not all felonies qualify for expungement under Louisiana law",
+       "tr": "",
+       "why": "More than one felony conviction may be removed from public access within ten years if each meets the legal conditions.",
+       "prov": "Louisiana Code of Criminal Procedure art 978(A), (B), (F); Acts 2024, No. 580, s1",
+       "lawUrl": "https://www.legis.la.gov/legis/Law.aspx?d=919670",
+       "date": "2026-11-05",
+       "service": "Restrict access to criminal records",
+       "g": "M",
+       "scope": "An application to restrict public access to a second felony conviction, where each conviction independently meets the current offence, timing and procedural conditions. This does not promise automatic approval or address misdemeanor limits or limits for driving while intoxicated.",
+       "context": "The page says not all felonies qualify, directs applicants to the court clerk, recommends legal advice and describes judicial approval. Those conditions do not qualify the stated lifetime limit. It correctly explains that the process restricts public access rather than destroying records; law enforcement and some licensing bodies can still have access."
+      }
+     ],
+     "",
+     "Louisiana"
+    ],
+    [
+     "3231900",
+     55,
+     "Henderson",
+     353289,
+     "s",
+     [
+      [
+       "x",
+       "https://www.cityofhenderson.com/government/departments/municipal-court/court-information",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cityofhenderson.com/government/departments/city-clerk/public-records/public-records-requests",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.cityofhenderson.com/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.cityofhenderson.com/government/departments/city-clerk/passport-services",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Nevada"
+    ],
+    [
+     "1571550",
+     56,
+     "Urban Honolulu",
+     341868,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.honolulu.gov/csd/drivers-license-procedures/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.honolulu.gov/elections/registration/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.honolulu.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.honolulu.gov/csd/drivers-license-procedures/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Hawaii"
+    ],
+    [
+     "0602000",
+     57,
+     "Anaheim",
+     341008,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.anaheim.net/2153/Request-for-Public-Records",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.anaheim.net/856/Fair-Housing",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.anaheim.net/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.anaheim.net/1740/Disability-Civil-Rights-Program",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "1253000",
+     58,
+     "Orlando",
+     333888,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.orlando.gov/Our-Government/Records-and-Documents/Request-a-Public-Record",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.orlando.gov/Our-Government/Apply-for-a-City-Job/Benefits",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.orlando.gov/Home",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.orlando.gov/Our-Government/Departments-Offices/Executive-Offices/Human-Relations",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Florida"
+    ],
+    [
+     "2146027",
+     59,
+     "Lexington-Fayette",
+     329751,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.lexingtonky.gov/government/departments-programs/housing-advocacy-community-development/housing-advocate",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.lexingtonky.gov/living/accessibility-ada/ada-grievance-procedure",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.lexingtonky.gov/working/benefits/family-medical-leave-act-fmla",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.lexingtonky.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.lexingtonky.gov/government/departments-programs/housing-advocacy-community-development/community-resident-services",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.lexingtonky.gov/government/departments-programs/housing-advocacy-community-development/community-resident-services/emergency-financial-assistance",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Kentucky"
+    ],
+    [
+     "0675000",
+     60,
+     "Stockton",
+     324597,
+     "s",
+     [
+      [
+       "x",
+       "https://www.stocktonca.gov/services/business_and_financial_services/city_clerk/public_records.php",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.stocktonca.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.stocktonca.gov/government/city_manager/americans_with_disabilities_act.php",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "3451000",
+     61,
+     "Newark",
+     323808,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.newarknj.gov/255/Division-of-Rent-Control",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.newarknj.gov/166/Office-of-the-City-Clerk",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.newarknj.gov/198/Vital-Statistics",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.newarknj.gov/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "New Jersey"
+    ],
+    [
+     "0662000",
+     62,
+     "Riverside",
+     323057,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.riversideca.gov/cedd/building-safety/online-permits/search-permits",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.riversideca.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.riversideca.gov/cityclerk/online-documents/passport-acceptance-facility",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "0636770",
+     63,
+     "Irvine",
+     318764,
+     "s",
+     [
+      [
+       "amb",
+       "https://cityofirvine.gov/city-clerks-office/passport-services",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://cityofirvine.gov/city-clerks-office/welcome-irvine-quick-records",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://cityofirvine.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cityofirvine.gov/renter-resources",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "4817000",
+     64,
+     "Corpus Christi",
+     317247,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.corpuschristitx.gov/department-directory/city-secretary/birth-and-death-certificates/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.corpuschristitx.gov/department-directory/animal-care-services/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.corpuschristitx.gov/department-directory/animal-care-services/get-help/register-your-pet/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.corpuschristitx.gov/department-directory/animal-care-services/service-requests/report-an-animal-bite/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.corpuschristitx.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.corpuschristitx.gov/department-directory/planning-economic-development/community-development/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.corpuschristitx.gov/department-directory/planning-economic-development/community-development/programs/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "0669000",
+     65,
+     "Santa Ana",
+     315586,
+     "s",
+     [
+      [
+       "ok",
+       "https://santa-ana.gov/housing-authority-portability/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://santa-ana.gov/departments/rent-stabilization/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.santa-ana.org/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://santa-ana.gov/services/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://santa-ana.gov/know-your-rights/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "3915000",
+     66,
+     "Cincinnati",
+     314367,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.cincinnati-oh.gov/health/birth-death-certificates/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cincinnati-oh.gov/HEALTH/public-records-request/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cincinnati-oh.gov/sites/buildings/assets/tenants-guide.pdf",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.cincinnati-oh.gov/cityofcincinnati/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.cincinnati-oh.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cincinnati-oh.gov/cityofcincinnati/residents/city-services/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cincinnati-oh.gov/health/chd-programs/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cincinnati-oh.gov/311/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Ohio"
+    ],
+    [
+     "3728000",
+     67,
+     "Greensboro",
+     308667,
+     "s",
+     [
+      [
+       "x",
+       "https://www.greensboro-nc.gov/departments/executive/code-compliance/minimum-housing-code",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.greensboro-nc.gov/departments/fire/emergency-management/emergency-preparedness/animals",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.greensboro-nc.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.greensboro-nc.gov/services",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.greensboro-nc.gov/departments/human-rights/fair-housing",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "North Carolina"
+    ],
+    [
+     "4261000",
+     68,
+     "Pittsburgh",
+     307632,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.pittsburghpa.gov/City-Government/Legal-Services/Office-of-Equal-Protection/Ban-the-Box",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.pittsburghpa.gov/City-Government/Jobs/Human-Resources-and-Civil-Service/HRCS-FAQs",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.pittsburghpa.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.pittsburghpa.gov/Home",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.pittsburghpa.gov/Resident-Services/Food-Programs/After-School-Feeding-Program",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Pennsylvania"
+    ],
+    [
+     "2758000",
+     69,
+     "St. Paul",
+     306684,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.stpaul.gov/departments/safety-inspections/rent-buy-sell-property/renting-property/tenant-protections",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.stpaul.gov/sites/default/files/2024-08/Earned%20Sick%20and%20Safe%20Leave%20Policy.pdf",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.stpaul.gov/sites/default/files/human-resources/pfml-policy.pdf",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.stpaul.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.stpaul.gov/departments/human-rights-equal-economic-opportunity/accessibility",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Minnesota"
+    ],
+    [
+     "3719000",
+     70,
+     "Durham",
+     305561,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.durhamnc.gov/5464/Utility-Bill-Assistance",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.durhamnc.gov/4811/Fair-Housing",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.durhamnc.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.durhamnc.gov/5414/Housing-Neighborhood-Services",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "North Carolina"
+    ],
+    [
+     "3436000",
+     71,
+     "Jersey City",
+     302013,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.jerseycitynj.gov/cityhall/HousingAndDevelopment/housingpreservation/landlordtenantrelations",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.jerseycitynj.gov/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.jerseycitynj.gov/cityhall/health/division_of_immigrant_affairs",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "New Jersey"
+    ],
+    [
+     "3128000",
+     72,
+     "Lincoln",
+     301522,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.lincoln.ne.gov/City/Departments/Aging-Partners/Planning-Ahead",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.lincoln.ne.gov/City/Departments/Aging-Partners/Handy-Home-Services-and-Transportation/Long-Term-Care",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.lincoln.ne.gov/City/Departments/Aging-Partners/Handy-Home-Services-and-Transportation/Long-Term-Care",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.lincoln.ne.gov/City/Departments/Aging-Partners/Handy-Home-Services-and-Transportation/Long-Term-Care",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Nebraska"
+    ],
+    [
+     "3251800",
+     73,
+     "North Las Vegas",
+     296653,
+     "s",
+     [
+      [
+       "x",
+       "https://www.cityofnorthlasvegas.com/residents/municipal-court/warrants",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.cityofnorthlasvegas.com/residents/municipal-court/warrants",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.cityofnorthlasvegas.com/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cityofnorthlasvegas.com/residents/community-services-and-engagement",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cityofnorthlasvegas.com/residents/homeless-services",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Nevada"
+    ],
+    [
+     "4858016",
+     74,
+     "Plano",
+     293028,
+     "s",
+     [
+      [
+       "x",
+       "https://www.plano.gov/deferred-disposition",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.plano.gov/deferred-disposition",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.plano.gov/city-services",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.plano.gov/day-labor-center",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "0427400",
+     75,
+     "Gilbert",
+     287285,
+     "s",
+     [
+      [
+       "x",
+       "https://www.gilbertaz.gov/departments/clerk-s-office/elections",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.gilbertaz.gov/departments/clerk-s-office/public-records",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.gilbertaz.gov/departments/court/case-information/civil-traffic-case",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.gilbertaz.gov/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.gilbertaz.gov/residents/community-resources",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.gilbertaz.gov/residents/community-and-neighborhood-services/community-resources/fair-housing-equal-opportunity",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Arizona"
+    ],
+    [
+     "0203000",
+     76,
+     "Anchorage",
+     287155,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.muni.org/departments/municipal_clerk/elections/about_moa_elections.php",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.muni.org/departments/records_management/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.muni.org/departments/public_transportation/people_mover/service_animals_and_pets.php",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.muni.org/departments/health_department/human_services/human_services_division_emergency_outreach.php",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Alaska"
+    ],
+    [
+     "5548000",
+     77,
+     "Madison",
+     286233,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.cityofmadison.com/human-resources/benefits/family-medical-leave",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cityofmadison.com/metro/how-to-ride/riding-rules-policies",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.cityofmadison.com/dpced/building-inspection/home-property/rental-housing/tenants-resources",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.cityofmadison.com/civil-rights/programs/disability-rights/housing",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Wisconsin"
+    ],
+    [
+     "3260600",
+     78,
+     "Reno",
+     283621,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.reno.gov/government/departments/code-enforcement/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.reno.gov/police/bureaus/support-services-bureau/records-section/index.php",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.reno.gov/government/departments/housing-neighborhood-development/disaster-recovery-assistance.php",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.reno.gov/accessibility/index.php",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.reno.gov/government/departments/housing-neighborhood-development/disaster-recovery-assistance.php",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Nevada"
+    ],
+    [
+     "0412000",
+     79,
+     "Chandler",
+     278748,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.chandleraz.gov/residents/neighborhood-resources/housing-and-redevelopment",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.chandleraz.gov/government/departments/development-services/public-records-request",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.chandleraz.gov/government/departments/city-clerks-office/passport-services",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Arizona"
+    ],
+    [
+     "2965000",
+     80,
+     "St. Louis",
+     278144,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.stlouis-mo.gov/government/departments/mayor/news/city-changes-fmla-policy.cfm",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.stlouis-mo.gov/human-services/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.stlouis-mo.gov/government/departments/human-services/aging-services/nutrition.cfm",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.stlouis-mo.gov/government/departments/human-services/aging-services/health-insurance.cfm",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Missouri"
+    ],
+    [
+     "0613392",
+     81,
+     "Chula Vista",
+     275533,
+     "s",
+     [
+      [
+       "x",
+       "https://www.chulavistaca.gov/departments/police-department/crime-prevention",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.chulavistaca.gov/departments/police-department/crime-prevention",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.chulavistaca.gov/services",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "California"
+    ],
+    [
+     "1825000",
+     82,
+     "Fort Wayne",
+     275203,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.cityoffortwayne.in.gov/433/Resources",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.cityoffortwayne.in.gov/1592/Obtain-Law-Enforcement-Recordings",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cityoffortwayne.in.gov/943/Services",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Indiana"
+    ],
+    [
+     "3611000",
+     83,
+     "Buffalo",
+     274613,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.buffalony.gov/279/Birth-Certificate-Request",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.buffalony.gov/411/Division-of-Compensation-Benefits",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.buffalony.gov/463/Contact-311",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "New York"
+    ],
+    [
+     "4845000",
+     84,
+     "Lubbock",
+     273071,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.mylubbock.us/441/Vital-Statistics",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.mylubbock.us/613/Reports-Forms",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.mylubbock.us/267/Services",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "4841464",
+     85,
+     "Laredo",
+     269515,
+     "s",
+     [
+      [
+       "x",
+       "https://www.cityoflaredo.com/departments/community-development/housing-rehab",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.cityoflaredo.com/departments/community-development/housing-rehab",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://cityoflaredotx-web.tylerhost.net/web/action/ACTIONGROUP402S1",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.cityoflaredo.com/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "1258715",
+     86,
+     "Port St. Lucie",
+     268062,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Neighborhood-Services/Community-Programs/Housing-Programs/Rental-Assistance-for-Seniors",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cityofpsl.com/Business/Resources/Business-Requirements",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cityofpsl.com/Residents",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Florida"
+    ],
+    [
+     "1263000",
+     87,
+     "St. Petersburg",
+     264033,
+     "s",
+     [
+      [
+       "x",
+       "https://www.stpete.org/residents/housing/renters.php",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://police.stpete.org/domesticViolence/index.html",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://police.stpete.org/eagleEye/index.html",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.stpete.org/residents/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.stpete.org/residents/housing/partner_resources.php",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Florida"
+    ],
+    [
+     "3977000",
+     88,
+     "Toledo",
+     263423,
+     "s",
+     [
+      [
+       "ok",
+       "https://toledo.oh.gov/residents/landlord-tenant-resources",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://cdn.toledo.oh.gov/uploads/Landlord-Education-Fair-Resource-Guide-v5.pdf",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://toledo.oh.gov/residents",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://toledo.oh.gov/residents/water/pay-my-bill",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Ohio"
+    ],
+    [
+     "0427820",
+     89,
+     "Glendale",
+     260572,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.glendaleaz.gov/Business/Licensing-Sales-Tax/Business-Licenses",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.glendaleaz.gov/Community/City-Services/Community-Services/Community-Action-Program-CAP",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.glendaleaz.gov/Departments",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.glendaleaz.gov/Community/City-Services/Community-Services/Community-Action-Program-CAP",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Arizona"
+    ],
+    [
+     "3775000",
+     90,
+     "Winston-Salem",
+     257271,
+     "s",
+     [
+      [
+       "bad",
+       "https://www.cityofws.org/3669/Tenant-Landlord-Rights",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://wshome.cityofws.org/1263/New-Resident-Resources",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says landlords may charge $15 or 5% of any late rent payment, whichever is greater.",
+       "page": "Tenant & Landlord Rights",
+       "url": "https://www.cityofws.org/3669/Tenant-Landlord-Rights",
+       "lang": "English",
+       "q": "A landlord may impose a late charge on any rental payment five days or more late, of the greater of $15 or 5% of the payment, but only once for each late rental payment.",
+       "tr": "",
+       "why": "For weekly rent, an agreed late fee cannot exceed $4 or 5% of the weekly rent, whichever is greater. The payment must be at least five calendar days late.",
+       "prov": "North Carolina General Statutes 42-46(a)(2), (b), (h)(4)–(5)",
+       "lawUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_42/GS_42-46.html",
+       "date": "2026-11-05",
+       "service": "Tenant and landlord rights",
+       "g": "m",
+       "scope": "Ordinary covered residential rent payable weekly, with an agreed late fee and a fixed due date. This comparison excludes short stays, subsidised-rent arrangements and litigation fees.",
+       "context": "The page expressly recognises weekly tenancies elsewhere and does not limit its late-fee statement to monthly rent. Its formula matches the cap for monthly payments; the finding concerns applying it to weekly payments. The city’s voluntary mediation service does not change the state cap."
+      }
+     ],
+     "",
+     "North Carolina"
+    ],
+    [
+     "4837000",
+     91,
+     "Irving",
+     257076,
+     "s",
+     [
+      [
+       "na",
+       "https://cityofirving.org/servicefinder",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://irvingtx.gov/servicefinder",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://irvingtx.gov/servicefinder",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.irvingtx.gov/servicefinder",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://irvingtx.gov/housing-rehab",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says businesses must register with the Texas Secretary of State or a county clerk.",
+       "page": "Service Finder",
+       "url": "https://irvingtx.gov/servicefinder",
+       "lang": "English",
+       "q": "The City of Irving does not issue business permits; however, opening and running a business may require other permits, such as a Certificate of Occupancy.\nIn Texas, while there isn't a general business license requirement, businesses must register with the Texas Secretary of State or their local county clerk, and those selling taxable goods or services need a sales and use tax permit (also known as a seller's permit) from the Texas Comptroller.",
+       "tr": "",
+       "why": "A sole proprietor using only their own legal name does not need an assumed-name certificate or a state business-formation filing.",
+       "prov": "Texas Business & Commerce Code 71.002(2)(A), (C), 71.051; Texas Business Organizations Code 1.002(22), 3.001",
+       "lawUrl": "https://tcss.legis.texas.gov/resources/BC/htm/BC.71.htm",
+       "date": "2026-11-05",
+       "service": "Find city services",
+       "g": "m",
+       "scope": "An individual sole proprietor trading only under their own full legal name. Partnerships, companies, other formed entities and businesses using an assumed name are outside this comparison. Tax, professional, construction, occupancy and other activity-specific requirements may still apply.",
+       "context": "The entry correctly distinguishes a general business licence from other permits and taxable-sales registration. Those distinctions do not limit its separate must-register statement to formed entities or assumed names. The linked state guidance confirms that a sole proprietor can operate without formal organisation, with an assumed-name filing needed when applicable."
+      }
+     ],
+     "",
+     "Texas"
+    ],
+    [
+     "5116000",
+     92,
+     "Chesapeake",
+     255332,
+     "s",
+     [
+      [
+       "ok",
+       "https://cityofchesapeake.net/1369/Paying-for-Services",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cityofchesapeake.net/1645/Assistance-for-Families-Individuals",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.cityofchesapeake.net/369/Financial-Food-Assistance",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Virginia"
+    ],
+    [
+     "4829000",
+     93,
+     "Garland",
+     249625,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.garlandtx.gov/4029/ADA-Grievance-Procedure",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://garlandtx.gov/447/Housing-Inspections",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.garlandtx.gov/27/City-Services",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "0465000",
+     94,
+     "Scottsdale",
+     243006,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.scottsdaleaz.gov/human-resources/qualified-life-event",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.scottsdaleaz.gov/human-resources/hippa-privacy-notice",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.scottsdaleaz.gov/passports",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says the health plan may take 60 days to provide health records kept offsite before extending the deadline.",
+       "page": "HIPPA Privacy Notice",
+       "url": "https://www.scottsdaleaz.gov/human-resources/hippa-privacy-notice",
+       "lang": "English",
+       "q": "The Plan must provide the requested information within 30 days of its receipt of the request, if the information is maintained onsite or within 60 days if the information is maintained offsite. A single 30-day extension is allowed if the Plan is unable to comply with the deadline and notifies you in writing in advance of the reasons for the delay and the date by which the Plan will provide the requested information.",
+       "tr": "",
+       "why": "The plan must act on an access request within 30 days, wherever the records are kept. It can take one further 30-day extension if it gives written reasons and a completion date within the first 30 days.",
+       "prov": "45 CFR 164.524(a), (b)(2); 45 CFR 160.103",
+       "lawUrl": "https://www.ecfr.gov/current/title-45/section-164.524",
+       "date": "2026-11-05",
+       "service": "Health information privacy",
+       "g": "m",
+       "scope": "An ordinary request for a person’s own accessible health information held by or for the city’s covered self-insured medical plan. This excludes employment records held in an employer role, psychotherapy notes, litigation material, other lawful refusals and rights under unrelated plans.",
+       "context": "The notice explains the records covered, written requests and refusal and review routes. It says federal regulations prevail over inconsistent wording, but still expressly allows 60 days for offsite access. Its separate 60-day rules for amending records or obtaining an account of disclosures concern different rights. The page shows a 21 May 2026 update alongside older stated effective dates; this is not evidence of actual delays."
+      }
+     ],
+     "",
+     "Arizona"
+    ],
+    [
+     "1608830",
+     95,
+     "Boise City",
+     238429,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.cityofboise.org/media/3862/pds-smallbusinessstartup-onlineguide.pdf",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.cityofboise.org/departments/police/police-public-records-request/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.cityofboise.org/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.cityofboise.org/departments/planning-and-development-services/code-compliance/renter-protections/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Idaho"
+    ],
+    [
+     "5167000",
+     96,
+     "Richmond",
+     237257,
+     "s",
+     [
+      [
+       "ok",
+       "https://rva.gov/index.php/housing-and-community-development/eviction-prevention-and-homeless-services",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.rva.gov/FOIA",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.rva.gov/human-services",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.rva.gov/social-services/esi-snapsnapet",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Virginia"
+    ],
+    [
+     "4827684",
+     97,
+     "Frisco",
+     236955,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.friscotexas.gov/1558/Voter-Registration",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.friscotexas.gov/690/Open-Records-Request",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.friscotexas.gov/129/Departments",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://friscolibrary.com/passport/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Texas"
+    ],
+    [
+     "1210275",
+     98,
+     "Cape Coral",
+     236264,
+     "s",
+     [
+      [
+       "na",
+       "https://www.capecoral.gov/departments/development_services/city_planning_division/housing_and_grants/faqs.php",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.capecoral.gov/departments/city_clerk/records_management.php",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.capecoral.gov/departments/city_clerk/passports_services.php",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires parents applying for a newborn’s passport to prove they have applied for the child’s Social Security number.",
+       "page": "Passports Services",
+       "url": "https://www.capecoral.gov/departments/city_clerk/passports_services.php",
+       "lang": "English",
+       "q": "Passport applications for minors (under age 16) use form DS-11 and provide the following:\n• Proof of citizenship in the form of a birth certificate\n• Driver's license, if applicable\n• Most recent passport, if applicable\n• Parent(s)/Guardian(s) must submit evidence of their relationship to the minor applicant\n• The minor must appear in person\nBoth parents must appear together to sign the application form. If only one parent is appearing, the absent parent must submit a notarized Statement of Consent (form DS-3053) and a photocopy of the front and back of his/her ID presented to the Notary. The consent form cannot be more than three months old.\nWhen applying for a passport for a newborn, the parents must provide proof that they have applied for a Social Security Number for the child in question.",
+       "tr": "",
+       "why": "If a child has never been issued a Social Security number, the parents can submit a signed statement saying so. They need not apply for a number first.",
+       "prov": "22 USC 2714a(f)(1)(A); 26 USC 6039E(b)(1)",
+       "lawUrl": "https://uscode.house.gov/us/usc/t22/s2714a/",
+       "date": "2026-11-05",
+       "service": "Apply for a passport",
+       "g": "m",
+       "scope": "A newborn who has never been issued a Social Security number, whose parents submit the prescribed signed and dated statement under penalty of perjury and meet all other passport conditions. This does not cover withholding a number already issued or guarantee a passport.",
+       "context": "The city’s linked checklist lists citizenship, identification, photographs, payment and parental consent without repeating this extra application condition. The explicit newborn instruction remains unqualified. The lawful alternative is the required truthful statement, rather than applying for a Social Security number first."
+      },
+      {
+       "s": "bad",
+       "claim": "Says everyone returning from travel abroad needs a passport, including travel to Canada.",
+       "page": "Passports Services",
+       "url": "https://www.capecoral.gov/departments/city_clerk/passports_services.php",
+       "lang": "English",
+       "q": "The City Clerk's Department acts as a Passport Acceptance Facility on behalf of the U.S. Department of State. We are located at 1015 Cultural Park Blvd., Cape Coral, FL 33990.\nAll those traveling outside the United States need a passport to re-enter the country, including those traveling to Canada, Bermuda, and the Caribbean.\nWe are a walk-in facility (NO APPOINTMENTS) and process passports starting at 8:00 am and stop accepting applications PROMPTLY at 3:00 pm, regardless if you signed in prior to 3:00pm.",
+       "tr": "",
+       "why": "US citizens under 16 may use a birth certificate at a land or sea border when returning from Canada or Mexico.",
+       "prov": "22 CFR 53.2(b)(11)(i); 8 CFR 235.1(b)(8)(i)",
+       "lawUrl": "https://www.ecfr.gov/current/title-22/section-53.2",
+       "date": "2026-11-05",
+       "service": "Apply for a passport",
+       "g": "m",
+       "scope": "A US citizen under 16 returning from Canada or Mexico through a land or sea border, with an accepted citizenship document and citizenship established to the border officer. Air travel and foreign entry or carrier requirements are outside this comparison.",
+       "context": "The same page discusses passport cards for land and sea travel, so its wording cannot simply be read as air-travel guidance. Foreign entry rules and carriers may impose different requirements, and a passport can still be prudent. An accepted document does not guarantee admission."
+      }
+     ],
+     "",
+     "Florida"
+    ],
+    [
+     "4845744",
+     99,
+     "McKinney",
+     236001,
+     "s",
+     [
+      [
+       "na",
+       "https://www.mckinneytexas.org/3296/Voting-Locations",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.mckinneytexas.org/DocumentCenter/View/11151/Final-Personnel-Pol0icy-10117?bidId=",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.mckinneytexas.org/232/Community-Services",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.mckinneytexas.org/1120/ADA-Information",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says families of Regular Armed Forces members cannot take qualifying exigency leave.",
+       "page": "Employee Personnel Policies",
+       "url": "https://www.mckinneytexas.org/DocumentCenter/View/11151/Final-Personnel-Pol0icy-10117?bidId=",
+       "lang": "English",
+       "q": "H. Qualifying Exigency Leave: Leave provided to an eligible employee while the employee’s spouse, son, daughter or parent, is on active duty or call to active duty status. This leave is provided to address issues related to short-notice deployment, military events and related activities, childcare and school activities, financial and legal arrangements, counseling, rest and recuperation, post-deployment activates. The “covered military member” must be on active duty or call to active duty status in the National Guard or Reserves. Families of service members in the Regular Armed Forces are not eligible for qualifying exigency leave.",
+       "tr": "",
+       "why": "Eligible employees can take up to 12 weeks of FMLA leave in a 12-month period for qualifying needs arising from a spouse, child or parent’s deployment with the Regular Armed Forces to a foreign country.",
+       "prov": "29 USC 2611(14)(A), 2612(a)(1)(E); 29 CFR 825.126(a)(1), (b)",
+       "lawUrl": "https://www.ecfr.gov/current/title-29/section-825.126",
+       "date": "2026-11-05",
+       "service": "Employee policies",
+       "g": "M",
+       "scope": "An otherwise eligible city employee seeking FMLA leave for a qualifying need arising from a spouse, child or parent’s deployment with the Regular Armed Forces to a foreign country. Available leave, notice and certification conditions still apply. This concerns neither military caregiver leave nor paid leave.",
+       "context": "The current city policy page links this personnel manual. The manual separately includes Regular Armed Forces members in its 26-week caregiver provision, which concerns a different entitlement. Its general statement that policies may be amended when laws change does not supply a corrected qualifying-exigency rule. This finding concerns the published wording, not actual leave decisions.",
+       "evidence_note": "The relevant policy passages were read through live web text extraction and independently reviewed. An original-PDF checksum was unavailable, and no original PDF archive was retained."
+      }
+     ],
+     "",
+     "Texas"
+    ],
+    [
+     "0137000",
+     100,
+     "Huntsville",
+     233627,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.huntsvilleal.gov/development/building-construction/building-license-permits/license-classification/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.huntsvilleal.gov/",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.huntsvilleal.gov/residents/streets/public-transportation/access/",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Makes a companion’s place on an Access trip depend on spare capacity.",
+       "page": "Access",
+       "url": "https://www.huntsvilleal.gov/residents/streets/public-transportation/access/",
+       "lang": "English",
+       "q": "Personal Care Attendant\n• One Personal Care Attendant (PCA) may accompany ADA eligible passengers only, Personal Care Attendants travel free of charge to help with mobility, personal care, eating, communication, translation, sign language interpretation, providing services as a reader, etc\n• It is important to indicate a need for a Personal Care Attendant when applying for Access services\nOther passengers may also ride with the Access customer if space is available. Please check with the dispatcher prior to being picked up to be sure there will be enough space. The fare for additional passengers is one ticket.",
+       "tr": "",
+       "why": "An eligible disabled passenger can take one companion, as well as a personal care attendant, on the same trip. Only further companions depend on spare capacity.",
+       "prov": "49 CFR 37.123(f)(1)–(3)",
+       "lawUrl": "https://www.ecfr.gov/current/title-49/section-37.123",
+       "date": "2026-11-05",
+       "service": "Use accessible transport",
+       "g": "M",
+       "scope": "The first ordinary companion on an ADA-required accessible transport trip requested on time, travelling with an eligible passenger from the same origin to the same destination. A personal care attendant can also travel. Other lawful trip conditions still apply; further companions and voluntary service outside the required area are excluded.",
+       "context": "The service also carries some older passengers and provides extra trips outside its required area. The page and brochure expressly make those outside-area trips subject to availability, but do not attach that limit to the general companion paragraph. The linked application does not restore the first-companion guarantee. This is not a finding about actual booking decisions."
+      }
+     ],
+     "",
+     "Alabama"
+    ]
+   ],
+   "scope": "Guidance from the 100 largest US Census-ranked cities and towns, checked selectively against applicable federal and state law.",
+   "note": "Earlier checks were federal-only; state law was added during the 5 November 2026 session. Coverage and applicable legal level are recorded for each check. Rules below state level are not independent legal benchmarks. Findings do not measure an error rate and country totals remain separate.",
+   "tab": "United States"
   }
  ]
 }
