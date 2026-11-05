@@ -162565,6 +162565,4049 @@
    "scope": "Guidance from the 100 largest US Census-ranked cities and towns, checked selectively against applicable federal and state law.",
    "note": "Earlier checks were federal-only; state law was added during the 5 November 2026 session. Coverage and applicable legal level are recorded for each check. Rules below state level are not independent legal benchmarks. Findings do not measure an error rate and country totals remain separate.",
    "tab": "United States"
+  },
+  {
+   "id": "spain",
+   "title": "Spanish cities and towns",
+   "popDate": "2025-01-01",
+   "cities": [
+    [
+     "28079",
+     1,
+     "Madrid",
+     3506730,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=d6e537c190180210VgnVCM100000c90da8c0RCRD&vgnextfmt=default&vgnextoid=a9f09bcc9a861a10VgnVCM200000f921e388RCRD",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=6b59a38813180210VgnVCM100000c90da8c0RCRD&vgnextfmt=default&vgnextoid=91316cf6eed2f310VgnVCM1000000b205a0aRCRD",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextchannel=fb6637c190180210VgnVCM100000c90da8c0RCRD&vgnextfmt=default&vgnextoid=0692da34feaed010VgnVCM2000000c205a0aRCRD",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Contacto/OMIC/?idCapitulo=10402432&vgnextchannel=2ff5891b0ed86210VgnVCM2000000c205a0aRCRD&vgnextfmt=default&vgnextoid=96626831e4c2a010VgnVCM10000026205a0aRCRD",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.madrid.es/portales/munimadrid/es/Inicio/Actividad-economica-y-hacienda/Consumo/Gestiones-y-tramites/Garantia-y-plazos/?vgnextchannel=4e5e6d5ef88fe410VgnVCM1000000b205a0aRCRD&vgnextfmt=default&vgnextoid=bdfd62f84fc3f010VgnVCM1000000b205a0aRCRD",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.madrid.es/portales/munimadrid/es/Inicio/Actividad-economica-y-hacienda/Consumo/Gestiones-y-tramites/Garantia-y-plazos/?vgnextchannel=4e5e6d5ef88fe410VgnVCM1000000b205a0aRCRD&vgnextfmt=default&vgnextoid=bdfd62f84fc3f010VgnVCM1000000b205a0aRCRD",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.madrid.es/portales/munimadrid/es/Inicio/Contacto/Matrimonios-civiles/?vgnextchannel=9287f192c6be9410VgnVCM100000171f5a0aRCRD&vgnextoid=77691f33e9800810VgnVCM2000001f4a900aRCRD",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Limits the legal guarantee for new appliances to two years.",
+       "page": "OMIC - Preguntas más frecuentes - Ayuntamiento de Madrid",
+       "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Contacto/OMIC/?idCapitulo=10402432&vgnextchannel=2ff5891b0ed86210VgnVCM2000000c205a0aRCRD&vgnextfmt=default&vgnextoid=96626831e4c2a010VgnVCM10000026205a0aRCRD",
+       "lang": "Spanish",
+       "q": "¿Existen diferencias entre la garantía de compra legal y la comercial?\nSí, la garantía legal es obligatoria, supone una cobertura total (mano de obra, materiales y transporte) y tiene un plazo de dos años desde la adquisición o entrega del aparato, mientras que la garantía comercial es opcional y se ofrece como una ventaja más a la hora de adquirir un producto. Pero si se ofrece, la empresa garante está obligada al cumplimiento de la garantía comercial en los términos pactados.\nSi el aparato es de segunda mano, la garantía legal será como si fuera nuevo pero las partes contratantes podrán pactar un plazo menos a los dos años, que en ningún caso podrá ser inferior a un año.\nLa garantía comercial se debe formalizar por escrito.",
+       "tr": "Are there differences between the legal purchase guarantee and a commercial guarantee?\nYes. The legal guarantee is compulsory, covers all costs (labour, materials and transport) and lasts two years from purchase or delivery of the appliance. A commercial guarantee is optional and is offered as an additional advantage when buying a product. If offered, however, the guarantor must honour its agreed terms.\nFor a second-hand appliance, the legal guarantee is the same as for a new one, but the parties may agree a period shorter than two years, which can never be less than one year.\nA commercial guarantee must be put in writing.",
+       "why": "For new appliances bought from a trader from 1 January 2022, the seller covers defects present at delivery that appear within three years. Other legal conditions still apply.",
+       "prov": "Real Decreto Legislativo 1/2007, arts. 114, 117–118, 120(1), 121; Real Decreto-ley 7/2021, art. 16, final provision 8(d)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+       "date": "2026-11-05",
+       "service": "Consumer advice: appliance questions",
+       "g": "M",
+       "scope": "New physical household appliances bought by a consumer from a trader under a contract made from 1 January 2022. The defect existed at delivery and appears within three years; proof and the conditions governing the requested remedy still apply. Excludes older contracts, private sales, standalone digital services, second-hand goods and misuse.",
+       "context": "The complete answer also distinguishes optional commercial guarantees and possible agreed periods for second-hand appliances. Neither qualifies the first sentence as describing only pre-2022 sales. The other FAQ answers concern appliance repairs and complaints. The page was freshly readable, but no current incoming link to this chapter was found in the two inspected OMIC landing pages. A separate municipal Guarantee and time limits page starts with an older two-year sentence but immediately gives the current three-year rule. That correcting passage is retained as counterevidence. No direct link from the inspected FAQ answer to that page was found."
+      },
+      {
+       "s": "bad",
+       "claim": "Limits protection against the same defect returning after a repair under the legal guarantee to six months.",
+       "page": "Garantía y plazos - Ayuntamiento de Madrid",
+       "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Actividad-economica-y-hacienda/Consumo/Gestiones-y-tramites/Garantia-y-plazos/?vgnextchannel=4e5e6d5ef88fe410VgnVCM1000000b205a0aRCRD&vgnextfmt=default&vgnextoid=bdfd62f84fc3f010VgnVCM1000000b205a0aRCRD",
+       "lang": "Spanish",
+       "q": "El cómputo del plazo de garantía se suspenderá cuando se entregue el producto para su reparación. Volverá a iniciarse cuando se recoja el aparato. La reparación gozará de una garantía de seis meses.",
+       "tr": "The guarantee period is suspended when the product is handed over for repair. It starts running again when the appliance is collected. The repair has a six-month guarantee.",
+       "why": "For new appliances bought from a trader from 1 January 2022, the seller covers recurrence of the original repaired defect for one year after return. A same-origin repeat is presumed to be the same defect.",
+       "prov": "Real Decreto Legislativo 1/2007, art. 122; Real Decreto-ley 7/2021, art. 16, final provision 8(d)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+       "date": "2026-11-05",
+       "service": "Consumer advice: guarantees and time limits",
+       "g": "M",
+       "scope": "A new physical appliance bought by a consumer from a trader under a contract made from 1 January 2022, repaired to correct an original lack of conformity under the legal guarantee. Only recurrence of the defect that prompted that repair; not a blanket guarantee against new unrelated breakdowns, misuse, standalone paid repair services or an optional commercial warranty.",
+       "context": "The page concerns legal purchase guarantees and expressly describes their suspension during repair before stating six months. Its opening two paragraphs contain both an older two-year statement and the correct three-year rule from 2022, retained in full. Its closing paragraph distinguishes purchase guarantees from appliance-repair service guarantees and points to a separate repair-service section. That distinction is material to the strongest lawful reading and is retained."
+      }
+     ],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "08019",
+     2,
+     "Barcelona",
+     1731649,
+     "s",
+     [
+      [
+       "amb",
+       "https://seuelectronica.ajuntament.barcelona.cat/APPS/portaltramits/es/ciudadano/descripcio/T70/PTCIU.html",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://seuelectronica.ajuntament.barcelona.cat/APPS/portaltramits/es/ciudadano/portal/channel/portal.html?stpid=20020001733",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://ajuntament.barcelona.cat/omic/ca/el-consum/preguntes-frequents",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://seuelectronica.ajuntament.barcelona.cat/APPS/portaltramits/es/ciudadano/descripcio/T135i/PTCIU.html",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says transport for a repair covered by the legal guarantee may be charged after six months.",
+       "page": "Preguntes freqüents | Oficina Municipal d'Informació al Consumidor (OMIC) | Ajuntament de Barcelona",
+       "url": "https://ajuntament.barcelona.cat/omic/ca/el-consum/preguntes-frequents",
+       "lang": "Catalan",
+       "q": "Si la reparació entra en garantia, he de pagar despeses de transport?\nSi la reparació està dins dels 6 primers mesos, totes les despeses necessàries per subsanar la falta de conformitat del bé hauran de ser gratuïtes. A partir dels 6 primers mesos, podrien cobrar-nos aquesta despesa.",
+       "tr": "If the repair is covered by the guarantee, must I pay transport costs?\nIf the repair is within the first six months, all necessary costs of putting the goods into conformity must be free. After the first six months, they could charge us this cost.",
+       "why": "Where the seller must repair a defect under the legal guarantee, necessary transport is free, including after six months.",
+       "prov": "Real Decreto Legislativo 1/2007, arts. 117–121, especially 118(4)(a); Real Decreto-ley 7/2021, art. 16(7)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+       "date": "2026-11-05",
+       "service": "Consumer advice: frequently asked questions",
+       "g": "m",
+       "scope": "Current legal-conformity repair of new ordinary physical goods under a consumer sale, more than six months after delivery but within the applicable legal period. The defect and repair entitlement are established. Optional commercial services, uncovered damage, misuse and impossible or disproportionate remedies are excluded.",
+       "context": "The same FAQ correctly describes a general three-year guarantee for new goods bought under the 2022 regime and a two-year presumption. Its separate transport answer nevertheless changes cost treatment at six months. The hypothetical does not depend on a dispute about proof."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires policyholders to give two months’ notice to prevent insurance renewal.",
+       "page": "Preguntes freqüents | Oficina Municipal d'Informació al Consumidor (OMIC) | Ajuntament de Barcelona",
+       "url": "https://ajuntament.barcelona.cat/omic/ca/el-consum/preguntes-frequents",
+       "lang": "Catalan",
+       "q": "Puc donar-me de baixa d’una assegurança en qualsevol moment?\nNo. Els contractes amb qualsevol assegurança són anuals. La manera correcta de donar-se de baixa és mitjançant una carta certificada almenys 2 mesos abans del venciment de la pòlissa. Podem trobar l’adreça del departament on adreçar la baixa a la nostra pòlissa.",
+       "tr": "Can I cancel an insurance policy at any time?\nNo. All insurance contracts are annual. The correct way to cancel is by registered letter at least two months before the policy expires. We can find the address of the department to which to send cancellation in our policy.",
+       "why": "For ordinary renewable non-life insurance, a policyholder can prevent renewal with written notice at least one month before expiry. The insurer needs two months.",
+       "prov": "Ley 50/1980, arts. 2, 22(2); Ley 20/2015, final provision 1(3)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-22501",
+       "date": "2026-11-05",
+       "service": "Consumer advice: frequently asked questions",
+       "g": "M",
+       "scope": "Policyholder opposition to the next renewal of ordinary renewable non-life insurance, with valid written notice and ordinary proof/receipt conditions. Not midterm cancellation, a right to refund an unused period, life-insurance exceptions or insurer-initiated nonrenewal.",
+       "context": "The full question asks about cancellation at any time; the answer gives annual expiry and mandatory-sounding minimum notice. The finding concerns only the policyholder renewal deadline, not whether all insurance contracts are annual or whether registered post is a prudent evidence route."
+      },
+      {
+       "s": "bad",
+       "claim": "Caps compensation for damaged air baggage at 1,000 SDR.",
+       "page": "Preguntes freqüents | Oficina Municipal d'Informació al Consumidor (OMIC) | Ajuntament de Barcelona",
+       "url": "https://ajuntament.barcelona.cat/omic/ca/el-consum/preguntes-frequents",
+       "lang": "Catalan",
+       "q": "Què he de fer en cas de pèrdua, retard o deteriorament de l’equipatge?\nSi quan el nostre equipatge arriba a destí està deteriorat, és important reclamar en el mateix moment a l’aeroport. En cas que no pugueu fer-ho, teniu fins a 7 dies per reclamar a l’empresa. Si l’empresa no dóna resposta en 30 dies, podeu venir a l’OMIC amb una còpia de tota la documentació.\nLa compensació a la qual tenim dret, en aquest cas, mai serà superior a 1.000 DEG per unitat.",
+       "tr": "What should I do if my baggage is lost, delayed or damaged?\nIf our baggage is damaged when it arrives at the destination, it is important to complain at the airport immediately. If you cannot do so, you have up to seven days to complain to the airline. If it does not respond within 30 days, you can come to the OMIC with a copy of all documents.\nThe compensation to which we are entitled in this case will never exceed 1,000 SDR per unit.",
+       "why": "The ordinary Montreal limit is 1,519 SDR per passenger for covered, proven baggage damage or loss. A higher declared-value limit can apply.",
+       "prov": "Montreal Convention, arts. 17, 22(2), 24; BOE-A-2025-3872",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-9347",
+       "date": "2026-11-05",
+       "service": "Consumer advice: frequently asked questions",
+       "g": "M",
+       "scope": "Covered damage to checked baggage on a current international carriage within Montreal’s scope, with proof and notice conditions met. One passenger and one bag avoid the separate per-unit ambiguity. No promise that every claim receives the limit, and no separate count for the repeated same amount in the loss/delay answer.",
+       "context": "The complete damaged-baggage paragraph includes immediate/seven-day complaint advice and the OMIC route after no response. This case challenges only its following monetary ceiling. Other claim deadlines are not cleared by this finding."
+      },
+      {
+       "s": "bad",
+       "claim": "Gives only 21 days to complain about totally lost air baggage.",
+       "page": "Preguntes freqüents | Oficina Municipal d'Informació al Consumidor (OMIC) | Ajuntament de Barcelona",
+       "url": "https://ajuntament.barcelona.cat/omic/ca/el-consum/preguntes-frequents",
+       "lang": "Catalan",
+       "q": "En cas que el nostre equipatge no arribi a destí també hem de posar la reclamació a l’aeroport en el mateix moment.\nEn aquests casos es considera retard si arriba fins a 21 dies després del previst i pèrdua si no arriba o triga més de 21 dies.\nSi es tracta d’un retard, tenim 21 dies des de l’arribada, i si es tracta d’una pèrdua, tenim 21 dies des que la companyia confirma la pèrdua o, si no la confirma, des de la nostra arribada a l’aeroport.\nPer aquest motiu, i per tal que no es passi el termini, sempre recomanem presentar immediatament la reclamació als taulells habilitats a aquest efecte a la sala de recollida d’equipatge.",
+       "tr": "If our baggage does not arrive at the destination, we must also make the complaint at the airport immediately.\nIn these cases, it is considered delayed if it arrives up to 21 days after expected, and lost if it does not arrive or takes more than 21 days.\nFor delay, we have 21 days from arrival. For loss, we have 21 days from when the airline confirms the loss or, if it does not confirm it, from our arrival at the airport.\nFor this reason, and so that the deadline is not missed, we always recommend complaining immediately at the designated desks in the baggage reclaim hall.",
+       "why": "The 21-day protest limit applies to delayed baggage once it is made available. Montreal sets no such limit for total loss; court action has a separate two-year limit.",
+       "prov": "Montreal Convention, arts. 17(3), 31, 35",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-9347",
+       "date": "2026-11-05",
+       "service": "Consumer advice: frequently asked questions",
+       "g": "M",
+       "scope": "Total loss of checked baggage under Montreal, distinct from a returned delayed bag or damaged bag. No automatic right to wait two years for every preliminary step is claimed; Article 35 concerns court action. Ordinary proof, liability and admissibility conditions remain.",
+       "context": "The complete contiguous loss/delay passage and prompt-airport-complaint recommendation are preserved. The same section separately discusses damaged-baggage notice and monetary caps, which are distinct propositions. Prompt reporting remains prudent."
+      }
+     ],
+     "",
+     "Cataluña"
+    ],
+    [
+     "46250",
+     3,
+     "València",
+     840792,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.valencia.es/sede/menuContent.xhtml/PREGUNTAS_FRECUENTES_FAQS",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.valencia.es/e/cas/detalle-contenido/31001/39746303",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://sede.valencia.es/sede/registro/procedimiento/AD.DP.30?lang=1",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Comunitat Valenciana"
+    ],
+    [
+     "50297",
+     4,
+     "Zaragoza",
+     693091,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.zaragoza.es/sede/servicio/tramite/39076",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.zaragoza.es/sede/servicio/tramite/39615",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.zaragoza.es/sede/servicio/tramite/3921",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.zaragoza.es/sede/servicio/tramite/13701",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Aragón"
+    ],
+    [
+     "41091",
+     5,
+     "Sevilla",
+     689423,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.sevilla.org/servicios/servicios-sociales/servicios-prestaciones-y-programas/prestaciones/ayudas-economicas-complementarias",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.sevilla.org/servicios/servicios-sociales/ayudas-subvenciones/programa-de-prestaciones-complementarias-anualidad-2026-expte-72-2025",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.sevilla.org/servicios/consumo/omic/conflictos-en-materia-de-consumo",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.sevilla.org/servicios/empadronamiento/informacion-cambio-en-el-padron-de-habitantes-de-sevilla",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.sevilla.org/servicios/empadronamiento/obervaciones-requisitos-empadronamiento",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires the business to have joined the consumer arbitration scheme before you can request arbitration.",
+       "page": "Conflictos en materia de consumo ¿cómo reclamar? — Consumo y Mercados de Abastos",
+       "url": "https://www.sevilla.org/servicios/consumo/omic/conflictos-en-materia-de-consumo",
+       "lang": "Spanish",
+       "q": "Pasos para resolver conflictos en Materia de Consumo\nPara resolver los conflictos en materia de consumo, los pasos que un consumidor tendrá que seguir son los siguientes:\n1. Intentar llegar a un acuerdo directamente con la propia empresa.\n2. Gestionar una Hoja de Reclamaciones a traves de la OMIC.\n3. Solicitar un arbitraje de consumo en la Junta Arbitral, si lo anterior diera resultados negativos, y siempre que la empresa esté adherida al sistema.",
+       "tr": "Steps for resolving consumer disputes\nTo resolve consumer disputes, consumers must take the following steps:\n1. Try to reach an agreement directly with the business.\n2. Process a complaint form through the municipal consumer information office (OMIC).\n3. Request consumer arbitration from the Arbitration Board if the earlier steps have failed, and only if the business has joined the scheme.",
+       "why": "If no arbitration agreement exists, the arbitration board sends an admissible request to the business for acceptance or refusal. The business need not have joined the scheme beforehand.",
+       "prov": "Real Decreto 713/2024, arts. 23(5), 35, 36(2)–(4), 37(1)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15208",
+       "date": "2026-11-05",
+       "service": "Consumer disputes: how to complain",
+       "g": "M",
+       "scope": "Only requesting case-specific consent for an otherwise admissible current consumer dispute without an existing arbitration agreement. Prior complaint, territorial competence, complete documentation and all ordinary admission conditions are satisfied. Arbitration itself still requires valid agreement.",
+       "context": "The full step list must be read with the next paragraph, which expressly identifies arbitration or courts after refused mediation. That is material contrary wording and may support a broader lawful reading. Refusal of mediation is distinct from prior scheme membership: a member business may refuse mediation while still being bound to arbitrate. The broader paragraph does not expressly explain the individual-consent invitation route, but could qualify the preceding condition."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires EU citizens to show an EU registration certificate and a passport or identity card to register their address.",
+       "page": "Documentación necesaria para empadronarse — Padrón Municipal",
+       "url": "https://www.sevilla.org/servicios/empadronamiento/informacion-cambio-en-el-padron-de-habitantes-de-sevilla",
+       "lang": "Spanish",
+       "q": "-.CIUDADANÍA NO ESPAÑOLA (EXTRANJERÍA)\nSe distingue:\n*- CIUDADANOS UE, EEE (NORUEGA, ISLANDIA, LIECHTENSTEIN) Y SUIZA\nDocumentación Requerida (Ambos)\n1. Certificado de Registro de Ciudadano de la Unión (CUE o tarjeta verde consta el NIE).\n2. Pasaporte O Documento de Identidad en vigor del país de origen (OBLIGATORIO dado que el Certificado de Registro de CUE, o tarjeta verde NIE, no acredita identidad por sí solo la identidad)\n*-RESTO DE PAÍSES (NO UE / EEE / SUIZA)\nDocumentación (por Orden de preferencia SOLO UNO de ellos):\n1. Tarjeta de Identidad de Extranjero (TIE) en vigor, expedida por España (documento preferente donde consta el NIE).\n2. Pasaporte en vigor del país de origen (solo si no se dispone de TIE).\nConsideraciones:\nActualización Obligatoria: Si un ciudadano se inscribe con Pasaporte y posteriormente obtiene una TIE (NIE), debe comunicarse al Padrón para actualizar su número de identificación.\nFinalidad: La documentación solo acredita la identidad; el Ayuntamiento NO realiza control sobre la legalidad de la residencia.",
+       "tr": "NON-SPANISH CITIZENSHIP (FOREIGN NATIONALS)\nA distinction is made:\nEU, EEA (NORWAY, ICELAND, LIECHTENSTEIN) AND SWISS CITIZENS\nRequired documents (Both)\n1. EU Citizen Registration Certificate (CUE or green card showing the NIE).\n2. Valid passport OR identity document from the country of origin (MANDATORY because the EU Registration Certificate, or green NIE card, does not itself establish identity).\nOTHER COUNTRIES (NON-EU / EEA / SWITZERLAND)\nDocuments (in order of preference ONLY ONE of them):\n1. Valid foreign-national identity card (TIE) issued by Spain (preferred document showing the NIE).\n2. Valid passport from the country of origin (only if no TIE is held).\nConsiderations:\nMandatory update: If a citizen registers with a passport and subsequently obtains a TIE (NIE), the population register must be told to update the identification number.\nPurpose: The documents only establish identity; the Council does NOT check whether residence is lawful.",
+       "why": "If you have no EU registration certificate, a valid home-country identity card or passport can establish your identity.",
+       "prov": "Ley7/1985, art16(2)(f)(1); national padrón instructions§ 2.1",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+       "date": "2026-11-05",
+       "service": "Register your address: required documents",
+       "g": "m",
+       "scope": "Adults who are nationals of EU/EEA countries or Switzerland and actually reside in Sevilla, with valid home-country identity/passport but no EU registration certificate; other statutory registration requirements assumed.",
+       "context": "The current Padrón Municipal front page links this main documentation page. Its other-countries category has a passport fallback expressly limited to non-EU/EEA/Swiss applicants. The same page says the Council does not check residence legality and cannot require documents not required by applicable law. These generic qualifications do not expressly restore the missing EU certificate fallback."
+      },
+      {
+       "s": "amb",
+       "claim": "Says provisional asylum-application papers awaiting admission cannot establish identity for population registration.",
+       "page": "Obervaciones requisitos empadronamiento — Padrón Municipal",
+       "url": "https://www.sevilla.org/servicios/empadronamiento/obervaciones-requisitos-empadronamiento",
+       "lang": "Spanish",
+       "q": "Los documentos provisionales de identidad que se facilitan a los solicitantes de asilo y que se expiden una vez se ha admitido a trámite la solicitud, no resultando válidos los documentos provisionales de solicitud de asilo en los que se especifica que es un documento provisional en espera de ser o no admitida a trámite su petición.",
+       "tr": "Provisional identity documents provided to asylum applicants and issued once their application has been admitted for processing; provisional asylum-application documents specifying that the application is awaiting admission or rejection are not valid.",
+       "why": "A receipt for a lodged protection application can establish identity after its first expiry date, until its second expiry date.",
+       "prov": "National padrón instructions§ 2.1",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+       "date": "2026-11-05",
+       "service": "Population registration: identity documents",
+       "unc": "The page may be legacy guidance about a different provisional paper, and its current incoming link was not established.",
+       "scope": "Only the modern receipt with two validity dates during the statutory extended period, not appointment or pre-application papers.",
+       "context": "Accessible official HTML has no archive label, but no current incoming link from the main Padrón directory or main documentation page was found. The current main documentation page differs substantially. The excluded old paper might not be the modern two-date receipt."
+      }
+     ],
+     "",
+     "Andalucía"
+    ],
+    [
+     "29067",
+     6,
+     "Málaga",
+     599063,
+     "s",
+     [
+      [
+       "ok",
+       "https://juventud.malaga.eu/es/ayudas-y-premios/malagaconduce/index.html",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://juventud.malaga.eu/es/ayudas-y-premios/malaga-idioma-joven/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.malaga.eu/es/tramitacion/ocio-y-turismo/detalle-del-tramite/index.html?id=46&tipoVO=5",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.malaga.eu/gobierno-abierto/transparencia-ayuntamiento/otra-informacion-de-transparencia/proteccion-de-datos-y-derechos-digitales/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "30030",
+     7,
+     "Murcia",
+     479405,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.murcia.es/ficha-procedimiento/782",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://sede.murcia.es/ficha-procedimiento/782",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://sede.murcia.es/ficha-procedimiento/3662",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://web.murcia.es/empadronamiento-ciudadanos-extranjeros-comunitarios",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Starts the six-month compensation decision period after the application-submission period ends.",
+       "page": "Responsabilidad patrimonial (código 782)",
+       "url": "https://sede.murcia.es/ficha-procedimiento/782",
+       "lang": "Spanish",
+       "q": "El plazo máximo para resolver y notificar la resolución del procedimiento será de 6 meses a contar desde el día siguiente al de la finalización del plazo de presentación de instancias según el artículo 91.3 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+       "tr": "The maximum period for deciding and notifying the decision in the procedure is six months from the day after the end of the application-submission period, according to article 91.3 of Law 39/2015 of 1 October on the Common Administrative Procedure of Public Administrations.",
+       "why": "For an ordinary individual compensation application, the six-month period starts when the application reaches the competent administration’s electronic register. Lawful suspensions or extensions can delay the deadline.",
+       "prov": "Ley 39/2015, arts. 21(3)(b), 22–23, 91(3)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+       "date": "2026-11-05",
+       "service": "Claim compensation for damage caused by the council",
+       "g": "m",
+       "scope": "Ordinary complete individual compensation application within the council’s competence, excluding own-initiative proceedings and lawful clock suspensions or extensions.",
+       "context": "The same page correctly says silence means rejection six months after the procedure began. This internal contradiction is material contrary context. The service includes both own-initiative and individual-application initiation, but identifies no common application call. The current linked two-page general application contains no contrary timing rule."
+      },
+      {
+       "s": "bad",
+       "claim": "Says silence after the decision deadline means a population-registration application is rejected.",
+       "page": "Alta y cambio de domicilio en el Padrón Municipal de Habitantes. (código 3662)",
+       "url": "https://sede.murcia.es/ficha-procedimiento/3662",
+       "lang": "Spanish",
+       "q": "Efecto silencio administrativo\nNegativo",
+       "tr": "Effect of administrative silence\nNegative",
+       "why": "For a valid initial registration application, silence after the three-month decision deadline means approval. Lawful suspensions or extensions can delay that deadline.",
+       "prov": "Ley 39/2015, arts. 21–24; national population-register instructions, section 1.13",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+       "date": "2026-11-05",
+       "service": "Join the population register or change your registered address",
+       "g": "M",
+       "scope": "Current ordinary initial population-registration applications in Murcia after actual expiry of the applicable three-month decision period without notification. Excludes appeals, lawful suspension/extension, special legal exclusions and applications that do not meet substantive conditions.",
+       "context": "The same portal says the procedure starts at the interested person’s request and sets a three-month maximum. A nearby Recursos heading describes reconsideration, but the silence field is a peer-level general procedural field, not expressly tied to an appeal. Linked application form and observations require residence/identity proof; no inference that an incomplete or inapplicable application is approved."
+      },
+      {
+       "s": "amb",
+       "claim": "Says all EU citizens registering after a move must attend in person.",
+       "page": "Alta en el Padrón y cambio de domicilio. Requisitos para ciudadanos extranjeros comunitarios | Ayuntamiento de Murcia",
+       "url": "https://web.murcia.es/empadronamiento-ciudadanos-extranjeros-comunitarios",
+       "lang": "Spanish",
+       "q": "DATOS PERSONALES:\n• Presentar la \"hoja de inscripción\" debidamente cumplimentada y firmada por todos los ciudadanos mayores de edad que deseen empadronarse.\n• Originales en vigor o copias compulsadas (para altas en el padrón de ciudadanos que vienen de otro municipio o desde el extranjero), o fotocopias (para cambios de domicilio dentro del mismo municipio) del NIE, pasaporte o documento de identidad de su país de origen.\n• Para los \"menores de edad\".\n• Para las altas, tanto si son de otro municipio, como del extrajero, sera requisito imprescindible la presencia de todas las personas; mayores y menores edad sin excepción.",
+       "tr": "PERSONAL DATA:\n• Submit the registration sheet, completed and signed by all adult citizens wishing to register.\n• Valid originals or certified copies (for new registrations from another municipality or abroad), or photocopies (for address changes within the same municipality) of the NIE, passport or identity document of the country of origin.\n• For minors [linked information].\n• For new registrations, whether from another municipality or abroad, the presence of every person, adults and minors without exception, is an essential requirement.",
+       "why": "People can normally apply through a properly authorised representative. Mandatory attendance needs a rule with the force of law.",
+       "prov": "Ley 39/2015, arts. 5 and 19; national population-register instructions, sections 1 and 2.2",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+       "date": "2026-11-05",
+       "service": "Register or change your address: EU citizens",
+       "unc": "The current service portal offers electronic filing, so the older page may describe only the physical application route.",
+       "scope": "The main EU registration page’s personal-attendance sentence, restricted to ordinary competent adults moving into Murcia. No allegation that the municipality lacks an electronic route.",
+       "context": "Current owned portal3662 expressly offers electronic filing24/7 and telephone/physical channels. Linked main-page minors guidance exempts specified birth registrations, while the linked population form mentions signatures by people or their legal representatives. These qualify any broad all-citizens or no-electronic-route reading."
+      }
+     ],
+     "",
+     "Murcia, Región de"
+    ],
+    [
+     "07040",
+     8,
+     "Palma",
+     434786,
+     "s",
+     [
+      [
+       "ok",
+       "https://palma.sedipualba.es/carpetaciudadana/tramite.aspx?idtramite=13805",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://palma.sedipualba.es/carpetaciudadana/tramite.aspx?idtramite=13808",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://palma.sedipualba.es/carpetaciudadana/tramite.aspx?idtramite=13809",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://palma.sedipualba.es/carpetaciudadana/tramite.aspx?idioma=es&idtramite=13898",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Balears, Illes"
+    ],
+    [
+     "35016",
+     9,
+     "Palmas de Gran Canaria, Las",
+     381868,
+     "s",
+     [
+      [
+       "na",
+       "https://www.laspalmasgc.es/es/areas-tematicas/desarrollo-local-comercio-y-consumo/omic/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sedeelectronica.laspalmasgc.es/web/fichaAsunto.do?asas_ide_asu=1474&opcion=0&ruta=%2Fweb%2FasuntosMasUsuales.do%3Fopcion%3D0%21periodo%3D0",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://sedeelectronica.laspalmasgc.es/web/fichaAsunto.do?asas_ide_asu=160&opcion=0&ruta=%2Fweb%2FasuntosMasUsuales.do%3Fopcion",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sedeelectronica.laspalmasgc.es/web/fichaAsunto.do?asas_ide_asu=728&empezarPorPagina=1&idioma=1&nocache=0.24360210321604925&op=23&opcion=0",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.laspalmasgc.es/es/otras-secciones/privacidad/index.html",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Limits a new product’s legal guarantee to two years from delivery.",
+       "page": "Reclamación en la OMIC (Oficina Municipal de Información al Consumidor)",
+       "url": "https://sedeelectronica.laspalmasgc.es/web/fichaAsunto.do?asas_ide_asu=160&opcion=0&ruta=%2Fweb%2FasuntosMasUsuales.do%3Fopcion",
+       "lang": "Spanish",
+       "q": "La garantía legal de los productos de consumo se rige conforme a lo siguiente:\nEl vendedor responde de las faltas de conformidad que se manifiesten en un plazo de dos años desde la entrega. En los bienes de segunda mano, el vendedor y el consumidor podrán pactar un plazo menor, que no podrá ser inferior a un año desde la entrega.\nSalvo prueba en contrario, se presumirá que las faltas de conformidad que se manifiesten en los seis meses posteriores a la entrega ya existían cuando la cosa se entregó, excepto cuando esta presunción sea incompatible con la naturaleza del bien o la índole de la falta de conformidad.\nSalvo prueba en contrario, la entrega se entiende hecha en el día que figure en la factura o tique de compra, o en el albarán de entrega correspondiente si este fuera posterior.\nLa acción para reclamar prescribirá a los tres años desde la entrega del bien.\nEl consumidor deberá informar al vendedor de la falta de conformidad en el plazo de dos meses desde que tuvo conocimiento de ella.\nSalvo prueba en contrario, se entenderá que la comunicación del consumidor ha tenido lugar dentro del plazo establecido.",
+       "tr": "The legal guarantee for consumer products is governed as follows:\nThe seller is responsible for nonconformity that appears within two years of delivery. For second-hand goods, the seller and consumer may agree a shorter period, which cannot be less than one year from delivery.\nUnless proved otherwise, nonconformity appearing in the six months after delivery is presumed to have existed when the item was delivered, unless that presumption is incompatible with the nature of the goods or the defect.\nUnless proved otherwise, delivery is understood to have occurred on the date shown on the invoice or purchase receipt, or on the corresponding delivery note if later.\nThe action to claim expires three years after delivery of the goods.\nThe consumer must inform the seller of the nonconformity within two months of becoming aware of it.\nUnless proved otherwise, the consumer is understood to have communicated within that period.",
+       "why": "For a new product bought from a trader from 1 January 2022, the seller is responsible for defects present on delivery that appear within three years of delivery. Other legal conditions still apply.",
+       "prov": "Real Decreto Legislativo 1/2007, arts. 114, 117–118, 120(1); Real Decreto-ley 7/2021, art. 16(7), final provision 8(d)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+       "date": "2026-11-05",
+       "service": "Make a consumer complaint to the council",
+       "g": "M",
+       "scope": "Only new ordinary physical goods bought from a professional seller after 1 January 2022, with a defect present at delivery that appears in year three. No second-hand agreement, digital service/content, misuse, ordinary wear, disclosed deviation or pre-2022 contract. No exclusive six-month proof or separate action-period allegation.",
+       "context": "The actual service states an update on 25 May 2026 and retains older expanded statutory quotations. The main municipal OMIC page separately links a correcting guarantee-extension leaflet: full commencement/change, prior-rule and current-rule paragraphs are preserved as material counterevidence. It is not linked as a correction within service 160. OMIC mediation is voluntary and non-decisory; this concerns seller guarantee rights, not a guaranteed mediation result."
+      }
+     ],
+     "",
+     "Canarias"
+    ],
+    [
+     "03014",
+     10,
+     "Alacant/Alicante",
+     366221,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.alicante.es/es/contenidos/proteccion-datos",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.alicante.es/es/tramites/solicitud-tarjeta-especial-estacionamiento-personas-discapacidad-y-movilidad-reducida",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.alicante.es/es/gobierno-abierto/transparencia/solicitud-acceso-informacion-publica",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.alicante.es/es/tramites/solicitud-tarjeta-especial-estacionamiento-personas-discapacidad-y-movilidad-reducida",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Comunitat Valenciana"
+    ],
+    [
+     "48020",
+     11,
+     "Bilbao",
+     351124,
+     "s",
+     [
+      [
+       "x",
+       "https://www.bilbao.eus/cs/Satellite/transparencia/es/derecho-de-acceso-a-la-informacion/acceso-a-la-informacion-publica/solicitud-acceso-a-la-informacion-publica",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://bilbaogazte.bilbao.eus/es/politica-de-privacidad/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.bilbao.eus/cs/Satellite/transparencia/es/derecho-de-acceso-a-la-informacion/acceso-a-la-informacion-publica/procedimiento-ejercicio-derecho-acceso-informacion-publica",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "País Vasco"
+    ],
+    [
+     "14021",
+     12,
+     "Córdoba",
+     323262,
+     "s",
+     [
+      [
+       "na",
+       "https://www.cordoba.es/sede/tramites/control-animal/solicitud-de-licencia-para-la-tenencia-de-animales-potencialmente-peligrosos",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.cordoba.es/sede/tramites/control-animal/solicitud-de-licencia-para-la-tenencia-de-animales-potencialmente-peligrosos",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://consumo.cordoba.es/index.php?Itemid=90&catid=293%3Amovil&id=1367%3Ainformacion-telefonia-movil&option=com_content&view=article",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.cordoba.es/sede/tramites/padron-de-habitantes/alta-o-inscripcion-y-traslado-de-domicilio-en-el-padron-municipal-de-habitantes",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires renewal applicants to declare no qualifying animal-law sanction in the last three years, without an exception for a fully served temporary licence suspension.",
+       "page": "Solicitud de licencia para la tenencia de animales potencialmente peligrosos | Ayuntamiento de Córdoba",
+       "url": "https://www.cordoba.es/sites/default/files/PDF/Tramites/controlanimal/COA01_2026_01.pdf",
+       "lang": "Spanish",
+       "q": "DECLARACIÓN RESPONSABLE\nEl solicitante declara expresamente bajo su responsabilidad:\nA fin de dar cumplimiento a los requisitos establecidos en el Decreto 42/2008, por el que se desarrolla la Ley 50/1999, de 23 de diciembre (BOE nº 307, de 24 de diciembre de 1999) y siguiendo la instrucción de 25 de abril del 2008 de la Dirección General de Espectáculos Públicos y Juego de la Consejería de Gobernación de la Junta de Andalucía, sobre el Régimen Jurídico de la Tenencia de Animales Potencialmente Peligrosos, no haber sido sancionado en los tres últimos años por infracciones graves o muy graves con algunas de las sanciones accesorias de las previstas en el art. 13.3 de la Ley 50/1999, ni privado por ninguna administración pública del derecho a la posesión o tenencia de animales potencialmente peligrosos.",
+       "tr": "DECLARATION OF COMPLIANCE\nThe applicant expressly declares under their responsibility:\nTo meet the requirements of Decree 42/2008 implementing Law 50/1999 of 23 December (BOE no. 307 of 24 December 1999), and following the instruction of 25 April 2008 of the Andalusian Directorate-General for Public Entertainment and Gaming on the legal regime for keeping potentially dangerous animals, that in the last three years they have not been sanctioned for serious or very serious offences with any accessory sanction under article 13.3 of Law 50/1999, nor deprived by any public administration of the right to possess or keep potentially dangerous animals.",
+       "why": "A fully served temporary licence suspension does not prevent obtaining or renewing the licence. Other lawful national, regional and local conditions still apply.",
+       "prov": "Real Decreto 287/2002, art. 3(1)(c), (4); Decreto andaluz 42/2008, art. 4(2)(c), (6)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-6016",
+       "date": "2026-11-05",
+       "service": "Apply for or renew a potentially dangerous animal licence",
+       "g": "M",
+       "scope": "Only a fully served temporary licence suspension within the form’s three-year period. The main HTML expressly requires the attached current form for paper and other-register submissions; this is one municipal service finding, not a second PDF target. No general claim that every minor fine is irrelevant.",
+       "context": "Only a fully served temporary licence suspension within the form’s three-year period. The main HTML expressly requires the attached current form for paper and other-register submissions; this is one municipal service finding, not a second PDF target. No general claim that every minor fine is irrelevant."
+      },
+      {
+       "s": "bad",
+       "claim": "Limits a new phone’s legal guarantee to two years.",
+       "page": "Servicio Municipal de Consumo Ayuntamiento Córdoba- Consumidores y Empresas- OMIC - JAC - Reclamar e Información",
+       "url": "https://consumo.cordoba.es/index.php?Itemid=90&catid=293%3Amovil&id=1367%3Ainformacion-telefonia-movil&option=com_content&view=article",
+       "lang": "Spanish",
+       "q": "Tal y como establece la normativa en materia de garantías, los terminales telefónicos disponen de dos años de garantía desde la fecha en que el consumidor recepciona el terminal enviado por el operador o este es adquirido en un establecimiento (exija y conserve la factura de compra, aunque esta sea de importe cero, o guarde el albarán de entrega si el terminal fue enviado por el operador).\nDentro de este plazo de dos años el consumidor podrá exigir ante faltas de conformidad del terminal, ya sea al operador o al establecimiento, la reparación o sustitución del terminal.",
+       "tr": "As guarantee legislation provides, telephone handsets have a two-year guarantee from the date the consumer receives the handset sent by the operator or buys it in a shop (request and retain the purchase invoice, even if its amount is zero, or keep the delivery note if the handset was sent by the operator).\nWithin this two-year period, for a lack of conformity in the handset the consumer may require repair or replacement from the operator or shop.",
+       "why": "For a new phone bought from a trader from 1 January 2022, the seller covers defects present at delivery that appear within three years. Other legal conditions still apply.",
+       "prov": "Real Decreto Legislativo 1/2007, arts. 10, 114, 117–118, 120(1), 121; Real Decreto-ley 7/2021, art. 16(7), final provision 8(d)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+       "date": "2026-11-05",
+       "service": "Mobile phones: consumer rights",
+       "g": "M",
+       "scope": "Ordinary new handset bought from a trader after the 2022 commencement, with an original hardware defect adequately proved in the third year. Excludes old purchases, second-hand agreed periods, unrelated telecom-service claims, misuse, normal wear and any assumption that every breakdown is covered.",
+       "context": "Full acquisition and seller/operator/manufacturer responsibility sections were read. The guide separately discusses commercial arrangements, operator finance and early proof burdens; no exclusive six-month-proof allegation is made. The linked guarantee-leaflet URL returned a departmental HTML landing page, not a PDF. Its actual useful links point to the same mobile article id 1367; a newer mobile guide id 2755 remains unread."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires EU citizens to give an NIE as well as a valid identity document to register their address.",
+       "page": "Alta o inscripción y traslado de domicilio en el Padrón Municipal de Habitantes | Ayuntamiento de Córdoba",
+       "url": "https://www.cordoba.es/sede/tramites/padron-de-habitantes/alta-o-inscripcion-y-traslado-de-domicilio-en-el-padron-municipal-de-habitantes",
+       "lang": "Spanish",
+       "q": "Identificación de las personas que se van a empadronar\n• Españoles: Copia de DNI en vigor (ambas caras). Si son menores de14 años el libro de familia o el certificado de nacimiento.\n• Extranjeros: NIE o PASAPORTE en vigor.\n• Extranjeros comunitarios (UE): NIE y el documento identificativo en vigor del país de origen.\nAdemás en caso de alta se debe presentar obligatoriamente el Impreso CERE.DFA-27 para la Declaración de Intención de voto.",
+       "tr": "Identification of the people registering\n• Spanish citizens: Copy of a valid DNI (both sides). For children under 14, the family book or birth certificate.\n• Foreigners: Valid NIE or PASSPORT.\n• EU foreign nationals: NIE and a valid identity document from the country of origin.\nIn addition, for new registration, form CERE.DFA-27 for the declaration of intention to vote must be submitted.",
+       "why": "If you have no EU registration certificate, a valid home-country identity document or passport can establish your identity.",
+       "prov": "Ley 7/1985, art. 16(2)(f)(1); national population-register instructions, section 2.1",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+       "date": "2026-11-05",
+       "service": "Register or change your address",
+       "g": "m",
+       "scope": "Current municipal initial population registration for adult EU citizens without an EU registration certificate/NIE, holding a valid home-country identity document or passport and all other required proof. Not an immigration-status eligibility or administrative-practice finding.",
+       "context": "The general foreigners bullet says NIE OR passport. The EU-specific bullet says AND, and the linked2024 version5 form repeats certificate plus identity/passport. The linked voting-intention form allows YES and NO, so this is not a claim that voting is compulsory. Electronic/physical filing routes and other documentation paragraphs were read."
+      }
+     ],
+     "",
+     "Andalucía"
+    ],
+    [
+     "47186",
+     13,
+     "Valladolid",
+     302614,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.valladolid.es/opencms/opencms/system/modules/sede/pages/faq",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.valladolid.es/opencms/opencms/system/modules/sede/pages/representacion_sede",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.valladolid.es/es/ayuntamiento/atencion-ciudadana/presentacion-incidencias-quejas-sugerencias-agradecimientos",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.valladolid.es/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Castilla y León"
+    ],
+    [
+     "36057",
+     14,
+     "Vigo",
+     294489,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.vigo.org/expedientes/tramites/tramite.jsp?id_tramite=313&lang=es",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://sede.vigo.org/expedientes/tramites/tramite.jsp?id_tramite=472&lang=es",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.vigo.org/expedientes/sede/?lang=es",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.vigo.org/expedientes/tramites/tramite.jsp?id_tramite=492&lang=es",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Galicia"
+    ],
+    [
+     "08101",
+     15,
+     "Hospitalet de Llobregat, L'",
+     289510,
+     "s",
+     [
+      [
+       "ok",
+       "https://seuelectronica.l-h.cat/tramits/navegacioTramits.aspx?cr=335905&id=2",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://seuelectronica.l-h.cat/tramits/r/detallTramit.aspx?1x84G4ULMaD4qazA2Ri5fqazAHDAZAOhxPivwGjFtxnoHGHgSAqazB",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://seuelectronica.l-h.cat/tramits/r/detallTramit.aspx?1pe8UQSx3RocgXmZqazCDxqazAqhwkYsIYbaQN8KgB1qOHey44qazB",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://seuelectronica.l-h.cat/tramits/r/tramits.aspx?id=1",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "33024",
+     16,
+     "Gijón",
+     269894,
+     "s",
+     [
+      [
+       "x",
+       "https://www2.gijon.es/es/tramites/presentacion-de-reclamaciones-sugerencias-o-agradecimiento",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://drupal.gijon.es/es/visitas-guiadas-bibliotecas",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sedeelectronica.gijon.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=SEDE_FAQS",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sedeelectronica.gijon.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269030787101709806402&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://sedeelectronica.gijon.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269030566738702606402&PAGE_CODE=CATALOGO&ambito=STA_AYTO",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://sedeelectronica.gijon.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sedeelectronica.gijon.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=SEDE_AYUDA",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Gives affected third parties 10 days to comment on a public information request.",
+       "page": "Derecho de acceso a la información pública",
+       "url": "https://sedeelectronica.gijon.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269030566738702606402&PAGE_CODE=CATALOGO&ambito=STA_AYTO",
+       "lang": "Spanish",
+       "q": "La resolución en la que se conceda o deniegue el acceso deberá notificarse al solicitante y a los terceros afectados que así lo hayan solicitado en el plazo máximo de un mes.\nLos plazos quedarán suspendidos:\nSi la solicitud es imprecisa: en este supuesto el Ayuntamiento lo notificará a la persona solicitante, que dispondrá de un período de 10 días para corregirla.\nSi el acceso a la información puede perjudicar intereses de terceras personas, estas dispondrán de un período de 10 días para presentar alegaciones.\nEste plazo podrá ampliarse por otro mes en el caso de que el volumen o la complejidad de la información que se solicita así lo hagan necesario y previa notificación al solicitante.",
+       "tr": "Within a maximum of one month, the decision granting or refusing access must be notified to the applicant and affected third parties who have requested notification.\nThe time limits are suspended:\nIf the request is imprecise: the Council will notify the applicant, who has 10 days to clarify it.\nIf access to the information may harm third parties’ interests, they have 10 days to submit comments.\nThis period may be extended by another month if the volume or complexity of the requested information makes this necessary, after notifying the applicant.",
+       "why": "Identified people whose rights or interests may be affected must have 15 working days to comment. The decision deadline pauses meanwhile.",
+       "prov": "Ley 19/2013, art. 19(3); Ley 39/2015, art. 30(2)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+       "date": "2026-11-05",
+       "service": "Request access to public information",
+       "g": "M",
+       "scope": "An identified third party whose rights or interests may be affected by an ordinary public-information disclosure request, with no legally adopted urgency, waiver or special statutory access procedure. No claim about the requester’s clarification period, the merits of disclosure or the actual hearing notice.",
+       "context": "The complete decision-period block distinguishes the applicant’s clarification from the affected third party’s hearing. The service offers electronic and physical routes and describes general public-information access. Its opening purpose sentence is visibly truncated after salvaguardar; no completion is inferred. Later silence and remedy fields say No procede and No aplica; those placeholders are retained as countercontext, not separate adopted findings. Regional current access rules preserve the national regime. The recovered 2016 municipal ordinance article 33(5) expressly imports the national article 19 hearing procedures; its current main-site incoming body remains inaccessible, so latest-version completeness is not asserted."
+      }
+     ],
+     "",
+     "Asturias, Principado de"
+    ],
+    [
+     "01059",
+     17,
+     "Vitoria-Gasteiz",
+     260699,
+     "s",
+     [
+      [
+       "ok",
+       "https://sedeelectronica.vitoria-gasteiz.org/portal/es/w/solicitud-de-reclamacion-de-responsabilidad-patrimonial-del-ayuntamiento-2405968",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sedeelectronica.vitoria-gasteiz.org/portal/es/w/solicitud-tarjeta-estacionamiento-para-vehiculos-que-transportan-personas-movilidad-reducida-2510120",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sedeelectronica.vitoria-gasteiz.org/portal/es/tramites",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sedeelectronica.vitoria-gasteiz.org/portal/es/w/alta-en-el-impuesto-sobre-vehiculos-de-traccion-mecanica-por-matriculacion-o-rehabilitacion-2842051",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "País Vasco"
+    ],
+    [
+     "15030",
+     18,
+     "Coruña, A",
+     251543,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.coruna.gal/sede/gl/tramites-e-servizos-electronicos/guia-de-procedementos-e-servizos/detalle-de-procedementos/beneficios-fiscais-no-imposto-sobre-vehiculos-de-traccion-mecanica-ivtm/contenido/1453739240482",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.coruna.gal/sede/gl/tramites-e-servizos-electronicos/guia-de-procedementos-e-servizos/detalle-de-procedementos/admision-nas-escolas-infantis-municipais/contenido/1453757475146",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.coruna.gal/sede/gl/tramites-e-servizos-electronicos/guia-de-procedementos-e-servizos/detalle-de-procedementos/bono-taxi/contenido/1453748064782",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.coruna.gal/sede/es/tramites-y-servicios-electronicos/guia-de-procedimientos-y-servicios/detalle-de-procedimientos/solicitud-de-caracter-general/contenido/1453745310192?argIdioma=es",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Galicia"
+    ],
+    [
+     "03065",
+     19,
+     "Elx/Elche",
+     245557,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.elche.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000000564023999500&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.elche.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000000563998199500&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.elche.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000000563996699500&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.elche.es/ceremonias-civiles/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.elche.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000000002117007922&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Comunitat Valenciana"
+    ],
+    [
+     "18087",
+     20,
+     "Granada",
+     233975,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.granada.org/inet/wparciu.nsf/xtod/6B15F7CF35769CCAC1257950003F05C1",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.granada.org/inet/bsocial12.nsf/byfamilia/C2EC4A66B049DC80C125799800447D1C",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.granada.org/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.granada.org/inet/nndd.nsf/byclave/05Tram06-Es",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "08279",
+     21,
+     "Terrassa",
+     233270,
+     "s",
+     [
+      [
+       "ok",
+       "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=961",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=1501",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://seuelectronica.terrassa.cat/web/seu",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=3822",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "08015",
+     22,
+     "Badalona",
+     231542,
+     "s",
+     [
+      [
+       "ok",
+       "https://seu.badalona.cat/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO&DETALLE=6269000171155550799500",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://seu.badalona.cat/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO&DETALLE=6269000188582332807753",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.badalona.cat/ca/serveis-ajuntament/activitat-economica/consum/la-junta-arbitral",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://seu.badalona.cat/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://seu.badalona.cat/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000171155554399500&PAGE_CODE=PTS_CATSERV&lang=ES",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "08187",
+     23,
+     "Sabadell",
+     225368,
+     "s",
+     [
+      [
+       "ok",
+       "https://seu.sabadell.cat/opensiac/informacionpublica/tramitesinfo.action?tramitesInfoForm.id=566",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://seu.sabadell.cat/opensiac/informacionpublica/tramitesinfo.action?tramitesInfoForm.id=65",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://seu.sabadell.cat/opensiac/informacionpublica/tramites_enter.action",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://seu.sabadell.cat/opensiac/action/tramitesinfo?id=614&method=enter",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "33044",
+     24,
+     "Oviedo",
+     223968,
+     "s",
+     [
+      [
+       "ok",
+       "https://portal.oviedo.es/sede/catalogoTramites.do",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://portal.oviedo.es/sede/tramitacionElectronica.do?aplcorreo=4&asu_cod=1728&asu_mod_cod=1727&asunto=1728&ent_id=1&idioma=1&pes_cod=-1",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://portal.oviedo.es/portal/noEstatica.do?ent_id=1&idioma=1&opc_id=275",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Asturias, Principado de"
+    ],
+    [
+     "30016",
+     25,
+     "Cartagena",
+     220704,
+     "s",
+     [
+      [
+       "ok",
+       "https://cartagena.sedipualba.es/segex/tramite.aspx?idtramite=10674",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://cartagena.sedipualba.es/catalogoservicios.aspx?ambito=&area=",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://cartagena.sedipualba.es/carpetaciudadana/tramite.aspx?idtramite=9852",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Murcia, Región de"
+    ],
+    [
+     "28092",
+     26,
+     "Móstoles",
+     214817,
+     "s",
+     [
+      [
+       "bad",
+       "https://www.mostoles.es/SEDE_ELECTRONICA/es/tramites-gestiones/listado-tramites-disponibles/consulta-documentos-archivo-municipal",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.mostoles.es/SEDE_ELECTRONICA/es/tramites-gestiones/listado-tramites-disponibles/reclamacion-economico-administrativa",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.mostoles.es/SEDE_ELECTRONICA/es/tramites-gestiones/listado-tramites-disponibles/solicitud-informe-intervencion-policial-siniestro-vial",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.mostoles.es/SEDE_ELECTRONICA/es/tramites-gestiones/listado-tramites-disponibles",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.mostoles.es/SEDE_ELECTRONICA/es/tramites-gestiones/listado-tramites-disponibles/celebracion-bodas-civiles",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires a direct personal interest to see archived records classed as open to the public.",
+       "page": "Consulta de documentos del Archivo Municipal | SEDE_ELECTRONICA",
+       "url": "https://www.mostoles.es/SEDE_ELECTRONICA/es/tramites-gestiones/listado-tramites-disponibles/consulta-documentos-archivo-municipal",
+       "lang": "Spanish",
+       "q": "El derecho de acceso a los documentos contemplados en el Reglamento del Archivo como de libre acceso (los sujetos en su tramitación al Derecho Administrativo correspondientes a procedimientos terminados) podrá ser ejercido por el titular y por terceros que acrediten interés legítimo y directo. Cuando los solicitantes sean investigadores que acrediten un interés histórico, científico o cultural relevante, podrán realizar petición genérica sobre una materia o conjunto de materias.",
+       "tr": "Access to documents the Archive Regulations classify as freely accessible (documents processed under administrative law in completed proceedings) may be exercised by the person concerned and by third parties who demonstrate a legitimate and direct interest. Researchers who demonstrate a relevant historical, scientific or cultural interest may make a general request about one subject or a group of subjects.",
+       "why": "You can see archived council records open to the public without proving a personal interest. Privacy, secrecy and conservation limits still apply.",
+       "prov": "Ley 19/2013, arts. 12–17, additional provision 1; Ley 16/1985, art. 57(1)(a); Ley madrileña 6/2023, arts. 62–67",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+       "date": "2026-11-05",
+       "service": "Consult council archive records",
+       "g": "M",
+       "scope": "Specifically identified, concluded and archived municipal administrative records classified as freely accessible, with no personal-data, secrecy, conservation or special-access restriction; no right to unrestricted access to every planning file or unredacted nominative document is asserted.",
+       "context": "The following service sections discuss ended planning files and owner or representative documentation. The comparison excludes those nominative or restricted files. The linked local archive regulation expressly permits free consultation generally, and imposes direct interest on nominative non-intimate documents. Its article 15 refers to article 14.2(c), although the relevant nominative category appears in article 14.3(c). The actual linked application includes purpose boxes and owner-authorisation or research-letter attachments; it does not expressly restore unrestricted consultation of ordinary open records."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires Civil Registry proceedings before you can book a council wedding.",
+       "page": "Celebración de bodas civiles | SEDE_ELECTRONICA",
+       "url": "https://www.mostoles.es/SEDE_ELECTRONICA/es/tramites-gestiones/listado-tramites-disponibles/celebracion-bodas-civiles",
+       "lang": "Spanish",
+       "q": "Aquellas personas que deseen contraer matrimonio civil en el Ayuntamiento de Móstoles, tendrán que:\n1. Solicitar cita online en el REGISTRO CIVIL DE MÓSTOLES (Plaza Ernesto Peces), en la página web del REGISTRO CIVIL viene la información de los documentos que se tienen que aportar para el inicio del expediente. Pinche AQUÍ.\n2. Una vez iniciado el Expediente Matrimonial en el Registro Civil, soliciten la reserva de una fecha a través del servicio de Cita Previa.",
+       "tr": "People wishing to marry in a civil ceremony at the Council of Móstoles must:\n1. Book an appointment online at the MÓSTOLES CIVIL REGISTRY (Plaza Ernesto Peces). The Civil Registry website explains which documents must be supplied to start the proceedings. Click HERE.\n2. Once marriage proceedings have been started at the Civil Registry, request a date reservation through the Appointment service.",
+       "why": "A valid marriage authorisation from a competent notary also lets you marry before the mayor or a delegated councillor.",
+       "prov": "Código Civil, arts.51(1) and57; Ley20/2011, art.58(2), (6), (8)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-12628",
+       "date": "2026-11-05",
+       "service": "Civil wedding ceremonies",
+       "g": "m",
+       "scope": "Marriage already lawfully authorised by a territorially competent notary, followed by an otherwise available municipal ceremony. No exemption from ordinary local booking, time, identification, witnesses or lawful venue fees.",
+       "context": "The current service catalogue directly links this HTML guidance, which links the currently served two-page application form. Page 2 repeats the Civil Registry prerequisite. The HTML later requires documents at least three weeks before the ceremony, lists fees for residents and nonresidents, and permits contact before archival; these are preserved as context, not independently challenged. The form accepts DNI/NIE/passport, so HTML DNI shorthand is not a separate nationality-document allegation."
+      }
+     ],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "11020",
+     27,
+     "Jerez de la Frontera",
+     213634,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.sedeelectronica.jerez.es/tramites/bonificacion_del_impuesto_sobre_inmuebles_para_familias_numerosas",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.sedeelectronica.jerez.es/tramites/aplazamiento_de_pagos_a_pensionistas",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.sedeelectronica.jerez.es/tramites/carnet_de_socio_del_centro_de_dia_de_mayores",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.sedeelectronica.jerez.es/tramites",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.sedeelectronica.jerez.es/tramites/ayuda_a_domicilio",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "38038",
+     28,
+     "Santa Cruz de Tenerife",
+     211957,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.santacruzdetenerife.es/sede/tramite/t739",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://sede.santacruzdetenerife.es/sede/tramite/t582",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.santacruzdetenerife.es/sede/tramite/t261",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://sede.santacruzdetenerife.es/sede/tramites",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.santacruzdetenerife.es/sede/tramites",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.santacruzdetenerife.es/sede/tramite/t194",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.santacruzdetenerife.es/sede/tramite/t114",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Canarias"
+    ],
+    [
+     "31201",
+     29,
+     "Pamplona/Iruña",
+     209094,
+     "s",
+     [
+      [
+       "na",
+       "https://sedeelectronica.pamplona.es/FichaTramite.aspx?cat=familia&cat2=&id=195532TA&idioma=1&opc=ciudadanos&opc2=porTema",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sedeelectronica.pamplona.es/FichaTramite.aspx?cat=familia&cat2=&id=243896TA&idioma=1&opc=ciudadanos&opc2=porTema",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://sedeelectronica.pamplona.es/FichaTramite.aspx?id=20-55992&idioma=5",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sedeelectronica.pamplona.es/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.pamplona.es/ayuntamiento/atencion-ciudadana/preguntas-mas-frecuentes",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "amb",
+       "claim": "Says you have 30 calendar days to pay a traffic fine with a 50% discount.",
+       "page": "Preguntas más frecuentes | Ayuntamiento de Pamplona",
+       "url": "https://www.pamplona.es/ayuntamiento/atencion-ciudadana/preguntas-mas-frecuentes",
+       "lang": "Spanish",
+       "q": "¿Cómo puedo pagar una multa de tráfico?\nLas multas se pueden pagar con un 50% de descuento dentro de los 30 días naturales siguientes al de notificación de la denuncia. El pago con descuento implica la finalización del expediente y la renuncia a hacer alegaciones. El lugar de pago es el Área de Seguridad Ciudadana (C/ Monasterio de Irache 2), de lunes a viernes de 8.30 a 14.30 horas o a través de la sede electrónica en la página web del Ayuntamiento de Pamplona.",
+       "tr": "How can I pay a traffic fine?\nFines can be paid with a 50% discount within 30 calendar days following notification of the infringement report. Payment with the discount closes the proceedings and waives the right to make representations. Payment can be made at the Citizen Security Department (C/Monasterio de Irache 2), Monday to Friday from 8.30 to 14.30, or through the electronic office on the Council of Pamplona website.",
+       "why": "National traffic law sets a 20-day discount window. Pamplona’s mobility ordinance provides 30 days; how these rules fit together needs further review.",
+       "prov": "Real Decreto Legislativo 6/2015, arts.83, 93–95; Ley 39/2015, art.32; municipal mobility ordinance, arts.90–92",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+       "date": "2026-11-05",
+       "service": "Frequently asked questions",
+       "unc": "Lawful local extension/grace reading remains material. The actual municipal ordinance expressly provides 30 days. Status ambiguous; no consequence grade.",
+       "scope": "Unresolved comparison of general municipal traffic-payment FAQ, national abbreviated procedure and explicit local 30-day ordinance. No actual refusal, charge, lost discount, unlawful local policy or earlier 15-working-day deadline claimed.",
+       "context": "Whole broad FAQ was explored through the relevant traffic section. Adjacent representations answer says 15 working days, but no earlier-deadline allegation is made without a concrete calendar. Root independently read a separate current municipal payment service repeating 30 days. National and Navarra competence texts read; author additionally found actual local ordinance 92 and LPAC 32 extension framework. No original local ordinance publication/current amendment chain or individual fine notice verified."
+      }
+     ],
+     "",
+     "Navarra, Comunidad Foral de"
+    ],
+    [
+     "04013",
+     30,
+     "Almería",
+     205468,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.almeriaciudad.es/integracion-social/tramites-y-gestiones/presentacion-de-sugerencias-quejas-y-reclamaciones",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://almeriaciudad.es/cultura/tramites-y-gestiones",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.almeriaciudad.es/registro-atencion-ciudadana",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "28005",
+     31,
+     "Alcalá de Henares",
+     203208,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.ayto-alcaladehenares.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO&DETALLE=6269044364682512205044",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://sede.ayto-alcaladehenares.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO&DETALLE=6269044362499733999500",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://archivo.ayto-alcaladehenares.es/servicios/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://sede.ayto-alcaladehenares.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.ayto-alcaladehenares.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "28074",
+     32,
+     "Leganés",
+     195734,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.leganes.org/w/para-ser-socio-de-los-centros-de-mayores",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.leganes.org/w/nueva-tramitaci%C3%B3n-del-impuesto-sobre-el-incremento-del-valor-de-los-terrenos-de-naturaleza-urbana-plusval%C3%ADa-1",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "28065",
+     33,
+     "Getafe",
+     193238,
+     "s",
+     [
+      [
+       "ok",
+       "https://getafe.es/delegaciones/area-social/servicio-de-atencion-al-vecino-sav/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://getafe.es/delegaciones/area-social/consumo/actuaciones/atencion-al-consumidor-omic/junta-arbitral-de-consumo/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://getafe.es/delegaciones/area-social/asuntos-sociales/actuaciones/atencion-a-las-personas-en-situacion-de-dependencia-y-sus-familias/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://sede.getafe.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://getafe.es/delegaciones/area-social/servicio-de-atencion-al-vecino-sav/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "28058",
+     34,
+     "Fuenlabrada",
+     190076,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.ayto-fuenlabrada.es/web/portal/w/puntos-limpios",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.ayto-fuenlabrada.es/web/portal/w/solicitud-tarjeta-estacionamiento-para-personas-con-diversidad-funcional",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.ayto-fuenlabrada.es/web/portal/w/fuenbecas",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://sede.fuenlabrada.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.ayto-fuenlabrada.es/w/licencia-de-animales-potencialmente-peligrosos",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires a sworn statement that you have never been sanctioned under dangerous-dog law to renew a licence.",
+       "page": "Licencia de Perros Potencialmente Peligrosos - Fuenlabrada",
+       "url": "https://www.ayto-fuenlabrada.es/w/licencia-de-animales-potencialmente-peligrosos",
+       "lang": "Spanish",
+       "q": "Declaración jurada de no haber sido sancionado en ningún municipio por incumplimiento de lo estipulado en la Ley 50/99 de Perros Potencialmente Peligrosos de la Comunidad de Madrid.",
+       "tr": "Sworn declaration that you have not been sanctioned in any municipality for breaching the provisions of Law 50/99 on Potentially Dangerous Dogs in the Community of Madrid.",
+       "why": "A temporary licence suspension that has been fully served does not bar renewal. Other lawful licence requirements still apply.",
+       "prov": "Real Decreto287/2002, art.3(1)(c), (2), (4); Ley50/1999, art.3",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-6016",
+       "date": "2026-11-05",
+       "service": "Apply for or renew a potentially dangerous dog licence",
+       "g": "m",
+       "scope": "Only fully served temporary suspension of a dangerous-dog licence, no continuing restriction and all other lawful conditions met. No claim that all past fines or sanctions must be ignored, nor any general right to a licence regardless of regional/local conditions.",
+       "context": "The page distinguishes licence application/renewal from subsequent registration by the animal owner. Its mandatory document list includes identification, residence, fee, criminal-record certificate or authorisation, fitness and insurance. The criminal-record authorisation alternative is separate from the unqualified sanctions oath. Current municipal normative guidance lists Ley 7/2023 alongside Ley 50/1999, RD 287/2002 and MadridDecreto 30/2003. A separate currently linked scanned 1999 local ordinance could not be read: web 0 text/screenshotcachemiss, directHTTPS timeout. This limitation is retained rather than claiming no local conditions exist."
+      }
+     ],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "20069",
+     35,
+     "Donostia/San Sebastián",
+     189866,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.donostia.eus/tramites/acceso-a-la-informacion-publica",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.donostia.eus/es/tramites/datos-personales-derechos",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.donostia.eus/es/tramites/datos-personales-derechos",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://donostia.eus/es/tramites/kontsumo-erreklamazioak",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://donostia.eus/info/udalinfo/tramites.nsf/fwListaTramites?ReadForm=&id=&idioma=cas",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires the council’s form to request access to your own personal data.",
+       "page": "Datos personales - derechos",
+       "url": "https://www.donostia.eus/es/tramites/datos-personales-derechos",
+       "lang": "Spanish",
+       "q": "Cuanta documentación sea necesaria para justificar el derecho que se quiere ejercer.\nNota: es obligatorio el uso del formulario o del impreso específico indicado en este trámite.",
+       "tr": "Any documentation necessary to justify the right you wish to exercise.\nNote: use of the form or specific printed application indicated for this procedure is compulsory.",
+       "why": "You can clearly ask for access to your own personal data without using the council’s form.",
+       "prov": "Regulation (EU) 2016/679, arts. 12(2), 15; Ley Orgánica 3/2018, art. 12(2)",
+       "lawUrl": "https://www.boe.es/doue/2016/119/L00001-00088.pdf",
+       "date": "2026-11-05",
+       "service": "Personal data rights",
+       "g": "m",
+       "scope": "A complete, clear ordinary GDPR request for the resident’s own personal data, delivered through an appropriate council channel with identity established; no special processing regime, identification gap, manifestly unfounded or excessive request.",
+       "context": "The full page covers five personal-data rights, offers online and in-person submission and representation alternatives, and links its specific three-page application. The allegation concerns only the form requirement for ordinary personal-data access. Its qualified repetition rule and response periods were separately screened without finding a conflict. The privacy notice also cites a police-data statute; special police-data processing is excluded from this comparison."
+      }
+     ],
+     "",
+     "País Vasco"
+    ],
+    [
+     "12040",
+     36,
+     "Castelló de la Plana/Castellón de la Plana",
+     183711,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.castello.es/catalog/t/89e7f04f-c388-4366-9267-d3753af1a786",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.castello.es/es/consumo1",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.castello.es/catalog/t/772f8803-d7a6-48e7-82a3-f99a9330daaf",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.castello.es/es/tribunal-economico-administrativo-municipal",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.castello.es/es/cita-previa",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.castello.es/es/tarjetaciudadana",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Comunitat Valenciana"
+    ],
+    [
+     "09059",
+     37,
+     "Burgos",
+     177402,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.aytoburgos.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269001000149097707537&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.aytoburgos.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS_REGELEC",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://movilidad.aytoburgos.es/es/web/ayuntamiento-de-burgos/tramites/-/asset_publisher/ipBwg7lfYi0A/content/id/56316581",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://sede.aytoburgos.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Castilla y León"
+    ],
+    [
+     "28007",
+     38,
+     "Alcorcón",
+     175719,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.ayto-alcorcon.es/es/servicios/transicion-ecologica/ayudas-de-transicion-ecologica",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.ayto-alcorcon.es/es/transparencia/derecho-de-acceso-la-informacion-publica",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.ayto-alcorcon.es/es/tramites",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://portalciudadano.ayto-alcorcon.es/portal/noEstatica.do?ent_id=1&idioma=1&opc_id=275",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says late municipal capital-gains tax incurs surcharges of 5%, 10%, 15% or 20% before any tax demand.",
+       "page": "Sede electrónica - FAQ",
+       "url": "https://portalciudadano.ayto-alcorcon.es/portal/noEstatica.do?ent_id=1&idioma=1&opc_id=275",
+       "lang": "Spanish",
+       "q": "¿Qué ocurre si no se pagó la Plusvalía en plazo? (1/2)?\nDe acuerdo con el artículo 27.2 de la Ley General Tributaria, el pago fuera de plazo sin requerimiento previo originará los siguientes recargos:\n• Hasta 3 meses: el 5 por 100.\n• Más de 3 meses hasta 6 meses: el 10 por 100.\n¿Qué ocurre si no se pagó la Plusvalía en plazo? (2/2)?\n• Más de 6 meses hasta 12 meses: el 15 por 100.\n• Más de 12 meses: el 20 por 100 más intereses de demora.\nEl no cumplimento de las obligaciones tributarias dará lugar a una infracción, sancionable conforme al régimen regulado en la Ley General Tributaria.",
+       "tr": "What happens if municipal capital-gains tax was not paid on time? (1/2)\nUnder article 27.2 of the General Tax Law, late payment without a prior demand will give rise to the following surcharges:\n• Up to 3 months: 5 per cent.\n• More than 3 months up to 6 months: 10 per cent.\nWhat happens if municipal capital-gains tax was not paid on time? (2/2)\n• More than 6 months up to 12 months: 15 per cent.\n• More than 12 months: 20 per cent plus late-payment interest.\nFailure to comply with tax obligations will constitute an infringement, punishable under the rules in the General Tax Law.",
+       "why": "Without a prior demand, late declarations usually incur 1% plus 1% for each complete month late. After 12 months, 15% plus interest applies.",
+       "prov": "Ley 58/2003, art. 27(1)–(5); Ley 11/2021, art. 13(3)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186",
+       "date": "2026-11-05",
+       "service": "Frequently asked questions",
+       "g": "m",
+       "scope": "Current article 27 late-declaration surcharges for taxable urban-property transfers under Alcorcón’s declaration/liquidation regime, without a prior tax demand and outside special statutory exclusion cases. Excludes executive collection and mere late payment of an already assessed bill.",
+       "context": "The current portal home links FAQ, which opens this exact current noEstatica route; the old/faq.do route repeats the same passages. Current 2026 Plusvalía guidance separately states the declaration/liquidation regime, with the council issuing the assessment after the declaration. Its linked four-page tax FAQ was read and does not correct the surcharge table. Source wording says late payment, but explicitly cites article 27 and bands incompatible with current article 27; the comparison is limited to circumstances where article 27 genuinely applies. The duplicate entry under vehicle proration is not separately counted."
+      }
+     ],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "39075",
+     39,
+     "Santander",
+     175425,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.santander.es/tramites/solicitud-bonificacion-tasas-agua-alcantarillado",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://sede.santander.es/tramites/solicitud-del-servicio-teleasistencia-domiciliaria",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://sede.ayto-santander.es/web/fichaAsunto.do?asas_ide_asu=160&opcion=0&ruta=%2Fweb%2FasuntosMasUsuales.do%3Fopcion%3D0%21periodo%3D0",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.santander.es/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://sede.santander.es/tramites/presentacion-alegaciones-expedientes-municipales",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cantabria"
+    ],
+    [
+     "02003",
+     40,
+     "Albacete",
+     175400,
+     "s",
+     [
+      [
+       "ok",
+       "https://albacete.sedipualba.es/carpetaciudadana/tramite.aspx?idtramite=19589",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://albacete.sedipualba.es/carpetaciudadana/tramite.aspx?idtramite=19832",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://albacete.sedipualba.es/carpetaciudadana/tramite.aspx?idtramite=18582",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://albacete.sedipualba.es/catalogoservicios.aspx?ambito=1&area=1",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://albacete.sedipualba.es/carpetaciudadana/tramite.aspx?idtramite=9900",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Castilla-La Mancha"
+    ],
+    [
+     "38023",
+     41,
+     "San Cristóbal de La Laguna",
+     161108,
+     "s",
+     [
+      [
+       "bad",
+       "https://www.aytolalaguna.es/informacion-general/politica-de-privacidad/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.aytolalaguna.es/publico/procedimiento/088",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.aytolalaguna.es/publico/procedimientos",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.aytolalaguna.es/publico/procedimiento/017",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Bars a chosen representative from making website-data requests for an adult who can act for themselves.",
+       "page": "Política de privacidad",
+       "url": "https://www.aytolalaguna.es/informacion-general/politica-de-privacidad/",
+       "lang": "Spanish",
+       "q": "El ejercicio de estos derechos es personalísimo y sólo podrá ser ejercido por el interesado, por lo que es necesario que éste acredite su identidad. Únicamente se podrá actuar a través de representante legal cuando el interesado se encuentre en situación de incapacidad o minoría de edad que le imposibilite el ejercicio personal del mismo, en cuyo caso será necesario que el representante legal acredite tal condición.",
+       "tr": "The exercise of these rights is strictly personal and may only be performed by the person concerned, who must therefore prove their identity. Acting through a legal representative is allowed only when the person concerned is unable to exercise the rights personally because of incapacity or minority; in that case the legal representative must prove that status.",
+       "why": "You can exercise ordinary GDPR rights through someone you authorise. The council can still check identity and authority.",
+       "prov": "Ley Orgánica 3/2018, art. 12(1), (5)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+       "date": "2026-11-05",
+       "service": "Website privacy and data rights",
+       "g": "m",
+       "scope": "Ordinary GDPR access to personal data collected through the council’s web platform, for a competent adult through adequately proved voluntary representation. Excludes unrelated municipal billing records, police-data special rules, transparency access, administrative-file access and deficient identification.",
+       "context": "Ordinary GDPR access to personal data collected through the council’s web platform, for a competent adult through adequately proved voluntary representation. Excludes unrelated municipal billing records, police-data special rules, transparency access, administrative-file access and deficient identification."
+      }
+     ],
+     "",
+     "Canarias"
+    ],
+    [
+     "29069",
+     42,
+     "Marbella",
+     159786,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.marbella.es/index.php?catid=205&id=28675:reclamaciones&option=com_content&view=article",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://ayuntamiento.marbella.es/documentos/cartas-de-servicios-municipales/1062-carta-de-servicios-de-la-delegacion-de-derechos-sociales.html",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://ayuntamiento.marbella.es/documentos/16-tramites-municipales/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "26089",
+     43,
+     "Logroño",
+     152150,
+     "s",
+     [
+      [
+       "na",
+       "https://logrono.es/documents/d/guest/15-ivtm-solicitud-boni-igual-o-mas-25-anos-1",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://logrono.es/servicios-sociales",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sedeelectronica.logrono.es/wps/portal/web/inicio/sedeElectronica/catalogoDeProcedimientos/",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://sedeelectronica.logrono.es/wps/portal/web/inicio/sedeElectronica/catalogoDeProcedimientos/%21ut/p/c4/04_SB8K8xLLM9MSSzPy8xBz9CP0os_hAc9NQf293QwMD_0AzAzMjA3cnI1dfd2MfA_2CbEdFALGdc0U%21/?WCM_GLOBAL_CONTEXT=%2Fwps%2Fwcm%2Fconnect%2Fsedeelectronica%2Fsedeelectronica%2Ftramites%2Factividades+que+no+necesitan+licencia&WCM_PORTLET=PC_7_Q75UOKG100OQ60620GB2EMG3L3010457_WCM",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Limits the licence-free route for listed shops to sales areas of 300 m² or less.",
+       "page": "Actividades que no necesitan licencia",
+       "url": "https://sedeelectronica.logrono.es/wps/portal/web/inicio/sedeElectronica/catalogoDeProcedimientos/%21ut/p/c4/04_SB8K8xLLM9MSSzPy8xBz9CP0os_hAc9NQf293QwMD_0AzAzMjA3cnI1dfd2MfA_2CbEdFALGdc0U%21/?WCM_GLOBAL_CONTEXT=%2Fwps%2Fwcm%2Fconnect%2Fsedeelectronica%2Fsedeelectronica%2Ftramites%2Factividades+que+no+necesitan+licencia&WCM_PORTLET=PC_7_Q75UOKG100OQ60620GB2EMG3L3010457_WCM",
+       "lang": "Spanish",
+       "q": "- Estar incluidas en el anexo al Real Decreto- Ley 19/2012 de 25 de mayo de medidas urgentes de liberalización del comercio y de determinados servicios.\n- Tener una superficie de exposición y venta al público igual o inferior a 300m²\n- No tener impacto en el patrimonio histórico- artístico, entendiendo que lo tienen las que se instalen en edificios sujetos a calificación I, II, III y IV, así como en entornos de monumentos.\nEn estos casos tampoco es necesaria licencia para las obras de acondicionamiento necesarias, siempre que no requieran la redacción de proyecto.",
+       "tr": "• Be included in the annex to Royal Decree-Law 19/2012 of 25 May on urgent measures to liberalise trade and certain services.\n• Have a display and public sales area of 300 m² or less.\n• Have no impact on historical or artistic heritage; activities in buildings with protection levels I, II, III or IV, or in monument surroundings, are understood to have such an impact.\nIn these cases, a licence is also unnecessary for fitting-out works, provided they do not require a project to be drawn up.",
+       "why": "The national exemption covers listed shops with display and sales areas up to 750 m², subject to heritage and public-space exceptions. Other building and compliance rules still apply.",
+       "prov": "Ley 12/2012, arts. 2–5; Ley 20/2013, final provision 3",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-15595",
+       "date": "2026-11-05",
+       "service": "Activities that do not need a licence",
+       "g": "m",
+       "scope": "Current municipal guidance for listed national-annex retail/service activities in permanent Logroño premises with useful display/public-sales area above 300 and at most 750 m², no heritage/public-domain exception, no relevant project-requiring works and all other conditions met.",
+       "context": "The current municipal catalogue links this exact service. Its preceding paragraph says the licence is replaced by a declaration or prior communication, and its requirements include heritage and works-project qualifications. Municipal PGM art2.1.1(2), in the remotely read April2025 updated text, repeats300m²; that is contextual corroboration, not a separate allegation against the planning enactment. Current national law was amended to750m² with effect11December2013. Regional law is more permissive for the specified activities; other controls remain."
+      }
+     ],
+     "",
+     "Rioja, La"
+    ],
+    [
+     "06015",
+     44,
+     "Badajoz",
+     150209,
+     "s",
+     [
+      [
+       "na",
+       "https://sede.aytobadajoz.es/sede/fichaInformativa.do?asu_cod=70&asu_mod_cod=65&codVerif=D5E58B0D02D50EE45D11F49A95D8A64D704236F9&tra_cod=",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.aytobadajoz.es/sede/fichaInformativa.do?asu_cod=186&asu_mod_cod=128&codVerif=4003C39D07E3B368ADC69DF9350B33292F1F6879&tra_cod=",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.aytobadajoz.es/sede/fichaInformativa.do?asu_cod=184&asu_mod_cod=128&codVerif=027837C948F45D5FC1437913B9103C958B777640&tra_cod=",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.aytobadajoz.es/es/imss/el-imss/teleasistencia/23807/requisitos",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.aytobadajoz.es/sede/catalogoTramites.do?ent_id=1&idioma=1",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.aytobadajoz.es/sede/fichaInformativa.do?asu_cod=50&asu_mod_cod=46&codVerif=4C855970177DF59E1D5237C158EF9BBFC7DF2B56&tra_cod=",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Extremadura"
+    ],
+    [
+     "25120",
+     45,
+     "Lleida",
+     146266,
+     "s",
+     [
+      [
+       "na",
+       "https://seu.paeria.cat/dynamicItemPublic/mostrarContingut/59",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://seu.paeria.cat/dynamicItemPublic/mostrarContingut/64",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://seu.paeria.cat/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://seu-e.cat/es/web/lleida/govern-obert-i-transparencia/serveis-i-tramits/tramits/instancia-generica",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "37274",
+     46,
+     "Salamanca",
+     146110,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.aytosalamanca.gob.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000902340067307633&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.aytosalamanca.gob.es/sta/Relec/CatalogDetail?action=info&dboidProcedure=6262600901511530307633&dboidRequest=6269000920360357007633",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.aytosalamanca.gob.es/sta/CarpetaPublic/?APP_CODE=STA&PAGE_CODE=ASAL_POL_PRIVACIDAD",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.aytosalamanca.gob.es/sta/Relec/CatalogDetail?action=make&dboidProcedure=6262600901610081207633&dboidRequest=6269000901610083607633",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Castilla y León"
+    ],
+    [
+     "43148",
+     47,
+     "Tarragona",
+     143649,
+     "s",
+     [
+      [
+       "na",
+       "https://seu.tarragona.cat/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000003494411599500&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.tarragona.cat/lajuntament/atencio-ciutadana/omic-oficina-municipal-dinformacio-al-consumidor/lomic-informa",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://seu.tarragona.cat/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000003494471899500&PAGE_CODE=CATALOGO&lang=CA",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://seu.tarragona.cat/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS2_CALENHABTXT",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.tarragona.cat/estiu/recursos-i-ajuts",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "28148",
+     48,
+     "Torrejón de Ardoz",
+     143526,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.ayto-torrejon.es/index.php/tramites/seguridad-ciudadana/tarjeta-de-estacionamiento-para-personas-de-movilidad-reducida",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.ayto-torrejon.es/concejalias/patrimonio-0",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.ayto-torrejon.es/tramites/registro-de-documentos/registro-general-de-documentos",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "21041",
+     49,
+     "Huelva",
+     143215,
+     "s",
+     [
+      [
+       "x",
+       "https://sede.huelva.es/info.0",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.huelva.es/portal/empadronamiento-preguntas-frecuentes",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.huelva.es/portal/node/6557",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.huelva.es/portal/paginas/licencia-de-utilizaci%C3%B3n-de-edificaciones-e-instalaciones",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.huelva.es/portalCiudadano/portal/entidades.do?ent_id=1&idioma=1",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires professional-college endorsement of a suitability certificate when no building works are needed.",
+       "page": "Licencia de utilización de edificaciones e instalaciones | Ayuntamiento de Huelva",
+       "url": "https://www.huelva.es/portal/paginas/licencia-de-utilizaci%C3%B3n-de-edificaciones-e-instalaciones",
+       "lang": "Spanish",
+       "q": "En el caso de licencias de ocupación o utilización en las que no sea preciso ejecución de ningún tipo de obra de reforma o adaptación, deberán acompañarse de certificado descriptivo y gráfico, suscrito por técnico competente y visado por el colegio correspondiente en el que se describa el estado de conservación del edificio y las instalaciones con que cuenta, y acredite, en atención de las circunstancias anteriores, la aptitud del mismo para destinarse al uso previsto.",
+       "tr": "Applications for occupation or use licences that require no reform or adaptation works must include a descriptive and graphic certificate signed by a competent professional and endorsed by the relevant professional college. It must describe the building’s condition and its installations and, in view of those circumstances, certify its suitability for the intended use.",
+       "why": "An ordinary suitability certificate for an existing building with no works does not need professional-college endorsement. National rules reserve compulsory endorsement to listed professional work; a client can still request it voluntarily.",
+       "prov": "Ley 2/1974, art. 13(1); Real Decreto 1000/2010, arts. 1–4, sole transitional and repealing provisions; Decreto andaluz 550/2022, arts. 293(3), 299(1)(d), 300",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-12618",
+       "date": "2026-11-05",
+       "service": "Occupation and use of buildings: required documents",
+       "g": "m",
+       "scope": "Only ordinary descriptive/graphic suitability certification for an existing building with no works, excluding every listed national compulsory-endorsement category, voluntary client request and the pre-1 October 2010 formal-request transition. Legality of the underlying occupation route and other certificate content requirements is not challenged.",
+       "context": "The same list separately requires a final amended works project and a final-works certificate, documents for which national compulsory endorsement can apply. Those are not challenged categorically. The final distinct bullet addresses an existing-building application needing no reform/adaptation works. The current parent Licencias page still directly links this guide and separately mentions prior communications for some exempt commercial works. No general claim is made that occupation always requires a licence rather than a declaration."
+      },
+      {
+       "s": "amb",
+       "claim": "Says a Spanish identity card must be valid to register an address.",
+       "page": "Preguntas Frecuentes | Ayuntamiento de Huelva",
+       "url": "https://www.huelva.es/portal/empadronamiento-preguntas-frecuentes",
+       "lang": "Spanish",
+       "q": "Soy español, ¿puedo empadronarme con el DNI caducado?\nNo, el DNI debe estar en vigor.",
+       "tr": "I am Spanish. Can I register my address with an expired DNI?\nNo, the DNI must be valid.",
+       "why": "The national instructions allow an expired identity document when accompanied by an actual renewal application. An appointment alone is not that application.",
+       "prov": "Resolución de 17 de febrero de 2020, instrucciones del Padrón municipal, apartado 2.1",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+       "date": "2026-11-05",
+       "service": "Population registration: frequently asked questions",
+       "unc": "Ambiguous after independent source/law review and author challenge: lawful expired-DNI-alone reading survives, with unavailable linked form limitation.",
+       "scope": "Bounded expired original DNI plus actual submitted renewal application; no foreign-document or appointment-only finding.",
+       "context": "The separate information page requires valid documents and the FAQ expressly discusses a loss/theft exception. Both are retained, but do not conclusively establish exclusion of the expired-document-plus-renewal combination. The actual linked Model 1.0 application could not be retrieved."
+      }
+     ],
+     "",
+     "Andalucía"
+    ],
+    [
+     "41038",
+     50,
+     "Dos Hermanas",
+     142519,
+     "s",
+     [
+      [
+       "na",
+       "https://sede.doshermanas.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000985272787707572&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.doshermanas.es/concejalias/cohesion-social/informacion-sobre-concejalia/servicios-sociales-municipales/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.doshermanas.es/transparencia/derecho-de-acceso-a-la-informacion/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "28106",
+     51,
+     "Parla",
+     137471,
+     "s",
+     [
+      [
+       "bad",
+       "https://sede.ayuntamientoparla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000116265218907756&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.ayuntamientoparla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000115310691107756&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.ayuntamientoparla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS2_OFIASIREG",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says a court can allow someone under 16 to marry.",
+       "page": "Solicitud de Celebración de Bodas Civiles en el Ayuntamiento",
+       "url": "https://sede.ayuntamientoparla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000116265218907756&PAGE_CODE=CATALOGO",
+       "lang": "Spanish",
+       "q": "Menor de edad:\n- Mayores de 16 años: que conste en la certificación literal de nacimiento la inscripción marginal de emancipación.\n- Mayores de 14 y menores de 16 años: en este caso debe obtenerse previamente las dispensa judicial.",
+       "tr": "Minor:\n- Over 16: the literal birth certificate must contain the marginal emancipation entry.\n- Over 14 and under 16: prior judicial dispensation must be obtained.",
+       "why": "A Spanish national under 16 cannot obtain court permission for a new marriage. The Civil Code no longer allows this age exception.",
+       "prov": "Código Civil, arts. 46, 48, 241, 243; Ley 15/2015, final provisions 1(2), 21",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+       "date": "2026-11-05",
+       "service": "Arrange a civil wedding ceremony",
+       "g": "m",
+       "scope": "New marriage by a Spanish national below 16 in 2026; excludes foreign personal law and historic dispensations. The earlier over-16 emancipation paragraph is material contrary context, retained separately.",
+       "context": "New marriage by a Spanish national below 16 in 2026; excludes foreign personal law and historic dispensations. The earlier over-16 emancipation paragraph is material contrary context, retained separately."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires all civil-wedding preparations to start at the Civil Registry.",
+       "page": "Solicitud de Celebración de Bodas Civiles en el Ayuntamiento",
+       "url": "https://sede.ayuntamientoparla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000116265218907756&PAGE_CODE=CATALOGO",
+       "lang": "Spanish",
+       "q": "- Los trámites para el matrimonio civil deben iniciarse siempre en el Registro Civil del municipio en el que esté empadronado uno o los dos futuros contrayentes. Si están domiciliados en poblaciones distintas podrán elegir la que más les convenga.",
+       "tr": "Civil marriage procedures must always start at the Civil Registry of the municipality where one or both future spouses are registered. If they live in different towns, they may choose the one that suits them best.",
+       "why": "A competent notary can issue a valid marriage authorisation, and the couple may then marry before a mayor or delegated councillor. Civil Registry preparation is not the only route.",
+       "prov": "Código Civil, arts. 51(1), 57; Ley 20/2011, art. 58(2), (6), (8)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+       "date": "2026-11-05",
+       "service": "Arrange a civil wedding ceremony",
+       "g": "m",
+       "scope": "Completed current valid notarial preparation for an otherwise available council ceremony; all ordinary municipal booking and ceremony conditions remain.",
+       "context": "Completed current valid notarial preparation for an otherwise available council ceremony; all ordinary municipal booking and ceremony conditions remain."
+      }
+     ],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "08121",
+     52,
+     "Mataró",
+     131683,
+     "s",
+     [
+      [
+       "na",
+       "https://www.mataro.cat/ca/temes/consum/contactar",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.mataro.cat/sites/fem-centre/mesures-de-mobilitat",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://seu.mataro.cat/opencms/system/modules/sede/index",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://seu.mataro.cat/opencms/system/modules/sede/contents/faq/docu_tramite",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.mataro.cat/ca/temes/habitatge/serveis?set_language=ca",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "11004",
+     53,
+     "Algeciras",
+     126589,
+     "s",
+     [
+      [
+       "amb",
+       "https://www.algeciras.es/es/ayuntamiento/tramites/detalle-de-tramite/Celebracion-de-matrimonios-civiles/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.algeciras.es/es/temas/comercio-y-consumo/oficina-municipal-de-informacion-al-consumidor/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.algeciras.es/es/temas/comercio-y-consumo/detalle-de-noticia/La-OMIC-recuerda-a-los-consumidores-sus-derechos-en-periodo-de-rebajas/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.algeciras.es/es/temas/atencion-al-ciudadano/detalle-de-tramite/Solicitud-de-informacion-sugerencias-y-quejas/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "08245",
+     54,
+     "Santa Coloma de Gramenet",
+     123981,
+     "s",
+     [
+      [
+       "na",
+       "https://www.gramenet.cat/seu-electronica/cita-previa/?type=1000",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.gramenet.cat/es/ayuntamiento/areas-municipales/consum/tramits/presenta-una-reclamacio/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.gramenet.cat/seu-electronica/informacio-sobre-la-seu/sobre-la-seu/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "24089",
+     55,
+     "León",
+     123446,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.aytoleon.es/eAdmin/Registrar.do?action=infoTramite&tipoReg=155",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.aytoleon.es/eAdmin/Registrar.do?action=infoTramite&tipoReg=23",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.aytoleon.es/eAdmin/InfoSede.do?pagina=faqs",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Castilla y León"
+    ],
+    [
+     "28006",
+     56,
+     "Alcobendas",
+     123342,
+     "s",
+     [
+      [
+       "na",
+       "https://conecta.alcobendas.org/about/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://sede.alcobendas.org/catalog/t/9b311ac4-9ec9-4113-bafd-068951c2c93d",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://otva.alcobendas.org/sta/CarpetaPublic/Public?APP_CODE=STA&PAGE_CODE=OVC_MULTAS",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says a traffic offence’s time limit starts on the date of the infringement report.",
+       "page": "Multas de tráfico en voluntaria",
+       "url": "https://otva.alcobendas.org/sta/CarpetaPublic/Public?APP_CODE=STA&PAGE_CODE=OVC_MULTAS",
+       "lang": "Spanish",
+       "q": "Plazo que tiene la Administración para realizar la 1ª notificación:\nInfracciones leves: 3 meses.\nInfracciones graves y muy graves: 6 meses.\nLos plazos anteriores comienzan a contarse desde la fecha de la denuncia.",
+       "tr": "The time the administration has to give the first notification:\nMinor offences: 3 months.\nSerious and very serious offences: 6 months.\nThese periods start on the date of the infringement report.",
+       "why": "The three- or six-month time limit starts on the day the offence is committed. Certain administrative acts can interrupt it.",
+       "prov": "Real Decreto Legislativo 6/2015, art. 112(1)–(2)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a112",
+       "date": "2026-11-05",
+       "service": "Traffic fines: payment and appeals",
+       "g": "M",
+       "scope": "Ordinary municipal traffic offence with a later infringement report than commission, no art. 112(2) interruption and no other special limitation regime.",
+       "context": "The full short page also provides pay/defend/identify-driver options, towing challenges, optional reconsideration and judicial remedies, non-suspension and executive-collection information. Those propositions are retained as context, not separately cleared. In many officer-observed cases report and offence coincide, so the dates give the same result; the finding is limited to cases where the report is later."
+      }
+     ],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "23050",
+     57,
+     "Jaén",
+     112235,
+     "s",
+     [
+      [
+       "na",
+       "https://www.aytojaen.es/portal/p_20_contenedor1.jsp?codMenu=266&codMenuPN=4&codMenuSN=114&codResi=1&contenido=2365&language=es&layout=p_20_contenedor1.jsp&nivel=1400&seccion=s_fdes_d4_v2.jsp&tipo=6",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://sede.aytojaen.es/sta/Relec/CatalogDetail?action=make&dboidProcedure=6262626841559732505011&dboidRequest=6269026842233871505011&urlBack=https%3A%2F%2Fsede.aytojaen.es%2Fsta%2FCarpetaPublic%2FdoEvent%3FAPP_CODE%3DSTA%26PAGE_CODE%3DCATALOGO%23",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.aytojaen.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS2_FAQS2",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says administrative silence does not apply to a council-compensation claim.",
+       "page": "10310. Responsabilidad Patrimonial",
+       "url": "https://sede.aytojaen.es/sta/Relec/CatalogDetail?action=make&dboidProcedure=6262626841559732505011&dboidRequest=6269026842233871505011&urlBack=https%3A%2F%2Fsede.aytojaen.es%2Fsta%2FCarpetaPublic%2FdoEvent%3FAPP_CODE%3DSTA%26PAGE_CODE%3DCATALOGO%23",
+       "lang": "Spanish",
+       "q": "Plazo de resolución El plazo de tramitación es de 6 Meses\nEfecto del silencio administrativo No procede",
+       "tr": "Decision period: The processing period is 6 months.\nEffect of administrative silence: Not applicable.",
+       "why": "If six months pass without a notified decision or settlement on an ordinary compensation application, it can be treated as rejected so you can challenge it. Lawful suspensions or extensions can delay that point.",
+       "prov": "Ley 39/2015, arts. 21(3)(b), 22–24, 91(3)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+       "date": "2026-11-05",
+       "service": "Claim compensation for damage caused by the council",
+       "g": "M",
+       "scope": "Ordinary complete individual municipal compensation application, excluding settlement, lawful clock suspension or extension and special procedures.",
+       "context": "The same service identifies an ordinary compensation application, gives a six-month processing period and the one-year claim period with the healing/sequelae qualification. It links detailed evidence instructions and a five-page application. Both were read in full and contain no correcting silence rule. Its catalogue shell permits online general filing for procedures whose specific form is paper-only; no exclusive paper-channel allegation is made."
+      }
+     ],
+     "",
+     "Andalucía"
+    ],
+    [
+     "43123",
+     58,
+     "Reus",
+     111601,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.reus.cat/informacio-basica-rgpd",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.reus.cat/node/7017",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.reus.cat/ajuntament/el-tramit-telematic-pas-pas",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "04079",
+     59,
+     "Roquetas de Mar",
+     111240,
+     "s",
+     [
+      [
+       "na",
+       "https://roquetasdemar.es/index.php/tu-ayuntamiento/areas-municipales/proteccion_del_medio_ambiente/medio-ambiente-salud-consumo/salud-consumo",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://portaltributario.aytoroquetas.org/devolucion-ingresos-indebidos",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://roquetasdemar.es/node/75",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "11012",
+     60,
+     "Cádiz",
+     109950,
+     "s",
+     [
+      [
+       "na",
+       "https://institucional.cadiz.es/area/consumo/37",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://institucional.cadiz.es/area/Programa-Servicio-de-Ayuda-a-Domicilio-(SAD)/901",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://portaldelcontribuyente.cadiz.es/portalCiudadano/portal/faq.do?ent_id=1&idioma=i&pes_cod=3",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "17079",
+     61,
+     "Girona",
+     108666,
+     "s",
+     [
+      [
+       "ok",
+       "https://web.girona.cat/responsabilitat-patrimonial",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://web.girona.cat/web/guest/activitats/ocupacioviapublica",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://seu.girona.cat/portal/girona_es/tramits/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://seu.girona.cat/portal/girona_es/serveis/e-registre/AaZ/1274.html",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "32054",
+     62,
+     "Ourense",
+     105769,
+     "s",
+     [
+      [
+       "x",
+       "https://sede.ourense.gob.es/public/catalog/catalog-details/reclamacion-economica-administrativa",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://ourense.gal/gl/servizos/asuntos-sociales",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.ourense.gob.es/public/catalog-detail/50045922",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.ourense.gal/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://ourense.gal/es/tribunaleconomico/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Galicia"
+    ],
+    [
+     "35026",
+     63,
+     "Telde",
+     104168,
+     "s",
+     [
+      [
+       "x",
+       "https://telde.sedelectronica.es/info.0",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.telde.es/transparencia/acceso-a-la-informacion/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.telde.es/areas/pymes-comercio-y-consumo/comercio/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.telde.es/ayuntamiento/horario-de-atencion/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Canarias"
+    ],
+    [
+     "28123",
+     64,
+     "Rivas-Vaciamadrid",
+     103148,
+     "s",
+     [
+      [
+       "na",
+       "https://sede-electronica.rivasciudad.es/tramite/reclamaciones-omic-reclamaciones-consumo/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.rivasciudad.es/tramite/reclamacion-de-responsabilidad-patrimonial/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede-electronica.rivasciudad.es/tramite/acceso-catalogo-tramites/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "48013",
+     65,
+     "Barakaldo",
+     102986,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.barakaldo.eus/portal/es/web/barakaldo/proteccion-de-datos/informacion-adicional",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.barakaldo.eus/OficinaVirtualBarakaldo/tramites/acceso.do?id=128",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.barakaldo.eus/portal/es/web/el-ayuntamiento/sac/atencion-presencial",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "País Vasco"
+    ],
+    [
+     "15078",
+     66,
+     "Santiago de Compostela",
+     100965,
+     "s",
+     [
+      [
+       "amb",
+       "https://mais.social.santiagodecompostela.gal/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.santiagodecompostela.gal/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000933908699707519&PAGE_CODE=CATALOGO&lang=GA",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.santiagodecompostela.gal/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=OTD_AYUDA_SEDE&lang=ES",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Galicia"
+    ],
+    [
+     "27028",
+     67,
+     "Lugo",
+     100143,
+     "s",
+     [
+      [
+       "na",
+       "https://www.lugo.gal/portal/csSanidad",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.lugo.gal/portal/funcionamento_notifica",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.lugo.gal/portal/servicios_sede",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Galicia"
+    ],
+    [
+     "28127",
+     68,
+     "Rozas de Madrid, Las",
+     99037,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.lasrozas.es/hacienda-economia-y-empleo/consumo",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.lasrozas.es/contacto/direcciones-y-telefonos/OficinaDigital",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.lasrozas.es/matrimonio-civil",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says marriage preparation must always start at the Civil Registry.",
+       "page": "Matrimonio Civil",
+       "url": "https://www.lasrozas.es/matrimonio-civil",
+       "lang": "Spanish",
+       "q": "La tramitación se inicia siempre en el Registro Civil correspondiente al lugar de empadronamiento de los contrayentes. La documentación necesaria puede consultarse en el siguiente enlace",
+       "tr": "The process always starts at the Civil Registry for the place where the couple are registered as residents. The required documents can be consulted at the following link.",
+       "why": "A competent notary can prepare the marriage authorisation. The couple can then choose a ceremony before the mayor or a delegated councillor.",
+       "prov": "Código Civil, arts.51(1) and57; Ley20/2011, art.58(2), (6), (8)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-12628",
+       "date": "2026-11-05",
+       "service": "Civil wedding ceremonies",
+       "g": "m",
+       "scope": "Already valid competent notarial authorisation, ordinary civil ceremony before mayor/delegated councillor; no guarantee of a particular date, free notarial preparation or exemption from registration after marriage. Municipal venue/booking administration still applies. Office-of-Justice document is supporting municipal-linked context, not a separate audited publisher.",
+       "context": "Full main page read including ceremony-only municipal role, appointments, required Registry initiation evidence, final Registry authorisation, witness documents, fees and contact. Linked municipal preparation PDF and linked Office-of-Justice two-page document read remotely in full; both continue to describe Registry preparation, not notarial alternative. Sede preregistration form502, not inspected. Strongest lawful reading is a local ceremony checklist limited to Registry-route users; main text always and repeated Registry-specific requirements do not express that limitation."
+      }
+     ],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "30024",
+     69,
+     "Lorca",
+     98969,
+     "s",
+     [
+      [
+       "na",
+       "https://www.lorca.es/sanidadyconsumo.asp?id=88",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.portalciudadano.lorca.es/catalogo/PATRRP/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.portalciudadano.lorca.es/catalogo/SANTAP/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.lorca.es/pdf/sanidad/2024/FOLLETO_OMIC_LORCA.pdf",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.portalciudadano.lorca.es/catalogo/SANTAP/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://lorca.es/aa5f84c9-9f4d-4861-b4ca-c8ea3f4c10fb/",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires applicants to declare no past licence suspension for serious dangerous-animal offences.",
+       "page": "Solicitud de licencia para la tenencia de animales potencialmente peligrosos",
+       "url": "https://www.portalciudadano.lorca.es/catalogo/SANTAP/",
+       "lang": "Spanish",
+       "q": "DECLARA:\nNo haber sido sancionado por infracciones graves o muy graves con alguna de las sanciones accesorias previstas en el apartado 3 del artículo 13 de la Ley 50/1999.",
+       "tr": "DECLARES:\nThat they have not been sanctioned for serious or very serious offences with any of the ancillary sanctions provided for in article 13(3) of Law 50/1999.",
+       "why": "A temporary licence suspension that has been fully served does not bar a new or renewed licence, if the other lawful requirements are met.",
+       "prov": "Real Decreto 287/2002, art. 3(1)(c), (2), (4); Ley 50/1999, art. 13(3)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-6016",
+       "date": "2026-11-05",
+       "service": "Apply for a licence to keep potentially dangerous animals",
+       "g": "M",
+       "scope": "Only an earlier temporary ancillary licence suspension fully served before this ordinary new application; no current national, regional, local or judicial prohibition, measure or other disqualification. No general claim about all previous sanctions or automatic entitlement to a licence.",
+       "context": "The required signed application invokes national legislation and the municipal ordinance, and separately acknowledges knowledge of those rules. The declaration itself has no express completed-suspension exception. The main HTML expressly requires this application model, which is read as part of the live HTML service guidance, not an independent PDF audit. The current municipal index labels the 2001 animal ordinance in force; its article 4(3)(b) broadly requires absence of animal-offence sanctions, predating the express 2002 national exception. Article 4(3)(e) also requires further regulatory conditions. Regional Law 6/2017 permits current temporary animal-keeping bans; these are excluded from the hypothetical."
+      }
+     ],
+     "",
+     "Murcia, Región de"
+    ],
+    [
+     "03133",
+     70,
+     "Torrevieja",
+     98533,
+     "s",
+     [
+      [
+       "na",
+       "https://torrevieja.es/es/politica-privacidad",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://torrevieja.es/es/preguntas-frecuentes",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://torrevieja.es/es/ayuntamiento/ayudas-subvenciones",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Comunitat Valenciana"
+    ],
+    [
+     "08205",
+     71,
+     "Sant Cugat del Vallès",
+     97983,
+     "s",
+     [
+      [
+       "amb",
+       "https://seu.santcugat.cat/seu/ProcedimientoTabs.aspx?idProc=145&idnct=479&tab=1&x=iKEPsEuVbA08olCKs6y90A",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.seu.santcugat.cat/seu/Default.aspx",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://seu.santcugat.cat/seu/ProcedimientoTabs.aspx?idProc=73&idnct=455&tab=1&x=8yYpuBnZze0%2F5GaFpqYa+Q",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://seu.santcugat.cat/seu/ProcedimientoTabs.aspx?idProc=288&idnct=1889&tab=1&x=8mMJZoCurepdyJY7U+hNfw",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "28134",
+     72,
+     "San Sebastián de los Reyes",
+     96992,
+     "s",
+     [
+      [
+       "na",
+       "https://transparencia.ssreyes.org/es/web/ayuntamiento-de-san-sebasti%C3%A1n-de-los-reyes/consumidores",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://transparencia.ssreyes.org/es/web/ayuntamiento-de-san-sebasti%C3%A1n-de-los-reyes/presentacion-de-reclamaciones",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://transparencia.ssreyes.org/es/web/ayuntamiento-de-san-sebasti%C3%A1n-de-los-reyes/solicitud-de-arbitraje",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://sede.ssreyes.es/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://transparencia.ssreyes.org/es/web/ayuntamiento-de-san-sebasti%C3%A1n-de-los-reyes/consumo-omic",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says you must go to court after failed mediation if the business has not joined the consumer arbitration scheme.",
+       "page": "Preguntas Frecuentes",
+       "url": "https://transparencia.ssreyes.org/es/web/ayuntamiento-de-san-sebasti%C3%A1n-de-los-reyes/preguntas-frecuentes",
+       "lang": "Spanish",
+       "q": "Si presento una reclamación, ¿pue,do presentar una solicitud de arbitraje?\nLo aconsejable es que si se sabe que la empresa está adherida al sistema arbitral de consumo, se presente directamente una solicitud de arbitraje. Si se desconoce o la empresa no está adherida, se aconseja presentar inicialmente una reclamación para que la administración correspondiente intente una mediación que si no prospera, dará lugar en su caso - si se observa que la empresa ha cometido una infracción administrativa- a la imposición de una sanción, pero para obtener una respuesta a la controversia particular si esa mediación no ha prosperado, habrá que acudir a los tribunales.",
+       "tr": "If I submit a complaint, can I submit a request for arbitration?\nIf you know that the business is signed up to the consumer arbitration scheme, it is advisable to submit a request for arbitration directly. If this is unknown or the business is not signed up, it is advisable first to submit a complaint so that the relevant administration can try mediation. If that is unsuccessful, it may lead, where the business is found to have committed an administrative offence, to a penalty. However, to obtain an answer to the individual dispute if that mediation has failed, you will have to go to court.",
+       "why": "Even without an earlier arbitration agreement, an admissible consumer arbitration request is sent to the business for acceptance or rejection. The business can agree to arbitrate that individual dispute.",
+       "prov": "Real Decreto 713/2024, arts. 23(5), 35, 36(2)–(4), 37(1)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15208",
+       "date": "2026-11-05",
+       "service": "Consumer arbitration: frequently asked questions",
+       "g": "m",
+       "scope": "Ordinary admissible new consumer request in 2026, within the competent Madrid board territorial scope, no existing arbitration clause or public offer, no actual rejection of individual arbitration, no injury/crime/public-service exclusion or legacy proceeding. No power to compel a business or guarantee an award.",
+       "context": "Main service requires the business to be adherido and forwards requests to the Madrid regional institute; the FAQ first explains public adhesion and its badge. A separate FAQ states court is available when a business rejects arbitration, which is retained as contrary context. The disputed complete answer sends non-adhered/unknown businesses through mediation and then to court. Linked May 2008 regional brochure stresses voluntary participation."
+      }
+     ],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "10037",
+     73,
+     "Cáceres",
+     96651,
+     "s",
+     [
+      [
+       "amb",
+       "https://sede.caceres.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000015432207507935&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.caceres.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000000342016807935&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.caceres.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS2_CALENHABTXT",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Extremadura"
+    ],
+    [
+     "29070",
+     74,
+     "Mijas",
+     95104,
+     "s",
+     [
+      [
+       "na",
+       "https://www.mijas.es/portal/recaudacion/",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.mijas.es/portal/atencion-ciudadana/bono-social-electrico-2/",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.mijas.es/portal/atencion-ciudadana/como-empadronarse/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.mijas.es/portal/tramites-mijas/",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says the electricity social tariff gives discounts of 25% or 40%.",
+       "page": "Bono social eléctrico",
+       "url": "https://www.mijas.es/portal/atencion-ciudadana/bono-social-electrico-2/",
+       "lang": "Spanish",
+       "q": "Para poder tramitarlo tienes que pertenecer al grupo de consumidor vulnerable, obteniendo un 25% de descuento o consumidor vulnerable severo, obteniendo un 40% de descuento, en las facturas de la electricidad. Dependiendo de cada caso en particular.",
+       "tr": "To apply for it, you must belong to the vulnerable-consumer group, receiving a 25% discount, or the severely vulnerable-consumer group, receiving a 40% discount on electricity bills. It depends on each particular case.",
+       "why": "In 2026, eligible vulnerable consumers get 42.5% and severely vulnerable consumers 57.5% off eligible charges under the regulated electricity tariff (PVPC), subject to statutory energy limits.",
+       "prov": "Real Decreto-ley 7/2026, art. 1; Real Decreto 897/2017, arts. 3, 6, Annex I",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6544#a1",
+       "date": "2026-11-05",
+       "service": "Electricity social tariff",
+       "g": "m",
+       "scope": "Only current 2026 discount percentages for otherwise eligible ordinary PVPC vulnerable/severely vulnerable households, with statutory eligible-charge and energy-cap rules. Not an unlimited reduction on every bill component, automatic eligibility, telephone tariff, thermal benefit or social-exclusion full-support arrangement.",
+       "context": "The municipality states exact percentages in present service guidance with no visible historical or expiry label. Its Depends on each case qualification follows the two named vulnerability groups. The actual national More information link redirects to a MITECO landing page; the next What is the social tariff page gives baseline 35/50 and exceptional 2026 figures 42.5/57.5, and enhanced social-exclusion support. That correcting linked context is retained."
+      },
+      {
+       "s": "bad",
+       "claim": "Says you must be an adult to register on the population register on your own.",
+       "page": "¿Cómo empadronarse? – Ayuntamiento de Mijas",
+       "url": "https://www.mijas.es/portal/atencion-ciudadana/como-empadronarse/",
+       "lang": "Spanish",
+       "q": "Requisitos para empadronarse individualmente\n• Origina y copial del DNI, NIE o PASAPORTE.\n• Original y copia de la Escritura de la VIVIENDA, o recibo del IBI (contribución) o Contrato de alquiler (uno solo de estos documentos).\n• Ser mayor de edad",
+       "tr": "Requirements for registering individually\n• Original and copy of the DNI, NIE or PASSPORT.\n• Original and copy of the property deed, an IBI property-tax receipt or a rental contract (only one of these documents).\n• Be an adult",
+       "why": "A legally emancipated 17-year-old can register independently if the usual identity and residence requirements are met.",
+       "prov": "National population-register instructions, section2.2.4; Civil Code, arts.243 and247; Ley39/2015, art.3",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-4784",
+       "date": "2026-11-05",
+       "service": "Register on the municipal population register",
+       "g": "m",
+       "scope": "An already legally emancipated 17-year-old applying personally to register genuine independent residence in Mijas, under the common Civil Code regime, meeting ordinary identity and residence requirements. Not a blanket entitlement for all 16-year-olds or all minors; family registration remains possible.",
+       "context": "The page also describes family registration, including minors, and links departmental statistics guidance and a three-page application. Those have been read. Departmental text says tutors sign for minors without an explicit emancipated-minor exception. The ordinary route could be shorthand, but a direct individual-registration requirement of adulthood presents a capacity barrier for the bounded emancipated17-year-old scenario."
+      }
+     ],
+     "",
+     "Andalucía"
+    ],
+    [
+     "11031",
+     75,
+     "San Fernando",
+     93338,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.sanfernando.es/tramites/DetalleTramite.asp?clase=1&hidTramiteID=140&tipo=1",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.sanfernando.es/Tramites/ListadoAreasTematicas.asp",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://sede.sanfernando.es/Tramites/DetalleTramite.asp?clase=1&hidTramiteID=229&tipo=1",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "19130",
+     76,
+     "Guadalajara",
+     92834,
+     "s",
+     [
+      [
+       "x",
+       "https://sedeelectronica.guadalajara.es/info.0",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.guadalajara.es/es/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.guadalajara.es/es/ayuntamiento/servicios/consumo/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.guadalajara.es/es/ayuntamiento/economia-y-hacienda/tributos-y-rentas/sistema-especial-de-pagos-sep/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.guadalajara.es/es/sede-electronica/tramites/tramites-generales/control-de-animales-domesticos/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.guadalajara.es/es/sede-electronica/tramites/tramites-generales/acceso-al-archivo-municipal/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.guadalajara.es/es/procedimientos/licencia-o-renovacion-administrativa-para-la-tenencia-de-animales-potencialmente-peligrosos-mod-1048.html",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Castilla-La Mancha"
+    ],
+    [
+     "08073",
+     77,
+     "Cornellà de Llobregat",
+     92237,
+     "s",
+     [
+      [
+       "ok",
+       "https://tramits.cornella.cat/Fitxa.aspx?codiTramit=24002",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.cornella.cat/es/vivir-en-cornella/economia-y-comercio/consumo",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "04902",
+     78,
+     "Ejido, El",
+     91440,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.elejido.es/oficinavirtual/infoRecaudacion.php",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.elejido.es/oficinavirtual/pagoNoDom/formrecibo.php",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://elejido.es/dusiejido/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.elejido.es/oficinavirtual/catalogopublico/index.php",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "46244",
+     79,
+     "Torrent",
+     90928,
+     "s",
+     [
+      [
+       "na",
+       "https://torrent.es/consumo/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://torrent.es/hacienda/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://torrent.es/consumo/hojas-de-reclamaciones/",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://transparencia.torrent.es/servicios-y-procedimientos/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Comunitat Valenciana"
+    ],
+    [
+     "11015",
+     80,
+     "Chiclana de la Frontera",
+     90864,
+     "s",
+     [
+      [
+       "bad",
+       "https://www.chiclana.es/areas-municipales/economia/rentas/gestiones-y-tramites/tramites-y-procedimientos-impuestos-sobre-vehiculos-de-traccion-mecanica-ivtm",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.chiclana.es/gestiones-y-tramites",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires payment of the current year’s vehicle tax before permanently deregistering an end-of-life vehicle.",
+       "page": "Trámites y procedimientos Impuestos sobre vehículos de tracción mecánica (I.V.T.M.)",
+       "url": "https://www.chiclana.es/areas-municipales/economia/rentas/gestiones-y-tramites/tramites-y-procedimientos-impuestos-sobre-vehiculos-de-traccion-mecanica-ivtm",
+       "lang": "Spanish",
+       "q": "RENTAS-IVTM: Solicitud baja Impuesto sobre Vehículos de Tracción Mecánica\nImpreso de autoliquidación para la baja de vehículos\nEl pago realizado con este impreso corresponde al Impuesto de Vehículos de Tracción Mecánica del año en curso. El importe de la cuota se abonará prorrateado por trimestres naturales. Su cumplimentación y posterior pago, es requisito necesario para realizar la baja del vehículo en la Jefatura Provincial de Tráfico.",
+       "tr": "REVENUE–VEHICLE TAX: Application to remove a vehicle from the vehicle-tax register\nSelf-assessment form for deregistering vehicles\nPayment using this form covers the current year’s vehicle tax. The amount is paid in proportion to calendar quarters. Completing it and then paying is a necessary requirement for deregistering the vehicle at the Provincial Traffic Office.",
+       "why": "No vehicle-tax payment is required before an ordinary end-of-life vehicle is permanently deregistered through an authorised treatment centre. Any accrued tax remains payable under the tax rules.",
+       "prov": "Real Decreto Legislativo 2/2004, arts. 96, 99; Ley 36/2006, art. 11(2), final provision 5; Real Decreto 265/2021, arts. 5–6, Annex III",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5868",
+       "date": "2026-11-05",
+       "service": "Vehicle tax procedures",
+       "g": "m",
+       "scope": "Only ordinary permanent deregistration of an existing non-historic end-of-life car through an authorised treatment centre (CAT). No export, temporary deregistration, missing vehicle, foreign destruction certificate, general tax exemption or tax-debt cancellation allegation.",
+       "context": "The municipal guide separately covers lawful prior payment for first registration and says the municipal unit processes deregistration after Traffic notification. Its BAJA paragraph nevertheless makes current-year pro-rated payment a prerequisite for Traffic deregistration. Current General Vehicle Regulation Annex XV still contains last-bill receipt wording; that contrary legal context is explicitly retained and reconciled with the later 2006 higher-rank amendment and the current specific CAT route."
+      }
+     ],
+     "",
+     "Andalucía"
+    ],
+    [
+     "11027",
+     81,
+     "Puerto de Santa María, El",
+     89983,
+     "s",
+     [
+      [
+       "na",
+       "https://www.elpuertodesantamaria.es/contenido/18599/la-omic-informa-sobre-la-nueva-regulacion-de-las-reclamaciones-de-consumo",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.elpuertodesantamaria.es/oac/tramites-y-modelos-de-solicitud/tramitar-en-la-sede",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.elpuertodesantamaria.es/oac/faq-preguntas-y-respuestas-frecuentes/faq-sede-electronica/sede-electronica-preguntas-y-respuestas-frecuentes",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "28115",
+     82,
+     "Pozuelo de Alarcón",
+     89770,
+     "s",
+     [
+      [
+       "ok",
+       "https://sede.pozuelodealarcon.es/sede/action/tramitesinfo?id=143&method=enter",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.pozuelodealarcon.org/atencion-al-ciudadano/oficinas-de-atencion-al-ciudadano",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "38006",
+     83,
+     "Arona",
+     87793,
+     "s",
+     [
+      [
+       "na",
+       "https://sede.arona.org/Tramites/ctl/Ver/mid/1190?id=84608",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.arona.org/Sede-Electronica/Proteccion-de-datos-personales/Derechos-de-las-personas-afectadas",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Canarias"
+    ],
+    [
+     "45168",
+     84,
+     "Toledo",
+     87216,
+     "s",
+     [
+      [
+       "x",
+       "https://www.toledo.es/servicios-municipales/omic/omic-reclamaciones/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.toledo.es/servicios-municipales/omic/omic-reclamaciones/",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.toledo.es/servicios-municipales/omic/omic-transporte-aereo-de-viajeros/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.toledo.es/formularios-sede/",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says the airline’s baggage liability is limited to 1,000 special drawing rights per passenger.",
+       "page": "Información sobre transporte aéreo de viajeros",
+       "url": "https://www.toledo.es/servicios-municipales/omic/omic-transporte-aereo-de-viajeros/",
+       "lang": "Spanish",
+       "q": "De conformidad con lo establecido en el Convenio de Montreal (en vigor desde el día 28 de junio de 2004) la responsabilidad del transportista por retraso, destrucción, pérdida o daños del equipaje se limita a 1.000 derechos especiales de giro (DEG) por pasajero, aproximadamente 1.207 euros.\nLos límites de responsabilidad no implican una compensación automática por los importes máximos.\nEl pasajero puede acogerse a un límite de responsabilidad más elevado efectuando una declaración especial de valor de su equipaje, en el momento de facturar, y abonando una tarifa suplementaria.",
+       "tr": "Under the Montreal Convention (in force since 28 June 2004), the carrier’s liability for delayed, destroyed, lost or damaged baggage is limited to 1,000 special drawing rights (SDR) per passenger, approximately 1,207 euros.\nThe liability limits do not mean automatic compensation at the maximum amounts.\nThe passenger can obtain a higher liability limit by making a special declaration of the value of their baggage when checking it in and paying an additional charge.",
+       "why": "For covered flights from 28 December 2024, the usual baggage liability limit is 1,519 special drawing rights per passenger. Compensation depends on proven loss and applicable defences; a special value declaration can raise the limit.",
+       "prov": "Montreal Convention, arts. 17, 19, 20, 22(2), 24; 2024 revision effective 28 December 2024 (BOE-A-2025-3872)",
+       "lawUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3872",
+       "date": "2026-11-05",
+       "service": "Air passenger information",
+       "g": "M",
+       "scope": "Ordinary paid international flight between States Parties in November 2026. Only the usual baggage liability cap; no automatic award or separate cap finding by type of baggage loss.",
+       "context": "The current OMIC page links this passenger-information service. The complete guidance covers baggage custody, carrier liability, reported irregularity, written complaints and subsequent court action. It distinguishes the liability cap from automatic compensation and preserves a special declaration of value. Its final worked example gives a different, still lower euro cap; this is retained within the same cap proposition. The no-fixed-days total-loss protest statement is contrary context, not a new allegation."
+      },
+      {
+       "s": "bad",
+       "claim": "Starts the 21-day delayed-baggage complaint deadline on the expected delivery date.",
+       "page": "Información sobre transporte aéreo de viajeros",
+       "url": "https://www.toledo.es/servicios-municipales/omic/omic-transporte-aereo-de-viajeros/",
+       "lang": "Spanish",
+       "q": "Cuando comuniques la incidencia en el aeropuerto, la compañía aérea abrirá un parte de irregularidad de equipaje (PIR) y te entregará una copia que debes guardar. Además de comunicarlo en el mostrador, debes presentar una reclamación formal por escrito adjuntando una copia del Parte de Irregularidad. El plazo para presentar estas reclamaciones es el siguiente:\nPor Daños en el equipaje: dispones de 7 días desde la recepción del equipaje.\nPor Retraso del equipaje: tienes 21 días desde la fecha en que deberías haber recibido el equipaje.\nPor Pérdida del equipaje: No hay límite de días, pero es recomendable que se realice la reclamación lo antes posible.",
+       "tr": "When you report the incident at the airport, the airline will open a property irregularity report (PIR) and give you a copy, which you must keep. In addition to reporting it at the counter, you must submit a formal written complaint with a copy of the irregularity report. The period for submitting these complaints is as follows:\nFor damaged baggage: you have 7 days after receiving the baggage.\nFor delayed baggage: you have 21 days from the date on which you should have received the baggage.\nFor lost baggage: there is no time limit in days, but you are advised to complain as soon as possible.",
+       "why": "For baggage returned after a delay, the written protest must be sent within 21 days after the baggage is made available to the passenger. The separate two-year court-action limit also applies.",
+       "prov": "Montreal Convention, arts. 19, 31(2)–(4), 35",
+       "lawUrl": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-9347",
+       "date": "2026-11-05",
+       "service": "Air passenger information",
+       "g": "M",
+       "scope": "Returned delayed checked baggage on an ordinary covered international flight, with no earlier sufficient written protest. Only the start of the 21-day written-protest period; not total loss, court limitation or automatic damages.",
+       "context": "The current OMIC page links this passenger-information service. The complete guidance covers baggage custody, carrier liability, reported irregularity, written complaints and subsequent court action. It distinguishes the liability cap from automatic compensation and preserves a special declaration of value. Its final worked example gives a different, still lower euro cap; this is retained within the same cap proposition. The no-fixed-days total-loss protest statement is contrary context, not a new allegation."
+      }
+     ],
+     "",
+     "Castilla-La Mancha"
+    ],
+    [
+     "52001",
+     85,
+     "Melilla",
+     86780,
+     "s",
+     [
+      [
+       "ok",
+       "https://www.melilla.es/melillaportal/contenedor.jsp?codMenu=472&codMenuPN=601&codMenuSN=2&codMenuTN=154&codResi=1&contenido=3653&language=es&layout=contenedor.jsp&nivel=1400&seccion=s_fdes_d4_v1.jsp&tipo=6",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.melilla.es/melillaportal/contenedor.jsp?codMenu=472&codMenuPN=601&codMenuSN=2&codMenuTN=154&codResi=1&contenido=3657&language=es&layout=contenedor.jsp&nivel=1400&seccion=s_fdes_d4_v1.jsp&tipo=6",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.melilla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269001013156942099500&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://sede.melilla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269001013156942099500&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Melilla"
+    ],
+    [
+     "29094",
+     86,
+     "Vélez-Málaga",
+     86048,
+     "s",
+     [
+      [
+       "na",
+       "https://velezmalaga.es/index.php?id=8810&mod=noticias",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.velezmalaga.es/index.php?mod=consumo-omic&tag=reclamaciones",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://velezmalaga.es/index.php?mod=tramites",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.velezmalaga.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS2_OFIASIREG",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "28161",
+     87,
+     "Valdemoro",
+     85972,
+     "s",
+     [
+      [
+       "na",
+       "https://www.valdemoro.es/asesorias",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.valdemoro.es/proteccion-de-datos",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.valdemoro.es/sede-electronica/tramites/instancia-general",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.valdemoro.es/sede-electronica/tramites/licencia-municipal-para-la-instalacion-apertura-y-funcionamiento-de",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires a professional body’s endorsement on the technical certificate for an activity licence.",
+       "page": "Licencia Municipal para la instalación, apertura y funcionamiento de actividades inocuas",
+       "url": "https://www.valdemoro.es/sede-electronica/tramites/licencia-municipal-para-la-instalacion-apertura-y-funcionamiento-de",
+       "lang": "Spanish",
+       "q": "Documentación necesaria\nJunto con el impreso normalizado de solicitud debidamente cumplimentado, se deberá de aportar la documentación necesaria, según el siguiente detalle:\n-Certificado redactado por técnico competente y visado por Colegio Profesional, por duplicado.",
+       "tr": "Required documents\nThe completed standard application form must be accompanied by the required documents, as detailed below:\n-Certificate prepared by a competent professional and endorsed by a professional body, in duplicate.",
+       "why": "An ordinary activity certificate for premises with no building work does not need a professional body’s endorsement. Mandatory endorsement applies only to specified work on the national list.",
+       "prov": "Ley 2/1974, art. 13; Real Decreto 1000/2010, art. 2 and repealing provision",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1974-289",
+       "date": "2026-11-05",
+       "service": "Apply for a licence for low-impact activities",
+       "g": "m",
+       "scope": "No claim that every innocuous activity presently needs this licence, nor that this hypothetical establishes licence versus declaration classification. Modern exemptions may make the whole route unnecessary; comparison is bounded to the generic visado demand in the currently served procedure, conditional on a reader using its document list. Do not independently allege all licence requirements invalid. Ordinary no-works activity certificate only, no client-requested voluntary endorsement or request made before October 2010; listed mandatory work excluded.",
+       "context": "The certificate might in a particular project actually be an article2 final-work certificate; national listed work still requires endorsement where applicable. But page labels it generic certificate and separately asks for copy of works licence only if fitting-out happened, with sworn no-works alternative. Administration may contract documentary checking under additional5; here it is acting as regulator, not the professional client. Catalogue says innocuous activities and applicant section likewise; intro mistakenly says actividades calificadas. Preserve both in context; does not convert ordinary generic certificate into listed execution/finalwork certificate. No claim that every innocuous activity presently needs this licence, nor that this hypothetical establishes licence versus declaration classification. Modern exemptions may make the whole route unnecessary; comparison is bounded to the generic visado demand in the currently served procedure, conditional on a reader using its document list. Do not independently allege all licence requirements invalid."
+      }
+     ],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "08200",
+     88,
+     "Sant Boi de Llobregat",
+     85610,
+     "s",
+     [
+      [
+       "na",
+       "https://www.santboi.cat/sindicatura-municipal-de-greuges",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.santboi.cat/tramits",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://tramits.santboi.cat/Ciutadania/DetallTramit.aspx?IdTramit=1767",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "29054",
+     89,
+     "Fuengirola",
+     85211,
+     "s",
+     [
+      [
+       "na",
+       "https://sede.fuengirola.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269031114269081805304&PAGE_CODE=CATALOGO&gsc.tab=0",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://sede.fuengirola.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=CATALOGO",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.fuengirola.es/concejalia/concejalia-de-consumo/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "03099",
+     90,
+     "Orihuela",
+     84560,
+     "s",
+     [
+      [
+       "na",
+       "https://www.orihuela.es/servicios-basicos/consumo/reclamaciones/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://orihuela.sedelectronica.es/info.0",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.orihuela.es/servicios-basicos/consumo/reclamaciones/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Comunitat Valenciana"
+    ],
+    [
+     "45165",
+     91,
+     "Talavera de la Reina",
+     83803,
+     "s",
+     [
+      [
+       "na",
+       "https://omic.talavera.es/la-omic-oficina-municipal-de-informacion-al-consumidor/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://talavera.es/cita-previa/",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://omic.talavera.es/reclamaciones-en-telecomunicaciones/",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says you must complain to your telecom operator by telephone.",
+       "page": "Reclamaciones en Telecomunicaciones",
+       "url": "https://omic.talavera.es/reclamaciones-en-telecomunicaciones/",
+       "lang": "Spanish",
+       "q": "Pasos a seguir obligatoriamente para tramitar su reclamación:\n1. Presentar su reclamación ante el operador por vía telefónica, el operador está obligado a facilitarle un número de referencia que permitirá verificar el día de la solicitud y tener constancia de la misma. Deberá anotar dicho numero de referencia y la fecha en la que se ha presentado la reclamación.",
+       "tr": "Mandatory steps for processing your complaint:\n1. Submit your complaint to the operator by telephone. The operator must give you a reference number that allows you to verify the date of the request and have a record of it. You must write down this reference number and the date on which the complaint was submitted.",
+       "why": "A complaint made through another channel designated in your contract can be valid. A telephone call is not a universal extra requirement.",
+       "prov": "Real Decreto899/2009, arts.8(1)(l) and26; Ley11/2022, transitional provision1",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-8961",
+       "date": "2026-11-05",
+       "service": "Complaints about phone and internet services",
+       "g": "m",
+       "scope": "Ordinary telecom subscriber with a timely valid, provable nontelephone complaint using an operator-designated contractual channel. Not an assertion that every email is valid, every dispute is within OAUT jurisdiction, or no prior operator complaint is required. Invoice-return special advice, terminal/damages-only disputes, collection and service-suspension rules excluded.",
+       "context": "Full current OMIC page read, incoming main municipal link/OMIC portal established. Step2 concerns written notice when returning a disputed invoice; step3 offers OMIC/arbitration/OAUT after rejection or an unanswered month. Those are context, not allegations. Strongest lawful reading is a practical checklist to secure evidence for local assistance, but the heading presents its telephone step as mandatory without qualifying existing valid nonphone complaints."
+      }
+     ],
+     "",
+     "Castilla-La Mancha"
+    ],
+    [
+     "51001",
+     92,
+     "Ceuta",
+     83595,
+     "s",
+     [
+      [
+       "na",
+       "https://sede.ceuta.es/controlador/controlador?cmd=tramite&modulo=tramites&tramite=TDFN",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.camceuta.es/serviciosjuridicos",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.camceuta.es/aviso-legal",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.ceuta.es/controlador/controlador?cmd=tramite&modulo=tramites&tramite=QYS",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Ceuta"
+    ],
+    [
+     "36038",
+     93,
+     "Pontevedra",
+     83316,
+     "s",
+     [
+      [
+       "ok",
+       "https://pontevedra.gal/areas/vodas-e-cerimonias/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://benestar.pontevedra.gal/estacionamento-mobilidade-reducida/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.pontevedra.gal/public/catalog/catalog-index.xhtml",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://sede.pontevedra.gal/public/catalog-detail/134",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://sede.pontevedra.gal/public/catalog-detail/1401",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Galicia"
+    ],
+    [
+     "46131",
+     94,
+     "Gandia",
+     83135,
+     "s",
+     [
+      [
+       "na",
+       "https://comercio.gandia.org/es/avis-legal/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://comercio.gandia.org/terrasses-i-hostaleria/terminis-tramits/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://gandia.sedelectronica.es/info.0",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://comercio.gandia.org/es/omic/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://comercio.gandia.org/es/politica-privacitat/",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says a business can join consumer arbitration while excluding some types of dispute.",
+       "page": "OMIC",
+       "url": "https://comercio.gandia.org/es/omic/",
+       "lang": "Spanish",
+       "q": "Adhesió a la Junta Arbitral de Consum (per a empreses):\nAunque la empresa esté adherida, puede estarlo para todos los conflictos que surjan entre las partes o únicamente para algunos, es decir, con oferta limitada. Pero también podría darse el caso que la empresa, a pesar de no estar adherida, acepto el arbitraje para un caso concreto.",
+       "tr": "Joining the Consumer Arbitration Board (for businesses):\nEven if the business has joined, it may have done so for all disputes arising between the parties or only for some, that is, with a limited offer. It could also be the case that the business, despite not having joined, accepts arbitration for a particular case.",
+       "why": "A public consumer-arbitration offer cannot exclude particular types of dispute within the activity it covers. Old exclusions no longer apply after the transition unless the business withdrew its offer.",
+       "prov": "Real Decreto713/2024, regulation art.24(3)–(4) and transitional provision3",
+       "lawUrl": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-15208",
+       "date": "2026-11-05",
+       "service": "Municipal consumer advice office",
+       "g": "M",
+       "scope": "Current dispute within the activity of a continuing public adhesion after the 2024 transition; no withdrawal. Excludes distinct activity identification for natural-person traders, lawful duration/territory terms, statutory nonarbitrable matters, individual-case-only consents and proceedings begun under former law.",
+       "context": "Full86linecurrent OMIC page read, including local assistance group, regional JAC referral, voluntary nature, tribunal consequence, individual-case acceptance and enterprise public-offer guidance. Voluntary individual-case acceptance remains lawful but is a separate alternative, not authority to exclude dispute types in a continuing public adhesion. Municipal ownership is evidenced by official footer and explicit city economic-area contact information."
+      }
+     ],
+     "",
+     "Comunitat Valenciana"
+    ],
+    [
+     "08184",
+     95,
+     "Rubí",
+     82823,
+     "s",
+     [
+      [
+       "na",
+       "https://www.rubi.cat/ca/temes/rubi-brilla/domestic/produeix-la-teva-propia-energia-fotovoltaica/faqs-fotovoltaica/25-l-empresa-que-he-contractat-pot-demanar-les-bonificacions-en-nom-meu",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://seu.rubi.cat/catalogoTramites/showIFrame/614",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://seu.rubi.cat/catalogoTramites/listIFrame",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://www.rubi.cat/ca/temes/rubi-brilla/mobilitat/bonificacions-ajudes-i-subvencions",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "08113",
+     96,
+     "Manresa",
+     80974,
+     "s",
+     [
+      [
+       "x",
+       "https://web.manresa.cat/seu/menu/fitxa/749",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.manresa.cat/seuelectronica/menu/8472-sol%C2%B7licitud--instancia-generica--assistent-de-tramits/5",
+       "2026-11-05"
+      ],
+      [
+       "ok",
+       "https://web.manresa.cat/web/menu/4135-registre",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Cataluña"
+    ],
+    [
+     "28049",
+     97,
+     "Coslada",
+     80512,
+     "s",
+     [
+      [
+       "na",
+       "https://coslada.es/servicios-municipales/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://coslada.es/hacienda-y-contratacion/hacienda/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://coslada.es/salud-consumo-y-bienestar-animal/salud-consumo-y-bienestar-animal/consumo/",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://cosladatecuida.es/consumo/preguntas-frecuentes/",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://cosladatecuida.es/guia-de-derechos-del-consumidor-en-compras-online-y-devoluciones/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://coslada.es/tramites/",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://coslada.es/alcaldia/secretaria-general/registro-padron-e-informacion/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://coslada.es/alcaldia/secretaria-general/responsabilidad-patrimonial/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://coslada.es/alcaldia/secretaria-general/registro-uniones-de-hecho/",
+       "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://coslada.es/alcaldia/matrimonio-civil/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://coslada.es/alcaldia/secretaria-general/registro-padron-e-informacion/",
+       "2026-11-05"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Sets a two-year deadline from purchase to complain about a product under guarantee.",
+       "page": "Preguntas Frecuentes - Concejalía de Salud, Consumo y Bienestar Animal",
+       "url": "https://cosladatecuida.es/consumo/preguntas-frecuentes/",
+       "lang": "Spanish",
+       "q": "16. ¿Qué plazo tengo para reclamar?\nEn general, el plazo para reclamar depende del tipo de conflicto. Para productos con garantía, tienes hasta dos años desde la fecha de compra. En servicios, el plazo puede variar según las condiciones del contrato.",
+       "tr": "16. How long do I have to complain?\nIn general, the time limit for complaining depends on the type of dispute. For products under guarantee, you have up to two years from the purchase date. For services, the time limit may vary according to the contract terms.",
+       "why": "For new goods bought from 1 January 2022, the seller is responsible for defects present on delivery that appear within three years of delivery. The time to sue is five years from when the defect appears.",
+       "prov": "Real Decreto Legislativo 1/2007, arts. 120(1), 124; Real Decreto-ley 7/2021, art. 16(7), final provision 8(d)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+       "date": "2026-11-05",
+       "service": "Consumer advice: frequently asked questions",
+       "g": "M",
+       "scope": "Only ordinary new physical goods bought and delivered by a professional Spanish seller after 1 January 2022, with a proven defect present on delivery that appears in the third year. No automatic refund, every later defect, second-hand agreement, digital-content/service, living-animal or pre-2022 contract claim. Manifestation period and action limitation are distinct.",
+       "context": "The complete 30-item FAQ addresses current municipal consumer advice and legal guarantees, not a named two-year commercial warranty. Its wording gives an upper complaint limit. A separate actually linked guide states an EU minimum of two years and possible local extensions; those qualifying paragraphs are retained in full. Other same-portal guides were fully read, without adopting additional allegations from every old number."
+      },
+      {
+       "s": "bad",
+       "claim": "Offers the EU Online Dispute Resolution platform as a place to file a complaint.",
+       "page": "Guía de derechos del consumidor en compras online y devoluciones",
+       "url": "https://cosladatecuida.es/guia-de-derechos-del-consumidor-en-compras-online-y-devoluciones/",
+       "lang": "Spanish",
+       "q": "10. ¿Qué hacer si la empresa no cumple?\nSi la tienda online no respeta tus derechos, puedes:\nContactar con su servicio de atención al cliente y documentar tu reclamación mediante correos electrónicos o formularios online.\nAcudir a organismos de defensa del consumidor, como la Oficina Municipal de Información al Consumidor (OMIC), para recibir asesoramiento especializado.\nPresentar una reclamación formal en plataformas de resolución de disputas, como la Resolución de Litigios en Línea de la Unión Europea, que facilita la mediación entre consumidores y empresas.",
+       "tr": "10. What should I do if the business does not comply?\nIf the online shop does not respect your rights, you can:\nContact its customer service and document your complaint through emails or online forms.\nGo to consumer-protection bodies, such as the municipal consumer information office (OMIC), for specialist advice.\nFile a formal complaint through dispute-resolution platforms, such as the European Union’s Online Dispute Resolution platform, which facilitates mediation between consumers and businesses.",
+       "why": "The EU Online Dispute Resolution platform stopped accepting new complaints on 20 March 2025 and closed on 20 July 2025. Other ways to resolve consumer disputes remain available.",
+       "prov": "Regulation (EU) 2024/3228, arts. 1, 2, 5",
+       "lawUrl": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-81952",
+       "date": "2026-11-05",
+       "service": "Consumer rights: online shopping and returns",
+       "g": "m",
+       "scope": "Only the continued availability of the specifically named EU Online Dispute Resolution platform for a new complaint in November 2026. Not all online ADR platforms, arbitration, OMIC advice, courts, older pending cases or an assurance of a binding decision.",
+       "context": "The guide is visibly dated 30 December 2024 with a second 31 December 2024 stamp. The actual current departmental consumer hub links it as practical shopping advice; its complaint list offers the named EU route in present terms, with no historical or closure warning. Other complaint and OMIC advice routes are explicitly preserved in the full list and final paragraph."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires a Civil Registry opening letter before you can arrange a council wedding.",
+       "page": "Matrimonio civil - Alcaldía",
+       "url": "https://coslada.es/alcaldia/matrimonio-civil/",
+       "lang": "Spanish",
+       "q": "DOCUMENTACIÓN PARA MATRIMONIO CIVIL\nFotocopia de los DNI, Permisos de Residencia o Pasaporte de los contrayentes.\nFotocopia de los DNI, Permisos de Residencia o Pasaporte de dos testigos. Éstas personas (mayores de edad) firmarán el Acta de celebración junto con los contrayentes el día de la boda.\nFotocopia del Oficio de inicio de expediente en el Registro Civil.\nPago de tasas: Previo al pago, se deberá realizar la reserva del día y hora del matrimonio civil.",
+       "tr": "DOCUMENTS FOR A CIVIL WEDDING\nA photocopy of the identity cards, residence permits or passports of the couple.\nA photocopy of the identity cards, residence permits or passports of two witnesses. These adults will sign the marriage record with the couple on the wedding day.\nA photocopy of the Civil Registry letter confirming the opening of proceedings.\nPayment of fees: before paying, you must reserve the wedding date and time.",
+       "why": "A valid marriage authorisation from a competent notary also allows a ceremony before the mayor or a delegated councillor.",
+       "prov": "Código Civil, arts. 51(1), 57; Ley 20/2011, art. 58(2), (6), (8)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+       "date": "2026-11-05",
+       "service": "Arrange a civil wedding ceremony",
+       "g": "m",
+       "scope": "A couple with an already valid favourable act from a territorially competent notary choosing an otherwise available municipal ceremony. Ordinary booking, fees, identity, witnesses and venue rules still apply. Marriage registration after celebration remains necessary.",
+       "context": "The guide requires copies of identity documents and witness documents as well as the Registry opening letter and payment after booking. The linked one-page information sheet repeats the Registry opening requirement and prior visit instruction. The listed fees and payment routes were read; they are not challenged here."
+      }
+     ],
+     "",
+     "Madrid, Comunidad de"
+    ],
+    [
+     "29051",
+     98,
+     "Estepona",
+     79621,
+     "s",
+     [
+      [
+       "na",
+       "https://ayuntamiento.estepona.es/noticia/15343-recomendaciones-de-la-oficina-municipal-de-informacion-al-consumidor-ante-las-rebajas.html",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://www.estepona.es/delegaciones/residentes-extranjeros/estaticos/campana-empadronamiento",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Andalucía"
+    ],
+    [
+     "35022",
+     99,
+     "Santa Lucía de Tirajana",
+     78584,
+     "s",
+     [
+      [
+       "na",
+       "https://www.santaluciagc.com/areas/bienestar-social/consumo/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.santaluciagc.com/tramites/tramites-online/pago-de-tributos/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://www.santaluciagc.com/areas/bienestar-social/promocion-de-la-salud/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.santaluciagc.com/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://www.santaluciagc.com/areas/buen-gobierno-y-hacienda/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Canarias"
+    ],
+    [
+     "30027",
+     100,
+     "Molina de Segura",
+     78458,
+     "s",
+     [
+      [
+       "x",
+       "https://consumo.molinadesegura.es/pon-una-reclamacion/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://bienestarsocial.molinadesegura.es/programas-y-servicios-a-la-ciudadania/programa-de-atencion-a-personas-mayores-y-dependientes/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://bienestarsocial.molinadesegura.es/programas-y-servicios-a-la-ciudadania/unidad-juridica/",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://bienestarsocial.molinadesegura.es/programas-y-servicios-a-la-ciudadania/programa-de-familia-y-menores/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://inscripcionesdeporte.molinadesegura.es/busact.php?act=01",
+       "2026-11-05"
+      ],
+      [
+       "amb",
+       "https://inscripcionesdeporte.molinadesegura.es/privacidad.php",
+       "2026-11-05"
+      ],
+      [
+       "x",
+       "https://portal.molinadesegura.es/",
+       "2026-11-05"
+      ],
+      [
+       "na",
+       "https://consumo.molinadesegura.es/",
+       "2026-11-05"
+      ]
+     ],
+     [],
+     "",
+     "Murcia, Región de"
+    ]
+   ],
+   "scope": "Guidance from the 100 largest Spanish municipalities, checked selectively against national and EU law.",
+   "note": "At least one substantive service page was read for every municipality. Checks differ in depth and do not cover every service. Regional, foral and local rules were checked where they qualify the national comparison; they were not separate benchmarks for findings. These findings do not measure an error rate, and country totals are not comparable.",
+   "tab": "Spain"
   }
  ]
 }
