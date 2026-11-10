@@ -159803,6 +159803,11 @@
        "ok",
        "https://www.bradford.gov.uk/births-deaths-marriages-and-civil-partnerships/births-and-naming/identification-documents-to-bring-when-registering-a-birth/",
        "2026-11-10"
+      ],
+      [
+       "amb",
+       "https://www.bradford.gov.uk/council-tax/reduce-your-bill/other-council-tax-discounts/",
+       "2026-11-10"
       ]
      ],
      [],
@@ -159984,9 +159989,65 @@
      23,
      "Northampton",
      243520,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.westnorthants.gov.uk/council-tax-reductions-discounts-and-exemptions/council-tax-disregards",
+       "2026-11-10"
+      ],
+      [
+       "amb",
+       "https://www.westnorthants.gov.uk/council-tax-reductions-discounts-and-exemptions/council-tax-disregards",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.westnorthants.gov.uk/births-deaths-and-marriages/register-birth",
+       "2026-11-10"
+      ],
+      [
+       "amb",
+       "https://www.westnorthants.gov.uk/births-deaths-and-marriages/register-birth",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says an apprentice’s pay must be lower than they would receive when qualified.",
+       "page": "Council Tax disregards | West Northamptonshire Council",
+       "url": "https://www.westnorthants.gov.uk/council-tax-reductions-discounts-and-exemptions/council-tax-disregards",
+       "lang": "English",
+       "q": "Apprentice\n\nThe following criteria must apply for a person to be disregarded as an apprentice under Council Tax legislation.\n\nThey must be:\n\nemployed for the purpose of learning a trade, business, profession, office, employment or vocation\n\nfor that purpose undertaking a programme of training leading to a qualification accredited by the Qualifications and Curriculum Authority\n\nand\n\nemployed at a salary, in receipt of an allowance or both (if the total is substantially less than the salary they would be likely to receive if they had achieved the qualification in question);\n\nand\n\nreceiving no more than £195 per week\n\nHow it is calculated\n\nThe Council Tax charge is based upon the number of people living in a dwelling. If you are \"disregarded\" as being an apprentice, it means that we do not count you when we work out the number of people living there.\n\nwhen counting the number of people living in a dwelling, if there is just one person living there, a 25% discount may be granted\n\nif all the residents at a dwelling are \"disregarded\" a 50% discount may be granted\n\nif there are two or more residents in a household who are not entitled to status discount, the discount will not apply and the full Council Tax charge will be payable\n\nWhat happens if you qualify\n\nIf you qualify, we will amend your account and send you a reduced bill.\n\nYou must tell us within 21 days about any change in circumstances that may affect your entitlement to the discount (e.g. the apprenticeship ends, or another adult moves into the house). Failure to do so may result in a penalty.\n\nWe will contact you periodically to confirm that you are still entitled to the disregard; however, you must still advise us of any changes in circumstance within 21 days.\n\nThis information is a general guide only and is not a substitute for the relevant statutes and regulations.",
+       "tr": "",
+       "why": "The pay limit is £195 a week in total salary and allowances. You do not also have to earn less than you would earn once qualified. The employment and training conditions still apply.",
+       "prov": "Council Tax (Discount Disregards) Order 1992, Sch. 1, para. 1(1)(c); SI 2006/3396, art. 2(2)(a)(ii)",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/548/schedule/1",
+       "date": "2026-11-10",
+       "service": "Council Tax discounts for people who are not counted",
+       "g": "M",
+       "scope": "England, in the 2026/27 financial year: an otherwise eligible apprentice and Northampton household served by West Northamptonshire Council. Employment, accredited training, residence, total weekly salary and allowances no more than £195, and household requirements all remain.",
+       "context": "The household and training conditions still apply. This concerns the published conditions for the apprentice discount, not any actual decision."
+      },
+      {
+       "s": "bad",
+       "claim": "Says both unmarried parents must attend to include the father’s details in the birth register.",
+       "page": "Register a birth | West Northamptonshire Council",
+       "url": "https://www.westnorthants.gov.uk/births-deaths-and-marriages/register-birth",
+       "lang": "English",
+       "q": "What you need to know before the appointment\n\nYou should arrive 10 minutes before your appointment. ​The appointment will last about 30 minutes.\n\nIf you are married to the child’s mother or father, only one person needs to be present to complete the registration. If you are not married, and wish for the father's details to be included on the birth certificate, you must attend the appointment together.\n\nIf you have any enquiries, please contact the Registration Service .",
+       "tr": "",
+       "why": "An unmarried mother can register the father’s details without him attending, using the required declarations. Other routes use specified parental-responsibility documents. Identity checks still apply.",
+       "prov": "Births and Deaths Registration Act 1953, s. 10(1)(b)–(g)",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/Eliz2/1-2/20/section/10",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Initial birth registration with West Northamptonshire Council in England in 2026. The opposite-sex parents were neither married to nor civil partners of each other at birth or conception. The mother can attend with the required declarations and identity evidence; paternity is not disputed. This does not concern adding a father after an initial registration.",
+       "context": "The page offers general contact advice and links to national information about adding a father or re-registering a birth later. Those later operations are separate from entering both parents at the initial registration. Identity requirements and ordinary checks still apply. The council’s Easy Read version repeats joint attendance."
+      }
+     ],
      "",
      "England"
     ],
@@ -160377,6 +160438,11 @@
        "x",
        "https://www.oxfordshire.gov.uk/registration-services/register-birth",
        "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.oxfordshire.gov.uk/registration-services/births/registering-birth",
+       "2026-11-10"
       ]
      ],
      [],
@@ -160506,6 +160572,11 @@
        "amb",
        "https://www.ipswich.gov.uk/council-tax/council-tax-information/frequently-asked-questions-about-council-tax",
        "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.suffolk.gov.uk/births-deaths-and-ceremonies/how-to-register-a-birth",
+       "2026-11-10"
       ]
      ],
      [
@@ -160525,6 +160596,23 @@
        "g": "M",
        "scope": "England apprentice disregard in the 2026/27 financial year. Otherwise qualifying employment/training and total salary/allowance no more than £195 weekly. All household and residence requirements remain. Not a claim that every apprentice gets a discount.",
        "context": "This concerns the listed apprentice eligibility conditions. The household must also meet the Council Tax discount rules."
+      },
+      {
+       "s": "bad",
+       "claim": "Says both unmarried parents must attend to include the father’s details in the birth register.",
+       "page": "Register a birth",
+       "url": "https://www.suffolk.gov.uk/births-deaths-and-ceremonies/how-to-register-a-birth",
+       "lang": "English",
+       "q": "Identity documents are required when registering a birth. If you have a valid passport or driving licence you can book an appointment online.\nIf you do not have either identity documents, then please contact the office you wish to attend who will advise you of alternative acceptable documents.\nDogs other than assistance dogs are not allowed at the Register Offices.\nWe can register the births of all babies born in the county of Suffolk.\nYou can register at any of our offices regardless of where in Suffolk your baby was born.\nAppointments are in person.\nIf the parents are not married and you want both parents' details to appear on the birth certificate,\nboth parents need to attend the appointment together.\nThere is no parking at any of Register Offices (with the exception of Lowestoft). Please allow sufficient time to park and arrive at the office. If you are delayed your appointment may need to be rescheduled for another time.\nThere's space for a maximum of 3 people in each appointment room.\nPlease check the child's registration very carefully before signing. The responsibility lies with you to look for any errors on this legal document. Corrections cost up to £99.\nBoth parents attending the appointment need to be able to read and understand English to sign and approve the registration. If you are not married or in a registered Civil Partnership, you are not allowed to translate for each other. If you need to bring an interpreter, please contact your chosen Register Office to ask for a longer appointment.\nRegister a birth",
+       "tr": "",
+       "why": "An unmarried mother can register the father’s details without him attending, using the required declarations. Other routes use specified parental-responsibility documents. Identity checks still apply.",
+       "prov": "Births and Deaths Registration Act 1953, s. 10(1)(b)–(g)",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/Eliz2/1-2/20/section/10",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Initial birth registration with Suffolk County Council in England in 2026. The opposite-sex parents were neither married to nor civil partners of each other at birth or conception. The mother can attend with the required declarations and identity evidence; paternity is not disputed. This does not concern adding a father after an initial registration.",
+       "context": "The page offers general contact advice and links to national information about adding a father or re-registering a birth later. Those later operations are separate from entering both parents at the initial registration. Identity requirements and ordinary checks still apply. The council’s actual booking introduction repeats joint attendance. This Suffolk County Council page serves Ipswich."
       }
      ],
      "",
@@ -160580,9 +160668,33 @@
      46,
      "Middlesbrough",
      148215,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.middlesbrough.gov.uk/births-deaths-and-marriages/middlesbrough-register-office/register-a-birth/who-can-register-a-birth/",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says both unmarried parents must attend to include the father’s details in the birth register.",
+       "page": "Who can register a birth | Middlesbrough Council",
+       "url": "https://www.middlesbrough.gov.uk/births-deaths-and-marriages/middlesbrough-register-office/register-a-birth/who-can-register-a-birth/",
+       "lang": "English",
+       "q": "Who can register a birth\n\nIf the mother and father were married when the baby was born, they can register the birth together, or either parent can register the birth alone. Registering the birth alone does not mean that only one parent's details will appear on the birth certificate.\n\nIf the mother and father were not married when the baby was born, the father cannot register the birth on his own. If he wants his details to be included on the birth certificate, he must register the birth with the mother. If he cannot attend the appointment, his details will not be included. But it may be possible to add them later.\n\nIf the mother chooses to include the father's details in the register, the father will automatically get parental responsibility.\n\nRegistering a birth may be different for same-sex couples. Find out more about registering a birth as part of a same-sex couple.\n\nIf the parents cannot register the birth, certain other people can do it, but this is rare. If you think this may be the case, call us on 01642 729004 for advice.\n\nIf English is not your first language, you can ask a friend or family member to come to the appointment with you. But they cannot register the birth for you.",
+       "tr": "",
+       "why": "An unmarried mother can register the father’s details without him attending, using the required declarations. Other routes use specified parental-responsibility documents. Identity checks still apply.",
+       "prov": "Births and Deaths Registration Act 1953, s. 10(1)(b)–(g)",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/Eliz2/1-2/20/section/10",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Initial birth registration with Middlesbrough Council in England in 2026. The opposite-sex parents were neither married to nor civil partners of each other at birth or conception. The mother can attend with her prescribed declaration, the living father’s properly completed statutory declaration and acceptable identity evidence. Paternity and identity are not disputed; no assisted-reproduction exception applies. This does not concern a later re-registration.",
+       "context": "The council links to a national guide that correctly explains how one parent can register with the other’s declaration or specified court documents. The link is presented as information for same-sex couples. It also offers advice when the parents cannot register and another person may need to do so. Its related appointment page gives identity requirements, including expired passports and two-document alternatives. Ordinary identity and parentage checks still apply."
+      }
+     ],
      "",
      "England"
     ],
@@ -160673,6 +160785,11 @@
       [
        "bad",
        "https://www.devon.gov.uk/support-schools-settings/safeguarding/guidance-policy-and-tools-2/safeguarding-one-minute-guides/no-26-forced-marriage/",
+       "2026-11-10"
+      ],
+      [
+       "ok",
+       "https://www.devon.gov.uk/registration-service/births/",
        "2026-11-10"
       ]
      ],
@@ -160846,9 +160963,33 @@
      59,
      "Basingstoke",
      117210,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.basingstoke.gov.uk/content/doclib/4695.pdf",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says an apprentice’s pay must be lower than they would receive when qualified.",
+       "page": "Application form for an apprentice disregard",
+       "url": "https://www.basingstoke.gov.uk/content/doclib/4695.pdf",
+       "lang": "English",
+       "q": "APPLICATION FORM FOR AN APPRENTICE DISREGARD\n\nThank you for your application for a council tax discount.\n\nIn order that we can determine if the above discount should apply please complete and return\npart one and ask your employer to complete and return part 2.\n\nPlease return this form to The Revenues Office, Civic Offices, London Road, Basingstoke\nHants RG21 4AH.\n\nThe definition of an Apprentice for council tax purposes is printed below.\n\n\n    Definition of Apprentice:\n\n    For the purpose of council tax discounts an apprentice is defined:\n    i)    As a person who is employed to learn a trade, profession, business, office\n    employment or vocation.\n    ii)   Who is undertaking a programme of training leading to a qualification\n    accredited by the National Council for Vocational Qualifications.\n    iii) Who is receiving a salary or allowance (before Tax, but excluding overtime\n    and bonuses) of less than £195 per week and\n    iv) That salary or allowance is substantially less than he/she would expect to\n    receive when qualified.",
+       "tr": "",
+       "why": "The pay limit is £195 a week in total salary and allowances. You do not also have to earn less than you would earn once qualified. The employment and training conditions still apply.",
+       "prov": "Council Tax (Discount Disregards) Order 1992, Sch. 1, para. 1(1)(c); SI 2006/3396, art. 2(2)(a)(ii)",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/548/schedule/1",
+       "date": "2026-11-10",
+       "service": "Council Tax discount for apprentices",
+       "g": "M",
+       "scope": "England, in the 2026/27 financial year: an otherwise eligible apprentice and Basingstoke household. Employment, accredited training, residence, total salary and allowances no more than £195 a week, and household requirements all remain. The example has no overtime or bonus payments.",
+       "context": "The current web page gives £195 as the maximum weekly pay and directs applicants to this form. The form adds a comparison with pay after qualification in both its definition and employer declaration. Its employer-information paragraph says the employer is not obliged to give information."
+      }
+     ],
      "",
      "England"
     ],
@@ -161053,9 +161194,33 @@
      71,
      "Solihull",
      107735,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.solihull.gov.uk/communities/welcoming-new-communities/support-people-hong-kong",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Presents parental consent as the condition for 16- and 17-year-olds to marry in England.",
+       "page": "Support for people from Hong Kong | Solihull Metropolitan Borough Council",
+       "url": "https://www.solihull.gov.uk/communities/welcoming-new-communities/support-people-hong-kong",
+       "lang": "English",
+       "q": "Marriage\n\nIn the UK, there is a difference between civil marriages and religious marriages.\n\nReligious marriages are only legally recognised if they are registered by the state.\n\nSome religious marriages are not recognised in UK law. In these cases, couples must also have a civil marriage to be legally married.\n\nLegal rules about marriage\n\nThe minimum legal age to marry in the UK is 16. In England, people aged 16 or 17 must have parental consent\n\nIn England, it is legal for:\n\na man and woman to marry\n\ntwo women to marry\n\ntwo men to marry\n\nAll of these marriages are protected by law\n\nConsent\n\nA marriage must only happen if both people freely agree. Forced marriage is illegal in the UK.\n\nThese laws help protect people’s rights and safety.",
+       "tr": "",
+       "why": "People must be at least 18 to marry in England. Parental consent does not allow a 16- or 17-year-old to marry there.",
+       "prov": "Marriage Act 1949, s. 2; Marriage and Civil Partnership (Minimum Age) Act 2022, ss. 1, 6 and 8; SI 2023/88, reg. 2",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/Geo6/12-13-14/76/section/2",
+       "date": "2026-11-10",
+       "service": "Support for people from Hong Kong",
+       "g": "m",
+       "scope": "A prospective marriage to take place in England in 2026, after 27 February 2023. This is Solihull Council’s own guidance for people arriving from Hong Kong. The comparison does not concern marriage in Scotland or Northern Ireland, a valid marriage celebrated before the change, or recognition of an existing overseas marriage.",
+       "context": "The page discusses civil and religious marriage and says both people must freely agree. Those requirements remain relevant, but parental consent does not remove the minimum age of 18 in England. The finding concerns a new marriage in England, rather than the different rules elsewhere in the UK or an existing marriage from Hong Kong."
+      }
+     ],
      "",
      "England"
     ],
@@ -161086,8 +161251,14 @@
      74,
      "Lincoln",
      104555,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.lincolnshire.gov.uk/births/register-birth",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -161404,6 +161575,11 @@
        "x",
        "https://new.calderdale.gov.uk/births-marriages-and-deaths/register-birth",
        "2026-11-10"
+      ],
+      [
+       "x",
+       "https://new.calderdale.gov.uk/council-tax/discounts-and-exemptions",
+       "2026-11-10"
       ]
      ],
      [],
@@ -161448,6 +161624,11 @@
       [
        "x",
        "https://www.doncaster.gov.uk/services/council-tax-benefits/council-tax-discounts-for-students-and-people-in-education",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.doncaster.gov.uk/services/births-marriages-deaths-nationality/registering-a-birth",
        "2026-11-10"
       ]
      ],
