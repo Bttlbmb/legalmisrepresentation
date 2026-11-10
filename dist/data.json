@@ -159221,9 +159221,294 @@
        "amb",
        "https://www.lambeth.gov.uk/births-deaths-ceremonies-and-citizenship/births/register-birth/registering-birth-your-baby",
        "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.walthamforest.gov.uk/businesses/trading-standards/consumer-advice/fraud-and-distance-selling",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.cityoflondon.gov.uk/footer/your-right-to-cancel",
+       "2026-11-10"
+      ],
+      [
+       "amb",
+       "https://www.cityoflondon.gov.uk/footer/legal-notices",
+       "2026-11-10"
+      ],
+      [
+       "amb",
+       "https://www.ealing.gov.uk/info/201169/garden_waste_and_composting/287/garden_waste_collection/4",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.towerhamlets.gov.uk/lgnl/council_and_democracy/council_tax/Council-Tax-discounts-and-exemptions/Council-Tax-discounts-and-exemptions.aspx",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.rbkc.gov.uk/births-deaths-marriages-and-citizenship/deaths/registering-death",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.islington.gov.uk/birth-death-marriage-and-citizenship/register-a-birth",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.merton.gov.uk/births-marriages-and-deaths/marriages",
+       "2026-11-10"
+      ],
+      [
+       "ok",
+       "https://www.islington.gov.uk/birth-death-marriage-and-citizenship/register-a-birth",
+       "2026-11-10"
+      ],
+      [
+       "amb",
+       "https://www.towerhamlets.gov.uk/lgnl/advice_and_benefits/Births-deaths-and-marriages/Births/Register_a_birth.aspx",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.barnet.gov.uk/registerbirth",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.hounslow.gov.uk/births",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.camden.gov.uk/register-birth",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.lambeth.gov.uk/council-tax/discounts-exemptions/discounts-certain-jobs-training",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.brent.gov.uk/SPdiscountreview",
+       "2026-11-10"
+      ],
+      [
+       "amb",
+       "https://www.wandsworth.gov.uk/council-tax/council-tax-discounts-exemptions-and-reductions/apply-for-a-council-tax-discount/",
+       "2026-11-10"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Limits the cooling-off period for distance purchases to seven working days.",
+       "page": "Fraud and distance selling | London Borough of Waltham Forest",
+       "url": "https://www.walthamforest.gov.uk/businesses/trading-standards/consumer-advice/fraud-and-distance-selling",
+       "lang": "English",
+       "q": "Cooling-off period\n\nThe cooling-off period gives you the right to change your mind and cancel an order within seven working days. If you decide to cancel you should put this in writing. There are exceptions to your rights to cancel.",
+       "tr": "",
+       "why": "For most online goods purchases, you can cancel until 14 days after you receive the goods. Exceptions still apply.",
+       "prov": "Consumer Contracts Regulations 2013, reg. 30",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2013/3134/regulation/30",
+       "date": "2026-11-10",
+       "service": "Distance purchases and fraud",
+       "g": "M",
+       "scope": "An ordinary one-off online purchase of non-exempt goods by an English consumer from a trader, entered into after 13 June 2014. Excludes personalised, perishable, unsealed hygiene/media and other exceptions.",
+       "context": "The council separately links to GOV.UK for general consumer rights. This finding concerns the specific current distance-selling page, not actual refusals."
+      },
+      {
+       "s": "bad",
+       "claim": "Says requesting an early start to a service waives your right to cancel.",
+       "page": "Your right to cancel - City of London",
+       "url": "https://www.cityoflondon.gov.uk/footer/your-right-to-cancel",
+       "lang": "English",
+       "q": "Services\n\nIf you are a \"consumer\" the Distance Selling Regulations give you the right to cancel a contract for the supply of services from the date the contract was concluded (ie the day we send our Order Confirmation email) until the expiry of a period of fourteen \"working days\", beginning the day after the contract was concluded.\n\nPlease note: services will not commence until the end of the 14 day cancellation period unless you contact us by email, letter or fax and request that we commence the services prior to the end of the cancellation period in which case you will be taken to have agreed to waive your right to cancel.\n\nYou must notify the City of your decision to cancel the contract. How to give notice of cancellation.\n\nThe notice of cancellation must be in writing, and be either in accordance with the model cancellation form set out in Schedule 3 (Information about the exercise of the rights to cancel) of the Regulations or be in the form of another document setting out the decision to cancel.\n\nThe service of the notice of cancellation may be given in any of the following ways:\n\na) by hand to the address given below\n\nb) by post to the address given below\n\nc) via an online form",
+       "tr": "",
+       "why": "Starting a service does not end the cancellation right. For an ordinary service, it ends after full performance with the required request and acknowledgement. A proportionate charge may apply.",
+       "prov": "Consumer Contracts Regulations 2013, reg. 36",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2013/3134/regulation/36",
+       "date": "2026-11-10",
+       "service": "Cancel a council purchase",
+       "g": "M",
+       "scope": "A paid non-exempt ordinary service bought at distance by a consumer from the council; cancellation within 14 days of contract and before full performance. No fixed-date leisure, urgent requested repair, healthcare, passenger transport or other exception.",
+       "context": "The page separately lists 14 day endpoints and statutory rights. The comparison concerns an unfinished non-exempt service. Payment for work already supplied may still be due."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires cancellation notices to be in writing.",
+       "page": "Your right to cancel - City of London",
+       "url": "https://www.cityoflondon.gov.uk/footer/your-right-to-cancel",
+       "lang": "English",
+       "q": "Services\n\nIf you are a \"consumer\" the Distance Selling Regulations give you the right to cancel a contract for the supply of services from the date the contract was concluded (ie the day we send our Order Confirmation email) until the expiry of a period of fourteen \"working days\", beginning the day after the contract was concluded.\n\nPlease note: services will not commence until the end of the 14 day cancellation period unless you contact us by email, letter or fax and request that we commence the services prior to the end of the cancellation period in which case you will be taken to have agreed to waive your right to cancel.\n\nYou must notify the City of your decision to cancel the contract. How to give notice of cancellation.\n\nThe notice of cancellation must be in writing, and be either in accordance with the model cancellation form set out in Schedule 3 (Information about the exercise of the rights to cancel) of the Regulations or be in the form of another document setting out the decision to cancel.\n\nThe service of the notice of cancellation may be given in any of the following ways:\n\na) by hand to the address given below\n\nb) by post to the address given below\n\nc) via an online form",
+       "tr": "",
+       "why": "You can cancel by any clear statement informing the trader of your decision. You do not have to use a form or write it down. You must be able to show you cancelled in time.",
+       "prov": "Consumer Contracts Regulations 2013, reg. 32",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2013/3134/regulation/32",
+       "date": "2026-11-10",
+       "service": "Cancel a council purchase",
+       "g": "m",
+       "scope": "A consumer exercising a valid cancellation right under regulation 29 within the applicable period; an unambiguous spoken statement reaches the council and can be proved. No allegation about the proof needed in a dispute.",
+       "context": "Written evidence can help prove cancellation. This finding does not discourage retaining evidence or say disputed unproved calls are sufficient."
+      },
+      {
+       "s": "bad",
+       "claim": "Describes the Band A disability reduction as one ninth of the Band A charge.",
+       "page": "Discounts and exemptions",
+       "url": "https://www.towerhamlets.gov.uk/lgnl/council_and_democracy/council_tax/Council-Tax-discounts-and-exemptions/Council-Tax-discounts-and-exemptions.aspx",
+       "lang": "English",
+       "q": "Disabled persons\n\nIf you, or someone who lives with you, has a disability that needs a specialised area in the home such as:\n\nan extra bathroom\n\nan extra kitchen\n\nother specifically adapted room(s)\n\nhome adaptations to use a wheelchair indoors\n\nYou may qualify for a reduction in your council tax bill.\n\nIf you are entitled, your bill will be reduced to the amount due for a property in the next valuation band down.\n\nFor example, if your home is in valuation band \"D\" your bill will be reduced to the amount for a band \"C\" property.\n\nIf your home is already in the lowest band, a reduction that is equals to one ninth of your council tax bill will apply.\n\nTo see if you qualify, please use the Council Tax disabled band reduction form.",
+       "tr": "",
+       "why": "For a qualifying Band A home, the reduction equals one ninth of the Band D charge. This is one sixth of the normal Band A bill. Other discounts can affect the final bill.",
+       "prov": "Council Tax (Reductions for Disabilities) Regulations 1992, reg. 4(3A)(b); Local Government Finance Act 1992, s. 5(1)",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/554/regulation/4",
+       "date": "2026-11-10",
+       "service": "Council Tax discounts and exemptions",
+       "g": "M",
+       "scope": "England; an otherwise eligible Band A main home for a full financial year, with all disability, adaptation, qualifying-individual and written-application conditions met. No other discounts, premiums or Council Tax support in the numerical comparison.",
+       "context": "The household must meet the disability and property conditions to qualify. The comparison uses a full-year Band A bill before other discounts, premiums or Council Tax support."
+      },
+      {
+       "s": "bad",
+       "claim": "Starts the five-day deadline for registering a death on the date of death.",
+       "page": "Registering a death | Royal Borough of Kensington and Chelsea",
+       "url": "https://www.rbkc.gov.uk/births-deaths-marriages-and-citizenship/deaths/registering-death",
+       "lang": "English",
+       "q": "How quickly can the death be registered?\n\nLegally, the death must be registered within 5 days of it occurring - though this period may be extended in certain circumstances, for example when the coroner has been consulted.  The death must be registered in person by a relative, someone who is arranging the funeral or someone who was present at the death. Appointments should be booked using our online service.\n\nThere is no longer a requirement for those registering the death to collect the Medical Certificate of Cause (MCCD) as the hospital or GP surgery will scan a copy of the relevant paperwork directly to the Register Office. We regret that legislation does not allow the death to be registered remotely, such as online, by e-mail or by telephone.\n\nIf you are unsure about the time limitations, or think you may not be able to register within five days, please telephone the Register Office on 020 7361 4100 or email us at [email protected] for further information.",
+       "tr": "",
+       "why": "For an ordinary death checked by a medical examiner, the five-day period starts when the registrar is notified of the confirmed cause of death. It does not start on the date of death. Coroner investigations and a properly completed written preliminary notice have separate rules.",
+       "prov": "Births and Deaths Registration Act 1953, ss. 16(3)–(4), 17(3)–(4) and 18; SI 2024/492, reg. 11; SI 2024/516, art. 3(a)–(c)",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/Eliz2/1-2/20/section/16",
+       "date": "2026-11-10",
+       "service": "Register a death",
+       "g": "m",
+       "scope": "An ordinary doctor-certified death in the Royal Borough of Kensington and Chelsea in England in 2026, with medical-examiner confirmation and notification to the registrar after the death. No coroner investigation or written preliminary notice is involved. London is one selected place; this finding concerns this borough publisher only.",
+       "context": "The page says the period may be extended in some circumstances and offers advice if registration within five days is difficult. It also explains direct transmission of medical paperwork. This comparison concerns the normal starting date after medical-examiner review, rather than a penalty, an actual refusal or a coroner case."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires an executor to be arranging the funeral before they can register a death.",
+       "page": "Registering a death | Royal Borough of Kensington and Chelsea",
+       "url": "https://www.rbkc.gov.uk/births-deaths-marriages-and-citizenship/deaths/registering-death",
+       "lang": "English",
+       "q": "Who is able to register the death?\n\nThe death must be registered by a qualified informant and this person must be one of the following:\n\na relative, usually the closest one\n\nsomeone who was present at the death\n\nsomeone who is instructing the funeral director\n\nin rare circumstances another person may qualify as an informant - if you think that this may be the case then you should contact the Register Office for further advice\n\nImportant - an executor is not automatically entitled to register a death unless they are also arranging the funeral.",
+       "tr": "",
+       "why": "An executor who is the deceased’s personal representative can register the death. They do not need to arrange the funeral. Rules about who must register first do not remove that right.",
+       "prov": "Births and Deaths Registration Act 1953, s. 16(2)(ba), (3) proviso (i), and s. 41(1); SI 2024/516, art. 3(a)",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/Eliz2/1-2/20/section/16",
+       "date": "2026-11-10",
+       "service": "Register a death",
+       "g": "m",
+       "scope": "An adult executor validly appointed by the deceased’s will who has accepted the appointment, holds personal-representative status and can establish that status and provide the required particulars. The death occurs in a house or hospital in Kensington and Chelsea in 2026. No assumption that probate must first be granted is made.",
+       "context": "The page offers advice for rare circumstances in which another person may qualify. This comparison concerns a valid executor who is already a personal representative, rather than a beneficiary, someone hoping to become an administrator, or an executor who has renounced the role. Ordinary checks of status and particulars still apply."
+      },
+      {
+       "s": "bad",
+       "claim": "Limits use of an expired passport to 18 months after expiry when registering a birth.",
+       "page": "Register a birth | Islington Council",
+       "url": "https://www.islington.gov.uk/birth-death-marriage-and-citizenship/register-a-birth",
+       "lang": "English",
+       "q": "Primary ID documents\n\nYou should bring one proof of primary ID from this list.\n\nDocument | Format\n\nPassport (current or expired up to 18 months after expiry) | Physical document",
+       "tr": "",
+       "why": "A passport can prove identity whether it is current or expired. The birth-registration rules set no 18-month limit. Ordinary identity and authenticity checks still apply.",
+       "prov": "SI 2026/1168, regs 2(3)(b) and 4, Sch., para. 1(a); Births and Deaths Registration Act 1953, s. 38B",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2026/1168/made",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Initial birth registration with Islington Council in London after 9 November 2026, using a genuine, otherwise suitable passport expired more than 18 months ago. Ordinary identity and authenticity checks still apply.",
+       "context": "The council says you should bring one primary document and must bring two secondary documents if you have none. It gives other primary choices too. This comparison concerns the passport expiry limit for Islington registrations, not a requirement to buy a new passport. Ordinary identity checks still apply."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires a parental consent form when someone under 18 gives notice of marriage.",
+       "page": "Getting married | Merton Council",
+       "url": "https://www.merton.gov.uk/births-marriages-and-deaths/marriages",
+       "lang": "English",
+       "q": "Other original documents you must bring, depending on your circumstances:\n\nYour circumstances | What to bring\n\nYou or your partner are enrolled on the European Settlement scheme with settled or pre-settled status or have an application pending made before 30 June 2021. | A share code to evidence your status. Acquired by visiting view and prove your immigration status .\n\nYou or your partner are not British, Irish or enrolled on the European Settlement scheme with settled or pre-settled status or have an application pending made before 30 June 2021. You or your partner has acquired a marriage visa to marry in this country. | One passport sized photo for each of you\n\nDivorced or dissolved civil partnership | Final divorce or dissolution document, please note that an electronic copy will only be accepted if we can see that it originated from the court that issued it Marriage or civil partnership certificate If documents are not in English, a full English translation by a third party, including translator's details and signature.\n\nWidowed or are a surviving civil partner | Spouse or civil partner's death certificate Marriage or civil partnership certificate.\n\nChanged name | Proof of name change.\n\nUnder 18 | Completed parental consent form; collect one from us before your notice appointment.",
+       "tr": "",
+       "why": "Parental consent is no longer required when giving notice of marriage. A 17-year-old may give notice if they will be 18 by the end of the 28-day waiting period. Both people must be at least 18 when they marry.",
+       "prov": "Marriage and Civil Partnership (Minimum Age) Act 2022, s. 1(3) and Sch., para. 1(4); SI 2023/88, reg. 2",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/2022/28",
+       "date": "2026-11-10",
+       "service": "Marriage and civil partnership",
+       "g": "m",
+       "scope": "An otherwise eligible 17-year-old British resident giving notice of a civil marriage with Merton Council in London after 27 February 2023, who will be 18 by the end of the 28-day waiting period and will marry only at 18 or older.",
+       "context": "The page links to the current GOV.UK guide, which correctly requires age 18 for the ceremony. This comparison concerns the parental consent form demanded at the earlier notice appointment."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires a care worker to earn less than £44 a week for a Council Tax discount.",
+       "page": "Discounts for certain jobs and training | Lambeth Council",
+       "url": "https://www.lambeth.gov.uk/council-tax/discounts-exemptions/discounts-certain-jobs-training",
+       "lang": "English",
+       "q": "Care workers\n\nYou can get a discount if someone in your household:\n\nis employed as a care worker for at least 24 hours a week\n\nis on a salary of less than £44 a week\n\nThe house must be accommodation that is provided by their employer. The employer must be either:\n\nthe person receiving care\n\nthe Crown\n\na public authority\n\na body established for charitable purposes\n\nYou cannot get a discount if 2 or more other people also live in the household and they:\n\ncount as an adult for Council Tax\n\nare not entitled to a discount\n\nApply for a care worker's discount\n\nAs part of your application, we may need to ask you for some additional evidence. You can submit this after you complete your application form using our upload your evidence form .",
+       "tr": "",
+       "why": "A qualifying care worker can earn up to £44 a week, including exactly £44. The other care, working-hours and accommodation conditions still apply.",
+       "prov": "SI 1992/552, Sch. Part I, paras 1–2; SI 2006/3395, regs 1 and 4",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/552/schedule",
+       "date": "2026-11-10",
+       "service": "Council Tax discounts for certain jobs and training",
+       "g": "M",
+       "scope": "England, current Council Tax year. A care worker receives exactly £44 in total weekly pay and works at least 24 hours a week. The employer and accommodation must meet the care-worker rules. The employment arrangement must be lawful, and the household must meet the discount conditions.",
+       "context": "Lambeth Council’s guidance concerns its own borough within London. The household must also meet the other conditions listed on the page."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires an apprentice to earn less than £195 a week for a Council Tax discount.",
+       "page": "Discounts for certain jobs and training | Lambeth Council",
+       "url": "https://www.lambeth.gov.uk/council-tax/discounts-exemptions/discounts-certain-jobs-training",
+       "lang": "English",
+       "q": "Apprentices\n\nYou can get a discount if someone in your household is:\n\nan apprentice with a salary of less than £195 a week\n\ntraining for a qualification that is recognised by the Office of Qualifications and Examinations Regulation or the Scottish Vocational Education Council\n\nYou cannot get a discount if 2 or more other people also live in the household and they:\n\ncount as an adult for Council Tax\n\nare not entitled to a discount\n\nApply for an apprentice discount\n\nAs part of your application, we may need to ask you for some additional evidence. You can submit this after you complete your application form using our upload your evidence form .",
+       "tr": "",
+       "why": "A qualifying apprentice can receive a total of £195 a week in salary and allowances, including exactly £195. The training and household conditions still apply.",
+       "prov": "SI 1992/548, Sch. 1, Part I, para. 1; SI 2006/3396, arts 1 and 2",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/548/schedule/1",
+       "date": "2026-11-10",
+       "service": "Council Tax discounts for certain jobs and training",
+       "g": "M",
+       "scope": "England, an otherwise qualifying adult apprentice with exactly £195 total weekly salary and allowances; qualifying training and household conditions met. No allegation that every apprenticeship or higher-paid apprentice qualifies.",
+       "context": "Lambeth Council’s guidance concerns its own borough within London. The household must also meet the other conditions listed on the page."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires religious-community members to have no income of their own for a Council Tax discount.",
+       "page": "Discounts for certain jobs and training | Lambeth Council",
+       "url": "https://www.lambeth.gov.uk/council-tax/discounts-exemptions/discounts-certain-jobs-training",
+       "lang": "English",
+       "q": "Members of a religious community\n\nYou can get a discount if someone in your household is a member of a religious community. Their main occupation must be either:\n\nprayer\n\ncontemplation\n\nthe relief of suffering\n\neducation\n\nThey must have no income or capital of their own.\n\nYou cannot get a discount if 2 or more other people also live in the household and they:\n\ncount as an adult for Council Tax\n\nare not entitled to a discount\n\nApply for a religious community discount\n\nAs part of your application, we may need to ask you for some additional evidence. You can submit this after you complete your application form using our upload your evidence form .",
+       "tr": "",
+       "why": "Income from a pension for previous employment does not rule you out. You must otherwise have no own income or capital and depend on a qualifying religious community for your material needs.",
+       "prov": "SI 1992/552, reg. 3(1), Class B",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/552/regulation/3",
+       "date": "2026-11-10",
+       "service": "Council Tax discounts for certain jobs and training",
+       "g": "m",
+       "scope": "England. The community’s principal occupation is prayer, contemplation, education, relief of suffering or any combination of these. The member depends on it for their material needs. They receive a pension from previous employment but have no other own income or capital. The household must also meet the discount conditions.",
+       "context": "The pension exception concerns income from previous employment. It does not excuse other personal income or capital, or the need to depend on the community for material support."
+      },
+      {
+       "s": "bad",
+       "claim": "Says the 35-hour Council Tax carer route requires care to be unpaid.",
+       "page": "Council Tax reductions and discounts | Brent Council",
+       "url": "https://www.brent.gov.uk/SPdiscountreview",
+       "lang": "English",
+       "q": "Carers\n\nIf you are a live-in carer or look after someone who is not your partner, spouse, or a child under 18, you might be able to get discount or reduction on your Council Tax bill.\n\nA paid carer must be:\n\nproviding care for a minimum of 24 hours a week\n\nearning no more than £44 per week\n\nemployed by a local authority or a charity\n\nliving in a property provided by the relevant employer or by the person who is receiving the care\n\nAn unpaid carer must be:\n\nliving in the same property as the person they are caring for\n\nproviding care to a person that is not their partner or a child under 18, for a minimum of 35 hours a week.\n\nIn addition, the person receiving care must be in receipt of one of the following benefits:\n\nAny rate of attendance allowance\n\nthe highest or middle rate of the care component of a disability living allowance under\n\nan increase in the rate of his disablement pension\n\nan increase in a constant attendance allowance\n\nthe standard or enhanced rate of the daily living component of personal independence payment\n\narmed forces independence payment\n\nPlease note that you do not have to be in receipt of a Carer’s Allowance to apply for this discount.\n\nApply for a carer's reduction\n\nContact us to apply for a carers reduction. When you complete the online enquiry form you must upload the necessary evidence of your caring role, too.\n\nApply for a carer's reduction",
+       "tr": "",
+       "why": "Paid carers can also use the 35-hour care route, which has no £44 pay limit. The person cared for must qualify for a listed benefit. The home, relationship and household conditions still apply.",
+       "prov": "SI 1992/552, reg. 2 and Sch. Part II, paras 3–4",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/552/regulation/2",
+       "date": "2026-11-10",
+       "service": "Council Tax reductions and discounts",
+       "g": "M",
+       "scope": "England. A paid carer lives with the person receiving care and provides at least 35 hours each week on average. That person qualifies for one of the listed care benefits. The carer is neither their spouse or partner, nor a parent caring for their own child under 18. The employment arrangement must be lawful, and the household must meet the discount conditions.",
+       "context": "The separate 24-hour care-worker route keeps its £44 weekly pay limit and other conditions. This comparison concerns paid carers who meet every condition of the 35-hour route. The Disability Living Allowance entry is incomplete in the retrieved text. The finding uses the complete care conditions and Personal Independence Payment entry."
+      }
+     ],
      "",
      "England"
     ],
@@ -159232,8 +159517,19 @@
      2,
      "Birmingham",
      1121375,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.birmingham.gov.uk/birth",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.birmingham.gov.uk/info/20144/apply_for_a_council_tax_discount_or_exemption/3034/apply_for_a_care_worker_council_tax_discount",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159254,9 +159550,38 @@
      4,
      "Leeds",
      536280,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.leeds.gov.uk/births-deaths-and-marriages/register-a-birth",
+       "2026-11-10"
+      ],
+      [
+       "ok",
+       "https://www.leeds.gov.uk/births-deaths-and-marriages/register-a-birth",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Limits use of an expired passport to 18 months after expiry when registering a birth.",
+       "page": "Register a birth | Leeds.gov.uk",
+       "url": "https://www.leeds.gov.uk/births-deaths-and-marriages/register-a-birth",
+       "lang": "English",
+       "q": "Appointments from 9 November 2026\n\nIf you register a birth on or after 9 November 2026, each parent must bring 1 ID document from the primary list or 2 ID documents from the secondary list.\n\nPrimary list\n\nPassport (current or expired) - expired passports may be accepted up to 18 months after the date of expiry.",
+       "tr": "",
+       "why": "A passport can prove identity whether it is current or expired. The birth-registration rules set no 18-month limit. Ordinary identity and authenticity checks still apply.",
+       "prov": "SI 2026/1168, regs 2(3)(b) and 4, Sch., para. 1(a); Births and Deaths Registration Act 1953, s. 38B",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2026/1168/made",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Initial birth registration with Leeds City Council in England after 9 November 2026, using a genuine, otherwise suitable passport expired more than 18 months ago. Ordinary identity and authenticity checks still apply.",
+       "context": "The council offers other primary identity documents and a two-document secondary route. This comparison concerns its passport expiry limit, not a requirement to buy a replacement passport. Ordinary identity and authenticity checks still apply."
+      }
+     ],
      "",
      "England"
     ],
@@ -159265,9 +159590,43 @@
      5,
      "Liverpool",
      506565,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://liverpool.gov.uk/council-tax/discounts-and-exemptions/apprentice-discount/",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://liverpool.gov.uk/births-marriage-deaths/register-a-birth/",
+       "2026-11-10"
+      ],
+      [
+       "ok",
+       "https://liverpool.gov.uk/births-marriage-deaths/register-a-birth/",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Limits use of an expired passport to 18 months after expiry when registering a birth.",
+       "page": "Register a birth - Liverpool City Council",
+       "url": "https://liverpool.gov.uk/births-marriage-deaths/register-a-birth/",
+       "lang": "English",
+       "q": "Proof of identity\n\nFrom 9th November 2026, everyone registering a birth or re-registering a birth must provide proof of their identity. If both parents are registering the birth together, both must provide proof of identity.\n\nThis also applies to anyone registering the birth because they were present at the birth, have responsibility for the child, or are the occupier of the premises where the baby was born.\n\nYou must bring the required identity documents listed below. We cannot complete the birth registration without them.\n\nYou must provide one document from the primary list. If you cannot provide a document from the primary list, you must provide two documents from the secondary list.\n\nPrimary list\n\nEach person registering the birth must provide one document from the primary list.\n\nYou can provide digital copies of documents unless otherwise stated below.\n\nPassport (current or expired) - Expired passports may be accepted up to 18 months after the date of expiry. Applies to UK and overseas passports.",
+       "tr": "",
+       "why": "A passport can prove identity whether it is current or expired. The birth-registration rules set no 18-month limit. Ordinary identity and authenticity checks still apply.",
+       "prov": "SI 2026/1168, regs 2(3)(b) and 4, Sch., para. 1(a); Births and Deaths Registration Act 1953, s. 38B",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2026/1168/made",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Initial birth registration with Liverpool City Council in England after 9 November 2026, using a genuine, otherwise suitable passport expired more than 18 months ago. Ordinary identity and authenticity checks still apply.",
+       "context": "The council offers other primary documents and two secondary documents. It expressly accepts digital copies unless stated otherwise. This comparison concerns the passport expiry limit, not a requirement to buy a replacement passport. Ordinary identity and authenticity checks still apply."
+      }
+     ],
      "",
      "England"
     ],
@@ -159276,9 +159635,38 @@
      6,
      "Sheffield",
      500535,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.sheffield.gov.uk/council-tax/council-tax-discounts/discounts-full-time-students",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.sheffield.gov.uk/births-deaths-marriages/births/register-birth",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Rules out Council Tax student reductions for anyone studying by correspondence.",
+       "page": "Discounts for full-time students | Sheffield City Council",
+       "url": "https://www.sheffield.gov.uk/council-tax/council-tax-discounts/discounts-full-time-students",
+       "lang": "English",
+       "q": "What is classed as a full time student\n\nYou’re classed as a full time student for Council Tax purposes if you’re:\n\n• enrolled at a college, university or similar, and your course lasts for at least one full academic year, which involves at least 24 study weeks in each year with an average of 21 hours of study a week\n• under 20 years old, and you’re enrolled on a course which lasts more than 3 months (for example; A Level, ONC and OND Standard) and involves at least 12 hours of study a week between the hours of 8am and 5:30pm\n• over 18 years old but your parents receive child benefit for you; this will automatically be awarded where we are aware of your entitlement to child benefit\n• under 20 years old and left school or college after 30 April; this disregard will automatically be awarded until your 20th birthday or the 1 November after you finish your course (whichever is the soonest)\n• on your summer holidays between the years of your course\n• taking a study break but remain enrolled with the college or university and intend to return to your studies\n• a foreign language assistant at a school or college in Great Britain and you’re registered with the British Council for Educational Visits and Exchanges\n\nYou’re not classed as a full-time student for Council Tax purposes if you’re:\n\n• studying a correspondence course\n• studying an evening class\n• studying a course connected with your job\n• taking a gap year",
+       "tr": "",
+       "why": "A full-time course can qualify even when study takes place away from the institution. The course, enrolment and residence conditions still apply.",
+       "prov": "Council Tax (Discount Disregards) Order 1992, Sch.1 paras 3–6 and Sch.2; LGFA 1992, Sch.1 para 4",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/548/schedule/1",
+       "date": "2026-11-10",
+       "service": "Council Tax discounts for full-time students",
+       "g": "M",
+       "scope": "England: an adult on an otherwise qualifying full-time distance/correspondence course at a prescribed English educational institution. Academic-year duration, at least 24 weeks/year and average 21 hours/week; work experience limit satisfied. Distinct under 20 qualifying-course route excluded from comparison.",
+       "context": "Not all distance or Open University courses qualify. The course must meet the full-time rules. The application form was unavailable for substantive reading; this finding concerns the published eligibility page."
+      }
+     ],
      "",
      "England"
     ],
@@ -159298,11 +159686,21 @@
      8,
      "Manchester",
      470405,
-     "s",
+     "l",
      [
       [
        "amb",
        "https://www.manchester.gov.uk/births-marriages-deaths-and-nationality/births/register-a-birth/appointments-for-registering-a-birth",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.manchester.gov.uk/info/500340/managing_tenancies/1650/private_landlords_tenants_deposit",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.manchester.gov.uk/births-marriages-deaths-and-nationality/deaths-funerals-and-cemeteries/coroners/what-the-coroner-will-do-immediately-following-a-reportable-death/registration-and-funeral-arrangements",
        "2026-11-10"
       ]
      ],
@@ -159331,6 +159729,11 @@
       [
        "bad",
        "https://www.leicester.gov.uk/births-deaths-and-marriages/register-birth-leicester",
+       "2026-11-10"
+      ],
+      [
+       "amb",
+       "https://www.leicester.gov.uk/housing/private-tenants/landlord-leave-private-tenant",
        "2026-11-10"
       ]
      ],
@@ -159372,8 +159775,19 @@
      12,
      "Coventry",
      344285,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "amb",
+       "https://www.coventry.gov.uk/trading-standards/consumer-advice-protection/4",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.coventry.gov.uk/births-1/registering-birth/2",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159383,8 +159797,14 @@
      13,
      "Bradford",
      333950,
-     "n",
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.bradford.gov.uk/births-deaths-marriages-and-civil-partnerships/births-and-naming/identification-documents-to-bring-when-registering-a-birth/",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159440,8 +159860,14 @@
      16,
      "Newcastle upon Tyne",
      286445,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://new.newcastle.gov.uk/births-deaths-marriages-and-ceremonies/births/register-birth-0",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159462,9 +159888,38 @@
      18,
      "Derby",
      275575,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.derby.gov.uk/community-and-living/births/registering-births/",
+       "2026-11-10"
+      ],
+      [
+       "ok",
+       "https://www.derby.gov.uk/community-and-living/births/registering-births/",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Limits use of an expired passport to 18 months after expiry when registering a birth.",
+       "page": "Registering births - Derby City Council",
+       "url": "https://www.derby.gov.uk/community-and-living/births/registering-births/",
+       "lang": "English",
+       "q": "Required documents\n\nFrom 9 November 2026 you must bring to your appointment original documents which prove your identity.\n\nWe will not be able to complete the registration without them.\n\nIf you're married or in a civil partnership, only one parent needs to attend. It is helpful to bring proof of identity for both parents.\n\nPhotocopies are not accepted.\n\nYou must bring one document from this list:\n\npassport (current or expired up to 18 months after date of expiry)",
+       "tr": "",
+       "why": "A passport can prove identity whether it is current or expired. The birth-registration rules set no 18-month limit. Ordinary identity and authenticity checks still apply.",
+       "prov": "SI 2026/1168, regs 2(3)(b) and 4, Sch., para. 1(a); Births and Deaths Registration Act 1953, s. 38B",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2026/1168/made",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Initial birth registration in England after 9 November 2026, using a genuine, otherwise suitable passport expired more than 18 months ago. Ordinary identity and authenticity checks still apply.",
+       "context": "Other primary documents and a two-document secondary route remain available. The comparison concerns the stated passport expiry limit, not a requirement to buy a replacement passport. Digital identity verification is also available under the law."
+      }
+     ],
      "",
      "England"
     ],
@@ -159484,8 +159939,14 @@
      20,
      "Plymouth",
      266955,
-     "n",
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.plymouth.gov.uk/register-birth",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159495,8 +159956,14 @@
      21,
      "Stoke-on-Trent",
      260560,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.stoke.gov.uk/info/20053/births/39/register_a_birth",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159539,8 +160006,14 @@
      25,
      "Luton",
      233525,
-     "n",
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.luton.gov.uk/council-tax/council-tax-discounts-exemptions/apprentices-youth-trainees-school-leavers-council-tax-discount",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159550,9 +160023,60 @@
      26,
      "Portsmouth",
      223305,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.portsmouth.gov.uk/services/council-tax/students/discounts-and-exemptions",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.portsmouth.gov.uk/services/register-office/births/who-can-register-a-birth",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.portsmouth.gov.uk/services/council-tax/discounts-and-exemptions/disregard-discount/apprentices",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says only the mother can register a birth when the parents are unmarried.",
+       "page": "Who can register a birth | Portsmouth City Council",
+       "url": "https://www.portsmouth.gov.uk/services/register-office/births/who-can-register-a-birth",
+       "lang": "English",
+       "q": "Who can register a birth\n\nFind out who can register a birth and what you need to do.\n\nParents must register their baby’s birth themselves – they cannot ask a relative or friend to do it for them. If English is not the parents’ first language, they are welcome to ask a relative or friend to come with them to help with the registration.\n\nIf the mother and father are married to each other at the time of the baby’s birth, either parent may register the baby, although the mother is considered to be the primary informant.\n\nIf the mother and father were not married to each other at the time of the baby’s birth, only the mother may register the birth. She is not obliged to include the father’s details. If the father is also present at the time of the registration, his details can also be entered in the register. This gives the father parental responsibility for the baby. If the father’s details are not entered at the time of registration it may be possible for this to be done at a later date.\n\nThere is more information on GOV.UK about registering a birth , including recording two female parents on a child’s birth certificate.\n\nIf you need further information, please contact Portsmouth register office .",
+       "tr": "",
+       "why": "An unmarried father can register alone using his required declaration and the mother’s statutory declaration. Other specified documents can also allow this. Identity checks still apply.",
+       "prov": "Births and Deaths Registration Act 1953, s. 10(1)(c)–(g), (2)",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/Eliz2/1-2/20/section/10",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Ordinary initial registration in England to opposite-sex parents neither married nor civil partners at birth or conception. The father has the required declarations or other qualifying documents and meets identity checks.",
+       "context": "The linked national guide correctly explains declaration and court-document alternatives. The council’s own page still says only the mother can register. This comparison concerns a father registering with the required documents, not every unmarried father."
+      },
+      {
+       "s": "bad",
+       "claim": "Says apprentices qualify for a Council Tax discount only if their pay is substantially below what they would earn once qualified.",
+       "page": "Apprentices | Council Tax disregard discount | Portsmouth City Council",
+       "url": "https://www.portsmouth.gov.uk/services/council-tax/discounts-and-exemptions/disregard-discount/apprentices",
+       "lang": "English",
+       "q": "Council Tax disregard discount\nCheck who qualifies for a Council Tax disregard discount and how each may affect your bill.\nGuide contents\nGuide Navigation\nSkip Guide Navigation\nApprentices\nThe following criteria must apply for a person to be disregarded as an apprentice under Council Tax legislation.\nThey must meet all of the following criteria:\nemployed for the purpose of learning a trade, business, profession, office, employment or vocation for that purpose undertaking a programme of training leading to a qualification accredited by the Qualifications and Curriculum Authority\nemployed at a salary, in receipt of an allowance or both (if the total is substantially less than the salary, they would be likely to receive if they had achieved the qualification in question)\nreceiving no more than £195 per week\nHow it is calculated\nThe Council Tax charge is based upon the number of people living in a dwelling. If you are \"disregarded\" as being an apprentice, it means that we do not count you when we work out the number of people living there.\nwhen counting the number of people living in a dwelling, if there is just one person living there, a 25% discount may be granted\nif all the residents at a dwelling are \"disregarded\" a 50% discount may be granted\nif there are two or more residents in a household who are not entitled to status discount, the discount will not apply and the full Council Tax charge will be payable",
+       "tr": "",
+       "why": "Qualifying apprentices can receive up to £195 a week in salary and allowances. Their pay need not be substantially below what they would earn after qualifying. The other training and household conditions still apply.",
+       "prov": "SI 1992/548, Sch. 1, Part I, para. 1; SI 2006/3396, arts 1 and 2(2)(a)(ii)",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/548/schedule/1",
+       "date": "2026-11-10",
+       "service": "Council Tax discounts for apprentices",
+       "g": "M",
+       "scope": "England, current Council Tax year; an otherwise qualifying adult apprentice with total salary and allowances no more than £195 weekly but no substantial pay difference after qualifying. All remaining training, employment and household conditions must be met.",
+       "context": "The £195 weekly limit still applies. This comparison concerns the separate condition comparing current pay with pay after qualification."
+      }
+     ],
      "",
      "England"
     ],
@@ -159561,8 +160085,14 @@
      27,
      "Reading",
      203795,
-     "n",
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.reading.gov.uk/life-events/births/",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159583,9 +160113,43 @@
      29,
      "Milton Keynes",
      197340,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "amb",
+       "https://www.milton-keynes.gov.uk/births-marriages-and-deaths/birth-registration",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.milton-keynes.gov.uk/council-tax/discounts-exemptions-and-premiums/students-and-other-education",
+       "2026-11-10"
+      ],
+      [
+       "ok",
+       "https://www.milton-keynes.gov.uk/council-tax/discounts-exemptions-and-premiums/discounts-and-exemptions-occupied-properties",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires an apprentice to earn less than £195 a week for a Council Tax discount.",
+       "page": "Students and other education | Milton Keynes City Council",
+       "url": "https://www.milton-keynes.gov.uk/council-tax/discounts-exemptions-and-premiums/students-and-other-education",
+       "lang": "English",
+       "q": "Apprentice\nYou can qualify for an apprentice discount if:\nyou are employed to learn a trade, business, profession, office, employment, or vocation,\nyou are involved in an apprenticeship leading to a qualification accredited by the National Council for Vocational Qualifications (NVQ)\nyou earn less than £195 per week\nYou must provide evidence of your course, such as an agreement, contract, or letter. This must confirm:\nthe course title\nthe start date\nthe expected end date\nthe qualification or accreditation you are working towards\nYou must also provide evidence of your paid employment. This could be a recent payslip, contract of employment, or an offer letter. The evidence must show that your\ngross weekly pay is less than £195.00\n.\nHow to apply\nTo apply for the discount, you will need to:\nComplete our online apprentice discount\napplication form\nSubmit any evidence to support your application through the application process.\nApply for discount",
+       "tr": "",
+       "why": "A qualifying apprentice can receive a total of £195 a week in salary and allowances, including exactly £195. The training and household conditions still apply.",
+       "prov": "SI 1992/548, Sch. 1, Part I, para. 1; SI 2006/3396, arts 1 and 2",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/548/schedule/1",
+       "date": "2026-11-10",
+       "service": "Council Tax discounts for students and apprentices",
+       "g": "M",
+       "scope": "England, an otherwise qualifying adult apprentice with exactly £195 total weekly salary and allowances; qualifying training and household conditions met. No allegation that every apprenticeship or higher-paid apprentice qualifies.",
+       "context": "The page repeats the strict weekly pay limit in the evidence instructions. The other apprenticeship, training and household conditions still apply."
+      }
+     ],
      "",
      "England"
     ],
@@ -159594,9 +160158,38 @@
      30,
      "Bournemouth",
      196455,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.bcpcouncil.gov.uk/births-deaths-marriages-and-civil-partnerships/births/register-a-birth",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.bcpcouncil.gov.uk/council-tax/council-tax-discounts-and-exemptions/carers-and-care-workers-council-tax-exemption",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says paid live-in carers must earn no more than £44 a week to get a Council Tax reduction.",
+       "page": "Carers and care workers Council Tax exemption | BCP",
+       "url": "https://www.bcpcouncil.gov.uk/council-tax/council-tax-discounts-and-exemptions/carers-and-care-workers-council-tax-exemption",
+       "lang": "English",
+       "q": "Carers and care workers Council Tax exemption\n\nSkip to contents of guide\n\nIf you’re a carer or care worker, you may be eligible for a reduction to your Council Tax.\n\nThere will be no reduction in Council Tax if there are still 2 other adults living at the property who do not qualify for a discount.\n\nCheck if you're eligible\n\nIf care is provided on a voluntary basis\n\nYou must not be a disqualified relative of the person you care for such as a spouse/civil partner (married or unmarried) or the parent of a child under 18 years.\n\nYou must live in the same property and provide care for at least an average of 35 hours a week.\n\nThe person being cared for must be entitled to at least one of the following state benefits:\n\nany rate of Attendance Allowance\n\nthe middle or highest rate care component of a Disability Living Allowance\n\nthe standard or enhanced rate of the daily living component of Personal Independence Payment\n\nthe highest amount of increase in Disablement Pension\n\nan increase in Constant Attendance Allowance\n\nArmed Forces Independence Payment\n\nIf care is provided on a paid basis\n\nIf you are being paid to provide care, you must be:\n\npaid no more than £44 a week\n\nemployed to provide care or support for at least 24 hours a week\n\nemployed by a local authority or charity (or employed directly by the person being cared for if introduced via a local authority or charity)\n\na resident in premises provided by the employer for the purpose of providing the care\n\nHow to apply\n\nTo apply for a reduction, please complete our online form. You’ll need to know your Council Tax account number.\n\nStart now\n\nPlease contact us if you need any help with completing the application form.",
+       "tr": "",
+       "why": "Paid carers can also use the 35-hour care route, which has no £44 pay limit. The person cared for must qualify for a listed benefit. The home, relationship and household conditions still apply.",
+       "prov": "SI 1992/552, reg. 2 and Sch. Part II, paras 3–4",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/552/regulation/2",
+       "date": "2026-11-10",
+       "service": "Council Tax reductions for carers and care workers",
+       "g": "M",
+       "scope": "England. A paid carer lives with the person receiving care and provides at least 35 hours each week on average. That person qualifies for one of the listed care benefits. The carer is neither their spouse or partner, nor a parent caring for their own child under 18. The employment arrangement must be lawful, and the household must meet the discount conditions.",
+       "context": "The separate 24-hour care-worker route keeps its £44 weekly limit and other conditions. This comparison concerns paid carers who instead meet all conditions of the 35-hour route."
+      }
+     ],
      "",
      "England"
     ],
@@ -159616,8 +160209,14 @@
      32,
      "Peterborough",
      190605,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "amb",
+       "https://www.peterborough.gov.uk/births-deaths-and-ceremonies/register-a-birth",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159627,8 +160226,14 @@
      33,
      "Bolton (Bolton)",
      184090,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.bolton.gov.uk/registering-birth-death/register-birth",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159644,6 +160249,11 @@
        "ok",
        "https://www.swindon.gov.uk/info/20051/births/158/register_a_birth",
        "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.swindon.gov.uk/info/20051/births/158/register_a_birth",
+       "2026-11-10"
       ]
      ],
      [],
@@ -159655,8 +160265,19 @@
      35,
      "Southend-on-Sea",
      182305,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.southend.gov.uk/reduce-council-tax-bill/disregards-1/8",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.southend.gov.uk/births-1/register-birth",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159666,9 +160287,77 @@
      36,
      "Warrington",
      174970,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.warrington.gov.uk/students-apprentices-and-youth-trainees",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.warrington.gov.uk/birth",
+       "2026-11-10"
+      ],
+      [
+       "ok",
+       "https://www.warrington.gov.uk/ceremony",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says an apprentice’s pay must be lower than they would receive when qualified.",
+       "page": "Students, Apprentices and Youth Trainees | warrington.gov.uk",
+       "url": "https://www.warrington.gov.uk/students-apprentices-and-youth-trainees",
+       "lang": "English",
+       "q": "Apprentices\n\nIf you’re an apprentice, you may get a discount on your council tax. You must be:\n\nemployed to learn a trade, business, profession, office or employment\n\ntraining to gain a qualification recognised by the National Council for Vocational Qualifications\n\nearning no more than £195 a week, and earning less than you would be if you had already achieved the qualification\n\nYou will need to provide:\n\nYour council tax account number\n\nThe date your apprenticeship began\n\nThe name and address of your employer as we will write to them to confirm the apprenticeship\n\nApply for an Apprentice discount, Student discount or exemption",
+       "tr": "",
+       "why": "The pay limit is £195 a week in total salary and allowances. You do not also have to earn less than you would earn once qualified. The employment and training conditions still apply.",
+       "prov": "Council Tax (Discount Disregards) Order 1992, Sch.1 para 1(1)(c); SI 2006/3396, art.2(2)(a)(ii)",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/548/schedule/1",
+       "date": "2026-11-10",
+       "service": "Council Tax for students and trainees",
+       "g": "M",
+       "scope": "England apprentice disregard in the 2026/27 financial year. Otherwise qualifying employment/training and total salary/allowance no more than £195 weekly. All household and residence requirements remain. Not a claim that every apprentice gets a discount.",
+       "context": "This concerns the listed apprentice eligibility conditions. The household must also meet the Council Tax discount rules."
+      },
+      {
+       "s": "bad",
+       "claim": "Limits use of an expired passport to 18 months after expiry when registering a birth.",
+       "page": "Register a birth | warrington.gov.uk",
+       "url": "https://www.warrington.gov.uk/birth",
+       "lang": "English",
+       "q": "What will I need to bring with me?\n\nYou must provide proof of identification when registering or re-registering a birth.\n\nThis applies to both parents, if the birth is being registered by both parents.\n\nIf you do not bring the required documents, you will not be able to register the birth. You will need to re-arrange your appointment for another date.\n\nYou should bring one of these documents:\n\nPassport (current or expired) - expired passports may be accepted up to 18 months after the date of expiry. Applies to UK and overseas passports",
+       "tr": "",
+       "why": "A passport can prove identity whether it is current or expired. The birth-registration rules set no 18-month limit. Ordinary identity and authenticity checks still apply.",
+       "prov": "SI 2026/1168, regs 2(3)(b) and 4, Sch., para. 1(a); Births and Deaths Registration Act 1953, s. 38B",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2026/1168/made",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Initial birth registration in England after 9 November 2026, using a genuine, otherwise suitable passport expired more than 18 months ago. Ordinary identity and authenticity checks still apply.",
+       "context": "The council offers other primary identity documents and a two-document secondary route. This comparison concerns its passport expiry limit, not a requirement to buy a replacement passport. Ordinary identity and authenticity checks still apply."
+      },
+      {
+       "s": "bad",
+       "claim": "Says a short birth certificate cannot be used to prove identity.",
+       "page": "Register a birth | warrington.gov.uk",
+       "url": "https://www.warrington.gov.uk/birth",
+       "lang": "English",
+       "q": "How do I get a birth certificate?\n\nYou will be able to purchase birth certificates at your appointment\n\nThere are two types of birth certificates:\n\na short one which shows only your baby’s name, gender, date and place of birth\n\nthe short birth certificate is not a legal document and cannot be used for id purposes\n\na longer one which also shows information about you as the parent(s)\n\nIf you choose to buy a birth certificate at your appointment, we are unable to accept cash or cheques. Payment for certificates can be made with credit/debit cards only.\n\nYou will be able to order birth certificates online after your appointment.\n\nFind out about ordering a copy of a birth certificate.",
+       "tr": "",
+       "why": "An official UK short birth certificate can prove identity when registering a birth. It does not need to show the parents’ details. Ordinary identity and authenticity checks still apply.",
+       "prov": "Births and Deaths Registration Act 1953, s. 33; SI 2026/1168, reg. 2(3)(b), Sch., para. 1(g)",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2026/1168/made",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Use of a person’s own genuine UK short live-birth certificate as evidence of identity for an English birth registration after 9 November 2026. Other registration and identity conditions still apply.",
+       "context": "The earlier identity list accepts a UK birth certificate without saying it must be full. Other official applications can require the full certificate. This comparison concerns the birth-registration identity route, not every use of a short certificate."
+      }
+     ],
      "",
      "England"
     ],
@@ -159677,8 +160366,19 @@
      37,
      "Oxford",
      170805,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.oxfordshire.gov.uk/registration-services/acceptable-forms-id-bir",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.oxfordshire.gov.uk/registration-services/register-birth",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159699,8 +160399,19 @@
      39,
      "Sunderland",
      168315,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.sunderland.gov.uk/article/12248/Full-time-students?ccp=true",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.sunderland.gov.uk/article/18338/Registering-a-birth?ccp=true",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159710,8 +160421,14 @@
      40,
      "Slough",
      166855,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.slough.gov.uk/births-deaths-ceremonies/register-birth/2",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159743,9 +160460,33 @@
      43,
      "Cambridge (Cambridge)",
      152740,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.cambridge.gov.uk/discounts-for-apprentices-and-youth-trainees",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says an apprentice’s pay must be lower than they would receive when qualified.",
+       "page": "Discounts for apprentices and youth trainees - Cambridge City Council",
+       "url": "https://www.cambridge.gov.uk/discounts-for-apprentices-and-youth-trainees",
+       "lang": "English",
+       "q": "Discounts for apprentices and youth trainees\n\nYou can get a Council Tax discount if you:\n\nare a paid apprentice earning no more than £195 per week (gross) and less than what you would earn when qualified\n\nare training for an NVQ\n\nare unpaid on a youth training programme , aged under 25 and on a government-recognised youth training programme\n\nWe’ll need proof of your training course such as certification of studies, and proof of income and job status from your employer if you’re an apprentice.\n\nApply to be ‘disregarded’ using our online form",
+       "tr": "",
+       "why": "The pay limit is £195 a week in total salary and allowances. You do not also have to earn less than you would earn once qualified. The employment and training conditions still apply.",
+       "prov": "Council Tax (Discount Disregards) Order 1992, Sch.1 para 1(1)(c); SI 2006/3396, art.2(2)(a)(ii)",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/548/schedule/1",
+       "date": "2026-11-10",
+       "service": "Council Tax for apprentices and trainees",
+       "g": "M",
+       "scope": "England apprentice disregard in the 2026/27 financial year. Otherwise qualifying employment/training and total salary/allowance no more than £195 weekly. All household and residence requirements remain. Not a claim that every apprentice gets a discount.",
+       "context": "This concerns the listed apprentice eligibility conditions. The household must also meet the Council Tax discount rules."
+      }
+     ],
      "",
      "England"
     ],
@@ -159754,9 +160495,38 @@
      44,
      "Ipswich",
      151565,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.ipswich.gov.uk/council-tax/discounts-exemptions-and-empty-properties/resident-discounts",
+       "2026-11-10"
+      ],
+      [
+       "amb",
+       "https://www.ipswich.gov.uk/council-tax/council-tax-information/frequently-asked-questions-about-council-tax",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says an apprentice’s pay must be lower than they would receive when qualified.",
+       "page": "Resident discounts | ipswich.gov.uk",
+       "url": "https://www.ipswich.gov.uk/council-tax/discounts-exemptions-and-empty-properties/resident-discounts",
+       "lang": "English",
+       "q": "Who Counts for Council Tax?\n\nAll adults count towards the Council Tax unless they fall into one of the following categories:\n\n18 or 19 years old and either at school or have just left school;\n\nFull-time students or student nurses;\n\nYouth training trainees under 25 on a government-recognised youth training programme;\n\nApprentices whose training leads to an accredited qualification, with a salary no greater than £195 per week (gross) and less than what they would earn once qualified;\n\nSomeone who is severely mentally impaired;\n\nA patient living permanently in hospital;\n\nSomeone permanently being looked after in a care home;\n\nCare workers working for low pay (usually for a charity);\n\nSomeone caring for a person with a disability who is not their spouse, partner, or a child under 18;\n\nMembers of a visiting force or certain international institutions;\n\nSomeone staying in certain hostels or night shelters;\n\nSomeone in prison, but not those imprisoned for not paying Council Tax or a fine;\n\nMembers of certain religious communities (e.g., monks and nuns);\n\nForeign diplomats.\n\nShould you get a discount?\n\nTo find out, add up all the adults who live in your home, including yourself, then take off those who do not count for the Tax. If this leaves one person who counts for the Tax, you should get a 25% discount. If no-one counts for the Tax, you should get a 50% discount.\n\nApply for Council Tax discount\n\nYou can apply for Council Tax discounts and exemptions online by clicking the button below. Please note that the button opens in a new tab.\n\nFor student and severely mentally impaired discounts / exemptions\n\nTo apply for discounts or exemptions related to student status or severe mental impairment, please click the button below.\n\nApply for student and severe mental impairment discounts\n\nFor care leaver discounts\n\nIf you are a care leaver and wish to apply for a discount, please visit the Care Leaver Discounts page for more information.\n\nFor all other Council Tax discounts\n\nFor all other types of Council Tax discounts, use the button below to access the application form.\n\nApply for Council Tax discounts\n\nRemember, if your circumstances change, you must inform us within 21 days to avoid a fine.",
+       "tr": "",
+       "why": "The pay limit is £195 a week in total salary and allowances. You do not also have to earn less than you would earn once qualified. The employment and training conditions still apply.",
+       "prov": "Council Tax (Discount Disregards) Order 1992, Sch.1 para 1(1)(c); SI 2006/3396, art.2(2)(a)(ii)",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/548/schedule/1",
+       "date": "2026-11-10",
+       "service": "Council Tax discounts for residents",
+       "g": "M",
+       "scope": "England apprentice disregard in the 2026/27 financial year. Otherwise qualifying employment/training and total salary/allowance no more than £195 weekly. All household and residence requirements remain. Not a claim that every apprentice gets a discount.",
+       "context": "This concerns the listed apprentice eligibility conditions. The household must also meet the Council Tax discount rules."
+      }
+     ],
      "",
      "England"
     ],
@@ -159765,9 +160535,43 @@
      45,
      "Blackpool",
      149070,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.blackpool.gov.uk/Residents/Life-events/Register-a-birth/Information-you-need-to-bring-when-registering-a-birth.aspx",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.blackpool.gov.uk/Residents/Council-tax/Discounts-exemptions-and-reductions/Discounts-and-disregards.aspx",
+       "2026-11-10"
+      ],
+      [
+       "ok",
+       "https://www.blackpool.gov.uk/Residents/Council-tax/Discounts-exemptions-and-reductions/Discounts-and-disregards.aspx",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says the 35-hour Council Tax carer route requires care to be unpaid.",
+       "page": "Blackpool Council Tax | Discounts and disregards",
+       "url": "https://www.blackpool.gov.uk/Residents/Council-tax/Discounts-exemptions-and-reductions/Discounts-and-disregards.aspx",
+       "lang": "English",
+       "q": "Money off your council tax if you are providing care for someone\n\nMoney off your bill if you are a professional or paid carer\n\nTo receive a discount you must:\n\nBe providing care or support on behalf of a local authority or charitable body, or employed by the person you care for and introduced to them through a local authority or charity, and\n\nBe employed for at least 24 hours per week, and\n\nEarn less than £44 per week, and\n\nLive in premises provided by your employer to perform your duties. This does not mean you have to live with the person you are caring for\n\nMoney off your bill if you live with someone who you provide care for\n\nTo receive a discount you must:\n\nProvide at least 35 hours of free care a week to somebody in your household who is not your spouse, partner or child under 18, and\n\nThe person being cared for must be receiving one of the following benefits:\n\nAttendance allowance - any rate, or\n\nConstant Attendance Allowance - increased amount, or\n\nDisability Living Allowance - care component (middle or higher rate), or\n\nDisablement Pension - increased rate, or\n\nArmed Forces Independence Payment - any amount, or\n\nPersonal Independence Payment - daily living component, standard or enhanced rate",
+       "tr": "",
+       "why": "Paid carers can also use the 35-hour care route, which has no £44 pay limit. The person cared for must qualify for a listed benefit. The home, relationship and household conditions still apply.",
+       "prov": "SI 1992/552, reg. 2 and Sch. Part II, paras 3–4",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/552/regulation/2",
+       "date": "2026-11-10",
+       "service": "Council Tax discounts and reductions",
+       "g": "M",
+       "scope": "England. A paid carer lives with the person receiving care and provides at least 35 hours each week on average. That person qualifies for one of the listed care benefits. The carer is neither their spouse or partner, nor a parent caring for their own child under 18. The employment arrangement must be lawful, and the household must meet the discount conditions.",
+       "context": "The separate 24-hour care-worker route has a weekly pay limit. This comparison concerns a paid carer who meets every condition of the 35-hour route. The application introduction links back to this guidance for eligibility."
+      }
+     ],
      "",
      "England"
     ],
@@ -159864,9 +160668,33 @@
      54,
      "Exeter",
      126175,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.devon.gov.uk/support-schools-settings/safeguarding/guidance-policy-and-tools-2/safeguarding-one-minute-guides/no-26-forced-marriage/",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Presents parental consent as the condition for 16- and 17-year-olds to marry in England and Wales.",
+       "page": "No. 26 Forced marriage - Support for schools and settings",
+       "url": "https://www.devon.gov.uk/support-schools-settings/safeguarding/guidance-policy-and-tools-2/safeguarding-one-minute-guides/no-26-forced-marriage/",
+       "lang": "English",
+       "q": "Arranged, forced or grey?\n\nArranged marriage\n\nA marriage in which families take a leading role, but the parties have the free will and choice to accept or decline the arrangement. Individuals aged 16 or 17 in England, Wales and Northern Ireland, can only marry if they obtain their parent’s consent.\n\nForced marriage\n\nA marriage in which one or both spouses do not (or, in the case of some adults with learning disabilities, cannot) consent to the marriage and duress is involved. Duress can include physical, psychological, financial, sexual and emotional pressure.\n\ne.g. “My mum says she’ll kill herself if I don’t get married”.\n\nGrey area\n\nA marriage may begin as arranged but end up forced.",
+       "tr": "",
+       "why": "People must be at least 18 to marry in England and Wales. Parental consent does not allow a 16- or 17-year-old to marry there.",
+       "prov": "Marriage Act 1949, s. 2; Marriage and Civil Partnership (Minimum Age) Act 2022, ss. 1, 6 and 8; SI 2023/88, reg. 2",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/Geo6/12-13-14/76/section/2",
+       "date": "2026-11-10",
+       "service": "Forced marriage guidance for schools",
+       "g": "m",
+       "scope": "Marriages to take place in England or Wales after 27 February 2023. This is Devon County Council guidance for schools and settings, including Exeter, rather than an Exeter City Council publication.",
+       "context": "The page links to current national forced-marriage guidance, which correctly explains the protection of people under 18. Its own arranged-marriage paragraph still gives the older consent rule. The comparison concerns England and Wales; it does not challenge the same sentence about Northern Ireland."
+      }
+     ],
      "",
      "England"
     ],
@@ -159886,9 +160714,38 @@
      56,
      "Crawley (Crawley)",
      120550,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.westsussex.gov.uk/births-ceremonies-and-deaths/deaths/registering-a-death/",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.westsussex.gov.uk/births-ceremonies-and-deaths/births/register-a-birth/",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says both unmarried parents must attend to include the father’s details in the birth register.",
+       "page": "Register a birth - West Sussex County Council",
+       "url": "https://www.westsussex.gov.uk/births-ceremonies-and-deaths/births/register-a-birth/",
+       "lang": "English",
+       "q": "1 Who can register a birth\n\nOpposite sex couples\n\nIf you are:\n\nmarried to each other when the baby is born, either parent can register the birth\n\nnot married to each other when the baby is born, the mother can register the birth alone\n\nnot married to each other and want the father's details included on the birth certificate, both parents must attend the appointment",
+       "tr": "",
+       "why": "An unmarried mother can register the father’s details without him attending, using the required declarations. Other routes use specified parental-responsibility documents. Identity checks still apply.",
+       "prov": "Births and Deaths Registration Act 1953, s. 10(1)(b)–(g)",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/Eliz2/1-2/20/section/10",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Ordinary initial registration in England to opposite-sex parents neither married nor civil partners at birth or conception. The father is living, the required declarations are properly completed, and identity checks are met.",
+       "context": "The linked national guide explains that a parent attending alone may need proof of paternity. Its next page gives declaration and court-document alternatives. The council’s own attendance list does not mention those routes. This comparison concerns initial registration, not adding a parent later."
+      }
+     ],
      "",
      "England"
     ],
@@ -159897,9 +160754,33 @@
      57,
      "Gloucester",
      118555,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.gloucester.gov.uk/council-tax/discounts/apprentices-and-youth-trainees/",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says apprentices qualify for a Council Tax discount only if their pay is substantially below what they would earn once qualified.",
+       "page": "Apprentices and Youth Trainees | Gloucester City Council",
+       "url": "https://www.gloucester.gov.uk/council-tax/discounts/apprentices-and-youth-trainees/",
+       "lang": "English",
+       "q": "Do I qualify?\nApprentice\nIf you’re an apprentice you:\nmust be employed for the purpose of learning a trade or profession\nare undertaking a training programme leading to a qualification\nreceive no more than £195 per week\nreceive a salary substantially less than is likely once you achieve the qualification",
+       "tr": "",
+       "why": "Qualifying apprentices can receive up to £195 a week in salary and allowances. Their pay need not be substantially below what they would earn after qualifying. The other training and household conditions still apply.",
+       "prov": "SI 1992/548, Sch. 1, Part I, para. 1; SI 2006/3396, arts 1 and 2(2)(a)(ii)",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/548/schedule/1",
+       "date": "2026-11-10",
+       "service": "Council Tax discounts for apprentices and trainees",
+       "g": "M",
+       "scope": "England, current Council Tax year; an otherwise qualifying adult apprentice with total salary and allowances no more than £195 weekly but no substantial pay difference after qualifying. All remaining training, employment and household conditions must be met.",
+       "context": "The £195 weekly limit still applies. This comparison concerns the separate condition comparing current pay with pay after qualification. The actual linked application repeats the pay-comparison condition in its qualifying conditions."
+      }
+     ],
      "",
      "England"
     ],
@@ -159908,9 +160789,55 @@
      58,
      "Stockport",
      117935,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.stockport.gov.uk/deaths",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.stockport.gov.uk/accepted-documents-for-registering-a-birth",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Sets a 14-day deadline after the outcome of a coroner’s investigation.",
+       "page": "Registration of deaths - Stockport Council",
+       "url": "https://www.stockport.gov.uk/deaths",
+       "lang": "English",
+       "q": "You must register a death within 5 days of the date the registrars receive the paperwork, in the district where they died. If the death has been referred to a coroner, it must be registered within 14 days of the outcome of the coroner's investigation.\n\nIn most cases a relative must register the death, but it can be done by someone else in certain circumstances.\n\nPaperwork for registering a death\n\nWe cannot register a death until we've been sent a medical certificate for cause of death (MCCD) by the medical examiner or the relevant coroner's documents.\n\nIf you're not sure whether this has been sent to us, you should contact the medical examiners office or the coroner's office.",
+       "tr": "",
+       "why": "If a coroner formally ends an investigation before holding an inquest, the usual deadline is five days from that decision. Fourteen days applies when a valid preliminary written notice is given; it is not the general period for coroner referrals.",
+       "prov": "Births and Deaths Registration Act 1953, ss. 16(3)–(4) and 18; Coroners and Justice Act 2009, s. 4; SI 2024/516, art. 3(a), (c)",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/Eliz2/1-2/20/section/16",
+       "date": "2026-11-10",
+       "service": "Register a death",
+       "g": "M",
+       "scope": "A death in a house or hospital in Stockport in England in 2026, where a coroner formally discontinues an investigation before holding an inquest because the cause is clear and further investigation is unnecessary. The appropriate paperwork and a relative entitled to register are ready that day. No valid preliminary written notice extending the period is given.",
+       "context": "The page correctly gives five days from receipt of medical paperwork for ordinary registrations and says the office needs the relevant documents before registration. This comparison concerns a formally ended investigation before an inquest, rather than every coroner referral or a death already dealt with at an inquest."
+      },
+      {
+       "s": "bad",
+       "claim": "Limits use of an expired passport to 18 months after expiry when registering a birth.",
+       "page": "Accepted documents for registering a birth - Stockport Council",
+       "url": "https://www.stockport.gov.uk/accepted-documents-for-registering-a-birth",
+       "lang": "English",
+       "q": "Accepted documents for registering a birth\n\nTo register a birth, you must provide either one document from the primary list (such as passport, UK birth certificate or driving licence) or 2 documents from the secondary list (such as utility bill, council tax statement or bank statement).\n\nPrimary list\n\nDocument type | Format | Description\n\nPassport (current or expired). We can accept passports up to 18 months after the date of expiry. Applies to UK and overseas passports. | Physical document / booklet | Booklet-style identity and travel document. Cover colours and internal layouts vary by country and issuing authority.",
+       "tr": "",
+       "why": "A passport can prove identity whether it is current or expired. The birth-registration rules set no 18-month limit. Ordinary identity and authenticity checks still apply.",
+       "prov": "SI 2026/1168, regs 2(3)(b) and 4, Sch., para. 1(a); Births and Deaths Registration Act 1953, s. 38B",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2026/1168/made",
+       "date": "2026-11-10",
+       "service": "Prove your identity when registering a birth",
+       "g": "m",
+       "scope": "Initial birth registration with Stockport Metropolitan Borough Council in England after 9 November 2026, using a genuine, otherwise suitable passport expired more than 18 months ago. Ordinary identity and authenticity checks still apply.",
+       "context": "The council offers other primary identity documents and a two-document secondary route. This comparison concerns its passport expiry limit, not a requirement to buy a replacement passport. Ordinary identity and authenticity checks still apply."
+      }
+     ],
      "",
      "England"
     ],
@@ -159930,9 +160857,38 @@
      60,
      "Basildon",
      115955,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.essex.gov.uk/births-ceremonies-and-deaths/register-birth/what-you-should-bring-register-birth",
+       "2026-11-10"
+      ],
+      [
+       "ok",
+       "https://www.essex.gov.uk/births-ceremonies-and-deaths/register-birth/who-can-register-birth",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Limits use of an expired passport to 18 months after expiry when registering a birth.",
+       "page": "Register a birth: What you should bring to register a birth | Essex County Council",
+       "url": "https://www.essex.gov.uk/births-ceremonies-and-deaths/register-birth/what-you-should-bring-register-birth",
+       "lang": "English",
+       "q": "Important changes to birth registration identification requirements\nFrom 9 November 2026, changes to legislation mean that identification documents must be provided when registering or re-registering a birth. If the required identification is not provided at your appointment, we will be unable to proceed with the registration and a new appointment will need to be arranged.\nTo meet the identification requirements, you must provide either:\none document from the primary identification list,\nor\ntwo documents from the secondary identification list\nYou do not need to bring documents from both the primary and secondary lists. We cannot accept digital versions of some documentation. You will need to bring physical copies with you.\nPrimary identification list\nYou must bring one document from this list in appropriate format to meet the identification requirements.\nDocument\nFormat\nPassport (current or expired with 18 months)\nPhysical document",
+       "tr": "",
+       "why": "A passport can prove identity whether it is current or expired. The birth-registration rules set no 18-month limit. Ordinary identity and authenticity checks still apply.",
+       "prov": "SI 2026/1168, regs 2(3)(b) and 4, Sch., para. 1(a); Births and Deaths Registration Act 1953, s. 38B",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2026/1168/made",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Initial birth registration in England after 9 November 2026, using a genuine, otherwise suitable passport expired more than 18 months ago. Ordinary identity and authenticity checks still apply.",
+       "context": "Other primary documents and a two-document secondary route remain available. The comparison concerns the stated passport expiry limit, not a requirement to buy a replacement passport. Digital identity verification is also available under the law."
+      }
+     ],
      "",
      "England"
     ],
@@ -159974,8 +160930,19 @@
      64,
      "Rochdale",
      111255,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.rochdale.gov.uk/reduce-council-tax/apprentices",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.rochdale.gov.uk/marriages-civil-partnerships/married-civil-partnership",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -159985,8 +160952,14 @@
      65,
      "Oldham",
      110720,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.oldham.gov.uk/info/200127/births_marriages_and_deaths/3401/acceptable_documents_for_a_birth_registration",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -160046,9 +161019,32 @@
        "ok",
        "https://www.salford.gov.uk/births-marriages-and-deaths/register-a-birth/",
        "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.salford.gov.uk/births-marriages-and-deaths/register-a-birth/",
+       "2026-11-10"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Limits use of an expired passport to 18 months after expiry when registering a birth.",
+       "page": "Register and re-register a birth•Salford City Council",
+       "url": "https://www.salford.gov.uk/births-marriages-and-deaths/register-a-birth/",
+       "lang": "English",
+       "q": "If you are making an appointment to register a birth, or complete a re-registration that will take place from 9 November 2026, the law is changing regarding providing proof of identify.\n\nThe requirement to provide evidence of identity when registering or re-registering a birth applies to all informants. Where the birth is registered jointly, both parents must provide evidence of their identity. The requirement also applies to informants who qualify as being present at the birth, in charge of the child or occupier.\n\nAll informants will have to provide one document from List 1 or two documents from list 2. This is a legal requirement and we cannot register without the correct identity documentation and we cannot register without it.\n\nPrimary list (one document from this list)\n\nDocument type | Format | Description (*examples include but are not limited to)\n\nPassport (current or expired) Expired passports may be accepted up to 18 months after the date of expiry. Applies to UK and overseas | Physical document or booklet | Booklet-style identity and travel document. Cover colours and internal layouts vary by country and issuing authority.",
+       "tr": "",
+       "why": "A passport can prove identity whether it is current or expired. The birth-registration rules set no 18-month limit. Ordinary identity and authenticity checks still apply.",
+       "prov": "SI 2026/1168, regs 2(3)(b) and 4, Sch., para. 1(a); Births and Deaths Registration Act 1953, s. 38B",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2026/1168/made",
+       "date": "2026-11-10",
+       "service": "Register or re-register a birth",
+       "g": "m",
+       "scope": "Initial birth registration with Salford City Council in England after 9 November 2026, using a genuine, otherwise suitable passport expired more than 18 months ago. Ordinary identity and authenticity checks still apply.",
+       "context": "The council offers other primary documents and two secondary documents. This comparison concerns the passport expiry limit, not a requirement to buy a replacement passport. Ordinary identity and authenticity checks still apply."
+      }
+     ],
      "",
      "England"
     ],
@@ -160112,8 +161108,19 @@
      76,
      "Eastbourne",
      99180,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "amb",
+       "https://www.eastsussex.gov.uk/registration/register-a-birth/what-evidence-do-i-need-to-register-or-re-register-a-birth",
+       "2026-11-10"
+      ],
+      [
+       "x",
+       "https://www.eastsussex.gov.uk/registration/register-a-birth",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -160191,8 +161198,14 @@
      79,
      "Bedford",
      97235,
-     "n",
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.bedford.gov.uk/births-deaths-marriages-and-civil-partnerships/births/register-birth",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -160213,8 +161226,14 @@
      81,
      "Preston (Preston)",
      94490,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.preston.gov.uk/article/1112/Apprentices-Council-Tax-discount",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -160224,8 +161243,14 @@
      82,
      "Stevenage",
      94470,
-     "n",
-     [],
+     "s",
+     [
+      [
+       "ok",
+       "https://www.hertfordshire.gov.uk/services/births-deaths-marriages-and-citizenship/births/register-a-birth.aspx",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -160246,9 +161271,70 @@
      84,
      "Bath",
      94080,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.bathnes.gov.uk/apply-council-tax-apprentice-or-trainee-discount",
+       "2026-11-10"
+      ],
+      [
+       "amb",
+       "https://www.bathnes.gov.uk/public-health-funerals",
+       "2026-11-10"
+      ],
+      [
+       "ok",
+       "https://www.bathnes.gov.uk/register-death",
+       "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.bathnes.gov.uk/get-married-or-form-civil-partnership",
+       "2026-11-10"
+      ],
+      [
+       "ok",
+       "https://www.bathnes.gov.uk/get-married-or-form-civil-partnership",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Says an apprentice’s pay must be lower than they would receive when qualified.",
+       "page": "Apply for Council Tax: apprentice or trainee discount | Bath and North East Somerset Council",
+       "url": "https://www.bathnes.gov.uk/apply-council-tax-apprentice-or-trainee-discount",
+       "lang": "English",
+       "q": "Eligibility\n\nTo get an apprenticeship or trainee discount, you need to prove you are one of the following:\n\nAn apprentice\n\nYou must be learning a trade, vocation or profession by undertaking a training programme that is Government accredited. You should be receiving an allowance or a salary that is less than you would be paid if qualified. This can be no more than £195 per week (before deductions). To apply for an exemption, you will need to supply a letter from your employer confirming your status, and a wage slip confirming your salary.",
+       "tr": "",
+       "why": "The pay limit is £195 a week in total salary and allowances. You do not also have to earn less than you would earn once qualified. The employment and training conditions still apply.",
+       "prov": "Council Tax (Discount Disregards) Order 1992, Sch.1 para 1(1)(c); SI 2006/3396, art.2(2)(a)(ii)",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1992/548/schedule/1",
+       "date": "2026-11-10",
+       "service": "Council Tax for apprentices and trainees",
+       "g": "M",
+       "scope": "England apprentice disregard in the 2026/27 financial year. Otherwise qualifying employment/training and total salary/allowance no more than £195 weekly. All household and residence requirements remain. Not a claim that every apprentice gets a discount.",
+       "context": "This concerns the listed apprentice eligibility conditions. The household must also meet the Council Tax discount rules."
+      },
+      {
+       "s": "bad",
+       "claim": "Requires a parental consent form when someone under 18 gives notice of marriage.",
+       "page": "Get married or form a civil partnership | Bath and North East Somerset Council",
+       "url": "https://www.bathnes.gov.uk/get-married-or-form-civil-partnership",
+       "lang": "English",
+       "q": "If you or your partner are under 18\n\nYou must bring the completed parental consent form. You can collect one from us before your notice appointment.",
+       "tr": "",
+       "why": "Parental consent is no longer required when giving notice of marriage. A 17-year-old may give notice if they will be 18 by the end of the 28-day waiting period. Both people must be at least 18 when they marry.",
+       "prov": "Marriage and Civil Partnership (Minimum Age) Act 2022, s. 1(3) and Sch., para. 1(4); SI 2023/88, reg. 2",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/2022/28",
+       "date": "2026-11-10",
+       "service": "Marriage and civil partnership",
+       "g": "m",
+       "scope": "An otherwise eligible 17-year-old giving notice of a civil marriage in England after 27 February 2023, who will be 18 by the end of the 28-day waiting period and will marry only at 18 or older.",
+       "context": "The same page correctly says people must be 18 to marry from 27 February 2023 and links GOV.UK eligibility information. This comparison concerns the separate parental consent form instruction at the notice appointment, before an otherwise lawful adult marriage."
+      }
+     ],
      "",
      "England"
     ],
@@ -160312,8 +161398,14 @@
      90,
      "Halifax",
      88115,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://new.calderdale.gov.uk/births-marriages-and-deaths/register-birth",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -160323,8 +161415,14 @@
      91,
      "Hartlepool",
      87995,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "amb",
+       "https://www.hartlepool.gov.uk/council-tax/student-council-tax-discounts-exemptions",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -160345,8 +161443,14 @@
      93,
      "Doncaster",
      87455,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.doncaster.gov.uk/services/council-tax-benefits/council-tax-discounts-for-students-and-people-in-education",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
@@ -160356,9 +161460,33 @@
      94,
      "Grimsby",
      85925,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.nelincs.gov.uk/births-marriages-and-deaths/register-a-birth/",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Limits use of an expired passport to 18 months after expiry when registering a birth.",
+       "page": "Register a birth | NELC",
+       "url": "https://www.nelincs.gov.uk/births-marriages-and-deaths/register-a-birth/",
+       "lang": "English",
+       "q": "At your appointment\n\nBring proof of identity – everyone registering or re-registering a birth must bring proof of identify to their appointment. If you do not bring the required ID, we will not be able to complete the appointment.\n\nYou will need to bring either:\n\n1 document from the primary list, or\n\n2 documents from the secondary list\n\nPrimary list\n\nYou only need 1 document from this list:\n\npassport (current or expired within the last 18 months",
+       "tr": "",
+       "why": "A passport can prove identity whether it is current or expired. The birth-registration rules set no 18-month limit. Ordinary identity and authenticity checks still apply.",
+       "prov": "SI 2026/1168, regs 2(3)(b) and 4, Sch., para. 1(a); Births and Deaths Registration Act 1953, s. 38B",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2026/1168/made",
+       "date": "2026-11-10",
+       "service": "Register a birth",
+       "g": "m",
+       "scope": "Initial birth registration with North East Lincolnshire Council in England after 9 November 2026, using a genuine, otherwise suitable passport expired more than 18 months ago. Ordinary identity and authenticity checks still apply.",
+       "context": "The council offers other primary documents and two secondary documents. This comparison concerns the passport expiry limit, not a requirement to buy a replacement passport. Ordinary identity and authenticity checks still apply. The source’s passport item ends without a closing parenthesis."
+      }
+     ],
      "",
      "England"
     ],
@@ -160411,9 +161539,33 @@
      99,
      "High Wycombe",
      83535,
-     "n",
-     [],
-     [],
+     "s",
+     [
+      [
+       "bad",
+       "https://www.buckinghamshire.gov.uk/births-deaths-marriages-and-civil-partnerships/register-a-birth/book-an-appointment/births-acceptable-id-list/",
+       "2026-11-10"
+      ]
+     ],
+     [
+      {
+       "s": "bad",
+       "claim": "Limits use of an expired passport to 18 months after expiry when registering a birth.",
+       "page": "Births acceptable ID list | Buckinghamshire Council",
+       "url": "https://www.buckinghamshire.gov.uk/births-deaths-marriages-and-civil-partnerships/register-a-birth/book-an-appointment/births-acceptable-id-list/",
+       "lang": "English",
+       "q": "Births acceptable ID list\n\nYou must provide either one document from the primary list or two documents from the secondary list below.\n\nPrimary List (choose 1 document from this list)\n\nDocument type | Format | Description (*examples include but are not limited to)\n\nPassport (current or expired) Expired passports may be accepted up to 18 months after the date of expiry. Applies to UK and overseas passports. | Physical document Booklet | Booklet-style identity and travel document. Cover colours and internal layouts vary by country and issuing authority.",
+       "tr": "",
+       "why": "A passport can prove identity whether it is current or expired. The birth-registration rules set no 18-month limit. Ordinary identity and authenticity checks still apply.",
+       "prov": "SI 2026/1168, regs 2(3)(b) and 4, Sch., para. 1(a); Births and Deaths Registration Act 1953, s. 38B",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/2026/1168/made",
+       "date": "2026-11-10",
+       "service": "Prove your identity when registering a birth",
+       "g": "m",
+       "scope": "Initial birth registration handled by Buckinghamshire Council at High Wycombe after 9 November 2026. The passport is genuine, undamaged and identifies the person, but expired more than 18 months ago.",
+       "context": "The booking page retains older optional-document wording, then expressly requires the listed identity documents from 9 November. Other primary documents and two secondary documents are available. This comparison concerns the passport expiry limit, not a requirement to buy a new passport."
+      }
+     ],
      "",
      "England"
     ],
@@ -160422,15 +161574,21 @@
      100,
      "Ashford (Ashford)",
      82140,
-     "n",
-     [],
+     "l",
+     [
+      [
+       "x",
+       "https://www.kent.gov.uk/births-ceremonies-and-deaths/births/birth-certificates",
+       "2026-11-10"
+      ]
+     ],
      [],
      "",
      "England"
     ]
    ],
    "scope": "Websites of the 100 largest UK towns and cities, checked against UK national law.",
-   "note": "Each nation’s own rules are used where they differ. Figures are not added to Germany’s.",
+   "note": "Each nation’s own rules are used where they differ. Figures are not added to Germany’s. Unresolved or access-limited checks do not count as clearance. Pages checked may still be listed when no finding is published.",
    "tab": "United Kingdom"
   },
   {
