@@ -566,6 +566,7 @@ table.tbl { width: 100%; border-collapse: collapse; font-size: var(--s-sm); }
 .sy-keys i.na { box-shadow: inset 0 0 0 1.5px var(--ink-3); }
 .sy-bands { padding-top: 6px; }
 .sy-cols { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 16px; align-items: start; padding-top: 8px; }
+.sy-combined .sy-cols { grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); }
 .sy-state { min-width: 0; display: block; break-inside: avoid; margin: 0 0 16px; padding: 14px 16px 16px; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); }
 .sy-state h3 { font-size: var(--s-md); font-weight: 600; line-height: 1.25; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
 .sy-sq { display: flex; flex-wrap: wrap; gap: 2px; padding-top: 8px; }
@@ -713,7 +714,7 @@ const QUOTES = { English: ["“", "”"], German: ["„", "“"], French: ["«\u
   Portuguese: ["“", "”"], Dutch: ["“", "”"], Czech: ["„", "“"], Slovak: ["„", "“"], Polish: ["„", "”"], Swedish: ["”", "”"],
   Finnish: ["”", "”"], Greek: ["«", "»"], Turkish: ["“", "”"], Japanese: ["「", "」"], Bulgarian: ["„", "“"], Slovenian: ["„", "“"], Albanian: ["„", "“"], Russian: ["«", "»"] };
 const quoted = (text, lang) => { const [open, close] = QUOTES[lang] || QUOTES.English; return open + text + close; };
-const LANG = { German: "de", English: "en", French: "fr", Spanish: "es", Italian: "it", Dutch: "nl", Czech: "cs",
+const LANG = { Irish: "ga", Welsh: "cy", German: "de", English: "en", French: "fr", Spanish: "es", Italian: "it", Dutch: "nl", Czech: "cs",
   Finnish: "fi", Swedish: "sv", Polish: "pl", Portuguese: "pt", Greek: "el", Slovak: "sk", Japanese: "ja", Turkish: "tr", Bulgarian: "bg", Slovenian: "sl", Albanian: "sq", Russian: "ru" };
 
 // Citations join provisions with " · "; keep the dot on the line of the provision before it.
@@ -1540,14 +1541,19 @@ if (SYS) {
   SYS.gMajor = SYS.list.concat(SYS.dlist).reduce((n, c) => n + c.F.filter(f => f.g === "M").length, 0);
   SYS.gMinor = SYS.list.concat(SYS.dlist).reduce((n, c) => n + c.F.filter(f => f.g === "m").length, 0);
 }
-// Smaller sweeps of other countries: each has its own tab and page. Their places share the city pages; ids never collide with German AGS codes.
+// Smaller sweeps of other countries have overview pages. Their places share the city pages; ids never collide with German AGS codes.
 const SWEEP = {};
 const SYSX = (DATA.systemic || []).slice(1);
 SYSX.forEach(sw => {
-  sw.list = sw.cities.map(([id, rank, name, pop, cov, pages, F, web, group]) => {
-    const c = { id, rank, name, pop, cov, pages, F, web, group, sw, bad: F.filter(f => f.s === "bad").length, amb: F.filter(f => f.s === "amb").length };
+  sw.list = sw.cities.map(([id, rank, name, pop, cov, pages, F, web, group, assessment]) => {
+    const c = { id, rank, name, pop, cov, pages, F, web, group, sw, assessment: sw.assessmentViewVersion === 1 ? assessment : null, bad: F.filter(f => f.s === "bad").length, amb: F.filter(f => f.s === "amb").length };
     c.k = c.bad ? "bad" : c.amb ? "amb" : cov === "s" || cov === "d" ? "ok" : "na";
     c.read = pages.filter(p => p[0] === "bad" || p[0] === "amb" || p[0] === "ok").length;
+    if (c.assessment) {
+      c.unresolved = c.assessment.summary.unresolved_count;
+      c.read = c.assessment.summary.read_pages;
+      c.k = c.bad ? "bad" : c.amb || c.unresolved ? "amb" : c.read ? "ok" : "na";
+    }
     SYSCITY[id] = c;
     return c;
   });
@@ -1559,12 +1565,36 @@ SYSX.forEach(sw => {
   sw.groups = [...new Set(sw.list.map(c => c.group))];
   SWEEP[sw.id] = sw;
 });
+// Australia and New Zealand share an overview while retaining separate legal scopes and place ids.
+const PACIFIC_MEMBERS = [SWEEP["australia"], SWEEP["new-zealand"]].filter(Boolean);
+const PACIFIC = PACIFIC_MEMBERS.length === 2 ? {
+  id: "australia-new-zealand", tab: "Australia & New Zealand", members: PACIFIC_MEMBERS,
+  list: PACIFIC_MEMBERS.flatMap(sw => sw.list), dlist: [],
+  cnt: Object.fromEntries(SYS_KEYS.map(k => [k, PACIFIC_MEMBERS.reduce((n, sw) => n + sw.cnt[k], 0)])),
+  scope: "Official guidance for the 10 largest urban areas in Australia and the 10 largest in New Zealand, checked against the law that applies in each country.",
+  note: "Urban areas are not council boundaries. Some cross council or state borders. The results describe only the pages read; they are not national error rates. Population rankings are dated 30 June 2025."
+} : null;
+if (PACIFIC) SWEEP[PACIFIC.id] = PACIFIC;
+// The Republic of Ireland shares the UK overview, with its own law, cohort and identities.
+const UK_IRELAND_MEMBERS = [SWEEP["united-kingdom"], SWEEP["ireland"]].filter(Boolean);
+const UK_IRELAND = UK_IRELAND_MEMBERS.length === 2 ? {
+  id: "uk-ireland", tab: "UK & Ireland", members: UK_IRELAND_MEMBERS, preserveGroups: true,
+  list: UK_IRELAND_MEMBERS.flatMap(sw => sw.list), dlist: [],
+  groups: [...new Set(UK_IRELAND_MEMBERS.flatMap(sw => sw.list.map(c => c.group)))],
+  cnt: Object.fromEntries(SYS_KEYS.map(k => [k, UK_IRELAND_MEMBERS.reduce((n, sw) => n + sw.cnt[k], 0)])),
+  scope: "Official guidance for the 100 largest UK towns and cities and the 10 largest cities and towns in the Republic of Ireland, checked against the law that applies in each jurisdiction.",
+  note: "Northern Ireland remains in the UK cohort. The Republic of Ireland uses Irish and applicable EU law. Population rankings use each country's dated census geography. The Irish ranking uses Census 2022 built-up areas. Results describe only the pages read, not national error rates. Republic of Ireland checks cover selected council services; other services and councils remain unchecked."
+} : null;
+if (UK_IRELAND) SWEEP[UK_IRELAND.id] = UK_IRELAND;
+const COMBINED_SWEEPS = [PACIFIC, UK_IRELAND].filter(Boolean);
+const sysOverview = sw => COMBINED_SWEEPS.find(combined => combined.members.includes(sw)) || sw;
+const SYS_PAGES = SYSX.flatMap(sw => { const combined = sysOverview(sw); return combined === sw ? [sw] : sw === combined.members[0] ? [combined] : []; });
 const SYS_GRADE_NOTE = "A major misrepresentation could, if a resident believed the page, stop them claiming something the law gives them or cost them money, a start date or a deadline. A minor one is an extra step, a false expectation or a small detail. AI readers graded each one against a written rubric, and a person has not checked every grade. A grade describes what could happen if someone relied on the page, not what did happen. The percentage beside each major count is a share of the places inspected, not a rate.";
 const SYS_ROW_NOTE = "A major misrepresentation could, if a resident believed the page, stop them claiming something the law gives them or cost them money, a start date or a deadline. It carries a “Major” label. The others are minor: an extra step, a false expectation or a small detail. AI readers graded each one against a written rubric, and a person has not checked every grade. A grade describes what could happen if someone relied on the page, not what did happen.";
 const sysNoun = n => n === 1 ? "misrepresentation" : "misrepresentations";
 const sysSearchKey = t => t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const SYS_HINT = SYS && SYS.dlist.length ? "Hover or tap a dot or square to see the city or district." : "Hover or tap a square to see the city.";
-const sysArea = c => c.sw ? c.group : SYS_STATES[c.st];
+const sysArea = c => c.sw ? (c.group || c.sw.tab || c.sw.title) : SYS_STATES[c.st];
 const sysKind = c => c.dist ? "district" : "city";
 const sysReadLine = (c, open) => `<b>${esc(c.name)}</b> · ${esc(sysArea(c))} · ${c.dist ? "district" : `${fmtN(c.pop)} inhabitants`} · ${c.bad ? `<span class="red">${c.bad} ${sysNoun(c.bad)}</span>` : SYS_LABEL[c.k].toLowerCase()}${open ? ` · <a href="${href("A1", sysKind(c), c.id)}">Open page →</a>` : ""}`;
 const sysSquare = c => `<a class="${c.k}${c.F.some(f => f.g === "M") ? " maj" : ""}${c.dist ? " d" : ""}" href="${href("A1", sysKind(c), c.id)}" data-id="${c.id}" tabindex="-1" aria-label="${esc(c.name)}: ${esc(SYS_LABEL[c.k].toLowerCase())}"></a>`;
@@ -1573,18 +1603,22 @@ const sysSquare = c => `<a class="${c.k}${c.F.some(f => f.g === "M") ? " maj" : 
 const sysSumLine = (shape, inspected, [one, many], bad, major) => `<p class="sy-sum-line"><i class="sy-g ${shape}"></i><span><b>${fmtN(inspected)}</b> ${inspected === 1 ? one : many} inspected · <b>${fmtN(bad)}</b>${inspected ? ` (${Math.round(100 * bad / inspected)}%)` : ""} with a misrepresentation${SYS.gMajor ? ` · <b>${fmtN(major)}</b>${inspected ? ` (${Math.round(100 * major / inspected)}%)` : ""} with a major one` : ""}</span></p>`;
 
 // With more than one sweep, a second row of tabs under the title: one page per sweep. Without other sweeps nothing is added.
-const sysTabs = (L, current) => SYSX.length ? `<nav class="sy-tabs" aria-label="Sweeps">${[SYS].concat(SYSX).map(sw => `<a href="${href(L, "sys", sw === SYS ? "" : sw.id)}"${sw === current ? ' aria-current="page"' : ""}>${esc(sw === SYS ? "Germany" : sw.tab || sw.title)}</a>`).join("")}</nav>` : "";
+const sysTabs = (L, current) => SYSX.length ? `<nav class="sy-tabs" aria-label="Sweeps">${[SYS].concat(SYS_PAGES).map(sw => `<a href="${href(L, "sys", sw === SYS ? "" : sw.id)}"${sw === current ? ' aria-current="page"' : ""}>${esc(sw === SYS ? "Germany" : sw.tab || sw.title)}</a>`).join("")}</nav>` : "";
 function sysCountryHome(L, sw) {
+  sw = sysOverview(sw);
   // One card per group, the largest first, laid out like the German states.
   const group = g => { const l = sw.list.filter(c => c.group === g); return `<section class="sy-state"><h3>${esc(g)}</h3><div class="sy-grp"><p class="sy-sub">${plural(l.length, "place", "places")}</p><div class="sy-sq">${l.map(sysSquare).join("")}</div></div></section>`; };
-  const groups = sw.groups.slice().sort((x, y) => sw.list.filter(c => c.group === y).length - sw.list.filter(c => c.group === x).length);
+  const groups = (sw.groups || []).slice();
+  if (!sw.preserveGroups) groups.sort((x, y) => sw.list.filter(c => c.group === y).length - sw.list.filter(c => c.group === x).length);
+  const summary = sw.members ? sw.members.map(member => `<p class="sy-sum-line"><i class="sy-g ci"></i><span><b>${esc(member.tab)}</b> · ${fmtN(member.inspected)} places inspected · ${fmtN(member.cnt.bad)} with a misrepresentation</span></p>`).join("") : `<p class="sy-sum-line"><i class="sy-g ci"></i><span><b>${fmtN(sw.inspected)}</b> ${sw.inspected === 1 ? "place" : "places"} inspected · <b>${fmtN(sw.cnt.bad)}</b> with a misrepresentation</span></p>`;
+  const cards = sw.members && !sw.preserveGroups ? sw.members.map(member => `<section class="sy-state"><h3>${esc(member.tab)}</h3><div class="sy-grp"><p class="sy-sub">${plural(member.list.length, "urban area", "urban areas")}</p><div class="sy-sq">${member.list.map(sysSquare).join("")}</div><p class="sy-sub">${esc(member.scope)}</p></div></section>`).join("") : groups.map(group).join("");
   return `<section class="hero"><h1>What you’re told vs. what the law says</h1>${sysTabs(L, sw)}<p class="lede">${esc(widow(sw.scope || ""))}</p>
-    <div class="sy-sum"><p class="sy-sum-line"><i class="sy-g ci"></i><span><b>${fmtN(sw.inspected)}</b> ${sw.inspected === 1 ? "place" : "places"} inspected · <b>${fmtN(sw.cnt.bad)}</b> with a misrepresentation</span></p>${sw.note ? `<p class="sy-sum-note">${esc(sw.note)}</p>` : ""}</div></section>
+    <div class="sy-sum">${summary}${sw.note ? `<p class="sy-sum-note">${esc(sw.note)}</p>` : ""}</div></section>
     ${lensRow(L, "sys")}
     <div class="sy-ctl sy-one"><p class="sy-read" id="sy-read">Hover or tap a dot to see the place.</p></div>
     <div class="sy-keys" role="group" aria-label="Show only">${SYS_KEYS.map(k => `<button type="button" data-k="${k}" aria-pressed="false"><i class="${k}"></i>${SYS_LABEL[k]} · ${fmtN(sw.cnt[k])}</button>`).join("")}</div>
-    <div class="sy-bands mixed" id="sy-bands"><div class="sy-cols">${groups.map(group).join("")}</div></div>
-    <p class="stats" style="padding-top:12px">One dot per place, largest first within each group. An empty dot has not been inspected yet.</p>
+    <div class="sy-bands mixed${sw.members ? " sy-combined" : ""}" id="sy-bands"><div class="sy-cols">${cards}</div></div>
+    <p class="stats" style="padding-top:12px">One dot per place, largest first within each ${sw.members && !sw.preserveGroups ? "country" : "group"}. An empty dot has not been inspected yet.</p>
     <details class="sy-note"><summary>How to read this</summary><p>A misrepresentation is one confirmed statement on one council’s website. A place counts as inspected when we read the service guidance of its council. A place is not the same as a council: some are served by more than one. “Not yet inspected” is not a clean result, and a place we could not open stays in that group. Only confirmed misrepresentations are counted; a statement we are not sure about is shown as unclear. The percentages used for the German sweep are left out here because so few places have been read. The results describe only the pages read and are not a rate for these places.</p></details>`;
 }
 function sysHome(L) {
@@ -1610,6 +1644,7 @@ function sysHome(L) {
 }
 
 function afterSys(sw = SYS) {
+  sw = sysOverview(sw);
   const root = document.getElementById("sy-bands");
   if (!root) return;
   const read = document.getElementById("sy-read"), q = document.getElementById("sy-q"), hits = document.getElementById("sy-hits");
@@ -1647,6 +1682,7 @@ function afterSys(sw = SYS) {
 
 /* ---------- a city ---------- */
 function cityFacts(c) {
+  if (c.assessment) return { first: c.assessment.summary.first_read, done: c.assessment.summary.last_read };
   const dates = c.pages.map(p => p[2]).concat(c.F.map(f => f.date)).filter(Boolean).sort();
   return { done: dates[dates.length - 1] };
 }
@@ -1716,6 +1752,7 @@ function cityLaw(x) {
 const SVC_AUTH = /stadt|gemeinde|serviceportal|landratsamt|landkreis|kreis|rathaus|verwaltung|bürgerservice/i;
 const SVC_NOTE = /^(?:Stellt|Nennt|Verlangt|Fordert|Schließt|Bietet|Beschränkt|Behauptet|Setzt|Lässt|Erklärt|Macht|Sagt|Gibt|Führt|Verweist|Sieht|Legt|Räumt|Nimmt|Erwähnt|Verneint) |\b(?:nur|statt|schon) /;
 function cityService(x, place = "") {
+  if (x.service_suppressed) return "";
   let t = (x.page || "").trim();
   if (/^[a-z0-9]+(-[a-z0-9]+)+$/.test(t)) return "";
   t = t.replace(/^[^:]*(Landratsamt|Kreisverwaltung|Landkreis|Kreis|Service-\w+)[^:]*:\s+/i, "").split(/ — | – | \| |: /)[0].trim();
@@ -1731,15 +1768,27 @@ const sysOrdered = F => F.map((x, i) => [x.s === "bad" ? (x.g === "M" ? 0 : 1) :
 function cityFinding(x, place) {
   const de = isGermanClaim(x.claim), svc = cityService(x, place);
   const major = x.g === "M";
-  const context = [x.scope, x.context, x.evidence_note].filter(t => typeof t === "string" && t.trim());
+  const context = [x.scope, x.context, x.evidence_note, x.source_limitation].filter(t => typeof t === "string" && t.trim());
   return `<article class="cp-row"><details class="cp-more"><summary${major ? ' class="maj"' : ""}><div class="cp-lab"><i class="cp-sq ${x.s}"></i><b${x.s === "bad" ? ' class="red"' : ""}>${SYS_LABEL[x.s]}</b>${svc ? `<span class="cp-svc${svc.length > 56 ? " long" : ""}" lang="${x.service ? "en" : "de"}">${esc(svc)}</span>` : ""}${de ? `<span class="cp-tag">Claim in German</span>` : ""}</div>
     <h3 class="cp-claim"${de ? ' lang="de"' : ""}>${keep(widow(x.claim.replace(/^./, m => m.toUpperCase()).replace(/\.$/, "")))}</h3>
-    ${x.s === "amb" && x.unc ? `<p class="cp-unc">${esc(x.unc)}</p>` : ""}${major ? `<span class="cp-tier" title="Could stop a resident claiming something the law gives them, or cost them money">Major</span>` : ""}</summary>
-    <p class="cp-src"><a href="${esc(x.url)}" target="_blank" rel="noopener">Page checked ↗</a>${x.date ? `<span>${fmtDate(x.date)}</span>` : ""}</p>
-    <div class="compare">${cityPassage(x)}${cityLaw(x)}</div>${context.length ? `<div class="cp-inside"><p class="cp-law-p"><b>Scope and context</b></p>${context.map(t => `<p class="cp-law-p">${esc(t)}</p>`).join("")}</div>` : ""}</details></article>`;
+    ${x.unc ? `<p class="cp-unc">${esc(x.unc)}</p>` : ""}${major ? `<span class="cp-tier" title="Could stop a resident claiming something the law gives them, or cost them money">Major</span>` : ""}</summary>
+    <p class="cp-src">${x.publisher ? `<span>${esc(x.publisher)}</span>` : ""}<a href="${esc(x.url)}" target="_blank" rel="noopener">Page checked ↗</a>${x.date ? `<span>${fmtDate(x.date)}</span>` : ""}</p>
+    <div class="compare">${cityPassage(x)}${cityLaw(x)}</div>${cityEvidence(x)}${context.length ? `<div class="cp-inside"><p class="cp-law-p"><b>Scope and context</b></p>${context.map(t => `<p class="cp-law-p">${esc(t)}</p>`).join("")}</div>` : ""}</details></article>`;
+}
+function cityEvidence(x) {
+  return [["Additional source passage", x.versions], ["Source context", x.context_quotes]].map(([label, passages]) => (passages || []).filter(p => !(p.url === x.url && p.quote === x.q && (p.translation || "") === (x.tr || ""))).map(p => `<div class="cp-inside cp-evidence"><p class="cp-law-p"><b>${p.service ? esc(p.service) : label}</b>${p.location ? ` · ${esc(p.location)}` : ""} · <a href="${esc(p.url)}" target="_blank" rel="noopener">Source ↗</a>${p.checked_at ? ` · ${fmtDate(p.checked_at)}` : ""}</p>${cityPassage({q:p.quote,tr:p.translation,lang:p.language})}</div>`).join("")).join("");
 }
 // The header counts what was found, then says once how many pages were checked and when.
 function cityTally(c, f) {
+  if (c.assessment) {
+    const a = c.assessment.summary;
+    const majors = c.F.filter(x => x.g === "M").length, graded = c.F.some(x => x.g);
+    const problemLabel = `${c.bad === 1 ? "misrepresentation" : "misrepresentations"}${graded ? `, ${majors === 0 ? "all minor" : majors === c.bad ? (c.bad === 1 ? "major" : "all major") : `${majors} major`}` : ""}`;
+    const items = [["bad", c.bad, problemLabel], ["amb", c.amb, c.amb === 1 ? "unclear finding" : "unclear findings"],
+      ["amb", a.unresolved_count, a.unresolved_count === 1 ? "unresolved check" : "unresolved checks"], ["ok", a.negative_checks, a.negative_checks === 1 ? "check with no misrepresentation found" : "checks with no misrepresentation found"]].filter(x => x[1]);
+    const when = f.first && f.done ? (f.first === f.done ? ` on ${fmtDate(f.done)}` : ` between ${fmtDate(f.first)} and ${fmtDate(f.done)}`) : "";
+    return `<ul class="cp-sum">${items.map(([k,n,w]) => `<li><i class="cp-sq ${k}"></i><b>${n}</b>${w}</li>`).join("")}</ul><p class="cp-ctx">${esc(plural(c.read, "distinct page", "distinct pages"))} read${when}. ${plural(a.assessment_count, "recorded issue check", "recorded issue checks")}. Results cover only the issues checked.</p>`;
+  }
   if (!c.F.length && !c.read) return "";
   const ok = c.pages.filter(p => p[0] === "ok").length;
   const majors = c.F.filter(f => f.g === "M").length, graded = c.F.some(f => f.g);
@@ -1748,6 +1797,12 @@ function cityTally(c, f) {
     <p class="cp-ctx">${esc(plural(c.read, c.cov === "d" ? "page" : "service page", c.cov === "d" ? "pages" : "service pages"))} ${c.dist ? "checked" : "read"}${f.done ? ` on ${fmtDate(f.done)}` : ""}. Results describe only those pages.</p>`;
 }
 function cityPages(c, open) {
+  if (c.assessment) {
+    const pages = c.assessment.pages;
+    if (!pages.length) return "";
+    const labels = {confirmed: "Confirmed issue", unclear: "Unresolved check", none_found: "Negative check", not_addressed: "Not addressed", inaccessible: "Access failed"};
+    return `<details class="cp-sec"${open ? " open" : ""}><summary><h2>Pages and access attempts</h2><span>${pages.length}</span></summary><ul class="cp-pages">${pages.map(p => `<li><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(pageLabel(p.url))} ↗</a><span class="o">${p.outcomes.map(k => labels[k]).join("; ")}</span>${p.read_dates.length ? `<span class="d">Read: ${p.read_dates.map(fmtDate).join(", ")}</span>` : ""}${p.access_dates.length ? `<span class="d">Access failed: ${p.access_dates.map(fmtDate).join(", ")}</span>` : ""}</li>`).join("")}</ul></details>`;
+  }
   if (!c.pages.length) return "";
   return `<details class="cp-sec"${open ? " open" : ""}><summary><h2>Pages ${c.dist ? "checked" : "read"}</h2><span>${c.pages.length}</span></summary><ul class="cp-pages">${c.pages.map(([k, url, d]) =>
     `<li><i class="cp-sq ${k}"></i><a href="${esc(url)}" target="_blank" rel="noopener">${esc(pageLabel(url))} ↗</a><span class="o">${SYS_PAGE[k]}</span>${d ? `<span class="d">${fmtDate(d)}</span>` : ""}</li>`).join("")}</ul></details>`;
@@ -1760,12 +1815,12 @@ function cityPage(L, c) {
   const folded = !empty && tally ? `<details class="cp-nt"><summary>What this shows</summary><p>${esc(noteText)}</p></details>${gradeNote}` : "";
   const note = !empty && !tally ? `<p class="res-note"><b>What this shows.</b> ${esc(noteText)}</p>` : "";
   // Two columns from 960px: the header stays in view beside the findings.
-  return `<div class="cp-two"><aside class="cp-rail"><nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "sys", c.sw ? c.sw.id : "")}">← ${c.sw ? esc(c.sw.tab || c.sw.title) : "Systemic sweeps"}</a></nav>
+  return `<div class="cp-two"><aside class="cp-rail"><nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L, "sys", c.sw ? sysOverview(c.sw).id : "")}">← ${c.sw ? esc(sysOverview(c.sw).tab || c.sw.title) : "Systemic sweeps"}</a></nav>
     <header class="area-head"><p class="eyebrow">${esc(sysArea(c))} · ${c.dist ? "District" : `${fmtN(c.pop)} inhabitants`}</p><h1>${esc(c.name)}</h1>
     ${tally || `<p class="lede">${esc(widow(cityLede(c, f)))}</p>`}${folded}
     ${c.web || c.auth ? `<p class="meta-line">${c.auth ? `<span>${esc(c.auth)}</span>` : ""}${c.web ? `<span><a href="${esc(c.web)}" target="_blank" rel="noopener">Official website ↗</a></span>` : ""}</p>` : ""}</header></aside>
     <div class="cp-main">${empty ? `<div class="cp-empty"><div class="cp-lab"><i class="cp-sq na"></i><b>Not yet inspected</b></div><p>Nothing is known about ${esc(c.name)}’s website yet. That is not a clean result.</p>${c.dist ? "" : `<small>Listed by population on ${fmtDate((c.sw || SYS).popDate)}.</small>`}</div>`
-      : `${c.F.length ? `<div class="cp-list">${sysOrdered(c.F).map(x => cityFinding(x, c.name)).join("")}</div>` : c.k === "ok" ? `<div class="cp-empty"><p>Nothing found on the pages we read. They are listed below.</p></div>` : ""}${cityPages(c, !c.F.length)}${note}`}</div></div>`;
+      : `${c.F.length ? `<div class="cp-list">${sysOrdered(c.F).map(x => cityFinding(x, c.name)).join("")}</div>` : c.assessment && c.unresolved ? `<div class="cp-empty"><p>No confirmed finding; some checks remain unresolved. The page list records their scope.</p></div>` : c.k === "ok" ? `<div class="cp-empty"><p>Nothing found on the pages we read. They are listed below.</p></div>` : ""}${cityPages(c, !c.F.length)}${note}`}</div></div>`;
 }
 function sysBody(s) {
   return s.kind === "sys" ? (s.id ? sysCountryHome(s.L, SWEEP[s.id]) : sysHome(s.L)) : cityPage(s.L, s.kind === "district" ? SYSDIST[s.id] : SYSCITY[s.id]);

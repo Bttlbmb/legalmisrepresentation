@@ -26,7 +26,78 @@ for (const narrow of [false, true]) {
     window: { addEventListener() {}, scrollTo() {} }, scrollY: 0, scrollTo() {}, console
   });
   scripts.forEach(script => vm.runInContext(script, ctx));
+  // The versioned assessment contract distinguishes issue checks from pages
+  // and preserves access failures without claiming a fresh read.
+  const assessmentProbe = {name: 'Example', cov: 's', F: [], pages: [], bad: 0, amb: 0, read: 1,
+    assessment: {schema_version: 1, summary: {read_pages: 1, assessment_count: 3, unresolved_count: 1,
+      negative_checks: 1, first_read: '2026-11-01', last_read: '2026-11-03'},
+      pages: [{url: 'https://example.test/page', read_dates: ['2026-11-01', '2026-11-03'],
+        access_dates: ['2026-11-09'], outcomes: ['none_found', 'unclear']}]}};
+  const probe = JSON.stringify(assessmentProbe);
+  const probeTally = vm.runInContext(`cityTally(${probe}, cityFacts(${probe}))`, ctx);
+  if (!probeTally.includes('1</b>unresolved check') || !probeTally.includes('1 distinct page read between') || probeTally.includes('pages with nothing found')) throw new Error('Assessment counts/dates conflate pages and issues');
+  const probePages = vm.runInContext(`cityPages(${probe}, true)`, ctx);
+  if (!probePages.includes('Access failed:') || !probePages.includes('Read:') || (probePages.match(/href=/g) || []).length !== 1) throw new Error('Read/access observations do not share one exact URL');
+  const evidence = {s: 'bad', claim: 'Says X.', page: 'Original title', service_suppressed: true,
+    publisher: 'Actual Council', url: 'https://example.test/main', lang: 'English', q: 'Main wording.',
+    why: 'Law explanation.', unc: 'A confirmed qualification.', versions: [{quote: 'Second retained passage.',
+      language: 'English', url: 'https://example.test/second'}], context_quotes: [{quote: 'A connected qualification.',
+      language: 'English', url: 'https://example.test/context'}]};
+  const evidenceHtml = vm.runInContext(`cityFinding(${JSON.stringify(evidence)}, 'Example')`, ctx);
+  for (const text of ['Actual Council', 'A confirmed qualification.', 'Second retained passage.', 'A connected qualification.', 'https://example.test/second', 'https://example.test/context']) {
+    if (!evidenceHtml.includes(text)) throw new Error(`Selected public evidence omitted: ${text}`);
+  }
+  if (evidenceHtml.includes('Original title')) throw new Error('Suppressed service title leaked into display');
+  for (const sw of data.systemic || []) {
+    if (sw.assessmentViewVersion !== 1) continue;
+    for (const row of sw.cities) {
+      if (!row[9] || row[9].schema_version !== 1) throw new Error('Missing assessment contract');
+      const current = vm.runInContext(`SYSCITY[${JSON.stringify(row[0])}]`, ctx);
+      if (row[9].summary.unresolved_count && current.k === 'ok') throw new Error(`Unresolved place marked clear: ${row[0]}`);
+      if (current.read !== row[9].summary.read_pages) throw new Error(`Wrong distinct page count: ${row[0]}`);
+    }
+  }
+  const pacific = ['australia', 'new-zealand'].map(id => (data.systemic || []).find(sw => sw.id === id));
+  if (pacific.every(Boolean)) {
+    for (const sw of pacific) {
+      if (sw.cities.length !== 10 || sw.cities.some((c, i) => c[1] !== i + 1)) throw new Error(`Wrong top-10 roster: ${sw.id}`);
+    }
+    for (const id of ['australia-new-zealand', 'australia', 'new-zealand']) {
+      ctx.location.hash = `#A1.sys.${id}`;
+      vm.runInContext('render()', ctx);
+      const page = node('root').innerHTML;
+      if ((page.match(/data-id="/g) || []).length !== 20 || !page.includes('<h3>Australia</h3>') || !page.includes('<h3>New Zealand</h3>')) throw new Error(`Combined country sections missing: ${id}`);
+      if (!page.includes('Commonwealth, state and territory law') || !page.includes('national law')) throw new Error('Separate legal scopes missing');
+      const tabs = page.match(/<nav class="sy-tabs"[\s\S]*?<\/nav>/)[0];
+      if (!tabs.includes('Australia &amp; New Zealand') || /href="#A1.sys.(australia|new-zealand)"/.test(tabs)) throw new Error('Country tabs were not combined');
+    }
+    ctx.location.hash = `#A1.city.${pacific[0].cities[0][0]}`;
+    vm.runInContext('render()', ctx);
+    if (!node('root').innerHTML.includes('href="#A1.sys.australia-new-zealand"')) throw new Error('City breadcrumb does not return to combined page');
+  }
   const citySweep = (data.systemic || [])[0];
+  const ukIreland = ['united-kingdom', 'ireland'].map(id => (data.systemic || []).find(sw => sw.id === id));
+  if (ukIreland.every(Boolean)) {
+    const ireland = ukIreland[1];
+    if (ireland.cities.length !== 10 || ireland.cities.some((c, i) => c[1] !== i + 1 || !c[0].startsWith('ie-place-'))) throw new Error('Wrong Irish top-ten cohort');
+    for (const id of ['uk-ireland', 'united-kingdom', 'ireland']) {
+      ctx.location.hash = `#A1.sys.${id}`;
+      vm.runInContext('render()', ctx);
+      const page = node('root').innerHTML;
+      if ((page.match(/data-id="/g) || []).length !== ukIreland.reduce((n, sw) => n + sw.cities.length, 0)) throw new Error('UK/Ireland place count changed');
+      for (const heading of ['England', 'Scotland', 'Wales', 'Northern Ireland', 'Republic of Ireland']) {
+        if (!page.includes(`<h3>${heading}</h3>`)) throw new Error(`Missing distinct jurisdiction group: ${heading}`);
+      }
+      if (!page.includes('Irish and applicable EU law') || !page.includes('Northern Ireland remains in the UK cohort')) throw new Error('Irish jurisdiction scope missing');
+      const tabs = page.match(/<nav class="sy-tabs"[\s\S]*?<\/nav>/)[0];
+      if (!tabs.includes('UK &amp; Ireland') || /href="#A1.sys.(ireland|united-kingdom)"/.test(tabs)) throw new Error('UK and Ireland tabs not combined');
+    }
+    for (const member of ukIreland) {
+      ctx.location.hash = `#A1.city.${member.cities[0][0]}`;
+      vm.runInContext('render()', ctx);
+      if (!node('root').innerHTML.includes('href="#A1.sys.uk-ireland"')) throw new Error('City breadcrumb does not return to UK & Ireland');
+    }
+  }
   if (citySweep) {
     const inspected = citySweep.cities.filter(c => c[6].length || c[4] === 's' || c[4] === 'd').length;
     if (vm.runInContext('SYS.inspected', ctx) !== inspected) throw new Error('City count omits inspected directories or includes access failures');
@@ -125,7 +196,7 @@ for (const narrow of [false, true]) {
         if (graded !== html.includes('data-k="major"')) throw new Error('The major chip and graded data disagree');
       }
       if (route.startsWith('#A1.city.') || route.startsWith('#A1.district.') || route === '#A1.sys') {
-        if (sys && /undefined|NaN/.test(html)) throw new Error(`Broken value on a systemic page: ${route}`);
+        if (sys && /(?:>|=")undefined(?:<|")|\bNaN\b/.test(html)) throw new Error(`Broken value on a systemic page: ${route}`);
         // One row per finding, and a city nobody has read says so.
         if (route in cityFindings && html.split('class="cp-row"').length - 1 !== cityFindings[route]) throw new Error(`Finding rows do not match the data: ${route}`);
         if (route in cityData) {
@@ -157,11 +228,16 @@ for (const narrow of [false, true]) {
             const f = cityData[route][i], quotes = [...row.matchAll(/<blockquote class="cp-q"[^>]*>([\s\S]*?)<\/blockquote>/g)].map(m => words(plain(m[1])));
             const translated = f.lang && f.lang !== 'English' && f.tr;
             const want = translated ? [f.tr, f.q] : [f.q];
+            for (const p of [...(f.versions || []), ...(f.context_quotes || [])]) {
+              if (p.url === f.url && p.quote === f.q && (p.translation || '') === (f.tr || '')) continue;
+              if (p.language && p.language !== 'English' && p.translation) want.push(p.translation, p.quote);
+              else want.push(p.quote);
+            }
             if (quotes.length !== want.length || want.some((w, k) => quotes[k] !== words(w))) throw new Error(`A passage differs from the research text in finding ${i}: ${route}`);
             if (translated && !row.includes(`<summary><span>${f.lang} original</span>`)) throw new Error(`Original-language label missing in finding ${i}: ${route}`);
-            if (f.lang === 'English' && row.includes('class="cp-orig"')) throw new Error(`English original hidden in finding ${i}: ${route}`);
+            if (f.lang === 'English' && row.split('<div class="cp-inside')[0].includes('class="cp-orig"')) throw new Error(`English original hidden in finding ${i}: ${route}`);
             if (f.lang === 'Spanish' && translated && (!row.includes('<blockquote class="cp-q" lang="en">') || !row.includes('<blockquote class="cp-q" lang="es">'))) throw new Error(`Spanish translation or original language missing in finding ${i}: ${route}`);
-            const context = [f.scope, f.context, f.evidence_note].filter(t => typeof t === 'string' && t.trim());
+            const context = [f.scope, f.context, f.evidence_note, f.source_limitation].filter(t => typeof t === 'string' && t.trim());
             const inside = (row.match(/<div class="cp-inside">([\s\S]*?)<\/div>/) || [])[1];
             if (Boolean(inside) !== Boolean(context.length)) throw new Error(`Optional context visibility differs in finding ${i}: ${route}`);
             if (inside) {
