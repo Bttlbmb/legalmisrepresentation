@@ -100,7 +100,7 @@ for (const narrow of [false, true]) {
     const graded = combined.flatMap(c => c.F).concat((sw.districts || []).flatMap(c => c[5])).some(f => f.s === 'bad' && ['M', 'm'].includes(f.g));
     if (graded !== page.includes('How grades work')) throw new Error(`Overview grading disclosure missing: ${sw.id}`);
     if (sw.note && page.includes(sw.note.replaceAll('&', '&amp;'))) throw new Error(`Research note leaked into overview: ${sw.id}`);
-    if (!page.includes('Results cover the pages checked.')) throw new Error(`Shared overview explanation missing: ${sw.id}`);
+    if (page.includes('<summary>How to read this</summary>')) throw new Error(`Removed methodology disclosure returned: ${sw.id}`);
   }
   // Partial, absent and invalid grades must remain separate from minors; unclear rows never enter totals.
   for (const [findings, expected] of [
@@ -137,7 +137,7 @@ for (const narrow of [false, true]) {
       for (const heading of ['England', 'Scotland', 'Wales', 'Northern Ireland', 'Republic of Ireland']) {
         if (!page.includes(`<h3>${heading}</h3>`)) throw new Error(`Missing distinct jurisdiction group: ${heading}`);
       }
-      if (!page.includes('Irish and applicable EU law') || !page.includes('Northern Ireland remains in the UK cohort')) throw new Error('Irish jurisdiction scope missing');
+      if (!page.includes('Irish and applicable EU law')) throw new Error('Irish jurisdiction scope missing');
       const tabs = page.match(/<nav class="sy-tabs"[\s\S]*?<\/nav>/)[0];
       if (!tabs.includes('UK &amp; Ireland') || /href="#A1.sys.(ireland|united-kingdom)"/.test(tabs)) throw new Error('UK and Ireland tabs not combined');
     }

@@ -50,14 +50,16 @@ A second way in beside the issue pages: the **Issue sweeps / Institution sweeps*
 
 ### Concise public copy (13 November 2026)
 
-The owner requested concise MVP copy. These rules supersede older requirements to display repeated scope disclaimers, research history, access summaries and population provenance.
-- Country overviews use the shared `SYS_PUBLIC_COPY` / `sysIntro` pattern: one short line naming the places covered. Legal scopes sit in “How to read this” or the Australia/New Zealand country cards.
-- Do not display raw research `scope`/`note` paragraphs for known country overviews. Keep their details in the research data. Use one short shared counting explanation, rather than error-rate, ranking and incomplete-audit disclaimers repeated across the page.
-- Place headers already show page counts and dates. Omit a generic “Scope and limits” disclosure; directory-only inspections retain one short explanatory sentence.
-- Keep the grading explanation brief, including the distinction between major/minor, possible consequences, AI provenance and ungraded findings.
-- Do not add generic “no actual harm/refusal” boilerplate to every issue case. Preserve each finding’s specific scope, exceptions, contrary evidence, uncertainty, original quotations and translations. Do not strip sentences from findings with a blanket text filter.
-- Omit population-ranking dates, council/urban-area boundary explanations and error-rate caveats from public overview copy, including folded notes. These belong in research records.
-- Preserve the layout, counts, grades and inspection rules.
+The owner requested concise MVP copy. These rules supersede older requirements to display repeated scope disclaimers, research history, access summaries, population provenance and German inspection percentages.
+- Country overviews use the shared `SYS_PUBLIC_COPY` / `sysIntro` pattern: one short line naming the places covered. Show legal scope as a short label, including separate labels for combined country pages.
+- Do not display raw research `scope`/`note` paragraphs or a “How to read this” disclosure. Omit counting definitions, sampling caveats, boundary explanations, population dates and research-process history.
+- Place headers show page counts and dates, without extra issue-check counts or generic “Scope and limits” disclaimers. Directory-only inspections keep one short explanatory sentence.
+- Keep the grading explanation brief, including major/minor, possible consequences, AI provenance and ungraded findings.
+- Institution pages retain result labels and specific notes, without generic explanations below every label or a repeated “What this shows” footer. Statistics do not need definitions below them.
+- Keep generic no-actual-harm/refusal and research-reading narration out of findings. Preserve specific exceptions, contrary evidence, access/currentness limits, uncertainty and all source quotations/translations.
+- Apply finding-copy edits as explicit, independently reviewed public-record changes, with original and revised fields recorded. Never remove sentences using a runtime regex filter. The second pass and its receipts are in backend `research/releases/2026-11-13/mvp-pass2/`; keep these accepted public editions when refreshing exports from research.
+- Do not shorten grade-bearing claims or legal comparisons merely to hit a word count. Research appendices mixed into German district law explanations are flagged in the second-pass audit for a separate checked wording pass.
+- Preserve layout, counts, grades and inspection rules.
 
 ### Unified summaries (13 November 2026)
 

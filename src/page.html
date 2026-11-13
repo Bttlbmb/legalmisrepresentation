@@ -1011,7 +1011,7 @@ function verBody(c, i) {
   const key = q.marked ? `<p class="mk-key"><mark class="mk-src">Marked</mark> source wording differs from the law${c.lawMarks && c.lawMarks.length ? ` · <mark class="mk-law">matching law wording</mark>` : ""}</p>` : "";
   return `${q.html}${key}
     <p class="side-meta"><span>${v.site ? `${esc(v.site)} · ` : ""}<a href="${esc(v.url)}" target="_blank" rel="noopener">Open page ↗</a></span></p>
-    ${v.cut ? `<p class="cut-note">The publisher’s own text ends mid-sentence here. It is shown exactly as published.</p>` : ""}`;
+    ${v.cut ? `<p class="cut-note">The source text ends mid-sentence.</p>` : ""}`;
 }
 // One chip per language; versions that repeat the same page and wording are listed once.
 function versionSet(c) {
@@ -1156,7 +1156,7 @@ function renderAS(s) {
   } else if (s.kind === "home" && L === "A1") {
     // Front page: government and companies side by side, every area with its first issues; the area page lists all of them.
     body = `<section class="hero"><h1>What you’re told vs. what the law says</h1><p class="lede">${intro}</p>
-      <p class="stats">${TOTAL.areas} areas · ${TOTAL.topics} issues · ${TOTAL.cases} cases<span class="stats-note">A case is one published finding. It can cover several pages or institutions.</span></p></section>
+      <p class="stats">${TOTAL.areas} areas · ${TOTAL.topics} issues · ${TOTAL.cases} cases</p></section>
       ${GROUPS.length || SYS ? lensRow(L, "issue") : ""}<div class="home-cols">${SECTORS.map(sec => {
         const as = AREAS.filter(a => a.sector === sec.id), sc = SECTOR_SCOPE[sec.id];
         return `<section class="home-sec"><div class="sector-h"><h2>${sc.title}</h2><span>${plural(as.reduce((x, a) => x + nCases(a), 0), "case", "cases")}</span></div>
@@ -1364,7 +1364,7 @@ function instHome(L) {
   }).join("");
   return `<section class="hero"><h1>What you’re told vs. what the law says</h1>
     <p class="lede">${esc(widow(`Authorities and companies checked one by one, on the same few questions each.`))}</p>
-    <p class="stats">${fmtN(GROUP_TOTAL.n)} institutions · ${fmtN(GROUP_TOTAL.checks)} checks · ${fmtN(GROUP_TOTAL.bad)} checks found a misrepresentation<span class="stats-note">A check is one institution on one question. Several checks can rest on the same published case.</span></p></section>
+    <p class="stats">${fmtN(GROUP_TOTAL.n)} institutions · ${fmtN(GROUP_TOTAL.checks)} checks · ${fmtN(GROUP_TOTAL.bad)} checks found a misrepresentation</p></section>
     ${lensRow(L, "inst")}<div class="home-cols">${lines}</div>`;
 }
 
@@ -1376,7 +1376,7 @@ function dirMatches(g) {
 }
 function dirHtml(L, g) {
   const list = dirMatches(g), cut = list.slice(0, DIR.shown);
-  if (!list.length) return `<p class="res-empty">Nothing found. Only institutions we checked are listed.</p>`;
+  if (!list.length) return `<p class="res-empty">No matching institutions.</p>`;
   const more = list.length > cut.length ? `<button type="button" class="res-btn" data-more>Show ${Math.min(30, list.length - cut.length)} more</button>` : "";
   const sub = e => entitySub(g, e) ? `<small>${entitySub(g, e)}</small>` : "";
   return cut.map(e => `<a class="res-row" href="${entityHref(L, g, e)}"><b>${esc(e.name)}</b>${sub(e)}${entityDots(g, e)}<span class="res-n${e.bad ? " red" : ""}"${e.bad ? ` aria-label="${e.bad} of ${g.qs.length} questions with a misrepresentation"` : ""}>${e.bad ? `${e.bad} of ${g.qs.length}` : ""}</span></a>`).join("") + more;
@@ -1422,7 +1422,7 @@ function questionBlocks(L, g) {
       <div class="keys"><span class="k law"><b>Law</b>${keep(q.law)}</span></div>
       <div class="res-q-sum"><p><b${n ? ' class="red"' : ""}>${n} of ${g.ents.length}</b> had a misrepresentation</p>${resBar(g.perQ[i])}</div>
       ${P ? `<div class="res-q-actions"><button type="button" class="res-q-lawbtn" data-q-law aria-expanded="false" aria-controls="q-law-${i}">What the law says <i aria-hidden="true">⌄</i></button></div>
-      <p class="res-q-law" id="q-law-${i}" hidden>${P.general ? `<span class="res-q-note">This explains the whole issue and has not yet been checked against this question.</span>` : ""}${keep(P.law)} <a class="prov" href="${esc(P.url)}" target="_blank" rel="noopener">${provText(P.prov).replace(/ (?=§)/g, "&nbsp;")} ↗</a></p>` : ""}</div>
+      <p class="res-q-law" id="q-law-${i}" hidden>${P.general ? `<span class="res-q-note">General issue summary; not checked for this question.</span>` : ""}${keep(P.law)} <a class="prov" href="${esc(P.url)}" target="_blank" rel="noopener">${provText(P.prov).replace(/ (?=§)/g, "&nbsp;")} ↗</a></p>` : ""}</div>
       <div class="rows">${rows || `<p class="res-q-none">No misrepresentation found on this question.</p>`}${more}</div></section>`;
   }).join("");
 }
@@ -1476,12 +1476,9 @@ function entityPage(L, g, e) {
   const cards = g.qs.map((q, i) => {
     const [k, caseId, url, , note] = e.rows[i], c = CASES[caseId];
     const what = k === "bad" && c ? `${esc(singularClaim(c.claim).replace(/^./, m => m.toUpperCase()).replace(/\.$/, ""))}. <a href="${href(L, "case", caseId, g.id + "~" + e.id)}">Read the case →</a>`
-      : k === "bad" ? "A published case backs this result."
+      : k === "bad" ? ""
       : note ? esc(note)
-      : k === "amb" ? "The evidence was insufficient or conflicting; no misrepresentation was confirmed."
-      : k === "na" ? "The specific issue was not addressed, or relevant guidance was not located."
-      : k === "unp" ? "We have a finding on this question that is not yet published."
-      : "";   // a clean result needs no sentence beyond its label and the note below
+      : "";   // The result label suffices unless a specific note adds information.
     return `<article class="res-card"><div class="cq"><h3>${questionTitle(L, q)}</h3>${questionBlock(q)}</div>
       <div class="cr res-${k}"><p class="lab"><i class="sq ${k}"></i><b${k === "bad" ? ' class="red"' : ""}>${RESULT[k]}</b></p>${what ? `<p class="txt">${what}</p>` : ""}${url && !once ? `<p class="src">Page checked: ${pageLink(url)}</p>` : ""}</div></article>`;
   }).join("");
@@ -1489,8 +1486,7 @@ function entityPage(L, g, e) {
     <header class="area-head">${e.state ? `<p class="eyebrow">${esc(g.one)} · ${esc(e.state)}</p>` : ""}<h1>${esc(e.name)}</h1>
     <p class="lede">${esc(widow(`${plural(g.qs.length, "question", "questions")} checked on ${fmtDate(done)}: ${tally}.`))}</p>
     ${e.op || e.web || once ? `<p class="meta-line">${e.op ? `<span>Run by ${esc(e.op)}</span>` : ""}${e.web ? `<span><a href="${esc(e.web)}" target="_blank" rel="noopener">Official website ↗</a></span>` : ""}${once ? `<span>Page checked: ${pageLink(urls[0])}</span>` : ""}</p>` : ""}</header>
-    <div class="res-cards res-rows">${cards}</div>
-    <p class="res-note"><b>What this shows.</b> The result for each question describes the pages we read on the date above. It does not show whether anyone was refused or misled in practice, and the pages may have changed since.</p>`;
+    <div class="res-cards res-rows">${cards}</div>`;
 }
 
 function instBody(s) {
@@ -1586,11 +1582,11 @@ const UK_IRELAND = UK_IRELAND_MEMBERS.length === 2 ? {
 if (UK_IRELAND) SWEEP[UK_IRELAND.id] = UK_IRELAND;
 // Public copy describes the selection; research notes stay in the dataset.
 const SYS_PUBLIC_COPY = {
-  "united-kingdom": ["the UK’s", "towns and cities", "Each UK nation’s applicable law"],
+  "united-kingdom": ["the UK’s", "towns and cities", "Applicable UK law"],
   ireland: ["Ireland’s", "towns and cities", "Irish and applicable EU law"],
   "united-states": ["the", "US cities and towns", "Federal and state law"],
   spain: ["Spain’s", "towns and cities", "National and EU law"],
-  france: ["France’s", "towns and cities", "Applicable French and EU law"],
+  france: ["France’s", "towns and cities", "French and applicable EU law"],
   australia: ["Australia’s", "urban areas", "Federal, state and territory law"],
   "new-zealand": ["New Zealand’s", "urban areas", "National law"]
 };
@@ -1601,7 +1597,6 @@ const sysIntro = sw => {
   return copy ? `${sw.id === "united-states" ? "Local government" : "Council"} guidance in ${copy[0]} ${fmtN(sw.list.length)} largest ${copy[1]}.` : sw.scope || "";
 };
 const sysLawLabel = sw => SYS_PUBLIC_COPY[sw.id]?.[2] || "Applicable law";
-const SYS_METHOD_NOTE = "Results cover the pages checked. Unclear checks are excluded from confirmed totals. Identical findings count once in each summary.";
 const COMBINED_SWEEPS = [PACIFIC, UK_IRELAND].filter(Boolean);
 const sysOverview = sw => COMBINED_SWEEPS.find(combined => combined.members.includes(sw)) || sw;
 const SYS_PAGES = SYSX.flatMap(sw => { const combined = sysOverview(sw); return combined === sw ? [sw] : sw === combined.members[0] ? [combined] : []; });
@@ -1621,7 +1616,7 @@ const sysGradeNote = (findings, cls = "sy-note") => {
 };
 const sysNoun = n => n === 1 ? "misrepresentation" : "misrepresentations";
 const sysSearchKey = t => t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-const SYS_HINT = SYS && SYS.dlist.length ? "Hover or tap a dot or square for details." : "Hover or tap a square for details.";
+const SYS_HINT = "Select a place for details.";
 const sysArea = c => c.sw ? (c.group || c.sw.tab || c.sw.title) : SYS_STATES[c.st];
 const sysKind = c => c.dist ? "district" : "city";
 const sysReadLine = (c, open) => `<b>${esc(c.name)}</b> · ${esc(sysArea(c))} · ${c.dist ? "district" : `${fmtN(c.pop)} inhabitants`} · ${c.bad ? `<span class="red">${c.bad} ${sysNoun(c.bad)}</span>` : SYS_LABEL[c.k].toLowerCase()}${open ? ` · <a href="${href("A1", sysKind(c), c.id)}">Open page →</a>` : ""}`;
@@ -1645,12 +1640,7 @@ function sysSummary(shape, inspected, [one, many], bad, places, label = "") {
   const findings = sysOverviewFindings(places), g = sysGrades(findings);
   return `<div class="sy-summary"><p class="sy-sum-line"><i class="sy-g ${shape}"></i><span>${label ? `<b>${esc(label)}</b> · ` : ""}<b>${fmtN(inspected)}</b> ${inspected === 1 ? one : many} inspected · <b>${fmtN(bad)}</b> with a misrepresentation</span></p><p class="sy-finding-line"><b>${fmtN(g.total)}</b> ${sysFindingLabel(findings)}</p></div>`;
 }
-const sysShareNote = (places, noun) => {
-  const inspected = places.filter(c => c.k !== "na").length;
-  if (!inspected) return "";
-  const bad = places.filter(c => c.bad).length, major = places.filter(c => c.F.some(f => f.s === "bad" && f.g === "M")).length;
-  return `Of the ${fmtN(inspected)} ${noun} inspected, ${Math.round(100 * bad / inspected)}% had a confirmed finding and ${Math.round(100 * major / inspected)}% had a major finding. `;
-};
+
 
 // With more than one sweep, a second row of tabs under the title: one page per sweep. Without other sweeps nothing is added.
 const sysTabs = (L, current) => SYSX.length ? `<nav class="sy-tabs" aria-label="Sweeps">${[SYS].concat(SYS_PAGES).map(sw => `<a href="${href(L, "sys", sw === SYS ? "" : sw.id)}"${sw === current ? ' aria-current="page"' : ""}>${esc(sw === SYS ? "Germany" : sw.tab || sw.title)}</a>`).join("")}</nav>` : "";
@@ -1663,14 +1653,13 @@ function sysCountryHome(L, sw) {
   const summary = (sw.members || [sw]).map(member => sysSummary("ci", member.inspected, ["place", "places"], member.cnt.bad, member.list, sw.members ? member.tab : "")).join("");
   const cards = sw.members && !sw.preserveGroups ? sw.members.map(member => `<section class="sy-state"><h3>${esc(member.tab)}</h3><div class="sy-grp"><p class="sy-sub">${plural(member.list.length, "urban area", "urban areas")}</p><div class="sy-sq">${member.list.map(sysSquare).join("")}</div><p class="sy-sub">${esc(sysLawLabel(member))}</p></div></section>`).join("") : groups.map(group).join("");
   return `<section class="hero"><h1>What you’re told vs. what the law says</h1>${sysTabs(L, sw)}<p class="lede">${esc(widow(sysIntro(sw)))}</p>
-    <div class="sy-sum">${summary}</div></section>
+    <div class="sy-sum">${summary}${sw.id === "australia-new-zealand" ? "" : `<p class="sy-sum-note">${(sw.members || [sw]).map(member => `${sw.members ? `${esc(member.tab)}: ` : ""}${esc(sysLawLabel(member))}`).join(" · ")}</p>`}</div></section>
     ${lensRow(L, "sys")}
-    <div class="sy-ctl sy-one"><p class="sy-read" id="sy-read">Hover or tap a dot for details.</p></div>
+    <div class="sy-ctl sy-one"><p class="sy-read" id="sy-read">Select a place for details.</p></div>
     <p class="stats">Filter places</p>
     <div class="sy-keys" role="group" aria-label="Filter places">${SYS_KEYS.map(k => `<button type="button" data-k="${k}" aria-pressed="false"><i class="${k}"></i>${SYS_LABEL[k]} · ${fmtN(sw.cnt[k])}</button>`).join("")}</div>
     <div class="sy-bands mixed${sw.members ? " sy-combined" : ""}" id="sy-bands"><div class="sy-cols">${cards}</div></div>
-    <p class="stats" style="padding-top:12px">One dot per place, largest first within each ${sw.members && !sw.preserveGroups ? "country" : "group"}. An empty dot has not been inspected yet.</p>
-    <details class="sy-note"><summary>How to read this</summary><p>${esc(SYS_METHOD_NOTE)}</p>${sw.id === "australia-new-zealand" ? "" : `<p>${(sw.members || [sw]).map(member => `${sw.members ? `${esc(member.tab)}: ` : ""}${esc(sysLawLabel(member))}.`).join(" ")}${sw.id === "uk-ireland" ? " Northern Ireland remains in the UK cohort." : ""}</p>`}</details>${sysGradeNote(sw.list.flatMap(c => c.F))}`;
+    ${sysGradeNote(sw.list.flatMap(c => c.F))}`;
 }
 function sysHome(L) {
   const stateBlock = id => {
@@ -1683,15 +1672,15 @@ function sysHome(L) {
   const cs = SYS.list.filter(c => SYS_CITY_STATES.includes(c.st));
   const cityStates = `<section class="sy-state"><h3>City-states</h3><div class="sy-grp"><p class="sy-sub">${plural(cs.length, "city", "cities")}</p><div class="sy-named">${cs.map(c => `<a class="sy-nm${c.F.some(f => f.g === "M") ? " maj" : ""}" href="${href("A1", "city", c.id)}"><i class="${c.k}"></i>${esc(c.name)}</a>`).join("")}</div></div></section>`;
   return `<section class="hero"><h1>What you’re told vs. what the law says</h1>${sysTabs(L, SYS)}<p class="lede">${esc(widow(`Council guidance in Germany’s ${fmtN(SYS.list.length)} largest cities${SYS.dlist.length ? " and all districts" : ""}.`))}</p>
-    <div class="sy-sum">${SYS.dlist.length ? sysSummary("sq", SYS.dread, ["district", "districts"], SYS.dbad, SYS.dlist) : ""}${sysSummary(SYS.dlist.length ? "ci" : "sq", SYS.inspected, ["city", "cities"], SYS.cnt.bad, SYS.list)}</div></section>
+    <div class="sy-sum">${SYS.dlist.length ? sysSummary("sq", SYS.dread, ["district", "districts"], SYS.dbad, SYS.dlist) : ""}${sysSummary(SYS.dlist.length ? "ci" : "sq", SYS.inspected, ["city", "cities"], SYS.cnt.bad, SYS.list)}<p class="sy-sum-note">Federal and EU law</p></div></section>
     ${lensRow(L, "sys")}
     <div class="sy-ctl"><input class="res-search" id="sy-q" type="search" placeholder="${SYS.dlist.length ? "Find a city or district" : "Find a city"}" aria-label="${SYS.dlist.length ? "Find a city or district" : "Find a city"}" autocomplete="off"><p class="sy-read" id="sy-read" aria-live="polite">${SYS_HINT}</p></div>
     <ul class="sy-hits" id="sy-hits"></ul>
     <p class="stats">Filter places · counts are cities</p>
     <div class="sy-keys" role="group" aria-label="Filter places">${(SYS.gMajor ? ["bad", "major", "amb", "ok", "na"] : SYS_KEYS).map(k => `<button type="button" data-k="${k}" aria-pressed="false"><i class="${k}"></i>${SYS_LABEL[k]} · ${fmtN(SYS.cnt[k])}</button>`).join("")}</div>
     <div class="sy-bands${SYS.dlist.length ? " mixed" : ""}" id="sy-bands"><div class="sy-cols">${ids.map(stateBlock).join("")}${cityStates}</div></div>
-    <p class="stats" style="padding-top:12px">${SYS.dlist.length ? "One dot per city, largest first within each state. Squares are districts (Landkreise); an empty one has not been inspected yet." : "One square per city, largest first within each state."}</p>
-    <details class="sy-note"><summary>How to read this</summary><p>${esc(SYS_METHOD_NOTE)}</p><p>Checked against federal and EU law. City inspections can include service directories; these cover listings, not detailed guidance.</p><p>${sysShareNote(SYS.list, "cities")}${sysShareNote(SYS.dlist, "districts")}These shares cover only the places inspected.</p></details>${sysGradeNote(SYS.list.concat(SYS.dlist).flatMap(c => c.F))}`;
+    ${SYS.dlist.length ? '<p class="stats" style="padding-top:12px">Dots: cities. Squares: districts.</p>' : ""}
+    ${sysGradeNote(SYS.list.concat(SYS.dlist).flatMap(c => c.F))}`;
 }
 
 function afterSys(sw = SYS) {
@@ -1846,7 +1835,7 @@ function cityTally(c, f) {
     const items = [["bad", c.bad, problemLabel], ["amb", c.amb, c.amb === 1 ? "unclear finding" : "unclear findings"],
       ["amb", a.unresolved_count, a.unresolved_count === 1 ? "unresolved check" : "unresolved checks"], ["ok", a.negative_checks, a.negative_checks === 1 ? "check with nothing found" : "checks with nothing found"]].filter(x => x[1]);
     const when = f.done ? ` · ${sysDateRange(f.first, f.done)}` : "";
-    return `<ul class="cp-sum">${items.map(([k,n,w]) => `<li><i class="cp-sq ${k}"></i><b>${n}</b>${w}</li>`).join("")}</ul><p class="cp-ctx">${esc(plural(c.read, "page", "pages"))} read${when}. ${plural(a.assessment_count, "issue check", "issue checks")}.</p>`;
+    return `<ul class="cp-sum">${items.map(([k,n,w]) => `<li><i class="cp-sq ${k}"></i><b>${n}</b>${w}</li>`).join("")}</ul><p class="cp-ctx">${esc(plural(c.read, "page", "pages"))} read${when}.</p>`;
   }
   if (!c.F.length && !c.read) return "";
   const ok = c.pages.filter(p => p[0] === "ok").length;
