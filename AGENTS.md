@@ -56,6 +56,7 @@ The owner requested concise MVP copy. These rules supersede older requirements t
 - Place headers already show page counts and dates. Omit a generic “Scope and limits” disclosure; directory-only inspections retain one short explanatory sentence.
 - Keep the grading explanation brief, including the distinction between major/minor, possible consequences, AI provenance and ungraded findings.
 - Do not add generic “no actual harm/refusal” boilerplate to every issue case. Preserve each finding’s specific scope, exceptions, contrary evidence, uncertainty, original quotations and translations. Do not strip sentences from findings with a blanket text filter.
+- Omit population-ranking dates, council/urban-area boundary explanations and error-rate caveats from public overview copy, including folded notes. These belong in research records.
 - Preserve the layout, counts, grades and inspection rules.
 
 ### Unified summaries (13 November 2026)

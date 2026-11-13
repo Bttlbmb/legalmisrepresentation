@@ -1670,7 +1670,7 @@ function sysCountryHome(L, sw) {
     <div class="sy-keys" role="group" aria-label="Filter places">${SYS_KEYS.map(k => `<button type="button" data-k="${k}" aria-pressed="false"><i class="${k}"></i>${SYS_LABEL[k]} · ${fmtN(sw.cnt[k])}</button>`).join("")}</div>
     <div class="sy-bands mixed${sw.members ? " sy-combined" : ""}" id="sy-bands"><div class="sy-cols">${cards}</div></div>
     <p class="stats" style="padding-top:12px">One dot per place, largest first within each ${sw.members && !sw.preserveGroups ? "country" : "group"}. An empty dot has not been inspected yet.</p>
-    <details class="sy-note"><summary>How to read this</summary><p>${esc(SYS_METHOD_NOTE)}</p><p>${(sw.id === "australia-new-zealand" ? [] : sw.members || [sw]).map(member => `${sw.members ? `${esc(member.tab)}: ` : ""}${esc(sysLawLabel(member))}.`).join(" ")}${sw.id === "uk-ireland" ? " Northern Ireland remains in the UK cohort." : ""}${sw.id === "australia-new-zealand" ? " Urban areas can span several councils." : ""}</p></details>${sysGradeNote(sw.list.flatMap(c => c.F))}`;
+    <details class="sy-note"><summary>How to read this</summary><p>${esc(SYS_METHOD_NOTE)}</p>${sw.id === "australia-new-zealand" ? "" : `<p>${(sw.members || [sw]).map(member => `${sw.members ? `${esc(member.tab)}: ` : ""}${esc(sysLawLabel(member))}.`).join(" ")}${sw.id === "uk-ireland" ? " Northern Ireland remains in the UK cohort." : ""}</p>`}</details>${sysGradeNote(sw.list.flatMap(c => c.F))}`;
 }
 function sysHome(L) {
   const stateBlock = id => {
