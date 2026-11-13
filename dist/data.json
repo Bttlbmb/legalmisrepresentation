@@ -1933,6 +1933,54 @@
      "cases": [
       "euweb-services-spain-court-adjustments-age"
      ]
+    },
+    {
+     "id": "free-repair-duty-relief",
+     "title": "Import duty after a free repair",
+     "lawKey": "What the law says",
+     "claimKey": "What the page says",
+     "law": "This relief does not apply if the defect was already taken into account when customs first cleared the goods for free circulation. Other relief may still apply.",
+     "provision": "Union Customs Code, Art. 260(1)–(2)",
+     "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0952-20221212",
+     "cases": [
+      "euweb-round2-business-taxud-free-repair-relief"
+     ]
+    },
+    {
+     "id": "ship-luggage-notice",
+     "title": "Claim compensation for ship luggage damage",
+     "lawKey": "What the law says",
+     "claimKey": "What the page says",
+     "law": "Missing the required notice deadline creates an assumption that the luggage arrived undamaged. You can prove otherwise; the claim is not automatically lost.",
+     "provision": "Regulation 392/2009, Annex I, Art. 15(2)-(3)",
+     "lawUrl": "https://eur-lex.europa.eu/eli/reg/2009/392/oj/eng",
+     "cases": [
+      "euweb-round2-mobility-ship-luggage-notice"
+     ]
+    },
+    {
+     "id": "germany-court-value",
+     "title": "Which German court hears a civil claim?",
+     "lawKey": "What the law says",
+     "claimKey": "What the page says",
+     "law": "For cases started from 1 January 2026, the usual local-court limit is €10,000. Special rules can assign a case to a different court.",
+     "provision": "§ 23 No. 1 GVG; § 44 EGGVG",
+     "lawUrl": "https://www.rakba.de/f/e/source/Aktuelles/2025/Zust%C3%A4ndigkeitsstreitwert.pdf",
+     "cases": [
+      "euweb-round2-services-germany-court-value"
+     ]
+    },
+    {
+     "id": "germany-simplified-procedure",
+     "title": "Simplified local-court procedure in Germany",
+     "lawKey": "What the law says",
+     "claimKey": "What the page says",
+     "law": "The court can choose a simpler procedure for claims up to €1,000. Either party can require an oral hearing.",
+     "provision": "§ 495a ZPO",
+     "lawUrl": "https://www.gesetze-im-internet.de/zpo/__495a.html",
+     "cases": [
+      "euweb-round2-services-germany-simplified-threshold"
+     ]
     }
    ]
   }
@@ -25179,6 +25227,148 @@
     {
      "lang": "English",
      "text": "those over 60 who so request"
+    }
+   ]
+  },
+  "euweb-round2-business-taxud-free-repair-relief": {
+   "id": "euweb-round2-business-taxud-free-repair-relief",
+   "area": "euweb",
+   "topic": "free-repair-duty-relief",
+   "pub": "European Commission (Taxation and Customs Union)",
+   "src": "Exportation",
+   "claim": "Promises full duty relief when goods are re-imported after a free repair of a manufacturing or material defect.",
+   "quote": "‘Outward processing’ is a special customs procedure in which EU goods are temporarily exported from the EU customs territory to undergo processing operations. The processed products resulting from these goods can be re-imported and released for free circulation with total or partial relief from import duty.\nA total relief from import duties must be granted when goods have been exported merely to be repaired free of charge because of a contractual obligation or because of a manufacturing or material defect. In other cases, the import duties on the re-imported products are calculated only on the basis of the value resulting from the processing operation undertaken outside the EU customs territory.\nOutward processing is designed to give businesses the possibility to take advantage of benefits such as lower labour costs or specific technical expertise in non-EU countries.\nAn authorisation from customs authorities is required for the use of the outward processing procedure. The competent customs authorities must specify the period within which the outward processing procedure is to be discharged. Such authorisation can also allow businesses to previously import non-agricultural processed products obtained in a third country in return for the export of an equivalent quantity of EU raw materials – in this case, a guarantee must be provided.\nThe main requirements to obtain such authorisations are:\n* To be established in the EU customs territory, and\n* To provide necessary assurance of the proper conduct of the operations.\nFor EU goods to be placed under the outward processing procedure, the formalities for the export procedure also apply (Article 269(3) UCC).",
+   "lang": "English",
+   "tr": "",
+   "law": "This relief does not apply if the defect was already taken into account when customs first cleared the goods for free circulation. Other relief may still apply.",
+   "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/exportation_en",
+   "lawUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0952-20221212",
+   "example": "Hypothetical: An EU trader imports goods with a manufacturing defect already taken into account when customs first releases them for free circulation. The trader later sends the same goods outside the EU for free repair of that defect under an authorised outward-processing procedure. The goods are re-imported within the authorised period. Assume no separate treaty relief, replacement-product route or other exemption applies. The specific full-relief rule does not apply. Any duty needs a separate calculation; no amount is asserted here.",
+   "context": "The page also requires customs authorisation and lists its main conditions. It explains ordinary duty calculations but gives no direct link to the free-repair exception.",
+   "scope": "This concerns promised full relief after a free repair. It covers the exception for a defect already considered at the first release for free circulation. It does not establish that duty must be paid or how much.",
+   "date": "2026-11-13",
+   "langs": [
+    "English"
+   ],
+   "countries": [],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "‘Outward processing’ is a special customs procedure in which EU goods are temporarily exported from the EU customs territory to undergo processing operations. The processed products resulting from these goods can be re-imported and released for free circulation with total or partial relief from import duty.\nA total relief from import duties must be granted when goods have been exported merely to be repaired free of charge because of a contractual obligation or because of a manufacturing or material defect. In other cases, the import duties on the re-imported products are calculated only on the basis of the value resulting from the processing operation undertaken outside the EU customs territory.\nOutward processing is designed to give businesses the possibility to take advantage of benefits such as lower labour costs or specific technical expertise in non-EU countries.\nAn authorisation from customs authorities is required for the use of the outward processing procedure. The competent customs authorities must specify the period within which the outward processing procedure is to be discharged. Such authorisation can also allow businesses to previously import non-agricultural processed products obtained in a third country in return for the export of an equivalent quantity of EU raw materials – in this case, a guarantee must be provided.\nThe main requirements to obtain such authorisations are:\n* To be established in the EU customs territory, and\n* To provide necessary assurance of the proper conduct of the operations.\nFor EU goods to be placed under the outward processing procedure, the formalities for the export procedure also apply (Article 269(3) UCC).",
+     "tr": "",
+     "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/exportation_en",
+     "site": "European Commission — Directorate-General for Taxation and Customs Union"
+    }
+   ]
+  },
+  "euweb-round2-mobility-ship-luggage-notice": {
+   "id": "euweb-round2-mobility-ship-luggage-notice",
+   "area": "euweb",
+   "topic": "ship-luggage-notice",
+   "pub": "Your Europe",
+   "src": "Ship passenger rights",
+   "claim": "Says missing the 15-day ship-luggage notice deadline ends your compensation rights.",
+   "quote": "### Loss or damage to luggage and vehicles\n\nIf your cabin luggage and or vehicle is lost or damaged due to a shipping incident, you must inform the carrier or its agent in writing. Ideally, you should do this before you leave the ship, or when your luggage is eventually delivered. At the very latest, you must inform the carrier within 15 days of disembarking the ship or delivery of your luggage, otherwise you lose your right to compensation.\nYou must bring your claim to the courts within 2 years from the date of disembarkation or 2 years from the date when disembarkation should have taken place - whichever date is later.\n\nYou can submit a claim for compensation for any loss or damage caused by an incident at sea to a court in the country:\n  * where the carrier has its main place of business or permanent residence, or\n  * of your place of departure or destination, or\n  * where you permanently live – if the carrier has a place of business there and is subject to that country's jurisdiction, or\n  * where the travel contract was concluded – if the carrier has a place of business there and is subject to that country's jurisdiction.",
+   "lang": "English",
+   "tr": "",
+   "law": "Missing the required notice deadline creates an assumption that the luggage arrived undamaged. You can prove otherwise; the claim is not automatically lost.",
+   "sourceUrl": "https://europa.eu/youreurope/citizens/travel/passenger-rights/ship/index_en.htm",
+   "lawUrl": "https://eur-lex.europa.eu/eli/reg/2009/392/oj/eng",
+   "example": "Hypothetical: A passenger takes an international ferry from France to Italy. A ship fire damages their cabin luggage. They give written notice only on day 20 after leaving the ship. Assume reliable evidence proves the damage happened during the journey and the carrier is liable. No other defence applies, and the court claim is made within the applicable time limit. The passenger can overturn the assumption that the luggage arrived undamaged. Late notice does not automatically end the claim; merely alleging damage does not guarantee compensation.",
+   "context": "The page gives a separate time limit for court claims and general complaint routes. These do not qualify its statement that missing notice ends compensation rights. Written notice is unnecessary if the luggage’s condition was jointly inspected when it was received. A current directory lists this service, but its links were not recovered or followed.",
+   "scope": "International sea journeys covered by EU rules on carrier liability. The example concerns cabin luggage, proven damage during the journey and a court claim made in time. Liability, the cause of the damage, compensation limits and other defences still apply.",
+   "date": "2026-11-13",
+   "langs": [
+    "English"
+   ],
+   "countries": [],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "### Loss or damage to luggage and vehicles\n\nIf your cabin luggage and or vehicle is lost or damaged due to a shipping incident, you must inform the carrier or its agent in writing. Ideally, you should do this before you leave the ship, or when your luggage is eventually delivered. At the very latest, you must inform the carrier within 15 days of disembarking the ship or delivery of your luggage, otherwise you lose your right to compensation.\nYou must bring your claim to the courts within 2 years from the date of disembarkation or 2 years from the date when disembarkation should have taken place - whichever date is later.\n\nYou can submit a claim for compensation for any loss or damage caused by an incident at sea to a court in the country:\n  * where the carrier has its main place of business or permanent residence, or\n  * of your place of departure or destination, or\n  * where you permanently live – if the carrier has a place of business there and is subject to that country's jurisdiction, or\n  * where the travel contract was concluded – if the carrier has a place of business there and is subject to that country's jurisdiction.",
+     "tr": "",
+     "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/ship/index_en.htm",
+     "site": "English"
+    }
+   ],
+   "ctx": [
+    {
+     "lang": "English",
+     "quote": "## Rights in the event of delays and cancellations\n\nEU rules on ship passenger rights usually apply when you travel on most ferries and cruise ships by sea or on inland waterways (rivers, lakes or canals) and if you:\n\n  * sail from an EU port\n  * sail to an EU port from a port outside the EU, if the service is operated by an EU transport company\n  * sail from an EU port on a pleasure/recreational cruise if accommodation is offered together with other facilities, with more than 2 overnight stays on board.\nThese rules do not apply to:\n\n  * ships that can carry up to 12 passengers\n  * ships that have no more than 3 crew members\n  * ships that cover a distance of less than 500 metres – one way\n  * most types of historical ships\n  * excursions and sightseeing ships – if they do not have accommodation facilities, or if the overnight stay does not exceed 2 nights on board.\nThroughout your journey, the operator has to provide clear and correct information about the service and your passenger rights, including access conditions for people with disabilities or reduced mobility. This information should also be available in a format accessible for people with disabilities.\n## Rights in the event of incidents at sea\n\nEU rules also cover you, your luggage, your vehicle and if relevant, your mobility equipment in the event of an incident at sea. These rules also set out the carrier's liabilities in this respect. These rules may apply to domestic sea journeys as well as all international journeys where:\n\n  * the ship is registered in an EU country\n  * the contract for the journey was concluded in an EU country\n  * the ship departs and/or arrives in an EU port\nBefore you travel the carrier must provide you with clear and appropriate information on your rights if you buy your ticket in an EU country or at the latest upon departure if you leave from a non-EU country.",
+     "tr": "",
+     "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/ship/index_en.htm"
+    },
+    {
+     "lang": "English",
+     "quote": "## Complaints related to ship passenger rights\nIf you think your rights have not been respected, you should make a complaint to the carrier or terminal operator within 2 months of the scheduled service during which the problem occurred. The carrier must react within 1 month and give you a final reply no more than 2 months after receiving your complaint. If you are not satisfied with the reply, you can lodge a complaint with the relevant national authorities in your country.\nThe national authority should provide you with a non-binding legal opinion on how to proceed with your claim.\nYou can also try to resolve your dispute by using out-of-court procedures of an alternative dispute resolution entity. Alternative dispute resolution is only available to EU residents.\nYou may wish to resort to formal legal action and submit a claim for compensation under EU rules using the European Small Claims procedure. You may also bring the matter before the courts in the country where the carrier is registered. The time limits for bringing an action against a carrier in a national court are defined in accordance with national rules on the limitation of actions in each EU country.\nYou can also consult your local European Consumer Centre for help and advice on problems related to ship passenger rights.",
+     "tr": "",
+     "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/ship/index_en.htm"
+    }
+   ]
+  },
+  "euweb-round2-services-germany-court-value": {
+   "id": "euweb-round2-services-germany-court-value",
+   "area": "euweb",
+   "topic": "germany-court-value",
+   "pub": "European e-Justice Portal",
+   "src": "National ordinary courts",
+   "claim": "Gives €5,000 as the usual limit for ordinary civil claims at Germany’s local courts.",
+   "quote": "## Ordinary courts - introduction\n## Jurisdiction in civil matters\n\nLocal courts (Amtsgerichte) as courts of first instance deal with civil cases – mainly those where the value of the claim is up to €5 000. They also deal with some cases, such as rental disputes and family and maintenance matters, irrespective of the value of the claim.\n\nCases in local courts are heard by a single judge.\nRegional courts (Landgerichte) as courts of first instance deal with all civil cases which do not fall within the jurisdiction of local courts. These are usually disputes where the value of the claim is more than €5 000.",
+   "lang": "English",
+   "tr": "",
+   "law": "For cases started from 1 January 2026, the usual local-court limit is €10,000. Special rules can assign a case to a different court.",
+   "sourceUrl": "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-ordinary-courts/de_en",
+   "lawUrl": "https://www.rakba.de/f/e/source/Aktuelles/2025/Zust%C3%A4ndigkeitsstreitwert.pdf",
+   "example": "Hypothetical: A person brings a new €7,500 claim about a sale in November 2026. Assume German courts can hear the case and it is brought in the correct local area. No earlier proceedings are pending. No special court-assignment rule applies, including rules for family, tenancy, labour, medical, construction, procurement, publication, intellectual-property or public-office liability cases. The usual value rule sends this claim to the local court. The English page instead points claims above €5,000 towards the regional court. This says nothing about whether the claim succeeds.",
+   "context": "The German version and another English court guide give the current €10,000 limit. The German page links to this English page. This English page was updated in 2021 and carries a translation disclaimer. It was read on 13 November 2026, but later access was blocked.",
+   "scope": "Only the English page’s general value limit for new ordinary civil cases. Special rules assigning cases to particular courts are excluded.",
+   "date": "2026-11-13",
+   "langs": [
+    "English"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "## Ordinary courts - introduction\n## Jurisdiction in civil matters\n\nLocal courts (Amtsgerichte) as courts of first instance deal with civil cases – mainly those where the value of the claim is up to €5 000. They also deal with some cases, such as rental disputes and family and maintenance matters, irrespective of the value of the claim.\n\nCases in local courts are heard by a single judge.\nRegional courts (Landgerichte) as courts of first instance deal with all civil cases which do not fall within the jurisdiction of local courts. These are usually disputes where the value of the claim is more than €5 000.",
+     "tr": "",
+     "url": "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-ordinary-courts/de_en",
+     "site": "European e-Justice Portal"
+    }
+   ]
+  },
+  "euweb-round2-services-germany-simplified-threshold": {
+   "id": "euweb-round2-services-germany-simplified-threshold",
+   "area": "euweb",
+   "topic": "germany-simplified-procedure",
+   "pub": "European e-Justice Portal",
+   "src": "Small claims",
+   "claim": "Gives €600 as the limit for Germany’s simplified local-court procedure.",
+   "quote": "## 1 Existence of a specific small claims procedure\n### 1.1 Scope of procedure, threshold\nThere is no special procedure for small claims in the Code of Civil Procedure (Zivilprozessordnung). However, in proceedings before the local courts (Amtsgerichte), Section 495a of the Code does make provision for a simplified procedure. It allows the court to decide how to proceed, at its reasonable discretion, in cases where the value in dispute is €600 or less. The Code does not restrict this possibility in any other way: for example, it does not confine it to any particular type of dispute.\n### 1.2 Application of procedure\n\nIn such cases, therefore, the court may decide how to proceed at its reasonable discretion and may, in particular, make use of certain specific ways of simplifying the procedure. The court is not obliged to do this. Even where the value in dispute is less than €600 the court may also proceed under the usual rules.\n\nIf the court determines its procedure at its own discretion, the parties cannot object. They may only request an oral hearing.",
+   "lang": "English",
+   "tr": "",
+   "law": "The court can choose a simpler procedure for claims up to €1,000. Either party can require an oral hearing.",
+   "sourceUrl": "https://e-justice.europa.eu/topics/money-monetary-claims/small-claims/de_en",
+   "lawUrl": "https://www.gesetze-im-internet.de/zpo/__495a.html",
+   "example": "Hypothetical: In November 2026, a court hears a new ordinary local-court claim for €800. The court can choose this simpler procedure even though the claim exceeds €600. It may instead use the usual procedure. Either party can require an oral hearing. This does not guarantee a faster or cheaper result.",
+   "context": "The German version gives the current €1,000 limit and links to the English page. The two versions have different update dates and a translation disclaimer. The English page was read on 13 November 2026, but later access was blocked.",
+   "scope": "This is Germany’s national procedure, not the separate European Small Claims Procedure. The court can choose it; a party cannot demand it.",
+   "date": "2026-11-13",
+   "langs": [
+    "English"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "versions": [
+    {
+     "lang": "English",
+     "quote": "## 1 Existence of a specific small claims procedure\n### 1.1 Scope of procedure, threshold\nThere is no special procedure for small claims in the Code of Civil Procedure (Zivilprozessordnung). However, in proceedings before the local courts (Amtsgerichte), Section 495a of the Code does make provision for a simplified procedure. It allows the court to decide how to proceed, at its reasonable discretion, in cases where the value in dispute is €600 or less. The Code does not restrict this possibility in any other way: for example, it does not confine it to any particular type of dispute.\n### 1.2 Application of procedure\n\nIn such cases, therefore, the court may decide how to proceed at its reasonable discretion and may, in particular, make use of certain specific ways of simplifying the procedure. The court is not obliged to do this. Even where the value in dispute is less than €600 the court may also proceed under the usual rules.\n\nIf the court determines its procedure at its own discretion, the parties cannot object. They may only request an oral hearing.",
+     "tr": "",
+     "url": "https://e-justice.europa.eu/topics/money-monetary-claims/small-claims/de_en",
+     "site": "European e-Justice Portal"
     }
    ]
   }
@@ -181366,9 +181556,38 @@
        "amb",
        "https://www.watford.gov.uk/transparency-open-data-1/information-request",
        "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.watford.gov.uk/help-finding-home/looking-private-rented-home",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Describes the usual private tenancy as a fixed term of six or twelve months.",
+       "page": "Looking for a private rented home – www.watford.gov.uk",
+       "url": "https://www.watford.gov.uk/help-finding-home/looking-private-rented-home",
+       "lang": "English",
+       "q": "Setting up a private rented tenancy\n\nGov.uk gives comprehensive advice on how to set up a private rented tenancy. The most common type of tenancy issued by a private landlord is an assured shorthold tenancy which has a fixed period of 6 or 12 months and sometimes longer.",
+       "tr": "",
+       "why": "New private assured tenancies must be rolling, with no fixed end date. Tenants can usually leave with two months’ notice.",
+       "prov": "Housing Act 1988, s. 4A; Protection from Eviction Act 1977, s. 5(1ZA)(a)",
+       "lawUrl": "https://www.legislation.gov.uk/ukpga/1988/50/section/4A",
+       "date": "2026-11-13",
+       "service": "Find a private rented home",
+       "g": "M",
+       "scope": "New ordinary private assured tenancies in England entered into on or after 1 May 2026. Social housing, non-assured lettings and older tenancies covered by transitional possession notices are excluded. This concerns general guidance for setting up a tenancy. It does not assess a landlord’s separate promise to keep a tenancy going for a minimum period under a council incentive scheme.",
+       "context": "The linked Shelter guide explains the 1 May 2026 change and exceptions for some older tenancies. This finding concerns new private assured tenancies only.",
+       "publisher": "Watford Borough Council",
+       "id": "city/gb-place-0051/2026-11-13--uk-cities-finding-free-hour-supplement/united-kingdom-cities-gb-place-0051-private-tenancy-fixed-term",
+       "identity": "city/gb-place-0051/2026-11-13--uk-cities-finding-free-hour-supplement/united-kingdom-cities-gb-place-0051-private-tenancy-fixed-term",
+       "place_id": "gb-place-0051",
+       "versions": [],
+       "context_quotes": []
+      }
+     ],
      "",
      "England",
      {
@@ -181415,6 +181634,22 @@
         "urls": [
          "https://www.watford.gov.uk/transparency-open-data-1/information-request"
         ]
+       },
+       {
+        "case_ids": [
+         "united-kingdom-cities-gb-place-0051-private-tenancy-fixed-term"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/gb-place-0051/2026-11-13--uk-cities-finding-free-hour-supplement/0",
+        "issue_id": "private-tenancy-fixed-term",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--uk-cities-finding-free-hour-supplement",
+        "superseded_by": null,
+        "urls": [
+         "https://www.watford.gov.uk/help-finding-home/looking-private-rented-home"
+        ]
        }
       ],
       "pages": [
@@ -181456,6 +181691,19 @@
          "2026-11-05"
         ],
         "url": "https://www.watford.gov.uk/transparency-open-data-1/information-request"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/gb-place-0051/2026-11-13--uk-cities-finding-free-hour-supplement/0"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://www.watford.gov.uk/help-finding-home/looking-private-rented-home"
        }
       ],
       "read_observations": [
@@ -181479,16 +181727,23 @@
         ],
         "checked_at": "2026-11-05",
         "url": "https://www.watford.gov.uk/transparency-open-data-1/information-request"
+       },
+       {
+        "assessment_ids": [
+         "assessment/gb-place-0051/2026-11-13--uk-cities-finding-free-hour-supplement/0"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://www.watford.gov.uk/help-finding-home/looking-private-rented-home"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 3,
-       "effective_assessment_count": 3,
+       "assessment_count": 4,
+       "effective_assessment_count": 4,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-05",
+       "last_read": "2026-11-13",
        "negative_checks": 2,
-       "read_pages": 3,
+       "read_pages": 4,
        "unresolved_count": 1
       }
      }
@@ -188931,7 +189186,7 @@
      81,
      "Preston (Preston)",
      94490,
-     "l",
+     "s",
      [
       [
        "x",
@@ -188947,9 +189202,38 @@
        "x",
        "https://www.preston.gov.uk/article/1112/Apprentices-Council-Tax-discount",
        "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.preston.gov.uk/article/1006/A-brief-guide-to-benefits",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says you must claim a Sure Start Maternity Grant within three months after the birth.",
+       "page": "A brief guide to benefits - Preston City Council",
+       "url": "https://www.preston.gov.uk/article/1006/A-brief-guide-to-benefits",
+       "lang": "English",
+       "q": "Sure Start Maternity Grant\n\nYou could get a one-off payment of £500 to help towards the costs of having a child. This is known as a Sure Start Maternity Grant. You usually qualify for the grant if:\n• you're expecting your first child - or you're expecting a multiple birth (eg twins) and have children already\n• you already get certain benefits\n\nYou must claim the grant within 11 weeks of the baby's due date or within 3 months after the baby's birth. You don't have to pay the grant back and it won't affect your other benefits or tax credits. For more information see the GOV.UK - Sure Start Maternity Grant page.",
+       "tr": "",
+       "why": "You can claim the £500 grant up to six months after the birth if you meet the other conditions.",
+       "prov": "Social Security (Claims and Payments) Regulations 1987, reg. 19(1), Sch. 4 para. 8(a)",
+       "lawUrl": "https://www.legislation.gov.uk/uksi/1987/1968/schedule/4",
+       "date": "2026-11-13",
+       "service": "Benefits guide",
+       "g": "M",
+       "scope": "A Preston resident claims after three months but within six months of a recent birth covered by regulation 5(3)(a). All qualifying-benefit, family, residence, evidence and other conditions are met. Adoption, guardianship, multiple-birth amounts and special extensions are outside this comparison.",
+       "context": "The council links directly to GOV.UK, which gives the correct six-month deadline. Its general introduction also recommends contacting the council about eligibility.",
+       "publisher": "Preston City Council",
+       "id": "city/gb-place-0081/2026-11-13--uk-cities-finding-free-hour/united-kingdom-cities-gb-place-0081-maternity-grant-claim-deadline",
+       "identity": "city/gb-place-0081/2026-11-13--uk-cities-finding-free-hour/united-kingdom-cities-gb-place-0081-maternity-grant-claim-deadline",
+       "place_id": "gb-place-0081",
+       "versions": [],
+       "context_quotes": []
+      }
+     ],
      "",
      "England",
      {
@@ -189018,6 +189302,22 @@
         "urls": [
          "https://www.preston.gov.uk/article/1112/Apprentices-Council-Tax-discount"
         ]
+       },
+       {
+        "case_ids": [
+         "united-kingdom-cities-gb-place-0081-maternity-grant-claim-deadline"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/gb-place-0081/2026-11-13--uk-cities-finding-free-hour/0",
+        "issue_id": "maternity-grant-claim-deadline",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--uk-cities-finding-free-hour",
+        "superseded_by": null,
+        "urls": [
+         "https://www.preston.gov.uk/article/1006/A-brief-guide-to-benefits"
+        ]
        }
       ],
       "pages": [
@@ -189059,17 +189359,38 @@
         ],
         "read_dates": [],
         "url": "https://www.preston.gov.uk/article/1112/Apprentices-Council-Tax-discount"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/gb-place-0081/2026-11-13--uk-cities-finding-free-hour/0"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://www.preston.gov.uk/article/1006/A-brief-guide-to-benefits"
        }
       ],
-      "read_observations": [],
+      "read_observations": [
+       {
+        "assessment_ids": [
+         "assessment/gb-place-0081/2026-11-13--uk-cities-finding-free-hour/0"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://www.preston.gov.uk/article/1006/A-brief-guide-to-benefits"
+       }
+      ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 3,
-       "effective_assessment_count": 3,
-       "first_read": null,
-       "last_read": null,
+       "assessment_count": 4,
+       "effective_assessment_count": 4,
+       "first_read": "2026-11-13",
+       "last_read": "2026-11-13",
        "negative_checks": 0,
-       "read_pages": 0,
+       "read_pages": 1,
        "unresolved_count": 0
       }
      }
@@ -197335,9 +197656,61 @@
        "ok",
        "https://www.fortworthtexas.gov/departments/econdev/veterans/resources-for-veterans",
        "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.fortworthtexas.gov/departments/hr/employees/benefits/medical/hippa",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says its own treatment, payment and healthcare operations do not need written permission to use psychotherapy notes.",
+       "page": "Notice of Privacy Rights – Welcome to the City of Fort Worth",
+       "url": "https://www.fortworthtexas.gov/departments/hr/employees/benefits/medical/hippa",
+       "lang": "English",
+       "q": "Uses and Disclosures of Your PHI That Require Your Written Consent.\nAny other use or disclosure of PHI, other than those listed above, will only be made with your written authorization (the authorization must specifically identify the information we seek to use or disclose, as well as when and how we seek to use or disclose it).\nSpecifically, we must obtain your written authorization before using or disclosing your: (a) psychotherapy notes, other than for the purpose of carrying out our own treatment, payment or health care operations purposes, (b) PHI for marketing when we receive payment to make a marketing communication; or (c) PHI when engaging in a sale of your PHI.\nYou may revoke your authorization at any time, in writing, except to the extent that we have already used or disclosed medical information in reliance on that authorization.",
+       "tr": "",
+       "why": "Separately kept psychotherapy notes usually need your written permission. Routine billing alone is not an exception. Limited exceptions include treatment by the writer, supervised mental-health training and defending a case you bring.",
+       "prov": "45 CFR 164.508(a)(2)",
+       "lawUrl": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.508",
+       "date": "2026-11-13",
+       "service": "Health information privacy",
+       "g": "M",
+       "scope": "Qualifying psychotherapy notes held separately by a city service covered by US medical-privacy law (HIPAA). These are mental-health session notes, not ordinary treatment summaries, diagnoses or billing records.",
+       "context": "The notice sits under employee medical benefits but discusses patients and ambulance care. It names the City and its HR privacy officer. This compares the stated rule, conditional on the city service and records being covered by HIPAA. Which services are covered, what records they hold and their actual practices were not established.",
+       "publisher": "City of Fort Worth",
+       "id": "city/4827000/2026-11-13--us-cities-unassigned-texas-extension/united-states-cities-4827000-psychotherapy-notes-payment-operations",
+       "identity": "city/4827000/2026-11-13--us-cities-unassigned-texas-extension/united-states-cities-4827000-psychotherapy-notes-payment-operations",
+       "place_id": "4827000",
+       "versions": [],
+       "context_quotes": []
+      },
+      {
+       "s": "bad",
+       "claim": "Says disclosures to law enforcement do not have to appear in the record of who received your medical information.",
+       "page": "Notice of Privacy Rights – Welcome to the City of Fort Worth",
+       "url": "https://www.fortworthtexas.gov/departments/hr/employees/benefits/medical/hippa",
+       "lang": "English",
+       "q": "3. Right to request an accounting of uses and disclosures of your PHI. You may request an accounting from us of disclosures of your medical information. If you wish to request an accounting of disclosures of your PHI that are subject to the accounting requirement, you should contact our Privacy Officer and make a request in writing. You have the right to receive an accounting of certain disclosures of your PHI made within six (6) years immediately preceding your request.\nBut, we are not required to provide you with an accounting of disclosures of your PHI: (a) for purposes of treatment, payment, or healthcare operations; (b) for disclosures that you expressly authorized; (c) disclosures made to you, your family or friends, or (d) for disclosures made for law enforcement or certain other governmental purposes.",
+       "tr": "",
+       "why": "Some police disclosures must appear in the record you can request. Specific exceptions apply, including certain custody and national-security disclosures. Investigators can sometimes require a temporary delay.",
+       "prov": "45 CFR 164.528(a)(1)–(2)",
+       "lawUrl": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.528",
+       "date": "2026-11-13",
+       "service": "Health information privacy",
+       "g": "M",
+       "scope": "Police disclosures by a city service covered by US medical-privacy law (HIPAA), where the disclosure must otherwise appear in the record you can request. Custody, national-security, valid-permission and other legal exceptions are excluded.",
+       "context": "The notice sits under employee medical benefits but discusses patients and ambulance care. It names the City and its HR privacy officer. This compares the stated rule, conditional on the city service and records being covered by HIPAA. Which services are covered, what records they hold and their actual practices were not established.",
+       "publisher": "City of Fort Worth",
+       "id": "city/4827000/2026-11-13--us-cities-unassigned-texas-extension/united-states-cities-4827000-law-enforcement-accounting-exclusion",
+       "identity": "city/4827000/2026-11-13--us-cities-unassigned-texas-extension/united-states-cities-4827000-law-enforcement-accounting-exclusion",
+       "place_id": "4827000",
+       "versions": [],
+       "context_quotes": []
+      }
+     ],
      "",
      "Texas",
      {
@@ -197484,6 +197857,38 @@
         "urls": [
          "https://www.fortworthtexas.gov/departments/econdev/veterans/resources-for-veterans"
         ]
+       },
+       {
+        "case_ids": [
+         "united-states-cities-4827000-psychotherapy-notes-payment-operations"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/4827000/2026-11-13--us-cities-unassigned-texas-extension/0",
+        "issue_id": "psychotherapy-notes-payment-operations",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--us-cities-unassigned-texas-extension",
+        "superseded_by": null,
+        "urls": [
+         "https://www.fortworthtexas.gov/departments/hr/employees/benefits/medical/hippa"
+        ]
+       },
+       {
+        "case_ids": [
+         "united-states-cities-4827000-law-enforcement-accounting-exclusion"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/4827000/2026-11-13--us-cities-unassigned-texas-extension/1",
+        "issue_id": "law-enforcement-accounting-exclusion",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--us-cities-unassigned-texas-extension",
+        "superseded_by": null,
+        "urls": [
+         "https://www.fortworthtexas.gov/departments/hr/employees/benefits/medical/hippa"
+        ]
        }
       ],
       "pages": [
@@ -197595,6 +198000,20 @@
          "2026-11-10"
         ],
         "url": "https://www.fortworthtexas.gov/departments/econdev/veterans/resources-for-veterans"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/4827000/2026-11-13--us-cities-unassigned-texas-extension/0",
+         "assessment/4827000/2026-11-13--us-cities-unassigned-texas-extension/1"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://www.fortworthtexas.gov/departments/hr/employees/benefits/medical/hippa"
        }
       ],
       "read_observations": [
@@ -197647,16 +198066,24 @@
         ],
         "checked_at": "2026-11-10",
         "url": "https://www.fortworthtexas.gov/departments/econdev/veterans/resources-for-veterans"
+       },
+       {
+        "assessment_ids": [
+         "assessment/4827000/2026-11-13--us-cities-unassigned-texas-extension/0",
+         "assessment/4827000/2026-11-13--us-cities-unassigned-texas-extension/1"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://www.fortworthtexas.gov/departments/hr/employees/benefits/medical/hippa"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 9,
-       "effective_assessment_count": 9,
+       "assessment_count": 11,
+       "effective_assessment_count": 11,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-10",
+       "last_read": "2026-11-13",
        "negative_checks": 3,
-       "read_pages": 7,
+       "read_pages": 8,
        "unresolved_count": 4
       }
      }
@@ -200593,9 +201020,61 @@
        "amb",
        "https://www.nashville.gov/departments/register-deeds/services/passport-services/new-passport",
        "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.nashville.gov/sites/default/files/2024-12/Metro-FMLA-Handbook-2024-Update.pdf?ct=1733151569",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires five working days’ notice before returning early from family and medical leave.",
+       "page": "Metropolitan Government of Nashville and Davidson County Family and Medical Leave Act (FMLA) Policy Handbook",
+       "url": "https://www.nashville.gov/sites/default/files/2024-12/Metro-FMLA-Handbook-2024-Update.pdf?ct=1733151569",
+       "lang": "English",
+       "q": "If you are using long-term, continuous FMLA leave for your own serious health condition, you may be required to complete, (prior to your actual return), an “Intent To Return and Fitness For Duty/Medical Release” form, found on the Metro Human Resources website, toward the end of your approved leave If Metro will require such a certification, the Designation Notice you are given when your leave was approved, will enclose a copy of your job description documents to take to your health care provider along with the Fitness for Duty form. If you wish to return to work prior to the expiration of approved FMLA leave, you must give notice to your supervisor at least five (5) working days prior to your planned return.",
+       "tr": "",
+       "why": "You cannot be required to take unnecessary leave. For foreseeable changes, your employer may require reasonable notice within two business days of the changed circumstances.",
+       "prov": "29 CFR 825.311(c), 825.312(a)–(b)",
+       "lawUrl": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-C/part-825/subpart-C/section-825.311",
+       "date": "2026-11-13",
+       "service": "Family and medical leave for employees",
+       "g": "M",
+       "scope": "Approved continuous family and medical leave for the employee’s own serious health condition, ending early because circumstances changed. The employee has met lawful medical-clearance requirements. No separate binding state or local law or collective agreement sets a different return rule.",
+       "context": "This concerns an employee ready to return early after recovering sooner than expected. Any binding return-to-work rules and lawful fitness-for-duty requirements still apply. The linked request form asks employees to report changed dates promptly.",
+       "publisher": "Metropolitan Government of Nashville and Davidson County",
+       "id": "city/4752006/2026-11-13--us-cities-zero-findings-east-hour/united-states-cities-4752006-fmla-early-return-five-day-notice",
+       "identity": "city/4752006/2026-11-13--us-cities-zero-findings-east-hour/united-states-cities-4752006-fmla-early-return-five-day-notice",
+       "place_id": "4752006",
+       "versions": [],
+       "context_quotes": []
+      },
+      {
+       "s": "bad",
+       "claim": "Says intermittent family and medical leave expires when absences exceed the approved frequency.",
+       "page": "Metropolitan Government of Nashville and Davidson County Family and Medical Leave Act (FMLA) Policy Handbook",
+       "url": "https://www.nashville.gov/sites/default/files/2024-12/Metro-FMLA-Handbook-2024-Update.pdf?ct=1733151569",
+       "lang": "English",
+       "q": "9. Intermittent or reduced schedule leave will expire if the frequency of your absences exceeds what was originally approved. For example, if you were originally approved for two absences per 10-day work period, and after the first month has passed you begin taking four or five days per pay period, the Appointing Authority may terminate your intermittent leave. You are then free to submit a new request with a new medical certification establishing a serious health condition and a need for more extensive leave. The Appointing Authority will act on the first violation of approved intermittent leave allotment, and there is no guarantee that you will be approved and converted to more extensive intermittent leave.",
+       "tr": "",
+       "why": "More frequent absences can justify a fresh medical certificate. You normally have at least 15 calendar days to provide it. Protection does not end merely because absences increase.",
+       "prov": "29 CFR 825.308(c)(2), (d)–(e), 825.313(c)",
+       "lawUrl": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-C/part-825/subpart-C/section-825.308",
+       "date": "2026-11-13",
+       "service": "Family and medical leave for employees",
+       "g": "M",
+       "scope": "Medically necessary intermittent family and medical leave for an existing serious health condition. Leave remains available. There is no fraud, missed notice or failure to provide an adequate updated medical certificate.",
+       "context": "The same handbook earlier allows 15 calendar days for a fresh medical certificate after significant changes. The later passage instead says leave expires and action follows the first excess. This concerns genuine qualifying absences with leave remaining, timely notice and a sufficient certificate supplied within the allowed time.",
+       "publisher": "Metropolitan Government of Nashville and Davidson County",
+       "id": "city/4752006/2026-11-13--us-cities-zero-findings-east-hour/united-states-cities-4752006-fmla-intermittent-frequency-expiry",
+       "identity": "city/4752006/2026-11-13--us-cities-zero-findings-east-hour/united-states-cities-4752006-fmla-intermittent-frequency-expiry",
+       "place_id": "4752006",
+       "versions": [],
+       "context_quotes": []
+      }
+     ],
      "",
      "Tennessee",
      {
@@ -200643,6 +201122,38 @@
         "superseded_by": null,
         "urls": [
          "https://www.nashville.gov/departments/register-deeds/services/passport-services/new-passport"
+        ]
+       },
+       {
+        "case_ids": [
+         "united-states-cities-4752006-fmla-early-return-five-day-notice"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/4752006/2026-11-13--us-cities-zero-findings-east-hour/0",
+        "issue_id": "fmla-early-return-five-day-notice",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--us-cities-zero-findings-east-hour",
+        "superseded_by": null,
+        "urls": [
+         "https://www.nashville.gov/sites/default/files/2024-12/Metro-FMLA-Handbook-2024-Update.pdf?ct=1733151569"
+        ]
+       },
+       {
+        "case_ids": [
+         "united-states-cities-4752006-fmla-intermittent-frequency-expiry"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/4752006/2026-11-13--us-cities-zero-findings-east-hour/1",
+        "issue_id": "fmla-intermittent-frequency-expiry",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--us-cities-zero-findings-east-hour",
+        "superseded_by": null,
+        "urls": [
+         "https://www.nashville.gov/sites/default/files/2024-12/Metro-FMLA-Handbook-2024-Update.pdf?ct=1733151569"
         ]
        }
       ],
@@ -200711,6 +201222,20 @@
          "2026-11-10"
         ],
         "url": "https://www.nashville.gov/departments/register-deeds/services/passport-services/new-passport"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/4752006/2026-11-13--us-cities-zero-findings-east-hour/0",
+         "assessment/4752006/2026-11-13--us-cities-zero-findings-east-hour/1"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://www.nashville.gov/sites/default/files/2024-12/Metro-FMLA-Handbook-2024-Update.pdf?ct=1733151569"
        }
       ],
       "read_observations": [
@@ -200748,16 +201273,24 @@
         ],
         "checked_at": "2026-11-10",
         "url": "https://www.nashville.gov/departments/register-deeds/services/passport-services/new-passport"
+       },
+       {
+        "assessment_ids": [
+         "assessment/4752006/2026-11-13--us-cities-zero-findings-east-hour/0",
+         "assessment/4752006/2026-11-13--us-cities-zero-findings-east-hour/1"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://www.nashville.gov/sites/default/files/2024-12/Metro-FMLA-Handbook-2024-Update.pdf?ct=1733151569"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 3,
-       "effective_assessment_count": 3,
+       "assessment_count": 5,
+       "effective_assessment_count": 5,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-10",
+       "last_read": "2026-11-13",
        "negative_checks": 1,
-       "read_pages": 5,
+       "read_pages": 6,
        "unresolved_count": 2
       }
      }
@@ -200793,9 +201326,38 @@
        "ok",
        "https://www.okc.gov/files/assets/city/v/1/pim-amp-legal/documents/claim-form-english-smith.pdf",
        "2026-11-13"
+      ],
+      [
+       "bad",
+       "https://www.okc.gov/files/assets/city/v/1/hr/documents/policies/psb-0906-fmla-revise.pdf",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says the City can obtain second and third medical opinions on an employee’s release to return from family or medical leave.",
+       "page": "PERSONNEL SERVICES BULLETIN 09-06",
+       "url": "https://www.okc.gov/files/assets/city/v/1/hr/documents/policies/psb-0906-fmla-revise.pdf",
+       "lang": "English",
+       "q": "VIII. RETURN FROM FAMILY/MEDICAL LEAVE\nA. Restoration to position. An employee returning from FMLA leave within the 12 week FMLA period shall be restored to the position held prior to the leave commencing; or if the previously held position is unavailable, shall be restored to an equivalent position with equivalent pay and benefits, within his/her current department or division. (§ 825.214).\n1. Necessary leave. An employee may not be required to take more FMLA leave than necessary to resolve the circumstance that precipitated the need for leave. (§ 825.311(c)).\n2. Light duty. If an employee accepts a light duty assignment while still eligible for FMLA leave, he/she has reinstatement rights to his/her original or an equivalent job, but only until the end of the FMLA 12-month period. (§ 825.220(d)).\n3. Qualifications expired. If an employee is no longer qualified for the position because of the employee's inability to attend a necessary course, renew a license, etc. as a result of the leave, the employee shall be given a reasonable opportunity to fulfill those conditions upon return. (§ 825.215(b)).\nB. Medical release to return to work. Prior to an employee's return to work, the employee may be required to provide The City with a medical release, indicating that he/she is able to resume work. (§ 825.312(a))\nC. Fitness for duty. The department/division is entitled to a fitness-for-duty certification up to once every 30 days if reasonable safety concerns exist regarding the employee's ability to perform his/her duties, based on the serious health condition for which the employee took such leave. In order to require a fitness-for-duty, the department/division must provide an employee with a list of the essential job functions no later than with the designation notice and it must be indicated in the designation notice that the fitness-for-duty must address the employee's ability to perform those essential functions. (§ 825.312(a)).\n1. The cost of the fitness-for-duty shall be borne by the employee. (§ 825.312(c)).\n2. A department/division may delay restoration to employment until an employee submits a required fitness-for-duty. (§ 825.312(e)).\n3. An employee who does not provide a fitness-for-duty certification or request additional FMLA leave is no longer entitled to reinstatement under the FMLA. (§ 825.312(e)).\nD. Second opinion. The City reserves the right to obtain a second opinion, and if necessary a third opinion, at The City's expense. If the second or third opinion supports the original release, the employee shall be compensated, from the date of the original release. However, if both the second and third opinion do not support the original release, the employee shall not be compensated for time lost. (§ 825.307(b)).",
+       "tr": "",
+       "why": "This concerns return after your own serious health condition, within the period covered by your family and medical leave rights. The City cannot demand second or third opinions on your medical fitness certificate. It may ask your provider to clarify the certificate or confirm it is genuine, but cannot delay your return. Separate state or local laws or a collective agreement may set different rules.",
+       "prov": "29 C.F.R. § 825.312(b), (g), (h)",
+       "lawUrl": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-C/part-825/subpart-C/section-825.312",
+       "date": "2026-11-13",
+       "service": "Medical clearance to return after family or medical leave",
+       "g": "m",
+       "scope": "An otherwise eligible employee returns after their own serious health condition with the required fitness certificate. The return is within the period covered by their family and medical leave rights. No separate state or local return-to-work law or collective agreement applies. Initial proof that leave is needed and separate lawful examinations after return are outside this finding.",
+       "context": "The handbook gives city laws and collective agreements priority, and says it is not an employment contract. It also allows separate City-paid examinations of whether an employee can do the job safely. The 2024 handbook refers readers to the FMLA bulletin and does not repeat the rule. The current policy directory still links the 2009 bulletin. A separately linked workplace poster could not be read.",
+       "publisher": "City of Oklahoma City Human Resources",
+       "id": "city/4055000/2026-11-13--us-cities-zero-findings-west-hour/united-states-cities-4055000-fmla-return-medical-second-opinions",
+       "identity": "city/4055000/2026-11-13--us-cities-zero-findings-west-hour/united-states-cities-4055000-fmla-return-medical-second-opinions",
+       "place_id": "4055000",
+       "versions": [],
+       "context_quotes": []
+      }
+     ],
      "",
      "Oklahoma",
      {
@@ -200870,6 +201432,22 @@
         "urls": [
          "https://www.okc.gov/files/assets/city/v/1/pim-amp-legal/documents/claim-form-english-smith.pdf"
         ]
+       },
+       {
+        "case_ids": [
+         "united-states-cities-4055000-fmla-return-medical-second-opinions"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/4055000/2026-11-13--us-cities-zero-findings-west-hour/0",
+        "issue_id": "fmla-return-medical-second-opinions",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--us-cities-zero-findings-west-hour",
+        "superseded_by": null,
+        "urls": [
+         "https://www.okc.gov/files/assets/city/v/1/hr/documents/policies/psb-0906-fmla-revise.pdf"
+        ]
        }
       ],
       "pages": [
@@ -200926,6 +201504,19 @@
          "2026-11-13"
         ],
         "url": "https://www.okc.gov/files/assets/city/v/1/pim-amp-legal/documents/claim-form-english-smith.pdf"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/4055000/2026-11-13--us-cities-zero-findings-west-hour/0"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://www.okc.gov/files/assets/city/v/1/hr/documents/policies/psb-0906-fmla-revise.pdf"
        }
       ],
       "read_observations": [
@@ -200957,16 +201548,23 @@
         ],
         "checked_at": "2026-11-13",
         "url": "https://www.okc.gov/files/assets/city/v/1/pim-amp-legal/documents/claim-form-english-smith.pdf"
+       },
+       {
+        "assessment_ids": [
+         "assessment/4055000/2026-11-13--us-cities-zero-findings-west-hour/0"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://www.okc.gov/files/assets/city/v/1/hr/documents/policies/psb-0906-fmla-revise.pdf"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 5,
-       "effective_assessment_count": 5,
+       "assessment_count": 6,
+       "effective_assessment_count": 6,
        "first_read": "2026-11-05",
        "last_read": "2026-11-13",
        "negative_checks": 3,
-       "read_pages": 4,
+       "read_pages": 5,
        "unresolved_count": 1
       }
      }
@@ -209057,9 +209655,38 @@
        "ok",
        "https://vote.minneapolismn.gov/voters/register/",
        "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.minneapolismn.gov/resident-services/public-safety/victim-help/restraining-order/",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Treats a checklist of specific harms as requirements for a harassment restraining order.",
+       "page": "Restraining Order - City of Minneapolis",
+       "url": "https://www.minneapolismn.gov/resident-services/public-safety/victim-help/restraining-order/",
+       "lang": "English",
+       "q": "Your harassment claim must meet these legal requirements\n\nProof that you experienced at least one of the following.\n\nInfliction of physical harm, bodily injury or assault\n\nInfliction of fear of imminent physical harm\n\nTerroristic threats\n\nActs of criminal sexual conduct\n\nInterference with an emergency call",
+       "tr": "",
+       "why": "Repeated unwanted conduct can qualify if it has, or is intended to have, a substantial negative effect on your safety, security or privacy. The listed harms are not required.",
+       "prov": "Minnesota Statutes 609.748, subdivisions 1(a), 2(a), 3(a), 5(b)",
+       "lawUrl": "https://www.revisor.mn.gov/statutes/cite/609.748",
+       "date": "2026-11-13",
+       "service": "Apply for a harassment restraining order",
+       "g": "M",
+       "scope": "The later mandatory checklist for seeking a harassment restraining order. Earlier examples and the linked court instructions give broader conditions. This does not find that the complete filing route excludes nonviolent harassment.",
+       "context": "The page earlier includes repeated unwanted conduct. Its linked court instructions also give the broader rule. The court decides whether the legal and procedural conditions are met.",
+       "publisher": "City of Minneapolis, City Attorney’s Office",
+       "id": "city/2743000/2026-11-13--us-cities-zero-findings-east-late/united-states-cities-2743000-harassment-order-violent-act-proof-condition",
+       "identity": "city/2743000/2026-11-13--us-cities-zero-findings-east-late/united-states-cities-2743000-harassment-order-violent-act-proof-condition",
+       "place_id": "2743000",
+       "versions": [],
+       "context_quotes": []
+      }
+     ],
      "",
      "Minnesota",
      {
@@ -209148,6 +209775,22 @@
         "urls": [
          "https://vote.minneapolismn.gov/voters/register/"
         ]
+       },
+       {
+        "case_ids": [
+         "united-states-cities-2743000-harassment-order-violent-act-proof-condition"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/2743000/2026-11-13--us-cities-zero-findings-east-late/0",
+        "issue_id": "harassment-order-violent-act-proof-condition",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--us-cities-zero-findings-east-late",
+        "superseded_by": null,
+        "urls": [
+         "https://www.minneapolismn.gov/resident-services/public-safety/victim-help/restraining-order/"
+        ]
        }
       ],
       "pages": [
@@ -209228,6 +209871,19 @@
          "2026-11-10"
         ],
         "url": "https://vote.minneapolismn.gov/voters/register/"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/2743000/2026-11-13--us-cities-zero-findings-east-late/0"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://www.minneapolismn.gov/resident-services/public-safety/victim-help/restraining-order/"
        }
       ],
       "read_observations": [
@@ -209272,16 +209928,23 @@
         ],
         "checked_at": "2026-11-10",
         "url": "https://vote.minneapolismn.gov/voters/register/"
+       },
+       {
+        "assessment_ids": [
+         "assessment/2743000/2026-11-13--us-cities-zero-findings-east-late/0"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://www.minneapolismn.gov/resident-services/public-safety/victim-help/restraining-order/"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 6,
-       "effective_assessment_count": 6,
+       "assessment_count": 7,
+       "effective_assessment_count": 7,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-10",
+       "last_read": "2026-11-13",
        "negative_checks": 4,
-       "read_pages": 6,
+       "read_pages": 7,
        "unresolved_count": 2
       }
      }
@@ -216150,9 +216813,38 @@
        "na",
        "https://www.cincinnati-oh.gov/police/contact-us/about-police-records/",
        "2026-11-10"
+      ],
+      [
+       "bad",
+       "https://www.cincinnati-oh.gov/cityofcincinnati/privacy-security/",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says Ohio public-records law prohibits commercial use of public records.",
+       "page": "Privacy & Security - City of Cincinnati",
+       "url": "https://www.cincinnati-oh.gov/cityofcincinnati/privacy-security/",
+       "lang": "English",
+       "q": "In the State of Ohio, the public's right to access public records and government information is balanced by the individuals’ right to privacy. Ohio Revised Code §§1347 and 149.43 protect the use of and public access to personal information. ORC § 149.43 also prohibits the commercial use of public record.\n\nPlease be aware that information you voluntarily submit to or publish on a City page or a third-party site may be treated as public information. If you believe that your personal information is being used for a purpose beyond what was intended when submitted it, you should contact City of Cincinnati Customer Service at 513-591-6000 immediately.",
+       "tr": "",
+       "why": "Ohio law does not impose a general commercial-use ban. It permits limited restrictions on delivering records for commercial purposes. Separate privacy, copyright and website terms may still apply.",
+       "prov": "Ohio Revised Code 149.43(B)(1), (4), (7)(c)",
+       "lawUrl": "https://codes.ohio.gov/ohio-revised-code/section-149.43",
+       "date": "2026-11-13",
+       "service": "Using public records for business",
+       "g": "M",
+       "scope": "The page’s statement that Ohio public-records law imposes a general commercial-use ban. Separate website licence terms, copyright, confidential information and particular uses are outside this finding.",
+       "context": "The page separately sets website licence and copyright terms and gives a general accuracy disclaimer. This finding concerns its statement about Ohio law.",
+       "publisher": "City of Cincinnati",
+       "id": "city/3915000/2026-11-13--us-cities-zero-findings-east-final/united-states-cities-3915000-public-records-commercial-use-ban",
+       "identity": "city/3915000/2026-11-13--us-cities-zero-findings-east-final/united-states-cities-3915000-public-records-commercial-use-ban",
+       "place_id": "3915000",
+       "versions": [],
+       "context_quotes": []
+      }
+     ],
      "",
      "Ohio",
      {
@@ -216298,6 +216990,22 @@
         "urls": [
          "https://www.cincinnati-oh.gov/police/contact-us/about-police-records/"
         ]
+       },
+       {
+        "case_ids": [
+         "united-states-cities-3915000-public-records-commercial-use-ban"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/3915000/2026-11-13--us-cities-zero-findings-east-final/0",
+        "issue_id": "public-records-commercial-use-ban",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--us-cities-zero-findings-east-final",
+        "superseded_by": null,
+        "urls": [
+         "https://www.cincinnati-oh.gov/cityofcincinnati/privacy-security/"
+        ]
        }
       ],
       "pages": [
@@ -216417,6 +217125,19 @@
          "2026-11-10"
         ],
         "url": "https://www.cincinnati-oh.gov/police/contact-us/about-police-records/"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/3915000/2026-11-13--us-cities-zero-findings-east-final/0"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://www.cincinnati-oh.gov/cityofcincinnati/privacy-security/"
        }
       ],
       "read_observations": [
@@ -216468,16 +217189,23 @@
         ],
         "checked_at": "2026-11-10",
         "url": "https://www.cincinnati-oh.gov/police/contact-us/about-police-records/"
+       },
+       {
+        "assessment_ids": [
+         "assessment/3915000/2026-11-13--us-cities-zero-findings-east-final/0"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://www.cincinnati-oh.gov/cityofcincinnati/privacy-security/"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 9,
-       "effective_assessment_count": 9,
+       "assessment_count": 10,
+       "effective_assessment_count": 10,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-10",
+       "last_read": "2026-11-13",
        "negative_checks": 6,
-       "read_pages": 7,
+       "read_pages": 8,
        "unresolved_count": 0
       }
      }
@@ -216533,9 +217261,38 @@
        "x",
        "https://www.greensboro-nc.gov/departments/people-culture/benefits",
        "2026-11-13"
+      ],
+      [
+       "bad",
+       "https://user-kcmpnye.cld.bz/policy-manual-10-20151/F231",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires a DD-214 military discharge form with the request to return to work.",
+       "page": "City of Greensboro Personnel Policy Manual — Military Leave - Active Duty (F-15)",
+       "url": "https://user-kcmpnye.cld.bz/policy-manual-10-20151/F231",
+       "lang": "English",
+       "q": "5.2 Employees who return to work in less than five years will be returned to the same or like position they occupied prior to the active duty enlistment with full seniority, status and pay as if there had been no break in employment. A military discharge form DD-214 with an honorable discharge must be submitted with the notification of intent to return to work. USERRA’s cumulative 5-year limit does not include certain kinds of military training or service. Contact the Benefits Specialist for more information.",
+       "tr": "",
+       "why": "If you otherwise qualify, missing military documents cannot delay or prevent your return to work if they do not exist or are not readily available.",
+       "prov": "38 U.S.C. 4312(f)(1)–(4); 20 CFR 1002.121–1002.123",
+       "lawUrl": "https://uscode.house.gov/us/usc/t38/s4312/",
+       "date": "2026-11-13",
+       "service": "Return to work after military service",
+       "g": "m",
+       "scope": "Otherwise eligible city employees returning after active military service under US military reemployment law. This concerns documents that do not exist or are not readily available. Lawful pension-document requirements are separate.",
+       "context": "The policy promises to meet federal minimum rules. A later instruction asks for the form upon returning. Separate pension paperwork requirements can still apply.",
+       "publisher": "City of Greensboro",
+       "id": "city/3728000/2026-11-13--us-cities-zero-findings-east-hour/united-states-cities-3728000-userra-dd214-reemployment-condition",
+       "identity": "city/3728000/2026-11-13--us-cities-zero-findings-east-hour/united-states-cities-3728000-userra-dd214-reemployment-condition",
+       "place_id": "3728000",
+       "versions": [],
+       "context_quotes": []
+      }
+     ],
      "",
      "North Carolina",
      {
@@ -216695,6 +217452,22 @@
         "urls": [
          "https://www.greensboro-nc.gov/departments/people-culture/benefits"
         ]
+       },
+       {
+        "case_ids": [
+         "united-states-cities-3728000-userra-dd214-reemployment-condition"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/3728000/2026-11-13--us-cities-zero-findings-east-hour/2",
+        "issue_id": "userra-dd214-reemployment-condition",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--us-cities-zero-findings-east-hour",
+        "superseded_by": null,
+        "urls": [
+         "https://user-kcmpnye.cld.bz/policy-manual-10-20151/F231"
+        ]
        }
       ],
       "pages": [
@@ -216805,6 +217578,19 @@
         ],
         "read_dates": [],
         "url": "https://www.greensboro-nc.gov/departments/people-culture/benefits"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/3728000/2026-11-13--us-cities-zero-findings-east-hour/2"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://user-kcmpnye.cld.bz/policy-manual-10-20151/F231"
        }
       ],
       "read_observations": [
@@ -216842,16 +217628,23 @@
         ],
         "checked_at": "2026-11-10",
         "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/41216/639094235305630000"
+       },
+       {
+        "assessment_ids": [
+         "assessment/3728000/2026-11-13--us-cities-zero-findings-east-hour/2"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://user-kcmpnye.cld.bz/policy-manual-10-20151/F231"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 9,
-       "effective_assessment_count": 9,
+       "assessment_count": 10,
+       "effective_assessment_count": 10,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-10",
+       "last_read": "2026-11-13",
        "negative_checks": 2,
-       "read_pages": 5,
+       "read_pages": 6,
        "unresolved_count": 3
       }
      }
@@ -222733,9 +223526,38 @@
        "x",
        "https://www.cityoflaredo.com/home/showpublisheddocument/22958/639116847626030000",
        "2026-11-13"
+      ],
+      [
+       "bad",
+       "https://www.cityoflaredo.com/home/showpublisheddocument/22432/639059055919330000",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Caps paid military leave at 15 workdays per calendar year.",
+       "page": "DIVISION 3. LEAVE POLICY",
+       "url": "https://www.cityoflaredo.com/home/showpublisheddocument/22432/639059055919330000",
+       "lang": "English",
+       "q": "Sec. 2-61. Other leave.\n\n(a) Military leave. Leave for the purpose of responding to orders of the military services as a member of the active service, reserve units, national guard, or other official special units will be granted to all regular employees for a maximum of fifteen (15) workdays paid leave per calendar year subject to the following conditions:\n\n(1) All requests for leave must be supported by a copy of the order, directive, notice, or other document requiring absence from scheduled work.\n\n(2) Time required over and above the maximum allowed must be taken as annual leave or leave without pay.",
+       "tr": "",
+       "why": "Eligible public employees get up to 15 workdays’ paid leave for authorised military training or duty in each fiscal year (financial year). A calendar-year cap can wrongly suggest leave remains exhausted when a new financial year begins.",
+       "prov": "Texas Government Code 437.202(a)–(f)",
+       "lawUrl": "https://tcss.legis.texas.gov/resources/GV/htm/GV.437.htm",
+       "date": "2026-11-13",
+       "service": "Paid military leave",
+       "g": "M",
+       "scope": "Regular municipal employees who qualify for paid military training leave under Texas law. The example concerns ordered Army Reserve training, with paid leave still available in a new fiscal year. Separate longer active-duty supplementary-pay rules are outside the example.",
+       "context": "The policy says state law prevails where its terms conflict. It also provides separate supplementary pay for certain longer periods of active duty.",
+       "publisher": "City of Laredo",
+       "id": "city/4841464/2026-11-13--us-cities-zero-findings-east-extra-hour/united-states-cities-4841464-paid-military-leave-calendar-year-cap",
+       "identity": "city/4841464/2026-11-13--us-cities-zero-findings-east-extra-hour/united-states-cities-4841464-paid-military-leave-calendar-year-cap",
+       "place_id": "4841464",
+       "versions": [],
+       "context_quotes": []
+      }
+     ],
      "",
      "Texas",
      {
@@ -222874,6 +223696,22 @@
         "urls": [
          "https://www.cityoflaredo.com/home/showpublisheddocument/22958/639116847626030000"
         ]
+       },
+       {
+        "case_ids": [
+         "united-states-cities-4841464-paid-military-leave-calendar-year-cap"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/4841464/2026-11-13--us-cities-zero-findings-east-extra-hour/0",
+        "issue_id": "paid-military-leave-calendar-year-cap",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--us-cities-zero-findings-east-extra-hour",
+        "superseded_by": null,
+        "urls": [
+         "https://www.cityoflaredo.com/home/showpublisheddocument/22432/639059055919330000"
+        ]
        }
       ],
       "pages": [
@@ -222958,6 +223796,19 @@
         ],
         "read_dates": [],
         "url": "https://www.cityoflaredo.com/home/showpublisheddocument/22958/639116847626030000"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/4841464/2026-11-13--us-cities-zero-findings-east-extra-hour/0"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://www.cityoflaredo.com/home/showpublisheddocument/22432/639059055919330000"
        }
       ],
       "read_observations": [
@@ -222974,16 +223825,23 @@
         ],
         "checked_at": "2026-11-05",
         "url": "https://cityoflaredotx-web.tylerhost.net/web/action/ACTIONGROUP402S1"
+       },
+       {
+        "assessment_ids": [
+         "assessment/4841464/2026-11-13--us-cities-zero-findings-east-extra-hour/0"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://www.cityoflaredo.com/home/showpublisheddocument/22432/639059055919330000"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 7,
-       "effective_assessment_count": 7,
+       "assessment_count": 8,
+       "effective_assessment_count": 8,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-05",
+       "last_read": "2026-11-13",
        "negative_checks": 0,
-       "read_pages": 2,
+       "read_pages": 3,
        "unresolved_count": 1
       }
      }
@@ -235440,9 +236298,70 @@
        "amb",
        "https://www.granada.org/v2010.nsf/xxtod/zprivacidad",
        "2026-11-13"
+      ],
+      [
+       "bad",
+       "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000013069679007717&PAGE_CODE=CATALOGO",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says you have one month to take an unanswered tax reconsideration request to the municipal tax tribunal.",
+       "page": "Recurso de Reposición: IVTM (Impuesto sobre Vehículos de Tracción Mecánica)",
+       "url": "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000013069679007717&PAGE_CODE=CATALOGO",
+       "lang": "Spanish",
+       "q": "Contra la resolución del Recurso de Reposición no puede interponerse de nuevo este recurso, pudiendo los interesados interponer directamente antes de acudir al Contencioso-administrativo, reclamación económica-administrativa ante el Tribunal Económico-administrativo municipal. El plazo para interponer esta reclamación será de un mes: Desde el día siguiente al de la recepción de la notificación de la resolución expresa del recurso. Desde el día siguiente al de la finalización del plazo de un mes sin que hay recaído resolución expresa al respecto al considerarse el silencio administrativo negativo.",
+       "tr": "After the decision on the request for reconsideration, this same remedy cannot be used again. Before going to court, interested persons may instead complain directly to the municipal tax tribunal. The time limit for this complaint is one month: from the day after notification of an express decision on reconsideration; or from the day after the one-month period ends without an express decision, when negative administrative silence is considered to have occurred.",
+       "why": "When the law treats the unanswered request as rejected, you can seek tribunal review. There is no one-month cut-off while it remains unanswered.",
+       "prov": "Ley 58/2003, art. 235(1); Ley 7/1985, art. 137(5)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186",
+       "date": "2026-11-13",
+       "service": "Challenge a vehicle-tax decision",
+       "g": "M",
+       "scope": "An ordinary vehicle-tax assessment was notified in 2026. You asked for reconsideration in time in 2026. The request remains unanswered. There is no later decision or individual notice giving a review deadline.",
+       "context": "The page separately offers waiting for a decision or going to the tribunal. The older local regulation repeats the one-month limit but also applies national tax-review law. Both linked forms were read and do not correct the deadline. A separate tribunal FAQ could not be read: direct access returned 403 and an ordinary browser showed Access Denied. No correction is inferred from that unread page. A current incoming catalogue link was not verified.",
+       "publisher": "Ayuntamiento de Granada",
+       "id": "city/18087/2026-11-13--spain-cities-zero-hour-a/spain-cities-18087-tax-review-unanswered-reconsideration",
+       "identity": "city/18087/2026-11-13--spain-cities-zero-hour-a/spain-cities-18087-tax-review-unanswered-reconsideration",
+       "place_id": "18087",
+       "versions": [],
+       "context_quotes": [
+        {
+         "checked_at": "2026-11-13",
+         "language": "Spanish",
+         "location": "Plazo de resolución: complete paragraph containing wait-or-tribunal alternatives.",
+         "publisher": "",
+         "quote": "Si transcurrido este plazo no ha recaído resolución definitiva el recurso debe entenderse DESESTIMADO por silencio administrativo negativo, aunque no se exime al Ayuntamiento de su obligación de resolver expresamente. Puede existir un retraso en la resolución del expediente debido a la existencia de actuaciones que requieran la recopilación de la información necesaria para adoptar una resolución motivada. Efectos de la falta de resolución: El vencimiento del plazo máximo sin haberse notificado resolución expresa (un mes), legitima al interesado para entender destimada su solicitud por silencio administrativo. Si en el plazo de un mes no ha recibido resolución expresa tiene dos opciones: - Esperar a dicha resolución. - Plantear reclamación económica-administrativa ante el TEAM. Puede acudir a su carpeta de ciudadano de la Sede Electrónica para comprobar el estado en que se encuentra su expediente.",
+         "service": "Challenge a vehicle-tax decision",
+         "source_title": "Recurso de Reposición: IVTM (Impuesto sobre Vehículos de Tracción Mecánica)",
+         "translation": "If no final decision has been made within that period, the request is considered rejected by negative administrative silence, although the council remains obliged to give an express decision. There may be a delay while information needed for a reasoned decision is gathered. Failure to give a decision: expiry of the maximum period without notification of an express decision (one month) allows the interested person to treat the request as rejected by administrative silence. If you have not received an express decision within one month, you have two options: wait for that decision; or complain to the municipal tax tribunal. You can check your file in your citizen account.",
+         "url": "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000013069679007717&PAGE_CODE=CATALOGO"
+        },
+        {
+         "checked_at": "2026-11-13",
+         "language": "Spanish",
+         "location": "Complete article13.",
+         "publisher": "",
+         "quote": "ARTÍCULO TRECE. Legislación aplicable\nEl Tribunal Económico Administrativo Municipal se someterá en todas sus actuaciones a la normativa estatal reguladora de las Reclamaciones económico-administrativas, sin perjuicio de las adaptaciones realizadas en este Reglamento en consideración al ámbito de su actuación local.",
+         "source_title": "Reglamento orgánico del Tribunal Económico-Administrativo municipal del Ayuntamiento de Granada",
+         "translation": "ARTICLE THIRTEEN. Applicable legislation. The municipal tax tribunal must comply in all its actions with national legislation governing economic-administrative complaints, subject to this regulation’s adaptations for its local scope.",
+         "url": "https://www.granada.org/inet/wordenanz.nsf/mtod/F398FBED52E6621AC1256F00003619CB"
+        },
+        {
+         "checked_at": "2026-11-13",
+         "language": "Spanish",
+         "location": "Complete article24(1), all three limbs.",
+         "publisher": "",
+         "quote": "ARTÍCULO VEINTICUATRO. Plazo de interposición.\n1. La reclamación económico administrativa deberá interponerse en el plazo de un mes a contar desde:\na) el día siguiente al de la notificación del acto o resolución impugnada\nb) el día siguiente a aquel en que se produzcan los efectos del silencio administrativo.\nc) En el supuesto de deudas de vencimiento periódico y notificación colectiva, el plazo se computará a partir del día siguiente al de la finalización del periodo voluntario de pago.",
+         "source_title": "Reglamento orgánico del Tribunal Económico-Administrativo municipal del Ayuntamiento de Granada",
+         "translation": "ARTICLE TWENTY-FOUR. Filing period. 1. An economic-administrative complaint must be filed within one month from: (a) the day after notification of the disputed act or decision; (b) the day after administrative silence takes effect; (c) for periodically due debts notified collectively, the day after the voluntary payment period ends.",
+         "url": "https://www.granada.org/inet/wordenanz.nsf/mtod/F398FBED52E6621AC1256F00003619CB"
+        }
+       ]
+      }
+     ],
      "",
      "Andalucía",
      {
@@ -235628,6 +236547,22 @@
         "urls": [
          "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000012596092799500&PAGE_CODE=CATALOGO"
         ]
+       },
+       {
+        "case_ids": [
+         "spain-cities-18087-tax-review-unanswered-reconsideration"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/18087/2026-11-13--spain-cities-zero-hour-a/10",
+        "issue_id": "tax-review-unanswered-reconsideration",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--spain-cities-zero-hour-a",
+        "superseded_by": null,
+        "urls": [
+         "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000013069679007717&PAGE_CODE=CATALOGO"
+        ]
        }
       ],
       "pages": [
@@ -235763,6 +236698,19 @@
          "2026-11-13"
         ],
         "url": "https://www.granada.org/v2010.nsf/xxtod/zprivacidad"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/18087/2026-11-13--spain-cities-zero-hour-a/10"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000013069679007717&PAGE_CODE=CATALOGO"
        }
       ],
       "read_observations": [
@@ -235822,16 +236770,23 @@
         ],
         "checked_at": "2026-11-13",
         "url": "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000012596092799500&PAGE_CODE=CATALOGO"
+       },
+       {
+        "assessment_ids": [
+         "assessment/18087/2026-11-13--spain-cities-zero-hour-a/10"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://sede.granada.org/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000013069679007717&PAGE_CODE=CATALOGO"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 11,
-       "effective_assessment_count": 11,
+       "assessment_count": 12,
+       "effective_assessment_count": 12,
        "first_read": "2026-11-05",
        "last_read": "2026-11-13",
        "negative_checks": 4,
-       "read_pages": 7,
+       "read_pages": 8,
        "unresolved_count": 4
       }
      }
@@ -235882,9 +236837,51 @@
        "ok",
        "https://www.terrassa.cat/es/atencio-ciutadana",
        "2026-11-07"
+      ],
+      [
+       "bad",
+       "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=6742",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says submitting a consumer-arbitration request prevents you from taking the same dispute to court.",
+       "page": "Mediació i/o arbitratge en matèria de consum",
+       "url": "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=6742",
+       "lang": "Catalan",
+       "q": "Si com a conseqüència de la compra d'un producte o de la prestació d'un servei, us sentiu perjudicats, podeu presentar una reclamació formal a l'establiment o empresa mitjançant el \"Full oficial de queixa, reclamació i denúncia\", o qualsevol altre mitjà durador que us posin a disposició.\n\nSi ha transcorregut un mes des de la reclamació sense haver rebut una resposta per part de l'establiment o empresa o la que heu rebut no és satisfactória, podeu sol·licitar la mediació i/o l'arbitratge a la Junta Arbitral de Consum de Terrassa, que és l'òrgan administratiu que s'encarrega de tramitar les reclamacions.\n\nLa Junta Arbitral actua com a una via de resolució de conflictes ràpida, eficaç, voluntària i gratuïta per a les parts, amb la finalitat de resoldre les controvèrsies entre consumidors i empresaris, amb caràcter vinculant i resolutiu per a ambdues parts. És per aquest motiu que, un cop presentada la sol·licitud d'arbitratge, no és possible interposar paral·lelament una reclamació judicial pel mateix assumpte ni reclamar dos cops pels mateixos fets.\n\nLa decisió arbitral per resoldre la controvèrsia (laude) és d'obligat compliment i té efectes de cosa jutjada, per tant no és possible presentar recurs en contra ni interposar una demanda judicial pels mateixos fets.",
+       "tr": "If you feel harmed by the purchase of a product or provision of a service, you can make a formal complaint to the establishment or business using the official complaint, claim and report form, or any other durable medium it provides.\n\nIf one month has passed since the complaint without a reply from the establishment or business, or the reply is unsatisfactory, you can request mediation and/or arbitration from the Terrassa Consumer Arbitration Board, the administrative body responsible for handling complaints.\n\nThe Arbitration Board provides a quick, effective, voluntary and free way for the parties to resolve disputes between consumers and businesses, with a binding and conclusive result for both parties. For this reason, once an arbitration request has been submitted, it is not possible to bring a parallel court claim about the same matter or claim twice over the same facts.\n\nThe arbitration decision resolving the dispute (the award) is binding and has the effect of a final judgment, so it is not possible to appeal it or bring a court claim over the same facts.",
+       "why": "A request alone does not prevent court proceedings when no arbitration agreement exists. The business must first accept arbitration. A valid agreement can prevent the court hearing the dispute if a party raises it through the proper challenge.",
+       "prov": "Real Decreto 713/2024, arts. 23, 36; Ley 60/2003, arts. 9, 11",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15208",
+       "date": "2026-11-13",
+       "service": "Request consumer mediation or arbitration",
+       "g": "M",
+       "scope": "An ordinary consumer-arbitration request made in November 2026 meets the acceptance rules, but the business has not accepted it. There is no earlier agreement, public offer to join the scheme, displayed membership badge or other valid consent. This concerns the request alone, not an existing agreement or award. Other rules for taking the dispute to court still apply.",
+       "context": "Arbitration is voluntary. A request can itself create an agreement if the business has made a public offer to join the scheme or displays its badge. Those cases are excluded. The page recommends preliminary advice. This finding does not assess the separate statement about appeals, including legal routes to set aside or review an award.",
+       "publisher": "Ajuntament de Terrassa",
+       "id": "city/08279/2026-11-13--spain-cities-zero-hour-c/spain-cities-08279-arbitration-request-court-proceeding",
+       "identity": "city/08279/2026-11-13--spain-cities-zero-hour-c/spain-cities-08279-arbitration-request-court-proceeding",
+       "place_id": "08279",
+       "versions": [],
+       "context_quotes": [
+        {
+         "checked_at": "2026-11-13",
+         "language": "Catalan",
+         "location": "Complete following preliminary-advice paragraphs.",
+         "publisher": "",
+         "quote": "El Servei Públic de Consum us ofereix -i recomana- assessorament previ a la presentació de la sol·licitud d'arbitratge, per assegurar que el contingut de l'escrit i la documentació que s'aporta reuneix els requisits necessaris per a realitzar el tràmit.\nPodeu fer la CONSULTA PRÈVIA per telèfon, presencialment i electrònicament al Servei Públic de Consum o a qualsevol de les oficines municipals que es detallen en l'apartat \"Com es pot tramitar\".",
+         "service": "Request consumer mediation or arbitration",
+         "source_title": "Mediació i/o arbitratge en matèria de consum",
+         "translation": "The Public Consumer Service offers—and recommends—advice before submitting an arbitration request, to ensure the written request and documents meet the requirements for this procedure.\nYou can make the PRELIMINARY ENQUIRY by telephone, in person or electronically with the Public Consumer Service or any municipal office listed under “How to apply”.",
+         "url": "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=6742"
+        }
+       ],
+       "source_limitation": "The full current public HTML and its office incoming link were read through the official web connector; a direct program request returned 403. The electronic application leads to identification. The paper-form caption has no exposed download URL in the available extraction; its contents were not read. This finding concerns the categorical public information before application, not unseen form conditions or actual court handling."
+      }
+     ],
      "",
      "Cataluña",
      {
@@ -236016,6 +237013,22 @@
         "urls": [
          "https://www.terrassa.cat/es/atencio-ciutadana"
         ]
+       },
+       {
+        "case_ids": [
+         "spain-cities-08279-arbitration-request-court-proceeding"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/08279/2026-11-13--spain-cities-zero-hour-c/4",
+        "issue_id": "arbitration-request-court-proceeding",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--spain-cities-zero-hour-c",
+        "superseded_by": null,
+        "urls": [
+         "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=6742"
+        ]
        }
       ],
       "pages": [
@@ -236104,6 +237117,19 @@
          "2026-11-07"
         ],
         "url": "https://www.terrassa.cat/es/atencio-ciutadana"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/08279/2026-11-13--spain-cities-zero-hour-c/4"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=6742"
        }
       ],
       "read_observations": [
@@ -236148,16 +237174,23 @@
         ],
         "checked_at": "2026-11-07",
         "url": "https://www.terrassa.cat/es/atencio-ciutadana"
+       },
+       {
+        "assessment_ids": [
+         "assessment/08279/2026-11-13--spain-cities-zero-hour-c/4"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://aoberta.terrassa.cat/tramits/fitxa.jsp?id=6742"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 8,
-       "effective_assessment_count": 8,
+       "assessment_count": 9,
+       "effective_assessment_count": 9,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-07",
+       "last_read": "2026-11-13",
        "negative_checks": 4,
-       "read_pages": 6,
+       "read_pages": 7,
        "unresolved_count": 2
       }
      }
@@ -240975,9 +242008,61 @@
        "ok",
        "https://sede.santacruzdetenerife.es/sede/tramite/t114",
        "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://sede.santacruzdetenerife.es/sede/tramite/t154",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Says municipal-ordinance fines receive no discount, however early you pay.",
+       "page": "Trámite - Sede",
+       "url": "https://sede.santacruzdetenerife.es/sede/tramite/t154",
+       "lang": "Spanish",
+       "q": "Observaciones: | Las sanciones por este tipo de infracciones no están sujetas a ninguna bonificación, con independencia del momento en que se realice su pago.",
+       "tr": "Notes: | Penalties for these types of offences are not subject to any discount, regardless of when they are paid.",
+       "why": "Paying a money-only fine before the decision brings at least 20% off if you give up administrative challenges. For a hypothetical €300 fine, that means at least €60 off.",
+       "prov": "Ley 39/2015, art. 85(2)–(3)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+       "date": "2026-11-13",
+       "service": "Respond to a report of breaking city rules",
+       "g": "M",
+       "scope": "An ordinary municipal civic-conduct fine payable only in money, in a procedure started in 2026. The person pays voluntarily before the decision and gives up administrative challenges. Traffic and other special-sector penalties, additional non-monetary sanctions and post-decision payments are excluded.",
+       "context": "Although its category label mentions road safety, the guide expressly also covers civic-conduct and park offences. The linked general application does not add a fine-reduction exception. The linked police ordinance makes fines subject to current legislation and its procedure yields to changed general rules. The noise ordinance has different smaller sums and is not the basis of the €300 civic-fine example.",
+       "publisher": "Ayuntamiento de Santa Cruz de Tenerife",
+       "id": "city/38038/2026-11-13--spain-cities-zero-hour-root/spain-cities-38038-municipal-fine-early-payment-reduction",
+       "identity": "city/38038/2026-11-13--spain-cities-zero-hour-root/spain-cities-38038-municipal-fine-early-payment-reduction",
+       "place_id": "38038",
+       "versions": [],
+       "context_quotes": [
+        {
+         "checked_at": "2026-11-13",
+         "language": "Spanish",
+         "location": "Complete Description table row, block1.",
+         "publisher": "",
+         "quote": "Descripción: | Alegaciones contra la denuncia por infracción de ordenanzas municipales en materia de venta ambulante, acumulación y recogida de basura, parques y jardines, civismo y compostura del ciudadano, tenencia de animales, vehículos abandonados en la vía pública y perturbación producida por ruidos y vibraciones en general. ver más",
+         "service": "Respond to a municipal-ordinance offence report",
+         "source_title": "Trámite - Sede",
+         "translation": "Description: | Representations against reports of municipal-ordinance offences involving street trading, rubbish accumulation and collection, parks and gardens, civic conduct, keeping animals, vehicles abandoned on public roads, and disturbances caused by noise and vibration generally. See more.",
+         "url": "https://sede.santacruzdetenerife.es/sede/tramite/t154"
+        },
+        {
+         "checked_at": "2026-11-13",
+         "language": "Spanish",
+         "location": "Complete Submateria del trámite table row, block14.",
+         "publisher": "",
+         "quote": "Submateria del trámite: | Seguridad vial",
+         "service": "Respond to a municipal-ordinance offence report",
+         "source_title": "Trámite - Sede",
+         "translation": "Subcategory: | Road safety",
+         "url": "https://sede.santacruzdetenerife.es/sede/tramite/t154"
+        }
+       ]
+      }
+     ],
      "",
      "Canarias",
      {
@@ -241088,6 +242173,22 @@
         "urls": [
          "https://sede.santacruzdetenerife.es/sede/tramite/t114"
         ]
+       },
+       {
+        "case_ids": [
+         "spain-cities-38038-municipal-fine-early-payment-reduction"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/38038/2026-11-13--spain-cities-zero-hour-root/0",
+        "issue_id": "municipal-fine-early-payment-reduction",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--spain-cities-zero-hour-root",
+        "superseded_by": null,
+        "urls": [
+         "https://sede.santacruzdetenerife.es/sede/tramite/t154"
+        ]
        }
       ],
       "pages": [
@@ -241172,6 +242273,19 @@
          "2026-11-05"
         ],
         "url": "https://sede.santacruzdetenerife.es/sede/tramite/t114"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/38038/2026-11-13--spain-cities-zero-hour-root/0"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://sede.santacruzdetenerife.es/sede/tramite/t154"
        }
       ],
       "read_observations": [
@@ -241216,16 +242330,23 @@
         ],
         "checked_at": "2026-11-05",
         "url": "https://sede.santacruzdetenerife.es/sede/tramite/t114"
+       },
+       {
+        "assessment_ids": [
+         "assessment/38038/2026-11-13--spain-cities-zero-hour-root/0"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://sede.santacruzdetenerife.es/sede/tramite/t154"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 7,
-       "effective_assessment_count": 7,
+       "assessment_count": 8,
+       "effective_assessment_count": 8,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-05",
+       "last_read": "2026-11-13",
        "negative_checks": 5,
-       "read_pages": 6,
+       "read_pages": 7,
        "unresolved_count": 1
       }
      }
@@ -248437,9 +249558,38 @@
        "na",
        "https://sede.aytobadajoz.es/sede/fichaInformativa.do?asu_cod=50&asu_mod_cod=46&codVerif=4C855970177DF59E1D5237C158EF9BBFC7DF2B56&tra_cod=",
        "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://tributos.aytobadajoz.es/politica_privacidad.jsp",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Defines the right to object as applying to use of your data based on your consent.",
+       "page": "Política de privacidad",
+       "url": "https://tributos.aytobadajoz.es/politica_privacidad.jsp",
+       "lang": "Spanish",
+       "q": "Derecho de oposición: derecho a oponerse a un determinado tratamiento basado en el consentimiento del interesado.",
+       "tr": "Right to object: the right to object to particular processing based on the data subject’s consent.",
+       "why": "You may object for reasons specific to you when data is used for a public task or legitimate interests. Overriding grounds can justify continuing. Withdrawing consent is separate.",
+       "prov": "GDPR, arts. 6(1)(e)–(f), 7(3), 21(1)",
+       "lawUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng",
+       "date": "2026-11-13",
+       "service": "Website privacy and data rights",
+       "g": "M",
+       "scope": "This concerns the policy’s definition of the legal right to object. The data use must rely on public-task or legitimate-interest grounds, and reasons specific to the person must support the objection. Any applicable legal restriction still applies. A legal obligation alone does not create this right. Objections to direct marketing are separate from this example.",
+       "context": "The policy first lists objection generally. Its restriction section also mentions weighing the controller’s legitimate grounds after an objection. The linked legal notice says the GDPR governs processing. These qualifications do not explain the separate grounds for objection.",
+       "publisher": "Ayuntamiento de Badajoz",
+       "id": "city/06015/2026-11-13--spain-cities-zero-thin-hour-two/spain-cities-06015-opposition-consent-only",
+       "identity": "city/06015/2026-11-13--spain-cities-zero-thin-hour-two/spain-cities-06015-opposition-consent-only",
+       "place_id": "06015",
+       "versions": [],
+       "context_quotes": []
+      }
+     ],
      "",
      "Extremadura",
      {
@@ -248528,6 +249678,22 @@
         "urls": [
          "https://sede.aytobadajoz.es/sede/fichaInformativa.do?asu_cod=50&asu_mod_cod=46&codVerif=4C855970177DF59E1D5237C158EF9BBFC7DF2B56&tra_cod="
         ]
+       },
+       {
+        "case_ids": [
+         "spain-cities-06015-opposition-consent-only"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/06015/2026-11-13--spain-cities-zero-thin-hour-two/17",
+        "issue_id": "opposition-consent-only",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--spain-cities-zero-thin-hour-two",
+        "superseded_by": null,
+        "urls": [
+         "https://tributos.aytobadajoz.es/politica_privacidad.jsp"
+        ]
        }
       ],
       "pages": [
@@ -248608,6 +249774,19 @@
          "2026-11-05"
         ],
         "url": "https://sede.aytobadajoz.es/sede/fichaInformativa.do?asu_cod=50&asu_mod_cod=46&codVerif=4C855970177DF59E1D5237C158EF9BBFC7DF2B56&tra_cod="
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/06015/2026-11-13--spain-cities-zero-thin-hour-two/17"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://tributos.aytobadajoz.es/politica_privacidad.jsp"
        }
       ],
       "read_observations": [
@@ -248652,16 +249831,23 @@
         ],
         "checked_at": "2026-11-05",
         "url": "https://sede.aytobadajoz.es/sede/fichaInformativa.do?asu_cod=50&asu_mod_cod=46&codVerif=4C855970177DF59E1D5237C158EF9BBFC7DF2B56&tra_cod="
+       },
+       {
+        "assessment_ids": [
+         "assessment/06015/2026-11-13--spain-cities-zero-thin-hour-two/17"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://tributos.aytobadajoz.es/politica_privacidad.jsp"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 6,
-       "effective_assessment_count": 6,
+       "assessment_count": 7,
+       "effective_assessment_count": 7,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-05",
+       "last_read": "2026-11-13",
        "negative_checks": 0,
-       "read_pages": 6,
+       "read_pages": 7,
        "unresolved_count": 0
       }
      }
@@ -260505,9 +261691,59 @@
        "amb",
        "https://www.guadalajara.es/es/procedimientos/licencia-o-renovacion-administrativa-para-la-tenencia-de-animales-potencialmente-peligrosos-mod-1048.html",
        "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.guadalajara.es/es/procedimientos/inscripcion-en-el-padron-municipal-de-habitantes-y-modificacion-de-datos-mod-1175.html",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Requires EU citizens to show an EU registration certificate and a passport or identity card to register their address.",
+       "page": "Inscripción en el Padrón Municipal de Habitantes y modificación de datos [MOD 1175]",
+       "url": "https://www.guadalajara.es/es/procedimientos/inscripcion-en-el-padron-municipal-de-habitantes-y-modificacion-de-datos-mod-1175.html",
+       "lang": "Spanish",
+       "q": "Documentación acreditativa de la identidad\n\nLa documentación de identificación debe estar en vigor.\n\nEspañoles:\n\nMayores de 14 años: DNI o pasaporte.\n\nHasta los 14 años: Libro de Familia o Certificado de Nacimiento (si disponen de DNI también deberán aportarlo).\n\nExtranjeros (mayores de 14 años):\n\n-- Ciudadanos de Estados miembros de la Unión Europea, Islandia, Liechtenstein, Noruega y Suiza:\n\nCertificado de Registro de Ciudadano de la Unión, en el que consta el Número de Identidad de Extranjero (NIE), junto con el documento acreditativo de la identidad o pasaporte expedido por las autoridades de su país.\n\n-- Resto:\n\nTarjeta de identidad de extranjero expedida por las autoridades españolas, en la que consta el Número de Identidad de Extranjero (NIE) o, en su defecto, pasaporte expedido por las autoridades de su país.\n\nExtranjeros (hasta los 14 años):\n\nLibro de Familia o Certificado de nacimiento, (si disponen de un documento de identificación también deberán aportarlo)",
+       "tr": "Documents proving identity\n\nIdentification documents must be valid.\n\nSpanish citizens:\n\nOver 14: national identity card or passport.\n\nUp to 14: family record book or birth certificate (if they have a national identity card, they must also provide it).\n\nForeign nationals (over 14):\n\n-- Citizens of European Union member states, Iceland, Liechtenstein, Norway and Switzerland:\n\nEU Citizen Registration Certificate, showing the foreigner identity number (NIE), together with the identity document or passport issued by their own country’s authorities.\n\n-- Others:\n\nForeigner identity card issued by the Spanish authorities, showing the foreigner identity number (NIE), or, if they do not have one, a passport issued by their own country’s authorities.\n\nForeign nationals (up to 14):\n\nFamily record book or birth certificate (if they have an identification document, they must also provide it).",
+       "why": "An EU citizen who has no EU registration certificate can register using a valid passport or national identity card.",
+       "prov": "Ley 7/1985, art. 16(2)(f)(1)",
+       "lawUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+       "date": "2026-11-13",
+       "service": "Register or update your address",
+       "g": "m",
+       "scope": "Adult EU citizens establishing their usual home who do not yet hold an EU registration certificate. They must still prove their identity and actual residence. Separate immigration-registration duties remain.",
+       "context": "The specific EU list requires both documents, while the other-nationalities list expressly offers a passport fallback. The linked form has generic passport boxes on its first page, but its reverse repeats the EU certificate-plus-identity rule. Both pages were checked, including the scanned reverse. The current municipal main site links the registration directory, which links this procedure and form.",
+       "publisher": "Ayuntamiento de Guadalajara",
+       "id": "city/19130/2026-11-13--spain-cities-zero-hour-b/spain-cities-19130-eu-registration-certificate",
+       "identity": "city/19130/2026-11-13--spain-cities-zero-hour-b/spain-cities-19130-eu-registration-certificate",
+       "place_id": "19130",
+       "versions": [],
+       "context_quotes": [
+        {
+         "checked_at": "2026-11-13",
+         "language": "Spanish",
+         "location": "Page 2, complete foreign-national subsection under DOCUMENTACIÓN A PRESENTAR PARA REALIZAR LA INSCRIPCIÓN/MODIFICACIÓN. Manual visual transcription; native line wraps normalized.",
+         "publisher": "",
+         "quote": "2. Extranjeros:\n• Ciudadanos de Estados miembros de la Unión Europea, Islandia, Liechtenstein, Noruega y Suiza:\nCertificado de Registro Ciudadano de la Unión, en el que consta el Número de Identidad de Extranjero (NIE), junto con el documento acreditativo de la identidad o pasaporte expedido por las autoridades de su país.\n• Resto:\nTarjeta de identidad de extranjero expedida por las autoridades españolas, en la que consta el Número de Identidad de Extranjero (NIE) o, en su defecto, pasaporte expedido por las autoridades de su país.",
+         "source_title": "> Hoja de inscripción / modificación del Padrón de Habitantes [MOD 1175]",
+         "translation": "2. Foreign nationals:\n• Citizens of European Union member states, Iceland, Liechtenstein, Norway and Switzerland:\nEU Citizen Registration Certificate, showing the foreigner identity number (NIE), together with the identity document or passport issued by their own country’s authorities.\n• Others:\nForeigner identity card issued by the Spanish authorities, showing the foreigner identity number (NIE), or, if they do not have one, a passport issued by their own country’s authorities.",
+         "url": "https://www.guadalajara.es/recursos/doc/portal/2018/02/15/hoja-padronal-2020.pdf"
+        },
+        {
+         "checked_at": "2026-11-13",
+         "language": "Spanish",
+         "location": "Page 1, complete generic identity-document field heading and its three options; reading order and whitespace normalized from extracted text and visual form.",
+         "publisher": "",
+         "quote": "N.º Documento Identidad/Certificado Registro\nDNI Pasaporte NIE",
+         "source_title": "> Hoja de inscripción / modificación del Padrón de Habitantes [MOD 1175]",
+         "translation": "Identity document / registration certificate number\nNational identity card Passport Foreigner identity number",
+         "url": "https://www.guadalajara.es/recursos/doc/portal/2018/02/15/hoja-padronal-2020.pdf"
+        }
+       ]
+      }
+     ],
      "",
      "Castilla-La Mancha",
      {
@@ -260650,6 +261886,22 @@
          "https://www.guadalajara.es/es/ayuntamiento/",
          "https://www.guadalajara.es/es/ayuntamiento/administracion/"
         ]
+       },
+       {
+        "case_ids": [
+         "spain-cities-19130-eu-registration-certificate"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/19130/2026-11-13--spain-cities-zero-hour-b/1",
+        "issue_id": "population-register-identity-documents",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--spain-cities-zero-hour-b",
+        "superseded_by": null,
+        "urls": [
+         "https://www.guadalajara.es/es/procedimientos/inscripcion-en-el-padron-municipal-de-habitantes-y-modificacion-de-datos-mod-1175.html"
+        ]
        }
       ],
       "pages": [
@@ -260785,6 +262037,19 @@
          "2026-11-10"
         ],
         "url": "https://www.guadalajara.es/es/ayuntamiento/administracion/"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/19130/2026-11-13--spain-cities-zero-hour-b/1"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://www.guadalajara.es/es/procedimientos/inscripcion-en-el-padron-municipal-de-habitantes-y-modificacion-de-datos-mod-1175.html"
        }
       ],
       "read_observations": [
@@ -260857,16 +262122,23 @@
         ],
         "checked_at": "2026-11-10",
         "url": "https://www.guadalajara.es/es/ayuntamiento/administracion/"
+       },
+       {
+        "assessment_ids": [
+         "assessment/19130/2026-11-13--spain-cities-zero-hour-b/1"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://www.guadalajara.es/es/procedimientos/inscripcion-en-el-padron-municipal-de-habitantes-y-modificacion-de-datos-mod-1175.html"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 9,
-       "effective_assessment_count": 9,
+       "assessment_count": 10,
+       "effective_assessment_count": 10,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-10",
+       "last_read": "2026-11-13",
        "negative_checks": 0,
-       "read_pages": 9,
+       "read_pages": 10,
        "unresolved_count": 2
       }
      }
@@ -283592,6 +284864,11 @@
        "bad",
        "https://www.argenteuil.fr/fr/inscriptions-scolaires",
        "2026-11-05"
+      ],
+      [
+       "bad",
+       "https://www.argenteuil.fr/fr/declaration-de-deces-0",
+       "2026-11-13"
       ]
      ],
      [
@@ -283614,6 +284891,29 @@
        "publisher": "Ville d’Argenteuil",
        "id": "city/95018/2026-11-05--france-cities-expansion-b/france-cities-95018-school-address-documents",
        "identity": "city/95018/2026-11-05--france-cities-expansion-b/france-cities-95018-school-address-documents",
+       "place_id": "95018",
+       "versions": [],
+       "context_quotes": []
+      },
+      {
+       "s": "bad",
+       "claim": "Says a doctor must issue the death certificate.",
+       "page": "Déclaration de décès | Site de la ville d’Argenteuil",
+       "url": "https://www.argenteuil.fr/fr/declaration-de-deces-0",
+       "lang": "French",
+       "q": "DÉCLARATION DE DÉCÈS\n\nLa déclaration de décès doit être faite auprès de la mairie du lieu de décès dans les plus brefs délais.\n\nElle est à formuler sur place par un membre de la famille, son mandataire (ex. une société des pompes funèbres) ou toute autre personne possédant des renseignements sur l’état civil du défunt.\n\nPièces à fournir :\n\nUne pièce d’identité prouvant l’identité du déclarant\nLe certificat de décès délivré par le médecin ayant constaté le décès\nLe livret de famille ou acte de naissance ou carte d’identité du défunt",
+       "tr": "DECLARATION OF DEATH\n\nThe death must be declared to the town hall where it occurred as soon as possible.\n\nThe declaration must be made in person by a family member, their representative (for example, a funeral company), or anyone else with information about the deceased person's civil status.\n\nDocuments to provide:\n\nAn identity document proving the declarant's identity\nThe death certificate issued by the doctor who confirmed the death\nThe deceased person's family record book, birth record or identity card",
+       "why": "An authorised nurse can certify some adult deaths. They must have been qualified for at least three years, completed specific training and joined the official list. Deaths in public places, and violent or suspicious deaths, are excluded.",
+       "prov": "General Local Authorities Code, arts. L2223-42 and D2213-1-1-4",
+       "lawUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051516493",
+       "date": "2026-11-13",
+       "service": "Register a death",
+       "g": "m",
+       "scope": "An adult has died naturally in a private home. A willing nurse has held the required qualification for at least three years, completed the specific training and joined the official professional list. The nurse is available, can establish the causes and has already issued a valid certificate. There is no public-place death, violence or suspicious circumstance. The family supplies all other documents and identity information.",
+       "context": "The page says to declare the death promptly at the town hall where it occurred. A valid certificate from an authorised nurse can be used when the national conditions are met.",
+       "publisher": "Ville d’Argenteuil",
+       "id": "city/95018/2026-11-13--france-cities-zero-findings-followup-90min/france-cities-95018-death-certificate-doctor-only",
+       "identity": "city/95018/2026-11-13--france-cities-zero-findings-followup-90min/france-cities-95018-death-certificate-doctor-only",
        "place_id": "95018",
        "versions": [],
        "context_quotes": []
@@ -283677,6 +284977,22 @@
         "urls": [
          "https://www.argenteuil.fr/fr/inscriptions-scolaires"
         ]
+       },
+       {
+        "case_ids": [
+         "france-cities-95018-death-certificate-doctor-only"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/95018/2026-11-13--france-cities-zero-findings-followup-90min/1",
+        "issue_id": "death-certificate-doctor-only",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--france-cities-zero-findings-followup-90min",
+        "superseded_by": null,
+        "urls": [
+         "https://www.argenteuil.fr/fr/declaration-de-deces-0"
+        ]
        }
       ],
       "pages": [
@@ -283718,6 +285034,19 @@
          "2026-11-05"
         ],
         "url": "https://www.argenteuil.fr/fr/inscriptions-scolaires"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/95018/2026-11-13--france-cities-zero-findings-followup-90min/1"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://www.argenteuil.fr/fr/declaration-de-deces-0"
        }
       ],
       "read_observations": [
@@ -283734,16 +285063,23 @@
         ],
         "checked_at": "2026-11-05",
         "url": "https://www.argenteuil.fr/fr/inscriptions-scolaires"
+       },
+       {
+        "assessment_ids": [
+         "assessment/95018/2026-11-13--france-cities-zero-findings-followup-90min/1"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://www.argenteuil.fr/fr/declaration-de-deces-0"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 3,
-       "effective_assessment_count": 3,
+       "assessment_count": 4,
+       "effective_assessment_count": 4,
        "first_read": "2026-11-05",
-       "last_read": "2026-11-05",
+       "last_read": "2026-11-13",
        "negative_checks": 0,
-       "read_pages": 2,
+       "read_pages": 3,
        "unresolved_count": 0
       }
      }
@@ -295292,9 +296628,38 @@
        "na",
        "https://policemunicipale.ville-levallois.fr/",
        "2026-11-13"
+      ],
+      [
+       "bad",
+       "https://mediatheque.ville-levallois.fr/Default/basicfilesdownload.ashx?itemGuid=0CCD63E7-9B2A-410F-BCBC-147B6B9AE082",
+       "2026-11-13"
       ]
      ],
-     [],
+     [
+      {
+       "s": "bad",
+       "claim": "Bars all animals from the municipal libraries.",
+       "page": "REGLEMENT DE LA MEDIATHEQUE",
+       "url": "https://mediatheque.ville-levallois.fr/Default/basicfilesdownload.ashx?itemGuid=0CCD63E7-9B2A-410F-BCBC-147B6B9AE082",
+       "lang": "French",
+       "q": "Article 6 – Respect des lieux\nLes usagers doivent respecter le calme et la tranquillité des autres. Il est interdit de pénétrer dans les locaux privés.\nIls doivent respecter la neutralité de l’établissement. Toute propagande, de quelque nature que ce soit, est interdite.\nIl est interdit de fumer dans l’enceinte des établissements.\nBoire et manger ainsi qu’utiliser des téléphones portables est toléré dans le respect des lieux et du public présent.\nAucun animal ne peut être introduit dans les locaux.",
+       "tr": "Article 6 – Respect for the premises\nUsers must respect other people's peace and quiet. Entering private areas is prohibited.\nThey must respect the institution's neutrality. Propaganda of any kind is prohibited.\nSmoking inside the buildings is prohibited.\nEating, drinking and using mobile phones are tolerated with respect for the premises and the public present.\nNo animal may be brought into the premises.",
+       "why": "A holder of a military disability card may enter a public library with their guide or assistance dog.",
+       "prov": "Law 87-588, art. 88(2)",
+       "lawUrl": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006657056",
+       "date": "2026-11-13",
+       "service": "Municipal library rules",
+       "g": "m",
+       "scope": "The reader holds the military disability card covered by Article 88(2). They have a trained guide or assistance dog. They seek ordinary access to the municipal library. The dog is controlled and causes no disturbance. This finding does not cover ordinary pets.",
+       "context": "The rules say the library is open to everyone and apply to every entrant. The animal ban has no stated exception.",
+       "publisher": "Ville de Levallois-Perret",
+       "id": "city/92044/2026-11-13--france-cities-zero-findings-followup-90min/france-cities-92044-library-assistance-dog-entry",
+       "identity": "city/92044/2026-11-13--france-cities-zero-findings-followup-90min/france-cities-92044-library-assistance-dog-entry",
+       "place_id": "92044",
+       "versions": [],
+       "context_quotes": []
+      }
+     ],
      "",
      "",
      {
@@ -295525,6 +296890,22 @@
         "urls": [
          "https://www.ville-levallois.fr/"
         ]
+       },
+       {
+        "case_ids": [
+         "france-cities-92044-library-assistance-dog-entry"
+        ],
+        "checked_at": "2026-11-13",
+        "current_finding_editions": [],
+        "id": "assessment/92044/2026-11-13--france-cities-zero-findings-followup-90min/0",
+        "issue_id": "library-assistance-dog-entry",
+        "outcome": "confirmed",
+        "recorded_outcome": "confirmed",
+        "run_id": "2026-11-13--france-cities-zero-findings-followup-90min",
+        "superseded_by": null,
+        "urls": [
+         "https://mediatheque.ville-levallois.fr/Default/basicfilesdownload.ashx?itemGuid=0CCD63E7-9B2A-410F-BCBC-147B6B9AE082"
+        ]
        }
       ],
       "pages": [
@@ -295665,6 +297046,19 @@
          "2026-11-13"
         ],
         "url": "https://policemunicipale.ville-levallois.fr/demarche/102/2"
+       },
+       {
+        "access_dates": [],
+        "assessment_ids": [
+         "assessment/92044/2026-11-13--france-cities-zero-findings-followup-90min/0"
+        ],
+        "outcomes": [
+         "confirmed"
+        ],
+        "read_dates": [
+         "2026-11-13"
+        ],
+        "url": "https://mediatheque.ville-levallois.fr/Default/basicfilesdownload.ashx?itemGuid=0CCD63E7-9B2A-410F-BCBC-147B6B9AE082"
        }
       ],
       "read_observations": [
@@ -295730,16 +297124,23 @@
         ],
         "checked_at": "2026-11-13",
         "url": "https://policemunicipale.ville-levallois.fr/"
+       },
+       {
+        "assessment_ids": [
+         "assessment/92044/2026-11-13--france-cities-zero-findings-followup-90min/0"
+        ],
+        "checked_at": "2026-11-13",
+        "url": "https://mediatheque.ville-levallois.fr/Default/basicfilesdownload.ashx?itemGuid=0CCD63E7-9B2A-410F-BCBC-147B6B9AE082"
        }
       ],
       "schema_version": 1,
       "summary": {
-       "assessment_count": 14,
-       "effective_assessment_count": 14,
+       "assessment_count": 15,
+       "effective_assessment_count": 15,
        "first_read": "2026-11-05",
        "last_read": "2026-11-13",
        "negative_checks": 6,
-       "read_pages": 8,
+       "read_pages": 9,
        "unresolved_count": 1
       }
      }
