@@ -48,6 +48,16 @@ A second way in beside the issue pages: the **Issue sweeps / Institution sweeps*
 
 ## Systemic sweeps pages
 
+### Concise public copy (13 November 2026)
+
+The owner requested concise MVP copy. These rules supersede older requirements to display repeated scope disclaimers, research history, access summaries and population provenance.
+- Country overviews use the shared `SYS_PUBLIC_COPY` / `sysIntro` pattern: one short line naming the places covered. Legal scopes sit in “How to read this” or the Australia/New Zealand country cards.
+- Do not display raw research `scope`/`note` paragraphs for known country overviews. Keep their details in the research data. Use one short shared counting explanation, rather than error-rate, ranking and incomplete-audit disclaimers repeated across the page.
+- Place headers already show page counts and dates. Omit a generic “Scope and limits” disclosure; directory-only inspections retain one short explanatory sentence.
+- Keep the grading explanation brief, including the distinction between major/minor, possible consequences, AI provenance and ungraded findings.
+- Do not add generic “no actual harm/refusal” boilerplate to every issue case. Preserve each finding’s specific scope, exceptions, contrary evidence, uncertainty, original quotations and translations. Do not strip sentences from findings with a blanket text filter.
+- Preserve the layout, counts, grades and inspection rules.
+
 ### Unified summaries (13 November 2026)
 
 These rules supersede the older summary and grading display descriptions below.

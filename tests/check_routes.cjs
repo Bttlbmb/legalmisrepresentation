@@ -67,7 +67,7 @@ for (const narrow of [false, true]) {
       vm.runInContext('render()', ctx);
       const page = node('root').innerHTML;
       if ((page.match(/data-id="/g) || []).length !== 20 || !page.includes('<h3>Australia</h3>') || !page.includes('<h3>New Zealand</h3>')) throw new Error(`Combined country sections missing: ${id}`);
-      if (!page.includes('Commonwealth, state and territory law') || !page.includes('national law')) throw new Error('Separate legal scopes missing');
+      if (!/Federal, state and territory law/i.test(page) || !/national law/i.test(page)) throw new Error('Separate legal scopes missing');
       const tabs = page.match(/<nav class="sy-tabs"[\s\S]*?<\/nav>/)[0];
       if (!tabs.includes('Australia &amp; New Zealand') || /href="#A1.sys.(australia|new-zealand)"/.test(tabs)) throw new Error('Country tabs were not combined');
     }
@@ -99,6 +99,8 @@ for (const narrow of [false, true]) {
     const combined = vm.runInContext(`sysOverview(${sw === data.systemic[0] ? 'SYS' : `SWEEP[${JSON.stringify(sw.id)}]`}).list`, ctx);
     const graded = combined.flatMap(c => c.F).concat((sw.districts || []).flatMap(c => c[5])).some(f => f.s === 'bad' && ['M', 'm'].includes(f.g));
     if (graded !== page.includes('How grades work')) throw new Error(`Overview grading disclosure missing: ${sw.id}`);
+    if (sw.note && page.includes(sw.note.replaceAll('&', '&amp;'))) throw new Error(`Research note leaked into overview: ${sw.id}`);
+    if (!page.includes('Results cover the pages checked.')) throw new Error(`Shared overview explanation missing: ${sw.id}`);
   }
   // Partial, absent and invalid grades must remain separate from minors; unclear rows never enter totals.
   for (const [findings, expected] of [
@@ -152,7 +154,7 @@ for (const narrow of [false, true]) {
       ctx.location.hash = `#A1.city.${c[0]}`;
       vm.runInContext('render()', ctx);
       const page = node('root').innerHTML;
-      if (!page.includes('This result includes a check of service listings and links.') || page.includes('<b>Not yet inspected</b>')) throw new Error(`Directory scope or result missing: ${c[0]}`);
+      if (!page.includes('Only service listings and links were checked.') || page.includes('<b>Not yet inspected</b>')) throw new Error(`Directory scope or result missing: ${c[0]}`);
     }
   }
   for (const layout of ['A', 'A1', 'A2', 'A3', 'B', 'C']) {
