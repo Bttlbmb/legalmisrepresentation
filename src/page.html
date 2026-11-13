@@ -921,8 +921,8 @@ AREAS.forEach(a => {
   a.langs = [...ls];
 });
 const SECTOR_SCOPE = {
-  gov: { title: "German government guidance", jur: "Germany",
-         sub: "Websites and leaflets of authorities and universities in Germany, in German, and of German embassies abroad. Checked against German law and, where it applies, EU law." },
+  gov: { title: "Government and EU service guidance", jur: "Germany and the European Union",
+         sub: "Guidance from German authorities, universities and embassies, and selected EU service websites. Each finding states the applicable law and circumstances." },
   biz: { title: "Company information in the EU", jur: "European Union",
          sub: "Websites and terms of companies selling to people in EU countries, checked against EU law." },
 };
@@ -1195,7 +1195,7 @@ function renderAS(s) {
     body = issuePage(L, s);
   } else if (s.kind === "area" || s.kind === "topic") {
     const a = s.kind === "area" ? AREA[s.id] : AREA[TOPIC[s.id].area];
-    const sc = SECTOR_SCOPE[a.sector];
+    const sc = a.id === "euweb" ? { title: "EU service guidance", jur: "European Union" } : SECTOR_SCOPE[a.sector];
     body = `<nav class="crumbs" aria-label="Breadcrumb"><a href="${href(L)}">← All areas</a></nav>
       <header class="area-head"><p class="eyebrow">${L === "A3" ? sc.jur : sc.title}</p><h1>${areaTitle(a)}</h1><p class="lede">${esc(widow(a.intro))}</p>
       ${L === "A1" ? scopeHead(a) : strip(a)}</header>
