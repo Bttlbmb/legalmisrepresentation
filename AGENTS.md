@@ -58,8 +58,8 @@ The owner requested concise MVP copy. These rules supersede older requirements t
 - Institution pages retain result labels and specific notes, without generic explanations below every label or a repeated “What this shows” footer. Statistics do not need definitions below them.
 - Keep generic no-actual-harm/refusal and research-reading narration out of findings. Preserve specific exceptions, contrary evidence, access/currentness limits, uncertainty and all source quotations/translations.
 - Apply finding-copy edits as explicit, independently reviewed public-record changes, with original and revised fields recorded. Never remove sentences using a runtime regex filter. The second pass and its receipts are in backend `research/releases/2026-11-13/mvp-pass2/`; keep these accepted public editions when refreshing exports from research.
-- Do not shorten grade-bearing claims or legal comparisons merely to hit a word count. Research appendices mixed into German district law explanations are flagged in the second-pass audit for a separate checked wording pass.
-- Preserve layout, counts, grades and inspection rules.
+- Do not shorten grade-bearing claims or legal comparisons merely to hit a word count. The checked district wording pass is recorded in backend `research/releases/2026-11-13/mvp-final/`: 195 explanations were separated from their research appendices, with material qualifications and 48 retained English source passages preserved. Keep these public editions on refresh.
+- Preserve layout, finding/place counts and inspection rules. Changes to grade-bearing text require new grading; the final wording pass regraded 101 confirmed district findings and changed 17 major/minor labels, recorded in the release audit.
 
 ### Unified summaries (13 November 2026)
 
