@@ -35,7 +35,7 @@ for (const narrow of [false, true]) {
         access_dates: ['2026-11-09'], outcomes: ['none_found', 'unclear']}]}};
   const probe = JSON.stringify(assessmentProbe);
   const probeTally = vm.runInContext(`cityTally(${probe}, cityFacts(${probe}))`, ctx);
-  if (!probeTally.includes('1</b>unresolved check') || !probeTally.includes('1 distinct page read between') || probeTally.includes('pages with nothing found')) throw new Error('Assessment counts/dates conflate pages and issues');
+  if (!probeTally.includes('1</b>unresolved check') || !probeTally.includes('1 page read · 1–3 November 2026') || probeTally.includes('pages with nothing found')) throw new Error('Assessment counts/dates conflate pages and issues');
   const probePages = vm.runInContext(`cityPages(${probe}, true)`, ctx);
   if (!probePages.includes('Access failed:') || !probePages.includes('Read:') || (probePages.match(/href=/g) || []).length !== 1) throw new Error('Read/access observations do not share one exact URL');
   const evidence = {s: 'bad', claim: 'Says X.', page: 'Original title', service_suppressed: true,
@@ -75,6 +75,53 @@ for (const narrow of [false, true]) {
     vm.runInContext('render()', ctx);
     if (!node('root').innerHTML.includes('href="#A1.sys.australia-new-zealand"')) throw new Error('City breadcrumb does not return to combined page');
   }
+  const number = n => n.toLocaleString('en-GB');
+  const expectedFindings = findings => {
+    const unique = new Map();
+    for (const f of findings.filter(f => f.s === 'bad')) {
+      const {id, identity, place_id, date, g, ...publicText} = f;
+      const key = JSON.stringify(Object.keys(publicText).sort().map(k => [k, publicText[k]]));
+      if (!unique.has(key)) unique.set(key, {...f});
+      else if (unique.get(key).g !== g) unique.get(key).g = undefined;
+    }
+    const bad = [...unique.values()], major = bad.filter(f => f.g === 'M').length, minor = bad.filter(f => f.g === 'm').length;
+    const ungraded = bad.length - major - minor;
+    return `<b>${number(bad.length)}</b> ${bad.length === 1 ? 'finding' : 'findings'}: ${number(major)} major · ${number(minor)} minor${ungraded ? ` · ${number(ungraded)} not yet graded` : ''}`;
+  };
+  for (const sw of data.systemic || []) {
+    ctx.location.hash = sw === data.systemic[0] ? '#A1.sys' : `#A1.sys.${sw.id}`;
+    vm.runInContext('render()', ctx);
+    const page = node('root').innerHTML, hero = page.match(/<section class="hero">[\s\S]*?<\/section>/)[0];
+    const summary = sw.cities.flatMap(c => c[6]);
+    if (!hero.includes(expectedFindings(summary))) throw new Error(`Overview finding arithmetic disagrees: ${sw.id}`);
+    if (sw.districts && !hero.includes(expectedFindings(sw.districts.flatMap(c => c[5])))) throw new Error('District findings merged into city totals');
+    if (hero.includes('%')) throw new Error(`Percentage in main summary: ${sw.id}`);
+    const combined = vm.runInContext(`sysOverview(${sw === data.systemic[0] ? 'SYS' : `SWEEP[${JSON.stringify(sw.id)}]`}).list`, ctx);
+    const graded = combined.flatMap(c => c.F).concat((sw.districts || []).flatMap(c => c[5])).some(f => f.s === 'bad' && ['M', 'm'].includes(f.g));
+    if (graded !== page.includes('How grades work')) throw new Error(`Overview grading disclosure missing: ${sw.id}`);
+  }
+  // Partial, absent and invalid grades must remain separate from minors; unclear rows never enter totals.
+  for (const [findings, expected] of [
+    [[{s:'bad',g:'M',claim:'A'}, {s:'bad',g:'m',claim:'B'}, {s:'bad',claim:'C'}, {s:'amb',g:'M'}], '3</b>findings: 1 major · 1 minor · 1 not yet graded'],
+    [[{s:'bad'}], '1</b>finding: 0 major · 0 minor · 1 not yet graded'],
+    [[{s:'bad',g:'unknown'}], '1</b>finding: 0 major · 0 minor · 1 not yet graded'],
+    [[{s:'bad',g:'m'}], '1</b>finding: 0 major · 1 minor']
+  ]) {
+    for (const assessment of [null, assessmentProbe.assessment]) {
+      const place = {...assessmentProbe, F:findings, bad:findings.filter(f => f.s === 'bad').length, assessment};
+      const tally = vm.runInContext(`cityTally(${JSON.stringify(place)}, {})`, ctx);
+      if (!tally.includes(expected) || tally.includes('all minor')) throw new Error(`Missing-grade fallback is wrong: ${expected}`);
+    }
+    const overview = vm.runInContext(`sysSummary('ci', 1, ['place','places'], 1, [{F:${JSON.stringify(findings)}}])`, ctx);
+    if (!overview.includes(expectedFindings(findings))) throw new Error('Overview missing-grade fallback is wrong');
+  }
+  const repeated = [{F:[{s:'bad', g:'M', id:'first', place_id:'one', date:'2026-11-01', claim:'Same statement'}]},
+    {F:[{s:'bad', g:'M', id:'second', place_id:'two', date:'2026-11-02', claim:'Same statement'}]}];
+  const repeatedSummary = vm.runInContext(`sysSummary('ci', 2, ['place','places'], 2, ${JSON.stringify(repeated)})`, ctx);
+  if (!repeatedSummary.includes('2</b> places inspected') || !repeatedSummary.includes('1</b> finding: 1 major · 0 minor')) throw new Error('Shared council finding counted more than once');
+  repeated[1].F[0].g = 'm';
+  const conflictingSummary = vm.runInContext(`sysSummary('ci', 2, ['place','places'], 2, ${JSON.stringify(repeated)})`, ctx);
+  if (!conflictingSummary.includes('1</b> finding: 0 major · 0 minor · 1 not yet graded')) throw new Error('Conflicting grades silently resolved');
   const citySweep = (data.systemic || [])[0];
   const ukIreland = ['united-kingdom', 'ireland'].map(id => (data.systemic || []).find(sw => sw.id === id));
   if (ukIreland.every(Boolean)) {
@@ -185,15 +232,11 @@ for (const narrow of [false, true]) {
         if (!html.includes(`href="${escaped}" target="_blank"`)) throw new Error(`Wrong publication on arrival: ${route}`);
       }
       if (!groups.length && !sys && html.includes('class="lens"')) throw new Error(`Institution switch without data: ${route}`);
-      // The sweep switch is part of the header, and the systemic overview says how many were inspected and the share of them.
+      // Main summaries separate places from findings and keep percentages in the method note.
       if (data.groups && data.groups.length && ['#A1', '#A1.inst', '#A1.sys'].includes(route) && !/<header class="site">[\s\S]*class="lens"[\s\S]*<\/header>/.test(html)) throw new Error(`Sweep switch is not in the header: ${route}`);
-      if (route === '#A1.sys' && sys && !/class="sy-sum-line"[\s\S]*cities<\/span>|cities inspected · <b>[\d,.]+<\/b> \(\d+%\)/.test(html)) throw new Error(`Overview lacks the inspected summary with its share: ${route}`);
       if (route === '#A1.sys' && sys) {
-        // Consequence grades (finding.g, only on confirmed findings): shown on the overview only when the data carries them.
-        const graded = sys.cities.concat(sys.districts || []).some(c => (c[6] || c[5]).some(f => f.g));
-        if (graded !== html.includes('with a major one')) throw new Error('Overview major counts and graded data disagree');
-        if (!graded && html.includes('with a major one')) throw new Error('Major counts without grades');
-        if (graded !== html.includes('data-k="major"')) throw new Error('The major chip and graded data disagree');
+        const hasMajor = sys.cities.some(c => c[6].some(f => f.s === 'bad' && f.g === 'M')) || (sys.districts || []).some(c => c[5].some(f => f.s === 'bad' && f.g === 'M'));
+        if (hasMajor !== html.includes('data-k="major"')) throw new Error('The major chip and graded data disagree');
       }
       if (route.startsWith('#A1.city.') || route.startsWith('#A1.district.') || route === '#A1.sys') {
         if (sys && /(?:>|=")undefined(?:<|")|\bNaN\b/.test(html)) throw new Error(`Broken value on a systemic page: ${route}`);
@@ -204,12 +247,14 @@ for (const narrow of [false, true]) {
           const majors = cityData[route].filter(f => f.g === 'M').length;
           if (html.split('class="cp-tier"').length - 1 !== majors) throw new Error(`Major labels do not match the data: ${route}`);
           if (cityData[route].some(f => f.g && f.s !== 'bad')) throw new Error(`A grade on a finding that is not a confirmed misrepresentation: ${route}`);
-          // The header count names how many misrepresentations are major, and the grading note is there to open.
+          // The header names major, minor and missing grades without inferring a grade.
           const bad = cityData[route].filter(f => f.s === 'bad');
-          if (bad.some(f => f.g)) {
-            const word = majors === 0 ? 'all minor' : majors === bad.length ? (bad.length === 1 ? 'major' : 'all major') : `${majors} major`;
+          if (bad.length) {
+            const minor = bad.filter(f => f.g === 'm').length, ungraded = bad.length - majors - minor;
             const sum = (html.match(/<ul class="cp-sum">[\s\S]*?<\/ul>/) || [''])[0];
-            if (!sum.includes(`, ${word}</li>`) || !html.includes('How consequences are graded')) throw new Error(`Header major count or grading note missing: ${route}`);
+            const expected = `${bad.length === 1 ? 'finding' : 'findings'}: ${majors} major · ${minor} minor${ungraded ? ` · ${ungraded} not yet graded` : ''}`;
+            if (!sum.includes(expected)) throw new Error(`Finding breakdown missing: ${route}`);
+            if (Boolean(majors + minor) !== html.includes('How grades work')) throw new Error(`Grading disclosure disagrees with data: ${route}`);
           }
         }
         // Each finding is one closed disclosure, and a page with findings opens with the count of what was found.

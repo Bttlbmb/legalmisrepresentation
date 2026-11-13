@@ -48,6 +48,13 @@ A second way in beside the issue pages: the **Issue sweeps / Institution sweeps*
 
 ## Systemic sweeps pages
 
+### Unified summaries (13 November 2026)
+
+These rules supersede the older summary and grading display descriptions below.
+Small wording clarifications preserve the design: place disclosures say “Scope and limits”, finding links say “Source page” with a labelled “Checked” date, and overview filters have a “Filter places” label (Germany specifies that counts are cities). Negative-result notes explain that nothing found covers only the pages checked.
+Every country overview separates places inspected and places with a misrepresentation from a second line of confirmed findings: “86 findings: 24 major · 57 minor · 5 not yet graded”. Omit the ungraded part only when zero; never infer minor from a missing grade. Combined overviews retain separate country totals; Germany retains separate city and district totals. Identical public findings repeated across places count once within each summary (identity, place ID and check date do not define a distinct finding). Conflicting grades on an otherwise identical finding count as not yet graded. Place counts and individual place records remain unchanged.
+Main summaries have no percentages; Germany’s shares remain inside “How to read this”. Place headers use the same explicit finding breakdown. All overviews and place pages with recognised grades share “How grades work”; unlabelled rows may be minor or ungraded. Existing major labels, filters, layout and evidence stay intact. The route test checks totals, combined countries, missing grades and repeated findings.
+
 On 30 October 2026 the owner clarified that an actually read service directory may count as
 inspected with no misrepresentation found. City coverage `directory` is exported as `d` and
 counts alongside `s`; the page explains that the directory check did not assess detailed legal
